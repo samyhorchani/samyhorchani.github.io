@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samy HORCHANI — Cryptography Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+    :root {
+      --green: #00ff9f;
+      --green-dim: #00cc7a;
+      --cyan: #00e5ff;
+      --amber: #ffb300;
+    }
+
+    body { font-family: 'Inter', sans-serif; }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+
+    /* Scanline overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,255,159,0.015) 2px,
+        rgba(0,255,159,0.015) 4px
+      );
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* Green glow on active elements */
+    .glow { text-shadow: 0 0 8px var(--green); }
+    .glow-border { box-shadow: 0 0 0 1px rgba(0,255,159,0.2), 0 0 12px rgba(0,255,159,0.05); }
+    .glow-border:hover { box-shadow: 0 0 0 1px rgba(0,255,159,0.5), 0 0 20px rgba(0,255,159,0.1); }
+
+    /* Terminal prompt blinking cursor */
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+    .cursor::after {
+      content: '█';
+      color: var(--green);
+      animation: blink 1s step-end infinite;
+      margin-left: 2px;
+    }
+
+    /* Typing animation for hero subtitle */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    .tag-crypto {
+      background: rgba(0,255,159,0.08);
+      color: #00ff9f;
+      border: 1px solid rgba(0,255,159,0.25);
+    }
+    .tag-hpc {
+      background: rgba(0,229,255,0.08);
+      color: #00e5ff;
+      border: 1px solid rgba(0,229,255,0.25);
+    }
+    .tag-algo {
+      background: rgba(255,179,0,0.08);
+      color: #ffb300;
+      border: 1px solid rgba(255,179,0,0.25);
+    }
+    .tag-net {
+      background: rgba(167,139,250,0.1);
+      color: #a78bfa;
+      border: 1px solid rgba(167,139,250,0.25);
+    }
+    .tag-neutral {
+      background: rgba(255,255,255,0.05);
+      color: #94a3b8;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .card {
+      border: 1px solid rgba(0,255,159,0.12);
+      background: rgba(0,10,5,0.6);
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      border-color: rgba(0,255,159,0.3);
+      box-shadow: 0 0 24px rgba(0,255,159,0.06);
+    }
+
+    .section-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--green);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    a.link-arrow {
+      color: var(--green);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      display: inline-block;
+      margin-top: 0.75rem;
+      transition: letter-spacing 0.2s;
+    }
+    a.link-arrow:hover { letter-spacing: 0.05em; }
+
+    /* Nav underline */
+    nav a::after {
+      content: '';
+      display: block;
+      height: 1px;
+      background: var(--green);
+      transform: scaleX(0);
+      transition: transform 0.2s;
+    }
+    nav a:hover::after { transform: scaleX(1); }
+  </style>
+</head>
+
+<script>
+  let currentLang = "en";
+  function switchLang() {
+    currentLang = currentLang === "en" ? "fr" : "en";
+    document.querySelectorAll("[data-fr]").forEach(el => {
+      el.textContent = el.dataset[currentLang];
+    });
+  }
+  window.onload = () => {
+    document.querySelectorAll("[data-en]").forEach(el => {
+      el.textContent = el.dataset.en;
+    });
+    lucide.createIcons();
+  };
+</script>
+
+<body class="bg-[#020c06] text-slate-200 antialiased">
+
+  <!-- Navbar -->
+  <header class="border-b border-[rgba(0,255,159,0.1)] sticky top-0 bg-[#020c06]/90 backdrop-blur z-50">
+    <nav class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+      <span class="mono text-sm text-[#00ff9f] glow">~/samy.horchani<span class="cursor"></span></span>
+      <div class="flex items-center gap-6 text-sm text-slate-400">
+        <a href="#work"      class="hover:text-[#00ff9f] transition-colors" data-fr="Expériences" data-en="Work"></a>
+        <a href="#projects"  class="hover:text-[#00ff9f] transition-colors" data-fr="Projets"     data-en="Projects"></a>
+        <a href="#skills"    class="hover:text-[#00ff9f] transition-colors" data-fr="Compétences" data-en="Skills"></a>
+        <a href="#education" class="hover:text-[#00ff9f] transition-colors" data-fr="Formation"   data-en="Education"></a>
+        <button onclick="switchLang()"
+          class="mono ml-4 px-3 py-1 border border-[rgba(0,255,159,0.25)] rounded text-xs text-[#00ff9f] hover:bg-[rgba(0,255,159,0.08)] transition-colors">
+          FR / EN
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-5xl mx-auto px-6 py-24">
+    <p class="section-label">$ whoami</p>
+    <h1 class="text-5xl font-bold tracking-tight">Samy <span class="text-[#00ff9f]">HORCHANI</span></h1>
+
+    <p class="mono mt-4 text-[#00e5ff] text-lg"
+      data-fr="Ingénieur d'évaluation en cryptographie · CESTI Almond (SEAL)"
+      data-en="Cryptography Evaluation Engineer · CESTI Almond (SEAL)">
+    </p>
+
+    <p class="mt-6 text-slate-400 max-w-3xl leading-relaxed"
+      data-fr="Spécialisé en cryptographie, sécurité des systèmes et calcul haute performance. Diplômé d'un master à Sorbonne Université, j'évalue la conformité cryptographique d'implémentations dans un cadre CESTI accrédité ANSSI."
+      data-en="Specialised in cryptography, system security and high-performance computing. Master's graduate from Sorbonne University, I evaluate the cryptographic conformance of implementations within an ANSSI-accredited CESTI framework.">
+    </p>
+
+    <div class="mt-8 flex flex-wrap gap-3 items-center">
+      <a href="https://github.com/samyhorchani"
+         class="flex items-center gap-2 px-4 py-2 border border-[rgba(0,255,159,0.2)] rounded hover:border-[rgba(0,255,159,0.5)] hover:bg-[rgba(0,255,159,0.05)] transition-all text-sm">
+        <i data-lucide="github" class="w-4 h-4"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/samyhorchani"
+         class="flex items-center gap-2 px-4 py-2 border border-[rgba(0,255,159,0.2)] rounded hover:border-[rgba(0,255,159,0.5)] hover:bg-[rgba(0,255,159,0.05)] transition-all text-sm">
+        <i data-lucide="linkedin" class="w-4 h-4"></i> LinkedIn
+      </a>
+      <a href="mailto:samyhorchani@gmail.com"
+         class="flex items-center gap-2 px-4 py-2 border border-[rgba(0,255,159,0.2)] rounded hover:border-[rgba(0,255,159,0.5)] hover:bg-[rgba(0,255,159,0.05)] transition-all text-sm">
+        <i data-lucide="mail" class="w-4 h-4"></i> Contact
+      </a>
+      <a href="cv.pdf"
+         class="flex items-center gap-2 px-4 py-2 bg-[rgba(0,255,159,0.12)] border border-[rgba(0,255,159,0.4)] text-[#00ff9f] rounded hover:bg-[rgba(0,255,159,0.2)] transition-all text-sm mono">
+        <i data-lucide="file-text" class="w-4 h-4"></i> CV.pdf
+      </a>
+    </div>
+  </section>
+
+  <!-- Work Experience -->
+  <section id="work" class="max-w-5xl mx-auto px-6 py-16">
+    <p class="section-label">$ ls ./experience</p>
+    <h2 class="text-3xl font-semibold mb-8" data-fr="Expériences Professionnelles" data-en="Work Experience"></h2>
+    <div class="space-y-6">
+
+      <!-- CESTI Almond -->
+      <div class="card">
+        <div class="flex items-start gap-4 mb-4">
+          <img src="assets/almond-logo.svg" alt="Almond" class="h-10 w-20 object-contain mt-1 flex-shrink-0">
+          <div>
+            <h3 class="font-semibold text-lg text-[#00ff9f]"
+              data-fr="Ingénieur d'Évaluation en Cryptographie"
+              data-en="Cryptography Evaluation Engineer"></h3>
+            <p class="text-slate-400 text-sm mono"
+              data-fr="CESTI Almond (SEAL) | Mai 2026 – présent"
+              data-en="CESTI Almond (SEAL) | May 2026 – present"></p>
+          </div>
+        </div>
+        <ul class="text-slate-400 text-sm space-y-1 list-disc list-inside">
+          <b class="text-slate-300"
+            data-fr="Ingénieur en Cryptographie — SEAL (Security Evaluation and Analysis Lab)"
+            data-en="Cryptography Engineer — SEAL (Security Evaluation and Analysis Lab)"></b>
+          <h4 class="text-slate-500 text-xs mono mt-1"
+            data-fr="Almond — Évaluation de la sécurité de produits au sein du laboratoire CESTI (visas de sécurité ANSSI et Européen)"
+            data-en="Almond — Product security evaluation within the CESTI lab (ANSSI & European security visas)"></h4>
+          <li class="mt-2"
+            data-fr="Évaluation offensive de la conformité et de la robustesse cryptographique de produits (EDR, pare-feu, messagerie sécurisée, bibliothèques crypto, systèmes de contrôle d'accès, équipements industriels, ...)"
+            data-en="Offensive evaluation of the cryptographic compliance and robustness of products (EDR, firewalls, secure messaging, crypto libraries, access-control systems, industrial equipment, ...)">
+          </li>
+          <li
+            data-fr="Recherche de failles cryptographiques sur des domaines variés : réseau, chiffrement de données et de flux, PKI, objets connectés, systèmes industriels, application IOS & Android"
+            data-en="Cryptographic vulnerability research across varied domains: network, data and traffic encryption, PKI, connected devices, industrial systems, Android and IOS application">
+          </li>
+          <li
+            data-fr="Analyse de cryptographie classique (symétrique/asymétrique) et post-quantique, génération d'aléa, et cryptanalyse des problèmes mathématiques sous-jacents"
+            data-en="Analysis of classical (symmetric/asymmetric) and post-quantum cryptography, randomness generation, and cryptanalysis of the underlying mathematical problems">
+          </li>
+          <li
+            data-fr="Rédaction de rapports d'évaluation et émission d'avis d'expert, soutenus auprès de l'ANSSI et du client final dans le cadre des visas de sécurité"
+            data-en="Writing of evaluation reports and issuing of expert opinions, defended before ANSSI and the end client as part of the security-visa process">
+          </li>
+          <li
+            data-fr="Développement d'outils et de scripts d'analyse (environnements Windows/Linux) pour l'audit cryptographique"
+            data-en="Development of analysis tools and scripts (Windows/Linux environments) for cryptographic auditing">
+          </li>
+          <li
+            data-fr="Participation à la veille et à la R&D de l'équipe en cryptographie"
+            data-en="Contribution to the team's cryptography watch and R&D activity">
+          </li>
+        </ul>
+      </div>
+
+      <!-- Orange -->
+      <div class="card">
+        <div class="flex items-start gap-4 mb-4">
+          <img src="assets/orange-logo.svg" alt="Orange" class="h-10 w-auto object-contain mt-1 flex-shrink-0">
+          <div>
+            <h3 class="font-semibold text-lg"
+              data-fr="Ingénieur Stagiaire"
+              data-en="Intern Engineer"></h3>
+            <p class="text-slate-400 text-sm mono"
+              data-fr="Orange | Février – Août 2025"
+              data-en="Orange | February – August 2025"></p>
+          </div>
+        </div>
+        <ul class="text-slate-400 text-sm space-y-1 list-disc list-inside">
+          <b class="text-slate-300"
+            data-fr="Cryptographie post-quantique et Cybersécurité"
+            data-en="Post-Quantum Cryptography and Cybersecurity"></b>
+          <h4 class="text-slate-500 text-xs mono mt-1"
+            data-fr="Sujet : Étude d'implémentation d'algorithmes de cryptographie post-quantique"
+            data-en="Subject: Implementation study of post-quantum cryptography algorithms"></h4>
+          <li class="mt-2"
+            data-fr="Plateforme de test réplicable en environnement conteneurisé (Docker) et mesure d'algorithmes PQC pour TLS/mTLS"
+            data-en="Replicable testing platform in containerised environment (Docker) measuring PQC algorithms for TLS/mTLS"></li>
+          <li
+            data-fr="Intégration d'une pipeline CI/CD GitLab"
+            data-en="Integration of a GitLab CI/CD pipeline"></li>
+          <li
+            data-fr="Configuration et déploiement de serveurs Nginx et Apache sur infrastructure Cloud"
+            data-en="Configuration and deployment of Nginx and Apache servers on cloud infrastructure"></li>
+          <li
+            data-fr="Développement d'une PKI (génération et gestion de certificats)"
+            data-en="Development of a PKI (certificate generation and management)"></li>
+          <li
+            data-fr="Identification des prérequis techniques pour la migration PQC et inventaire cryptographique (CBOM)"
+            data-en="Identification of technical prerequisites for PQC migration and cryptographic inventory (CBOM)"></li>
+        </ul>
+        <a href="LR-orange.pdf" class="link-arrow"
+          data-fr="voir lettre de recommandation →"
+          data-en="see recommendation letter →"></a>
+      </div>
+
+      <!-- Okayama -->
+      <div class="card">
+        <div class="flex items-start gap-4 mb-4">
+          <img src="assets/okayama-university-logo.png" alt="Okayama University" class="h-10 w-auto object-contain mt-1 flex-shrink-0">
+          <div>
+            <h3 class="font-semibold text-lg"
+              data-fr="Assistant Chercheur"
+              data-en="Research Assistant"></h3>
+            <p class="text-slate-400 text-sm mono"
+              data-fr="Okayama University (Japon) | Juin – Août 2024"
+              data-en="Okayama University (Japan) | June – August 2024"></p>
+          </div>
+        </div>
+        <ul class="text-slate-400 text-sm space-y-1 list-disc list-inside">
+          <b class="text-slate-300 text-xs mono"
+            data-fr="(Stage réalisé entièrement en anglais)"
+            data-en="(Internship conducted entirely in English)"></b>
+          <li class="mt-2"
+            data-fr="Développement d'une plateforme de simulation de problèmes réseau via outils d'Ingénierie du Chaos (Pumba)"
+            data-en="Development of a platform for simulating network problems using Chaos Engineering tools (Pumba)"></li>
+          <li
+            data-fr="Génération de données synthétiques et analyses quantitatives et qualitatives"
+            data-en="Generation of synthetic data and quantitative/qualitative analyses"></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-5xl mx-auto px-6 py-16">
+    <p class="section-label">$ ls ./projects</p>
+    <h2 class="text-3xl font-semibold mb-8" data-fr="Projets" data-en="Projects"></h2>
+    <div class="space-y-6">
+
+      <!-- Side-Channel Attacks -->
+      <div class="card">
+        <h3 class="text-xl font-semibold"
+          data-fr="Attaques par canaux auxiliaires"
+          data-en="Side-Channel Attacks"></h3>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-crypto"
+            data-fr="Cryptographie & Sécurité"
+            data-en="Cryptography & Security"></span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">C/C++</span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">Python</span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">MPI</span>
+        </div>
+        <p class="text-slate-400 mt-3 text-sm"
+          data-fr="Étude et implémentation d'attaques par canaux auxiliaires sur primitives cryptographiques."
+          data-en="Study and implementation of side-channel attacks on cryptographic primitives."></p>
+        <ul class="mt-3 text-sm text-slate-500 list-disc list-inside space-y-1">
+          <li data-fr="Analyse de consommation, timing et fautes."
+              data-en="Power, timing and fault analysis attacks."></li>
+          <li data-fr="Évaluation des fuites d'information."
+              data-en="Evaluation of information leakage."></li>
+          <li data-fr="Étude de contre-mesures logicielles."
+              data-en="Study of software countermeasures."></li>
+        </ul>
+        <p class="mt-4 text-xs text-slate-600 mono italic"
+          data-en="// academic project — source available upon request"
+          data-fr="// projet académique — code disponible sur demande"></p>
+      </div>
+
+      <!-- Neural Networks & Random Distributions -->
+      <div class="card">
+        <h3 class="text-xl font-semibold"
+          data-en="Neural Networks for Random Distribution Generation"
+          data-fr="Réseaux de Neurones pour la Génération de Distributions Aléatoires"></h3>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-hpc"
+            data-fr="Calcul Haute Performance (HPC)"
+            data-en="High Performance Computing (HPC)"></span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">Neural Networks (GANs)</span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">CUDA</span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">PyTorch</span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">C / OpenMP</span>
+        </div>
+        <p class="text-slate-400 mt-3 text-sm"
+          data-en="Comparative study of classical RNGs and GAN-based approaches for generating probability distributions on CPU and GPU."
+          data-fr="Étude comparative de générateurs de nombres aléatoires classiques et d'approches GAN pour la génération de distributions probabilistes sur CPU et GPU."></p>
+        <ul class="mt-3 text-sm text-slate-500 list-disc list-inside space-y-1">
+          <li data-en="Implemented classical generators (Poisson, Chi-Squared, Compound Poisson) using NumPy, PyTorch and C/CUDA"
+              data-fr="Implémentation de générateurs classiques (Poisson, Khi-deux, Poisson composée) avec NumPy, PyTorch et C/CUDA"></li>
+          <li data-en="Designed and trained GANs to approximate statistical distributions"
+              data-fr="Conception et entraînement de GANs pour approximer des distributions statistiques"></li>
+          <li data-en="Benchmarked performance across CPU and GPU architectures"
+              data-fr="Benchmarks de performance sur architectures CPU et GPU"></li>
+          <li data-en="Analysis of scalability, execution time and computational efficiency"
+              data-fr="Analyse de la scalabilité, du temps d'exécution et de l'efficacité computationnelle"></li>
+        </ul>
+        <p class="mt-4 text-xs text-slate-600 mono italic"
+          data-en="// academic project — source available upon request"
+          data-fr="// projet académique — code disponible sur demande"></p>
+      </div>
+
+      <!-- FFT -->
+      <div class="card">
+        <h3 class="text-xl font-semibold"
+          data-en="FFT, Multiplication Algorithms & Complex Number Arithmetic"
+          data-fr="FFT, Algorithmes de multiplication et Arithmétique des Nombres Complexes"></h3>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-algo"
+            data-fr="Algorithmique"
+            data-en="Algorithms"></span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">C/C++</span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">OpenMP</span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">SIMD (AVX2, AVX-512)</span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">Bash</span>
+        </div>
+        <p class="text-slate-400 mt-3 text-sm"
+          data-fr="Implémentation d'algorithmes de multiplication exploitant la FFT, génération de bruit blanc et atténuation sonore. Optimisation via OpenMP et opérations vectorisées (SIMD)."
+          data-en="Multiplication algorithms leveraging FFT, white noise generation and sound attenuation. Optimised with OpenMP and vectorised SIMD operations."></p>
+        <a href="https://github.com/samyhorchani/projet_model" class="link-arrow"
+          data-fr="voir le projet →"
+          data-en="see project →"></a>
+      </div>
+
+      <!-- ElectionSystem -->
+      <div class="card">
+        <h3 class="text-xl font-semibold"
+          data-fr="ElectionSystem : Système de vote sécurisé"
+          data-en="ElectionSystem: Secure Voting System"></h3>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-crypto"
+            data-fr="Cryptographie & Sécurité"
+            data-en="Cryptography & Security"></span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">C</span>
+        </div>
+        <p class="text-slate-400 mt-3 text-sm"
+          data-fr="Système de vote électronique simulant une élection sécurisée avec intégrité des bulletins et résistance aux fraudes."
+          data-en="Electronic voting system simulating a secure election with ballot integrity and fraud resistance."></p>
+        <ul class="mt-3 text-sm text-slate-500 list-disc list-inside space-y-1">
+          <li data-fr="Conception d'un protocole de vote sécurisé (intégrité, authenticité, vérifiabilité)."
+              data-en="Designed a secure voting protocol (integrity, authenticity, verifiability)."></li>
+          <li data-fr="Implémentation complète en C de primitives cryptographiques."
+              data-en="Full C implementation of cryptographic primitives."></li>
+          <li data-fr="Simulation de scénarios d'attaque (double vote, modification des bulletins)."
+              data-en="Simulation of attack scenarios (double voting, ballot tampering)."></li>
+        </ul>
+        <a href="https://github.com/samyhorchani/ElectionSystem" class="link-arrow"
+          data-fr="voir le projet →"
+          data-en="see project →"></a>
+      </div>
+
+      <!-- NetworkViewer -->
+      <div class="card">
+        <h3 class="text-xl font-semibold"
+          data-fr="NetworkViewer : Analyse et décodage de trames réseau"
+          data-en="NetworkViewer: Network Frame Analysis"></h3>
+        <div class="flex flex-wrap gap-2 mt-3">
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-net"
+            data-fr="Réseaux"
+            data-en="Network"></span>
+          <span class="px-3 py-1 text-xs font-mono rounded-full tag-neutral">Java</span>
+        </div>
+        <p class="text-slate-400 mt-3 text-sm"
+          data-fr="Outil de décodage de trames Ethernet et visualisation temporelle des événements réseau."
+          data-en="Tool for decoding Ethernet frames and visualising network events over time."></p>
+        <ul class="mt-3 text-sm text-slate-500 list-disc list-inside space-y-1">
+          <li data-fr="Décodage bit-à-bit des trames Ethernet."
+              data-en="Bit-level decoding of Ethernet frames."></li>
+          <li data-fr="Architecture modulaire pour supporter plusieurs protocoles."
+              data-en="Modular architecture supporting multiple protocols."></li>
+          <li data-fr="Approche pédagogique inspirée de Wireshark."
+              data-en="Educational approach inspired by Wireshark."></li>
+        </ul>
+        <a href="https://github.com/samyhorchani/NetworkViewer" class="link-arrow"
+          data-fr="voir le projet →"
+          data-en="see project →"></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-5xl mx-auto px-6 py-16">
+    <p class="section-label">$ cat ./skills.json</p>
+    <h2 class="text-3xl font-semibold mb-8" data-fr="Compétences" data-en="Skills"></h2>
+    <div class="grid md:grid-cols-2 gap-6">
+
+      <div class="card">
+        <h3 class="font-semibold mb-3 mono text-[#00ff9f]"
+          data-fr="Cryptographie & Sécurité"
+          data-en="Cryptography & Security"></h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 text-xs mono rounded-full tag-crypto"
+            data-fr="Évaluation cryptographique (CESTI)"
+            data-en="Cryptographic Evaluation (CESTI)"></span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-crypto">Common Criteria</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-crypto">ANSSI</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-crypto"
+            data-fr="Crypto symétrique / asymétrique"
+            data-en="Symmetric / Asymmetric Crypto"></span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-crypto">PKI / X.509</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-crypto">PQC (ML-KEM, ML-DSA, SLH-DSA)</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-crypto">TLS / mTLS</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-crypto">OpenSSL</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-crypto">CBOM</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-crypto"
+            data-fr="Attaques par canaux auxiliaires"
+            data-en="Side-Channel Attacks"></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="font-semibold mb-3 mono text-[#94a3b8]"
+          data-fr="Programmation"
+          data-en="Programming"></h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">C/C++</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">Python</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">Go</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">Bash</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">Java</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">HTML/CSS</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="font-semibold mb-3 mono text-[#00e5ff]">HPC & Performance</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 text-xs mono rounded-full tag-hpc">CUDA</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-hpc">OpenMP</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-hpc">MPI</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-hpc">SIMD (AVX2 / AVX-512)</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-hpc">Profiling</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-hpc"
+            data-fr="Optimisation mémoire"
+            data-en="Memory Optimisation"></span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="font-semibold mb-3 mono text-[#94a3b8]"
+          data-fr="Outils & DevOps"
+          data-en="Tools & DevOps"></h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">Git</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">Linux</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">Docker</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">CI/CD (GitHub / GitLab)</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">Nginx / Apache</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">Prometheus / Grafana</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">Wireshark</span>
+          <span class="px-3 py-1 text-xs mono rounded-full tag-neutral">LaTeX</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="max-w-5xl mx-auto px-6 py-16">
+    <p class="section-label">$ cat ./education.log</p>
+    <h2 class="text-3xl font-semibold mb-8" data-fr="Formation" data-en="Education"></h2>
+    <div class="space-y-6">
+
+      <div class="card">
+        <div class="flex items-center gap-4 mb-4">
+          <img src="assets/sorbonne-universite-logo.svg" alt="Sorbonne Université" class="h-10 w-auto object-contain">
+          <div>
+            <h3 class="font-semibold"
+              data-fr="Master Informatique : Cryptographie, Calcul Haute Performance & Algorithmique"
+              data-en="Master's in Computer Science: Cryptology, High-Performance Computing & Algorithms"></h3>
+            <p class="text-slate-400 text-sm mono"
+              data-fr="Sorbonne Université | 2023 – 2025"
+              data-en="Sorbonne University | 2023 – 2025"></p>
+          </div>
+        </div>
+        <p class="text-slate-500 text-sm"
+          data-fr="Cours clés : Cryptologie, Calcul Haute Performance / Programmation Parallèle (CPU & GPU), Informatique Quantique, Attaques par Canaux Auxiliaires"
+          data-en="Key courses: Cryptology, High-Performance Computing / Parallel Programming (CPU & GPU), Quantum Computing, Side-Channel Attacks"></p>
+      </div>
+
+      <div class="card">
+        <div class="flex items-center gap-4">
+          <img src="assets/sorbonne-universite-logo.svg" alt="Sorbonne Université" class="h-10 w-auto object-contain">
+          <div>
+            <h3 class="font-semibold"
+              data-fr="Licence Bidisciplinaire : Informatique & Ingénierie Mécanique"
+              data-en="Bidisciplinary Bachelor's: Computer Science & Mechanical Engineering"></h3>
+            <p class="text-slate-400 text-sm mono"
+              data-fr="Sorbonne Université | 2020 – 2023"
+              data-en="Sorbonne University | 2020 – 2023"></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="border-t border-[rgba(0,255,159,0.1)] py-8 text-center">
+    <p class="mono text-xs text-slate-600">// 2026 · Samy HORCHANI · GitHub Pages</p>
+  </footer>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>
