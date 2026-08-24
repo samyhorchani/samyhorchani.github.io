@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Notes — Samy HORCHANI</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<!-- Markdown rendering -->
+<script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+<!-- Syntax highlighting: UMD browser bundle (includes common languages: bash, python, c, cpp, java, javascript, go, json, yaml, plaintext, etc.) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --green: #00ff9f;
+  --green-dim: #00cc7a;
+  --cyan: #00e5ff;
+  --amber: #ffb300;
+  --violet: #a78bfa;
+  --slate: #94a3b8;
+}
+
+body { font-family: 'Inter', sans-serif; }
+.mono { font-family: 'JetBrains Mono', monospace; }
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg, transparent, transparent 2px,
+    rgba(0,255,159,0.015) 2px, rgba(0,255,159,0.015) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.glow { text-shadow: 0 0 8px var(--green); }
+.glow-border { box-shadow: 0 0 0 1px rgba(0,255,159,0.2), 0 0 12px rgba(0,255,159,0.05); }
+.glow-border:hover { box-shadow: 0 0 0 1px rgba(0,255,159,0.5), 0 0 20px rgba(0,255,159,0.1); }
+
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+.cursor::after {
+  content: '█';
+  color: var(--green);
+  animation: blink 1s step-end infinite;
+  margin-left: 2px;
+}
+
+.tag-crypto { background: rgba(0,255,159,0.08); color: #00ff9f; border: 1px solid rgba(0,255,159,0.25); }
+.tag-cyber  { background: rgba(255,255,255,0.05); color: #f87171; border: 1px solid rgba(248,113,113,0.25); }
+.tag-tools  { background: rgba(0,229,255,0.08); color: #00e5ff; border: 1px solid rgba(0,229,255,0.25); }
+.tag-algo   { background: rgba(255,179,0,0.08); color: #ffb300; border: 1px solid rgba(255,179,0,0.25); }
+.tag-net    { background: rgba(167,139,250,0.1); color: #a78bfa; border: 1px solid rgba(167,139,250,0.25); }
+.tag-book   { background: rgba(255,255,255,0.05); color: #94a3b8; border: 1px solid rgba(255,255,255,0.1); }
+.tag-neutral{ background: rgba(255,255,255,0.05); color: #94a3b8; border: 1px solid rgba(255,255,255,0.1); }
+
+.card {
+  border: 1px solid rgba(0,255,159,0.12);
+  background: rgba(0,10,5,0.6);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.card:hover { border-color: rgba(0,255,159,0.3); box-shadow: 0 0 24px rgba(0,255,159,0.06); }
+
+.section-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--green);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+a.link-arrow {
+  color: var(--green);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  display: inline-block;
+  transition: letter-spacing 0.2s;
+}
+a.link-arrow:hover { letter-spacing: 0.05em; }
+
+nav a.nav-link { position: relative; }
+nav a.nav-link::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: var(--green);
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+nav a.nav-link:hover::after,
+nav a.nav-link.active::after { transform: scaleX(1); }
+nav a.nav-link.active { color: var(--green); }
+
+/* Note list item */
+.note-item {
+  display: block;
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.375rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.note-item:hover { background: rgba(0,255,159,0.05); border-color: rgba(0,255,159,0.15); }
+.note-item.active { background: rgba(0,255,159,0.08); border-color: rgba(0,255,159,0.3); }
+.note-item.active .note-title { color: var(--green); }
+.note-title { color: #cbd5e1; font-size: 0.875rem; font-weight: 500; }
+.note-meta { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: #64748b; margin-top: 0.15rem; }
+
+/* ===== Markdown rendering ===== */
+.md-body { color: #cbd5e1; line-height: 1.75; }
+.md-body h1, .md-body h2, .md-body h3, .md-body h4 {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--green);
+  font-weight: 600;
+  margin-top: 1.75em;
+  margin-bottom: 0.6em;
+}
+.md-body h1 { font-size: 1.5rem; border-bottom: 1px solid rgba(0,255,159,0.15); padding-bottom: 0.4em; }
+.md-body h2 { font-size: 1.25rem; }
+.md-body h3 { font-size: 1.05rem; color: var(--cyan); }
+.md-body p { margin: 0.9em 0; }
+.md-body a { color: var(--cyan); text-decoration: underline; text-underline-offset: 3px; }
+.md-body a:hover { color: var(--green); }
+.md-body ul, .md-body ol { margin: 0.8em 0; padding-left: 1.5em; }
+.md-body li { margin: 0.3em 0; }
+.md-body ul > li { list-style-type: '▸ '; }
+.md-body blockquote {
+  border-left: 2px solid var(--amber);
+  background: rgba(255,179,0,0.05);
+  padding: 0.6em 1em;
+  margin: 1em 0;
+  color: #e2c88a;
+  font-size: 0.95em;
+}
+.md-body table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.9em; }
+.md-body th, .md-body td { border: 1px solid rgba(0,255,159,0.15); padding: 0.5em 0.75em; text-align: left; }
+.md-body th { color: var(--green); font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; background: rgba(0,255,159,0.04); }
+.md-body hr { border: none; border-top: 1px solid rgba(0,255,159,0.15); margin: 2em 0; }
+.md-body strong { color: #f1f5f9; }
+.md-body :not(pre) > code {
+  font-family: 'JetBrains Mono', monospace;
+  background: rgba(0,255,159,0.08);
+  color: var(--green);
+  padding: 0.15em 0.4em;
+  border-radius: 0.25em;
+  font-size: 0.85em;
+}
+.md-body pre {
+  background: #010a06;
+  border: 1px solid rgba(0,255,159,0.15);
+  border-radius: 0.5rem;
+  padding: 1em 1.25em;
+  overflow-x: auto;
+  margin: 1.2em 0;
+  font-size: 0.85em;
+}
+.md-body pre code { font-family: 'JetBrains Mono', monospace; background: none; padding: 0; color: #cbd5e1; }
+
+/* ===== highlight.js theme, mapped onto the site palette ===== */
+.hljs { color: #cbd5e1; background: transparent; }
+.hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-section, .hljs-link { color: var(--green); }
+.hljs-title, .hljs-title.function_, .hljs-title.class_ { color: var(--cyan); }
+.hljs-string, .hljs-attr, .hljs-symbol, .hljs-bullet, .hljs-addition { color: var(--amber); }
+.hljs-number, .hljs-meta, .hljs-built_in, .hljs-builtin-name { color: var(--violet); }
+.hljs-comment, .hljs-quote, .hljs-deletion { color: #64748b; font-style: italic; }
+.hljs-variable, .hljs-template-variable, .hljs-attribute { color: #f87171; }
+.hljs-type, .hljs-class .hljs-title { color: var(--cyan); }
+.hljs-doctag, .hljs-strong { font-weight: 600; }
+.hljs-emphasis { font-style: italic; }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: rgba(0,255,159,0.2); border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+</style>
+</head>
+
+<script>
+let currentLang = "en";
+function switchLang() {
+  currentLang = currentLang === "en" ? "fr" : "en";
+  document.querySelectorAll("[data-fr]").forEach(el => {
+    el.textContent = el.dataset[currentLang];
+  });
+}
+</script>
+
+<body class="bg-[#020c06] text-slate-200 antialiased">
+
+<!-- Navbar -->
+<header class="border-b border-[rgba(0,255,159,0.1)] sticky top-0 bg-[#020c06]/90 backdrop-blur z-50">
+  <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="mono text-sm text-[#00ff9f] glow">~/samy.horchani<span class="cursor"></span></a>
+    <div class="flex items-center gap-6 text-sm text-slate-400">
+      <a href="index.html#work" class="nav-link hover:text-[#00ff9f] transition-colors" data-fr="Expériences" data-en="Work"></a>
+      <a href="index.html#projects" class="nav-link hover:text-[#00ff9f] transition-colors" data-fr="Projets" data-en="Projects"></a>
+      <a href="index.html#skills" class="nav-link hover:text-[#00ff9f] transition-colors" data-fr="Compétences" data-en="Skills"></a>
+      <a href="index.html#education" class="nav-link hover:text-[#00ff9f] transition-colors" data-fr="Formation" data-en="Education"></a>
+      <a href="notes.html" class="nav-link active" data-fr="Notes" data-en="Notes"></a>
+      <button onclick="switchLang()" class="mono ml-4 px-3 py-1 border border-[rgba(0,255,159,0.25)] rounded text-xs text-[#00ff9f] hover:bg-[rgba(0,255,159,0.08)] transition-colors">FR / EN</button>
+    </div>
+  </nav>
+</header>
+
+<!-- Header -->
+<section class="max-w-6xl mx-auto px-6 pt-16 pb-8">
+  <p class="section-label">$ ls ./notes</p>
+  <h1 class="text-4xl font-bold tracking-tight" data-fr="Notes" data-en="Notes"></h1>
+  <p class="mt-3 text-slate-400 max-w-2xl leading-relaxed"
+     data-fr="Notes de formation, veille crypto/cyber, résumés de lecture."
+     data-en="Training notes, crypto/cyber watch, reading summaries.">
+  </p>
+</section>
+
+<!-- Main layout -->
+<section class="max-w-6xl mx-auto px-6 pb-24">
+  <div class="grid md:grid-cols-[280px_1fr] gap-8">
+
+    <!-- Sidebar: filters + list -->
+    <aside>
+      <div class="flex flex-wrap gap-2 mb-5" id="filter-bar">
+        <!-- filled by JS -->
+      </div>
+      <div id="note-list" class="space-y-1">
+        <!-- filled by JS -->
+      </div>
+    </aside>
+
+    <!-- Reader -->
+    <div class="card min-h-[400px]" id="reader">
+      <div id="empty-state" class="text-slate-500 mono text-sm">
+        <span data-fr="&larr; Sélectionne une note dans la liste" data-en="&larr; Select a note from the list"></span>
+      </div>
+      <article id="note-content" class="md-body hidden"></article>
+    </div>
+
+  </div>
+</section>
+
+<footer class="border-t border-[rgba(0,255,159,0.1)] py-8 text-center">
+  <p class="mono text-xs text-slate-600">// 2026 · Samy HORCHANI · GitHub Pages</p>
+</footer>
+
+<script>
+// ---------------------------------------------------------------
+// NOTES MANIFEST
+// Ajoute une entrée ici pour chaque nouvelle note. "file" pointe
+// vers un .md dans le dossier notes/. "tag" contrôle la couleur
+// du badge (crypto | cyber | hpc | algo | net | book | neutral).
+// ---------------------------------------------------------------
+const NOTES = [
+  {
+    file: "notes/tools/WireShark.md",
+    title: "WireShark — Astuces utiles",
+    date: "2026-08-24",
+    tag: "tools",
+    tagLabel: "TOOLS"
+  }
+];
+
+hljs.configure({ ignoreUnescapedHTML: true });
+
+marked.setOptions({
+  breaks: true,
+  highlight: null
+});
+
+const renderer = new marked.Renderer();
+renderer.code = (codeArg, langArg) => {
+  // Support both the classic marked API (code, lang) and the
+  // newer token-object API ({ text, lang }), in case the CDN
+  // ever resolves to a different marked version.
+  const code = typeof codeArg === 'object' ? codeArg.text : codeArg;
+  const lang = typeof codeArg === 'object' ? codeArg.lang : langArg;
+  const language = lang && hljs.getLanguage(lang) ? lang : 'plaintext';
+  const highlighted = hljs.highlight(code || '', { language }).value;
+  return `<pre><code class="hljs language-${language}">${highlighted}</code></pre>`;
+};
+marked.use({ renderer });
+
+const listEl = document.getElementById('note-list');
+const filterBar = document.getElementById('filter-bar');
+const contentEl = document.getElementById('note-content');
+const emptyEl = document.getElementById('empty-state');
+
+const TAG_LABELS = { crypto: 'Crypto', cyber: 'Cyber', tools: 'TOOLS', algo: 'Algo', net: 'Réseau', book: 'Lecture', neutral: 'Autre' };
+let activeFilter = 'all';
+let activeFile = null;
+
+function renderFilterBar() {
+  const tags = ['all', ...new Set(NOTES.map(n => n.tag))];
+  filterBar.innerHTML = tags.map(tag => {
+    const label = tag === 'all' ? 'Tout' : (TAG_LABELS[tag] || tag);
+    const cls = tag === 'all' ? 'tag-neutral' : `tag-${tag}`;
+    return `<button data-tag="${tag}" class="filter-btn px-3 py-1 text-xs font-mono rounded-full ${cls} transition-opacity ${activeFilter === tag ? '' : 'opacity-50'}">${label}</button>`;
+  }).join('');
+  filterBar.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeFilter = btn.dataset.tag;
+      renderFilterBar();
+      renderList();
+    });
+  });
+}
+
+function renderList() {
+  const filtered = NOTES.filter(n => activeFilter === 'all' || n.tag === activeFilter)
+                         .sort((a, b) => b.date.localeCompare(a.date));
+  if (filtered.length === 0) {
+    listEl.innerHTML = `<p class="text-slate-600 text-sm mono">// aucune note</p>`;
+    return;
+  }
+  listEl.innerHTML = filtered.map(n => `
+    <div class="note-item ${n.file === activeFile ? 'active' : ''}" data-file="${n.file}">
+      <div class="note-title">${n.title}</div>
+      <div class="note-meta">${n.date} · <span class="tag-${n.tag}" style="padding:1px 6px;border-radius:999px;">${n.tagLabel || TAG_LABELS[n.tag]}</span></div>
+    </div>
+  `).join('');
+  listEl.querySelectorAll('.note-item').forEach(item => {
+    item.addEventListener('click', () => loadNote(item.dataset.file));
+  });
+}
+
+async function loadNote(file) {
+  activeFile = file;
+  renderList();
+  emptyEl.classList.add('hidden');
+  contentEl.classList.remove('hidden');
+  contentEl.innerHTML = `<p class="text-slate-500 mono text-sm">// chargement...</p>`;
+  try {
+    const res = await fetch(file);
+    if (!res.ok) throw new Error('not found');
+    const md = await res.text();
+    contentEl.innerHTML = marked.parse(md);
+  } catch (e) {
+    contentEl.innerHTML = `<p class="text-red-400 mono text-sm">// erreur de chargement de ${file}</p>`;
+  }
+  // deep-link support
+  history.replaceState(null, '', `#${encodeURIComponent(file)}`);
+}
+
+// Init
+try {
+  renderFilterBar();
+  renderList();
+} catch (e) {
+  console.error('Erreur d\'initialisation des notes:', e);
+  listEl.innerHTML = `<p class="text-red-400 mono text-xs">// erreur JS, voir la console (F12)</p>`;
+}
+
+window.onload = () => {
+  document.querySelectorAll("[data-en]").forEach(el => {
+    if (el.tagName === 'SPAN' && el.innerHTML.includes('&larr;')) return; // handled below
+    if (el.dataset.en) el.textContent = el.dataset.en;
+  });
+  document.querySelectorAll("span[data-en]").forEach(el => {
+    el.innerHTML = el.dataset.en;
+  });
+  lucide.createIcons();
+
+  // Open note from URL hash if present
+  const hash = decodeURIComponent(location.hash.slice(1));
+  if (hash) {
+    const match = NOTES.find(n => n.file === hash);
+    if (match) loadNote(match.file);
+  }
+};
+</script>
+
+</body>
+</html>
