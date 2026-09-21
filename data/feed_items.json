@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T18:03:56.547038+00:00",
+  "generated_at": "2026-09-21T22:23:40.888015+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "f953ade6f3c4",
+      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+      "link": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-21T17:31:01+00:00",
+      "ts": 1790011861.0,
+      "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17. Microsoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers"
+    },
+    {
+      "id": "d8fa163a8815",
+      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+      "link": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-21T17:19:00+00:00",
+      "ts": 1790011140.0,
+      "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory. The primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,"
+    },
+    {
+      "id": "28174f025f90",
+      "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
+      "link": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-21T16:57:31+00:00",
+      "ts": 1790009851.0,
+      "summary": "Google has been&nbsp;fined €403 million&nbsp;for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which"
+    },
     {
       "id": "1d1720323eb8",
       "title": "Reverse-Engineering Flock Cameras",
@@ -163,36 +193,6 @@
       "published": "2026-09-18T21:06:00+00:00",
       "ts": 1789765560.0,
       "summary": "Short essay about squid egg sacs. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
-      "id": "a5f1deca78ed",
-      "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
-      "link": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-18T18:02:24+00:00",
-      "ts": 1789754544.0,
-      "summary": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine. Kernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated. The flaws"
-    },
-    {
-      "id": "739398eed4c5",
-      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-      "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-18T16:56:19+00:00",
-      "ts": 1789750579.0,
-      "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install. The security firm pwn.ai, whose researchers reported the flaw, calls the attack chain Click2Shell. On its own the flaw only"
-    },
-    {
-      "id": "9ec70d22e1a8",
-      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-      "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-18T15:24:16+00:00",
-      "ts": 1789745056.0,
-      "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation"
     },
     {
       "id": "9fd5242ee937",
@@ -423,16 +423,6 @@
       "published": "2026-09-15T00:00:00+00:00",
       "ts": 1789430400.0,
       "summary": "Une vulnérabilité a été découverte dans Microsoft Windows. Elle permet à un attaquant de provoquer une élévation de privilèges."
-    },
-    {
-      "id": "a8db2f3712db",
-      "title": "Efficient Single-Server Online-Offline PIR without Periodic Preprocessing",
-      "link": "https://eprint.iacr.org/2026/2033",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-14T23:22:43+00:00",
-      "ts": 1789428163.0,
-      "summary": "Private Information Retrieval (PIR) allows a client to retrieve an entry from a public database without revealing the entry of interest. Standard PIR, however, requires the server to perform expensive computation that is linear in the database size per client query. To reduce this online cost, Online-Offline PIR (OO-PIR) was proposed, allowing the client to precompute a query-independent hint tabl"
     },
     {
       "id": "d1ad64bcf890",
@@ -1023,6 +1013,16 @@
       "published": "2025-11-20T17:00:00+00:00",
       "ts": 1763658000.0,
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
+    },
+    {
+      "id": "c4a7b13d0949",
+      "title": "SoK: Blockchain Oracles Between Theory and Practice",
+      "link": "https://eprint.iacr.org/2025/2106",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-11-16T14:47:05+00:00",
+      "ts": 1763304425.0,
+      "summary": "Oracle services enable dApps to access real-world data and respond to events happening outside the blockchain ecosystem. A large number of academic and industrial oracles have emerged, capturing various designs, capabilities, and security assumptions/guarantees. This rapid development makes it challenging to comprehend existing solutions, understand their trade-offs, and build on them. In this pap"
     },
     {
       "id": "60a6eaa9b24b",
