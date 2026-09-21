@@ -1,0 +1,12 @@
+[
+  { "name": "IACR ePrint Archive", "url": "https://eprint.iacr.org/rss/rss.xml", "category": "recherche" },
+  { "name": "ANSSI — Actualités", "url": "https://www.ssi.gouv.fr/feed/actualites/", "category": "anssi" },
+  { "name": "CERT-FR — Avis & Alertes", "url": "https://www.cert.ssi.gouv.fr/feed/", "category": "anssi" },
+  { "name": "Schneier on Security", "url": "https://www.schneier.com/feed/atom/", "category": "veille" },
+  { "name": "A Few Thoughts on Cryptographic Engineering", "url": "https://blog.cryptographyengineering.com/feed/", "category": "crypto" },
+  { "name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "category": "veille" },
+  { "name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "category": "veille" },
+  { "name": "Google Security Blog", "url": "https://security.googleblog.com/feeds/posts/default", "category": "veille" },
+  { "name": "NCC Group Research", "url": "https://research.nccgroup.com/feed/", "category": "recherche" },
+  { "name": "Trail of Bits Blog", "url": "https://blog.trailofbits.com/feed/", "category": "recherche" }
+]
