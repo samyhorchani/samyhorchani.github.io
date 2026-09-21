@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T12:51:38.906678+00:00",
+  "generated_at": "2026-09-21T18:03:56.547038+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "1d1720323eb8",
+      "title": "Reverse-Engineering Flock Cameras",
+      "link": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-21T14:37:45+00:00",
+      "ts": 1790001465.0,
+      "summary": "Hackers captured a Flock camera and got a look (alternate link) at the software: While much of the automatic license plate reader&#8217;s (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects people as well as vehicles, license plates, and bicycles. The camera can produce dozens of im"
+    },
+    {
+      "id": "17a512fe1103",
+      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+      "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-21T14:24:13+00:00",
+      "ts": 1790000653.0,
+      "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not"
+    },
+    {
+      "id": "c5167255db38",
+      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+      "link": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-21T14:15:40+00:00",
+      "ts": 1790000140.0,
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary"
+    },
     {
       "id": "71c4a4caf94f",
       "title": "SAML: A fractal of bad design",
@@ -165,16 +195,6 @@
       "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation"
     },
     {
-      "id": "d4d4e3522159",
-      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-      "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-18T12:47:04+00:00",
-      "ts": 1789735624.0,
-      "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0. \"Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,\""
-    },
-    {
       "id": "9fd5242ee937",
       "title": "Are AIs Still Struggling with CAPTCHAs?",
       "link": "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html",
@@ -183,16 +203,6 @@
       "published": "2026-09-18T11:05:52+00:00",
       "ts": 1789729552.0,
       "summary": "Anthropic&#8217;s recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude. In the transcript, the Claude model that is so powerful that Anthropic is gatekeeping access to it appeared to slam its virtual head against the wall solving a simple image identification test. In a test where the agent was asked to identify a shape that didn&#8217;t match the others"
-    },
-    {
-      "id": "946c6261f534",
-      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-      "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-18T11:01:16+00:00",
-      "ts": 1789729276.0,
-      "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it.&nbsp; The new owner holds"
     },
     {
       "id": "a91514e92c6f",
@@ -315,6 +325,46 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance."
     },
     {
+      "id": "3ff9aa33de52",
+      "title": "Vulnérabilité dans StrongSwan (16 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1180/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-16T00:00:00+00:00",
+      "ts": 1789516800.0,
+      "summary": "Une vulnérabilité a été découverte dans StrongSwan. Elle permet à un attaquant de provoquer un déni de service à distance."
+    },
+    {
+      "id": "31da6d12f4ff",
+      "title": "Multiples vulnérabilités dans Oracle PeopleSoft (16 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1187/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-16T00:00:00+00:00",
+      "ts": 1789516800.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "6b9095aec776",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (16 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1191/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-16T00:00:00+00:00",
+      "ts": 1789516800.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges."
+    },
+    {
+      "id": "0e6b512450e0",
+      "title": "Multiples vulnérabilités dans Mattermost Server (16 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1190/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-16T00:00:00+00:00",
+      "ts": 1789516800.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
       "id": "61dde741919b",
       "title": "25 Years of Mass Surveillance Is Enough",
       "link": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
@@ -353,16 +403,6 @@
       "published": "2026-09-15T00:00:00+00:00",
       "ts": 1789430400.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
-      "id": "5907fd8d3858",
-      "title": "Multiples vulnérabilités dans les produits Apple (15 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1172/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-15T00:00:00+00:00",
-      "ts": 1789430400.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
     },
     {
       "id": "b27cb57c89b9",
@@ -425,54 +465,24 @@
       "summary": "Once a month, Microsoft pushes a security update to all Windows users. Tomorrow&#8217;s is a new record: Microsoft&#8217;s patch for September is a doozy, with a record number of roughly 972 vulnerabilities fixed and 112 of them meeting the high critical-severity threshold. It was only two months ago that Microsoft patched a then-record 570 vulnerabilities. Then, last month, Microsoft patched some"
     },
     {
-      "id": "23856e74ef69",
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-039 (14 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-039/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-14T00:00:00+00:00",
-      "ts": 1789344000.0,
-      "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des..."
-    },
-    {
-      "id": "61fdff7e0f10",
-      "title": "Multiples vulnérabilités dans Python (14 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1167/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-14T00:00:00+00:00",
-      "ts": 1789344000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Python. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "172b17d477e6",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (14 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1171/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-14T00:00:00+00:00",
-      "ts": 1789344000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur. Microsoft indique que la vulnérabilité CVE-2026-87491 est activement exploitée."
-    },
-    {
-      "id": "331af7a25650",
-      "title": "Friday Squid Blogging: Rotting Squid on a Beached California Boat",
-      "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-11T21:03:27+00:00",
-      "ts": 1789160607.0,
-      "summary": "Smells awful: But an estimated 30 to 50 tons of dead squid remain inside the boat&#8217;s catch tank, where they have been decomposing for days. &#8220;That is nasty. I wouldn&#8217;t want to do that,&#8221; said commercial fisherman Dick Ogg of the Bodega Bay Fishermen&#8217;s Marketing Association. Ogg said anyone familiar with the fishing industry understands what happens when a large catch sit"
-    },
-    {
-      "id": "ab776a6cf8c8",
-      "title": "Filtered Supersingular Isogeny Counts and Exact-Coset Response Existence",
-      "link": "https://eprint.iacr.org/2026/1974",
+      "id": "2a9ea3219b5d",
+      "title": "CauchyFold: Residue-Optimal High-Arity Lattice Folding via Scaled Cauchy Challenges",
+      "link": "https://eprint.iacr.org/2026/2011",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-11T01:24:12+00:00",
-      "ts": 1789089852.0,
-      "summary": "We study the existence of bounded-degree supersingular isogenies under prescribed degree filters and exact torsion constraints. In characteristic $p$, a second-moment argument using the Brandt trace formula gives asymptotically positive coverage of independent uniform endpoints at $D=\\lfloor c\\sqrt{p}\\rfloor$, for every fixed $c0$ and every endpoint-independent binary filter retaining $\\Omega(D^2)"
+      "published": "2026-09-14T04:47:13+00:00",
+      "ts": 1789361233.0,
+      "summary": "Folding an accumulator with \\(k\\) fresh inputs under a quadratic relation creates \\(k+\\binom{k}{2}\\) mixed terms. Storing them separately makes the intermediate state quadratic in \\(k\\). CauchyFold instead uses a polynomial representation whose size is linear in \\(k\\). Scaled Cauchy coefficients encode all mixed terms as a degree-\\("
+    },
+    {
+      "id": "4971f025ce40",
+      "title": "Efficient Polynomial System Solving via Dixon Resultants: Applications to AO Primitives",
+      "link": "https://eprint.iacr.org/2026/1969",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-10T15:54:54+00:00",
+      "ts": 1789055694.0,
+      "summary": "Solving multivariate polynomial systems is a fundamental problem in cryptanalysis, with increasing relevance in algebraic attacks on arithmetization-oriented (AO) primitives. Current approaches include Gröbner bases and the Sylvester resultant. However, Gröbner basis methods typically rely on FGLM to change the order, which requires a zero-dimensional ideal, whereas the Sylvester resultant elimina"
     },
     {
       "id": "0c016fa822b6",
@@ -745,6 +755,16 @@
       "summary": "What happens when you clear dozens of Trail of Bits engineers’ schedules, pair them with every open-source maintainer they can contact, and unleash the latest frontier models like GPT-5.5-Cyber on critical open-source targets? Thanks to our partnership with OpenAI and its Daybreak initiative, we can report that the impact is hundreds of discovered bugs, 64 pull requests, and 51 issues filed across"
     },
     {
+      "id": "dca81c125828",
+      "title": "A Compact Signature Scheme Based on QC-MDGM Codes",
+      "link": "https://eprint.iacr.org/2026/1290",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-19T12:27:29+00:00",
+      "ts": 1781872049.0,
+      "summary": "Constructing a post-quantum signature scheme that is simultaneously compact and efficient remains a central challenge in code based cryptography. Existing schemes based on turning a zero-knowledge identification scheme into a signature exhibit either large signatures or slow verification procedures, while the design of hash-and-sign schemes has led to constructions such as Wave and MIRANDA, having"
+    },
+    {
       "id": "b588d589c421",
       "title": "Invisible Traces: Subversion Attacks on Batch-Issued Credentials",
       "link": "https://eprint.iacr.org/2026/1229",
@@ -773,16 +793,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "dd722ae20035",
-      "title": "FlipFields-New Building Blocks for Cryptograpic Primitives?",
-      "link": "https://eprint.iacr.org/2026/1088",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-28T21:04:21+00:00",
-      "ts": 1780002261.0,
-      "summary": "$1+1 \\equiv 0$---while looking strange at first glance, this is certainly true in GF(2). In this paper we propose the two field-like structures \\FlipInts\\ and \\FlipPolys\\ as potential alternative building block for crypographic schemes---in particular in the post-quantum setting. Both structures have $2^d$ elements for some positive integer $d$ and are derived from the natural numbers $N$ in the f"
     },
     {
       "id": "1ffc39559d0e",
@@ -855,16 +865,6 @@
       "summary": "Posted by Adam Gavish, Google GenAI Security TeamIndirect prompt injection (IPI) is an evolving threat vector targeting users of complex AI applications with multiple data sources, such as Workspace with Gemini. This technique enables the attacker to influence the behavior of an LLM by injecting malicious instructions into the data or tools used by the LLM as it completes the user’s query. This ma"
     },
     {
-      "id": "610debbdb2d6",
-      "title": "On Optimal Information-Theoretic Security in Symmetric Encryption under Low-Entropy Keys",
-      "link": "https://eprint.iacr.org/2026/646",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-02T12:54:02+00:00",
-      "ts": 1775134442.0,
-      "summary": "Low-entropy keys such as passwords and biometrics are pervasive, yet classical information-theoretic guarantees, such as perfect secrecy and entropic security, cannot generally be achieved in this regime. Honey encryption (HE) and homophonic ciphers (HC) tailor encryption to the message distribution to provide meaningful security, but their analyses do not establish optimal guarantees for arbitrar"
-    },
-    {
       "id": "9bfdcb85397d",
       "title": "VRP 2025 Year in Review",
       "link": "http://security.googleblog.com/2026/03/vrp-2025-year-in-review.html",
@@ -933,6 +933,16 @@
       "published": "2026-02-18T18:28:37+00:00",
       "ts": 1771439317.0,
       "summary": "We present a simple leveled fully homomorphic encryption (FHE) scheme that achieves IND-CCA1 security in the standard model without relying on SNARKs. Our construction combines the gadget trapdoors introduced by Micciancio and Peikert [Eurocrypt 2012] with the GSW leveled FHE scheme [Gentry, Sahai, Waters, Crypto 2013]. We make only minimal changes to GSW to obtain security: ciphertext size remain"
+    },
+    {
+      "id": "e4f64d7fe743",
+      "title": "Orbit: Optimizing Rescale and Bootstrap Placement with Integer Linear Programming Techniques for Secure Inference",
+      "link": "https://eprint.iacr.org/2026/213",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-10T03:24:47+00:00",
+      "ts": 1770693887.0,
+      "summary": "Fully Homomorphic Encryption (FHE) allows computation on encrypted data without decrypting it. In theory, FHE makes privacy-preserving machine learning possible. In practice, however, it remains impractically slow for real workloads. A major source of slowdown is bootstrap operations; in CKKS, a popular FHE scheme for tensor workloads, the slowdown is compounded by scale management and rescale ope"
     },
     {
       "id": "96ed87c2cba3",
@@ -1033,16 +1043,6 @@
       "published": "2025-06-09T18:22:31+00:00",
       "ts": 1749493351.0,
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
-    },
-    {
-      "id": "3176dd3bc44b",
-      "title": "Bootstrapping GBFV with CKKS",
-      "link": "https://eprint.iacr.org/2025/888",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-05-19T07:01:05+00:00",
-      "ts": 1747638065.0,
-      "summary": "Generalized BFV (GBFV) replaces the integer plaintext modulus of BFV with a polynomial plaintext modulus, yielding a flexible tradeoff between precision and SIMD parallelism. This framework encompasses both BFV and CLPX, with CLPX corresponding to the extreme large-precision endpoint where very large plaintext moduli can be supported without increasing the underlying RLWE dimension. However, boots"
     },
     {
       "id": "6984eb306670",
