@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:00:29.286666+00:00",
+  "generated_at": "2026-09-22T17:52:25.313893+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,56 @@
     }
   ],
   "items": [
+    {
+      "id": "99130bb7aad7",
+      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+      "link": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-22T17:03:31+00:00",
+      "ts": 1790096611.0,
+      "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\" The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver"
+    },
+    {
+      "id": "a49fc6138777",
+      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+      "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-22T16:41:12+00:00",
+      "ts": 1790095272.0,
+      "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is"
+    },
+    {
+      "id": "9a8d99de21ed",
+      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+      "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-22T16:14:04+00:00",
+      "ts": 1790093644.0,
+      "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19. The tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in"
+    },
+    {
+      "id": "7e0312852527",
+      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+      "link": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-22T12:30:00+00:00",
+      "ts": 1790080200.0,
+      "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has? A person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May"
+    },
+    {
+      "id": "5b8bbe86f562",
+      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+      "link": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-22T12:29:00+00:00",
+      "ts": 1790080140.0,
+      "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are"
+    },
     {
       "id": "a899e7db5ce2",
       "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
@@ -65,6 +115,26 @@
       "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls. \"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility,\" Checkmarx said. \""
     },
     {
+      "id": "c0bc02317419",
+      "title": "Practical Adaptor Signatures for NP from Online/Offline NIZK",
+      "link": "https://eprint.iacr.org/2026/2155",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T08:26:12+00:00",
+      "ts": 1790065572.0,
+      "summary": "Adaptor signatures enable conditional payments on blockchain networks: a pre-signature is bound to a public instance $Y$ and can be completed into a valid signature by any party knowing a witness $y$ with $\\mathcal{R}(Y,y)=1$, while the pre-signature and full signature together allow the signer to extract $y$. Existing constructions only support specific algebraically-structured relations, lose wi"
+    },
+    {
+      "id": "af22477b9495",
+      "title": "Recovering SNOVA Secret Keys from Biased Vinegar Sampling",
+      "link": "https://eprint.iacr.org/2026/2154",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T08:01:10+00:00",
+      "ts": 1790064070.0,
+      "summary": "The Round-3 SNOVA signer samples vinegar variables, which are elements of $\\mathbb{F}_q$, by reducing uniform byte strings modulo a power of $q$. We show that the resulting bias leaks secret-key information for the six odd-characteristic alternative parameter sets. Even though the leakage is small (the most leaky variables leak at most $0.086$ bits of information), this still leads to efficient ke"
+    },
+    {
       "id": "2b4642c92c13",
       "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
       "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
@@ -105,6 +175,16 @@
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating"
     },
     {
+      "id": "15a0b4e0e6e5",
+      "title": "Algorithms for Computing Affine Equivalence and Self-Equivalence Groups",
+      "link": "https://eprint.iacr.org/2026/2144",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T00:26:35+00:00",
+      "ts": 1790036795.0,
+      "summary": "We study affine and linear equivalence of functions $F,G:\\mathbb{F}_q^n\\to\\mathbb{F}_q^m$. We present practical equivalence algorithms that handle arbitrary functions (any algebraic degree, permutations and non-permutations) and are particularly effective on structured instances with nontrivial self-equivalences, covering most cryptographically relevant cases. We also give a dedicated algorithm fo"
+    },
+    {
       "id": "f953ade6f3c4",
       "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
       "link": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
@@ -125,14 +205,14 @@
       "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory. The primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,"
     },
     {
-      "id": "28174f025f90",
-      "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
-      "link": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-21T16:57:31+00:00",
-      "ts": 1790009851.0,
-      "summary": "Google has been&nbsp;fined €403 million&nbsp;for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which"
+      "id": "afdac7573336",
+      "title": "BitZ: proofs and commitments in arbitrary rings through binary fields",
+      "link": "https://eprint.iacr.org/2026/2141",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-21T15:16:27+00:00",
+      "ts": 1790003787.0,
+      "summary": "We introduce BitZ, a hash-based Polynomial Commitment Scheme (PCS) for committing to multilinear polynomials $\\mathbf{f}$ with coefficients in an arbitrary finitely generated ring $S$, e.g.\\ a finite field $\\mathbb{F}$, the integers $\\mathbb{Z}$, a cyclotomic ring, etc. Moreover, given another arbitrary ring $R$ and a ring homomorphism $\\psi:S\\to R$, BitZ then proves evaluation claims over $R$ for"
     },
     {
       "id": "1d1720323eb8",
@@ -145,26 +225,6 @@
       "summary": "Hackers captured a Flock camera and got a look (alternate link) at the software: While much of the automatic license plate reader&#8217;s (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects people as well as vehicles, license plates, and bicycles. The camera can produce dozens of im"
     },
     {
-      "id": "17a512fe1103",
-      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-      "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-21T14:24:13+00:00",
-      "ts": 1790000653.0,
-      "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not"
-    },
-    {
-      "id": "c5167255db38",
-      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-      "link": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-21T14:15:40+00:00",
-      "ts": 1790000140.0,
-      "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary"
-    },
-    {
       "id": "71c4a4caf94f",
       "title": "SAML: A fractal of bad design",
       "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
@@ -175,36 +235,6 @@
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it&rsquo;s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoni"
     },
     {
-      "id": "d2e0fc806d63",
-      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-      "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-21T08:39:38+00:00",
-      "ts": 1789979978.0,
-      "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,\" Blackpoint Adversary Pursuit Group (APG)"
-    },
-    {
-      "id": "bfb990f46557",
-      "title": "Improved Soundness for Compressed Permutation Oracles and Tight Quantum Preimage and Collision Bounds for the Sponge",
-      "link": "https://eprint.iacr.org/2026/2135",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-21T07:28:54+00:00",
-      "ts": 1789975734.0,
-      "summary": "We give a sharper bound on the error introduced by replacing a random permutation oracle with Carolan’s compressed permutation oracle. Building on Rosmanis’s representation-theoretic approach, we represent exact permutation states in the compressed oracle’s database space, allowing a direct comparison of the two query operations. For a uniform permutation on N points, this comparison bounds the so"
-    },
-    {
-      "id": "dcba71bd61ca",
-      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-      "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-21T06:06:44+00:00",
-      "ts": 1789970804.0,
-      "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks. Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple"
-    },
-    {
       "id": "d4e7a661bd44",
       "title": "Friday Squid Blogging: On Squid Egg Sacs",
       "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html",
@@ -213,16 +243,6 @@
       "published": "2026-09-18T21:06:00+00:00",
       "ts": 1789765560.0,
       "summary": "Short essay about squid egg sacs. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
-      "id": "f0e42567b469",
-      "title": "Indifferentiability of the Sum of Two Permutations: Tight 3n/4 Security for the Uniform Simulator and a New Simulator for 4n/5 Security",
-      "link": "https://eprint.iacr.org/2026/2092",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-18T13:05:43+00:00",
-      "ts": 1789736743.0,
-      "summary": "We study the regular indifferentiability of the sum of two n-bit permutations. Previous work proved 2n/3-bit security and gave a 5n/6-bit attack against the uniform simulator. We prove 3n/4-bit se curity for the simulator and give a matching attack. Our proof bounds the KL divergence between response distributions by tracking the bias in unrevealed construction values through their conditional dis"
     },
     {
       "id": "9fd5242ee937",
@@ -465,26 +485,6 @@
       "summary": "Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I&#8217;m still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing guidance; a multi-stage ballistic missi"
     },
     {
-      "id": "56db488c819a",
-      "title": "The Residue Is the Resource: Exact Fresh-State Complexity, Reconstruction Limits, and Challenge Design in Folding",
-      "link": "https://eprint.iacr.org/2026/2019",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-14T08:19:53+00:00",
-      "ts": 1789373993.0,
-      "summary": "Folding protocols cross public-randomness boundaries: input-dependent information must be fixed before a challenge is known, while the required output may depend on it. We ask how much state must be retained after accounting for information already available at the boundary. With unrestricted prechallenge preprocessing and linear postchallenge readout, a retained representation is feasible exactly"
-    },
-    {
-      "id": "2a9ea3219b5d",
-      "title": "CauchyFold: Residue-Optimal High-Arity Lattice Folding via Scaled Cauchy Challenges",
-      "link": "https://eprint.iacr.org/2026/2011",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-14T04:47:13+00:00",
-      "ts": 1789361233.0,
-      "summary": "Folding an accumulator with \\(k\\) fresh inputs under a quadratic relation creates \\(k+\\binom{k}{2}\\) mixed terms. Storing them separately makes the intermediate state quadratic in \\(k\\). CauchyFold instead uses a polynomial representation whose size is linear in \\(k\\). Scaled Cauchy coefficients encode all mixed terms as a degree-\\("
-    },
-    {
       "id": "aed1d4fafb12",
       "title": "Data-strophy: When Your Integrity Goes Wild, So Does Your Data!",
       "link": "https://eprint.iacr.org/2026/1994",
@@ -493,16 +493,6 @@
       "published": "2026-09-12T14:58:55+00:00",
       "ts": 1789225135.0,
       "summary": "Proton is a popular security and privacy service provider with a large user base spanning both organizations and individuals. Proton Docs/Sheets support real-time collaborative document editing while claiming to provide end-to-end security. We analyze the cryptographic design and the collaborative editing protocol of Proton Docs/Sheets inspecting the open-source Web client and webpage code. We dem"
-    },
-    {
-      "id": "4971f025ce40",
-      "title": "Efficient Polynomial System Solving via Dixon Resultants: Applications to AO Primitives",
-      "link": "https://eprint.iacr.org/2026/1969",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-10T15:54:54+00:00",
-      "ts": 1789055694.0,
-      "summary": "Solving multivariate polynomial systems is a fundamental problem in cryptanalysis, with increasing relevance in algebraic attacks on arithmetization-oriented (AO) primitives. Current approaches include Gröbner bases and the Sylvester resultant. However, Gröbner basis methods typically rely on FGLM to change the order, which requires a zero-dimensional ideal, whereas the Sylvester resultant elimina"
     },
     {
       "id": "0c016fa822b6",
@@ -605,6 +595,26 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
+      "id": "4b72ac139d8a",
+      "title": "Ideal Pseudorandom Code, Revisited",
+      "link": "https://eprint.iacr.org/2026/1657",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-11T12:03:06+00:00",
+      "ts": 1786449786.0,
+      "summary": "Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composabl"
+    },
+    {
+      "id": "98d357cc6bd4",
+      "title": "D-James: Ultra Short Multivariate Signatures",
+      "link": "https://eprint.iacr.org/2026/1650",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-10T16:15:46+00:00",
+      "ts": 1786378546.0,
+      "summary": "Multivariate signature schemes are among the few post-quantum candidates capable of providing very short signatures, but designing secure constructions has proven challenging. HFE-based schemes such as G$e$MSS were compromised by algebraic MinRank attacks. This motivates the HFE$_\\text{IP}^-$ framework, which combines IP and minus modifiers to address these attacks. We introduce James and D-James,"
+    },
+    {
       "id": "fe4f47339d9c",
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
@@ -685,6 +695,16 @@
       "summary": "Le 14 juillet 2026, à l'occasion de sa mise à jour mensuelle, Microsoft a publié, entre autres, des correctifs pour deux vulnérabilités critiques affectant SharePoint. Les vulnérabilités CVE-2026-50522 et CVE-2026-58644 permettent à un attaquant non authentifié d'exécuter du code arbitraire à..."
     },
     {
+      "id": "087b1a071e96",
+      "title": "Provable Recovery of RSA Private Exponents below $N^{11/42-\\varepsilon}$",
+      "link": "https://eprint.iacr.org/2026/1478",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-20T05:34:15+00:00",
+      "ts": 1784525655.0,
+      "summary": "Wiener's continued-fraction attack gives the classical provable bound \\(d0\\), balanced RSA with \\(e=\\Theta(N)\\) can be factored deterministically in polynomial time whenever \\(d\\leq N^{11/42-\\varepsilon}\\)."
+    },
+    {
       "id": "dbacd69a3b65",
       "title": "Microsoft Patches a Record 570 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
@@ -753,16 +773,6 @@
       "published": "2026-06-22T16:50:00+00:00",
       "ts": 1782147000.0,
       "summary": "What happens when you clear dozens of Trail of Bits engineers’ schedules, pair them with every open-source maintainer they can contact, and unleash the latest frontier models like GPT-5.5-Cyber on critical open-source targets? Thanks to our partnership with OpenAI and its Daybreak initiative, we can report that the impact is hundreds of discovered bugs, 64 pull requests, and 51 issues filed across"
-    },
-    {
-      "id": "dca81c125828",
-      "title": "A Compact Signature Scheme Based on QC-MDGM Codes",
-      "link": "https://eprint.iacr.org/2026/1290",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-19T12:27:29+00:00",
-      "ts": 1781872049.0,
-      "summary": "Constructing a post-quantum signature scheme that is simultaneously compact and efficient remains a central challenge in code based cryptography. Existing schemes based on turning a zero-knowledge identification scheme into a signature exhibit either large signatures or slow verification procedures, while the design of hash-and-sign schemes has led to constructions such as Wave and MIRANDA, having"
     },
     {
       "id": "09b719e50e41",
@@ -863,6 +873,16 @@
       "published": "2026-03-10T05:41:31+00:00",
       "ts": 1773121291.0,
       "summary": "We explore the use of level structures to generalize the SQIsign signature scheme. We give a general framework where, given the public key and the commitment, the challenge is to exhibit an isogeny between them with an additional requirement, namely to map a chosen level structure to nother. We then instantiate the framework using 1-dimensional and 2-dimensional isogenies. In doing that we provide"
+    },
+    {
+      "id": "20465f67d63b",
+      "title": "Naor-Yung Transform for IND-CCA Probing Security with Lattice Instantiations",
+      "link": "https://eprint.iacr.org/2026/459",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-05T10:30:27+00:00",
+      "ts": 1772706627.0,
+      "summary": "In this work, we propose novel security notions for encryption schemes that simulate an adversary in the black-box model equipped with additional side-channel power. More concretely, the adversary is allowed to probe values of the secret-key sensitive algorithms, i.e. key generation and decryption. We then prove a generalization of the well-known Naor-Yung (NY) transform, generically lifting IND-C"
     },
     {
       "id": "b7ffc9dc8c13",
@@ -985,26 +1005,6 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
-      "id": "c4a7b13d0949",
-      "title": "SoK: Blockchain Oracles Between Theory and Practice",
-      "link": "https://eprint.iacr.org/2025/2106",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-11-16T14:47:05+00:00",
-      "ts": 1763304425.0,
-      "summary": "Oracle services enable dApps to access real-world data and respond to events happening outside the blockchain ecosystem. A large number of academic and industrial oracles have emerged, capturing various designs, capabilities, and security assumptions/guarantees. This rapid development makes it challenging to comprehend existing solutions, understand their trade-offs, and build on them. In this pap"
-    },
-    {
-      "id": "e7565d0a7c6c",
-      "title": "Compact, Efficient and CCA-Secure Updatable Encryption from Isogenies",
-      "link": "https://eprint.iacr.org/2025/1853",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-10-07T12:55:18+00:00",
-      "ts": 1759841718.0,
-      "summary": "Updatable Encryption (UE) allows ciphertexts to be updated under new keys without decryption, enabling efficient key rotation. Constructing post-quantum UE with strong security guarantees is challenging: the only known CCA-secure scheme, COM-UE, uses bitwise encryption, resulting in large ciphertexts and high computational costs. We introduce $\\mathsf{DINE}_\\ell$, a family of compact and efficient"
-    },
-    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1055,14 +1055,14 @@
       "summary": "In this paper we propose a constant time lattice reduction algorithm for integral dimension-4 lattices. Motivated by its application in the SQIsign post-quantum signature scheme, we provide for the first time a constant time LLL-like algorithm with guarantees on the length of the shortest output vector. We implemented our algorithm and ensured through various tools that it indeed operates in const"
     },
     {
-      "id": "9682149b0726",
-      "title": "A Tool for Fast and Secure LWE Parameter Selection: the FHE case",
-      "link": "https://eprint.iacr.org/2024/1895",
+      "id": "464bc1e12d9d",
+      "title": "Fine-Grained Non-Interactive Key-Exchange without Idealized Assumptions, and Lower Bounds",
+      "link": "https://eprint.iacr.org/2024/1784",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2024-11-21T20:52:41+00:00",
-      "ts": 1732222361.0,
-      "summary": "The field of Fully Homomorphic Encryption (FHE) has seen many theoretical and computational advances in recent years, bringing the technology closer to practicality than ever before. For this reason, practitioners in related fields, such as machine learning, are increasingly interested in using FHE to provide privacy to their applications. Despite this progress, selecting secure and efficient para"
+      "published": "2024-11-01T11:41:45+00:00",
+      "ts": 1730461305.0,
+      "summary": "In this paper, we study multi-party non-interactive key exchange (NIKE) in the fine-grained setting. More precisely, we propose three multi-party NIKE schemes in three computation models, namely, the bounded parallel-time, bounded time, and bounded storage models. Their security is based on a very mild assumption (e.g., NC1 ⊊ ⊕L/poly) or even without any complexity assumption. This improves the re"
     }
   ]
 }
