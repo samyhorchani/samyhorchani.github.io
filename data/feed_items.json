@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T20:45:57.686202+00:00",
+  "generated_at": "2026-09-22T23:25:34.413226+00:00",
   "count": 105,
   "errors": [
     {
@@ -795,6 +795,16 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
+      "id": "19510382d9fb",
+      "title": "On Arithmetic Invariants for Permutation Equivalence",
+      "link": "https://eprint.iacr.org/2026/995",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-19T18:05:30+00:00",
+      "ts": 1779213930.0,
+      "summary": "We give an efficiently computable invariant we call the square class invariant for the (Signed) Permutation Code Equivalence ((S)PCE) problem, that was previously not recognised in coding theory, which arises from the arithmetic of quadratic forms over finite fields. Our invariant naturally yields a distinguisher for the decision version of (S)PCE as defined at Eurocrypt 2025 by Albrecht, Benčina "
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -1043,16 +1053,6 @@
       "published": "2025-03-01T16:53:30+00:00",
       "ts": 1740848010.0,
       "summary": "This is a cryptography blog and I always feel the need to apologize for any post that isn&#8217;t &#8220;straight cryptography.&#8221; I&#8217;m actually getting a little tired of apologizing for it (though if you want some hard-core cryptography content, there&#8217;s plenty here and here.) Sometimes I have to remind my colleagues that out in the real &#8230; Continue reading Dear Apple: add &#82"
-    },
-    {
-      "id": "8b02e3cb0389",
-      "title": "Constant time lattice reduction in dimension 4 with application to SQIsign",
-      "link": "https://eprint.iacr.org/2025/027",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-01-08T06:45:18+00:00",
-      "ts": 1736318718.0,
-      "summary": "In this paper we propose a constant time lattice reduction algorithm for integral dimension-4 lattices. Motivated by its application in the SQIsign post-quantum signature scheme, we provide for the first time a constant time LLL-like algorithm with guarantees on the length of the shortest output vector. We implemented our algorithm and ensured through various tools that it indeed operates in const"
     },
     {
       "id": "464bc1e12d9d",
