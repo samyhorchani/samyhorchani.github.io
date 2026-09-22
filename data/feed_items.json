@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T07:11:10.884520+00:00",
+  "generated_at": "2026-09-22T13:00:29.286666+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,66 @@
     }
   ],
   "items": [
+    {
+      "id": "a899e7db5ce2",
+      "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
+      "link": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-22T11:45:00+00:00",
+      "ts": 1790077500.0,
+      "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows. Now in its second year, the harder part of DORA is"
+    },
+    {
+      "id": "054e30b72b1f",
+      "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+      "link": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-22T11:38:40+00:00",
+      "ts": 1790077120.0,
+      "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled. The bug, tracked as&nbsp;CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine."
+    },
+    {
+      "id": "dbe97a0054a4",
+      "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+      "link": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-22T11:17:41+00:00",
+      "ts": 1790075861.0,
+      "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa. The flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been"
+    },
+    {
+      "id": "e1f07a200224",
+      "title": "GPT-6 Astra Breaks an Old Enigma Message",
+      "link": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-22T11:02:45+00:00",
+      "ts": 1790074965.0,
+      "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
+    },
+    {
+      "id": "2b4f503b716f",
+      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+      "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-22T09:38:18+00:00",
+      "ts": 1790069898.0,
+      "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls. \"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility,\" Checkmarx said. \""
+    },
+    {
+      "id": "2b4642c92c13",
+      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+      "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-22T07:52:03+00:00",
+      "ts": 1790063523.0,
+      "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers"
+    },
     {
       "id": "b140461e91c5",
       "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
@@ -32,7 +92,7 @@
       "category": "veille",
       "published": "2026-09-22T06:03:14+00:00",
       "ts": 1790056994.0,
-      "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server. WordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is"
+      "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server. WordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and called \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is"
     },
     {
       "id": "8d1b2036f15b",
@@ -115,26 +175,6 @@
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it&rsquo;s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoni"
     },
     {
-      "id": "46354f1e5217",
-      "title": "Too Small to Hide: Single-Trace Key Recovery from ML-KEM Key Generation",
-      "link": "https://eprint.iacr.org/2026/2137",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-21T09:57:35+00:00",
-      "ts": 1789984655.0,
-      "summary": "Key generation in ML-KEM (CRYSTALS-Kyber) samples a short secret from a centered binomial distribution (CBD) and immediately transforms it with the number-theoretic transform (NTT). Each execution draws fresh randomness, so an attacker obtains a single trace and cannot average. We show that one power trace of the optimized pqm4 implementation on an Arm Cortex-M4 suffices, and that the two operatio"
-    },
-    {
-      "id": "b9e1ee0327d8",
-      "title": "MAMBA-Frost: A Lattice KEM from Learning With Quantization",
-      "link": "https://eprint.iacr.org/2026/2136",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-21T08:46:34+00:00",
-      "ts": 1789980394.0,
-      "summary": "The Learning With Errors (LWE) problem provides a conservative and well-established security foundation for lattice-based cryptography, while Learning With Rounding (LWR) improves bandwidth efficiency through deterministic rounding. However, the rounding noise in LWR is inherently correlated with the hidden linear term, preventing tight and sample-preserving reductions to standard LWE for polynomi"
-    },
-    {
       "id": "d2e0fc806d63",
       "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
       "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
@@ -155,16 +195,6 @@
       "summary": "We give a sharper bound on the error introduced by replacing a random permutation oracle with Carolan’s compressed permutation oracle. Building on Rosmanis’s representation-theoretic approach, we represent exact permutation states in the compressed oracle’s database space, allowing a direct comparison of the two query operations. For a uniform permutation on N points, this comparison bounds the so"
     },
     {
-      "id": "a61fa133af99",
-      "title": "ANSA-IBS: Identity-Based Signatures from Annular NTRU Trapdoors and Bimodal Fiat-Shamir with Aborts",
-      "link": "https://eprint.iacr.org/2026/2134",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-21T06:18:04+00:00",
-      "ts": 1789971484.0,
-      "summary": "We give a lattice identity-based signature scheme from annular NTRU trapdoors and Fiat--Shamir with aborts (FSwA). Countered hashing maps each identity to its first invertible DLP/NTRU syndrome $a$. Extraction returns a short witness to $s_0+s_1h=a\\bmod q$, and signing normalizes this relation to a fixed-target two-response equation with public commitment recovery. Gärtner's iterative rejection me"
-    },
-    {
       "id": "dcba71bd61ca",
       "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
       "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
@@ -173,56 +203,6 @@
       "published": "2026-09-21T06:06:44+00:00",
       "ts": 1789970804.0,
       "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks. Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple"
-    },
-    {
-      "id": "1aebe322bddc",
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-19T18:36:53+00:00",
-      "ts": 1789843013.0,
-      "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system. This was security research,"
-    },
-    {
-      "id": "0a207c276140",
-      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-      "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-19T13:28:48+00:00",
-      "ts": 1789824528.0,
-      "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is"
-    },
-    {
-      "id": "61f10936b04b",
-      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-      "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-19T13:28:41+00:00",
-      "ts": 1789824521.0,
-      "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in"
-    },
-    {
-      "id": "adae62fe68f0",
-      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-19T09:31:17+00:00",
-      "ts": 1789810277.0,
-      "summary": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. \"SolarWinds"
-    },
-    {
-      "id": "d8d23b0e9f55",
-      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
-      "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-19T08:18:54+00:00",
-      "ts": 1789805934.0,
-      "summary": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution. \"Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote"
     },
     {
       "id": "d4e7a661bd44",
@@ -293,16 +273,6 @@
       "published": "2026-09-16T11:25:26+00:00",
       "ts": 1789557926.0,
       "summary": "New variant of an old scam: Use the framing of a CAPTCHA to get an unsuspecting user to download and run a malicious program."
-    },
-    {
-      "id": "1def8c2629e2",
-      "title": "Trace-Factored BigSwitch for Matrix-Friendly FHE",
-      "link": "https://eprint.iacr.org/2026/2058",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-16T07:17:38+00:00",
-      "ts": 1789543058.0,
-      "summary": "Evaluation keys represent a primary memory and initialization bottleneck in matrix-native fully homomorphic encryption (FHE). In the Gentry–Lee (GL) framework, each Trace product yields a four component ciphertext whose BigSwitch procedure requires two extended-ring keys, dominated by a massive product-secret key (sXsY → sX). We present Trace-Factored BigSwitch (TFB), which structurally eliminates"
     },
     {
       "id": "640c8b26cb59",
@@ -405,6 +375,26 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur."
     },
     {
+      "id": "efc587eefcf9",
+      "title": "Multiples vulnérabilités dans les produits Mozilla (16 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1183/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-16T00:00:00+00:00",
+      "ts": 1789516800.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "a93ed8b364f1",
+      "title": "Vulnérabilité dans Netgate pfSense (16 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1181/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-16T00:00:00+00:00",
+      "ts": 1789516800.0,
+      "summary": "Une vulnérabilité a été découverte dans Netgate pfSense. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
+    },
+    {
       "id": "61dde741919b",
       "title": "25 Years of Mass Surveillance Is Enough",
       "link": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
@@ -433,16 +423,6 @@
       "published": "2026-09-15T10:16:24+00:00",
       "ts": 1789467384.0,
       "summary": "Really interesting story about Harvest, a specialized code breaking computer built in the 1960s by IBM for the NSA."
-    },
-    {
-      "id": "d6e078b500d4",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (15 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1173/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-15T00:00:00+00:00",
-      "ts": 1789430400.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur."
     },
     {
       "id": "b27cb57c89b9",
@@ -485,14 +465,14 @@
       "summary": "Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I&#8217;m still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing guidance; a multi-stage ballistic missi"
     },
     {
-      "id": "17b3fb7ba633",
-      "title": "Microsoft’s Patching",
-      "link": "https://www.schneier.com/blog/archives/2026/09/microsofts-patching.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-14T11:03:26+00:00",
-      "ts": 1789383806.0,
-      "summary": "Once a month, Microsoft pushes a security update to all Windows users. Tomorrow&#8217;s is a new record: Microsoft&#8217;s patch for September is a doozy, with a record number of roughly 972 vulnerabilities fixed and 112 of them meeting the high critical-severity threshold. It was only two months ago that Microsoft patched a then-record 570 vulnerabilities. Then, last month, Microsoft patched some"
+      "id": "56db488c819a",
+      "title": "The Residue Is the Resource: Exact Fresh-State Complexity, Reconstruction Limits, and Challenge Design in Folding",
+      "link": "https://eprint.iacr.org/2026/2019",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-14T08:19:53+00:00",
+      "ts": 1789373993.0,
+      "summary": "Folding protocols cross public-randomness boundaries: input-dependent information must be fixed before a challenge is known, while the required output may depend on it. We ask how much state must be retained after accounting for information already available at the boundary. With unrestricted prechallenge preprocessing and linear postchallenge readout, a retained representation is feasible exactly"
     },
     {
       "id": "2a9ea3219b5d",
@@ -503,6 +483,16 @@
       "published": "2026-09-14T04:47:13+00:00",
       "ts": 1789361233.0,
       "summary": "Folding an accumulator with \\(k\\) fresh inputs under a quadratic relation creates \\(k+\\binom{k}{2}\\) mixed terms. Storing them separately makes the intermediate state quadratic in \\(k\\). CauchyFold instead uses a polynomial representation whose size is linear in \\(k\\). Scaled Cauchy coefficients encode all mixed terms as a degree-\\("
+    },
+    {
+      "id": "aed1d4fafb12",
+      "title": "Data-strophy: When Your Integrity Goes Wild, So Does Your Data!",
+      "link": "https://eprint.iacr.org/2026/1994",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-12T14:58:55+00:00",
+      "ts": 1789225135.0,
+      "summary": "Proton is a popular security and privacy service provider with a large user base spanning both organizations and individuals. Proton Docs/Sheets support real-time collaborative document editing while claiming to provide end-to-end security. We analyze the cryptographic design and the collaborative editing protocol of Proton Docs/Sheets inspecting the open-source Web client and webpage code. We dem"
     },
     {
       "id": "4971f025ce40",
@@ -535,16 +525,6 @@
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
     },
     {
-      "id": "b3145b49cec9",
-      "title": "Multiples vulnérabilités dans Mattermost Server (08 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1128/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-08T00:00:00+00:00",
-      "ts": 1788825600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance."
-    },
-    {
       "id": "94f014263cfc",
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
       "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
@@ -553,16 +533,6 @@
       "published": "2026-09-01T22:40:28+00:00",
       "ts": 1788302428.0,
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity a"
-    },
-    {
-      "id": "d18c20f947a1",
-      "title": "Multiples vulnérabilités dans Mattermost Server (01 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1098/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-01T00:00:00+00:00",
-      "ts": 1788220800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité."
     },
     {
       "id": "a3160ec17f8b",
@@ -705,6 +675,16 @@
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a"
     },
     {
+      "id": "22faed48a81a",
+      "title": "Multiples vulnérabilités dans Microsoft Sharepoint (22 juillet 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-008/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-07-22T00:00:00+00:00",
+      "ts": 1784678400.0,
+      "summary": "Le 14 juillet 2026, à l'occasion de sa mise à jour mensuelle, Microsoft a publié, entre autres, des correctifs pour deux vulnérabilités critiques affectant SharePoint. Les vulnérabilités CVE-2026-50522 et CVE-2026-58644 permettent à un attaquant non authentifié d'exécuter du code arbitraire à..."
+    },
+    {
       "id": "dbacd69a3b65",
       "title": "Microsoft Patches a Record 570 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
@@ -755,6 +735,16 @@
       "summary": "Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography. On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantu"
     },
     {
+      "id": "f4eff3749958",
+      "title": "Forensic Cryptanalysis of the Backdoored UA-8295 Message Terminal",
+      "link": "https://eprint.iacr.org/2026/1309",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-23T11:53:56+00:00",
+      "ts": 1782215636.0,
+      "summary": "Nation State Agencies go to great lengths to obtain signal intelligence, including backdooring cryptographic standards and equipment. Although the existence of these backdoor efforts is common knowledge, only few of known backdoored systems have been publicly analysed. In this paper we present the first detailed forensic cryptanalysis of the backdoored UA-8295 message terminal and we try to answer"
+    },
+    {
       "id": "bc3263969ac7",
       "title": "Introducing Patch the Planet",
       "link": "https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/",
@@ -775,16 +765,6 @@
       "summary": "Constructing a post-quantum signature scheme that is simultaneously compact and efficient remains a central challenge in code based cryptography. Existing schemes based on turning a zero-knowledge identification scheme into a signature exhibit either large signatures or slow verification procedures, while the design of hash-and-sign schemes has led to constructions such as Wave and MIRANDA, having"
     },
     {
-      "id": "b588d589c421",
-      "title": "Invisible Traces: Subversion Attacks on Batch-Issued Credentials",
-      "link": "https://eprint.iacr.org/2026/1229",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-10T12:22:36+00:00",
-      "ts": 1781094156.0,
-      "summary": "All EU member states are required to roll out a digital identity system - the European Digital Identity (EUDI) wallet - by the end of 2026. Strong privacy is at the core of the underlying regulation, which mandates the EUDI wallet to support selective disclosure and unlinkability. The wallet currently being developed relies on the batch issuance of one-time ECDSA credentials that sign attributes t"
-    },
-    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -803,16 +783,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "1ffc39559d0e",
-      "title": "LoTRS: Practical Post-Quantum Structured Threshold Ring Signatures from Lattices",
-      "link": "https://eprint.iacr.org/2026/974",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-17T12:13:59+00:00",
-      "ts": 1779020039.0,
-      "summary": "Threshold ring signatures (TRS) enable a quorum of $T$ users to jointly sign a message while hiding which $T$ of the $N$ ring members participated, supporting privacy-preserving endorsement in ad-hoc settings. That said, many deployments do not need anonymity over every $T$-subset of a ring: when the approval pattern is already public, a structured ring can be sufficient. In this work, we first fo"
     },
     {
       "id": "e867d3e3dacb",
@@ -885,6 +855,16 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
+      "id": "25b31cc2e5b4",
+      "title": "The SQInstructor: a guide to SQIsign and the Deuring Correspondence with level structures",
+      "link": "https://eprint.iacr.org/2026/493",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-10T05:41:31+00:00",
+      "ts": 1773121291.0,
+      "summary": "We explore the use of level structures to generalize the SQIsign signature scheme. We give a general framework where, given the public key and the commitment, the challenge is to exhibit an isogeny between them with an additional requirement, namely to map a chosen level structure to nother. We then instantiate the framework using 1-dimensional and 2-dimensional isogenies. In doing that we provide"
+    },
+    {
       "id": "b7ffc9dc8c13",
       "title": "Anonymous credentials: an illustrated primer",
       "link": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
@@ -925,26 +905,6 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
-      "id": "bbc8c286e8d4",
-      "title": "GG-GSW: Chosen-Ciphertext Secure Leveled FHE From Gadget Trapdoors",
-      "link": "https://eprint.iacr.org/2026/316",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-18T18:28:37+00:00",
-      "ts": 1771439317.0,
-      "summary": "We present a simple leveled fully homomorphic encryption (FHE) scheme that achieves IND-CCA1 security in the standard model without relying on SNARKs. Our construction combines the gadget trapdoors introduced by Micciancio and Peikert [Eurocrypt 2012] with the GSW leveled FHE scheme [Gentry, Sahai, Waters, Crypto 2013]. We make only minimal changes to GSW to obtain security: ciphertext size remain"
-    },
-    {
-      "id": "e4f64d7fe743",
-      "title": "Orbit: Optimizing Rescale and Bootstrap Placement with Integer Linear Programming Techniques for Secure Inference",
-      "link": "https://eprint.iacr.org/2026/213",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-10T03:24:47+00:00",
-      "ts": 1770693887.0,
-      "summary": "Fully Homomorphic Encryption (FHE) allows computation on encrypted data without decrypting it. In theory, FHE makes privacy-preserving machine learning possible. In practice, however, it remains impractically slow for real workloads. A major source of slowdown is bootstrap operations; in CKKS, a popular FHE scheme for tensor workloads, the slowdown is compounded by scale management and rescale ope"
-    },
-    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -963,6 +923,16 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
+    },
+    {
+      "id": "89d463cfdda8",
+      "title": "IND-CCA Lattice Threshold KEM under 30 KiB",
+      "link": "https://eprint.iacr.org/2026/021",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-06T17:35:55+00:00",
+      "ts": 1767720955.0,
+      "summary": "At Asiacrypt'25, Lapiha and Prest proposed a lattice-based IND-CCA threshold key-encapsulation mechanism (TKEM) obtained from a threshold identity-based encryption (TIBE) and a signature scheme. Their construction relies on a variant of the Boneh-Canetti-Halevi-Katz (BCHK) transform, instantiated with a lattice-based TIBE. However it suffers from large ciphertexts at 540 KiB for $\\kappa = 128$ bit"
     },
     {
       "id": "d89b8a28e282",
@@ -1055,6 +1025,16 @@
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
     },
     {
+      "id": "e61417638763",
+      "title": "Amplifying Randomized Encodings & Applications",
+      "link": "https://eprint.iacr.org/2025/778",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-04-30T16:08:33+00:00",
+      "ts": 1746029313.0,
+      "summary": "A randomized encoding for a promise problem is a randomized reduction whose outcome distribution on input $x$ can be simulated within some distance $d$, called privacy, using only one bit of information about $x$: whether it is a YES or NO instance. The encoding is one-sided if this property holds only for YES instances. Our main contribution is showing that (classical and quantum) one-sided rando"
+    },
+    {
       "id": "6984eb306670",
       "title": "Dear Apple: add “Disappearing Messages” to iMessage right now",
       "link": "https://blog.cryptographyengineering.com/2025/03/01/dear-apple-add-disappearing-messages-to-imessage-right-now/",
@@ -1063,6 +1043,26 @@
       "published": "2025-03-01T16:53:30+00:00",
       "ts": 1740848010.0,
       "summary": "This is a cryptography blog and I always feel the need to apologize for any post that isn&#8217;t &#8220;straight cryptography.&#8221; I&#8217;m actually getting a little tired of apologizing for it (though if you want some hard-core cryptography content, there&#8217;s plenty here and here.) Sometimes I have to remind my colleagues that out in the real &#8230; Continue reading Dear Apple: add &#82"
+    },
+    {
+      "id": "8b02e3cb0389",
+      "title": "Constant time lattice reduction in dimension 4 with application to SQIsign",
+      "link": "https://eprint.iacr.org/2025/027",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-01-08T06:45:18+00:00",
+      "ts": 1736318718.0,
+      "summary": "In this paper we propose a constant time lattice reduction algorithm for integral dimension-4 lattices. Motivated by its application in the SQIsign post-quantum signature scheme, we provide for the first time a constant time LLL-like algorithm with guarantees on the length of the shortest output vector. We implemented our algorithm and ensured through various tools that it indeed operates in const"
+    },
+    {
+      "id": "9682149b0726",
+      "title": "A Tool for Fast and Secure LWE Parameter Selection: the FHE case",
+      "link": "https://eprint.iacr.org/2024/1895",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-11-21T20:52:41+00:00",
+      "ts": 1732222361.0,
+      "summary": "The field of Fully Homomorphic Encryption (FHE) has seen many theoretical and computational advances in recent years, bringing the technology closer to practicality than ever before. For this reason, practitioners in related fields, such as machine learning, are increasingly interested in using FHE to provide privacy to their applications. Despite this progress, selecting secure and efficient para"
     }
   ]
 }
