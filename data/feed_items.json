@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T22:23:40.888015+00:00",
+  "generated_at": "2026-09-22T01:23:31.955073+00:00",
   "count": 105,
   "errors": [
     {
@@ -85,6 +85,26 @@
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it&rsquo;s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoni"
     },
     {
+      "id": "46354f1e5217",
+      "title": "Too Small to Hide: Single-Trace Key Recovery from ML-KEM Key Generation",
+      "link": "https://eprint.iacr.org/2026/2137",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-21T09:57:35+00:00",
+      "ts": 1789984655.0,
+      "summary": "Key generation in ML-KEM (CRYSTALS-Kyber) samples a short secret from a centered binomial distribution (CBD) and immediately transforms it with the number-theoretic transform (NTT). Each execution draws fresh randomness, so an attacker obtains a single trace and cannot average. We show that one power trace of the optimized pqm4 implementation on an Arm Cortex-M4 suffices, and that the two operatio"
+    },
+    {
+      "id": "b9e1ee0327d8",
+      "title": "MAMBA-Frost: A Lattice KEM from Learning With Quantization",
+      "link": "https://eprint.iacr.org/2026/2136",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-21T08:46:34+00:00",
+      "ts": 1789980394.0,
+      "summary": "The Learning With Errors (LWE) problem provides a conservative and well-established security foundation for lattice-based cryptography, while Learning With Rounding (LWR) improves bandwidth efficiency through deterministic rounding. However, the rounding noise in LWR is inherently correlated with the hidden linear term, preventing tight and sample-preserving reductions to standard LWE for polynomi"
+    },
+    {
       "id": "d2e0fc806d63",
       "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
       "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
@@ -95,6 +115,26 @@
       "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,\" Blackpoint Adversary Pursuit Group (APG)"
     },
     {
+      "id": "bfb990f46557",
+      "title": "Improved Soundness for Compressed Permutation Oracles and Tight Quantum Preimage and Collision Bounds for the Sponge",
+      "link": "https://eprint.iacr.org/2026/2135",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-21T07:28:54+00:00",
+      "ts": 1789975734.0,
+      "summary": "We give a sharper bound on the error introduced by replacing a random permutation oracle with Carolan’s compressed permutation oracle. Building on Rosmanis’s representation-theoretic approach, we represent exact permutation states in the compressed oracle’s database space, allowing a direct comparison of the two query operations. For a uniform permutation on N points, this comparison bounds the so"
+    },
+    {
+      "id": "a61fa133af99",
+      "title": "ANSA-IBS: Identity-Based Signatures from Annular NTRU Trapdoors and Bimodal Fiat-Shamir with Aborts",
+      "link": "https://eprint.iacr.org/2026/2134",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-21T06:18:04+00:00",
+      "ts": 1789971484.0,
+      "summary": "We give a lattice identity-based signature scheme from annular NTRU trapdoors and Fiat--Shamir with aborts (FSwA). Countered hashing maps each identity to its first invertible DLP/NTRU syndrome $a$. Extraction returns a short witness to $s_0+s_1h=a\\bmod q$, and signing normalizes this relation to a fixed-target two-response equation with public commitment recovery. Gärtner's iterative rejection me"
+    },
+    {
       "id": "dcba71bd61ca",
       "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
       "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
@@ -103,6 +143,16 @@
       "published": "2026-09-21T06:06:44+00:00",
       "ts": 1789970804.0,
       "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks. Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple"
+    },
+    {
+      "id": "a60dd95e2feb",
+      "title": "How to Fold Linear Error-Correcting Codes with Optimal Proximity Gaps",
+      "link": "https://eprint.iacr.org/2026/2133",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-21T03:41:13+00:00",
+      "ts": 1789962073.0,
+      "summary": "Folding is a core technique in building efficient code-based polynomial commitment schemes with polylogarithmic proof size and verification. To date, there are two families of linear error-correcting codes that have been known to allow folding, i.e., Reed-Solomon (RS) codes and foldable codes. However, neither admits optimal proximity gaps, which constitutes a fundamental bottleneck in the resulti"
     },
     {
       "id": "1aebe322bddc",
@@ -213,16 +263,6 @@
       "published": "2026-09-18T11:00:00+00:00",
       "ts": 1789729200.0,
       "summary": "Security firms have published numerous blog posts describing how they pointed their agent harness at a codebase and found dozens of bugs (we’re one of them). However, these posts tend to focus on agentic code review, which is just one aspect of how we use AI in our security reviews. We want to give a different perspective: before code review even starts, agents now allow us to build custom tooling"
-    },
-    {
-      "id": "7fe994c00e9f",
-      "title": "Symmetry-Graded Digit Extraction Framework for Faster BGV Bootstrapping",
-      "link": "https://eprint.iacr.org/2026/2076",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-17T20:25:21+00:00",
-      "ts": 1789676721.0,
-      "summary": "Bootstrapping is the bottleneck of BGV/BFV homomorphic encryption, and for large plaintext primes $p$ its cost is dominated by digit extraction. Recently, this stage has been accelerated along two separate routes. The first lowers the degree of the digit-extraction polynomial: the bounded-support construction of Ma et al. (Eurocrypt'24) confines its support, and the order-four filter of Xiong et a"
     },
     {
       "id": "fa387c6a8f8b",
@@ -595,16 +635,6 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
-      "id": "dcbc32eeaf3c",
-      "title": "From Toy to Instrument: Seven Years of Verifpal",
-      "link": "https://eprint.iacr.org/2026/1654",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-11T01:18:04+00:00",
-      "ts": 1786411084.0,
-      "summary": "Symbolic protocol verifiers must make a difficult tradeoff: their models and counterexamples should be accessible to protocol designers, but their results must still have a precise meaning. Verifpal addresses the first goal with a compact modeling language and source-level attack explanations. Its original analysis engine, introduced in 2019, had only a preliminary account of its guarantees. This "
-    },
-    {
       "id": "fe4f47339d9c",
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
@@ -805,16 +835,6 @@
       "summary": "Posted by Thomas Brunner, Yu-Han Liu, Moni PandeAt Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats before they can impact users. Right now, Indirect Prompt Injection (IPI) is a top priority for the security community, anticipating it as a primary attack vector for adversaries to target and compromise A"
     },
     {
-      "id": "be3e0c0ffd22",
-      "title": "Oriole: Adaptively Secure Partially Non-Interactive Threshold Signatures from Lattices",
-      "link": "https://eprint.iacr.org/2026/793",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-22T09:10:29+00:00",
-      "ts": 1776849029.0,
-      "summary": "We present the first lattice-based, partially non-interactive threshold signature scheme that tolerates the adaptive corruption of up to T −1 signers, where T is the signing threshold. Our construction relies on the MSIS and MLWE assumptions, and has two rounds, of which only the second is message-dependent. We substantially improve upon prior adaptively secure lattice-based schemes (CRYPTO ’24 an"
-    },
-    {
       "id": "b18b34e5e963",
       "title": "Anonymous credentials: an illustrated primer (Part 2)",
       "link": "https://blog.cryptographyengineering.com/2026/04/17/anonymous-credentials-an-illustrated-primer-part-2/",
@@ -955,16 +975,6 @@
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
     },
     {
-      "id": "2bdd2df2499d",
-      "title": "Incremental Single-Server Private Information Retrieval",
-      "link": "https://eprint.iacr.org/2026/030",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-08T08:41:43+00:00",
-      "ts": 1767861703.0,
-      "summary": "Incremental preprocessing in private information retrieval (PIR) schemes refers to handle insertions, modifications, and deletions to the database without requiring complete preprocessing after each update. This broadens the applicability of PIR in practical scenarios. However, two major issues remain: the concept of incremental preprocessing for the single-server PIR is still not established, and"
-    },
-    {
       "id": "d89b8a28e282",
       "title": "HTTPS certificate industry phasing out less secure domain validation methods",
       "link": "http://security.googleblog.com/2025/12/https-certificate-industry-phasing-out.html",
@@ -1053,16 +1063,6 @@
       "published": "2025-03-01T16:53:30+00:00",
       "ts": 1740848010.0,
       "summary": "This is a cryptography blog and I always feel the need to apologize for any post that isn&#8217;t &#8220;straight cryptography.&#8221; I&#8217;m actually getting a little tired of apologizing for it (though if you want some hard-core cryptography content, there&#8217;s plenty here and here.) Sometimes I have to remind my colleagues that out in the real &#8230; Continue reading Dear Apple: add &#82"
-    },
-    {
-      "id": "b6aca270b819",
-      "title": "Logstar: Efficient Linear* Time Secure Merge",
-      "link": "https://eprint.iacr.org/2024/159",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-02-03T01:07:24+00:00",
-      "ts": 1706922444.0,
-      "summary": "Secure merge considers the problem of combining two sorted lists into a single sorted secret-shared list. Merge is a fundamental building block for many real-world applications. For example, secure merge can implement a large number of SQL-like database joins, which are essential for almost any data processing task such as privacy-preserving fraud detection, ad conversion rates, data deduplication"
     }
   ]
 }
