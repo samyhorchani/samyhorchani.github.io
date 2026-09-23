@@ -23,6 +23,18 @@ Repère le bon paquet (par IP, port, timestamp, SNI…), puis :
 - Applique : `tcp.stream eq <N>`Filtres utiles
 
 Tu peux aussi voir le **SNI (le domaine ciblé)** directement dans le Client Hello :
-````
+```
 tls.handshake.extensions_server_name == "example.com"
-````
+```
+
+Pour TLS 1.3 (et d'autre protocoles), il est possible de récupérer les secret de session au forlat SSLKEYLOGFILE, puis de les donner à WireShark. 
+
+Avec openssl s\_client :
+```
+openssl s_client -connect <IP>:<PORT> ... -keylogfile /tmp/keylog.txt
+```
+
+Puis dans WireShark: 
+```
+Editer->Preferences->Protocols->TLS->(Pre)-Master-Secret log filename -> faire pointer vers /tmp/keylog.txt
+```
