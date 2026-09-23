@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T14:01:26.946279+00:00",
+  "generated_at": "2026-09-23T18:46:45.064191+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "dcd74582f808",
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T16:53:10+00:00",
+      "ts": 1790182390.0,
+      "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored"
+    },
+    {
+      "id": "3f509b42967a",
+      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+      "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T16:06:41+00:00",
+      "ts": 1790179601.0,
+      "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at"
+    },
+    {
+      "id": "ae38a9fe2627",
+      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+      "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T14:17:58+00:00",
+      "ts": 1790173078.0,
+      "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is."
+    },
+    {
+      "id": "8a560f679057",
+      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+      "link": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T13:52:46+00:00",
+      "ts": 1790171566.0,
+      "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS. According to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below - @memtensor/memos-cloud-openclaw-plugin versions"
+    },
     {
       "id": "414d19f5b54d",
       "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
@@ -133,46 +173,6 @@
       "published": "2026-09-22T17:58:15+00:00",
       "ts": 1790099895.0,
       "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data. The package, named \"tw-pkgprobe-7731,\" was first uploaded to the npm registry in mid-August 2026 by an npm account named \"twdepprobe7731.\""
-    },
-    {
-      "id": "99130bb7aad7",
-      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-      "link": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T17:03:31+00:00",
-      "ts": 1790096611.0,
-      "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\" The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver"
-    },
-    {
-      "id": "a49fc6138777",
-      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-      "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T16:41:12+00:00",
-      "ts": 1790095272.0,
-      "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is"
-    },
-    {
-      "id": "9a8d99de21ed",
-      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-      "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T16:14:04+00:00",
-      "ts": 1790093644.0,
-      "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19. The tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in"
-    },
-    {
-      "id": "7e0312852527",
-      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
-      "link": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T12:30:00+00:00",
-      "ts": 1790080200.0,
-      "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has? A person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May"
     },
     {
       "id": "e1f07a200224",
@@ -695,6 +695,16 @@
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a groundbreaking new analysis finds these devices also routinely spoof themselves as mobile phones clicking ads on AI-generated websites as part of sprawlin"
     },
     {
+      "id": "5142e201a852",
+      "title": "How to Back Up High-Value Secret Keys",
+      "link": "https://eprint.iacr.org/2026/1565",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-30T16:43:15+00:00",
+      "ts": 1785429795.0,
+      "summary": "Consider a cryptocurrency exchange that secures the bulk of its reserves under a small set of keys, each of which is only used to transfer cryptocurrency once a year; or the backup codes for an account login or a password manager, which are again rarely used but provide access to crucial systems or information. Securing such infrequently-used high-value secrets is crucial, but existing solutions, "
+    },
+    {
       "id": "f26b7f89b569",
       "title": "Building secure Uniswap v4 hooks",
       "link": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
@@ -833,16 +843,6 @@
       "published": "2026-05-23T09:34:47+00:00",
       "ts": 1779528887.0,
       "summary": "Round-reduced variants of AES are widely used as building blocks in the design of cryptographic schemes. The study of non-random properties and distinguishers for round-reduced AES has always been an important research topic. The longest known secret-key distinguishers on AES cover 6 rounds. Related differences and related differentials were introduced by the designers of AES in 2009, but research"
-    },
-    {
-      "id": "19510382d9fb",
-      "title": "On Arithmetic Invariants for Permutation Equivalence",
-      "link": "https://eprint.iacr.org/2026/995",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-19T18:05:30+00:00",
-      "ts": 1779213930.0,
-      "summary": "We give an efficiently computable invariant we call the square class invariant for the (Signed) Permutation Code Equivalence ((S)PCE) problem, that was previously not recognised in coding theory, which arises from the arithmetic of quadratic forms over finite fields. Our invariant naturally yields a distinguisher for the decision version of (S)PCE as defined at Eurocrypt 2025 by Albrecht, Benčina "
     },
     {
       "id": "574c9cffe1b5",
