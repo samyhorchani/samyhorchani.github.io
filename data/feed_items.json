@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T23:25:34.413226+00:00",
+  "generated_at": "2026-09-23T02:53:41.284181+00:00",
   "count": 105,
   "errors": [
     {
@@ -135,6 +135,16 @@
       "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
     },
     {
+      "id": "064e600fa2e1",
+      "title": "Cryptanalysis of Goldreich's PRGs with MAJ–XOR Predicates",
+      "link": "https://eprint.iacr.org/2026/2156",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T09:47:13+00:00",
+      "ts": 1790070433.0,
+      "summary": "Goldreich's pseudorandom generators (PRGs) expand a secret seed by evaluating a fixed low-locality predicate on random subsets of its bits. We study the concrete and asymptotic security of constructions whose local predicate combines majority with XOR. We introduce Deterministic Pooled Recovery (DPR), which guesses a set of seed positions and pools the outputs whose majority inputs are forced by t"
+    },
+    {
       "id": "2b4f503b716f",
       "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
       "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
@@ -153,16 +163,6 @@
       "published": "2026-09-22T08:26:12+00:00",
       "ts": 1790065572.0,
       "summary": "Adaptor signatures enable conditional payments on blockchain networks: a pre-signature is bound to a public instance $Y$ and can be completed into a valid signature by any party knowing a witness $y$ with $\\mathcal{R}(Y,y)=1$, while the pre-signature and full signature together allow the signer to extract $y$. Existing constructions only support specific algebraically-structured relations, lose wi"
-    },
-    {
-      "id": "af22477b9495",
-      "title": "Recovering SNOVA Secret Keys from Biased Vinegar Sampling",
-      "link": "https://eprint.iacr.org/2026/2154",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T08:01:10+00:00",
-      "ts": 1790064070.0,
-      "summary": "The Round-3 SNOVA signer samples vinegar variables, which are elements of $\\mathbb{F}_q$, by reducing uniform byte strings modulo a power of $q$. We show that the resulting bias leaks secret-key information for the six odd-characteristic alternative parameter sets. Even though the leakage is small (the most leaky variables leak at most $0.086$ bits of information), this still leads to efficient ke"
     },
     {
       "id": "2b4642c92c13",
@@ -413,6 +413,16 @@
       "published": "2026-09-16T00:00:00+00:00",
       "ts": 1789516800.0,
       "summary": "Une vulnérabilité a été découverte dans Netgate pfSense. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
+    },
+    {
+      "id": "ee288c9103d5",
+      "title": "Practical Key Recovery Attacks on Full DuX and Reduced-Round YuX",
+      "link": "https://eprint.iacr.org/2026/2045",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-15T11:40:39+00:00",
+      "ts": 1789472439.0,
+      "summary": "DuX and YuX are two recent families of FHE-friendly block ciphers, designed for efficient evaluation under fully homomorphic encryption. Both keep a state of sixteen words of a large finite field, arranged in four blocks, and each round applies a block-wise S-box of low degree followed by a circulant linear layer. We show that, in the chosen-ciphertext model, the algebraic degree of their decrypti"
     },
     {
       "id": "61dde741919b",
@@ -873,16 +883,6 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
-    },
-    {
-      "id": "25b31cc2e5b4",
-      "title": "The SQInstructor: a guide to SQIsign and the Deuring Correspondence with level structures",
-      "link": "https://eprint.iacr.org/2026/493",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-10T05:41:31+00:00",
-      "ts": 1773121291.0,
-      "summary": "We explore the use of level structures to generalize the SQIsign signature scheme. We give a general framework where, given the public key and the commitment, the challenge is to exhibit an isogeny between them with an additional requirement, namely to map a chosen level structure to nother. We then instantiate the framework using 1-dimensional and 2-dimensional isogenies. In doing that we provide"
     },
     {
       "id": "20465f67d63b",
