@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T02:53:41.284181+00:00",
+  "generated_at": "2026-09-23T08:12:29.225051+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "be3fca7f1f4e",
+      "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+      "link": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T07:04:40+00:00",
+      "ts": 1790147080.0,
+      "summary": "A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said. The risk applies when an app puts values an attacker controls, such as text read from the request URL, into the image. Vercel, which develops Next.js,&nbsp;fixed the flaw&nbsp;on September 22 in version"
+    },
+    {
+      "id": "4304568c78b5",
+      "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+      "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T05:30:09+00:00",
+      "ts": 1790141409.0,
+      "summary": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. \"We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job,\" the group said in a statement posted on their dark"
+    },
     {
       "id": "6d20102af7eb",
       "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
@@ -135,16 +155,6 @@
       "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
     },
     {
-      "id": "064e600fa2e1",
-      "title": "Cryptanalysis of Goldreich's PRGs with MAJ–XOR Predicates",
-      "link": "https://eprint.iacr.org/2026/2156",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T09:47:13+00:00",
-      "ts": 1790070433.0,
-      "summary": "Goldreich's pseudorandom generators (PRGs) expand a secret seed by evaluating a fixed low-locality predicate on random subsets of its bits. We study the concrete and asymptotic security of constructions whose local predicate combines majority with XOR. We introduce Deterministic Pooled Recovery (DPR), which guesses a set of seed positions and pools the outputs whose majority inputs are forced by t"
-    },
-    {
       "id": "2b4f503b716f",
       "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
       "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
@@ -153,16 +163,6 @@
       "published": "2026-09-22T09:38:18+00:00",
       "ts": 1790069898.0,
       "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls. \"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility,\" Checkmarx said. \""
-    },
-    {
-      "id": "c0bc02317419",
-      "title": "Practical Adaptor Signatures for NP from Online/Offline NIZK",
-      "link": "https://eprint.iacr.org/2026/2155",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T08:26:12+00:00",
-      "ts": 1790065572.0,
-      "summary": "Adaptor signatures enable conditional payments on blockchain networks: a pre-signature is bound to a public instance $Y$ and can be completed into a valid signature by any party knowing a witness $y$ with $\\mathcal{R}(Y,y)=1$, while the pre-signature and full signature together allow the signer to extract $y$. Existing constructions only support specific algebraically-structured relations, lose wi"
     },
     {
       "id": "2b4642c92c13",
@@ -175,24 +175,14 @@
       "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers"
     },
     {
-      "id": "b140461e91c5",
-      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-      "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T06:33:57+00:00",
-      "ts": 1790058837.0,
-      "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21. It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta. The flaw is in"
-    },
-    {
-      "id": "df891a4246c5",
-      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-      "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T06:03:14+00:00",
-      "ts": 1790056994.0,
-      "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server. WordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and called \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is"
+      "id": "91e94d2fec44",
+      "title": "ReedWeave: Faster Reed-Solomon Polynomial Commitments from Interleaving and Folding",
+      "link": "https://eprint.iacr.org/2026/2147",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T04:13:03+00:00",
+      "ts": 1790050383.0,
+      "summary": "Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly. Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its follow-up works achieve polylogarithmic proofs by recursively ``folding'' Reed-Solomon (RS) codes. However, their concrete evaluation costs remain relatively high, as the first few folding rounds operat"
     },
     {
       "id": "15a0b4e0e6e5",
@@ -243,6 +233,16 @@
       "published": "2026-09-18T21:06:00+00:00",
       "ts": 1789765560.0,
       "summary": "Short essay about squid egg sacs. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
+    },
+    {
+      "id": "f0e42567b469",
+      "title": "Indifferentiability of the Sum of Two Permutations: Tight 3n/4 Security for the Uniform Simulator and a New Simulator for 4n/5 Security",
+      "link": "https://eprint.iacr.org/2026/2092",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-18T13:05:43+00:00",
+      "ts": 1789736743.0,
+      "summary": "We study the regular indifferentiability of the sum of two n-bit permutations. Previous work proved 2n/3-bit security and gave a 5n/6-bit attack against the uniform simulator. We prove 3n/4-bit se curity for the simulator and give a matching attack. Our proof bounds the KL divergence between response distributions by tracking the bias in unrevealed construction values through their conditional dis"
     },
     {
       "id": "9fd5242ee937",
@@ -495,14 +495,14 @@
       "summary": "Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I&#8217;m still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing guidance; a multi-stage ballistic missi"
     },
     {
-      "id": "aed1d4fafb12",
-      "title": "Data-strophy: When Your Integrity Goes Wild, So Does Your Data!",
-      "link": "https://eprint.iacr.org/2026/1994",
+      "id": "dca466bd7bed",
+      "title": "On the eCK Security of MQV-Style LWE-Based Authenticated Key Exchange",
+      "link": "https://eprint.iacr.org/2026/2017",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-12T14:58:55+00:00",
-      "ts": 1789225135.0,
-      "summary": "Proton is a popular security and privacy service provider with a large user base spanning both organizations and individuals. Proton Docs/Sheets support real-time collaborative document editing while claiming to provide end-to-end security. We analyze the cryptographic design and the collaborative editing protocol of Proton Docs/Sheets inspecting the open-source Web client and webpage code. We dem"
+      "published": "2026-09-14T07:16:11+00:00",
+      "ts": 1789370171.0,
+      "summary": "Designing Authenticated Key Exchange (AKE) directly from the Learning with Errors (LWE) assumption, without relying on generic constructions, remains a prominent and challenging goal in post-quantum cryptography. Such designs inherently require reconciliation mechanisms, which may introduce additional leakage against active adversaries under key reuse. Yet previous signal leakage attacks of Bindel"
     },
     {
       "id": "0c016fa822b6",
@@ -565,6 +565,16 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
+      "id": "581839e5dbb0",
+      "title": "EA Codes Approaching Singleton Bound (with Application to Field-Agnostic SNARKs)",
+      "link": "https://eprint.iacr.org/2026/1782",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-23T16:27:20+00:00",
+      "ts": 1787502440.0,
+      "summary": "SNARKs based on error-correcting codes require codes that simultaneously support fast encoding and large relative distance. Reed--Solomon codes achieve the optimal rate--distance tradeoff given by the Singleton bound, but their fast encoding relies on FFT-friendly fields, limiting their applicability to field-agnostic constructions. In this work, we revisit expand--accumulate (EA) codes, a simple "
+    },
+    {
       "id": "bea5a06fb576",
       "title": "Everything is about to “go dark”",
       "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
@@ -613,6 +623,16 @@
       "published": "2026-08-11T12:03:06+00:00",
       "ts": 1786449786.0,
       "summary": "Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composabl"
+    },
+    {
+      "id": "dcbc32eeaf3c",
+      "title": "From Toy to Instrument: Seven Years of Verifpal",
+      "link": "https://eprint.iacr.org/2026/1654",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-11T01:18:04+00:00",
+      "ts": 1786411084.0,
+      "summary": "Symbolic protocol verifiers must make a difficult tradeoff: their models and counterexamples should be accessible to protocol designers, but their results must still have a precise meaning. Verifpal addresses the first goal with a compact modeling language and source-level attack explanations. Its original analysis engine, introduced in 2019, had only a preliminary account of its guarantees. This "
     },
     {
       "id": "98d357cc6bd4",
@@ -765,16 +785,6 @@
       "summary": "Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography. On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantu"
     },
     {
-      "id": "f4eff3749958",
-      "title": "Forensic Cryptanalysis of the Backdoored UA-8295 Message Terminal",
-      "link": "https://eprint.iacr.org/2026/1309",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-23T11:53:56+00:00",
-      "ts": 1782215636.0,
-      "summary": "Nation State Agencies go to great lengths to obtain signal intelligence, including backdooring cryptographic standards and equipment. Although the existence of these backdoor efforts is common knowledge, only few of known backdoored systems have been publicly analysed. In this paper we present the first detailed forensic cryptanalysis of the backdoored UA-8295 message terminal and we try to answer"
-    },
-    {
       "id": "bc3263969ac7",
       "title": "Introducing Patch the Planet",
       "link": "https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/",
@@ -813,6 +823,16 @@
       "published": "2026-05-19T18:05:30+00:00",
       "ts": 1779213930.0,
       "summary": "We give an efficiently computable invariant we call the square class invariant for the (Signed) Permutation Code Equivalence ((S)PCE) problem, that was previously not recognised in coding theory, which arises from the arithmetic of quadratic forms over finite fields. Our invariant naturally yields a distinguisher for the decision version of (S)PCE as defined at Eurocrypt 2025 by Albrecht, Benčina "
+    },
+    {
+      "id": "574c9cffe1b5",
+      "title": "Efficient Fair Data Exchange without In-Circuit Public-Key Operations",
+      "link": "https://eprint.iacr.org/2026/843",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-30T07:16:54+00:00",
+      "ts": 1777533414.0,
+      "summary": "Fair data exchange (FDE) lets a seller receive payment if and only if a buyer can recover data matching an agreed commitment. Existing code-based schemes achieve near-plaintext communication, but their auxiliary public-key ciphertexts make consistency proving expensive when low redundancy requires many samples. We replace these auxiliary ciphertexts with direct polynomial authentication and extern"
     },
     {
       "id": "e867d3e3dacb",
@@ -955,16 +975,6 @@
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
     },
     {
-      "id": "89d463cfdda8",
-      "title": "IND-CCA Lattice Threshold KEM under 30 KiB",
-      "link": "https://eprint.iacr.org/2026/021",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-06T17:35:55+00:00",
-      "ts": 1767720955.0,
-      "summary": "At Asiacrypt'25, Lapiha and Prest proposed a lattice-based IND-CCA threshold key-encapsulation mechanism (TKEM) obtained from a threshold identity-based encryption (TIBE) and a signature scheme. Their construction relies on a variant of the Boneh-Canetti-Halevi-Katz (BCHK) transform, instantiated with a lattice-based TIBE. However it suffers from large ciphertexts at 540 KiB for $\\kappa = 128$ bit"
-    },
-    {
       "id": "d89b8a28e282",
       "title": "HTTPS certificate industry phasing out less secure domain validation methods",
       "link": "http://security.googleblog.com/2025/12/https-certificate-industry-phasing-out.html",
@@ -1033,16 +1043,6 @@
       "published": "2025-06-09T18:22:31+00:00",
       "ts": 1749493351.0,
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
-    },
-    {
-      "id": "e61417638763",
-      "title": "Amplifying Randomized Encodings & Applications",
-      "link": "https://eprint.iacr.org/2025/778",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-04-30T16:08:33+00:00",
-      "ts": 1746029313.0,
-      "summary": "A randomized encoding for a promise problem is a randomized reduction whose outcome distribution on input $x$ can be simulated within some distance $d$, called privacy, using only one bit of information about $x$: whether it is a YES or NO instance. The encoding is one-sided if this property holds only for YES instances. Our main contribution is showing that (classical and quantum) one-sided rando"
     },
     {
       "id": "6984eb306670",
