@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T18:46:45.064191+00:00",
+  "generated_at": "2026-09-23T21:57:23.955078+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "1ac568741e1f",
+      "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+      "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T18:06:30+00:00",
+      "ts": 1790186790.0,
+      "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido, the list of Terraform providers and Go modules is below - gocommunity-io/dockerd (222 downloads) kreuzwenker/"
+    },
     {
       "id": "dcd74582f808",
       "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
@@ -163,16 +173,6 @@
       "published": "2026-09-22T18:03:10+00:00",
       "ts": 1790100190.0,
       "summary": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders. On some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners"
-    },
-    {
-      "id": "07d6f34456c7",
-      "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
-      "link": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T17:58:15+00:00",
-      "ts": 1790099895.0,
-      "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data. The package, named \"tw-pkgprobe-7731,\" was first uploaded to the npm registry in mid-August 2026 by an npm account named \"twdepprobe7731.\""
     },
     {
       "id": "e1f07a200224",
@@ -435,16 +435,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance."
     },
     {
-      "id": "ee288c9103d5",
-      "title": "Practical Key Recovery Attacks on Full DuX and Reduced-Round YuX",
-      "link": "https://eprint.iacr.org/2026/2045",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-15T11:40:39+00:00",
-      "ts": 1789472439.0,
-      "summary": "DuX and YuX are two recent families of FHE-friendly block ciphers, designed for efficient evaluation under fully homomorphic encryption. Both keep a state of sixteen words of a large finite field, arranged in four blocks, and each round applies a block-wise S-box of low degree followed by a circulant linear layer. We show that, in the chosen-ciphertext model, the algebraic degree of their decrypti"
-    },
-    {
       "id": "61dde741919b",
       "title": "25 Years of Mass Surveillance Is Enough",
       "link": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
@@ -593,6 +583,16 @@
       "published": "2026-08-23T16:27:20+00:00",
       "ts": 1787502440.0,
       "summary": "SNARKs based on error-correcting codes require codes that simultaneously support fast encoding and large relative distance. Reed--Solomon codes achieve the optimal rate--distance tradeoff given by the Singleton bound, but their fast encoding relies on FFT-friendly fields, limiting their applicability to field-agnostic constructions. In this work, we revisit expand--accumulate (EA) codes, a simple "
+    },
+    {
+      "id": "62e0c7d7dc95",
+      "title": "A Note on the Security Proof of SQIsign",
+      "link": "https://eprint.iacr.org/2026/1775",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-22T10:58:28+00:00",
+      "ts": 1787396308.0,
+      "summary": "Aardal et al. (CRYPTO 2025) provided the first complete security proof of SQIsign; however, their reduction incurs a square-root loss in the prime characteristic due to the application of a loose bound on the min-entropy. For instance, at NIST security level I, an adversary making $2^{64}$ signing queries renders the security proof vacuous. In this note, we show that the min-entropy of SQIsign is "
     },
     {
       "id": "f20d788a4eb9",
