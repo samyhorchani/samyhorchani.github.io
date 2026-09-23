@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T08:12:29.225051+00:00",
+  "generated_at": "2026-09-23T14:01:26.946279+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,76 @@
     }
   ],
   "items": [
+    {
+      "id": "414d19f5b54d",
+      "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T12:16:00+00:00",
+      "ts": 1790165760.0,
+      "summary": "A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22. A&nbsp;second bug in the WP Toolkit plugin, used to install and manage WordPress sites, allows an account holder to change databases that belong to other accounts. cPanel has released fixed versions for both,"
+    },
+    {
+      "id": "e38f7913fe15",
+      "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+      "link": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T11:47:19+00:00",
+      "ts": 1790164039.0,
+      "summary": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a security background then sits down and checks every claim against the target. Which findings are real,"
+    },
+    {
+      "id": "b6f8e346d13e",
+      "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+      "link": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T11:47:13+00:00",
+      "ts": 1790164033.0,
+      "summary": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus 5.5, per Anthropic, is a \"major step up from Opus 5,\" and \"achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands"
+    },
+    {
+      "id": "145de7ac906e",
+      "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+      "link": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T11:12:18+00:00",
+      "ts": 1790161938.0,
+      "summary": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst&nbsp;said in research published September 22. The flaw, tracked as&nbsp;CVE-2026-80521&nbsp;(CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst&nbsp;"
+    },
+    {
+      "id": "4ebd4db3cca9",
+      "title": "Research on Models Engaging in Genie-Like Behavior",
+      "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-23T11:03:36+00:00",
+      "ts": 1790161416.0,
+      "summary": "New paper: &#8220;Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training.&#8221; Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies "
+    },
+    {
+      "id": "270efe429182",
+      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+      "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T08:29:48+00:00",
+      "ts": 1790152188.0,
+      "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw,&nbsp;CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in&nbsp;an advisory&nbsp;on September 22 and has released engineering hotfixes."
+    },
+    {
+      "id": "7fbe3f62084b",
+      "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+      "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-23T08:29:24+00:00",
+      "ts": 1790152164.0,
+      "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break"
+    },
     {
       "id": "be3fca7f1f4e",
       "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
@@ -105,46 +175,6 @@
       "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has? A person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May"
     },
     {
-      "id": "5b8bbe86f562",
-      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
-      "link": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T12:29:00+00:00",
-      "ts": 1790080140.0,
-      "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are"
-    },
-    {
-      "id": "a899e7db5ce2",
-      "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
-      "link": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T11:45:00+00:00",
-      "ts": 1790077500.0,
-      "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows. Now in its second year, the harder part of DORA is"
-    },
-    {
-      "id": "054e30b72b1f",
-      "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
-      "link": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T11:38:40+00:00",
-      "ts": 1790077120.0,
-      "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled. The bug, tracked as&nbsp;CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine."
-    },
-    {
-      "id": "dbe97a0054a4",
-      "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
-      "link": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T11:17:41+00:00",
-      "ts": 1790075861.0,
-      "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa. The flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been"
-    },
-    {
       "id": "e1f07a200224",
       "title": "GPT-6 Astra Breaks an Old Enigma Message",
       "link": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
@@ -155,24 +185,14 @@
       "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
     },
     {
-      "id": "2b4f503b716f",
-      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
-      "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T09:38:18+00:00",
-      "ts": 1790069898.0,
-      "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls. \"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility,\" Checkmarx said. \""
-    },
-    {
-      "id": "2b4642c92c13",
-      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
-      "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T07:52:03+00:00",
-      "ts": 1790063523.0,
-      "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers"
+      "id": "344941919bf3",
+      "title": "Structural Analysis of Seven Hash Functions Submitted to the NGCC",
+      "link": "https://eprint.iacr.org/2026/2152",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T07:32:33+00:00",
+      "ts": 1790062353.0,
+      "summary": "The Institute of Commercial Cryptography Standards (ICCS) launched the Next-generation Commercial Cryptographic Algorithms Program (NGCC) and invited worldwide comments on draft submission requirements and evaluation criteria for cryptographic hash algorithms. Our analysis of seven submitted hash functions gives the following results: - Message differences that cancel in every key injection give e"
     },
     {
       "id": "91e94d2fec44",
@@ -185,24 +205,14 @@
       "summary": "Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly. Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its follow-up works achieve polylogarithmic proofs by recursively ``folding'' Reed-Solomon (RS) codes. However, their concrete evaluation costs remain relatively high, as the first few folding rounds operat"
     },
     {
-      "id": "15a0b4e0e6e5",
-      "title": "Algorithms for Computing Affine Equivalence and Self-Equivalence Groups",
-      "link": "https://eprint.iacr.org/2026/2144",
+      "id": "1faba3293b88",
+      "title": "Fully Anonymous Perfect Secret-Sharing",
+      "link": "https://eprint.iacr.org/2026/2145",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-22T00:26:35+00:00",
-      "ts": 1790036795.0,
-      "summary": "We study affine and linear equivalence of functions $F,G:\\mathbb{F}_q^n\\to\\mathbb{F}_q^m$. We present practical equivalence algorithms that handle arbitrary functions (any algebraic degree, permutations and non-permutations) and are particularly effective on structured instances with nontrivial self-equivalences, covering most cryptographically relevant cases. We also give a dedicated algorithm fo"
-    },
-    {
-      "id": "afdac7573336",
-      "title": "BitZ: proofs and commitments in arbitrary rings through binary fields",
-      "link": "https://eprint.iacr.org/2026/2141",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-21T15:16:27+00:00",
-      "ts": 1790003787.0,
-      "summary": "We introduce BitZ, a hash-based Polynomial Commitment Scheme (PCS) for committing to multilinear polynomials $\\mathbf{f}$ with coefficients in an arbitrary finitely generated ring $S$, e.g.\\ a finite field $\\mathbb{F}$, the integers $\\mathbb{Z}$, a cyclotomic ring, etc. Moreover, given another arbitrary ring $R$ and a ring homomorphism $\\psi:S\\to R$, BitZ then proves evaluation claims over $R$ for"
+      "published": "2026-09-22T00:43:44+00:00",
+      "ts": 1790037824.0,
+      "summary": "Fully anonymous secret-sharing schemes ensure two properties at once: for any fixed secret, the combined shares of every unauthorized set of participants are uniformly random, and every authorized set can reconstruct the secret exactly using only the share values, without needing to know which participant holds which share or in what order the shares appear. It was previously open whether such sch"
     },
     {
       "id": "1d1720323eb8",
@@ -275,6 +285,56 @@
       "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian. There are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI&#8217;s impacts on the country. Politicos are using AI deepfakes to spread lies. The White House is posting slopaganda. Meanwhile, candidates are missing a real opportunity to use A"
     },
     {
+      "id": "0de3bf2590f9",
+      "title": "Vulnérabilité dans NetApp ONTAP 9 (17 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1194/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-17T00:00:00+00:00",
+      "ts": 1789603200.0,
+      "summary": "Une vulnérabilité a été découverte dans NetApp ONTAP 9. Elle permet à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "53db21fd096b",
+      "title": "Vulnérabilité dans les produits Check Point (17 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1193/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-17T00:00:00+00:00",
+      "ts": 1789603200.0,
+      "summary": "Une vulnérabilité a été découverte dans les produits Check Point. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Checkpoint recommande de rechercher, via la *SmartConsole*, le motif **\"Administrator failed to log in: Username too long\"** dans les journaux..."
+    },
+    {
+      "id": "c87a46d0c06f",
+      "title": "Vulnérabilité dans KeyCloak (17 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1195/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-17T00:00:00+00:00",
+      "ts": 1789603200.0,
+      "summary": "Une vulnérabilité a été découverte dans KeyCloak. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité."
+    },
+    {
+      "id": "b1fda2a6d4f4",
+      "title": "Multiples vulnérabilités dans Drupal (17 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1196/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-17T00:00:00+00:00",
+      "ts": 1789603200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS)."
+    },
+    {
+      "id": "8867081c10f7",
+      "title": "Multiples vulnérabilités dans les produits Cisco (17 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1197/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-17T00:00:00+00:00",
+      "ts": 1789603200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-76460 est..."
+    },
+    {
       "id": "e89356591296",
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
       "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
@@ -305,36 +365,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
     },
     {
-      "id": "df278bda5072",
-      "title": "Multiples vulnérabilités dans Apache Zookeeper (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1177/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "7007037fca1b",
-      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1179/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
-    },
-    {
-      "id": "596500f25066",
-      "title": "Multiples vulnérabilités dans Google Pixel (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1176/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Pixel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données. Google indique que la vulnérabilité..."
-    },
-    {
       "id": "b8a45e5d374d",
       "title": "Multiples vulnérabilités dans Docker (16 septembre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1189/",
@@ -343,26 +373,6 @@
       "published": "2026-09-16T00:00:00+00:00",
       "ts": 1789516800.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Docker. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
-      "id": "eda7c7796f17",
-      "title": "Multiples vulnérabilités dans Oracle Java SE (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1185/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance."
-    },
-    {
-      "id": "3ff9aa33de52",
-      "title": "Vulnérabilité dans StrongSwan (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1180/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "Une vulnérabilité a été découverte dans StrongSwan. Elle permet à un attaquant de provoquer un déni de service à distance."
     },
     {
       "id": "31da6d12f4ff",
@@ -405,14 +415,24 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données."
     },
     {
-      "id": "a93ed8b364f1",
-      "title": "Vulnérabilité dans Netgate pfSense (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1181/",
+      "id": "6f8f46767281",
+      "title": "Vulnérabilité dans F5 NGINX (16 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1182/",
       "source": "CERT-FR — Avis & Alertes",
       "category": "anssi",
       "published": "2026-09-16T00:00:00+00:00",
       "ts": 1789516800.0,
-      "summary": "Une vulnérabilité a été découverte dans Netgate pfSense. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
+      "summary": "Une vulnérabilité a été découverte dans F5 NGINX. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "2d99947f8910",
+      "title": "Multiples vulnérabilités dans Oracle Weblogic (16 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1186/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-16T00:00:00+00:00",
+      "ts": 1789516800.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance."
     },
     {
       "id": "ee288c9103d5",
@@ -465,16 +485,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une injection SQL (SQLi). Cisco indique que la vulnérabilité CVE-2026-76461 est..."
     },
     {
-      "id": "2a6bd307dde7",
-      "title": "Vulnérabilité dans Microsoft Windows (15 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1174/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-15T00:00:00+00:00",
-      "ts": 1789430400.0,
-      "summary": "Une vulnérabilité a été découverte dans Microsoft Windows. Elle permet à un attaquant de provoquer une élévation de privilèges."
-    },
-    {
       "id": "d1ad64bcf890",
       "title": "Upcoming Speaking Engagements",
       "link": "https://www.schneier.com/blog/archives/2026/09/upcoming-speaking-engagements-60.html",
@@ -483,16 +493,6 @@
       "published": "2026-09-14T19:02:45+00:00",
       "ts": 1789412565.0,
       "summary": "This is a current list of where and when I am scheduled to speak: I’m speaking online (via Zoom) at a League of Women Voters event on Tuesday, September 22, 2026 at 5 PM ET. I’m speaking at CanSecWest 2026 in Vancouver, Canada. The conference runs September 30–October 1, 2026; the time of my talk is TBD. I’m giving a talk on “Free Speech and the Preservation of Democracy” at Bentley University in "
-    },
-    {
-      "id": "93668b103dda",
-      "title": "Using AI for Weapons Development",
-      "link": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-14T16:07:46+00:00",
-      "ts": 1789402066.0,
-      "summary": "Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I&#8217;m still reading it, but I wanted to flag this: We identified a cell of threat actors based in northern Yemen running three weapons development programs: a guided rocket that used a commodity phone-class flight computer with final-phase homing guidance; a multi-stage ballistic missi"
     },
     {
       "id": "dca466bd7bed",
@@ -525,6 +525,16 @@
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
     },
     {
+      "id": "599719b88715",
+      "title": "Compact Lattice Anonymous Credentials from Tighter Approximate Range Proofs",
+      "link": "https://eprint.iacr.org/2026/1920",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-08T07:21:32+00:00",
+      "ts": 1788852092.0,
+      "summary": "Accommodating cryptographic authenticity with strong user privacy assurances has been the primary motivation for anonymous credentials systems. Their features have recently come into the spotlight with the European Digital Identity (EUDI) wallet initiative, insisting on the need for efficient and private solutions based on well-understood security foundations for high assurances. This coincides wi"
+    },
+    {
       "id": "94f014263cfc",
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
       "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
@@ -533,6 +543,16 @@
       "published": "2026-09-01T22:40:28+00:00",
       "ts": 1788302428.0,
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity a"
+    },
+    {
+      "id": "a5f64ddf9d80",
+      "title": "Efficient Homomorphic Arithmetic Logical Units with \\texorpdfstring{$O(1)$}{O(1)} Bootstrapping",
+      "link": "https://eprint.iacr.org/2026/1840",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-31T02:58:40+00:00",
+      "ts": 1788145120.0,
+      "summary": "Arithmetic logic units (ALU) combine word-level arithmetic with bitwise operations over encrypted data. The state-of-the-art scheme, GZ26 (CRYPTO'26), constructs an ALU in CKKS via triangle encoding, but has two limitations: the radix-$2$ design restricts packing capacity, while the arithmetic-to-Boolean (A2B) conversion requires $O(\\ell)$ functional bootstrappings for $\\ell$-bit message without b"
     },
     {
       "id": "a3160ec17f8b",
@@ -573,6 +593,16 @@
       "published": "2026-08-23T16:27:20+00:00",
       "ts": 1787502440.0,
       "summary": "SNARKs based on error-correcting codes require codes that simultaneously support fast encoding and large relative distance. Reed--Solomon codes achieve the optimal rate--distance tradeoff given by the Singleton bound, but their fast encoding relies on FFT-friendly fields, limiting their applicability to field-agnostic constructions. In this work, we revisit expand--accumulate (EA) codes, a simple "
+    },
+    {
+      "id": "f20d788a4eb9",
+      "title": "Enforcing Winner-Only Disclosure: Verifiable Tally Hiding for Weighted DAO Governance",
+      "link": "https://eprint.iacr.org/2026/1773",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-22T07:28:36+00:00",
+      "ts": 1787383716.0,
+      "summary": "Token-weighted governance can fingerprint individual voters: when weights are unequal and externally known, the exact weighted tally may reveal who voted which way. Publishing only the winning outcome hides the tally from the public, but a system that reconstructs the tally in order to decide still hands it to whoever runs the computation. Publishing only the winner is not the same as computing on"
     },
     {
       "id": "bea5a06fb576",
@@ -633,16 +663,6 @@
       "published": "2026-08-11T01:18:04+00:00",
       "ts": 1786411084.0,
       "summary": "Symbolic protocol verifiers must make a difficult tradeoff: their models and counterexamples should be accessible to protocol designers, but their results must still have a precise meaning. Verifpal addresses the first goal with a compact modeling language and source-level attack explanations. Its original analysis engine, introduced in 2019, had only a preliminary account of its guarantees. This "
-    },
-    {
-      "id": "98d357cc6bd4",
-      "title": "D-James: Ultra Short Multivariate Signatures",
-      "link": "https://eprint.iacr.org/2026/1650",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-10T16:15:46+00:00",
-      "ts": 1786378546.0,
-      "summary": "Multivariate signature schemes are among the few post-quantum candidates capable of providing very short signatures, but designing secure constructions has proven challenging. HFE-based schemes such as G$e$MSS were compromised by algebraic MinRank attacks. This motivates the HFE$_\\text{IP}^-$ framework, which combines IP and minus modifiers to address these attacks. We introduce James and D-James,"
     },
     {
       "id": "fe4f47339d9c",
@@ -725,16 +745,6 @@
       "summary": "Le 14 juillet 2026, à l'occasion de sa mise à jour mensuelle, Microsoft a publié, entre autres, des correctifs pour deux vulnérabilités critiques affectant SharePoint. Les vulnérabilités CVE-2026-50522 et CVE-2026-58644 permettent à un attaquant non authentifié d'exécuter du code arbitraire à..."
     },
     {
-      "id": "087b1a071e96",
-      "title": "Provable Recovery of RSA Private Exponents below $N^{11/42-\\varepsilon}$",
-      "link": "https://eprint.iacr.org/2026/1478",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-20T05:34:15+00:00",
-      "ts": 1784525655.0,
-      "summary": "Wiener's continued-fraction attack gives the classical provable bound \\(d0\\), balanced RSA with \\(e=\\Theta(N)\\) can be factored deterministically in polynomial time whenever \\(d\\leq N^{11/42-\\varepsilon}\\)."
-    },
-    {
       "id": "dbacd69a3b65",
       "title": "Microsoft Patches a Record 570 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
@@ -813,6 +823,16 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
+    },
+    {
+      "id": "f39948fd40dd",
+      "title": "Related-Differential Distinguishers on up to 7 Rounds of AES",
+      "link": "https://eprint.iacr.org/2026/1039",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-23T09:34:47+00:00",
+      "ts": 1779528887.0,
+      "summary": "Round-reduced variants of AES are widely used as building blocks in the design of cryptographic schemes. The study of non-random properties and distinguishers for round-reduced AES has always been an important research topic. The longest known secret-key distinguishers on AES cover 6 rounds. Related differences and related differentials were introduced by the designers of AES in 2009, but research"
     },
     {
       "id": "19510382d9fb",
@@ -903,16 +923,6 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
-    },
-    {
-      "id": "20465f67d63b",
-      "title": "Naor-Yung Transform for IND-CCA Probing Security with Lattice Instantiations",
-      "link": "https://eprint.iacr.org/2026/459",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-05T10:30:27+00:00",
-      "ts": 1772706627.0,
-      "summary": "In this work, we propose novel security notions for encryption schemes that simulate an adversary in the black-box model equipped with additional side-channel power. More concretely, the adversary is allowed to probe values of the secret-key sensitive algorithms, i.e. key generation and decryption. We then prove a generalization of the well-known Naor-Yung (NY) transform, generically lifting IND-C"
     },
     {
       "id": "b7ffc9dc8c13",
@@ -1053,16 +1063,6 @@
       "published": "2025-03-01T16:53:30+00:00",
       "ts": 1740848010.0,
       "summary": "This is a cryptography blog and I always feel the need to apologize for any post that isn&#8217;t &#8220;straight cryptography.&#8221; I&#8217;m actually getting a little tired of apologizing for it (though if you want some hard-core cryptography content, there&#8217;s plenty here and here.) Sometimes I have to remind my colleagues that out in the real &#8230; Continue reading Dear Apple: add &#82"
-    },
-    {
-      "id": "464bc1e12d9d",
-      "title": "Fine-Grained Non-Interactive Key-Exchange without Idealized Assumptions, and Lower Bounds",
-      "link": "https://eprint.iacr.org/2024/1784",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-11-01T11:41:45+00:00",
-      "ts": 1730461305.0,
-      "summary": "In this paper, we study multi-party non-interactive key exchange (NIKE) in the fine-grained setting. More precisely, we propose three multi-party NIKE schemes in three computation models, namely, the bounded parallel-time, bounded time, and bounded storage models. Their security is based on a very mild assumption (e.g., NC1 ⊊ ⊕L/poly) or even without any complexity assumption. This improves the re"
     }
   ]
 }
