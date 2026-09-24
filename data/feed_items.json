@@ -1,11 +1,16 @@
 {
-  "generated_at": "2026-09-24T05:45:57.207056+00:00",
-  "count": 105,
+  "generated_at": "2026-09-24T10:56:39.780441+00:00",
+  "count": 95,
   "errors": [
     {
       "source": "ANSSI — Actualités",
       "url": "https://www.ssi.gouv.fr/feed/actualites/",
       "error": "<unknown>:64:14: not well-formed (invalid token)"
+    },
+    {
+      "source": "Schneier on Security",
+      "url": "https://www.schneier.com/feed/atom/",
+      "error": "<unknown>:47:3: mismatched tag"
     },
     {
       "source": "NCC Group Research",
@@ -14,6 +19,36 @@
     }
   ],
   "items": [
+    {
+      "id": "20ac4e0d2feb",
+      "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+      "link": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-24T07:07:25+00:00",
+      "ts": 1790233645.0,
+      "summary": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister&nbsp;Anthony Albanese said. The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal"
+    },
+    {
+      "id": "63f2742a9adb",
+      "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+      "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-24T06:32:03+00:00",
+      "ts": 1790231523.0,
+      "summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses. \"The campaign compromised 7 accounts –"
+    },
+    {
+      "id": "19d1fcca6ed8",
+      "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-24T05:36:18+00:00",
+      "ts": 1790228178.0,
+      "summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE). \"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file"
+    },
     {
       "id": "1ac568741e1f",
       "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
@@ -105,16 +140,6 @@
       "summary": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst&nbsp;said in research published September 22. The flaw, tracked as&nbsp;CVE-2026-80521&nbsp;(CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst&nbsp;"
     },
     {
-      "id": "4ebd4db3cca9",
-      "title": "Research on Models Engaging in Genie-Like Behavior",
-      "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-23T11:03:36+00:00",
-      "ts": 1790161416.0,
-      "summary": "New paper: &#8220;Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training.&#8221; Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies "
-    },
-    {
       "id": "270efe429182",
       "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
       "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
@@ -143,46 +168,6 @@
       "published": "2026-09-23T07:04:40+00:00",
       "ts": 1790147080.0,
       "summary": "A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said. The risk applies when an app puts values an attacker controls, such as text read from the request URL, into the image. Vercel, which develops Next.js,&nbsp;fixed the flaw&nbsp;on September 22 in version"
-    },
-    {
-      "id": "4304568c78b5",
-      "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-      "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-23T05:30:09+00:00",
-      "ts": 1790141409.0,
-      "summary": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. \"We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job,\" the group said in a statement posted on their dark"
-    },
-    {
-      "id": "6d20102af7eb",
-      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
-      "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T18:29:39+00:00",
-      "ts": 1790101779.0,
-      "summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said. The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point"
-    },
-    {
-      "id": "d968665c45b0",
-      "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
-      "link": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-22T18:03:10+00:00",
-      "ts": 1790100190.0,
-      "summary": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders. On some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners"
-    },
-    {
-      "id": "e1f07a200224",
-      "title": "GPT-6 Astra Breaks an Old Enigma Message",
-      "link": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-22T11:02:45+00:00",
-      "ts": 1790074965.0,
-      "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
     },
     {
       "id": "344941919bf3",
@@ -215,16 +200,6 @@
       "summary": "Fully anonymous secret-sharing schemes ensure two properties at once: for any fixed secret, the combined shares of every unauthorized set of participants are uniformly random, and every authorized set can reconstruct the secret exactly using only the share values, without needing to know which participant holds which share or in what order the shares appear. It was previously open whether such sch"
     },
     {
-      "id": "1d1720323eb8",
-      "title": "Reverse-Engineering Flock Cameras",
-      "link": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-21T14:37:45+00:00",
-      "ts": 1790001465.0,
-      "summary": "Hackers captured a Flock camera and got a look (alternate link) at the software: While much of the automatic license plate reader&#8217;s (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects people as well as vehicles, license plates, and bicycles. The camera can produce dozens of im"
-    },
-    {
       "id": "71c4a4caf94f",
       "title": "SAML: A fractal of bad design",
       "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
@@ -233,36 +208,6 @@
       "published": "2026-09-21T11:00:00+00:00",
       "ts": 1789988400.0,
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it&rsquo;s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoni"
-    },
-    {
-      "id": "d4e7a661bd44",
-      "title": "Friday Squid Blogging: On Squid Egg Sacs",
-      "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-18T21:06:00+00:00",
-      "ts": 1789765560.0,
-      "summary": "Short essay about squid egg sacs. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
-      "id": "f0e42567b469",
-      "title": "Indifferentiability of the Sum of Two Permutations: Tight 3n/4 Security for the Uniform Simulator and a New Simulator for 4n/5 Security",
-      "link": "https://eprint.iacr.org/2026/2092",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-18T13:05:43+00:00",
-      "ts": 1789736743.0,
-      "summary": "We study the regular indifferentiability of the sum of two n-bit permutations. Previous work proved 2n/3-bit security and gave a 5n/6-bit attack against the uniform simulator. We prove 3n/4-bit se curity for the simulator and give a matching attack. Our proof bounds the KL divergence between response distributions by tracking the bias in unrevealed construction values through their conditional dis"
-    },
-    {
-      "id": "9fd5242ee937",
-      "title": "Are AIs Still Struggling with CAPTCHAs?",
-      "link": "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-18T11:05:52+00:00",
-      "ts": 1789729552.0,
-      "summary": "Anthropic&#8217;s recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude. In the transcript, the Claude model that is so powerful that Anthropic is gatekeeping access to it appeared to slam its virtual head against the wall solving a simple image identification test. In a test where the agent was asked to identify a shape that didn&#8217;t match the others"
     },
     {
       "id": "a91514e92c6f",
@@ -275,14 +220,14 @@
       "summary": "Security firms have published numerous blog posts describing how they pointed their agent harness at a codebase and found dozens of bugs (we’re one of them). However, these posts tend to focus on agentic code review, which is just one aspect of how we use AI in our security reviews. We want to give a different perspective: before code review even starts, agents now allow us to build custom tooling"
     },
     {
-      "id": "fa387c6a8f8b",
-      "title": "How Candidates Could Use AI for Good",
-      "link": "https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-17T11:06:31+00:00",
-      "ts": 1789643191.0,
-      "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian. There are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI&#8217;s impacts on the country. Politicos are using AI deepfakes to spread lies. The White House is posting slopaganda. Meanwhile, candidates are missing a real opportunity to use A"
+      "id": "cf8a0ab7932c",
+      "title": "Polynomial Time Algorithms for the Kadison-Singer Problem",
+      "link": "https://eprint.iacr.org/2026/2070",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-17T06:50:24+00:00",
+      "ts": 1789627824.0,
+      "summary": "Marcus, Spielman, and Srivastava [MSS15] established the existence of Kadison--Singer partitions. We provide polynomial-time algorithms for the Kadison--Singer problem. For Hermitian matrices $A_1,\\ldots,A_m\\in\\mathbb C^{n\\times n}$ of rank at most one, we give two algorithms that find signs $\\sigma\\in\\{\\pm1\\}^m$ satisfying $\\|\\sum_i \\sigma_iA_i\\|\\le C\\|\\sum_i A_i^2\\|^{1/2}$. The deterministic alg"
     },
     {
       "id": "0de3bf2590f9",
@@ -343,16 +288,6 @@
       "published": "2026-09-16T18:14:22+00:00",
       "ts": 1789582462.0,
       "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off"
-    },
-    {
-      "id": "d7cc0387a40a",
-      "title": "Fake CAPTCHA Scams",
-      "link": "https://www.schneier.com/blog/archives/2026/09/fake-captcha-scams.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-16T11:25:26+00:00",
-      "ts": 1789557926.0,
-      "summary": "New variant of an old scam: Use the framing of a CAPTCHA to get an unsuspecting user to download and run a malicious program."
     },
     {
       "id": "640c8b26cb59",
@@ -435,16 +370,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance."
     },
     {
-      "id": "61dde741919b",
-      "title": "25 Years of Mass Surveillance Is Enough",
-      "link": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-15T11:01:41+00:00",
-      "ts": 1789470101.0,
-      "summary": "This essay was written with Cindy Cohn, and originally appeared in Lawfare. One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted surveillance&#8212;such as individual wiretaps or pen register/trap and trace orders&#8212;to mass surveillance techniques&#8212;such as tapping into the internet backbone or mass collection of telephone or internet met"
-    },
-    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -453,16 +378,6 @@
       "published": "2026-09-15T11:00:00+00:00",
       "ts": 1789470000.0,
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
-    },
-    {
-      "id": "178cc9396d69",
-      "title": "On the NSA’s Supercomputer from the 1960s",
-      "link": "https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-15T10:16:24+00:00",
-      "ts": 1789467384.0,
-      "summary": "Really interesting story about Harvest, a specialized code breaking computer built in the 1960s by IBM for the NSA."
     },
     {
       "id": "b27cb57c89b9",
@@ -475,24 +390,14 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une injection SQL (SQLi). Cisco indique que la vulnérabilité CVE-2026-76461 est..."
     },
     {
-      "id": "d1ad64bcf890",
-      "title": "Upcoming Speaking Engagements",
-      "link": "https://www.schneier.com/blog/archives/2026/09/upcoming-speaking-engagements-60.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-14T19:02:45+00:00",
-      "ts": 1789412565.0,
-      "summary": "This is a current list of where and when I am scheduled to speak: I’m speaking online (via Zoom) at a League of Women Voters event on Tuesday, September 22, 2026 at 5 PM ET. I’m speaking at CanSecWest 2026 in Vancouver, Canada. The conference runs September 30–October 1, 2026; the time of my talk is TBD. I’m giving a talk on “Free Speech and the Preservation of Democracy” at Bentley University in "
-    },
-    {
-      "id": "dca466bd7bed",
-      "title": "On the eCK Security of MQV-Style LWE-Based Authenticated Key Exchange",
-      "link": "https://eprint.iacr.org/2026/2017",
+      "id": "8d0ed15414f8",
+      "title": "Two-Anchor Holdout/Hermite: Solving the TII-254 McEliece Key Recovery Challenge",
+      "link": "https://eprint.iacr.org/2026/1986",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-14T07:16:11+00:00",
-      "ts": 1789370171.0,
-      "summary": "Designing Authenticated Key Exchange (AKE) directly from the Learning with Errors (LWE) assumption, without relying on generic constructions, remains a prominent and challenging goal in post-quantum cryptography. Such designs inherently require reconciliation mechanisms, which may introduce additional leakage against active adversaries under key reuse. Yet previous signal leakage attacks of Bindel"
+      "published": "2026-09-11T19:10:46+00:00",
+      "ts": 1789153846.0,
+      "summary": "We report on the solution to the TII-254 McEliece key recovery challenge -- currently the hardest solved challenge under the original brute-force metric ($2^{254}$). The parameters of TII-254 are $(m,t,n) = (8,12,223)$, defining a binary $[223,127]$ code specified by a full-rank $(96 \\times 223)$ parity-check matrix. We state the method as a thirteen-step process, separating heuristic and non-heur"
     },
     {
       "id": "0c016fa822b6",
@@ -535,16 +440,6 @@
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity a"
     },
     {
-      "id": "a5f64ddf9d80",
-      "title": "Efficient Homomorphic Arithmetic Logical Units with \\texorpdfstring{$O(1)$}{O(1)} Bootstrapping",
-      "link": "https://eprint.iacr.org/2026/1840",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-31T02:58:40+00:00",
-      "ts": 1788145120.0,
-      "summary": "Arithmetic logic units (ALU) combine word-level arithmetic with bitwise operations over encrypted data. The state-of-the-art scheme, GZ26 (CRYPTO'26), constructs an ALU in CKKS via triangle encoding, but has two limitations: the radix-$2$ design restricts packing capacity, while the arithmetic-to-Boolean (A2B) conversion requires $O(\\ell)$ functional bootstrappings for $\\ell$-bit message without b"
-    },
-    {
       "id": "e6030ec23de5",
       "title": "Complexity Analysis and Security Implications of the New Isogeny-Path Algorithm",
       "link": "https://eprint.iacr.org/2026/1821",
@@ -585,16 +480,6 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
-      "id": "581839e5dbb0",
-      "title": "EA Codes Approaching Singleton Bound (with Application to Field-Agnostic SNARKs)",
-      "link": "https://eprint.iacr.org/2026/1782",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-23T16:27:20+00:00",
-      "ts": 1787502440.0,
-      "summary": "SNARKs based on error-correcting codes require codes that simultaneously support fast encoding and large relative distance. Reed--Solomon codes achieve the optimal rate--distance tradeoff given by the Singleton bound, but their fast encoding relies on FFT-friendly fields, limiting their applicability to field-agnostic constructions. In this work, we revisit expand--accumulate (EA) codes, a simple "
-    },
-    {
       "id": "62e0c7d7dc95",
       "title": "A Note on the Security Proof of SQIsign",
       "link": "https://eprint.iacr.org/2026/1775",
@@ -603,16 +488,6 @@
       "published": "2026-08-22T10:58:28+00:00",
       "ts": 1787396308.0,
       "summary": "Aardal et al. (CRYPTO 2025) provided the first complete security proof of SQIsign; however, their reduction incurs a square-root loss in the prime characteristic due to the application of a loose bound on the min-entropy. For instance, at NIST security level I, an adversary making $2^{64}$ signing queries renders the security proof vacuous. In this note, we show that the min-entropy of SQIsign is "
-    },
-    {
-      "id": "f20d788a4eb9",
-      "title": "Enforcing Winner-Only Disclosure: Verifiable Tally Hiding for Weighted DAO Governance",
-      "link": "https://eprint.iacr.org/2026/1773",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-22T07:28:36+00:00",
-      "ts": 1787383716.0,
-      "summary": "Token-weighted governance can fingerprint individual voters: when weights are unequal and externally known, the exact weighted tally may reveal who voted which way. Publishing only the winning outcome hides the tally from the public, but a system that reconstructs the tally in order to decide still hands it to whoever runs the computation. Publishing only the winner is not the same as computing on"
     },
     {
       "id": "bea5a06fb576",
@@ -655,24 +530,14 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
-      "id": "4b72ac139d8a",
-      "title": "Ideal Pseudorandom Code, Revisited",
-      "link": "https://eprint.iacr.org/2026/1657",
+      "id": "98d357cc6bd4",
+      "title": "D-James: Ultra Short Multivariate Signatures",
+      "link": "https://eprint.iacr.org/2026/1650",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-08-11T12:03:06+00:00",
-      "ts": 1786449786.0,
-      "summary": "Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composabl"
-    },
-    {
-      "id": "dcbc32eeaf3c",
-      "title": "From Toy to Instrument: Seven Years of Verifpal",
-      "link": "https://eprint.iacr.org/2026/1654",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-11T01:18:04+00:00",
-      "ts": 1786411084.0,
-      "summary": "Symbolic protocol verifiers must make a difficult tradeoff: their models and counterexamples should be accessible to protocol designers, but their results must still have a precise meaning. Verifpal addresses the first goal with a compact modeling language and source-level attack explanations. Its original analysis engine, introduced in 2019, had only a preliminary account of its guarantees. This "
+      "published": "2026-08-10T16:15:46+00:00",
+      "ts": 1786378546.0,
+      "summary": "Multivariate signature schemes are among the few post-quantum candidates capable of providing very short signatures, but designing secure constructions has proven challenging. HFE-based schemes such as G$e$MSS were compromised by algebraic MinRank attacks. This motivates the HFE$_\\text{IP}^-$ framework, which combines IP and minus modifiers to address these attacks. We introduce James and D-James,"
     },
     {
       "id": "fe4f47339d9c",
@@ -765,6 +630,16 @@
       "summary": "Le 14 juillet 2026, à l'occasion de sa mise à jour mensuelle, Microsoft a publié, entre autres, des correctifs pour deux vulnérabilités critiques affectant SharePoint. Les vulnérabilités CVE-2026-50522 et CVE-2026-58644 permettent à un attaquant non authentifié d'exécuter du code arbitraire à..."
     },
     {
+      "id": "a9c7c291187b",
+      "title": "ABE for Unbounded Circuits from Circular LWE and Pairings",
+      "link": "https://eprint.iacr.org/2026/1439",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-15T01:01:33+00:00",
+      "ts": 1784077293.0,
+      "summary": "Constructing attribute based encryption (ABE) for unbounded circuits, namely circuits with both depth and width being unbounded, and for Turing machines are perhaps the most important open questions in ABE research. Recent years saw some much-awaited progress on these long-standing problems -- (i) the work of Hsieh, Lin and Luo [HLL23] (HLL23) provided the first construction of ABE for unbounded c"
+    },
+    {
       "id": "dbacd69a3b65",
       "title": "Microsoft Patches a Record 570 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
@@ -853,6 +728,16 @@
       "published": "2026-05-23T09:34:47+00:00",
       "ts": 1779528887.0,
       "summary": "Round-reduced variants of AES are widely used as building blocks in the design of cryptographic schemes. The study of non-random properties and distinguishers for round-reduced AES has always been an important research topic. The longest known secret-key distinguishers on AES cover 6 rounds. Related differences and related differentials were introduced by the designers of AES in 2009, but research"
+    },
+    {
+      "id": "574c9cffe1b5",
+      "title": "Efficient Fair Data Exchange without In-Circuit Public-Key Operations",
+      "link": "https://eprint.iacr.org/2026/843",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-30T07:16:54+00:00",
+      "ts": 1777533414.0,
+      "summary": "Fair data exchange (FDE) ties payment to recovery of data matching an agreed commitment. Code-based FDE offers near-plaintext communication, but the sampled-ElGamal baseline incurs costly in-circuit checks when low redundancy requires many samples. We replace auxiliary ElGamal ciphertexts with direct KZG authentication and external witness linking. This leaves only field arithmetic in the consiste"
     },
     {
       "id": "e867d3e3dacb",
@@ -985,6 +870,16 @@
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
     },
     {
+      "id": "f6f72ef551b4",
+      "title": "Veriﬁed non-recursive calculation of Beneš networks applied to Classic McEliece",
+      "link": "https://eprint.iacr.org/2026/107",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-23T11:29:49+00:00",
+      "ts": 1769167789.0,
+      "summary": "The Beneš network can be utilised to apply a single permutation to different inputs repeatedly. We present novel generalisations of Bernstein's formulae for the control bits of a Beneš network and from them derive an iterative control bit setting algorithm. We provide verified proofs of our formulae and prototype a a provably correct implementation in the Lean language and theorem prover. We devel"
+    },
+    {
       "id": "d89b8a28e282",
       "title": "HTTPS certificate industry phasing out less secure domain validation methods",
       "link": "http://security.googleblog.com/2025/12/https-certificate-industry-phasing-out.html",
@@ -1043,6 +938,16 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
+    },
+    {
+      "id": "bcbeabda73ff",
+      "title": "An Open-Source Framework for Efficient Side-Channel Analysis on Cryptographic Implementations",
+      "link": "https://eprint.iacr.org/2025/1130",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-06-16T06:02:41+00:00",
+      "ts": 1750053761.0,
+      "summary": "Side-channel attacks (SCAs) are increasingly recognized as a significant threat to hardware roots of trust. As a result, cryptographic module designers must ensure that their modules are resilient to such attacks before deployment. However, efficient evaluation of side-channel vulnerabilities in cryptographic implementations remains challenging. This article introduces an open-source framework int"
     },
     {
       "id": "db1275ef2e81",
