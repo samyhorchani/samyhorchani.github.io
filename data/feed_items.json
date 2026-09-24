@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T21:57:23.955078+00:00",
+  "generated_at": "2026-09-24T00:16:03.626953+00:00",
   "count": 105,
   "errors": [
     {
@@ -545,6 +545,16 @@
       "summary": "Arithmetic logic units (ALU) combine word-level arithmetic with bitwise operations over encrypted data. The state-of-the-art scheme, GZ26 (CRYPTO'26), constructs an ALU in CKKS via triangle encoding, but has two limitations: the radix-$2$ design restricts packing capacity, while the arithmetic-to-Boolean (A2B) conversion requires $O(\\ell)$ functional bootstrappings for $\\ell$-bit message without b"
     },
     {
+      "id": "e6030ec23de5",
+      "title": "Complexity Analysis and Security Implications of the New Isogeny-Path Algorithm",
+      "link": "https://eprint.iacr.org/2026/1821",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-27T15:45:18+00:00",
+      "ts": 1787845518.0,
+      "summary": "Very recently, Wesolowski (ePrint 2026/1486) proposed a novel heuristic algorithm for solving the supersingular isogeny-path problem in time and memory \\(p^{1/3+o(1)}\\), where \\(p\\) is the characteristic of the underlying field. Although this improves asymptotically on the previous \\(p^{1/2}\\log^{O(1)}(p)\\) complexity, its concrete impact on isogeny-based schemes, particularly SQIsign, remains unc"
+    },
+    {
       "id": "a3160ec17f8b",
       "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
@@ -843,16 +853,6 @@
       "published": "2026-05-23T09:34:47+00:00",
       "ts": 1779528887.0,
       "summary": "Round-reduced variants of AES are widely used as building blocks in the design of cryptographic schemes. The study of non-random properties and distinguishers for round-reduced AES has always been an important research topic. The longest known secret-key distinguishers on AES cover 6 rounds. Related differences and related differentials were introduced by the designers of AES in 2009, but research"
-    },
-    {
-      "id": "574c9cffe1b5",
-      "title": "Efficient Fair Data Exchange without In-Circuit Public-Key Operations",
-      "link": "https://eprint.iacr.org/2026/843",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-30T07:16:54+00:00",
-      "ts": 1777533414.0,
-      "summary": "Fair data exchange (FDE) lets a seller receive payment if and only if a buyer can recover data matching an agreed commitment. Existing code-based schemes achieve near-plaintext communication, but their auxiliary public-key ciphertexts make consistency proving expensive when low redundancy requires many samples. We replace these auxiliary ciphertexts with direct polynomial authentication and extern"
     },
     {
       "id": "e867d3e3dacb",
