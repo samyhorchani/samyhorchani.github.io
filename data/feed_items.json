@@ -1,16 +1,11 @@
 {
-  "generated_at": "2026-09-24T10:56:39.780441+00:00",
-  "count": 95,
+  "generated_at": "2026-09-24T15:42:32.388273+00:00",
+  "count": 105,
   "errors": [
     {
       "source": "ANSSI — Actualités",
       "url": "https://www.ssi.gouv.fr/feed/actualites/",
       "error": "<unknown>:64:14: not well-formed (invalid token)"
-    },
-    {
-      "source": "Schneier on Security",
-      "url": "https://www.schneier.com/feed/atom/",
-      "error": "<unknown>:47:3: mismatched tag"
     },
     {
       "source": "NCC Group Research",
@@ -19,6 +14,56 @@
     }
   ],
   "items": [
+    {
+      "id": "9307e4f4e885",
+      "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+      "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-24T14:29:06+00:00",
+      "ts": 1790260146.0,
+      "summary": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic. \"When a visitor interacts with the page, the lure copies a Windows Installer command to the clipboard and instructs the visitor to paste it into the"
+    },
+    {
+      "id": "843eba876491",
+      "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
+      "link": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-24T12:05:27+00:00",
+      "ts": 1790251527.0,
+      "summary": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM. According to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logistics to distribute an Android Package Kit (APK) file that's dressed up as a system service. The delivered app has the package name \"com.corp.mdm\" Corp MDM"
+    },
+    {
+      "id": "acd1917de7f1",
+      "title": "Malicious npm Packages That Evade Defenses",
+      "link": "https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-24T11:07:42+00:00",
+      "ts": 1790248062.0,
+      "summary": "This is an impressive piece of malware. Its sophistication says nation-state to me, but there is no direct evidence and certainly no attribution."
+    },
+    {
+      "id": "46156f8de71f",
+      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+      "link": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-24T11:00:00+00:00",
+      "ts": 1790247600.0,
+      "summary": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are leaking secrets at approximately twice the rate of human-written ones. Most of the fastest-growing categories of leaked credentials are now connected to AI"
+    },
+    {
+      "id": "8355d7e7c934",
+      "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
+      "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-24T09:14:21+00:00",
+      "ts": 1790241261.0,
+      "summary": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructure and a state-sponsored user base, and explains why blocking malicious domains is no longer a useful defense. Read"
+    },
     {
       "id": "20ac4e0d2feb",
       "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
@@ -130,54 +175,24 @@
       "summary": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus 5.5, per Anthropic, is a \"major step up from Opus 5,\" and \"achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands"
     },
     {
-      "id": "145de7ac906e",
-      "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
-      "link": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
-      "source": "The Hacker News",
+      "id": "4ebd4db3cca9",
+      "title": "Research on Models Engaging in Genie-Like Behavior",
+      "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
+      "source": "Schneier on Security",
       "category": "veille",
-      "published": "2026-09-23T11:12:18+00:00",
-      "ts": 1790161938.0,
-      "summary": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst&nbsp;said in research published September 22. The flaw, tracked as&nbsp;CVE-2026-80521&nbsp;(CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst&nbsp;"
+      "published": "2026-09-23T11:03:36+00:00",
+      "ts": 1790161416.0,
+      "summary": "New paper: &#8220;Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training.&#8221; Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies "
     },
     {
-      "id": "270efe429182",
-      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-      "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
-      "source": "The Hacker News",
+      "id": "e1f07a200224",
+      "title": "GPT-6 Astra Breaks an Old Enigma Message",
+      "link": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
+      "source": "Schneier on Security",
       "category": "veille",
-      "published": "2026-09-23T08:29:48+00:00",
-      "ts": 1790152188.0,
-      "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw,&nbsp;CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in&nbsp;an advisory&nbsp;on September 22 and has released engineering hotfixes."
-    },
-    {
-      "id": "7fbe3f62084b",
-      "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-      "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-23T08:29:24+00:00",
-      "ts": 1790152164.0,
-      "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break"
-    },
-    {
-      "id": "be3fca7f1f4e",
-      "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
-      "link": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-23T07:04:40+00:00",
-      "ts": 1790147080.0,
-      "summary": "A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said. The risk applies when an app puts values an attacker controls, such as text read from the request URL, into the image. Vercel, which develops Next.js,&nbsp;fixed the flaw&nbsp;on September 22 in version"
-    },
-    {
-      "id": "344941919bf3",
-      "title": "Structural Analysis of Seven Hash Functions Submitted to the NGCC",
-      "link": "https://eprint.iacr.org/2026/2152",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T07:32:33+00:00",
-      "ts": 1790062353.0,
-      "summary": "The Institute of Commercial Cryptography Standards (ICCS) launched the Next-generation Commercial Cryptographic Algorithms Program (NGCC) and invited worldwide comments on draft submission requirements and evaluation criteria for cryptographic hash algorithms. Our analysis of seven submitted hash functions gives the following results: - Message differences that cancel in every key injection give e"
+      "published": "2026-09-22T11:02:45+00:00",
+      "ts": 1790074965.0,
+      "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
     },
     {
       "id": "91e94d2fec44",
@@ -190,14 +205,14 @@
       "summary": "Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly. Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its follow-up works achieve polylogarithmic proofs by recursively ``folding'' Reed-Solomon (RS) codes. However, their concrete evaluation costs remain relatively high, as the first few folding rounds operat"
     },
     {
-      "id": "1faba3293b88",
-      "title": "Fully Anonymous Perfect Secret-Sharing",
-      "link": "https://eprint.iacr.org/2026/2145",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T00:43:44+00:00",
-      "ts": 1790037824.0,
-      "summary": "Fully anonymous secret-sharing schemes ensure two properties at once: for any fixed secret, the combined shares of every unauthorized set of participants are uniformly random, and every authorized set can reconstruct the secret exactly using only the share values, without needing to know which participant holds which share or in what order the shares appear. It was previously open whether such sch"
+      "id": "1d1720323eb8",
+      "title": "Reverse-Engineering Flock Cameras",
+      "link": "https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-21T14:37:45+00:00",
+      "ts": 1790001465.0,
+      "summary": "Hackers captured a Flock camera and got a look (alternate link) at the software: While much of the automatic license plate reader&#8217;s (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects people as well as vehicles, license plates, and bicycles. The camera can produce dozens of im"
     },
     {
       "id": "71c4a4caf94f",
@@ -210,6 +225,36 @@
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it&rsquo;s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoni"
     },
     {
+      "id": "d4e7a661bd44",
+      "title": "Friday Squid Blogging: On Squid Egg Sacs",
+      "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-18T21:06:00+00:00",
+      "ts": 1789765560.0,
+      "summary": "Short essay about squid egg sacs. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
+    },
+    {
+      "id": "f0e42567b469",
+      "title": "Indifferentiability of the Sum of Two Permutations: Tight 3n/4 Security for the Uniform Simulator and a New Simulator for 4n/5 Security",
+      "link": "https://eprint.iacr.org/2026/2092",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-18T13:05:43+00:00",
+      "ts": 1789736743.0,
+      "summary": "We study the regular indifferentiability of the sum of two n-bit permutations. Previous work proved 2n/3-bit security and gave a 5n/6-bit attack against the uniform simulator. We prove 3n/4-bit se curity for the simulator and give a matching attack. Our proof bounds the KL divergence between response distributions by tracking the bias in unrevealed construction values through their conditional dis"
+    },
+    {
+      "id": "9fd5242ee937",
+      "title": "Are AIs Still Struggling with CAPTCHAs?",
+      "link": "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-18T11:05:52+00:00",
+      "ts": 1789729552.0,
+      "summary": "Anthropic&#8217;s recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude. In the transcript, the Claude model that is so powerful that Anthropic is gatekeeping access to it appeared to slam its virtual head against the wall solving a simple image identification test. In a test where the agent was asked to identify a shape that didn&#8217;t match the others"
+    },
+    {
       "id": "a91514e92c6f",
       "title": "Auditing in the age of (good enough) AI",
       "link": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
@@ -220,6 +265,66 @@
       "summary": "Security firms have published numerous blog posts describing how they pointed their agent harness at a codebase and found dozens of bugs (we’re one of them). However, these posts tend to focus on agentic code review, which is just one aspect of how we use AI in our security reviews. We want to give a different perspective: before code review even starts, agents now allow us to build custom tooling"
     },
     {
+      "id": "c8e925612fdc",
+      "title": "Multiples vulnérabilités dans les produits IBM (18 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1206/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-18T00:00:00+00:00",
+      "ts": 1789689600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+    },
+    {
+      "id": "08a44e9b1282",
+      "title": "Vulnérabilité dans Kaspersky Secure Mail Gateway (18 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1201/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-18T00:00:00+00:00",
+      "ts": 1789689600.0,
+      "summary": "Une vulnérabilité a été découverte dans Kaspersky Secure Mail Gateway. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
+    },
+    {
+      "id": "b6fddf8ecab7",
+      "title": "Multiples vulnérabilités dans WordPress (18 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1200/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-18T00:00:00+00:00",
+      "ts": 1789689600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité."
+    },
+    {
+      "id": "43920364aee1",
+      "title": "Multiples vulnérabilités dans Google Chrome (18 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1199/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-18T00:00:00+00:00",
+      "ts": 1789689600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+      "id": "37efb635dfee",
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (18 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1202/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-18T00:00:00+00:00",
+      "ts": 1789689600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "fa387c6a8f8b",
+      "title": "How Candidates Could Use AI for Good",
+      "link": "https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-17T11:06:31+00:00",
+      "ts": 1789643191.0,
+      "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian. There are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI&#8217;s impacts on the country. Politicos are using AI deepfakes to spread lies. The White House is posting slopaganda. Meanwhile, candidates are missing a real opportunity to use A"
+    },
+    {
       "id": "cf8a0ab7932c",
       "title": "Polynomial Time Algorithms for the Kadison-Singer Problem",
       "link": "https://eprint.iacr.org/2026/2070",
@@ -228,36 +333,6 @@
       "published": "2026-09-17T06:50:24+00:00",
       "ts": 1789627824.0,
       "summary": "Marcus, Spielman, and Srivastava [MSS15] established the existence of Kadison--Singer partitions. We provide polynomial-time algorithms for the Kadison--Singer problem. For Hermitian matrices $A_1,\\ldots,A_m\\in\\mathbb C^{n\\times n}$ of rank at most one, we give two algorithms that find signs $\\sigma\\in\\{\\pm1\\}^m$ satisfying $\\|\\sum_i \\sigma_iA_i\\|\\le C\\|\\sum_i A_i^2\\|^{1/2}$. The deterministic alg"
-    },
-    {
-      "id": "0de3bf2590f9",
-      "title": "Vulnérabilité dans NetApp ONTAP 9 (17 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1194/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-17T00:00:00+00:00",
-      "ts": 1789603200.0,
-      "summary": "Une vulnérabilité a été découverte dans NetApp ONTAP 9. Elle permet à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
-      "id": "53db21fd096b",
-      "title": "Vulnérabilité dans les produits Check Point (17 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1193/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-17T00:00:00+00:00",
-      "ts": 1789603200.0,
-      "summary": "Une vulnérabilité a été découverte dans les produits Check Point. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Checkpoint recommande de rechercher, via la *SmartConsole*, le motif **\"Administrator failed to log in: Username too long\"** dans les journaux..."
-    },
-    {
-      "id": "c87a46d0c06f",
-      "title": "Vulnérabilité dans KeyCloak (17 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1195/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-17T00:00:00+00:00",
-      "ts": 1789603200.0,
-      "summary": "Une vulnérabilité a été découverte dans KeyCloak. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité."
     },
     {
       "id": "b1fda2a6d4f4",
@@ -280,6 +355,16 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-76460 est..."
     },
     {
+      "id": "6da1fe5fb25a",
+      "title": "Vulnérabilité dans Nextcloud Server (17 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1198/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-17T00:00:00+00:00",
+      "ts": 1789603200.0,
+      "summary": "Une vulnérabilité a été découverte dans Nextcloud Server. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
+    },
+    {
       "id": "e89356591296",
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
       "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
@@ -290,64 +375,14 @@
       "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off"
     },
     {
-      "id": "640c8b26cb59",
-      "title": "Multiples vulnérabilités dans Oracle Virtualization (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1188/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "b8a45e5d374d",
-      "title": "Multiples vulnérabilités dans Docker (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1189/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Docker. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
-      "id": "31da6d12f4ff",
-      "title": "Multiples vulnérabilités dans Oracle PeopleSoft (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1187/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
-      "id": "6b9095aec776",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1191/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges."
-    },
-    {
-      "id": "0e6b512450e0",
-      "title": "Multiples vulnérabilités dans Mattermost Server (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1190/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
-      "id": "efc587eefcf9",
-      "title": "Multiples vulnérabilités dans les produits Mozilla (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1183/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données."
+      "id": "d7cc0387a40a",
+      "title": "Fake CAPTCHA Scams",
+      "link": "https://www.schneier.com/blog/archives/2026/09/fake-captcha-scams.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-16T11:25:26+00:00",
+      "ts": 1789557926.0,
+      "summary": "New variant of an old scam: Use the framing of a CAPTCHA to get an unsuspecting user to download and run a malicious program."
     },
     {
       "id": "6f8f46767281",
@@ -360,14 +395,14 @@
       "summary": "Une vulnérabilité a été découverte dans F5 NGINX. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données."
     },
     {
-      "id": "2d99947f8910",
-      "title": "Multiples vulnérabilités dans Oracle Weblogic (16 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1186/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance."
+      "id": "61dde741919b",
+      "title": "25 Years of Mass Surveillance Is Enough",
+      "link": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-15T11:01:41+00:00",
+      "ts": 1789470101.0,
+      "summary": "This essay was written with Cindy Cohn, and originally appeared in Lawfare. One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted surveillance&#8212;such as individual wiretaps or pen register/trap and trace orders&#8212;to mass surveillance techniques&#8212;such as tapping into the internet backbone or mass collection of telephone or internet met"
     },
     {
       "id": "21764e43a17b",
@@ -378,6 +413,16 @@
       "published": "2026-09-15T11:00:00+00:00",
       "ts": 1789470000.0,
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
+    },
+    {
+      "id": "178cc9396d69",
+      "title": "On the NSA’s Supercomputer from the 1960s",
+      "link": "https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-15T10:16:24+00:00",
+      "ts": 1789467384.0,
+      "summary": "Really interesting story about Harvest, a specialized code breaking computer built in the 1960s by IBM for the NSA."
     },
     {
       "id": "b27cb57c89b9",
@@ -418,16 +463,6 @@
       "published": "2026-09-08T21:44:22+00:00",
       "ts": 1788903862.0,
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
-    },
-    {
-      "id": "599719b88715",
-      "title": "Compact Lattice Anonymous Credentials from Tighter Approximate Range Proofs",
-      "link": "https://eprint.iacr.org/2026/1920",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-08T07:21:32+00:00",
-      "ts": 1788852092.0,
-      "summary": "Accommodating cryptographic authenticity with strong user privacy assurances has been the primary motivation for anonymous credentials systems. Their features have recently come into the spotlight with the European Digital Identity (EUDI) wallet initiative, insisting on the need for efficient and private solutions based on well-understood security foundations for high assurances. This coincides wi"
     },
     {
       "id": "94f014263cfc",
@@ -530,6 +565,16 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
+      "id": "dcbc32eeaf3c",
+      "title": "From Toy to Instrument: Seven Years of Verifpal",
+      "link": "https://eprint.iacr.org/2026/1654",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-11T01:18:04+00:00",
+      "ts": 1786411084.0,
+      "summary": "Symbolic protocol verifiers must make a difficult tradeoff: their models and counterexamples should be accessible to protocol designers, but their results must still have a precise meaning. Verifpal addresses the first goal with a compact modeling language and source-level attack explanations. Its original analysis engine, introduced in 2019, had only a preliminary account of its guarantees. This "
+    },
+    {
       "id": "98d357cc6bd4",
       "title": "D-James: Ultra Short Multivariate Signatures",
       "link": "https://eprint.iacr.org/2026/1650",
@@ -568,16 +613,6 @@
       "published": "2026-07-30T16:49:00+00:00",
       "ts": 1785430140.0,
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a groundbreaking new analysis finds these devices also routinely spoof themselves as mobile phones clicking ads on AI-generated websites as part of sprawlin"
-    },
-    {
-      "id": "5142e201a852",
-      "title": "How to Back Up High-Value Secret Keys",
-      "link": "https://eprint.iacr.org/2026/1565",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-30T16:43:15+00:00",
-      "ts": 1785429795.0,
-      "summary": "Consider a cryptocurrency exchange that secures the bulk of its reserves under a small set of keys, each of which is only used to transfer cryptocurrency once a year; or the backup codes for an account login or a password manager, which are again rarely used but provide access to crucial systems or information. Securing such infrequently-used high-value secrets is crucial, but existing solutions, "
     },
     {
       "id": "f26b7f89b569",
@@ -710,6 +745,16 @@
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
     },
     {
+      "id": "06e7924c13ea",
+      "title": "\"Sticking their heads out above the parapets\": Lived Experiences of Legal Risks in Research (Extended)",
+      "link": "https://eprint.iacr.org/2026/1207",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-08T13:43:43+00:00",
+      "ts": 1780926223.0,
+      "summary": "Overbroad computer crime, intellectual property, and other laws are well known to create legal risks that can discourage essential research. Notable examples include the US Computer Fraud and Abuse Act and the UK Computer Misuse Act. Because such laws fail to distinguish malicious hacking from good-faith testing and research, researchers face serious legal risks for public-interest research activi"
+    },
+    {
       "id": "7990c40a74ab",
       "title": "Let’s talk about encrypted reasoning",
       "link": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
@@ -718,16 +763,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "f39948fd40dd",
-      "title": "Related-Differential Distinguishers on up to 7 Rounds of AES",
-      "link": "https://eprint.iacr.org/2026/1039",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-23T09:34:47+00:00",
-      "ts": 1779528887.0,
-      "summary": "Round-reduced variants of AES are widely used as building blocks in the design of cryptographic schemes. The study of non-random properties and distinguishers for round-reduced AES has always been an important research topic. The longest known secret-key distinguishers on AES cover 6 rounds. Related differences and related differentials were introduced by the designers of AES in 2009, but research"
     },
     {
       "id": "574c9cffe1b5",
@@ -940,6 +975,16 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
+      "id": "e8b2907c2f9c",
+      "title": "BitPriv: A Privacy-Preserving Protocol for DeFi Applications on Bitcoin",
+      "link": "https://eprint.iacr.org/2025/1575",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-09-02T14:27:52+00:00",
+      "ts": 1756823272.0,
+      "summary": "Bitcoin secures over a trillion dollars in assets, yet its scripting language limits expressive decentralized-finance applications. BitVM enables arbitrary off-chain computation to be enforced through Bitcoin fraud proofs, but it does not provide privacy for inputs such as bids, quotes, and reserve prices. We present BitPriv, to our knowledge the first protocol that conditions payments on the outc"
+    },
+    {
       "id": "bcbeabda73ff",
       "title": "An Open-Source Framework for Efficient Side-Channel Analysis on Cryptographic Implementations",
       "link": "https://eprint.iacr.org/2025/1130",
@@ -968,6 +1013,56 @@
       "published": "2025-03-01T16:53:30+00:00",
       "ts": 1740848010.0,
       "summary": "This is a cryptography blog and I always feel the need to apologize for any post that isn&#8217;t &#8220;straight cryptography.&#8221; I&#8217;m actually getting a little tired of apologizing for it (though if you want some hard-core cryptography content, there&#8217;s plenty here and here.) Sometimes I have to remind my colleagues that out in the real &#8230; Continue reading Dear Apple: add &#82"
+    },
+    {
+      "id": "429da3824b35",
+      "title": "On the Tight Security of the Double Ratchet",
+      "link": "https://eprint.iacr.org/2024/1625",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-10-10T20:26:46+00:00",
+      "ts": 1728592006.0,
+      "summary": "The Signal Protocol is a two-party secure messaging protocol used in applications such as Signal, WhatsApp, Google Messages and Facebook Messenger and is used by billions daily. It consists of two core components, one of which is the Double Ratchet protocol that has been the subject of a line of work that aims to understand and formalise exactly what security it provides. Existing models capture s"
+    },
+    {
+      "id": "be37899bc7bf",
+      "title": "Multiples vulnérabilités dans les produits Siemens (10 septembre 2019)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2019-AVI-429/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2019-09-10T00:00:00+00:00",
+      "ts": 1568073600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécurité."
+    },
+    {
+      "id": "d30dcc2604a0",
+      "title": "Vulnérabilité dans Apple Mac OS X (24 juillet 2015)",
+      "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2015-ALE-009/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2015-07-24T00:00:00+00:00",
+      "ts": 1437696000.0,
+      "summary": "Une vulnérabilité a été découverte dans Apple Mac OS X. Elle permet à un attaquant de provoquer une élévation de privilèges."
+    },
+    {
+      "id": "b99cf3f9bac9",
+      "title": "Bulletin d'actualité CERTFR-2015-ACT-006 (09 février 2015)",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2015-ACT-006/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2015-02-09T00:00:00+00:00",
+      "ts": 1423440000.0,
+      "summary": "1 - Rappel des vulnérabilités récentes dans Adobe Flash Player Adobe Flash Player est utilisé principalement par les navigateurs Internet pour afficher du contenu dynamique sur des pages web. Depuis le début de l'année, plusieurs vulnérabilités sur Adobe Flash Player ont été signalées par le..."
+    },
+    {
+      "id": "7097d34fcdd9",
+      "title": "Bulletin d'actualité CERTFR-2014-ACT-004 (24 janvier 2014)",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2014-ACT-004/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2014-01-24T00:00:00+00:00",
+      "ts": 1390521600.0,
+      "summary": "1 - Création du CERT-FR Le 21 janvier 2014, le CERTA a changé de nom pour devenir le CERT-FR (Computer Emergency Response Team - France). Le CERT-FR est le CERT gouvernemental français. Il apporte son soutien en matière de gestion d'incidents aux ministères, institutions, juridictions, autorités..."
     }
   ]
 }
