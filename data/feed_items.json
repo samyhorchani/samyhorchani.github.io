@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T19:43:46.861699+00:00",
+  "generated_at": "2026-09-24T22:56:23.959913+00:00",
   "count": 105,
   "errors": [
     {
@@ -433,16 +433,6 @@
       "published": "2026-09-15T00:00:00+00:00",
       "ts": 1789430400.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une injection SQL (SQLi). Cisco indique que la vulnérabilité CVE-2026-76461 est..."
-    },
-    {
-      "id": "8d0ed15414f8",
-      "title": "Two-Anchor Holdout/Hermite: Solving the TII-254 McEliece Key Recovery Challenge",
-      "link": "https://eprint.iacr.org/2026/1986",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-11T19:10:46+00:00",
-      "ts": 1789153846.0,
-      "summary": "We report on the solution to the TII-254 McEliece key recovery challenge -- currently the hardest solved challenge under the original brute-force metric ($2^{254}$). The parameters of TII-254 are $(m,t,n) = (8,12,223)$, defining a binary $[223,127]$ code specified by a full-rank $(96 \\times 223)$ parity-check matrix. We state the method as a thirteen-step process, separating heuristic and non-heur"
     },
     {
       "id": "0c016fa822b6",
@@ -1023,6 +1013,16 @@
       "published": "2024-05-20T11:12:55+00:00",
       "ts": 1716203575.0,
       "summary": "A secret sharing scheme is a cryptographic primitive that allows a dealer to share a secret among a set of parties, so that only authorized subsets of them can recover it. The access structure of the scheme is the family of authorized subsets. In a weighted threshold access structure, each party is assigned a weight according to its importance, and the authorized subsets are those in which the sum"
+    },
+    {
+      "id": "fcc95038afdd",
+      "title": "Implementation and Performance Analysis of Homomorphic Signature Schemes",
+      "link": "https://eprint.iacr.org/2024/655",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-04-29T08:07:52+00:00",
+      "ts": 1714378072.0,
+      "summary": "Homomorphic signatures allow to validate computation on signed data. Alice, holding a dataset, $\\{m_1 , \\ldots , m_t \\}$ uses her secret key $\\sf sk$ to sign these data and stores the authenticated dataset on a remote server. The server can later (publicly) compute $m = f(m_1,...,m_t)$ together with a signature $\\sigma$ certifying that $m$ is indeed the correct output of the computation $f$. Over "
     },
     {
       "id": "be37899bc7bf",
