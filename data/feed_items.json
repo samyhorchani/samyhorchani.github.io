@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:42:32.388273+00:00",
+  "generated_at": "2026-09-24T19:43:46.861699+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "01061518ef83",
+      "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+      "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-24T18:10:18+00:00",
+      "ts": 1790273418.0,
+      "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats,&nbsp;chained two flaws in OnePlus's own software&nbsp;to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not"
+    },
+    {
+      "id": "edec4e688b2d",
+      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+      "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-24T17:52:43+00:00",
+      "ts": 1790272363.0,
+      "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just"
+    },
+    {
+      "id": "0195be5a2959",
+      "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+      "link": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-24T15:27:32+00:00",
+      "ts": 1790263652.0,
+      "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays,\" Manifold Security's Head of Research, Ax Sharma, said. \"Unlike 'example[.]com,' third-party[.]com"
+    },
     {
       "id": "9307e4f4e885",
       "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
@@ -143,36 +173,6 @@
       "published": "2026-09-23T13:52:46+00:00",
       "ts": 1790171566.0,
       "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS. According to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below - @memtensor/memos-cloud-openclaw-plugin versions"
-    },
-    {
-      "id": "414d19f5b54d",
-      "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
-      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-23T12:16:00+00:00",
-      "ts": 1790165760.0,
-      "summary": "A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22. A&nbsp;second bug in the WP Toolkit plugin, used to install and manage WordPress sites, allows an account holder to change databases that belong to other accounts. cPanel has released fixed versions for both,"
-    },
-    {
-      "id": "e38f7913fe15",
-      "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
-      "link": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-23T11:47:19+00:00",
-      "ts": 1790164039.0,
-      "summary": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a security background then sits down and checks every claim against the target. Which findings are real,"
-    },
-    {
-      "id": "b6f8e346d13e",
-      "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
-      "link": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-23T11:47:13+00:00",
-      "ts": 1790164033.0,
-      "summary": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus 5.5, per Anthropic, is a \"major step up from Opus 5,\" and \"achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands"
     },
     {
       "id": "4ebd4db3cca9",
@@ -475,16 +475,6 @@
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity a"
     },
     {
-      "id": "e6030ec23de5",
-      "title": "Complexity Analysis and Security Implications of the New Isogeny-Path Algorithm",
-      "link": "https://eprint.iacr.org/2026/1821",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-27T15:45:18+00:00",
-      "ts": 1787845518.0,
-      "summary": "Very recently, Wesolowski (ePrint 2026/1486) proposed a novel heuristic algorithm for solving the supersingular isogeny-path problem in time and memory \\(p^{1/3+o(1)}\\), where \\(p\\) is the characteristic of the underlying field. Although this improves asymptotically on the previous \\(p^{1/2}\\log^{O(1)}(p)\\) complexity, its concrete impact on isogeny-based schemes, particularly SQIsign, remains unc"
-    },
-    {
       "id": "a3160ec17f8b",
       "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
@@ -513,16 +503,6 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
-    },
-    {
-      "id": "62e0c7d7dc95",
-      "title": "A Note on the Security Proof of SQIsign",
-      "link": "https://eprint.iacr.org/2026/1775",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-22T10:58:28+00:00",
-      "ts": 1787396308.0,
-      "summary": "Aardal et al. (CRYPTO 2025) provided the first complete security proof of SQIsign; however, their reduction incurs a square-root loss in the prime characteristic due to the application of a loose bound on the min-entropy. For instance, at NIST security level I, an adversary making $2^{64}$ signing queries renders the security proof vacuous. In this note, we show that the min-entropy of SQIsign is "
     },
     {
       "id": "bea5a06fb576",
@@ -965,6 +945,16 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
+      "id": "cba7145afb89",
+      "title": "KPIR-C: Keyword PIR with Arbitrary Server-Side Computation",
+      "link": "https://eprint.iacr.org/2025/1952",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-10-19T16:05:43+00:00",
+      "ts": 1760889943.0,
+      "summary": "Keyword Private Information Retrieval (KPIR) enables clients to retrieve database entries by keyword without revealing their query, with many efficient schemes relying on Fully Homomorphic Encryption (FHE). However, existing FHE-based KPIR schemes fix parameters to a bounded computation depth, which becomes a bottleneck in privacy-sensitive settings such as distributed ledger systems and private w"
+    },
+    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1023,6 +1013,16 @@
       "published": "2024-10-10T20:26:46+00:00",
       "ts": 1728592006.0,
       "summary": "The Signal Protocol is a two-party secure messaging protocol used in applications such as Signal, WhatsApp, Google Messages and Facebook Messenger and is used by billions daily. It consists of two core components, one of which is the Double Ratchet protocol that has been the subject of a line of work that aims to understand and formalise exactly what security it provides. Existing models capture s"
+    },
+    {
+      "id": "07388cd30d19",
+      "title": "Reducing the Share Size of Weighted Threshold Secret Sharing Schemes via Chow Parameters Approximation",
+      "link": "https://eprint.iacr.org/2024/772",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-05-20T11:12:55+00:00",
+      "ts": 1716203575.0,
+      "summary": "A secret sharing scheme is a cryptographic primitive that allows a dealer to share a secret among a set of parties, so that only authorized subsets of them can recover it. The access structure of the scheme is the family of authorized subsets. In a weighted threshold access structure, each party is assigned a weight according to its importance, and the authorized subsets are those in which the sum"
     },
     {
       "id": "be37899bc7bf",
