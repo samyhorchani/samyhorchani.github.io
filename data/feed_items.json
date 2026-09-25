@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T22:56:23.959913+00:00",
+  "generated_at": "2026-09-25T01:08:12.013188+00:00",
   "count": 105,
   "errors": [
     {
@@ -193,6 +193,16 @@
       "published": "2026-09-22T11:02:45+00:00",
       "ts": 1790074965.0,
       "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
+    },
+    {
+      "id": "9891bf5d2f11",
+      "title": "Jolt-QED: Formally Verifying Bytecode Expansions In Lean",
+      "link": "https://eprint.iacr.org/2026/2157",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T10:24:21+00:00",
+      "ts": 1790072661.0,
+      "summary": "In this work, we verify, using the Lean 4 proof assistant, that the Jolt zk-VM's expanded programs faithfully emulate a RISC-V CPU. Prior work translated the official Sail specification of RISC-V into Lean. We extend this model to define the Jolt ISA in Lean. We build a generator that runs Jolt's Rust bytecode expander and renders its output as Lean programs. Finally, for 51 out of 58 such program"
     },
     {
       "id": "91e94d2fec44",
@@ -733,16 +743,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "574c9cffe1b5",
-      "title": "Efficient Fair Data Exchange without In-Circuit Public-Key Operations",
-      "link": "https://eprint.iacr.org/2026/843",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-30T07:16:54+00:00",
-      "ts": 1777533414.0,
-      "summary": "Fair data exchange (FDE) ties payment to recovery of data matching an agreed commitment. Code-based FDE offers near-plaintext communication, but the sampled-ElGamal baseline incurs costly in-circuit checks when low redundancy requires many samples. We replace auxiliary ElGamal ciphertexts with direct KZG authentication and external witness linking. This leaves only field arithmetic in the consiste"
     },
     {
       "id": "e867d3e3dacb",
