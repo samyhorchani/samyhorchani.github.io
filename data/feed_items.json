@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T01:08:12.013188+00:00",
+  "generated_at": "2026-09-25T07:00:05.734642+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "cfd96b558bbc",
+      "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+      "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-25T04:49:22+00:00",
+      "ts": 1790311762.0,
+      "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday. The data came from disk space that earlier containers had used and given up, not from any live workload, and an attacker could not choose whose data they got,&nbsp;according to Cloudflare. The company"
+    },
+    {
+      "id": "4f1354808a33",
+      "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+      "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-25T04:46:34+00:00",
+      "ts": 1790311594.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in&nbsp; WSO2 API Control Plane,"
+    },
     {
       "id": "01061518ef83",
       "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
@@ -155,26 +175,6 @@
       "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at"
     },
     {
-      "id": "ae38a9fe2627",
-      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
-      "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-23T14:17:58+00:00",
-      "ts": 1790173078.0,
-      "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is."
-    },
-    {
-      "id": "8a560f679057",
-      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
-      "link": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-23T13:52:46+00:00",
-      "ts": 1790171566.0,
-      "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS. According to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below - @memtensor/memos-cloud-openclaw-plugin versions"
-    },
-    {
       "id": "4ebd4db3cca9",
       "title": "Research on Models Engaging in Genie-Like Behavior",
       "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
@@ -203,16 +203,6 @@
       "published": "2026-09-22T10:24:21+00:00",
       "ts": 1790072661.0,
       "summary": "In this work, we verify, using the Lean 4 proof assistant, that the Jolt zk-VM's expanded programs faithfully emulate a RISC-V CPU. Prior work translated the official Sail specification of RISC-V into Lean. We extend this model to define the Jolt ISA in Lean. We build a generator that runs Jolt's Rust bytecode expander and renders its output as Lean programs. Finally, for 51 out of 58 such program"
-    },
-    {
-      "id": "91e94d2fec44",
-      "title": "ReedWeave: Faster Reed-Solomon Polynomial Commitments from Interleaving and Folding",
-      "link": "https://eprint.iacr.org/2026/2147",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T04:13:03+00:00",
-      "ts": 1790050383.0,
-      "summary": "Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly. Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its follow-up works achieve polylogarithmic proofs by recursively ``folding'' Reed-Solomon (RS) codes. However, their concrete evaluation costs remain relatively high, as the first few folding rounds operat"
     },
     {
       "id": "1d1720323eb8",
@@ -333,16 +323,6 @@
       "published": "2026-09-17T11:06:31+00:00",
       "ts": 1789643191.0,
       "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian. There are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI&#8217;s impacts on the country. Politicos are using AI deepfakes to spread lies. The White House is posting slopaganda. Meanwhile, candidates are missing a real opportunity to use A"
-    },
-    {
-      "id": "cf8a0ab7932c",
-      "title": "Polynomial Time Algorithms for the Kadison-Singer Problem",
-      "link": "https://eprint.iacr.org/2026/2070",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-17T06:50:24+00:00",
-      "ts": 1789627824.0,
-      "summary": "Marcus, Spielman, and Srivastava [MSS15] established the existence of Kadison--Singer partitions. We provide polynomial-time algorithms for the Kadison--Singer problem. For Hermitian matrices $A_1,\\ldots,A_m\\in\\mathbb C^{n\\times n}$ of rank at most one, we give two algorithms that find signs $\\sigma\\in\\{\\pm1\\}^m$ satisfying $\\|\\sum_i \\sigma_iA_i\\|\\le C\\|\\sum_i A_i^2\\|^{1/2}$. The deterministic alg"
     },
     {
       "id": "b1fda2a6d4f4",
@@ -555,16 +535,6 @@
       "summary": "Symbolic protocol verifiers must make a difficult tradeoff: their models and counterexamples should be accessible to protocol designers, but their results must still have a precise meaning. Verifpal addresses the first goal with a compact modeling language and source-level attack explanations. Its original analysis engine, introduced in 2019, had only a preliminary account of its guarantees. This "
     },
     {
-      "id": "98d357cc6bd4",
-      "title": "D-James: Ultra Short Multivariate Signatures",
-      "link": "https://eprint.iacr.org/2026/1650",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-10T16:15:46+00:00",
-      "ts": 1786378546.0,
-      "summary": "Multivariate signature schemes are among the few post-quantum candidates capable of providing very short signatures, but designing secure constructions has proven challenging. HFE-based schemes such as G$e$MSS were compromised by algebraic MinRank attacks. This motivates the HFE$_\\text{IP}^-$ framework, which combines IP and minus modifiers to address these attacks. We introduce James and D-James,"
-    },
-    {
       "id": "fe4f47339d9c",
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
@@ -643,16 +613,6 @@
       "published": "2026-07-22T00:00:00+00:00",
       "ts": 1784678400.0,
       "summary": "Le 14 juillet 2026, à l'occasion de sa mise à jour mensuelle, Microsoft a publié, entre autres, des correctifs pour deux vulnérabilités critiques affectant SharePoint. Les vulnérabilités CVE-2026-50522 et CVE-2026-58644 permettent à un attaquant non authentifié d'exécuter du code arbitraire à..."
-    },
-    {
-      "id": "a9c7c291187b",
-      "title": "ABE for Unbounded Circuits from Circular LWE and Pairings",
-      "link": "https://eprint.iacr.org/2026/1439",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-15T01:01:33+00:00",
-      "ts": 1784077293.0,
-      "summary": "Constructing attribute based encryption (ABE) for unbounded circuits, namely circuits with both depth and width being unbounded, and for Turing machines are perhaps the most important open questions in ABE research. Recent years saw some much-awaited progress on these long-standing problems -- (i) the work of Hsieh, Lin and Luo [HLL23] (HLL23) provided the first construction of ABE for unbounded c"
     },
     {
       "id": "dbacd69a3b65",
@@ -745,6 +705,36 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
+      "id": "177e7aa097d0",
+      "title": "BRaccoon: Concurrently Secure Blind Lattice Signatures from Raccoon",
+      "link": "https://eprint.iacr.org/2026/1084",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-28T15:24:45+00:00",
+      "ts": 1779981885.0,
+      "summary": "Blind signatures are a central primitive for privacy-preserving applications such as e-cash, anonymous credentials, and e-voting. Classical constructions such as blind Schnorr adapt an ordinary signature scheme while producing signatures that follow the same format and distribution as those generated by the ordinary signing algorithm. This property is particularly relevant in settings where blind "
+    },
+    {
+      "id": "1cfe6ec6732e",
+      "title": "Improved Complexity Estimates for Underdetermined MQ Systems via Generalized Variable Partitioning",
+      "link": "https://eprint.iacr.org/2026/1054",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-26T04:59:19+00:00",
+      "ts": 1779771559.0,
+      "summary": "Multivariate quadratic (MQ) signature schemes are an important class of post-quantum digital signatures. These schemes rely on the hardness of solving underdetermined MQ systems, where the number of variables \\(n\\) exceeds the number of equations \\(m\\). Therefore, analyzing the efficiency of algorithms for underdetermined MQ systems is essential for evaluating the security of MQ-based signature sc"
+    },
+    {
+      "id": "a9a8b3d9eb28",
+      "title": "Titan: Efficient Polynomial Commitments from IOPs over Groups",
+      "link": "https://eprint.iacr.org/2026/908",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-08T09:50:04+00:00",
+      "ts": 1778233804.0,
+      "summary": "In this paper, we propose Titan, an efficient polynomial commitment scheme (PCS) with transparent setup. It achieves commitment time of $O(n)$, evaluation time of $O(\\sqrt{n})$ while the proof size and verification scales as $O(\\sqrt[4]{n})$. Titan features an order of magnitude smaller proof sizes than hash based PCS, while featuring a significantly more efficient prover and verifier compared to "
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -813,6 +803,16 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
+    },
+    {
+      "id": "4eb0d22557c0",
+      "title": "Registration-Optimized Dynamic Group Time-based One-time Passwords for Mobile Access",
+      "link": "https://eprint.iacr.org/2026/595",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-25T11:52:31+00:00",
+      "ts": 1774439551.0,
+      "summary": "Mobile access within public finance and enterprise environments often requires lightweight anonymous authentication, allowing users to prove authorization without disclosing their identities. Group Time-based One-Time Passwords (GTOTP) has recently been proposed as a lightweight primitive meeting this need with post-quantum security. To address dynamic group membership, Cao et al. introduced DGTOn"
     },
     {
       "id": "b7ffc9dc8c13",
