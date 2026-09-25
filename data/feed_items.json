@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T20:59:44.993431+00:00",
+  "generated_at": "2026-09-25T23:54:45.796665+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "81a26141bc31",
+      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+      "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+      "source": "Krebs on Security",
+      "category": "veille",
+      "published": "2026-09-25T21:44:40+00:00",
+      "ts": 1790372680.0,
+      "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims."
+    },
+    {
+      "id": "8533167f43ba",
+      "title": "Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee",
+      "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-25T21:08:14+00:00",
+      "ts": 1790370494.0,
+      "summary": "I feel like someone who reads this blog will want to go to this: Families are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines an interactive lesson with the opportunity to explore the anatomy and adaptations of real ocean life."
+    },
     {
       "id": "407dd4d764ee",
       "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
@@ -415,16 +435,6 @@
       "summary": "New variant of an old scam: Use the framing of a CAPTCHA to get an unsuspecting user to download and run a malicious program."
     },
     {
-      "id": "61dde741919b",
-      "title": "25 Years of Mass Surveillance Is Enough",
-      "link": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-15T11:01:41+00:00",
-      "ts": 1789470101.0,
-      "summary": "This essay was written with Cindy Cohn, and originally appeared in Lawfare. One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted surveillance&#8212;such as individual wiretaps or pen register/trap and trace orders&#8212;to mass surveillance techniques&#8212;such as tapping into the internet backbone or mass collection of telephone or internet met"
-    },
-    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -433,6 +443,16 @@
       "published": "2026-09-15T11:00:00+00:00",
       "ts": 1789470000.0,
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
+    },
+    {
+      "id": "a49fb5603ee2",
+      "title": "Improving GIJS Key Recovery for Classic McEliece",
+      "link": "https://eprint.iacr.org/2026/1984",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-11T16:11:38+00:00",
+      "ts": 1789143098.0,
+      "summary": "Ghoshal, Ishai, Jain and Sun (GIJS) recently gave the first distinguisher for Classic McEliece public keys that is cheaper than generic decoding, at an estimated $2^{114}$ to $2^{124}$ bit operations for the five NIST candidate parameter sets, and have since extended it to a key-recovery algorithm. The distinguisher is one large sparse linear-algebra computation. We show that this computation alre"
     },
     {
       "id": "0c016fa822b6",
@@ -625,16 +645,6 @@
       "summary": "Le 14 juillet 2026, à l'occasion de sa mise à jour mensuelle, Microsoft a publié, entre autres, des correctifs pour deux vulnérabilités critiques affectant SharePoint. Les vulnérabilités CVE-2026-50522 et CVE-2026-58644 permettent à un attaquant non authentifié d'exécuter du code arbitraire à..."
     },
     {
-      "id": "dbacd69a3b65",
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "source": "Krebs on Security",
-      "category": "veille",
-      "published": "2026-07-14T19:22:42+00:00",
-      "ts": 1784056962.0,
-      "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last month. Microsoft attributed the burgeoning patch counts to vulnerability discoveries aided by artificial intelligence."
-    },
-    {
       "id": "bdc2700324bc",
       "title": "Rust-proof your code with our new Testing Handbook chapter",
       "link": "https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/",
@@ -793,16 +803,6 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
-    },
-    {
-      "id": "4eb0d22557c0",
-      "title": "Registration-Optimized Dynamic Group Time-based One-time Passwords for Mobile Access",
-      "link": "https://eprint.iacr.org/2026/595",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-25T11:52:31+00:00",
-      "ts": 1774439551.0,
-      "summary": "Mobile access within public finance and enterprise environments often requires lightweight anonymous authentication, allowing users to prove authorization without disclosing their identities. Group Time-based One-Time Passwords (GTOTP) has recently been proposed as a lightweight primitive meeting this need with post-quantum security. To address dynamic group membership, Cao et al. introduced DGTOn"
     },
     {
       "id": "d175f592794b",
