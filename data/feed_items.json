@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T07:00:05.734642+00:00",
+  "generated_at": "2026-09-25T12:42:25.989339+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "e95061812d96",
+      "title": "On Anthropic’s AI Misuse Report",
+      "link": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-25T11:07:22+00:00",
+      "ts": 1790334442.0,
+      "summary": "Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of the highlights: AI agents increasingly handled reconnaissance, exploitation, data theft, propaganda production, surveillance workflows, and research while humans selected targets, set goals, and reviewed important outputs."
+    },
+    {
+      "id": "f391bd68698a",
+      "title": "Don't let TEEs break your MPC",
+      "link": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/",
+      "source": "Trail of Bits Blog",
+      "category": "recherche",
+      "published": "2026-09-25T11:00:00+00:00",
+      "ts": 1790334000.0,
+      "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
+    },
+    {
+      "id": "ddad732bcc44",
+      "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+      "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-25T10:35:55+00:00",
+      "ts": 1790332555.0,
+      "summary": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets.&nbsp; \"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving a limited number of hot wallets,\" BitGet said in a post shared on X. \"Bitget's cold wallets and the overwhelming majority of platform assets remain"
+    },
+    {
+      "id": "201b048d3abb",
+      "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+      "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-25T10:14:02+00:00",
+      "ts": 1790331242.0,
+      "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1. The issue stems from a preg_replace() backslash"
+    },
     {
       "id": "cfd96b558bbc",
       "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
@@ -155,26 +195,6 @@
       "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido, the list of Terraform providers and Go modules is below - gocommunity-io/dockerd (222 downloads) kreuzwenker/"
     },
     {
-      "id": "dcd74582f808",
-      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
-      "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-23T16:53:10+00:00",
-      "ts": 1790182390.0,
-      "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored"
-    },
-    {
-      "id": "3f509b42967a",
-      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-      "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-23T16:06:41+00:00",
-      "ts": 1790179601.0,
-      "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at"
-    },
-    {
       "id": "4ebd4db3cca9",
       "title": "Research on Models Engaging in Genie-Like Behavior",
       "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
@@ -183,6 +203,16 @@
       "published": "2026-09-23T11:03:36+00:00",
       "ts": 1790161416.0,
       "summary": "New paper: &#8220;Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training.&#8221; Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies "
+    },
+    {
+      "id": "91903cfdd63f",
+      "title": "Accordion: Efficient Batch Proving via Algebraic Folding",
+      "link": "https://eprint.iacr.org/2026/2160",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T14:39:00+00:00",
+      "ts": 1790087940.0,
+      "summary": "We present $\\mathsf{Accordion}$, a new proof system that works in two steps: - $\\textit{Accumulate}$: The first building block is a multi-folding scheme that efficiently accumulates $k$ different instances of a degree-$d$ polynomial relation into a single accumulated instance, without using recursion. Our scheme builds on the Protostar [Bünz & Chen, ASIACRYPT '23] and Protogalaxy [Eagen & Gabizon,"
     },
     {
       "id": "e1f07a200224",
@@ -203,6 +233,16 @@
       "published": "2026-09-22T10:24:21+00:00",
       "ts": 1790072661.0,
       "summary": "In this work, we verify, using the Lean 4 proof assistant, that the Jolt zk-VM's expanded programs faithfully emulate a RISC-V CPU. Prior work translated the official Sail specification of RISC-V into Lean. We extend this model to define the Jolt ISA in Lean. We build a generator that runs Jolt's Rust bytecode expander and renders its output as Lean programs. Finally, for 51 out of 58 such program"
+    },
+    {
+      "id": "afdac7573336",
+      "title": "BitZ: proofs and commitments in arbitrary rings through binary fields",
+      "link": "https://eprint.iacr.org/2026/2141",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-21T15:16:27+00:00",
+      "ts": 1790003787.0,
+      "summary": "We introduce BitZ, a hash-based Polynomial Commitment Scheme (PCS) for committing to multilinear polynomials $\\mathbf{f}$ with coefficients in an arbitrary finitely generated ring $S$, e.g.\\ a finite field $\\mathbb{F}$, the integers $\\mathbb{Z}$, a cyclotomic ring, etc. Moreover, given another arbitrary ring $R$ and a ring homomorphism $\\psi:S\\to R$, BitZ then proves evaluation claims over $R$ for"
     },
     {
       "id": "1d1720323eb8",
@@ -233,16 +273,6 @@
       "published": "2026-09-18T21:06:00+00:00",
       "ts": 1789765560.0,
       "summary": "Short essay about squid egg sacs. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
-      "id": "f0e42567b469",
-      "title": "Indifferentiability of the Sum of Two Permutations: Tight 3n/4 Security for the Uniform Simulator and a New Simulator for 4n/5 Security",
-      "link": "https://eprint.iacr.org/2026/2092",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-18T13:05:43+00:00",
-      "ts": 1789736743.0,
-      "summary": "We study the regular indifferentiability of the sum of two n-bit permutations. Previous work proved 2n/3-bit security and gave a 5n/6-bit attack against the uniform simulator. We prove 3n/4-bit se curity for the simulator and give a matching attack. Our proof bounds the KL divergence between response distributions by tracking the bias in unrevealed construction values through their conditional dis"
     },
     {
       "id": "9fd5242ee937",
@@ -405,16 +435,6 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
-      "id": "178cc9396d69",
-      "title": "On the NSA’s Supercomputer from the 1960s",
-      "link": "https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-15T10:16:24+00:00",
-      "ts": 1789467384.0,
-      "summary": "Really interesting story about Harvest, a specialized code breaking computer built in the 1960s by IBM for the NSA."
-    },
-    {
       "id": "b27cb57c89b9",
       "title": "Multiples vulnérabilités dans les produits Cisco (15 septembre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1175/",
@@ -523,16 +543,6 @@
       "published": "2026-08-11T17:30:00+00:00",
       "ts": 1786469400.0,
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
-    },
-    {
-      "id": "dcbc32eeaf3c",
-      "title": "From Toy to Instrument: Seven Years of Verifpal",
-      "link": "https://eprint.iacr.org/2026/1654",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-11T01:18:04+00:00",
-      "ts": 1786411084.0,
-      "summary": "Symbolic protocol verifiers must make a difficult tradeoff: their models and counterexamples should be accessible to protocol designers, but their results must still have a precise meaning. Verifpal addresses the first goal with a compact modeling language and source-level attack explanations. Its original analysis engine, introduced in 2019, had only a preliminary account of its guarantees. This "
     },
     {
       "id": "fe4f47339d9c",
@@ -663,16 +673,6 @@
       "published": "2026-06-30T11:00:00+00:00",
       "ts": 1782817200.0,
       "summary": "Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography. On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantu"
-    },
-    {
-      "id": "bc3263969ac7",
-      "title": "Introducing Patch the Planet",
-      "link": "https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/",
-      "source": "Trail of Bits Blog",
-      "category": "recherche",
-      "published": "2026-06-22T16:50:00+00:00",
-      "ts": 1782147000.0,
-      "summary": "What happens when you clear dozens of Trail of Bits engineers’ schedules, pair them with every open-source maintainer they can contact, and unleash the latest frontier models like GPT-5.5-Cyber on critical open-source targets? Thanks to our partnership with OpenAI and its Daybreak initiative, we can report that the impact is hundreds of discovered bugs, 64 pull requests, and 51 issues filed across"
     },
     {
       "id": "09b719e50e41",
@@ -815,6 +815,26 @@
       "summary": "Mobile access within public finance and enterprise environments often requires lightweight anonymous authentication, allowing users to prove authorization without disclosing their identities. Group Time-based One-Time Passwords (GTOTP) has recently been proposed as a lightweight primitive meeting this need with post-quantum security. To address dynamic group membership, Cao et al. introduced DGTOn"
     },
     {
+      "id": "d175f592794b",
+      "title": "On the CCA security properties (and more) of a new variant of Paillier-ElGamal",
+      "link": "https://eprint.iacr.org/2026/452",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-04T16:12:09+00:00",
+      "ts": 1772640729.0,
+      "summary": "We solve the long-standing open question of designing a \"truly\" linearly homomorphic scheme -- meaning it supports homomorphic additions on arbitrary plaintexts, with no restriction, in contrast to \"somewhat\" ones -- that achieves CCA1 security under a standard assumption. We do so by introducing a new variant of Paillier-ElGamal, which we call Damgard-Paillier-ElGamal (DPEG) as its design follows"
+    },
+    {
+      "id": "6ab81363f73a",
+      "title": "Information-Theoretic Strong Traceable Secret Sharing Schemes",
+      "link": "https://eprint.iacr.org/2026/435",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-03T15:45:48+00:00",
+      "ts": 1772552748.0,
+      "summary": "Traceable secret sharing complements traditional schemes by enabling the identification of parties who sell their shares. Recently, two independent works extended traceable secret sharing to general access structures. Goyal, Jain, and Partap [EC'26] introduced a model in which a reconstruction box is augmented with a label $I \\subseteq [n]$ and is only required to distinguish between two secrets w"
+    },
+    {
       "id": "b7ffc9dc8c13",
       "title": "Anonymous credentials: an illustrated primer",
       "link": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
@@ -873,16 +893,6 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
-    },
-    {
-      "id": "f6f72ef551b4",
-      "title": "Veriﬁed non-recursive calculation of Beneš networks applied to Classic McEliece",
-      "link": "https://eprint.iacr.org/2026/107",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-23T11:29:49+00:00",
-      "ts": 1769167789.0,
-      "summary": "The Beneš network can be utilised to apply a single permutation to different inputs repeatedly. We present novel generalisations of Bernstein's formulae for the control bits of a Beneš network and from them derive an iterative control bit setting algorithm. We provide verified proofs of our formulae and prototype a a provably correct implementation in the Lean language and theorem prover. We devel"
     },
     {
       "id": "d89b8a28e282",
@@ -955,26 +965,6 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "e8b2907c2f9c",
-      "title": "BitPriv: A Privacy-Preserving Protocol for DeFi Applications on Bitcoin",
-      "link": "https://eprint.iacr.org/2025/1575",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-09-02T14:27:52+00:00",
-      "ts": 1756823272.0,
-      "summary": "Bitcoin secures over a trillion dollars in assets, yet its scripting language limits expressive decentralized-finance applications. BitVM enables arbitrary off-chain computation to be enforced through Bitcoin fraud proofs, but it does not provide privacy for inputs such as bids, quotes, and reserve prices. We present BitPriv, to our knowledge the first protocol that conditions payments on the outc"
-    },
-    {
-      "id": "bcbeabda73ff",
-      "title": "An Open-Source Framework for Efficient Side-Channel Analysis on Cryptographic Implementations",
-      "link": "https://eprint.iacr.org/2025/1130",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-06-16T06:02:41+00:00",
-      "ts": 1750053761.0,
-      "summary": "Side-channel attacks (SCAs) are increasingly recognized as a significant threat to hardware roots of trust. As a result, cryptographic module designers must ensure that their modules are resilient to such attacks before deployment. However, efficient evaluation of side-channel vulnerabilities in cryptographic implementations remains challenging. This article introduces an open-source framework int"
-    },
-    {
       "id": "db1275ef2e81",
       "title": "A bit more on Twitter/X’s new encrypted messaging",
       "link": "https://blog.cryptographyengineering.com/2025/06/09/a-bit-more-on-twitter-xs-new-encrypted-messaging/",
@@ -1023,6 +1013,16 @@
       "published": "2024-04-29T08:07:52+00:00",
       "ts": 1714378072.0,
       "summary": "Homomorphic signatures allow to validate computation on signed data. Alice, holding a dataset, $\\{m_1 , \\ldots , m_t \\}$ uses her secret key $\\sf sk$ to sign these data and stores the authenticated dataset on a remote server. The server can later (publicly) compute $m = f(m_1,...,m_t)$ together with a signature $\\sigma$ certifying that $m$ is indeed the correct output of the computation $f$. Over "
+    },
+    {
+      "id": "700ad816976d",
+      "title": "Two-Round Oblivious Linear Evaluation from Learning with Errors",
+      "link": "https://eprint.iacr.org/2020/635",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2020-06-03T09:36:21+00:00",
+      "ts": 1591176981.0,
+      "summary": "Oblivious Linear Evaluation (OLE) is the arithmetic analogue of the well-know oblivious transfer primitive. It allows a sender, holding an affine function $f(x)=a+bx$ over a finite field or ring, to let a receiver learn $f(w)$ for a $w$ of the receiver's choice. In terms of security, the sender remains oblivious of the receiver's input $w$, whereas the receiver learns nothing beyond $f(w)$ about $"
     },
     {
       "id": "be37899bc7bf",
