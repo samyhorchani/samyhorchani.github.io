@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T13:42:11.560845+00:00",
+  "generated_at": "2026-09-26T17:34:38.460518+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "c986e19b2575",
+      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+      "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-26T11:46:40+00:00",
+      "ts": 1790423200.0,
+      "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution. The vulnerability was first exploited as a zero-day"
+    },
+    {
+      "id": "1b22207c7b8f",
+      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-26T10:30:00+00:00",
+      "ts": 1790418600.0,
+      "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to"
+    },
     {
       "id": "a5aef02aa4e6",
       "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
@@ -183,26 +203,6 @@
       "published": "2026-09-24T15:27:32+00:00",
       "ts": 1790263652.0,
       "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays,\" Manifold Security's Head of Research, Ax Sharma, said. \"Unlike 'example[.]com,' third-party[.]com"
-    },
-    {
-      "id": "9307e4f4e885",
-      "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-      "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-24T14:29:06+00:00",
-      "ts": 1790260146.0,
-      "summary": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic. \"When a visitor interacts with the page, the lure copies a Windows Installer command to the clipboard and instructs the visitor to paste it into the"
-    },
-    {
-      "id": "843eba876491",
-      "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
-      "link": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-24T12:05:27+00:00",
-      "ts": 1790251527.0,
-      "summary": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM. According to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logistics to distribute an Android Package Kit (APK) file that's dressed up as a system service. The delivered app has the package name \"com.corp.mdm\" Corp MDM"
     },
     {
       "id": "acd1917de7f1",
