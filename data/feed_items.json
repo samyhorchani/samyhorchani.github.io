@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:34:38.460518+00:00",
+  "generated_at": "2026-09-26T20:32:22.600399+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "ba5308134c8d",
+      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-26T18:22:52+00:00",
+      "ts": 1790446972.0,
+      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users. \"The attack chain begins with a fake CAPTCHA page and"
+    },
     {
       "id": "c986e19b2575",
       "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
@@ -193,16 +203,6 @@
       "published": "2026-09-24T17:52:43+00:00",
       "ts": 1790272363.0,
       "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just"
-    },
-    {
-      "id": "0195be5a2959",
-      "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
-      "link": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-24T15:27:32+00:00",
-      "ts": 1790263652.0,
-      "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays,\" Manifold Security's Head of Research, Ax Sharma, said. \"Unlike 'example[.]com,' third-party[.]com"
     },
     {
       "id": "acd1917de7f1",
@@ -805,16 +805,6 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
-      "id": "d175f592794b",
-      "title": "On the CCA security properties (and more) of a new variant of Paillier-ElGamal",
-      "link": "https://eprint.iacr.org/2026/452",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-04T16:12:09+00:00",
-      "ts": 1772640729.0,
-      "summary": "We solve the long-standing open question of designing a \"truly\" linearly homomorphic scheme -- meaning it supports homomorphic additions on arbitrary plaintexts, with no restriction, in contrast to \"somewhat\" ones -- that achieves CCA1 security under a standard assumption. We do so by introducing a new variant of Paillier-ElGamal, which we call Damgard-Paillier-ElGamal (DPEG) as its design follows"
-    },
-    {
       "id": "9c53d9c291bb",
       "title": "A unified toolkit for advanced arithmetic in FHE",
       "link": "https://eprint.iacr.org/2026/450",
@@ -853,6 +843,16 @@
       "published": "2026-02-27T17:01:00+00:00",
       "ts": 1772211660.0,
       "summary": "Posted by Chrome Secure Web and Networking Team Today we're announcing a new program in Chrome to make HTTPS certificates secure against quantum computers. The Internet Engineering Task Force (IETF) recently created a working group, PKI, Logs, And Tree Signatures (“PLANTS”), aiming to address the performance and bandwidth challenges that the increased size of quantum-resistant cryptography introdu"
+    },
+    {
+      "id": "eff0b36a9b6f",
+      "title": "On the Need for (Quantum) Memory with Short Outputs",
+      "link": "https://eprint.iacr.org/2026/403",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-27T05:05:14+00:00",
+      "ts": 1772168714.0,
+      "summary": "In this work, we establish the first separation between computation with bounded and unbounded space, for problems with short outputs (i.e., working memory can be exponentially larger than output size), both in the classical and the quantum setting. Towards that, we introduce a problem called nested collision finding, and show that optimal query complexity can not be achieved without exponential m"
     },
     {
       "id": "23058dc44ece",
