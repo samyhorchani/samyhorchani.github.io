@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T08:59:37.377488+00:00",
+  "generated_at": "2026-09-26T13:42:11.560845+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "a5aef02aa4e6",
+      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+      "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-26T09:55:22+00:00",
+      "ts": 1790416522.0,
+      "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions"
+    },
+    {
+      "id": "4fe1ec572fa2",
+      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-26T08:49:53+00:00",
+      "ts": 1790412593.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question are as follows - CVE-2026-65660 (CVSS score: 8.8) - A code injection vulnerability in Microsoft Office SharePoint"
+    },
+    {
+      "id": "98d21b6ac391",
+      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-26T07:48:33+00:00",
+      "ts": 1790408913.0,
+      "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. \"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems,\" said Frank Balonis, Chief"
+    },
     {
       "id": "81a26141bc31",
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
@@ -185,34 +215,14 @@
       "summary": "This is an impressive piece of malware. Its sophistication says nation-state to me, but there is no direct evidence and certainly no attribution."
     },
     {
-      "id": "46156f8de71f",
-      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
-      "link": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-24T11:00:00+00:00",
-      "ts": 1790247600.0,
-      "summary": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are leaking secrets at approximately twice the rate of human-written ones. Most of the fastest-growing categories of leaked credentials are now connected to AI"
-    },
-    {
-      "id": "8355d7e7c934",
-      "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
-      "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-24T09:14:21+00:00",
-      "ts": 1790241261.0,
-      "summary": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructure and a state-sponsored user base, and explains why blocking malicious domains is no longer a useful defense. Read"
-    },
-    {
-      "id": "20ac4e0d2feb",
-      "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
-      "link": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-24T07:07:25+00:00",
-      "ts": 1790233645.0,
-      "summary": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister&nbsp;Anthony Albanese said. The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal"
+      "id": "f01734f6323b",
+      "title": "Stay in Your Lane: Fast Arithmetic over Large Finite Rings with CKKS",
+      "link": "https://eprint.iacr.org/2026/2190",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-23T20:05:26+00:00",
+      "ts": 1790193926.0,
+      "summary": "Recent CKKS-based constructions support homomorphic arithmetic modulo powers of two and more general moduli. We explore a complementary tradeoff: using polynomial rings native to CKKS simplifies arithmetic and refreshing but restricts the message spaces. Building on Kim's interpretation of GBFV ciphertexts as CKKS ciphertexts, we use the decomposition $\\mathbb{R}[X]/\\langle X^N+1\\rangle \\cong(\\mat"
     },
     {
       "id": "4ebd4db3cca9",
@@ -243,16 +253,6 @@
       "published": "2026-09-22T11:02:45+00:00",
       "ts": 1790074965.0,
       "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
-    },
-    {
-      "id": "afdac7573336",
-      "title": "BitZ: proofs and commitments in arbitrary rings through binary fields",
-      "link": "https://eprint.iacr.org/2026/2141",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-21T15:16:27+00:00",
-      "ts": 1790003787.0,
-      "summary": "We introduce BitZ, a hash-based Polynomial Commitment Scheme (PCS) for committing to multilinear polynomials $\\mathbf{f}$ with coefficients in an arbitrary finitely generated ring $S$, e.g.\\ a finite field $\\mathbb{F}$, the integers $\\mathbb{Z}$, a cyclotomic ring, etc. Moreover, given another arbitrary ring $R$ and a ring homomorphism $\\psi:S\\to R$, BitZ then proves evaluation claims over $R$ for"
     },
     {
       "id": "1d1720323eb8",
@@ -725,14 +725,14 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
-      "id": "a9a8b3d9eb28",
-      "title": "Titan: Efficient Polynomial Commitments from IOPs over Groups",
-      "link": "https://eprint.iacr.org/2026/908",
+      "id": "a6ef80b7eb1c",
+      "title": "Privacy Coins Under Viewing Key Compromise",
+      "link": "https://eprint.iacr.org/2026/872",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-05-08T09:50:04+00:00",
-      "ts": 1778233804.0,
-      "summary": "In this paper, we propose Titan, an efficient polynomial commitment scheme (PCS) with transparent setup. It achieves commitment time of $O(n)$, evaluation time of $O(\\sqrt{n})$ while the proof size and verification scales as $O(\\sqrt[4]{n})$. Titan features an order of magnitude smaller proof sizes than hash based PCS, while featuring a significantly more efficient prover and verifier compared to "
+      "published": "2026-05-05T06:02:58+00:00",
+      "ts": 1777960978.0,
+      "summary": "Anonymity guarantees of privacy-oriented cryptocurrencies are garnering negative attention from lawmakers who view them as antinomic to accountability. Having recognized their potential for innovation, however, regulators may not want to outright ban privacy coins but instead seek a middle ground where financial oversight is effective, and still some privacy is maintained. Mature designs, such as "
     },
     {
       "id": "e867d3e3dacb",
