@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T03:09:57.312170+00:00",
+  "generated_at": "2026-09-27T09:44:24.388665+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,6 +15,46 @@
   ],
   "items": [
     {
+      "id": "78a6342d8713",
+      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+      "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-27T07:47:57+00:00",
+      "ts": 1790495277.0,
+      "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available. NetScaler ADC and"
+    },
+    {
+      "id": "540535e5ffb8",
+      "title": "Indistinguishability of Sum of Permutations: A Fourier Analytic Route to Classical and Quantum Security",
+      "link": "https://eprint.iacr.org/2026/2230",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-27T02:10:26+00:00",
+      "ts": 1790475026.0,
+      "summary": "We study classical and quantum indistinguishability of sums of independent random permutations and related transformations from permutations to functions. Let $G$ be a finite abelian group of order $N$, and let $\\pi^k_+(x)=\\pi_1(x)+\\cdots+\\pi_k(x)$ for $k\\geq2$ independent uniform random permutations of $G$. We give a unified Fourier analytic treatment in which the construction is represented by i"
+    },
+    {
+      "id": "cea63d888bd7",
+      "title": "Local Rewriting under Assumed Erasure",
+      "link": "https://eprint.iacr.org/2026/2229",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-27T00:45:53+00:00",
+      "ts": 1790469953.0,
+      "summary": "We study local rewriting after an assumed erasure step in an ideal oblivious-transfer protocol. Bob transforms his retained record while Alice's actual record remains fixed. Exact rewriting between shared-source and independent-source records is possible in both directions precisely when the retained records of the shared source are independent. For balanced deterministic maps retaining $k$ and $\\"
+    },
+    {
+      "id": "ad2d7e7ec30a",
+      "title": "Adelic reduction of module lattices",
+      "link": "https://eprint.iacr.org/2026/2228",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-26T20:55:23+00:00",
+      "ts": 1790456123.0,
+      "summary": "We give a strict generalization of the LLL algorithm over number fields, based on the reduction theory of $\\mathrm{GL}(n)$ over the adele ring of a number field. Our algorithm is free of heuristics, with rigorous bounds on output quality and complexity. As a consequence, we obtain a hierarchy of reductions from module-(H)SVP to ideal-HSVP, an example of which has runtime and approximation factors "
+    },
+    {
       "id": "ba5308134c8d",
       "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
       "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
@@ -23,6 +63,26 @@
       "published": "2026-09-26T18:22:52+00:00",
       "ts": 1790446972.0,
       "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users. \"The attack chain begins with a fake CAPTCHA page and"
+    },
+    {
+      "id": "d0786bd01d69",
+      "title": "A Fiat-Shamir Transformation for Private-Coin Protocols",
+      "link": "https://eprint.iacr.org/2026/2227",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-26T16:32:10+00:00",
+      "ts": 1790440330.0,
+      "summary": "The Fiat--Shamir transformation is a fundamental paradigm in cryptography for compiling interactive public-coin protocols into non-interactive arguments. While this transformation has been extensively studied for public-coin protocols, the setting of private-coin protocols, where the verifier's messages depend on secret randomness, remains largely unexplored. To date, there are no candidate transf"
+    },
+    {
+      "id": "5b17ad6ba0d1",
+      "title": "FALCON++: Shorter Signatures without NTRU Smoothing Estimates",
+      "link": "https://eprint.iacr.org/2026/2226",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-26T16:09:54+00:00",
+      "ts": 1790438994.0,
+      "summary": "\\Falcon{} is a digital signature scheme based on NTRU lattices, known for its compact signatures. Its weak-smoothness variant, \\FalconWS{} (ASIACRYPT 2025), reduces signature sizes by allowing narrower Gaussian sampling distributions. Further reductions require efficient sampling at narrower widths and a security analysis that accounts for the resulting distributions. We analyze the distribution o"
     },
     {
       "id": "c986e19b2575",
@@ -45,6 +105,16 @@
       "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to"
     },
     {
+      "id": "7b115cf9c871",
+      "title": "Breaking the G\\'omez-Torrecillas--Lobillo--Navarro Cryptosystem: LLL Recovers the Secret Key Within Seconds",
+      "link": "https://eprint.iacr.org/2026/2225",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-26T10:09:09+00:00",
+      "ts": 1790417349.0,
+      "summary": "We present a key-recovery attack on the knapsack McEliece-based public key cryptosystem recently proposed by G\\'omez-Torrecillas, Lobillo, and Navarro in DCC 2026. Given the public key alone, the attack recovers the complete private key in time polynomial in the bit-length of the public key, and therefore constitutes a total break. The attack combines two observations based solely on the public ke"
+    },
+    {
       "id": "a5aef02aa4e6",
       "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
       "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
@@ -53,6 +123,16 @@
       "published": "2026-09-26T09:55:22+00:00",
       "ts": 1790416522.0,
       "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions"
+    },
+    {
+      "id": "c05bee6fa9d8",
+      "title": "The Tower of Babel: Large Language Models for Side-channel Analysis",
+      "link": "https://eprint.iacr.org/2026/2224",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-26T09:16:26+00:00",
+      "ts": 1790414186.0,
+      "summary": "Deep learning-based side-channel analysis (DLSCA) is dominated by CNNs and from-scratch Transformer architectures, while pretrained Large Language Models (LLMs) as side-channel distinguishers remain largely unexplored. We present the first systematic study of seven off-the-shelf pretrained LLMs (DeepSeek, Falcon, GPT-J, GPT-2, GPT-2m, Qwen2, T5) on three masked AES datasets, i.e., ASCADf, ASCADv, "
     },
     {
       "id": "4fe1ec572fa2",
@@ -73,6 +153,26 @@
       "published": "2026-09-26T07:48:33+00:00",
       "ts": 1790408913.0,
       "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. \"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems,\" said Frank Balonis, Chief"
+    },
+    {
+      "id": "40c0c905feb8",
+      "title": "Linear Key Recovery in the BAG-Loong Reference Implementation",
+      "link": "https://eprint.iacr.org/2026/2223",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-26T06:30:08+00:00",
+      "ts": 1790404208.0,
+      "summary": "The BAG-Loong reference implementation samples its secret matrices X and Y from fixed, publicly known subspaces, although the specification calls for secret random supports. This makes the public-key relation S = HX + Y , with public H, amenable to Gaussian elimination. Expanding the relation over F2 and projecting away the support of Y leaves a linear system for X. We prove an exact recovery crit"
+    },
+    {
+      "id": "4ccdd02aa5fe",
+      "title": "SoK: The Landscape of Post-Quantum Multi-Party Signature Aggregation",
+      "link": "https://eprint.iacr.org/2026/2222",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-26T06:24:11+00:00",
+      "ts": 1790403851.0,
+      "summary": "Post-quantum signature schemes such as ML-DSA, FN-DSA (Falcon), and SLH-DSA have significantly larger keys and signatures than their classical counterparts, making compact multiparty signing an increasingly important research problem. We survey more than 30 schemes published between 2021 and 2026, covering threshold and dis tributed signing, proof-based aggregation, and algebraic half-aggregation."
     },
     {
       "id": "81a26141bc31",
@@ -195,16 +295,6 @@
       "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats,&nbsp;chained two flaws in OnePlus's own software&nbsp;to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not"
     },
     {
-      "id": "edec4e688b2d",
-      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-      "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-24T17:52:43+00:00",
-      "ts": 1790272363.0,
-      "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just"
-    },
-    {
       "id": "acd1917de7f1",
       "title": "Malicious npm Packages That Evade Defenses",
       "link": "https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html",
@@ -233,16 +323,6 @@
       "published": "2026-09-23T11:03:36+00:00",
       "ts": 1790161416.0,
       "summary": "New paper: &#8220;Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training.&#8221; Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies "
-    },
-    {
-      "id": "91903cfdd63f",
-      "title": "Accordion: Efficient Batch Proving via Algebraic Folding",
-      "link": "https://eprint.iacr.org/2026/2160",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T14:39:00+00:00",
-      "ts": 1790087940.0,
-      "summary": "We present $\\mathsf{Accordion}$, a new proof system that works in two steps: - $\\textit{Accumulate}$: The first building block is a multi-folding scheme that efficiently accumulates $k$ different instances of a degree-$d$ polynomial relation into a single accumulated instance, without using recursion. Our scheme builds on the Protostar [Bünz & Chen, ASIACRYPT '23] and Protogalaxy [Eagen & Gabizon,"
     },
     {
       "id": "e1f07a200224",
@@ -313,16 +393,6 @@
       "published": "2026-09-18T21:06:00+00:00",
       "ts": 1789765560.0,
       "summary": "Short essay about squid egg sacs. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
-      "id": "a6881e1ec66d",
-      "title": "End-to-End Hard-Label Cryptanalytic Model Extraction Using Efficient Sign Recovery",
-      "link": "https://eprint.iacr.org/2026/2097",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-18T15:44:23+00:00",
-      "ts": 1789746263.0,
-      "summary": "The importance of deep neural networks (DNNs) is widely recognized, and the parameters obtained through training are regarded as valuable assets. Recently, attacks that extract these parameters using only oracle queries to a DNN have been actively studied at IACR conferences. The hard-label setting is the most challenging setting for model extraction, where an adversary can observe only the final "
     },
     {
       "id": "9fd5242ee937",
@@ -445,14 +515,14 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
-      "id": "a49fb5603ee2",
-      "title": "Improving GIJS Key Recovery for Classic McEliece",
-      "link": "https://eprint.iacr.org/2026/1984",
+      "id": "2a9ea3219b5d",
+      "title": "CauchyFold: Residue-Optimal High-Arity Lattice Folding via Scaled Cauchy Challenges",
+      "link": "https://eprint.iacr.org/2026/2011",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-11T16:11:38+00:00",
-      "ts": 1789143098.0,
-      "summary": "Ghoshal, Ishai, Jain and Sun (GIJS) recently gave the first distinguisher for Classic McEliece public keys that is cheaper than generic decoding, at an estimated $2^{114}$ to $2^{124}$ bit operations for the five NIST candidate parameter sets, and have since extended it to a key-recovery algorithm. The distinguisher is one large sparse linear-algebra computation. We show that this computation alre"
+      "published": "2026-09-14T04:47:13+00:00",
+      "ts": 1789361233.0,
+      "summary": "Folding schemes combine a batch of relation instances into one accumulator. For quadratic relations, applying the fold directly creates a mixed term for every pair of inputs. We present CauchyFold, a lattice protocol that folds one accumulator with \\(k\\) fresh quadratic instances without enumerating these pairwise terms. The companion work [WX26] uses Cauchy folding coefficients to represent the m"
     },
     {
       "id": "3b067e74b80c",
@@ -563,16 +633,6 @@
       "published": "2026-08-11T17:30:00+00:00",
       "ts": 1786469400.0,
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
-    },
-    {
-      "id": "7fe6bbc45137",
-      "title": "Track me if you can: Ephemeral coin tracing",
-      "link": "https://eprint.iacr.org/2026/1645",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-10T08:18:10+00:00",
-      "ts": 1786349890.0,
-      "summary": "Privacy-preserving payment systems are well understood, yet concerns about their misuse for financial crime have led to only limited adoption in regulated settings such as central bank digital currencies (CBDCs) and institutional stablecoins. Tracing is one tool for addressing these concerns: acting on external evidence implicating a user, law enforcement follows the suspect's funds through the le"
     },
     {
       "id": "fe4f47339d9c",
@@ -695,6 +755,16 @@
       "summary": "Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography. On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantu"
     },
     {
+      "id": "747f5f07165d",
+      "title": "LaMS: A p-adic Layered Modulus Switching for Provable Dual Attacks on LWE",
+      "link": "https://eprint.iacr.org/2026/1326",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-26T13:40:03+00:00",
+      "ts": 1782481203.0,
+      "summary": "The Learning with Errors (LWE) problem is a central foundation for post-quantum schemes such as Kyber and Dilithium. Dual attacks are among the main tools for assessing the concrete hardness of LWE instances. At EUROCRYPT 2024, Pouly and Shen introduced the first provable dual attack against LWE. Subsequently, at ASIACRYPT 2025, Qu and Xu incorporated modulus switching into this framework by recov"
+    },
+    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -805,26 +875,6 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
-      "id": "9c53d9c291bb",
-      "title": "A unified toolkit for advanced arithmetic in FHE",
-      "link": "https://eprint.iacr.org/2026/450",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-04T15:10:16+00:00",
-      "ts": 1772637016.0,
-      "summary": "We suggest an extension of discrete--CKKS that enables advanced computations over real, Boolean and large integers (e.g., 64/128-bit), including standard arithmetic operations, comparison, shift, bit length, quotient, square root, and other non linear functions based on binary representation. The flexibility of our approach lies in the synergy between the integer and the real arithmetic layers. At"
-    },
-    {
-      "id": "6ab81363f73a",
-      "title": "Information-Theoretic Strong Traceable Secret Sharing Schemes",
-      "link": "https://eprint.iacr.org/2026/435",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-03T15:45:48+00:00",
-      "ts": 1772552748.0,
-      "summary": "Traceable secret sharing complements traditional schemes by enabling the identification of parties who sell their shares. Recently, two independent works extended traceable secret sharing to general access structures. Goyal, Jain, and Partap [EC'26] introduced a model in which a reconstruction box is augmented with a label $I \\subseteq [n]$ and is only required to distinguish between two secrets w"
-    },
-    {
       "id": "b7ffc9dc8c13",
       "title": "Anonymous credentials: an illustrated primer",
       "link": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
@@ -875,16 +925,6 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
-      "id": "159e315ddee6",
-      "title": "Rule Variant Restrictions for the Tamarin Prover",
-      "link": "https://eprint.iacr.org/2026/230",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-11T13:42:08+00:00",
-      "ts": 1770817328.0,
-      "summary": "We introduce an optimization to the Tamarin prover that reduces its search space. The optimization applies to protocol models that use equational theories with cancellative operators, for example, when modelling Diffie-Hellman groups or bilinear pairings. We prove the optimization's soundness and evaluate its performance."
-    },
-    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -903,16 +943,6 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
-    },
-    {
-      "id": "395a29a3eff3",
-      "title": "Beyond Incentive Compatibility: Rational Harm-Proof Transaction Fee Mechanisms",
-      "link": "https://eprint.iacr.org/2025/2247",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-12-14T01:01:14+00:00",
-      "ts": 1765674074.0,
-      "summary": "On a blockchain, users compete for scarce block space in an auction run by the miner to get their transactions confirmed in the block. This auction is called transaction fee mechanism (TFM). Recent work [Rou21, CS23, SCW23] has been focused on incentive compatibility (IC), requiring that honest behavior maximizes the payoff for each type of strategic player: users, the miner, or miner–user coaliti"
     },
     {
       "id": "d89b8a28e282",
@@ -965,16 +995,6 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
-      "id": "6224ae0bbad3",
-      "title": "A Simplified Round-by-round Soundness Proof of FRI",
-      "link": "https://eprint.iacr.org/2025/1993",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-10-24T13:27:25+00:00",
-      "ts": 1761312445.0,
-      "summary": "The FRI protocol (ICALP '18) is one of the most influential and widely deployed building blocks at the core of modern SNARK systems. While its concrete security is well understood, existing security proofs are intricate and technically complex. In this work, we present a significantly simpler security analysis of FRI, in particular its round-by-round soundness. Our approach is more accessible to a"
-    },
-    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1003,26 +1023,6 @@
       "published": "2025-03-01T16:53:30+00:00",
       "ts": 1740848010.0,
       "summary": "This is a cryptography blog and I always feel the need to apologize for any post that isn&#8217;t &#8220;straight cryptography.&#8221; I&#8217;m actually getting a little tired of apologizing for it (though if you want some hard-core cryptography content, there&#8217;s plenty here and here.) Sometimes I have to remind my colleagues that out in the real &#8230; Continue reading Dear Apple: add &#82"
-    },
-    {
-      "id": "fdc8cb973030",
-      "title": "Adaptive Special Soundness: A new framework for knowledge extraction with applications to Kilian’s protocol",
-      "link": "https://eprint.iacr.org/2024/2038",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-12-17T21:23:19+00:00",
-      "ts": 1734470599.0,
-      "summary": "The knowledge soundness of an interactive proof is often proven via various ``special soundness (SS)'' frameworks which separate knowledge extraction into: (1) extracting accepting transcripts conforming to some structure; (2) recovering a witness from structure-conforming transcripts. However, even access-structure SS [TCC'23], one of the most general, does not handle proof systems employing prob"
-    },
-    {
-      "id": "700ad816976d",
-      "title": "Two-Round Oblivious Linear Evaluation from Learning with Errors",
-      "link": "https://eprint.iacr.org/2020/635",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2020-06-03T09:36:21+00:00",
-      "ts": 1591176981.0,
-      "summary": "Oblivious Linear Evaluation (OLE) is the arithmetic analogue of the well-know oblivious transfer primitive. It allows a sender, holding an affine function $f(x)=a+bx$ over a finite field or ring, to let a receiver learn $f(w)$ for a $w$ of the receiver's choice. In terms of security, the sender remains oblivious of the receiver's input $w$, whereas the receiver learns nothing beyond $f(w)$ about $"
     },
     {
       "id": "be37899bc7bf",
