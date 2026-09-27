@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T09:44:24.388665+00:00",
+  "generated_at": "2026-09-27T14:57:05.831104+00:00",
   "count": 105,
   "errors": [
     {
@@ -165,16 +165,6 @@
       "summary": "The BAG-Loong reference implementation samples its secret matrices X and Y from fixed, publicly known subspaces, although the specification calls for secret random supports. This makes the public-key relation S = HX + Y , with public H, amenable to Gaussian elimination. Expanding the relation over F2 and projecting away the support of Y leaves a linear system for X. We prove an exact recovery crit"
     },
     {
-      "id": "4ccdd02aa5fe",
-      "title": "SoK: The Landscape of Post-Quantum Multi-Party Signature Aggregation",
-      "link": "https://eprint.iacr.org/2026/2222",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-26T06:24:11+00:00",
-      "ts": 1790403851.0,
-      "summary": "Post-quantum signature schemes such as ML-DSA, FN-DSA (Falcon), and SLH-DSA have significantly larger keys and signatures than their classical counterparts, making compact multiparty signing an increasingly important research problem. We survey more than 30 schemes published between 2021 and 2026, covering threshold and dis tributed signing, proof-based aggregation, and algebraic half-aggregation."
-    },
-    {
       "id": "81a26141bc31",
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
       "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
@@ -333,6 +323,16 @@
       "published": "2026-09-22T11:02:45+00:00",
       "ts": 1790074965.0,
       "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
+    },
+    {
+      "id": "afdac7573336",
+      "title": "BitZ: proofs and commitments in arbitrary rings through binary fields",
+      "link": "https://eprint.iacr.org/2026/2141",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-21T15:16:27+00:00",
+      "ts": 1790003787.0,
+      "summary": "We introduce BitZ, a hash-based Polynomial Commitment Scheme (PCS) for committing to multilinear polynomials $\\mathbf{f}$ with coefficients in an arbitrary finitely generated ring $S$, e.g.\\ a finite field $\\mathbb{F}$, the integers $\\mathbb{Z}$, a cyclotomic ring, etc. Moreover, given another arbitrary ring $R$ and a ring homomorphism $\\psi:S\\to R$, BitZ then proves evaluation claims over $R$ for"
     },
     {
       "id": "1d1720323eb8",
@@ -523,16 +523,6 @@
       "published": "2026-09-14T04:47:13+00:00",
       "ts": 1789361233.0,
       "summary": "Folding schemes combine a batch of relation instances into one accumulator. For quadratic relations, applying the fold directly creates a mixed term for every pair of inputs. We present CauchyFold, a lattice protocol that folds one accumulator with \\(k\\) fresh quadratic instances without enumerating these pairwise terms. The companion work [WX26] uses Cauchy folding coefficients to represent the m"
-    },
-    {
-      "id": "3b067e74b80c",
-      "title": "Properties of the Me Operation and Me-Scalar Multiplication on Elliptic Curves over Finite Fields",
-      "link": "https://eprint.iacr.org/2026/1976",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-11T04:52:09+00:00",
-      "ts": 1789102329.0,
-      "summary": "The M operation was introduced by Yura as an alternative to the max operation appearing in the box-ball system (BBS) to construct a BBS over finite fields. The Me operation is a version of the M operation for an elliptic curve $E$ over a finite field ${\\mathbb F}_p$. As with the M operation, the Me operation satisfies the idempotent law and does not satisfy the associative law. Nevertheless, for $"
     },
     {
       "id": "0c016fa822b6",
@@ -943,6 +933,16 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
+    },
+    {
+      "id": "28fa4333e723",
+      "title": "Micali’s SNARG, Function Vector Commitments, and Fiat–Shamir",
+      "link": "https://eprint.iacr.org/2025/2328",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-12-26T14:38:00+00:00",
+      "ts": 1766759880.0,
+      "summary": "Micali's construction of succinct non-interactive arguments (SNARGs) combines a probabilistically checkable proof (PCP), a vector commitment, and the Fiat--Shamir transformation. Its security is established in the random oracle model, but replacing the random oracle with an explicit hash function presents a fundamental challenge: Fiat--Shamir can fail for interactive arguments, and certain choices"
     },
     {
       "id": "d89b8a28e282",
