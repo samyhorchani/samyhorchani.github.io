@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:57:05.831104+00:00",
+  "generated_at": "2026-09-27T18:54:35.858815+00:00",
   "count": 105,
   "errors": [
     {
@@ -22,7 +22,7 @@
       "category": "veille",
       "published": "2026-09-27T07:47:57+00:00",
       "ts": 1790495277.0,
-      "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say they have taken appliances offline rather than wait for one to be available. NetScaler ADC and"
+      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr"
     },
     {
       "id": "540535e5ffb8",
@@ -153,16 +153,6 @@
       "published": "2026-09-26T07:48:33+00:00",
       "ts": 1790408913.0,
       "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. \"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems,\" said Frank Balonis, Chief"
-    },
-    {
-      "id": "40c0c905feb8",
-      "title": "Linear Key Recovery in the BAG-Loong Reference Implementation",
-      "link": "https://eprint.iacr.org/2026/2223",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-26T06:30:08+00:00",
-      "ts": 1790404208.0,
-      "summary": "The BAG-Loong reference implementation samples its secret matrices X and Y from fixed, publicly known subspaces, although the specification calls for secret random supports. This makes the public-key relation S = HX + Y , with public H, amenable to Gaussian elimination. Expanding the relation over F2 and projecting away the support of Y leaves a linear system for X. We prove an exact recovery crit"
     },
     {
       "id": "81a26141bc31",
@@ -1013,6 +1003,16 @@
       "published": "2025-06-09T18:22:31+00:00",
       "ts": 1749493351.0,
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
+    },
+    {
+      "id": "4061d23d7396",
+      "title": "One-Step Schnorr Threshold Identification",
+      "link": "https://eprint.iacr.org/2025/722",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-04-22T21:06:18+00:00",
+      "ts": 1745355978.0,
+      "summary": "Threshold cryptographic primitives have not been adopted in real-world distributes systems (i.e., beyond the closed committee model) presumably due to state-synchronization overhead and complex certification processes for the shareholders. These are both aspects of infrastructure overreliance, an assumption that is usually glossed over in their design. In this work, we propose OSST, a real-time th"
     },
     {
       "id": "6984eb306670",
