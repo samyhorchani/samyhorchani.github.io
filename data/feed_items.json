@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:51:57.904712+00:00",
+  "generated_at": "2026-09-28T21:01:04.350552+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,66 @@
     }
   ],
   "items": [
+    {
+      "id": "5c52b3091dde",
+      "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+      "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-28T19:18:01+00:00",
+      "ts": 1790623081.0,
+      "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file. The iPhone maker said the"
+    },
+    {
+      "id": "80de125cfa6e",
+      "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+      "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-28T18:35:42+00:00",
+      "ts": 1790620542.0,
+      "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis. The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least"
+    },
+    {
+      "id": "685070f2d8c1",
+      "title": "IAM for AI agents: A Practical Enterprise Framework",
+      "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-28T18:20:38+00:00",
+      "ts": 1790619638.0,
+      "summary": "What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventional provisioning, the components that matter, how to evaluate framework choices, and what runtime evidence proves an agent behaved as intended."
+    },
+    {
+      "id": "e1bdcca573bf",
+      "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+      "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-28T17:42:18+00:00",
+      "ts": 1790617338.0,
+      "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited the flaw to obtain high-level internal credentials and then, on September 24, used them to send fraudulent withdrawal commands to Bitget's wallet system. Exchanges keep most"
+    },
+    {
+      "id": "654f6c26710d",
+      "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+      "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-28T17:38:33+00:00",
+      "ts": 1790617113.0,
+      "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp;of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate copy. The console stores what the malware collects from each phone,"
+    },
+    {
+      "id": "535fdeca402d",
+      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+      "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+      "source": "Krebs on Security",
+      "category": "veille",
+      "published": "2026-09-28T15:08:57+00:00",
+      "ts": 1790608137.0,
+      "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p."
+    },
     {
       "id": "6df282b64589",
       "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
@@ -145,26 +205,6 @@
       "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions"
     },
     {
-      "id": "4fe1ec572fa2",
-      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-      "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-26T08:49:53+00:00",
-      "ts": 1790412593.0,
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question are as follows - CVE-2026-65660 (CVSS score: 8.8) - A code injection vulnerability in Microsoft Office SharePoint"
-    },
-    {
-      "id": "98d21b6ac391",
-      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
-      "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-26T07:48:33+00:00",
-      "ts": 1790408913.0,
-      "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. \"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems,\" said Frank Balonis, Chief"
-    },
-    {
       "id": "81a26141bc31",
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
       "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
@@ -185,34 +225,14 @@
       "summary": "I feel like someone who reads this blog will want to go to this: Families are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines an interactive lesson with the opportunity to explore the anatomy and adaptations of real ocean life."
     },
     {
-      "id": "407dd4d764ee",
-      "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
-      "link": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-25T14:44:41+00:00",
-      "ts": 1790347481.0,
-      "summary": "Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign. The affected GitHub Actions are listed below - actions-cool/issues-helper actions-cool/maintain-one-comment Visiting either of the repositories now shows the message: \"Access to this"
-    },
-    {
-      "id": "d931bad8cd78",
-      "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
-      "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-25T13:18:06+00:00",
-      "ts": 1790342286.0,
-      "summary": "Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain. The latest artifacts, per Jamf Threat Labs, continue to rely on the same JavaScript for Automation (JXA) dropper mechanism, but modify the lure and the delivery method. \"Where earlier variants embedded their payload key material"
-    },
-    {
-      "id": "c2a716d2cdbc",
-      "title": "The SOC Doesn't Need to Start Over with Every Alert",
-      "link": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-25T11:30:00+00:00",
-      "ts": 1790335800.0,
-      "summary": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry. The routine version looks like this. An attacker lands on a low-privilege cloud account, and the first try at privilege escalation goes nowhere. That dead end used to cost hours of documentation reading,"
+      "id": "d0a4c9d29435",
+      "title": "Quantum security analysis of unrestricted isogeny-based group actions",
+      "link": "https://eprint.iacr.org/2026/2215",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-25T17:55:22+00:00",
+      "ts": 1790358922.0,
+      "summary": "Setting concrete parameters for group action based cryptographic protocols is notoriously difficult due to the incomplete understanding of the concrete efficiency of Kuperberg's subexponential quantum attack. Estimates for the CSIDH group action do exist in the literature, but they do not easily translate into meaningful estimates for the many recent and far more efficient alternative group action"
     },
     {
       "id": "e95061812d96",
@@ -635,16 +655,6 @@
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
     },
     {
-      "id": "e27d3aaabbfc",
-      "title": "LG to Ban Residential Proxies from Smart TV Apps",
-      "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "source": "Krebs on Security",
-      "category": "veille",
-      "published": "2026-07-22T01:10:38+00:00",
-      "ts": 1784682638.0,
-      "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a"
-    },
-    {
       "id": "22faed48a81a",
       "title": "Multiples vulnérabilités dans Microsoft Sharepoint (22 juillet 2026)",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-008/",
@@ -735,16 +745,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
-      "id": "b8fe219bc670",
-      "title": "SPRITZ: A Short PRISM-Based Threshold Signature via Zero-Knowledge Proof",
-      "link": "https://eprint.iacr.org/2026/945",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-13T04:47:38+00:00",
-      "ts": 1778647658.0,
-      "summary": "Threshold signatures for distributed systems require compact public keys and signatures to reduce communication overhead by avoiding packet fragmentation. However, with existing post-quantum threshold signatures, either the public key or the signature does not fit within a single unfragmented network packet. In this work, we present SPRITZ, an isogeny-based post-quantum threshold signature scheme "
-    },
-    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -825,6 +825,16 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
+      "id": "f522ee86cc53",
+      "title": "Optimizing FROST for Message Capacity",
+      "link": "https://eprint.iacr.org/2026/563",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-20T19:44:04+00:00",
+      "ts": 1774035844.0,
+      "summary": "The FROST threshold signature scheme achieves round optimal Schnorr signing through a double-nonce construction, but requires two presignatures per signature. Since each presignature demands an expensive distributed key generation (DKG) protocol, this overhead is significant for high-throughput applications. FROST builds on a core presignature protocol (that we call FROST-core) that uses hash-base"
+    },
+    {
       "id": "6601da604e8f",
       "title": "DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices",
       "link": "https://eprint.iacr.org/2026/477",
@@ -833,6 +843,16 @@
       "published": "2026-03-08T01:53:54+00:00",
       "ts": 1772934834.0,
       "summary": "One of the most important fundamental elements in guaranteeing data security is data access management. The two primary security components of data access control are typically authorisation and authentication. Data access control is the selective restriction of data access. First, we present an effective data access control mechanism for medical devices that are implanted in this study. Through a"
+    },
+    {
+      "id": "ccc817f4f8dc",
+      "title": "The principal ideal problem for endomorphism rings of superspecial abelian varieties",
+      "link": "https://eprint.iacr.org/2026/454",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-04T16:51:18+00:00",
+      "ts": 1772643078.0,
+      "summary": "We describe a Las Vegas algorithm for the principal ideal problem in matrix rings $M_g(O)$ for $g \\geq 2$, over maximal orders $O$ in the rational quaternion algebra $B_{p, \\infty}$ ramified at $\\infty$ and a prime number $p$. Under plausible heuristic assumptions, the method has expected polynomial runtime. An implementation in SageMath shows that it runs very efficiently in practice, with compac"
     },
     {
       "id": "b7ffc9dc8c13",
@@ -895,16 +915,6 @@
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
     },
     {
-      "id": "28fa4333e723",
-      "title": "Micali’s SNARG, Function Vector Commitments, and Fiat–Shamir",
-      "link": "https://eprint.iacr.org/2025/2328",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-12-26T14:38:00+00:00",
-      "ts": 1766759880.0,
-      "summary": "Micali's construction of succinct non-interactive arguments (SNARGs) combines a probabilistically checkable proof (PCP), a vector commitment, and the Fiat--Shamir transformation. Its security is established in the random oracle model, but replacing the random oracle with an explicit hash function presents a fundamental challenge: Fiat--Shamir can fail for interactive arguments, and certain choices"
-    },
-    {
       "id": "d89b8a28e282",
       "title": "HTTPS certificate industry phasing out less secure domain validation methods",
       "link": "http://security.googleblog.com/2025/12/https-certificate-industry-phasing-out.html",
@@ -963,16 +973,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "501bf739313d",
-      "title": "Pairwise independence of AES-like block ciphers",
-      "link": "https://eprint.iacr.org/2025/1495",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-08-19T16:24:38+00:00",
-      "ts": 1755620678.0,
-      "summary": "We prove that $4r + 4$ rounds of an AES variant with independent and uniform random round keys are $\\varepsilon$-close to pairwise independent with $\\varepsilon = 2^{14}\\, 2^{-39r}$. This result follows from a near-optimal bound for a two-norm version of pairwise independence for the Shark construction, depending on the third singular value of the difference-distribution table of the S-boxes. Our "
     },
     {
       "id": "cdea2b4c5d15",
