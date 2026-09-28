@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T21:49:06.218874+00:00",
+  "generated_at": "2026-09-28T00:15:07.580111+00:00",
   "count": 105,
   "errors": [
     {
@@ -123,16 +123,6 @@
       "published": "2026-09-26T09:55:22+00:00",
       "ts": 1790416522.0,
       "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions"
-    },
-    {
-      "id": "c05bee6fa9d8",
-      "title": "The Tower of Babel: Large Language Models for Side-channel Analysis",
-      "link": "https://eprint.iacr.org/2026/2224",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-26T09:16:26+00:00",
-      "ts": 1790414186.0,
-      "summary": "Deep learning-based side-channel analysis (DLSCA) is dominated by CNNs and from-scratch Transformer architectures, while pretrained Large Language Models (LLMs) as side-channel distinguishers remain largely unexplored. We present the first systematic study of seven off-the-shelf pretrained LLMs (DeepSeek, Falcon, GPT-J, GPT-2, GPT-2m, Qwen2, T5) on three masked AES datasets, i.e., ASCADf, ASCADv, "
     },
     {
       "id": "4fe1ec572fa2",
@@ -993,6 +983,16 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
+    },
+    {
+      "id": "501bf739313d",
+      "title": "Pairwise independence of AES-like block ciphers",
+      "link": "https://eprint.iacr.org/2025/1495",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-08-19T16:24:38+00:00",
+      "ts": 1755620678.0,
+      "summary": "We prove that $4r + 4$ rounds of an AES variant with independent and uniform random round keys are $\\varepsilon$-close to pairwise independent with $\\varepsilon = 2^{14}\\, 2^{-39r}$. This result follows from a near-optimal bound for a two-norm version of pairwise independence for the Shark construction, depending on the third singular value of the difference-distribution table of the S-boxes. Our "
     },
     {
       "id": "db1275ef2e81",
