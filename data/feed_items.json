@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:15:07.580111+00:00",
+  "generated_at": "2026-09-28T06:15:06.548864+00:00",
   "count": 105,
   "errors": [
     {
@@ -75,16 +75,6 @@
       "summary": "The Fiat--Shamir transformation is a fundamental paradigm in cryptography for compiling interactive public-coin protocols into non-interactive arguments. While this transformation has been extensively studied for public-coin protocols, the setting of private-coin protocols, where the verifier's messages depend on secret randomness, remains largely unexplored. To date, there are no candidate transf"
     },
     {
-      "id": "5b17ad6ba0d1",
-      "title": "FALCON++: Shorter Signatures without NTRU Smoothing Estimates",
-      "link": "https://eprint.iacr.org/2026/2226",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-26T16:09:54+00:00",
-      "ts": 1790438994.0,
-      "summary": "\\Falcon{} is a digital signature scheme based on NTRU lattices, known for its compact signatures. Its weak-smoothness variant, \\FalconWS{} (ASIACRYPT 2025), reduces signature sizes by allowing narrower Gaussian sampling distributions. Further reductions require efficient sampling at narrower widths and a security analysis that accounts for the resulting distributions. We analyze the distribution o"
-    },
-    {
       "id": "c986e19b2575",
       "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
       "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
@@ -103,16 +93,6 @@
       "published": "2026-09-26T10:30:00+00:00",
       "ts": 1790418600.0,
       "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to"
-    },
-    {
-      "id": "7b115cf9c871",
-      "title": "Breaking the G\\'omez-Torrecillas--Lobillo--Navarro Cryptosystem: LLL Recovers the Secret Key Within Seconds",
-      "link": "https://eprint.iacr.org/2026/2225",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-26T10:09:09+00:00",
-      "ts": 1790417349.0,
-      "summary": "We present a key-recovery attack on the knapsack McEliece-based public key cryptosystem recently proposed by G\\'omez-Torrecillas, Lobillo, and Navarro in DCC 2026. Given the public key alone, the attack recovers the complete private key in time polynomial in the bit-length of the public key, and therefore constitutes a total break. The attack combines two observations based solely on the public ke"
     },
     {
       "id": "a5aef02aa4e6",
@@ -275,16 +255,6 @@
       "summary": "This is an impressive piece of malware. Its sophistication says nation-state to me, but there is no direct evidence and certainly no attribution."
     },
     {
-      "id": "f01734f6323b",
-      "title": "Stay in Your Lane: Fast Arithmetic over Large Finite Rings with CKKS",
-      "link": "https://eprint.iacr.org/2026/2190",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-23T20:05:26+00:00",
-      "ts": 1790193926.0,
-      "summary": "Recent CKKS-based constructions support homomorphic arithmetic modulo powers of two and more general moduli. We explore a complementary tradeoff: using polynomial rings native to CKKS simplifies arithmetic and refreshing but restricts the message spaces. Building on Kim's interpretation of GBFV ciphertexts as CKKS ciphertexts, we use the decomposition $\\mathbb{R}[X]/\\langle X^N+1\\rangle \\cong(\\mat"
-    },
-    {
       "id": "4ebd4db3cca9",
       "title": "Research on Models Engaging in Genie-Like Behavior",
       "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
@@ -303,6 +273,16 @@
       "published": "2026-09-22T11:02:45+00:00",
       "ts": 1790074965.0,
       "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
+    },
+    {
+      "id": "344941919bf3",
+      "title": "Structural Analysis of Seven Hash Functions Submitted to the NGCC",
+      "link": "https://eprint.iacr.org/2026/2152",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T07:32:33+00:00",
+      "ts": 1790062353.0,
+      "summary": "The Institute of Commercial Cryptography Standards (ICCS) launched the Next-generation Commercial Cryptographic Algorithms Program (NGCC) and invited worldwide comments on draft submission requirements and evaluation criteria for cryptographic hash algorithms. Our analysis of seven submitted hash functions gives the following results: - Message differences that cancel in every key injection give e"
     },
     {
       "id": "afdac7573336",
@@ -745,6 +725,16 @@
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
     },
     {
+      "id": "153cd168f116",
+      "title": "Lynx: Symmetric Primitive for Shorter and Faster VOLE-in-the-Head Signatures",
+      "link": "https://eprint.iacr.org/2026/1099",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-29T14:01:44+00:00",
+      "ts": 1780063304.0,
+      "summary": "VOLE-in-the-Head (VOLEitH) is one of the most promising frameworks to design post-quantum digital signatures based on symmetric primitives. However, all existing symmetric primitives do not capture the specialized characteristics of the VOLEitH framework and are not VOLEitH-friendly, leaving room for improving the efficiency of VOLEitH-based signatures. In this paper, we propose a VOLEitH-friendly"
+    },
+    {
       "id": "7990c40a74ab",
       "title": "Let’s talk about encrypted reasoning",
       "link": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
@@ -765,14 +755,14 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
-      "id": "a6ef80b7eb1c",
-      "title": "Privacy Coins Under Viewing Key Compromise",
-      "link": "https://eprint.iacr.org/2026/872",
+      "id": "b8fe219bc670",
+      "title": "SPRITZ: A Short PRISM-Based Threshold Signature via Zero-Knowledge Proof",
+      "link": "https://eprint.iacr.org/2026/945",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-05-05T06:02:58+00:00",
-      "ts": 1777960978.0,
-      "summary": "Anonymity guarantees of privacy-oriented cryptocurrencies are garnering negative attention from lawmakers who view them as antinomic to accountability. Having recognized their potential for innovation, however, regulators may not want to outright ban privacy coins but instead seek a middle ground where financial oversight is effective, and still some privacy is maintained. Mature designs, such as "
+      "published": "2026-05-13T04:47:38+00:00",
+      "ts": 1778647658.0,
+      "summary": "Threshold signatures for distributed systems require compact public keys and signatures to reduce communication overhead by avoiding packet fragmentation. However, with existing post-quantum threshold signatures, either the public key or the signature does not fit within a single unfragmented network packet. In this work, we present SPRITZ, an isogeny-based post-quantum threshold signature scheme "
     },
     {
       "id": "e867d3e3dacb",
@@ -843,6 +833,16 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
+    },
+    {
+      "id": "6601da604e8f",
+      "title": "DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices",
+      "link": "https://eprint.iacr.org/2026/477",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-08T01:53:54+00:00",
+      "ts": 1772934834.0,
+      "summary": "One of the most important fundamental elements in guaranteeing data security is data access management. The two primary security components of data access control are typically authorisation and authentication. Data access control is the selective restriction of data access. First, we present an effective data access control mechanism for medical devices that are implanted in this study. Through a"
     },
     {
       "id": "b7ffc9dc8c13",
