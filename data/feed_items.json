@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:32:13.060052+00:00",
+  "generated_at": "2026-09-29T19:44:53.485772+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,56 @@
     }
   ],
   "items": [
+    {
+      "id": "587a93a388da",
+      "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
+      "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-29T17:47:01+00:00",
+      "ts": 1790704021.0,
+      "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in a&nbsp;report&nbsp;(in French) published on Tuesday: it worked because of weak"
+    },
+    {
+      "id": "fb382aa1747b",
+      "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
+      "link": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-29T17:20:17+00:00",
+      "ts": 1790702417.0,
+      "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre-v2 variant has been codenamed Branch Target Reuse (BTR). \"The key insight is that, while modern CPUs"
+    },
+    {
+      "id": "1729b7b7464a",
+      "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
+      "link": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-29T17:20:08+00:00",
+      "ts": 1790702408.0,
+      "summary": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers,&nbsp;according to Microsoft. The campaigns, aimed at people and organizations tied to Ukraine, have affected more than 100 organizations since January, mostly in the U.S. and U.K. At least one computer was infected, but the number of breached"
+    },
+    {
+      "id": "da6e473efe3f",
+      "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
+      "link": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-29T14:13:20+00:00",
+      "ts": 1790691200.0,
+      "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown. \"During the shutdown, this activity led to the discovery of a previously unknown critical vulnerability confined to a capability that is enabled for less than 1% of the customer base,\" the company"
+    },
+    {
+      "id": "8d529ba1cfaf",
+      "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
+      "link": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-29T13:45:10+00:00",
+      "ts": 1790689510.0,
+      "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. \"The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without their consent,\" OX Security researchers Nir Zadok, Moshe Siman Tov Bustan, and Vitalii Chepurko said in a technical"
+    },
     {
       "id": "955865a93323",
       "title": "Using Device Linking to Eavesdrop on WhatsApp and Signal",
@@ -135,26 +185,6 @@
       "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface. Elsewhere, weak service accounts, old bugs, exposed systems, phishing kits, and strangely easy exploit paths kept doing useful work for attackers. Nothing"
     },
     {
-      "id": "6367e60168ac",
-      "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
-      "link": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-28T11:58:00+00:00",
-      "ts": 1790596680.0,
-      "summary": "AI agents are moving into production faster than security teams can govern them. They are connecting to apps, handling data, calling APIs, and acting across business systems—often without the same controls applied to human users. According to Okta’s Global CISO Insights 2026 report, only 47% of CISOs are confident they can identify every AI agent in their environment. Even among those who feel"
-    },
-    {
-      "id": "18d73fb7460c",
-      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-      "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-28T11:46:00+00:00",
-      "ts": 1790595960.0,
-      "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent. \"The implant installs the framework unchanged, then overwrites its SOUL.md persona file,\" ThreatDown said. \"The 39-line prompt directs it to execute tasks received through"
-    },
-    {
       "id": "dd3f81a0533c",
       "title": "New Attack Against RSA",
       "link": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
@@ -165,26 +195,6 @@
       "summary": "ArsTechnica is reporting on a &#8220;new&#8221; attack against RSA, one that bypasses factoring. First, this attack isn&#8217;t new. The original research is from 2007. What is new is the implementation. Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key. Third, the attack only works against pure signatures. Th"
     },
     {
-      "id": "881a5ca18c0c",
-      "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-      "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-28T09:08:21+00:00",
-      "ts": 1790586501.0,
-      "summary": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the activity under the name Storm-3168, has called it an evolution of the threat actor's tradecraft. The attack took place in early June 2026 over a period of about 18 hours. \"The destructive operations"
-    },
-    {
-      "id": "17c1175577f5",
-      "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-      "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-28T07:21:49+00:00",
-      "ts": 1790580109.0,
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerabilities are listed below - CVE-2026-88771 (CVSS score: 9.5) - An improper input validation vulnerability that could allow an unauthenticated attacker to"
-    },
-    {
       "id": "f89cbebcce1e",
       "title": "Cryptanalysis of the ICCS NGCC Round-1 Public-Key Candidates",
       "link": "https://eprint.iacr.org/2026/2232",
@@ -193,16 +203,6 @@
       "published": "2026-09-27T09:13:50+00:00",
       "ts": 1790500430.0,
       "summary": "The ICCS Next-Generation Commercial Cryptography (NGCC) round-1 call received 84 public-key candidates for public evaluation. We present a design-level assessment that targets weaknesses no local code fix can close, identifying eight such flaws. Each recurs a pitfall already known from NIST PQC standardization: reducible-ring sub-ring projections that break IND-CPA below the claimed level; public "
-    },
-    {
-      "id": "78a6342d8713",
-      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-      "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-27T07:47:57+00:00",
-      "ts": 1790495277.0,
-      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr"
     },
     {
       "id": "81a26141bc31",
@@ -453,6 +453,16 @@
       "published": "2026-09-16T18:14:22+00:00",
       "ts": 1789582462.0,
       "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off"
+    },
+    {
+      "id": "80dd42fca666",
+      "title": "Hamming Ideals and Grobner Bases for ISD-like Syndrome Decoding",
+      "link": "https://eprint.iacr.org/2026/2062",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-16T15:30:55+00:00",
+      "ts": 1789572655.0,
+      "summary": "We investigate an algebraic approach to the Syndrome Decoding Problem, based on a reformulation of the Hamming weight constraint and its integration with the Information Set Decoding paradigm. We begin with a systematic analysis of the Hamming variety, deriving its defining equations in terms of elementary symmetric functions. Since these equations may have high degree, we exploit convolution iden"
     },
     {
       "id": "21764e43a17b",
@@ -845,16 +855,6 @@
       "summary": "The FROST threshold signature scheme achieves round optimal Schnorr signing through a double-nonce construction, but requires two presignatures per signature. Since each presignature demands an expensive distributed key generation (DKG) protocol, this overhead is significant for high-throughput applications. FROST builds on a core presignature protocol (that we call FROST-core) that uses hash-base"
     },
     {
-      "id": "ccc817f4f8dc",
-      "title": "The principal ideal problem for endomorphism rings of superspecial abelian varieties",
-      "link": "https://eprint.iacr.org/2026/454",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-04T16:51:18+00:00",
-      "ts": 1772643078.0,
-      "summary": "We describe a Las Vegas algorithm for the principal ideal problem in matrix rings $M_g(O)$ for $g \\geq 2$, over maximal orders $O$ in the rational quaternion algebra $B_{p, \\infty}$ ramified at $\\infty$ and a prime number $p$. Under plausible heuristic assumptions, the method has expected polynomial runtime. An implementation in SageMath shows that it runs very efficiently in practice, with compac"
-    },
-    {
       "id": "b7ffc9dc8c13",
       "title": "Anonymous credentials: an illustrated primer",
       "link": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
@@ -985,6 +985,16 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
+      "id": "3f13ed30a29c",
+      "title": "Collatz Hash: Hash Algorithm Using 3x+1 Conjecture",
+      "link": "https://eprint.iacr.org/2025/1606",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-09-07T08:28:43+00:00",
+      "ts": 1757233723.0,
+      "summary": "In this paper, we introduce a new hash algorithm in that we used the Collatz problem, focusing on its conditional branching structure, an element often overlooked despite the fame of the 3x + 1 conjecture. This hash algorithm takes an arbitrary-length input and produces a fixed length 512/384/256 bit output. The presented hash algorithm is in the category of strong one-way Hash Function (OWHF), an"
+    },
+    {
       "id": "db1275ef2e81",
       "title": "A bit more on Twitter/X’s new encrypted messaging",
       "link": "https://blog.cryptographyengineering.com/2025/06/09/a-bit-more-on-twitter-xs-new-encrypted-messaging/",
@@ -993,16 +1003,6 @@
       "published": "2025-06-09T18:22:31+00:00",
       "ts": 1749493351.0,
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
-    },
-    {
-      "id": "4061d23d7396",
-      "title": "One-Step Schnorr Threshold Identification",
-      "link": "https://eprint.iacr.org/2025/722",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-04-22T21:06:18+00:00",
-      "ts": 1745355978.0,
-      "summary": "Threshold cryptographic primitives have not been widely adopted in real-world distributed systems (i.e., beyond the closed committee model) presumably due to state-synchronization overhead and complex certification processes for the shareholders. These are both aspects of infrastructure overreliance, an assumption that is usually glossed over in their design. In this work, we propose OSST, a real-"
     },
     {
       "id": "d4ed8e991b5b",
