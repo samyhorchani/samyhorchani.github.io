@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T07:46:50.276332+00:00",
+  "generated_at": "2026-09-29T14:32:13.060052+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "955865a93323",
+      "title": "Using Device Linking to Eavesdrop on WhatsApp and Signal",
+      "link": "https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-09-29T11:02:19+00:00",
+      "ts": 1790679739.0,
+      "summary": "Modern messaging apps allow users to link their phone accounts to their computer desktop. Eavesdroppers are taking advantage of this capability: Apps such as WhatsApp Web and Signal Desktop allow people to use their accounts on other devices, such as laptops or desktop computers. Germany&#8217;s Customs Office has been using these features to connect a police-controlled computer to a suspect&#8217"
+    },
+    {
+      "id": "3397d185496e",
+      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+      "link": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-29T08:35:10+00:00",
+      "ts": 1790670910.0,
+      "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelijke Opsporing en Interventies said in an X post Monday. Police said the individual is expected to appear before the"
+    },
     {
       "id": "90fff09baaf9",
       "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
@@ -185,16 +205,6 @@
       "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr"
     },
     {
-      "id": "ba5308134c8d",
-      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
-      "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-26T18:22:52+00:00",
-      "ts": 1790446972.0,
-      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users. \"The attack chain begins with a fake CAPTCHA page and"
-    },
-    {
       "id": "81a26141bc31",
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
       "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
@@ -283,6 +293,16 @@
       "published": "2026-09-23T00:00:00+00:00",
       "ts": 1790121600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité."
+    },
+    {
+      "id": "adc9b92aee66",
+      "title": "Multiples vulnérabilités dans les produits FoxIT (23 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1214/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-23T00:00:00+00:00",
+      "ts": 1790121600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits FoxIT. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données."
     },
     {
       "id": "e1f07a200224",
@@ -425,26 +445,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
     },
     {
-      "id": "45b2e7050f6c",
-      "title": "Vulnérabilité dans les produits Moxa (18 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1205/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-18T00:00:00+00:00",
-      "ts": 1789689600.0,
-      "summary": "Une vulnérabilité a été découverte dans les produits Moxa. Elle permet à un attaquant de provoquer un déni de service à distance."
-    },
-    {
-      "id": "fa387c6a8f8b",
-      "title": "How Candidates Could Use AI for Good",
-      "link": "https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-17T11:06:31+00:00",
-      "ts": 1789643191.0,
-      "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian. There are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI&#8217;s impacts on the country. Politicos are using AI deepfakes to spread lies. The White House is posting slopaganda. Meanwhile, candidates are missing a real opportunity to use A"
-    },
-    {
       "id": "e89356591296",
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
       "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
@@ -465,14 +465,14 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
-      "id": "2a9ea3219b5d",
-      "title": "CauchyFold: Residue-Optimal High-Arity Lattice Folding via Scaled Cauchy Challenges",
-      "link": "https://eprint.iacr.org/2026/2011",
+      "id": "a96f8f0afafb",
+      "title": "Arithmetic for Large-Characteristic Finite Fields in CKKS",
+      "link": "https://eprint.iacr.org/2026/1958",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-14T04:47:13+00:00",
-      "ts": 1789361233.0,
-      "summary": "Folding schemes combine a batch of relation instances into one accumulator. For quadratic relations, applying the fold directly creates a mixed term for every pair of inputs. We present CauchyFold, a lattice protocol that folds one accumulator with \\(k\\) fresh quadratic instances without enumerating these pairwise terms. The companion work [WX26] uses Cauchy folding coefficients to represent the m"
+      "published": "2026-09-10T03:29:30+00:00",
+      "ts": 1789010970.0,
+      "summary": "Seur\\'e and Suvanto (ePrint 2026/1102) recently showed that, for small-characteristic primes $p$, arithmetic over $\\mathbb{F}_{p^r}$ can be homomorphically evaluated in CKKS via a technique they call \\emph{spectral encoding}. Their construction is, however, restricted to small characteristic: ciphertext multiplication amplifies the error by the operator norm of the multiplied plaintext. Under the "
     },
     {
       "id": "0c016fa822b6",
@@ -493,16 +493,6 @@
       "published": "2026-09-08T21:44:22+00:00",
       "ts": 1788903862.0,
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
-    },
-    {
-      "id": "61c7adca6feb",
-      "title": "Correction of parameters in ``Computing Optimal Ate Pairings on Elliptic Curves with Embedding Degree 9, 15 and 27''",
-      "link": "https://eprint.iacr.org/2026/1884",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-03T22:10:32+00:00",
-      "ts": 1788473432.0,
-      "summary": "We correct two errors in Section~8 of the above-mentioned paper concerning the seed parameters proposed for BLS27 elliptic curves (embedding degree $k=27$) at the $256$-bit and $192$-bit security levels. In both instances, the disclosed seeds produce a composite $r(x)$, violating the primality condition essential for constructing pairing-friendly curves. Additionally, for the $192$-bit seed the ch"
     },
     {
       "id": "94f014263cfc",
@@ -725,6 +715,16 @@
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
     },
     {
+      "id": "3e002ce1edff",
+      "title": "SWIFT: Shallow and SIMD-Aware CKKS Functional Bootstrapping for Low-Latency",
+      "link": "https://eprint.iacr.org/2026/1163",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-04T02:04:20+00:00",
+      "ts": 1780538660.0,
+      "summary": "The CKKS homomorphic encryption scheme can achieve high throughput for large batches, typically of tens of thousands of inputs, whereas DM/CGGI schemes offer low latency for a single input. In existing CKKS approaches, the multiplicative depth required for nonlinear function evaluation demands a large ciphertext modulus, which forces a large ring degree regardless of the input size. Practical appl"
+    },
+    {
       "id": "7990c40a74ab",
       "title": "Let’s talk about encrypted reasoning",
       "link": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
@@ -895,6 +895,16 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
+      "id": "990218292c90",
+      "title": "Derivative-Based Evaluation of Multivariate Polynomials over Product Hamming Balls",
+      "link": "https://eprint.iacr.org/2026/197",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-06T17:02:55+00:00",
+      "ts": 1770397375.0,
+      "summary": "Efficient evaluation of multivariate polynomials over finite spaces is an important problem in algebraic cryptanalysis, particularly in exhaustive-search attacks on multivariate public-key cryptosystems. Existing fast exhaustive-search techniques, including those of Bouillaguet et al. (CHES 2010), Dinur (EUROCRYPT 2021), and Furue and Takagi (PQCrypto 2023), mainly target the complete space $\\math"
+    },
+    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -1013,16 +1023,6 @@
       "published": "2025-03-01T16:53:30+00:00",
       "ts": 1740848010.0,
       "summary": "This is a cryptography blog and I always feel the need to apologize for any post that isn&#8217;t &#8220;straight cryptography.&#8221; I&#8217;m actually getting a little tired of apologizing for it (though if you want some hard-core cryptography content, there&#8217;s plenty here and here.) Sometimes I have to remind my colleagues that out in the real &#8230; Continue reading Dear Apple: add &#82"
-    },
-    {
-      "id": "78da59eb1465",
-      "title": "Reduce and Prange: Revisiting Prange's ISD for Solving LPN/RSD over Large Fields",
-      "link": "https://eprint.iacr.org/2024/276",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-02-19T08:17:24+00:00",
-      "ts": 1708330644.0,
-      "summary": "Syndrome decoding (SD), together with its regular-noise variant (RSD), is fundamental to many cryptographic primitives; in the generator formulation used in cryptography, it is closely related to learning parity with noise (LPN). While recent proposals extend these problems to larger fields, the concrete security of SD over large fields remains comparatively less understood. This gap leaves room f"
     },
     {
       "id": "be37899bc7bf",
