@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:24:06.689454+00:00",
+  "generated_at": "2026-09-29T07:46:50.276332+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "90fff09baaf9",
+      "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+      "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-29T06:08:25+00:00",
+      "ts": 1790662105.0,
+      "summary": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and"
+    },
+    {
+      "id": "6e3005d653d7",
+      "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+      "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-29T05:12:32+00:00",
+      "ts": 1790658752.0,
+      "summary": "OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits. The development was first reported by The Wall Street Journal. The move \"marks a rare case of a major AI developer ditching a new release because of safety concerns,\" the news publication said."
+    },
+    {
+      "id": "fa1e7aafeba5",
+      "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+      "link": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-29T04:45:20+00:00",
+      "ts": 1790657120.0,
+      "summary": "OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restrictions. \"An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions:"
+    },
     {
       "id": "5c52b3091dde",
       "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
@@ -142,7 +172,7 @@
       "category": "recherche",
       "published": "2026-09-27T09:13:50+00:00",
       "ts": 1790500430.0,
-      "summary": "The ICCS Next-Generation Commercial Cryptography (NGCC) round-1 call received 84 public key candidates: 34 signatures, 41 KEMs and 9 key-exchange schemes. The call invites public evaluation. This report collects sixteen candidates that we broke against their unmodified reference implementations. All packages are collected at https://github.com/acprk/ngcc-round1-cryptanalysis (one subdirectory per "
+      "summary": "The ICCS Next-Generation Commercial Cryptography (NGCC) round-1 call received 84 public-key candidates for public evaluation. We present a design-level assessment that targets weaknesses no local code fix can close, identifying eight such flaws. Each recurs a pitfall already known from NIST PQC standardization: reducible-ring sub-ring projections that break IND-CPA below the claimed level; public "
     },
     {
       "id": "78a6342d8713",
@@ -163,46 +193,6 @@
       "published": "2026-09-26T18:22:52+00:00",
       "ts": 1790446972.0,
       "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users. \"The attack chain begins with a fake CAPTCHA page and"
-    },
-    {
-      "id": "d0786bd01d69",
-      "title": "A Fiat-Shamir Transformation for Private-Coin Protocols",
-      "link": "https://eprint.iacr.org/2026/2227",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-26T16:32:10+00:00",
-      "ts": 1790440330.0,
-      "summary": "The Fiat--Shamir transformation is a fundamental paradigm in cryptography for compiling interactive public-coin protocols into non-interactive arguments. While this transformation has been extensively studied for public-coin protocols, the setting of private-coin protocols, where the verifier's messages depend on secret randomness, remains largely unexplored. To date, there are no candidate transf"
-    },
-    {
-      "id": "c986e19b2575",
-      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-      "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-26T11:46:40+00:00",
-      "ts": 1790423200.0,
-      "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution. The vulnerability was first exploited as a zero-day"
-    },
-    {
-      "id": "1b22207c7b8f",
-      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-      "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-26T10:30:00+00:00",
-      "ts": 1790418600.0,
-      "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to"
-    },
-    {
-      "id": "a5aef02aa4e6",
-      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
-      "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-26T09:55:22+00:00",
-      "ts": 1790416522.0,
-      "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions"
     },
     {
       "id": "81a26141bc31",
@@ -505,16 +495,6 @@
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
     },
     {
-      "id": "b73694d4d55f",
-      "title": "What to Guess in Key-Recovery Attacks?",
-      "link": "https://eprint.iacr.org/2026/1897",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-05T01:19:26+00:00",
-      "ts": 1788571166.0,
-      "summary": "Determining the precise parts of the key that need to be guessed in a key-recovery attack is fundamental for judging its cost: if the same attack can be executed by guessing less key material, then the cipher's resistance against this attack is overestimated. Although a multitude of prior works provide upper bounds on the key material required, and although these bounds might be tight in some spec"
-    },
-    {
       "id": "61c7adca6feb",
       "title": "Correction of parameters in ``Computing Optimal Ate Pairings on Elliptic Curves with Embedding Degree 9, 15 and 27''",
       "link": "https://eprint.iacr.org/2026/1884",
@@ -725,6 +705,16 @@
       "summary": "Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography. On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantu"
     },
     {
+      "id": "b6c349582f59",
+      "title": "Adaptive attacks on FESTA variants with masked-degree isogenies",
+      "link": "https://eprint.iacr.org/2026/1240",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-11T04:27:35+00:00",
+      "ts": 1781152055.0,
+      "summary": "FESTA is an isogeny-based trapdoor function proposed as a high-performance trapdoor function in isogeny-based cryptography. Its core design principles have inspired a number of related constructions, collectively referred to as FESTA variants. The MOXZ attack is an adaptive attack that exploits malicious ciphertexts together with access to a checking oracle, aiming to compromise FESTA and its vari"
+    },
+    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -803,6 +793,16 @@
       "published": "2026-04-09T17:07:00+00:00",
       "ts": 1775754420.0,
       "summary": "Posted by Ben Ackerman, Chrome team, Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team Following our April 2024 announcement, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to comba"
+    },
+    {
+      "id": "c243dcc0edea",
+      "title": "An Efficient SM9-Compatible Identity-Based Blind Signature Scheme for One-Time Issuance Identities",
+      "link": "https://eprint.iacr.org/2026/676",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-07T03:17:17+00:00",
+      "ts": 1775531837.0,
+      "summary": "We present an identity-based blind signature scheme built on the SM9 Chinese national cryptographic standard. The scheme outputs standard SM9 signatures, removes all online pairing operations through a single setup-time pre-computation, and adds only one user-side exponentiation to achieve blindness. We prove two properties rigorously: \\emph{restricted target-identity unforgeability} (RTU) under t"
     },
     {
       "id": "d305b2065812",
@@ -975,16 +975,6 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "cdea2b4c5d15",
-      "title": "Revisiting the IPA-sumcheck connection",
-      "link": "https://eprint.iacr.org/2025/1325",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-07-19T23:44:23+00:00",
-      "ts": 1752968663.0,
-      "summary": "Inner Product Arguments (IPA) [BCC+16,BBB+17] are a family of proof systems with $O(\\log n)$ sized proofs, $O(n)$ time verifiers, and transparent setup. Bootle, Chiesa and Sotiraki [BCS21] observed that an IPA can be viewed as a sumcheck protocol [LFKN92] where the summed polynomial is allowed to have coefficients in a group rather than a field. We leverage this viewpoint to improve the performanc"
-    },
-    {
       "id": "db1275ef2e81",
       "title": "A bit more on Twitter/X’s new encrypted messaging",
       "link": "https://blog.cryptographyengineering.com/2025/06/09/a-bit-more-on-twitter-xs-new-encrypted-messaging/",
@@ -1003,6 +993,16 @@
       "published": "2025-04-22T21:06:18+00:00",
       "ts": 1745355978.0,
       "summary": "Threshold cryptographic primitives have not been widely adopted in real-world distributed systems (i.e., beyond the closed committee model) presumably due to state-synchronization overhead and complex certification processes for the shareholders. These are both aspects of infrastructure overreliance, an assumption that is usually glossed over in their design. In this work, we propose OSST, a real-"
+    },
+    {
+      "id": "d4ed8e991b5b",
+      "title": "On the (In)security of Approximate Computation Protocols from CKKS",
+      "link": "https://eprint.iacr.org/2025/395",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-03-03T02:34:42+00:00",
+      "ts": 1740969282.0,
+      "summary": "Secure Multi-Party Computation (MPC) enables collaborative and privacy-preserving computation over private inputs. Recent advances in Homomorphic Encryption (HE), particularly the CKKS scheme, have significantly improved the practicality of secure computation, making it suitable for real-world applications involving approximate arithmetic. However, the inherent errors introduced by CKKS pose subst"
     },
     {
       "id": "6984eb306670",
