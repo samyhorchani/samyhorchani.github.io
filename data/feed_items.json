@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T21:01:04.350552+00:00",
+  "generated_at": "2026-09-29T01:24:06.689454+00:00",
   "count": 105,
   "errors": [
     {
@@ -213,6 +213,16 @@
       "published": "2026-09-25T21:44:40+00:00",
       "ts": 1790372680.0,
       "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims."
+    },
+    {
+      "id": "cb6aab166af1",
+      "title": "Incrementally Verifiable Computation without Extraction",
+      "link": "https://eprint.iacr.org/2026/2219",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-25T21:29:06+00:00",
+      "ts": 1790371746.0,
+      "summary": "Incrementally verifiable computation (IVC) [Valiant, TCC '08] allows one to iteratively prove that a configuration $x_0$ reaches a configuration $x_T$ via $T$ repeated applications of a (possibly non-deterministic) machine $\\mathcal{M}$. An IVC scheme is fully succinct if the proof size is independent of both $T$ and the size of the intermediate configurations. In this work, we develop a new indis"
     },
     {
       "id": "8533167f43ba",
@@ -555,6 +565,16 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
+      "id": "18b739216dc4",
+      "title": "Non-Local Search-to-Decision Reduction over $\\mathbb{F}_2$, and More",
+      "link": "https://eprint.iacr.org/2026/1740",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-19T16:52:12+00:00",
+      "ts": 1787158332.0,
+      "summary": "Non-local search-to-decision asks whether the difficulty of two non-communicating (non-local) parties both predicting $x$ given a bipartite state (that possibly depends on $x$) implies the difficulty of non-local parties both predicting the inner product $\\langle r,x\\rangle$, for a uniformly random $r$. This problem and its variants have been extensively studied and are motivated by applications t"
+    },
+    {
       "id": "bea5a06fb576",
       "title": "Everything is about to “go dark”",
       "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
@@ -715,16 +735,6 @@
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
     },
     {
-      "id": "153cd168f116",
-      "title": "Lynx: Symmetric Primitive for Shorter and Faster VOLE-in-the-Head Signatures",
-      "link": "https://eprint.iacr.org/2026/1099",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-29T14:01:44+00:00",
-      "ts": 1780063304.0,
-      "summary": "VOLE-in-the-Head (VOLEitH) is one of the most promising frameworks to design post-quantum digital signatures based on symmetric primitives. However, all existing symmetric primitives do not capture the specialized characteristics of the VOLEitH framework and are not VOLEitH-friendly, leaving room for improving the efficiency of VOLEitH-based signatures. In this paper, we propose a VOLEitH-friendly"
-    },
-    {
       "id": "7990c40a74ab",
       "title": "Let’s talk about encrypted reasoning",
       "link": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
@@ -743,6 +753,16 @@
       "published": "2026-05-26T00:00:00+00:00",
       "ts": 1779753600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "0f151c9df380",
+      "title": "Verifying Consensus Protocols from LLM-assisted TLA$^+$: A Case Study of Byzantine Reliable Broadcast",
+      "link": "https://eprint.iacr.org/2026/978",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-18T02:09:47+00:00",
+      "ts": 1779070187.0,
+      "summary": "TLA$^+$ (Temporal Logic of Actions) is a formal specification language well-suited for distributed systems. However, writing proper TLA$^+$ scripts requires high domain expertise. When it comes to modeling Byzantine behaviors for Byzantine fault-tolerant consensus protocols, the simulation of malicious behavior is a fundamental challenge: overly simplified modeling misses critical vulnerabilities,"
     },
     {
       "id": "e867d3e3dacb",
@@ -805,16 +825,6 @@
       "summary": "Posted by Dirk Göhmann, Tony Mendez, and the Vulnerability Rewards Program Team2025 marked a special year in the history of vulnerability rewards and bug bounty programs at Google: our 15th anniversary 🎉🎉🎉! Originally started in 2010, our vulnerability reward program (VRP) has seen constant additions and expansions over the past decade and a half, clearly indicating the value the programs under th"
     },
     {
-      "id": "4f84cba4769b",
-      "title": "Towards Formal Security Proofs of MQOM",
-      "link": "https://eprint.iacr.org/2026/629",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-31T12:45:21+00:00",
-      "ts": 1774961121.0,
-      "summary": "Recent MPC-in-the-Head (MPCitH) signatures increasingly rely on aggressive GGM-tree optimizations to reduce signature size and cost, culminating in secret-key-root correlated GGM trees as used in SBC (Huth and Joux, CRYPTO 2024), MQOM (NIST PQC Standardization for Additional Signature Round-2, 2024), and rBN++ (Kim, Lee, and Son, EUROCRYPT 2025). While this technique yields substantial compression"
-    },
-    {
       "id": "4038926880d9",
       "title": "Security for the Quantum Era: Implementing Post-Quantum Cryptography in Android",
       "link": "http://security.googleblog.com/2026/03/post-quantum-cryptography-in-android.html",
@@ -833,16 +843,6 @@
       "published": "2026-03-20T19:44:04+00:00",
       "ts": 1774035844.0,
       "summary": "The FROST threshold signature scheme achieves round optimal Schnorr signing through a double-nonce construction, but requires two presignatures per signature. Since each presignature demands an expensive distributed key generation (DKG) protocol, this overhead is significant for high-throughput applications. FROST builds on a core presignature protocol (that we call FROST-core) that uses hash-base"
-    },
-    {
-      "id": "6601da604e8f",
-      "title": "DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices",
-      "link": "https://eprint.iacr.org/2026/477",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-08T01:53:54+00:00",
-      "ts": 1772934834.0,
-      "summary": "One of the most important fundamental elements in guaranteeing data security is data access management. The two primary security components of data access control are typically authorisation and authentication. Data access control is the selective restriction of data access. First, we present an effective data access control mechanism for medical devices that are implanted in this study. Through a"
     },
     {
       "id": "ccc817f4f8dc",
