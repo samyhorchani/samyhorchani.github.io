@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:33:50.635538+00:00",
+  "generated_at": "2026-09-30T10:13:06.425370+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,116 @@
     }
   ],
   "items": [
+    {
+      "id": "25e410347741",
+      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-30T08:24:35+00:00",
+      "ts": 1790756675.0,
+      "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe. The activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted government, financial services, technology, education, and legal and professional"
+    },
+    {
+      "id": "86db6ce0c8ba",
+      "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
+      "link": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-30T08:09:28+00:00",
+      "ts": 1790755768.0,
+      "summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes. DTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires. The leak or crash can happen when such a resend starts while a larger handshake message is stuck part-way"
+    },
+    {
+      "id": "f93debc94194",
+      "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+      "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-30T05:30:30+00:00",
+      "ts": 1790746230.0,
+      "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler"
+    },
+    {
+      "id": "d5cdf9f1d0b3",
+      "title": "Slashable Secrecy for Witness Encryption over Ethereum Finality",
+      "link": "https://eprint.iacr.org/2026/2273",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-30T02:10:49+00:00",
+      "ts": 1790734249.0,
+      "summary": "Witness encryption over blockchain state aims to release a secret on a ledger condition without a key custodian. Validators with enough stake to construct a valid fork witness can obtain the secret although the condition never holds on the canonical chain. They finalize a private fork that satisfies the condition, and keeping the fork hidden withholds the conflicting votes that slashing needs. We "
+    },
+    {
+      "id": "99b7238a7104",
+      "title": "Attacking UOV-based Signatures over divided power algebras",
+      "link": "https://eprint.iacr.org/2026/2272",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-30T01:03:37+00:00",
+      "ts": 1790730217.0,
+      "summary": "Merz and Ran derive additional equations from divided powers of the public polar forms in characteristic two. We extend this construction to finite fields of arbitrary characteristic and apply it to the security analysis of QR-UOV."
+    },
+    {
+      "id": "7c6537bbd007",
+      "title": "Exact SVP on Haar-Random Lattices at the Heuristic Sieving Exponents",
+      "link": "https://eprint.iacr.org/2026/2271",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-30T00:18:41+00:00",
+      "ts": 1790727521.0,
+      "summary": "We give a Monte Carlo algorithm for exact Euclidean SVP on Haar-random lattices with arithmetic time $(3/2)^{n/2+o(n)}$ and space $(4/3)^{n/2+o(n)}$, up to polynomial factors in the logarithmic condition number of the input basis. The leading exponents match those of heuristic lattice sieving. For a set of lattices of Haar measure $1-o(1)$, the algorithm succeeds with probability $1-o(1)$ on every"
+    },
+    {
+      "id": "c9c84e811b68",
+      "title": "UC PAKE and Concrete Security",
+      "link": "https://eprint.iacr.org/2026/2270",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-29T23:26:47+00:00",
+      "ts": 1790724407.0,
+      "summary": "The Universal Composability (UC) framework provides a paradigm for security definitions that allows for arbitrary composition, but has been criticized for being unamicable to the concrete security approach, as the meaning of a concrete UC-security statement is hard to interpret in practice. This work aims at alleviating this concern in the context of Password-Authenticated Key Exchange (PAKE): we "
+    },
+    {
+      "id": "5479653845e2",
+      "title": "Consensus in One Shot: Fast Agreement Beyond Classical Limits",
+      "link": "https://eprint.iacr.org/2026/2269",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-29T22:34:28+00:00",
+      "ts": 1790721268.0,
+      "summary": "Good-case latency, studied in early fast-consensus protocols (Martin and Alvisi, DSN 2005) and formalized by Abraham, Nayak, Ren, and Xiang (DISC 2020), captures a natural efficiency goal: when the sender is honest, agreement should be reached quickly for the honest parties. In the standard classical model, however, there exists a barrier for any $f\\geq n/3$ corrupted parties. Specifically, synchr"
+    },
+    {
+      "id": "1f2b7f39cfa7",
+      "title": "Kopis: A KEM for Obfuscation",
+      "link": "https://eprint.iacr.org/2026/2268",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-29T19:49:46+00:00",
+      "ts": 1790711386.0,
+      "summary": "Password-authenticated key exchange (PAKE) and obfuscated key exchange (OKEX) are widely used protocols, appearing in passport access control, Tor's censorship evasion, and more. As quantum threats grow nearer, there have been an increasing number of proposals for post-quantum PAKE and OKEX. All such protocols are similar in that they build on a KEM, obfuscating public keys and/or ciphertexts sent"
+    },
+    {
+      "id": "edd96bc7e113",
+      "title": "Impersonation Resilience of Subversion-Resilient UC Protocols",
+      "link": "https://eprint.iacr.org/2026/2267",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-29T19:07:17+00:00",
+      "ts": 1790708837.0,
+      "summary": "Subversion attacks where the attacker aims to replace parts of a cryptographic system by manipulated parts in an undetectable manner have been shown to model both theoretical and practical attacks such as supply chain attacks. Originally proposed by Young and Yung (CRYPTO 1996), interest in them has increased dramatically after the revelations about the inner workings of intelligence agencies due "
+    },
+    {
+      "id": "3a377fa56e16",
+      "title": "Chinese NGCC Algorithms: The First Week of AI Cryptanalysis",
+      "link": "https://eprint.iacr.org/2026/2266",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-29T18:59:24+00:00",
+      "ts": 1790708364.0,
+      "summary": "On September 20, 2026, the Chinese Institute of Commercial Cryptography Standards published the 119 first-round candidates of its Next-generation Commercial Cryptographic Algorithms (NGCC) program: 34 signature schemes, 41 key encapsulation mechanisms, 9 key exchange protocols, and 35 hash functions. The program follows the template of the open NIST competitions for AES, SHA-3, and post-quantum cr"
+    },
     {
       "id": "587a93a388da",
       "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
@@ -32,7 +142,7 @@
       "category": "veille",
       "published": "2026-09-29T17:20:17+00:00",
       "ts": 1790702417.0,
-      "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre-v2 variant has been codenamed Branch Target Reuse (BTR). \"The key insight is that, while modern CPUs"
+      "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre v2 variant has been codenamed Branch Target Reuse (BTR). \"The key insight is that, while modern CPUs"
     },
     {
       "id": "1729b7b7464a",
@@ -145,26 +255,6 @@
       "summary": "What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventional provisioning, the components that matter, how to evaluate framework choices, and what runtime evidence proves an agent behaved as intended."
     },
     {
-      "id": "e1bdcca573bf",
-      "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-      "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-28T17:42:18+00:00",
-      "ts": 1790617338.0,
-      "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited the flaw to obtain high-level internal credentials and then, on September 24, used them to send fraudulent withdrawal commands to Bitget's wallet system. Exchanges keep most"
-    },
-    {
-      "id": "654f6c26710d",
-      "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-      "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-28T17:38:33+00:00",
-      "ts": 1790617113.0,
-      "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp;of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate copy. The console stores what the malware collects from each phone,"
-    },
-    {
       "id": "535fdeca402d",
       "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
       "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
@@ -173,16 +263,6 @@
       "published": "2026-09-28T15:08:57+00:00",
       "ts": 1790608137.0,
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p."
-    },
-    {
-      "id": "6df282b64589",
-      "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-      "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-28T14:00:53+00:00",
-      "ts": 1790604053.0,
-      "summary": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into live attack surface. Elsewhere, weak service accounts, old bugs, exposed systems, phishing kits, and strangely easy exploit paths kept doing useful work for attackers. Nothing"
     },
     {
       "id": "dd3f81a0533c",
@@ -195,14 +275,14 @@
       "summary": "ArsTechnica is reporting on a &#8220;new&#8221; attack against RSA, one that bypasses factoring. First, this attack isn&#8217;t new. The original research is from 2007. What is new is the implementation. Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key. Third, the attack only works against pure signatures. Th"
     },
     {
-      "id": "f89cbebcce1e",
-      "title": "Cryptanalysis of the ICCS NGCC Round-1 Public-Key Candidates",
-      "link": "https://eprint.iacr.org/2026/2232",
+      "id": "38422842b8e8",
+      "title": "Lower Bounds on Random-Oracle-Model Signature Length",
+      "link": "https://eprint.iacr.org/2026/2237",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-27T09:13:50+00:00",
-      "ts": 1790500430.0,
-      "summary": "The ICCS Next-Generation Commercial Cryptography (NGCC) round-1 call received 84 public-key candidates for public evaluation. We present a design-level assessment that targets weaknesses no local code fix can close, identifying eight such flaws. Each recurs a pitfall already known from NIST PQC standardization: reducible-ring sub-ring projections that break IND-CPA below the claimed level; public "
+      "published": "2026-09-27T12:16:09+00:00",
+      "ts": 1790511369.0,
+      "summary": "Hash-based signatures offer a conservative foundation for post-quantum authentication, but their large signatures impose substantial communication and storage costs. For security parameter $\\lambda$, discrete-logarithm-based signatures have length $O(\\lambda)$, while known hash-based constructions have quadratic signature length, up to logarithmic factors, even for one-time signing. Is this gap in"
     },
     {
       "id": "81a26141bc31",
@@ -213,16 +293,6 @@
       "published": "2026-09-25T21:44:40+00:00",
       "ts": 1790372680.0,
       "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims."
-    },
-    {
-      "id": "cb6aab166af1",
-      "title": "Incrementally Verifiable Computation without Extraction",
-      "link": "https://eprint.iacr.org/2026/2219",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-25T21:29:06+00:00",
-      "ts": 1790371746.0,
-      "summary": "Incrementally verifiable computation (IVC) [Valiant, TCC '08] allows one to iteratively prove that a configuration $x_0$ reaches a configuration $x_T$ via $T$ repeated applications of a (possibly non-deterministic) machine $\\mathcal{M}$. An IVC scheme is fully succinct if the proof size is independent of both $T$ and the size of the intermediate configurations. In this work, we develop a new indis"
     },
     {
       "id": "8533167f43ba",
@@ -295,6 +365,16 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits FoxIT. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données."
     },
     {
+      "id": "5427c2c89588",
+      "title": "Multiples vulnérabilités dans SolarWinds Observability Self-Hosted (23 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1215/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-23T00:00:00+00:00",
+      "ts": 1790121600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans SolarWinds Observability Self-Hosted. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance."
+    },
+    {
       "id": "e1f07a200224",
       "title": "GPT-6 Astra Breaks an Old Enigma Message",
       "link": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
@@ -303,16 +383,6 @@
       "published": "2026-09-22T11:02:45+00:00",
       "ts": 1790074965.0,
       "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
-    },
-    {
-      "id": "344941919bf3",
-      "title": "Structural Analysis of Seven Hash Functions Submitted to the NGCC",
-      "link": "https://eprint.iacr.org/2026/2152",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T07:32:33+00:00",
-      "ts": 1790062353.0,
-      "summary": "The Institute of Commercial Cryptography Standards (ICCS) launched the Next-generation Commercial Cryptographic Algorithms Program (NGCC) and invited worldwide comments on draft submission requirements and evaluation criteria for cryptographic hash algorithms. Our analysis of seven submitted hash functions gives the following results: - Message differences that cancel in every key injection give e"
     },
     {
       "id": "7763673f87c9",
@@ -425,16 +495,6 @@
       "summary": "Security firms have published numerous blog posts describing how they pointed their agent harness at a codebase and found dozens of bugs (we’re one of them). However, these posts tend to focus on agentic code review, which is just one aspect of how we use AI in our security reviews. We want to give a different perspective: before code review even starts, agents now allow us to build custom tooling"
     },
     {
-      "id": "c8e925612fdc",
-      "title": "Multiples vulnérabilités dans les produits IBM (18 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1206/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-18T00:00:00+00:00",
-      "ts": 1789689600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
-    },
-    {
       "id": "e89356591296",
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
       "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
@@ -463,16 +523,6 @@
       "published": "2026-09-15T11:00:00+00:00",
       "ts": 1789470000.0,
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
-    },
-    {
-      "id": "a96f8f0afafb",
-      "title": "Arithmetic for Large-Characteristic Finite Fields in CKKS",
-      "link": "https://eprint.iacr.org/2026/1958",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-10T03:29:30+00:00",
-      "ts": 1789010970.0,
-      "summary": "Seur\\'e and Suvanto (ePrint 2026/1102) recently showed that, for small-characteristic primes $p$, arithmetic over $\\mathbb{F}_{p^r}$ can be homomorphically evaluated in CKKS via a technique they call \\emph{spectral encoding}. Their construction is, however, restricted to small characteristic: ciphertext multiplication amplifies the error by the operator norm of the multiplied plaintext. Under the "
     },
     {
       "id": "0c016fa822b6",
@@ -533,16 +583,6 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
-    },
-    {
-      "id": "18b739216dc4",
-      "title": "Non-Local Search-to-Decision Reduction over $\\mathbb{F}_2$, and More",
-      "link": "https://eprint.iacr.org/2026/1740",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-19T16:52:12+00:00",
-      "ts": 1787158332.0,
-      "summary": "Non-local search-to-decision asks whether the difficulty of two non-communicating (non-local) parties both predicting $x$ given a bipartite state (that possibly depends on $x$) implies the difficulty of non-local parties both predicting the inner product $\\langle r,x\\rangle$, for a uniformly random $r$. This problem and its variants have been extensively studied and are motivated by applications t"
     },
     {
       "id": "bea5a06fb576",
@@ -695,16 +735,6 @@
       "summary": "Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography. On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantu"
     },
     {
-      "id": "b6c349582f59",
-      "title": "Adaptive attacks on FESTA variants with masked-degree isogenies",
-      "link": "https://eprint.iacr.org/2026/1240",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-11T04:27:35+00:00",
-      "ts": 1781152055.0,
-      "summary": "FESTA is an isogeny-based trapdoor function proposed as a high-performance trapdoor function in isogeny-based cryptography. Its core design principles have inspired a number of related constructions, collectively referred to as FESTA variants. The MOXZ attack is an adaptive attack that exploits malicious ciphertexts together with access to a checking oracle, aiming to compromise FESTA and its vari"
-    },
-    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -713,16 +743,6 @@
       "published": "2026-06-09T19:00:02+00:00",
       "ts": 1781031602.0,
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
-    },
-    {
-      "id": "3e002ce1edff",
-      "title": "SWIFT: Shallow and SIMD-Aware CKKS Functional Bootstrapping for Low-Latency",
-      "link": "https://eprint.iacr.org/2026/1163",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-04T02:04:20+00:00",
-      "ts": 1780538660.0,
-      "summary": "The CKKS homomorphic encryption scheme can achieve high throughput for large batches, typically of tens of thousands of inputs, whereas DM/CGGI schemes offer low latency for a single input. In existing CKKS approaches, the multiplicative depth required for nonlinear function evaluation demands a large ciphertext modulus, which forces a large ring degree regardless of the input size. Practical appl"
     },
     {
       "id": "7990c40a74ab",
@@ -743,16 +763,6 @@
       "published": "2026-05-26T00:00:00+00:00",
       "ts": 1779753600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
-      "id": "0f151c9df380",
-      "title": "Verifying Consensus Protocols from LLM-assisted TLA$^+$: A Case Study of Byzantine Reliable Broadcast",
-      "link": "https://eprint.iacr.org/2026/978",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-18T02:09:47+00:00",
-      "ts": 1779070187.0,
-      "summary": "TLA$^+$ (Temporal Logic of Actions) is a formal specification language well-suited for distributed systems. However, writing proper TLA$^+$ scripts requires high domain expertise. When it comes to modeling Byzantine behaviors for Byzantine fault-tolerant consensus protocols, the simulation of malicious behavior is a fundamental challenge: overly simplified modeling misses critical vulnerabilities,"
     },
     {
       "id": "e867d3e3dacb",
@@ -795,16 +805,6 @@
       "summary": "Posted by Ben Ackerman, Chrome team, Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team Following our April 2024 announcement, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to comba"
     },
     {
-      "id": "c243dcc0edea",
-      "title": "An Efficient SM9-Compatible Identity-Based Blind Signature Scheme for One-Time Issuance Identities",
-      "link": "https://eprint.iacr.org/2026/676",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-07T03:17:17+00:00",
-      "ts": 1775531837.0,
-      "summary": "We present an identity-based blind signature scheme built on the SM9 Chinese national cryptographic standard. The scheme outputs standard SM9 signatures, removes all online pairing operations through a single setup-time pre-computation, and adds only one user-side exponentiation to achieve blindness. We prove two properties rigorously: \\emph{restricted target-identity unforgeability} (RTU) under t"
-    },
-    {
       "id": "d305b2065812",
       "title": "Google Workspace’s continuous approach to mitigating indirect prompt injections",
       "link": "http://security.googleblog.com/2026/04/google-workspaces-continuous-approach.html",
@@ -833,16 +833,6 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
-    },
-    {
-      "id": "f522ee86cc53",
-      "title": "Optimizing FROST for Message Capacity",
-      "link": "https://eprint.iacr.org/2026/563",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-20T19:44:04+00:00",
-      "ts": 1774035844.0,
-      "summary": "The FROST threshold signature scheme achieves round optimal Schnorr signing through a double-nonce construction, but requires two presignatures per signature. Since each presignature demands an expensive distributed key generation (DKG) protocol, this overhead is significant for high-throughput applications. FROST builds on a core presignature protocol (that we call FROST-core) that uses hash-base"
     },
     {
       "id": "b7ffc9dc8c13",
@@ -883,16 +873,6 @@
       "published": "2026-02-19T17:00:00+00:00",
       "ts": 1771520400.0,
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
-    },
-    {
-      "id": "990218292c90",
-      "title": "Derivative-Based Evaluation of Multivariate Polynomials over Product Hamming Balls",
-      "link": "https://eprint.iacr.org/2026/197",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-06T17:02:55+00:00",
-      "ts": 1770397375.0,
-      "summary": "Efficient evaluation of multivariate polynomials over finite spaces is an important problem in algebraic cryptanalysis, particularly in exhaustive-search attacks on multivariate public-key cryptosystems. Existing fast exhaustive-search techniques, including those of Bouillaguet et al. (CHES 2010), Dinur (EUROCRYPT 2021), and Furue and Takagi (PQCrypto 2023), mainly target the complete space $\\math"
     },
     {
       "id": "96ed87c2cba3",
@@ -1023,6 +1003,26 @@
       "published": "2025-03-01T16:53:30+00:00",
       "ts": 1740848010.0,
       "summary": "This is a cryptography blog and I always feel the need to apologize for any post that isn&#8217;t &#8220;straight cryptography.&#8221; I&#8217;m actually getting a little tired of apologizing for it (though if you want some hard-core cryptography content, there&#8217;s plenty here and here.) Sometimes I have to remind my colleagues that out in the real &#8230; Continue reading Dear Apple: add &#82"
+    },
+    {
+      "id": "b6ab50038c27",
+      "title": "On Efficient Computations of $y^2=x^3+b/\\mathbb{F}_p$ for Primes $p\\equiv 1 \\mod 3$",
+      "link": "https://eprint.iacr.org/2024/1906",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-11-23T13:53:41+00:00",
+      "ts": 1732370021.0,
+      "summary": "Since its introduction, Solinas' window $\\tau$-NAF algorithm has been a landmark method for accelerating scalar multiplication on Koblitz curves over binary fields. A long-standing open problem has been to identify a suitable family of elliptic curves over prime fields for which the window $\\tau$-NAF approach can be effectively extended. In this paper, we settle this problem by establishing such a"
+    },
+    {
+      "id": "36a8320e6c91",
+      "title": "Faster Proofs and VRFs from Isogenies",
+      "link": "https://eprint.iacr.org/2024/1626",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-10-10T20:36:24+00:00",
+      "ts": 1728592584.0,
+      "summary": "We improve recent generic proof systems for isogeny knowledge by Cong, Lai, Levin based on circuit satisfiability, by using radical isogeny descriptions to prove a path in the underlying isogeny graph. We then present a new generic construction for a verifiable random function (VRF) based on a one-more type hardness assumption and zero-knowledge proofs. We argue that isogenies fit the constraints "
     },
     {
       "id": "be37899bc7bf",
