@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T23:21:46.438203+00:00",
+  "generated_at": "2026-09-30T03:33:50.635538+00:00",
   "count": 105,
   "errors": [
     {
@@ -233,16 +233,6 @@
       "published": "2026-09-25T21:08:14+00:00",
       "ts": 1790370494.0,
       "summary": "I feel like someone who reads this blog will want to go to this: Families are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines an interactive lesson with the opportunity to explore the anatomy and adaptations of real ocean life."
-    },
-    {
-      "id": "d0a4c9d29435",
-      "title": "Quantum security analysis of unrestricted isogeny-based group actions",
-      "link": "https://eprint.iacr.org/2026/2215",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-25T17:55:22+00:00",
-      "ts": 1790358922.0,
-      "summary": "Setting concrete parameters for group action based cryptographic protocols is notoriously difficult due to the incomplete understanding of the concrete efficiency of Kuperberg's subexponential quantum attack. Estimates for the CSIDH group action do exist in the literature, but they do not easily translate into meaningful estimates for the many recent and far more efficient alternative group action"
     },
     {
       "id": "e95061812d96",
@@ -1003,6 +993,16 @@
       "published": "2025-06-09T18:22:31+00:00",
       "ts": 1749493351.0,
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
+    },
+    {
+      "id": "4f83504d6ee3",
+      "title": "Security Analysis of NIST Key Derivation Using Pseudorandom Functions",
+      "link": "https://eprint.iacr.org/2025/815",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-05-07T16:23:25+00:00",
+      "ts": 1746635005.0,
+      "summary": "Key derivation functions can be used to derive variable-length random strings that serve as cryptographic keys. They are integral to many widely-used communication protocols such as TLS, IPsec and Signal. NIST SP 800-108 specifies several key derivation functions based on pseudorandom functions such as CMAC and HMAC, that can be used to derive additional keys from an existing cryptographic key. Th"
     },
     {
       "id": "d4ed8e991b5b",
