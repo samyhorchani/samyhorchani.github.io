@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:37:39.762488+00:00",
+  "generated_at": "2026-09-30T21:10:33.334262+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "bcbe1c4698ed",
+      "title": "Is sandboxing sufficient to contain rogue agents?",
+      "link": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
+      "source": "A Few Thoughts on Cryptographic Engineering",
+      "category": "crypto",
+      "published": "2026-09-30T18:30:13+00:00",
+      "ts": 1790793013.0,
+      "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
+    },
+    {
+      "id": "96a378df192c",
+      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-30T16:46:29+00:00",
+      "ts": 1790786789.0,
+      "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol"
+    },
+    {
+      "id": "225be0052e18",
+      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+      "link": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-09-30T16:32:59+00:00",
+      "ts": 1790785979.0,
+      "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content. \"Once executed, the legitimate MSP360 installer, distributed under a deceptive file name established remote management access on affected"
+    },
     {
       "id": "fb0f9699e506",
       "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
@@ -145,36 +175,6 @@
       "summary": "The Universal Composability (UC) framework provides a paradigm for security definitions that allows for arbitrary composition, but has been criticized for being unamicable to the concrete security approach, as the meaning of a concrete UC-security statement is hard to interpret in practice. This work aims at alleviating this concern in the context of Password-Authenticated Key Exchange (PAKE): we "
     },
     {
-      "id": "5479653845e2",
-      "title": "Consensus in One Shot: Fast Agreement Beyond Classical Limits",
-      "link": "https://eprint.iacr.org/2026/2269",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-29T22:34:28+00:00",
-      "ts": 1790721268.0,
-      "summary": "Good-case latency, studied in early fast-consensus protocols (Martin and Alvisi, DSN 2005) and formalized by Abraham, Nayak, Ren, and Xiang (DISC 2020), captures a natural efficiency goal: when the sender is honest, agreement should be reached quickly for the honest parties. In the standard classical model, however, there exists a barrier for any $f\\geq n/3$ corrupted parties. Specifically, synchr"
-    },
-    {
-      "id": "1f2b7f39cfa7",
-      "title": "Kopis: A KEM for Obfuscation",
-      "link": "https://eprint.iacr.org/2026/2268",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-29T19:49:46+00:00",
-      "ts": 1790711386.0,
-      "summary": "Password-authenticated key exchange (PAKE) and obfuscated key exchange (OKEX) are widely used protocols, appearing in passport access control, Tor's censorship evasion, and more. As quantum threats grow nearer, there have been an increasing number of proposals for post-quantum PAKE and OKEX. All such protocols are similar in that they build on a KEM, obfuscating public keys and/or ciphertexts sent"
-    },
-    {
-      "id": "edd96bc7e113",
-      "title": "Impersonation Resilience of Subversion-Resilient UC Protocols",
-      "link": "https://eprint.iacr.org/2026/2267",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-29T19:07:17+00:00",
-      "ts": 1790708837.0,
-      "summary": "Subversion attacks where the attacker aims to replace parts of a cryptographic system by manipulated parts in an undetectable manner have been shown to model both theoretical and practical attacks such as supply chain attacks. Originally proposed by Young and Yung (CRYPTO 1996), interest in them has increased dramatically after the revelations about the inner workings of intelligence agencies due "
-    },
-    {
       "id": "587a93a388da",
       "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
       "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
@@ -233,26 +233,6 @@
       "published": "2026-09-29T11:02:19+00:00",
       "ts": 1790679739.0,
       "summary": "Modern messaging apps allow users to link their phone accounts to their computer desktop. Eavesdroppers are taking advantage of this capability: Apps such as WhatsApp Web and Signal Desktop allow people to use their accounts on other devices, such as laptops or desktop computers. Germany&#8217;s Customs Office has been using these features to connect a police-controlled computer to a suspect&#8217"
-    },
-    {
-      "id": "3397d185496e",
-      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
-      "link": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-29T08:35:10+00:00",
-      "ts": 1790670910.0,
-      "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelijke Opsporing en Interventies said in an X post Monday. Police said the individual is expected to appear before the"
-    },
-    {
-      "id": "90fff09baaf9",
-      "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-      "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-29T06:08:25+00:00",
-      "ts": 1790662105.0,
-      "summary": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and"
     },
     {
       "id": "535fdeca402d",
@@ -685,6 +665,16 @@
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
     },
     {
+      "id": "f430162a933e",
+      "title": "Silent Distributed Cryptography for DNFs and Threshold Policies from Lattices",
+      "link": "https://eprint.iacr.org/2026/1547",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-29T04:09:08+00:00",
+      "ts": 1785298148.0,
+      "summary": "We study two central problems in threshold cryptography from lattices: (1) threshold encryption with silent setup for general thresholds $t \\geq 2$, where no post-quantum constructions were previously known, and (2) threshold fully homomorphic encryption (TFHE) with sublinear parameters, an open problem since the work of [Boneh et al.; CRYPTO'18]. We introduce $\\textit{$(\\alpha,\\beta)$-Scaled Line"
+    },
+    {
       "id": "9746ad058ff2",
       "title": "How we use /goal to find bugs in Patch the Planet",
       "link": "https://blog.trailofbits.com/2026/07/28/how-we-use-goal-to-find-bugs-in-patch-the-planet/",
@@ -765,6 +755,16 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
+      "id": "ba56f406d12a",
+      "title": "Adaptively-Secure Flexible and Identity-Based Broadcast Encryption from Decomposed LWE",
+      "link": "https://eprint.iacr.org/2026/862",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-02T23:53:20+00:00",
+      "ts": 1777766000.0,
+      "summary": "Broadcast encryption (BE) allows a sender to succinctly encrypt a message to any dynamically chosen subset of recipients. The gold-standard for BE is $\\textit{optimal succinctness}$ (parameters independent of the number of users) and $\\textit{adaptive security}$. Attaining both from falsifiable post-quantum assumptions has been a central open problem. Recently, Goyal and Yadugiri (GY) [Goyal-Yadug"
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -773,6 +773,16 @@
       "published": "2026-04-23T21:38:00+00:00",
       "ts": 1776980280.0,
       "summary": "Posted by Thomas Brunner, Yu-Han Liu, Moni PandeAt Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats before they can impact users. Right now, Indirect Prompt Injection (IPI) is a top priority for the security community, anticipating it as a primary attack vector for adversaries to target and compromise A"
+    },
+    {
+      "id": "7188effef45f",
+      "title": "Equivocal Broadcast Encryption: Adaptively-Secure Optimal Distributed Broadcast Encryption from Lattices",
+      "link": "https://eprint.iacr.org/2026/792",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-22T01:41:18+00:00",
+      "ts": 1776822078.0,
+      "summary": "We present the first Distributed Broadcast Encryption (DBE) scheme from falsifiable lattice assumptions that achieves adaptive security with optimal parameters (short public/secret keys and ciphertexts). Our construction enjoys transparent setup and offers flexible instantiation: we achieve a succinct CRS in the Random Oracle Model, or a long CRS in the standard model. Previously, no lattice-based"
     },
     {
       "id": "b18b34e5e963",
@@ -993,16 +1003,6 @@
       "published": "2025-03-03T02:34:42+00:00",
       "ts": 1740969282.0,
       "summary": "Secure Multi-Party Computation (MPC) enables collaborative and privacy-preserving computation over private inputs. Recent advances in Homomorphic Encryption (HE), particularly the CKKS scheme, have significantly improved the practicality of secure computation, making it suitable for real-world applications involving approximate arithmetic. However, the inherent errors introduced by CKKS pose subst"
-    },
-    {
-      "id": "6984eb306670",
-      "title": "Dear Apple: add “Disappearing Messages” to iMessage right now",
-      "link": "https://blog.cryptographyengineering.com/2025/03/01/dear-apple-add-disappearing-messages-to-imessage-right-now/",
-      "source": "A Few Thoughts on Cryptographic Engineering",
-      "category": "crypto",
-      "published": "2025-03-01T16:53:30+00:00",
-      "ts": 1740848010.0,
-      "summary": "This is a cryptography blog and I always feel the need to apologize for any post that isn&#8217;t &#8220;straight cryptography.&#8221; I&#8217;m actually getting a little tired of apologizing for it (though if you want some hard-core cryptography content, there&#8217;s plenty here and here.) Sometimes I have to remind my colleagues that out in the real &#8230; Continue reading Dear Apple: add &#82"
     },
     {
       "id": "b6ab50038c27",
