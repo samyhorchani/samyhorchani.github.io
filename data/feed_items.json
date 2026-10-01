@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T01:00:52.571819+00:00",
+  "generated_at": "2026-10-01T08:09:45.323605+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "5591ae857595",
+      "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
+      "link": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-01T05:54:41+00:00",
+      "ts": 1790834081.0,
+      "summary": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals. The trigger is a malicious PDF with a crafted embedded font that crashes unpatched iPhones and Macs. The code causes a crash, not an execution error. Turning the memory corruption into a working"
+    },
+    {
+      "id": "c70791468f1c",
+      "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+      "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-01T05:21:10+00:00",
+      "ts": 1790832070.0,
+      "summary": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. \"Their investigation identified malicious activity involving third-party security products, including a zero-day vulnerability, and recovered a customized tool used by the attacker"
+    },
+    {
+      "id": "77613bd544e0",
+      "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+      "link": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-01T05:10:09+00:00",
+      "ts": 1790831409.0,
+      "summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure. \"We are actively addressing and remediating the issue internally, in coordination with external partners and security advisors,\" the software cryptocurrency wallet maker said. \"At this time, we have identified no immediate threat to MetaMask wallets.\" MetaMask"
+    },
+    {
+      "id": "ff52b7e33fe1",
+      "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+      "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-01T04:35:34+00:00",
+      "ts": 1790829334.0,
+      "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data. LevelBlue's Threat Hunt Operations &amp; Research (THOR) team, which analyzed the exploitation activity across multiple customer environments, said it identified malicious NetScaler"
+    },
     {
       "id": "bcbe1c4698ed",
       "title": "Is sandboxing sufficient to contain rogue agents?",
@@ -145,16 +185,6 @@
       "summary": "Witness encryption over blockchain state aims to release a secret on a ledger condition without a key custodian. Validators with enough stake to construct a valid fork witness can obtain the secret although the condition never holds on the canonical chain. They finalize a private fork that satisfies the condition, and keeping the fork hidden withholds the conflicting votes that slashing needs. We "
     },
     {
-      "id": "99b7238a7104",
-      "title": "Attacking UOV-based Signatures over divided power algebras",
-      "link": "https://eprint.iacr.org/2026/2272",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-30T01:03:37+00:00",
-      "ts": 1790730217.0,
-      "summary": "Merz and Ran derive additional equations from divided powers of the public polar forms in characteristic two. We extend this construction to finite fields of arbitrary characteristic and apply it to the security analysis of QR-UOV."
-    },
-    {
       "id": "7c6537bbd007",
       "title": "Exact SVP on Haar-Random Lattices at the Heuristic Sieving Exponents",
       "link": "https://eprint.iacr.org/2026/2271",
@@ -173,46 +203,6 @@
       "published": "2026-09-29T17:47:01+00:00",
       "ts": 1790704021.0,
       "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in a&nbsp;report&nbsp;(in French) published on Tuesday: it worked because of weak"
-    },
-    {
-      "id": "fb382aa1747b",
-      "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
-      "link": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-29T17:20:17+00:00",
-      "ts": 1790702417.0,
-      "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre v2 variant has been codenamed Branch Target Reuse (BTR). \"The key insight is that, while modern CPUs"
-    },
-    {
-      "id": "1729b7b7464a",
-      "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
-      "link": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-29T17:20:08+00:00",
-      "ts": 1790702408.0,
-      "summary": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers,&nbsp;according to Microsoft. The campaigns, aimed at people and organizations tied to Ukraine, have affected more than 100 organizations since January, mostly in the U.S. and U.K. At least one computer was infected, but the number of breached"
-    },
-    {
-      "id": "da6e473efe3f",
-      "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
-      "link": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-29T14:13:20+00:00",
-      "ts": 1790691200.0,
-      "summary": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security vulnerability during the scheduled precautionary shutdown. \"During the shutdown, this activity led to the discovery of a previously unknown critical vulnerability confined to a capability that is enabled for less than 1% of the customer base,\" the company"
-    },
-    {
-      "id": "8d529ba1cfaf",
-      "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
-      "link": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-29T13:45:10+00:00",
-      "ts": 1790689510.0,
-      "summary": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber campaign dubbed PhantomSub. \"The malicious packages abuse the 'Baileys' WhatsApp open source project to add the victims to groups without their consent,\" OX Security researchers Nir Zadok, Moshe Siman Tov Bustan, and Vitalii Chepurko said in a technical"
     },
     {
       "id": "955865a93323",
@@ -855,6 +845,16 @@
       "summary": "Lookup table polynomial interactive oracle proofs (LUT PIOPs) make SNARK arithmetizations concise, yet almost all efficient constructions assume field arithmetic. We show that directly instantiating them over a composite residue ring \\(\\mathbb Z_Q\\) can be unsound: component-wise set checks preserve the residue multiset in each CRT component but lose the alignment across components. We formalize t"
     },
     {
+      "id": "6762b71590bf",
+      "title": "Revisiting the Security of Sparkle",
+      "link": "https://eprint.iacr.org/2026/431",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-03T05:35:29+00:00",
+      "ts": 1772516129.0,
+      "summary": "We revisit the three-round threshold Schnorr signature scheme Sparkle of Crites, Komlo, and Maller (CRYPTO 2023), as well as its variant Sparkle+. While Sparkle+ was accompanied by a claim of full adaptive security, subsequent work identified a gap in the analysis. The original—and simpler and more efficient—Sparkle scheme has so far lacked even a proof of static security. We resolve this by provi"
+    },
+    {
       "id": "b7ffc9dc8c13",
       "title": "Anonymous credentials: an illustrated primer",
       "link": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
@@ -995,16 +995,6 @@
       "summary": "Key derivation functions can be used to derive variable-length random strings that serve as cryptographic keys. They are integral to many widely-used communication protocols such as TLS, IPsec and Signal. NIST SP 800-108 specifies several key derivation functions based on pseudorandom functions such as CMAC and HMAC, that can be used to derive additional keys from an existing cryptographic key. Th"
     },
     {
-      "id": "d4ed8e991b5b",
-      "title": "On the (In)security of Approximate Computation Protocols from CKKS",
-      "link": "https://eprint.iacr.org/2025/395",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-03-03T02:34:42+00:00",
-      "ts": 1740969282.0,
-      "summary": "Secure Multi-Party Computation (MPC) enables collaborative and privacy-preserving computation over private inputs. Recent advances in Homomorphic Encryption (HE), particularly the CKKS scheme, have significantly improved the practicality of secure computation, making it suitable for real-world applications involving approximate arithmetic. However, the inherent errors introduced by CKKS pose subst"
-    },
-    {
       "id": "b6ab50038c27",
       "title": "On Efficient Computations of $y^2=x^3+b/\\mathbb{F}_p$ for Primes $p\\equiv 1 \\mod 3$",
       "link": "https://eprint.iacr.org/2024/1906",
@@ -1023,6 +1013,16 @@
       "published": "2024-10-10T20:36:24+00:00",
       "ts": 1728592584.0,
       "summary": "We improve recent generic proof systems for isogeny knowledge by Cong, Lai, Levin based on circuit satisfiability, by using radical isogeny descriptions to prove a path in the underlying isogeny graph. We then present a new generic construction for a verifiable random function (VRF) based on a one-more type hardness assumption and zero-knowledge proofs. We argue that isogenies fit the constraints "
+    },
+    {
+      "id": "b2bcb1b860e0",
+      "title": "Efficient Pairing-Free Adaptable k-out-of-N Oblivious Transfer Protocols",
+      "link": "https://eprint.iacr.org/2024/1583",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-10-07T14:01:27+00:00",
+      "ts": 1728309687.0,
+      "summary": "Oblivious Transfer (OT) is one of the fundamental building blocks in cryptography that enables various privacy-preserving applications. Constructing efficient OT schemes has been an active research area. This paper presents three efficient two-round pairing-free k-out-of-n oblivious transfer protocols with standard security. Our constructions follow the minimal communication pattern: the receiver "
     },
     {
       "id": "be37899bc7bf",
