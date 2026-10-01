@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:10:33.334262+00:00",
+  "generated_at": "2026-10-01T01:00:52.571819+00:00",
   "count": 105,
   "errors": [
     {
@@ -165,16 +165,6 @@
       "summary": "We give a Monte Carlo algorithm for exact Euclidean SVP on Haar-random lattices with arithmetic time $(3/2)^{n/2+o(n)}$ and space $(4/3)^{n/2+o(n)}$, up to polynomial factors in the logarithmic condition number of the input basis. The leading exponents match those of heuristic lattice sieving. For a set of lattices of Haar measure $1-o(1)$, the algorithm succeeds with probability $1-o(1)$ on every"
     },
     {
-      "id": "c9c84e811b68",
-      "title": "UC PAKE and Concrete Security",
-      "link": "https://eprint.iacr.org/2026/2270",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-29T23:26:47+00:00",
-      "ts": 1790724407.0,
-      "summary": "The Universal Composability (UC) framework provides a paradigm for security definitions that allows for arbitrary composition, but has been criticized for being unamicable to the concrete security approach, as the meaning of a concrete UC-security statement is hard to interpret in practice. This work aims at alleviating this concern in the context of Password-Authenticated Key Exchange (PAKE): we "
-    },
-    {
       "id": "587a93a388da",
       "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
       "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
@@ -303,6 +293,16 @@
       "published": "2026-09-25T11:00:00+00:00",
       "ts": 1790334000.0,
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
+    },
+    {
+      "id": "93ca10370ca3",
+      "title": "DKG Is All You Need",
+      "link": "https://eprint.iacr.org/2026/2205",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-24T16:46:29+00:00",
+      "ts": 1790268389.0,
+      "summary": "We construct the first Batched Threshold Encryption scheme with a \\emph{transparent} setup where public parameters are \\emph{independent} of the batch size. As a result batches of arbitrary sizes can be decrypted, without imposing an a priori fixed bound. We prove security under a constant size assumption -- the decisional bilinear square Diffie--Hellman assumption. Setup is just a distributed key"
     },
     {
       "id": "acd1917de7f1",
@@ -755,8 +755,8 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
-      "id": "ba56f406d12a",
-      "title": "Adaptively-Secure Flexible and Identity-Based Broadcast Encryption from Decomposed LWE",
+      "id": "0ef9da951a4d",
+      "title": "Adaptively-Secure Flexible and Identity-Based Broadcast Encryption from Lattices",
       "link": "https://eprint.iacr.org/2026/862",
       "source": "IACR ePrint Archive",
       "category": "recherche",
