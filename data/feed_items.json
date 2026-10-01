@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:09:45.323605+00:00",
+  "generated_at": "2026-10-01T15:54:51.281876+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,66 @@
     }
   ],
   "items": [
+    {
+      "id": "89f13c40a286",
+      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+      "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-01T14:37:35+00:00",
+      "ts": 1790865455.0,
+      "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again. The backdoor has been codenamed SC after the \"SC_\" markers present in the injected content. Sucuri has described the malware as a \"self-healing mesh\" that's"
+    },
+    {
+      "id": "79115ba31caf",
+      "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+      "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-01T11:45:00+00:00",
+      "ts": 1790855100.0,
+      "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody prices out the regression testing. Somebody else raises the change-freeze calendar. The finding gets an exception, a compensating control, and a date"
+    },
+    {
+      "id": "4eea68c2ad9f",
+      "title": "Connected Cars Are a Surveillance Platform",
+      "link": "https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-01T11:06:14+00:00",
+      "ts": 1790852774.0,
+      "summary": "Researchers at Northeastern University, in collaboration with Consumer Reports, evaluated how much modern cars spy in their drivers: To determine this, CR dug through thousands of pages of automakers’ privacy policies and asked questions of 15 different automakers­BMW, Ford, General Motors, Honda, Hyundai, Kia, Mazda, Mercedes-Benz, Mitsubishi, Nissan, Stellantis, Subaru, Tesla, Toyota, and Volksw"
+    },
+    {
+      "id": "d824d251e42b",
+      "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
+      "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-01T10:42:36+00:00",
+      "ts": 1790851356.0,
+      "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A \"core cluster of the activity,\" going back to the first week of July, has been attributed to individuals associated with Moonshot AI, a Chinese AI company based in Beijing. It did not cite any"
+    },
+    {
+      "id": "6c73cffa6697",
+      "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+      "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-01T10:33:16+00:00",
+      "ts": 1790850796.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation. The vulnerability, tracked as CVE-2026-76504 (CVSS score: 9.8), could allow an unauthenticated, remote attacker to access an affected system with"
+    },
+    {
+      "id": "b306ea9aaed8",
+      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
+      "link": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-01T07:49:36+00:00",
+      "ts": 1790840976.0,
+      "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. \"It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" Koray Kavukcuoglu,"
+    },
     {
       "id": "5591ae857595",
       "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
@@ -135,56 +195,6 @@
       "summary": "AI systems are regularly completing tasks in ways that their prompters don&#8217;t want or intend. Some of them are disturbing, and some of them are dangerous. This is something I&#8217;ve been calling &#8220;genie behavior,&#8221; because I think that really gets at the core of what&#8217;s happening. I wish the popular press would report on this better. I don&#8217;t like the &#8220;going rogue&"
     },
     {
-      "id": "22af8b982b3c",
-      "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
-      "link": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-30T10:45:00+00:00",
-      "ts": 1790765100.0,
-      "summary": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting organizations showed the highest exposure. By combining Microsoft 365 session theft with remote-access tool deployment, CSuite can turn a phishing incident into broader account compromise, fraud"
-    },
-    {
-      "id": "25e410347741",
-      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-30T08:24:35+00:00",
-      "ts": 1790756675.0,
-      "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe. The activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted government, financial services, technology, education, and legal and professional"
-    },
-    {
-      "id": "86db6ce0c8ba",
-      "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
-      "link": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-30T08:09:28+00:00",
-      "ts": 1790755768.0,
-      "summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes. DTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires. The leak or crash can happen when such a resend starts while a larger handshake message is stuck part-way"
-    },
-    {
-      "id": "f93debc94194",
-      "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
-      "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-30T05:30:30+00:00",
-      "ts": 1790746230.0,
-      "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler"
-    },
-    {
-      "id": "d5cdf9f1d0b3",
-      "title": "Slashable Secrecy for Witness Encryption over Ethereum Finality",
-      "link": "https://eprint.iacr.org/2026/2273",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-30T02:10:49+00:00",
-      "ts": 1790734249.0,
-      "summary": "Witness encryption over blockchain state aims to release a secret on a ledger condition without a key custodian. Validators with enough stake to construct a valid fork witness can obtain the secret although the condition never holds on the canonical chain. They finalize a private fork that satisfies the condition, and keeping the fork hidden withholds the conflicting votes that slashing needs. We "
-    },
-    {
       "id": "7c6537bbd007",
       "title": "Exact SVP on Haar-Random Lattices at the Heuristic Sieving Exponents",
       "link": "https://eprint.iacr.org/2026/2271",
@@ -195,16 +205,6 @@
       "summary": "We give a Monte Carlo algorithm for exact Euclidean SVP on Haar-random lattices with arithmetic time $(3/2)^{n/2+o(n)}$ and space $(4/3)^{n/2+o(n)}$, up to polynomial factors in the logarithmic condition number of the input basis. The leading exponents match those of heuristic lattice sieving. For a set of lattices of Haar measure $1-o(1)$, the algorithm succeeds with probability $1-o(1)$ on every"
     },
     {
-      "id": "587a93a388da",
-      "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
-      "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-09-29T17:47:01+00:00",
-      "ts": 1790704021.0,
-      "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in a&nbsp;report&nbsp;(in French) published on Tuesday: it worked because of weak"
-    },
-    {
       "id": "955865a93323",
       "title": "Using Device Linking to Eavesdrop on WhatsApp and Signal",
       "link": "https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html",
@@ -213,6 +213,16 @@
       "published": "2026-09-29T11:02:19+00:00",
       "ts": 1790679739.0,
       "summary": "Modern messaging apps allow users to link their phone accounts to their computer desktop. Eavesdroppers are taking advantage of this capability: Apps such as WhatsApp Web and Signal Desktop allow people to use their accounts on other devices, such as laptops or desktop computers. Germany&#8217;s Customs Office has been using these features to connect a police-controlled computer to a suspect&#8217"
+    },
+    {
+      "id": "0128793882ff",
+      "title": "Affine-Padding Rabin-Oracle Factoring in $L_n\\!\\left(\\frac{1}{3},\\sqrt[3]{\\frac{32}{9}}\\right)$",
+      "link": "https://eprint.iacr.org/2026/2256",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-29T06:53:16+00:00",
+      "ts": 1790664796.0,
+      "summary": "The 2007 algorithm of Joux, Naccache, and Thomé (\\textsc{jnt}) shows that, with subexponential access to an $e$-th root oracle, one can forge \\textsc{rsa} signatures for \\emph{odd} $e$ in time close to the special number field sieve, without factoring the modulus; a recent \\textsc{jnt} implementation by Shea et al.~\\cite{Forge26} carried that attack to $1024$-bit \\textsc{rsa}. We revisit the \\text"
     },
     {
       "id": "535fdeca402d",
@@ -235,14 +245,14 @@
       "summary": "ArsTechnica is reporting on a &#8220;new&#8221; attack against RSA, one that bypasses factoring. First, this attack isn&#8217;t new. The original research is from 2007. What is new is the implementation. Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key. Third, the attack only works against pure signatures. Th"
     },
     {
-      "id": "38422842b8e8",
-      "title": "Lower Bounds on Random-Oracle-Model Signature Length",
-      "link": "https://eprint.iacr.org/2026/2237",
+      "id": "f89cbebcce1e",
+      "title": "Cryptanalysis of the ICCS NGCC Round-1 Public-Key Candidates",
+      "link": "https://eprint.iacr.org/2026/2232",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-27T12:16:09+00:00",
-      "ts": 1790511369.0,
-      "summary": "Hash-based signatures offer a conservative foundation for post-quantum authentication, but their large signatures impose substantial communication and storage costs. For security parameter $\\lambda$, discrete-logarithm-based signatures have length $O(\\lambda)$, while known hash-based constructions have quadratic signature length, up to logarithmic factors, even for one-time signing. Is this gap in"
+      "published": "2026-09-27T09:13:50+00:00",
+      "ts": 1790500430.0,
+      "summary": "The ICCS Next-Generation Commercial Cryptography (NGCC) round-1 call received 84 public-key candidates for public evaluation. We present a design-level assessment that targets weaknesses no local code fix can close, identifying eight such flaws. Each recurs a pitfall already known from NIST PQC standardization: reducible-ring sub-ring projections that break IND-CPA below the claimed level; public "
     },
     {
       "id": "81a26141bc31",
@@ -305,6 +315,46 @@
       "summary": "This is an impressive piece of malware. Its sophistication says nation-state to me, but there is no direct evidence and certainly no attribution."
     },
     {
+      "id": "825a01c0b5d8",
+      "title": "Multiples vulnérabilités dans Papercut (24 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1223/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-24T00:00:00+00:00",
+      "ts": 1790208000.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Papercut. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS)."
+    },
+    {
+      "id": "df244c99ad4d",
+      "title": "Multiples vulnérabilités dans LibreNMS (24 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1222/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-24T00:00:00+00:00",
+      "ts": 1790208000.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans LibreNMS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "a19821cac57e",
+      "title": "Multiples vulnérabilités dans Zabbix Agent (24 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1226/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-24T00:00:00+00:00",
+      "ts": 1790208000.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Zabbix Agent. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+      "id": "39cac5e6e3b3",
+      "title": "Multiples vulnérabilités dans PHP (24 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1227/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-24T00:00:00+00:00",
+      "ts": 1790208000.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
       "id": "4ebd4db3cca9",
       "title": "Research on Models Engaging in Genie-Like Behavior",
       "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
@@ -323,16 +373,6 @@
       "published": "2026-09-23T00:00:00+00:00",
       "ts": 1790121600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "adc9b92aee66",
-      "title": "Multiples vulnérabilités dans les produits FoxIT (23 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1214/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-23T00:00:00+00:00",
-      "ts": 1790121600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits FoxIT. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données."
     },
     {
       "id": "5427c2c89588",
@@ -355,16 +395,6 @@
       "summary": "Une vulnérabilité a été découverte dans WordPress. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
     },
     {
-      "id": "8ba5cbe02127",
-      "title": "Multiples vulnérabilités dans Mattermost Server (23 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1212/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-23T00:00:00+00:00",
-      "ts": 1790121600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
       "id": "70c947dee3bd",
       "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (23 septembre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1217/",
@@ -373,16 +403,6 @@
       "published": "2026-09-23T00:00:00+00:00",
       "ts": 1790121600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
-    },
-    {
-      "id": "ab20c9bc0e94",
-      "title": "Multiples vulnérabilités dans Google Chrome (23 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1213/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-23T00:00:00+00:00",
-      "ts": 1790121600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
     },
     {
       "id": "b1935b753f23",
@@ -415,14 +435,24 @@
       "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
     },
     {
-      "id": "1a3d49a1f867",
-      "title": "Vulnérabilité dans SolarWinds Access Rights Manager (22 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1211/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-22T00:00:00+00:00",
-      "ts": 1790035200.0,
-      "summary": "Une vulnérabilité a été découverte dans SolarWinds Access Rights Manager. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
+      "id": "1faba3293b88",
+      "title": "Fully Anonymous Perfect Secret-Sharing",
+      "link": "https://eprint.iacr.org/2026/2145",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T00:43:44+00:00",
+      "ts": 1790037824.0,
+      "summary": "Fully anonymous secret-sharing schemes ensure two properties at once: for any fixed secret, the combined shares of every unauthorized set of participants are uniformly random, and every authorized set can reconstruct the secret exactly using only the share values, without needing to know which participant holds which share or in what order the shares appear. It was previously open whether such sch"
+    },
+    {
+      "id": "afdac7573336",
+      "title": "BitZ: proofs and commitments in arbitrary rings through binary fields",
+      "link": "https://eprint.iacr.org/2026/2141",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-21T15:16:27+00:00",
+      "ts": 1790003787.0,
+      "summary": "We introduce BitZ, a hash-based Polynomial Commitment Scheme (PCS) for committing to multilinear polynomials $\\mathbf{f}$ with coefficients in an arbitrary finitely generated ring $S$, e.g.\\ a finite field $\\mathbb{F}$, the integers $\\mathbb{Z}$, a cyclotomic ring, etc. Moreover, given another arbitrary ring $R$ and a ring homomorphism $\\psi:S\\to R$, BitZ then proves evaluation claims over $R$ for"
     },
     {
       "id": "1d1720323eb8",
@@ -443,26 +473,6 @@
       "published": "2026-09-21T11:00:00+00:00",
       "ts": 1789988400.0,
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it&rsquo;s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoni"
-    },
-    {
-      "id": "d4e7a661bd44",
-      "title": "Friday Squid Blogging: On Squid Egg Sacs",
-      "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-18T21:06:00+00:00",
-      "ts": 1789765560.0,
-      "summary": "Short essay about squid egg sacs. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
-      "id": "25342477c966",
-      "title": "Refining Probabilistic-Linearization TIDA for 5-Round SHA3-384 Collision Attacks (Full Version)",
-      "link": "https://eprint.iacr.org/2026/2090",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-18T12:45:53+00:00",
-      "ts": 1789735553.0,
-      "summary": "Since the SHA-3 family was standardized by NIST in 2015, its collision resistance has been extensively studied. The previous best-known collision attack on 5-round SHA3-384 is based on internal differentials and the probabilistic-linearization variant of two-block Target Internal Differential Algorithm (TIDA). Its connector replaces deterministic affine restrictions that guarantee S-box differenti"
     },
     {
       "id": "a91514e92c6f",
@@ -495,6 +505,16 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
+      "id": "fe3fc6798537",
+      "title": "LibFWHT: From Exact Walsh Spectra to Key Dependence in Differential-Linear Correlations",
+      "link": "https://eprint.iacr.org/2026/1997",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-12T19:01:45+00:00",
+      "ts": 1789239705.0,
+      "summary": "The Walsh-Hadamard transform (WHT) computes the correlation of a Boolean function with every linear function at once. Cryptanalytic workflows transform large arrays repeatedly, in batches. However, available tools specialize in particular data types, platforms, or ecosystems. We present LibFWHT, an open-source C library for dense WHTs, with Python bindings and a command-line interface. It includes"
+    },
+    {
       "id": "0c016fa822b6",
       "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
       "link": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
@@ -513,16 +533,6 @@
       "published": "2026-09-08T21:44:22+00:00",
       "ts": 1788903862.0,
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
-    },
-    {
-      "id": "8a245492b12c",
-      "title": "HEAT: Faster Fully Homomorphic Inference via Approximations-Weights Co-Adaptation",
-      "link": "https://eprint.iacr.org/2026/1862",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-02T08:38:30+00:00",
-      "ts": 1788338310.0,
-      "summary": "Fully homomorphic encryption (FHE) allows a server to run a language model directly on encrypted user prompts, but current approaches remain prohibitively slow. Ciphertexts natively support only addition, multiplication, and rotation, and multiplications may be composed only to a bounded depth before a costly bootstrapping operation is required to continue. Every nonlinearity must therefore be app"
     },
     {
       "id": "94f014263cfc",
@@ -563,6 +573,16 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
+    },
+    {
+      "id": "0ad0cbb41363",
+      "title": "On Removing Interaction from Quantum Proofs",
+      "link": "https://eprint.iacr.org/2026/1795",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-25T03:26:01+00:00",
+      "ts": 1787628361.0,
+      "summary": "An important open question in quantum cryptography is the construction of publicly-verifiable NIZKs for QMA. Classically, one can construct NIZKs for NP in the random oracle model (and sometimes in the standard model) by compiling an honest-verifier ZK (HVZK) $\\Sigma$-protocol for NP using the Fiat–Shamir transformation. Broadbent and Grilo introduced a quantum analog of a $\\Sigma$-protocol (which"
     },
     {
       "id": "bea5a06fb576",
@@ -675,6 +695,16 @@
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
     },
     {
+      "id": "ab1dd286c144",
+      "title": "IBE and PIR from Isogenies",
+      "link": "https://eprint.iacr.org/2026/1457",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-17T07:48:31+00:00",
+      "ts": 1784274511.0,
+      "summary": "We significantly expand the reach of isogeny-based cryptography by constructing, for the first time, two fundamental primitives that have long remained out of reach from isogenies: identity-based encryption (IBE) and semi-honest single-server private information retrieval (PIR) with communication polylogarithmic in the database size. Our IBE additionally achieves anonymity, which means that the ci"
+    },
+    {
       "id": "bdc2700324bc",
       "title": "Rust-proof your code with our new Testing Handbook chapter",
       "link": "https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/",
@@ -745,16 +775,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
-      "id": "0ef9da951a4d",
-      "title": "Adaptively-Secure Flexible and Identity-Based Broadcast Encryption from Lattices",
-      "link": "https://eprint.iacr.org/2026/862",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-02T23:53:20+00:00",
-      "ts": 1777766000.0,
-      "summary": "Broadcast encryption (BE) allows a sender to succinctly encrypt a message to any dynamically chosen subset of recipients. The gold-standard for BE is $\\textit{optimal succinctness}$ (parameters independent of the number of users) and $\\textit{adaptive security}$. Attaining both from falsifiable post-quantum assumptions has been a central open problem. Recently, Goyal and Yadugiri (GY) [Goyal-Yadug"
-    },
-    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -765,14 +785,14 @@
       "summary": "Posted by Thomas Brunner, Yu-Han Liu, Moni PandeAt Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats before they can impact users. Right now, Indirect Prompt Injection (IPI) is a top priority for the security community, anticipating it as a primary attack vector for adversaries to target and compromise A"
     },
     {
-      "id": "7188effef45f",
-      "title": "Equivocal Broadcast Encryption: Adaptively-Secure Optimal Distributed Broadcast Encryption from Lattices",
-      "link": "https://eprint.iacr.org/2026/792",
+      "id": "3389f5f6016e",
+      "title": "How Strong is the FO-Calypse, Really? Instantiating Plaintext-Checking Oracles against Masked Software Implementations of ML-KEM",
+      "link": "https://eprint.iacr.org/2026/777",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-04-22T01:41:18+00:00",
-      "ts": 1776822078.0,
-      "summary": "We present the first Distributed Broadcast Encryption (DBE) scheme from falsifiable lattice assumptions that achieves adaptive security with optimal parameters (short public/secret keys and ciphertexts). Our construction enjoys transparent setup and offers flexible instantiation: we achieve a succinct CRS in the Random Oracle Model, or a long CRS in the standard model. Previously, no lattice-based"
+      "published": "2026-04-20T09:30:10+00:00",
+      "ts": 1776677410.0,
+      "summary": "Side-channel attacks exploiting Plaintext-Checking Oracles (PCOs) instantiated thanks to the leakage of the re-encryption step taking place during decapsulation are a well-known weakness of ML-KEM. An already wide literature investigated how to efficiently exploit such oracles, leading to easy (full) key recoveries. Somewhat surprisingly, the investigation of how to best instantiate PCOs against M"
     },
     {
       "id": "b18b34e5e963",
@@ -833,16 +853,6 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
-    },
-    {
-      "id": "9fc96feba9bb",
-      "title": "GlueLUT: Efficient Lookup Table Arguments over Residue Rings",
-      "link": "https://eprint.iacr.org/2026/494",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-10T08:54:22+00:00",
-      "ts": 1773132862.0,
-      "summary": "Lookup table polynomial interactive oracle proofs (LUT PIOPs) make SNARK arithmetizations concise, yet almost all efficient constructions assume field arithmetic. We show that directly instantiating them over a composite residue ring \\(\\mathbb Z_Q\\) can be unsound: component-wise set checks preserve the residue multiset in each CRT component but lose the alignment across components. We formalize t"
     },
     {
       "id": "6762b71590bf",
@@ -985,34 +995,14 @@
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
     },
     {
-      "id": "4f83504d6ee3",
-      "title": "Security Analysis of NIST Key Derivation Using Pseudorandom Functions",
-      "link": "https://eprint.iacr.org/2025/815",
+      "id": "7501f6729e07",
+      "title": "Verifiable Computation for Approximate Homomorphic Encryption Schemes",
+      "link": "https://eprint.iacr.org/2025/286",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-05-07T16:23:25+00:00",
-      "ts": 1746635005.0,
-      "summary": "Key derivation functions can be used to derive variable-length random strings that serve as cryptographic keys. They are integral to many widely-used communication protocols such as TLS, IPsec and Signal. NIST SP 800-108 specifies several key derivation functions based on pseudorandom functions such as CMAC and HMAC, that can be used to derive additional keys from an existing cryptographic key. Th"
-    },
-    {
-      "id": "b6ab50038c27",
-      "title": "On Efficient Computations of $y^2=x^3+b/\\mathbb{F}_p$ for Primes $p\\equiv 1 \\mod 3$",
-      "link": "https://eprint.iacr.org/2024/1906",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-11-23T13:53:41+00:00",
-      "ts": 1732370021.0,
-      "summary": "Since its introduction, Solinas' window $\\tau$-NAF algorithm has been a landmark method for accelerating scalar multiplication on Koblitz curves over binary fields. A long-standing open problem has been to identify a suitable family of elliptic curves over prime fields for which the window $\\tau$-NAF approach can be effectively extended. In this paper, we settle this problem by establishing such a"
-    },
-    {
-      "id": "36a8320e6c91",
-      "title": "Faster Proofs and VRFs from Isogenies",
-      "link": "https://eprint.iacr.org/2024/1626",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-10-10T20:36:24+00:00",
-      "ts": 1728592584.0,
-      "summary": "We improve recent generic proof systems for isogeny knowledge by Cong, Lai, Levin based on circuit satisfiability, by using radical isogeny descriptions to prove a path in the underlying isogeny graph. We then present a new generic construction for a verifiable random function (VRF) based on a one-more type hardness assumption and zero-knowledge proofs. We argue that isogenies fit the constraints "
+      "published": "2025-02-19T09:36:05+00:00",
+      "ts": 1739957765.0,
+      "summary": "We address the problem of proving the validity of computation on ciphertexts of homomorphic encryption (HE) schemes, a feature that enables outsourcing of data and computation while ensuring both data privacy and integrity. We propose a new solution that handles computations in RingLWE-based schemes, particularly the CKKS scheme for approximate arithmetic. Our approach efficiently handles cipherte"
     },
     {
       "id": "b2bcb1b860e0",
@@ -1023,6 +1013,16 @@
       "published": "2024-10-07T14:01:27+00:00",
       "ts": 1728309687.0,
       "summary": "Oblivious Transfer (OT) is one of the fundamental building blocks in cryptography that enables various privacy-preserving applications. Constructing efficient OT schemes has been an active research area. This paper presents three efficient two-round pairing-free k-out-of-n oblivious transfer protocols with standard security. Our constructions follow the minimal communication pattern: the receiver "
+    },
+    {
+      "id": "b6e330dd6c05",
+      "title": "Self-Orthogonal Minimal Codes From (Vectorial) p-ary Plateaued Functions",
+      "link": "https://eprint.iacr.org/2024/1383",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-09-03T15:11:46+00:00",
+      "ts": 1725376306.0,
+      "summary": "In this article, we derive the weight distribution of linear codes stemming from a subclass of (vectorial) $p$-ary plateaued functions (for a prime $p$), which includes all the explicitly known examples of weakly and non-weakly regular plateaued functions. This construction of linear codes is referred in the literature as the first generic construction. First, we partition the class of $p$-ary pla"
     },
     {
       "id": "be37899bc7bf",
