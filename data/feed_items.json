@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:27:47.998041+00:00",
+  "generated_at": "2026-10-02T18:53:32.446915+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "04b7ee6e46d3",
+      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+      "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-02T17:33:31+00:00",
+      "ts": 1790962411.0,
+      "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab&nbsp;said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1. The flaw"
+    },
+    {
+      "id": "7fa377d9aeb9",
+      "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+      "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-02T17:33:16+00:00",
+      "ts": 1790962396.0,
+      "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the deployment of a previously undocumented backdoor codenamed Antino. Cisco Talos is tracking the cluster"
+    },
+    {
+      "id": "cc1cab1b3ba8",
+      "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+      "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-02T17:02:12+00:00",
+      "ts": 1790960532.0,
+      "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an"
+    },
+    {
+      "id": "a131500535de",
+      "title": "Unidentified Flock Cameras in Florida",
+      "link": "https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-02T14:52:46+00:00",
+      "ts": 1790952766.0,
+      "summary": "St. Lucie County in Florida discovered (alt link) a dozen Flock cameras whose ownership it can&#8217;t identify, and that the county government had not permitted. I am reminded of the decade-old story of StingRay cell phone surveillance devices in Washington, DC, whose operators were also unknown. My guess is that in the StingRay case, the devices were operated by foreign actors. This Flock case i"
+    },
     {
       "id": "5904c2563046",
       "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
@@ -165,36 +205,6 @@
       "summary": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals. The trigger is a malicious PDF with a crafted embedded font that crashes unpatched iPhones and Macs. The code causes a crash, not an execution error. Turning the memory corruption into a working"
     },
     {
-      "id": "c70791468f1c",
-      "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-      "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-01T05:21:10+00:00",
-      "ts": 1790832070.0,
-      "summary": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. \"Their investigation identified malicious activity involving third-party security products, including a zero-day vulnerability, and recovered a customized tool used by the attacker"
-    },
-    {
-      "id": "77613bd544e0",
-      "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-      "link": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-01T05:10:09+00:00",
-      "ts": 1790831409.0,
-      "summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure. \"We are actively addressing and remediating the issue internally, in coordination with external partners and security advisors,\" the software cryptocurrency wallet maker said. \"At this time, we have identified no immediate threat to MetaMask wallets.\" MetaMask"
-    },
-    {
-      "id": "ff52b7e33fe1",
-      "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
-      "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-01T04:35:34+00:00",
-      "ts": 1790829334.0,
-      "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data. LevelBlue's Threat Hunt Operations &amp; Research (THOR) team, which analyzed the exploitation activity across multiple customer environments, said it identified malicious NetScaler"
-    },
-    {
       "id": "bcbe1c4698ed",
       "title": "Is sandboxing sufficient to contain rogue agents?",
       "link": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
@@ -213,16 +223,6 @@
       "published": "2026-09-30T11:05:35+00:00",
       "ts": 1790766335.0,
       "summary": "AI systems are regularly completing tasks in ways that their prompters don&#8217;t want or intend. Some of them are disturbing, and some of them are dangerous. This is something I&#8217;ve been calling &#8220;genie behavior,&#8221; because I think that really gets at the core of what&#8217;s happening. I wish the popular press would report on this better. I don&#8217;t like the &#8220;going rogue&"
-    },
-    {
-      "id": "7c6537bbd007",
-      "title": "Exact SVP on Haar-Random Lattices at the Heuristic Sieving Exponents",
-      "link": "https://eprint.iacr.org/2026/2271",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-30T00:18:41+00:00",
-      "ts": 1790727521.0,
-      "summary": "We give a Monte Carlo algorithm for exact Euclidean SVP on Haar-random lattices with arithmetic time $(3/2)^{n/2+o(n)}$ and space $(4/3)^{n/2+o(n)}$, up to polynomial factors in the logarithmic condition number of the input basis. The leading exponents match those of heuristic lattice sieving. For a set of lattices of Haar measure $1-o(1)$, the algorithm succeeds with probability $1-o(1)$ on every"
     },
     {
       "id": "955865a93323",
@@ -263,6 +263,36 @@
       "published": "2026-09-28T11:02:58+00:00",
       "ts": 1790593378.0,
       "summary": "ArsTechnica is reporting on a &#8220;new&#8221; attack against RSA, one that bypasses factoring. First, this attack isn&#8217;t new. The original research is from 2007. What is new is the implementation. Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key. Third, the attack only works against pure signatures. Th"
+    },
+    {
+      "id": "39f56be78876",
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-041 (28 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-041/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-28T00:00:00+00:00",
+      "ts": 1790553600.0,
+      "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des..."
+    },
+    {
+      "id": "1dea056e52f2",
+      "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1235/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-28T00:00:00+00:00",
+      "ts": 1790553600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Citrix NetScaler ADC et Gateway. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécurité. Citrix indique que les..."
+    },
+    {
+      "id": "c5f5194bd912",
+      "title": "Multiples vulnérabilités dans MongoDB (28 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1234/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-28T00:00:00+00:00",
+      "ts": 1790553600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur."
     },
     {
       "id": "f89cbebcce1e",
@@ -315,6 +345,66 @@
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
     },
     {
+      "id": "efd3551f834e",
+      "title": "Multiples vulnérabilités dans les produits IBM (25 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1233/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-25T00:00:00+00:00",
+      "ts": 1790294400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "0dcec13d4098",
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (25 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1229/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-25T00:00:00+00:00",
+      "ts": 1790294400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "708d7b625cb9",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (25 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1232/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-25T00:00:00+00:00",
+      "ts": 1790294400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service."
+    },
+    {
+      "id": "8972653e788c",
+      "title": "Multiples vulnérabilités dans les produits Elastic (25 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1228/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-25T00:00:00+00:00",
+      "ts": 1790294400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "c8a112b5dd3f",
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (25 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1231/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-25T00:00:00+00:00",
+      "ts": 1790294400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "dfea820b29b5",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (25 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1230/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-25T00:00:00+00:00",
+      "ts": 1790294400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+    },
+    {
       "id": "acd1917de7f1",
       "title": "Malicious npm Packages That Evade Defenses",
       "link": "https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html",
@@ -323,36 +413,6 @@
       "published": "2026-09-24T11:07:42+00:00",
       "ts": 1790248062.0,
       "summary": "This is an impressive piece of malware. Its sophistication says nation-state to me, but there is no direct evidence and certainly no attribution."
-    },
-    {
-      "id": "825a01c0b5d8",
-      "title": "Multiples vulnérabilités dans Papercut (24 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1223/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-24T00:00:00+00:00",
-      "ts": 1790208000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Papercut. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS)."
-    },
-    {
-      "id": "df244c99ad4d",
-      "title": "Multiples vulnérabilités dans LibreNMS (24 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1222/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-24T00:00:00+00:00",
-      "ts": 1790208000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans LibreNMS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
-      "id": "a19821cac57e",
-      "title": "Multiples vulnérabilités dans Zabbix Agent (24 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1226/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-24T00:00:00+00:00",
-      "ts": 1790208000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Zabbix Agent. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
     },
     {
       "id": "39cac5e6e3b3",
@@ -365,16 +425,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
-      "id": "42cd571ed4f5",
-      "title": "Multiples vulnérabilités dans GitLab (24 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1225/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-24T00:00:00+00:00",
-      "ts": 1790208000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS)."
-    },
-    {
       "id": "4ebd4db3cca9",
       "title": "Research on Models Engaging in Genie-Like Behavior",
       "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
@@ -383,66 +433,6 @@
       "published": "2026-09-23T11:03:36+00:00",
       "ts": 1790161416.0,
       "summary": "New paper: &#8220;Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training.&#8221; Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies "
-    },
-    {
-      "id": "b3d0d2d24924",
-      "title": "Multiples vulnérabilités dans Apache Tomcat (23 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1218/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-23T00:00:00+00:00",
-      "ts": 1790121600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "76d59ec52561",
-      "title": "Vulnérabilité dans WordPress (23 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1216/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-23T00:00:00+00:00",
-      "ts": 1790121600.0,
-      "summary": "Une vulnérabilité a été découverte dans WordPress. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
-    },
-    {
-      "id": "70c947dee3bd",
-      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (23 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1217/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-23T00:00:00+00:00",
-      "ts": 1790121600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
-    },
-    {
-      "id": "b1935b753f23",
-      "title": "Vulnérabilité dans Check Point Security Management Server (23 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1219/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-23T00:00:00+00:00",
-      "ts": 1790121600.0,
-      "summary": "Une vulnérabilité a été découverte dans Check Point Security Management Server. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une atteinte à l'intégrité des données. L'éditeur indique que la vulnérabilité CVE-2026-93616 est activement exploitée. Check..."
-    },
-    {
-      "id": "51bdd4e8dbd1",
-      "title": "Vulnérabilité dans F5 BIG-IP (23 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1220/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-23T00:00:00+00:00",
-      "ts": 1790121600.0,
-      "summary": "Une vulnérabilité a été découverte dans F5 BIG-IP. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur indique que la vulnérabilité CVE-2026-94127 est activement exploitée. Des indicateurs de compromission sont disponibles dans l'avis de l'éditeur."
-    },
-    {
-      "id": "e1f07a200224",
-      "title": "GPT-6 Astra Breaks an Old Enigma Message",
-      "link": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-22T11:02:45+00:00",
-      "ts": 1790074965.0,
-      "summary": "This is pretty amazing: However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and "
     },
     {
       "id": "1faba3293b88",
@@ -973,6 +963,16 @@
       "published": "2025-11-20T17:00:00+00:00",
       "ts": 1763658000.0,
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
+    },
+    {
+      "id": "dc350e513781",
+      "title": "Batched and Packed (Publicly) Verifiable Secret Sharing: A Unified Framework and Applications",
+      "link": "https://eprint.iacr.org/2025/2018",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-10-30T12:23:46+00:00",
+      "ts": 1761827026.0,
+      "summary": "Verifiable Secret Sharing (VSS) allows a dealer to distribute a secret among $n$ parties so that each can verify their share's validity, and any qualified subset can reconstruct the secret. Publicly Verifiable Secret Sharing (PVSS) extends VSS by enabling anyone to verify the correctness of distributed shares. Both VSS and PVSS schemes are core building blocks in many cryptographic applications. W"
     },
     {
       "id": "60a6eaa9b24b",
