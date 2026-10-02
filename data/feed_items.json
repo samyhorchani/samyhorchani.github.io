@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:53:32.446915+00:00",
+  "generated_at": "2026-10-02T22:45:44.080761+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "826b48a40b29",
+      "title": "Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing",
+      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-02T21:02:18+00:00",
+      "ts": 1790974938.0,
+      "summary": "The EU is recommending import controls to combat unregulated squid fishing in the Southwest Atlantic. I&#8217;m not optimistic. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
+    },
     {
       "id": "04b7ee6e46d3",
       "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
@@ -425,14 +435,14 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
-      "id": "4ebd4db3cca9",
-      "title": "Research on Models Engaging in Genie-Like Behavior",
-      "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-23T11:03:36+00:00",
-      "ts": 1790161416.0,
-      "summary": "New paper: &#8220;Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training.&#8221; Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies "
+      "id": "9891bf5d2f11",
+      "title": "Jolt-QED: Formally Verifying Bytecode Expansions In Lean",
+      "link": "https://eprint.iacr.org/2026/2157",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T10:24:21+00:00",
+      "ts": 1790072661.0,
+      "summary": "In this work, we verify, using the Lean 4 proof assistant, that the Jolt zk-VM's expanded programs faithfully emulate a RISC-V CPU. Prior work translated the official Sail specification of RISC-V into Lean. We extend this model to define the Jolt ISA in Lean. We build a generator that runs Jolt's Rust bytecode expander and renders its output as Lean programs. Finally, for 51 out of 58 such program"
     },
     {
       "id": "1faba3293b88",
@@ -915,6 +925,16 @@
       "summary": "Threshold signature schemes play a vital role in securing digital assets within blockchain and distributed systems. $\\textsf{FROST2}$ stands out as a practical threshold Schnorr signature scheme, noted for its efficiency and compatibility with standard verification processes. However, under the one-more discrete logarithm assumption, with static corruption and centralized key generation settings, "
     },
     {
+      "id": "207e9266fbd3",
+      "title": "Fully Distributed Multi-Point Functions for PCGs and Beyond",
+      "link": "https://eprint.iacr.org/2025/2294",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-12-19T22:30:04+00:00",
+      "ts": 1766183404.0,
+      "summary": "We give fully distributed multi-point function (DMPF) constructions that share a sparse map over a domain of size $N$. Setup takes secret-shared indices; each later expansion takes new payloads for those indices and returns shares of the map. Our main construction, Waterfall Cuckoo, samples public hashes before assigning the inputs to bins. An occupancy scan followed by bounded repair finds the as"
+    },
+    {
       "id": "d89b8a28e282",
       "title": "HTTPS certificate industry phasing out less secure domain validation methods",
       "link": "http://security.googleblog.com/2025/12/https-certificate-industry-phasing-out.html",
@@ -1003,26 +1023,6 @@
       "published": "2025-02-19T09:36:05+00:00",
       "ts": 1739957765.0,
       "summary": "We address the problem of proving the validity of computation on ciphertexts of homomorphic encryption (HE) schemes, a feature that enables outsourcing of data and computation while ensuring both data privacy and integrity. We propose a new solution that handles computations in RingLWE-based schemes, particularly the CKKS scheme for approximate arithmetic. Our approach efficiently handles cipherte"
-    },
-    {
-      "id": "b2bcb1b860e0",
-      "title": "Efficient Pairing-Free Adaptable k-out-of-N Oblivious Transfer Protocols",
-      "link": "https://eprint.iacr.org/2024/1583",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-10-07T14:01:27+00:00",
-      "ts": 1728309687.0,
-      "summary": "Oblivious Transfer (OT) is one of the fundamental building blocks in cryptography that enables various privacy-preserving applications. Constructing efficient OT schemes has been an active research area. This paper presents three efficient two-round pairing-free k-out-of-n oblivious transfer protocols with standard security. Our constructions follow the minimal communication pattern: the receiver "
-    },
-    {
-      "id": "b6e330dd6c05",
-      "title": "Self-Orthogonal Minimal Codes From (Vectorial) p-ary Plateaued Functions",
-      "link": "https://eprint.iacr.org/2024/1383",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-09-03T15:11:46+00:00",
-      "ts": 1725376306.0,
-      "summary": "In this article, we derive the weight distribution of linear codes stemming from a subclass of (vectorial) $p$-ary plateaued functions (for a prime $p$), which includes all the explicitly known examples of weakly and non-weakly regular plateaued functions. This construction of linear codes is referred in the literature as the first generic construction. First, we partition the class of $p$-ary pla"
     },
     {
       "id": "be37899bc7bf",
