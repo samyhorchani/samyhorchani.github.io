@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T20:44:49.329891+00:00",
+  "generated_at": "2026-10-02T00:26:19.133163+00:00",
   "count": 105,
   "errors": [
     {
@@ -675,16 +675,6 @@
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
     },
     {
-      "id": "f430162a933e",
-      "title": "Silent Distributed Cryptography for DNFs and Threshold Policies from Lattices",
-      "link": "https://eprint.iacr.org/2026/1547",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-29T04:09:08+00:00",
-      "ts": 1785298148.0,
-      "summary": "We study two central problems in threshold cryptography from lattices: (1) threshold encryption with silent setup for general thresholds $t \\geq 2$, where no post-quantum constructions were previously known, and (2) threshold fully homomorphic encryption (TFHE) with sublinear parameters, an open problem since the work of [Boneh et al.; CRYPTO'18]. We introduce $\\textit{$(\\alpha,\\beta)$-Scaled Line"
-    },
-    {
       "id": "9746ad058ff2",
       "title": "How we use /goal to find bugs in Patch the Planet",
       "link": "https://blog.trailofbits.com/2026/07/28/how-we-use-goal-to-find-bugs-in-patch-the-planet/",
@@ -923,6 +913,16 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
+    },
+    {
+      "id": "4e85134860da",
+      "title": "The Motte-and-Bailey Framework for Leakage-Resilient Accordion Modes: Featuring Qaitbay and Alicante",
+      "link": "https://eprint.iacr.org/2026/122",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-26T08:44:57+00:00",
+      "ts": 1769417097.0,
+      "summary": "Accordion modes have experienced a surge in popularity, partially motivated by the recent NIST Accordion modes project. None of the existing practical constructions is leakage-resilient by default. In this work, we design a leakage-resilient Accordion mode. We start by presenting a generic analysis of the Encode-then-Encipher (EtE) framework in the leakage-resilient setting, assuming the encipheri"
     },
     {
       "id": "d89b8a28e282",
