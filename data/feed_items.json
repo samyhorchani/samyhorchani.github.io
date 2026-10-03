@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:57:06.302889+00:00",
+  "generated_at": "2026-10-03T16:59:52.203986+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "4134fe972dd7",
+      "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+      "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-03T14:38:46+00:00",
+      "ts": 1791038326.0,
+      "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a \"Security Service Espionage Alert\" issued on September 30, 2026, MI5 said the \"primary purpose of the China General Technology Research Institute (CGTRI) 中国通用技术研究院 is to fund research that"
+    },
+    {
+      "id": "86ee01d8144d",
+      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+      "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-03T14:36:33+00:00",
+      "ts": 1791038193.0,
+      "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and Carbon Black Threat Hunter Team, has hit critical infrastructure, government, and education organizations. \"In the"
+    },
     {
       "id": "9123907022c8",
       "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
@@ -193,26 +213,6 @@
       "published": "2026-10-01T10:42:36+00:00",
       "ts": 1790851356.0,
       "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A \"core cluster of the activity,\" going back to the first week of July, has been attributed to individuals associated with Moonshot AI, a Chinese AI company based in Beijing. It did not cite any"
-    },
-    {
-      "id": "6c73cffa6697",
-      "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-      "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-01T10:33:16+00:00",
-      "ts": 1790850796.0,
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation. The vulnerability, tracked as CVE-2026-76504 (CVSS score: 9.8), could allow an unauthenticated, remote attacker to access an affected system with"
-    },
-    {
-      "id": "b306ea9aaed8",
-      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-      "link": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-01T07:49:36+00:00",
-      "ts": 1790840976.0,
-      "summary": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. \"It delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" Koray Kavukcuoglu,"
     },
     {
       "id": "bcbe1c4698ed",
@@ -535,6 +535,16 @@
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity a"
     },
     {
+      "id": "0babe19ca7b4",
+      "title": "Comparing Privacy-Preserving Revocation for the EUDI Wallet",
+      "link": "https://eprint.iacr.org/2026/1824",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-28T09:53:36+00:00",
+      "ts": 1787910816.0,
+      "summary": "The European Digital Identity Wallet has integrated anonymous credentials into its technical specifications, and singles out four constructions for privacy-preserving revocation, drawn from two families: positive dynamic accumulators and signed-pairs. The two families are described in the literature in substantially different terms, and no common basis for comparing them exists, which currently pr"
+    },
+    {
       "id": "a3160ec17f8b",
       "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
@@ -563,16 +573,6 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
-    },
-    {
-      "id": "0ad0cbb41363",
-      "title": "On Removing Interaction from Quantum Proofs",
-      "link": "https://eprint.iacr.org/2026/1795",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-25T03:26:01+00:00",
-      "ts": 1787628361.0,
-      "summary": "An important open question in quantum cryptography is the construction of publicly-verifiable NIZKs for QMA. Classically, one can construct NIZKs for NP in the random oracle model (and sometimes in the standard model) by compiling an honest-verifier ZK (HVZK) $\\Sigma$-protocol for NP using the Fiat–Shamir transformation. Broadbent and Grilo introduced a quantum analog of a $\\Sigma$-protocol (which"
     },
     {
       "id": "bea5a06fb576",
