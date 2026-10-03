@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T01:38:48.437260+00:00",
+  "generated_at": "2026-10-03T07:27:21.883926+00:00",
   "count": 105,
   "errors": [
     {
@@ -245,16 +245,6 @@
       "summary": "Modern messaging apps allow users to link their phone accounts to their computer desktop. Eavesdroppers are taking advantage of this capability: Apps such as WhatsApp Web and Signal Desktop allow people to use their accounts on other devices, such as laptops or desktop computers. Germany&#8217;s Customs Office has been using these features to connect a police-controlled computer to a suspect&#8217"
     },
     {
-      "id": "0128793882ff",
-      "title": "Affine-Padding Rabin-Oracle Factoring in $L_n\\!\\left(\\frac{1}{3},\\sqrt[3]{\\frac{32}{9}}\\right)$",
-      "link": "https://eprint.iacr.org/2026/2256",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-29T06:53:16+00:00",
-      "ts": 1790664796.0,
-      "summary": "The 2007 algorithm of Joux, Naccache, and Thomé (\\textsc{jnt}) shows that, with subexponential access to an $e$-th root oracle, one can forge \\textsc{rsa} signatures for \\emph{odd} $e$ in time close to the special number field sieve, without factoring the modulus; a recent \\textsc{jnt} implementation by Shea et al.~\\cite{Forge26} carried that attack to $1024$-bit \\textsc{rsa}. We revisit the \\text"
-    },
-    {
       "id": "535fdeca402d",
       "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
       "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
@@ -273,6 +263,16 @@
       "published": "2026-09-28T11:02:58+00:00",
       "ts": 1790593378.0,
       "summary": "ArsTechnica is reporting on a &#8220;new&#8221; attack against RSA, one that bypasses factoring. First, this attack isn&#8217;t new. The original research is from 2007. What is new is the implementation. Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key. Third, the attack only works against pure signatures. Th"
+    },
+    {
+      "id": "906addcf9830",
+      "title": "Improved Cryptanalysis of Local PRGs",
+      "link": "https://eprint.iacr.org/2026/2240",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-28T02:47:59+00:00",
+      "ts": 1790563679.0,
+      "summary": "We present two seed-recovery attacks on a family of local PRGs, which map an $n$-bit random seed to an $m$-bit pseudorandom string by applying $\\XorMaj$ predicates. For PRGs with large locality, we extend the Group-and-Solve (GAS, Eurocrypt 26) framework to Guess-Filter-Solve (GFS). GFS first guesses that a set of seed bits are all $1$s and then filters for outputs whose inputs to $\\Maj$ contain a"
     },
     {
       "id": "39f56be78876",
@@ -303,16 +303,6 @@
       "published": "2026-09-28T00:00:00+00:00",
       "ts": 1790553600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
-      "id": "f89cbebcce1e",
-      "title": "Cryptanalysis of the ICCS NGCC Round-1 Public-Key Candidates",
-      "link": "https://eprint.iacr.org/2026/2232",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-27T09:13:50+00:00",
-      "ts": 1790500430.0,
-      "summary": "The ICCS Next-Generation Commercial Cryptography (NGCC) round-1 call received 84 public-key candidates for public evaluation. We present a design-level assessment that targets weaknesses no local code fix can close, identifying eight such flaws. Each recurs a pitfall already known from NIST PQC standardization: reducible-ring sub-ring projections that break IND-CPA below the claimed level; public "
     },
     {
       "id": "81a26141bc31",
@@ -993,6 +983,16 @@
       "published": "2025-10-30T12:23:46+00:00",
       "ts": 1761827026.0,
       "summary": "Verifiable Secret Sharing (VSS) allows a dealer to distribute a secret among $n$ parties so that each can verify their share's validity, and any qualified subset can reconstruct the secret. Publicly Verifiable Secret Sharing (PVSS) extends VSS by enabling anyone to verify the correctness of distributed shares. Both VSS and PVSS schemes are core building blocks in many cryptographic applications. W"
+    },
+    {
+      "id": "e2a04cb1ae6e",
+      "title": "SCORE: A SlotToCoeff Optimization for Real-Vector Encryption in CKKS",
+      "link": "https://eprint.iacr.org/2025/1983",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-10-23T11:36:53+00:00",
+      "ts": 1761219413.0,
+      "summary": "We present SCORE, a tweaked version of the SlotToCoeff operation tailored to the context of encrypted real vectors in the CKKS scheme, where SCORE stands for “SlotToCoeff Optimization for Real-Vector Encryption”. This approach accelerates CKKS bootstrapping algorithms that employ the SlotToCoeff operation as their final step, provided the inputs are encryptions of real vectors. SCORE constitutes a"
     },
     {
       "id": "60a6eaa9b24b",
