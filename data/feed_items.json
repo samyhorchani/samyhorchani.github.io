@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T09:16:05.389983+00:00",
+  "generated_at": "2026-10-04T15:05:39.341081+00:00",
   "count": 105,
   "errors": [
     {
@@ -485,16 +485,6 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
-      "id": "fe3fc6798537",
-      "title": "LibFWHT: From Exact Walsh Spectra to Key Dependence in Differential-Linear Correlations",
-      "link": "https://eprint.iacr.org/2026/1997",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-12T19:01:45+00:00",
-      "ts": 1789239705.0,
-      "summary": "The Walsh-Hadamard transform (WHT) computes the correlation of a Boolean function with every linear function at once. Cryptanalytic workflows transform large arrays repeatedly, in batches. However, available tools specialize in particular data types, platforms, or ecosystems. We present LibFWHT, an open-source C library for dense WHTs, with Python bindings and a command-line interface. It includes"
-    },
-    {
       "id": "0c016fa822b6",
       "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
       "link": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
@@ -523,6 +513,16 @@
       "published": "2026-09-01T22:40:28+00:00",
       "ts": 1788302428.0,
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity a"
+    },
+    {
+      "id": "bb20f385c3ff",
+      "title": "Jacobian Diagnostics for Under-Constrained Zero-Knowledge Circuits",
+      "link": "https://eprint.iacr.org/2026/1852",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-01T10:30:46+00:00",
+      "ts": 1788258646.0,
+      "summary": "Under-constrained arithmetic circuits are a recurring source of soundness failures in zero-knowledge applications: after fixing the public statement, a malicious prover may be able to assign a security-relevant wire in more than one way while still satisfying the circuit. Existing tools attack this uniqueness question with solver-based checking, direct polynomial solving, abstract interpretation, "
     },
     {
       "id": "0babe19ca7b4",
@@ -835,6 +835,16 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
+      "id": "9c53d9c291bb",
+      "title": "A unified toolkit for advanced arithmetic in FHE",
+      "link": "https://eprint.iacr.org/2026/450",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-04T15:10:16+00:00",
+      "ts": 1772637016.0,
+      "summary": "We suggest an extension of discrete--CKKS that enables advanced computations over real, Boolean and large integers (e.g., 64/128-bit), including standard arithmetic operations, comparison, shift, bit length, quotient, square root, and other non linear functions based on binary representation. The flexibility of our approach lies in the synergy between the integer and the real arithmetic layers. At"
+    },
+    {
       "id": "b7ffc9dc8c13",
       "title": "Anonymous credentials: an illustrated primer",
       "link": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
@@ -875,6 +885,16 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
+      "id": "7595989bd20c",
+      "title": "On the Concrete Hardness Gap Between MLWE and LWE",
+      "link": "https://eprint.iacr.org/2026/279",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-16T21:36:45+00:00",
+      "ts": 1771277805.0,
+      "summary": "Concrete security estimates for Module LWE (MLWE) over an appropriate ring are often obtained by translating to an \"equivalent\" unstructured LWE instance, which implicitly treats algebraic structure as a pure efficiency gain with no impact on security. We show that this heuristic fails for realistic parameters. In common MLWE/RLWE instantiations, an attacker can exploit symmetries to obtain hybrid"
+    },
+    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -893,16 +913,6 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
-    },
-    {
-      "id": "4e85134860da",
-      "title": "The Motte-and-Bailey Framework for Leakage-Resilient Accordion Modes: Featuring Qaitbay and Alicante",
-      "link": "https://eprint.iacr.org/2026/122",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-26T08:44:57+00:00",
-      "ts": 1769417097.0,
-      "summary": "Accordion modes have experienced a surge in popularity, partially motivated by the recent NIST Accordion modes project. None of the existing practical constructions is leakage-resilient by default. In this work, we design a leakage-resilient Accordion mode. We start by presenting a generic analysis of the Encode-then-Encipher (EtE) framework in the leakage-resilient setting, assuming the encipheri"
     },
     {
       "id": "ebb6e78e2b4b",
@@ -1013,16 +1023,6 @@
       "published": "2025-06-09T18:22:31+00:00",
       "ts": 1749493351.0,
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
-    },
-    {
-      "id": "7501f6729e07",
-      "title": "Verifiable Computation for Approximate Homomorphic Encryption Schemes",
-      "link": "https://eprint.iacr.org/2025/286",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-02-19T09:36:05+00:00",
-      "ts": 1739957765.0,
-      "summary": "We address the problem of proving the validity of computation on ciphertexts of homomorphic encryption (HE) schemes, a feature that enables outsourcing of data and computation while ensuring both data privacy and integrity. We propose a new solution that handles computations in RingLWE-based schemes, particularly the CKKS scheme for approximate arithmetic. Our approach efficiently handles cipherte"
     },
     {
       "id": "be37899bc7bf",
