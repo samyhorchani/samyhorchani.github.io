@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:57:06.735293+00:00",
+  "generated_at": "2026-10-04T22:12:30.370077+00:00",
   "count": 105,
   "errors": [
     {
@@ -63,6 +63,26 @@
       "published": "2026-10-03T11:00:00+00:00",
       "ts": 1791025200.0,
       "summary": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility, control, and the ability to respond to risk at scale. This report examines how core areas of"
+    },
+    {
+      "id": "586736bce4f5",
+      "title": "SPIN: Fast Codes for Correlation Generation and Polynomial Commitments",
+      "link": "https://eprint.iacr.org/2026/2317",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-02T23:06:44+00:00",
+      "ts": 1790982404.0,
+      "summary": "Binary codes used in correlation generation and proof systems need strong distance, fast ordinary and transposed encoding, and regular memory access. We introduce Single-Permutation INterleaved (SPIN) codes, combining a blockwise outer encoder, one global interleaver, and a recursive inner. Our main result is a Structured SPIN family with rate $1/2$ and $O(N)$ bit operations for ordinary and trans"
+    },
+    {
+      "id": "4f63e9012fb5",
+      "title": "Fast Linear Codes over Large Fields: Addition-Only and Small-Coefficient Encoders",
+      "link": "https://eprint.iacr.org/2026/2316",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-02T22:49:47+00:00",
+      "ts": 1790981387.0,
+      "summary": "We construct fast linear codes over large fields using addition-only encoders and variants with small integer coefficients. A local precode is followed by rounds of a random permutation and a scan, a linear recurrence with a short feedback window. At dimension $2^{20}$, rate $1/2$, and $p=2^{128}-159$, two plain accumulators (unweighted prefix sums) give relative distance above $11.7\\%$, except wi"
     },
     {
       "id": "826b48a40b29",
@@ -433,16 +453,6 @@
       "published": "2026-09-24T00:00:00+00:00",
       "ts": 1790208000.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
-      "id": "9891bf5d2f11",
-      "title": "Jolt-QED: Formally Verifying Bytecode Expansions In Lean",
-      "link": "https://eprint.iacr.org/2026/2157",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T10:24:21+00:00",
-      "ts": 1790072661.0,
-      "summary": "In this work, we verify, using the Lean 4 proof assistant, that the Jolt zk-VM's expanded programs faithfully emulate a RISC-V CPU. Prior work translated the official Sail specification of RISC-V into Lean. We extend this model to define the Jolt ISA in Lean. We build a generator that runs Jolt's Rust bytecode expander and renders its output as Lean programs. Finally, for 51 out of 58 such program"
     },
     {
       "id": "afdac7573336",
@@ -933,16 +943,6 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
-    },
-    {
-      "id": "207e9266fbd3",
-      "title": "Fully Distributed Multi-Point Functions for PCGs and Beyond",
-      "link": "https://eprint.iacr.org/2025/2294",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-12-19T22:30:04+00:00",
-      "ts": 1766183404.0,
-      "summary": "We give fully distributed multi-point function (DMPF) constructions that share a sparse map over a domain of size $N$. Setup takes secret-shared indices; each later expansion takes new payloads for those indices and returns shares of the map. Our main construction, Waterfall Cuckoo, samples public hashes before assigning the inputs to bins. An occupancy scan followed by bounded repair finds the as"
     },
     {
       "id": "d89b8a28e282",
