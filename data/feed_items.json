@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:05:39.341081+00:00",
+  "generated_at": "2026-10-04T18:57:06.735293+00:00",
   "count": 105,
   "errors": [
     {
@@ -213,6 +213,16 @@
       "published": "2026-10-01T11:06:14+00:00",
       "ts": 1790852774.0,
       "summary": "Researchers at Northeastern University, in collaboration with Consumer Reports, evaluated how much modern cars spy in their drivers: The new Northeastern study shows, for the first time, data flowing among the vehicles, the vehicle apps you download when you buy your car, and third-party companies, documenting exactly what kind of data gets siphoned from our vehicles and which companies are receiv"
+    },
+    {
+      "id": "2c0b429c201e",
+      "title": "Kettle: Short Post-Quantum Threshold Signatures from the HAWK Signature Scheme",
+      "link": "https://eprint.iacr.org/2026/2288",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-01T00:49:57+00:00",
+      "ts": 1790815797.0,
+      "summary": "HAWK is a lattice-based hash-and-sign signature scheme that was a third round candidate in the NIST additional call for post-quantum signatures. It has short signatures and keys, as well as fast and portable signing and verification. However, in response to a highly-publicized AI-driven cryptanalytic result that reduced its security (roughly doubling the required dimension to achieve a given secur"
     },
     {
       "id": "bcbe1c4698ed",
@@ -565,6 +575,16 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
+      "id": "386f3acc3e14",
+      "title": "How to Attack Poseidon via Smart Subspace Restriction",
+      "link": "https://eprint.iacr.org/2026/1692",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-15T02:00:31+00:00",
+      "ts": 1786759231.0,
+      "summary": "Poseidon [Grassi, Khovratovich, Rechberger, Roy, and Schofnegger; USENIX'21] is an arithmetization-oriented (AO) hash function designed to be highly efficient in real-world zero-knowledge (ZK) applications. As a sponge-based construction, its algebraic security inherently relies on its underlying permutation, Poseidon-$\\pi$, and the dense mixing of its layers: the initial full rounds ($R_{f_0}$), "
+    },
+    {
       "id": "bea5a06fb576",
       "title": "Everything is about to “go dark”",
       "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
@@ -685,16 +705,6 @@
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
     },
     {
-      "id": "f339f71fb557",
-      "title": "SENTRA:Privacy-Preserving Training in Outsourced Cloud Environments",
-      "link": "https://eprint.iacr.org/2026/1443",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-15T11:27:30+00:00",
-      "ts": 1784114850.0,
-      "summary": "Training machine learning models in untrusted clouds requires strong guarantees of confidentiality, integrity, and correctness, while remaining scalable and resilient to node churn. These challenges are further amplified in emerging agentic AI systems, where autonomous and distributed learning components require trustworthy coordination and secure state management across heterogeneous cloud enviro"
-    },
-    {
       "id": "bdc2700324bc",
       "title": "Rust-proof your code with our new Testing Handbook chapter",
       "link": "https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/",
@@ -753,6 +763,16 @@
       "published": "2026-05-26T00:00:00+00:00",
       "ts": 1779753600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "aedd13c16fc3",
+      "title": "Obscura: Privacy-Preserving Protocol for the Algorand Blockchain Using LSAG Ring Signatures",
+      "link": "https://eprint.iacr.org/2026/917",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-09T19:19:59+00:00",
+      "ts": 1778354399.0,
+      "summary": "While public blockchains provide transparent and auditable transaction histories, they inherently compromise user privacy. Existing privacy-enhancing protocols, such as those deployed on Ethereum, typically rely on succinct zero-knowledge proofs (zk-SNARKs) to obscure the transaction graph. However, implementing comparable cryptographic guarantees on high-throughput blockchains like Algorand is ch"
     },
     {
       "id": "a9a8b3d9eb28",
@@ -915,16 +935,6 @@
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
     },
     {
-      "id": "ebb6e78e2b4b",
-      "title": "From $\\textsf{TS-SUF-2}$ to $\\textsf{TS-SUF-4}$: Practical Security Enhancements for $\\textsf{FROST2}$ Threshold Signatures",
-      "link": "https://eprint.iacr.org/2026/075",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-17T06:11:54+00:00",
-      "ts": 1768630314.0,
-      "summary": "Threshold signature schemes play a vital role in securing digital assets within blockchain and distributed systems. $\\textsf{FROST2}$ stands out as a practical threshold Schnorr signature scheme, noted for its efficiency and compatibility with standard verification processes. However, under the one-more discrete logarithm assumption, with static corruption and centralized key generation settings, "
-    },
-    {
       "id": "207e9266fbd3",
       "title": "Fully Distributed Multi-Point Functions for PCGs and Beyond",
       "link": "https://eprint.iacr.org/2025/2294",
@@ -983,16 +993,6 @@
       "published": "2025-11-20T17:00:00+00:00",
       "ts": 1763658000.0,
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
-    },
-    {
-      "id": "dc350e513781",
-      "title": "Batched and Packed (Publicly) Verifiable Secret Sharing: A Unified Framework and Applications",
-      "link": "https://eprint.iacr.org/2025/2018",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-10-30T12:23:46+00:00",
-      "ts": 1761827026.0,
-      "summary": "Verifiable Secret Sharing (VSS) allows a dealer to distribute a secret among $n$ parties so that each can verify their share's validity, and any qualified subset can reconstruct the secret. Publicly Verifiable Secret Sharing (PVSS) extends VSS by enabling anyone to verify the correctness of distributed shares. Both VSS and PVSS schemes are core building blocks in many cryptographic applications. W"
     },
     {
       "id": "e2a04cb1ae6e",
