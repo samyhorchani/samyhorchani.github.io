@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T02:19:51.674765+00:00",
+  "generated_at": "2026-10-04T09:16:05.389983+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "cf99edc47c62",
+      "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+      "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-04T07:22:05+00:00",
+      "ts": 1791098525.0,
+      "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September 29, 2026, cooperating with the U.S. Federal Bureau of Investigation (FBI) and"
+    },
+    {
+      "id": "81eedabe33c3",
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "link": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-04T07:20:32+00:00",
+      "ts": 1791098432.0,
+      "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a"
+    },
     {
       "id": "4134fe972dd7",
       "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
@@ -185,16 +205,6 @@
       "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again. The backdoor has been codenamed SC after the \"SC_\" markers present in the injected content. Sucuri has described the malware as a \"self-healing mesh\" that's"
     },
     {
-      "id": "79115ba31caf",
-      "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
-      "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-01T11:45:00+00:00",
-      "ts": 1790855100.0,
-      "summary": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody prices out the regression testing. Somebody else raises the change-freeze calendar. The finding gets an exception, a compensating control, and a date"
-    },
-    {
       "id": "4eea68c2ad9f",
       "title": "Connected Cars Are a Surveillance Platform",
       "link": "https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html",
@@ -203,16 +213,6 @@
       "published": "2026-10-01T11:06:14+00:00",
       "ts": 1790852774.0,
       "summary": "Researchers at Northeastern University, in collaboration with Consumer Reports, evaluated how much modern cars spy in their drivers: The new Northeastern study shows, for the first time, data flowing among the vehicles, the vehicle apps you download when you buy your car, and third-party companies, documenting exactly what kind of data gets siphoned from our vehicles and which companies are receiv"
-    },
-    {
-      "id": "d824d251e42b",
-      "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
-      "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-01T10:42:36+00:00",
-      "ts": 1790851356.0,
-      "summary": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A \"core cluster of the activity,\" going back to the first week of July, has been attributed to individuals associated with Moonshot AI, a Chinese AI company based in Beijing. It did not cite any"
     },
     {
       "id": "bcbe1c4698ed",
@@ -433,16 +433,6 @@
       "published": "2026-09-22T10:24:21+00:00",
       "ts": 1790072661.0,
       "summary": "In this work, we verify, using the Lean 4 proof assistant, that the Jolt zk-VM's expanded programs faithfully emulate a RISC-V CPU. Prior work translated the official Sail specification of RISC-V into Lean. We extend this model to define the Jolt ISA in Lean. We build a generator that runs Jolt's Rust bytecode expander and renders its output as Lean programs. Finally, for 51 out of 58 such program"
-    },
-    {
-      "id": "1faba3293b88",
-      "title": "Fully Anonymous Perfect Secret-Sharing",
-      "link": "https://eprint.iacr.org/2026/2145",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T00:43:44+00:00",
-      "ts": 1790037824.0,
-      "summary": "Fully anonymous secret-sharing schemes ensure two properties at once: for any fixed secret, the combined shares of every unauthorized set of participants are uniformly random, and every authorized set can reconstruct the secret exactly using only the share values, without needing to know which participant holds which share or in what order the shares appear. It was previously open whether such sch"
     },
     {
       "id": "afdac7573336",
@@ -763,6 +753,16 @@
       "published": "2026-05-26T00:00:00+00:00",
       "ts": 1779753600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "a9a8b3d9eb28",
+      "title": "Titan: Efficient Polynomial Commitments from IOPs over Groups",
+      "link": "https://eprint.iacr.org/2026/908",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-08T09:50:04+00:00",
+      "ts": 1778233804.0,
+      "summary": "In this paper, we propose Titan, an efficient polynomial commitment scheme (PCS) with transparent setup. It achieves commitment time of $O(n)$, evaluation time of $O(\\sqrt{n})$ while the proof size and verification scales as $O(\\sqrt[4]{n})$. Titan features an order of magnitude smaller proof sizes than hash based PCS, while featuring a significantly more efficient prover and verifier compared to "
     },
     {
       "id": "e867d3e3dacb",
