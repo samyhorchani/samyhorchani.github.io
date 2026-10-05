@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T17:43:34.637172+00:00",
+  "generated_at": "2026-10-05T23:35:55.536337+00:00",
   "count": 105,
   "errors": [
     {
@@ -155,6 +155,16 @@
       "summary": "We study the problem of constructing highly nonlinear vectorial maps $F: \\mathbb{F}_2^n \\to \\mathbb{F}_2^m$. Concretely, we want an $F$ and an $A = A(m,n)0$ as small as possible, so that for every affine map $L: \\mathbb{F}_2^n \\to \\mathbb{F}_2^m$ (of the form $L(x) = Mx + b$) we have: $$ \\operatorname{agree}(F,L) := |\\{x \\in \\mathbb{F}_2^n \\mid F(x) = L(x)\\}| \\leq A. $$ Such questions have been st"
     },
     {
+      "id": "6271d9138600",
+      "title": "Beyond Mosca’s Heuristic: Supported Is Not Protected in Post-Quantum Migration",
+      "link": "https://eprint.iacr.org/2026/2318",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-03T00:45:59+00:00",
+      "ts": 1790988359.0,
+      "summary": "Post-quantum (PQ) migration is usually tracked per asset, with Mosca’s inequality and a share of “migrated” systems. For a flow of sensitive data, the relevant questions are different: is every session that carries it keyed by a quantum-safe secret, what evidence supports that claim, and what can an assessor establish from outside? We propose an assessment method whose unit is the data path and wh"
+    },
+    {
       "id": "826b48a40b29",
       "title": "Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
@@ -273,6 +283,16 @@
       "published": "2026-09-30T18:30:13+00:00",
       "ts": 1790793013.0,
       "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
+    },
+    {
+      "id": "d647eff64c8e",
+      "title": "A Cryptographic Perspective on Fingerprinting Machine Learning Model Weights",
+      "link": "https://eprint.iacr.org/2026/2279",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-30T13:37:17+00:00",
+      "ts": 1790775437.0,
+      "summary": "We introduce a cryptographic framework for fingerprinting machine learning models, enabling model providers to train models that can later be attributed to them. Our framework captures an honest setting in which providers distribute base models that users may subsequently modify to adapt them to their own applications (e.g., through finetuning). We formalize three properties for fingerprinting sch"
     },
     {
       "id": "7f4900bb56a3",
@@ -545,6 +565,16 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
+      "id": "a49fb5603ee2",
+      "title": "Improving GIJS Key Recovery for Classic McEliece",
+      "link": "https://eprint.iacr.org/2026/1984",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-11T16:11:38+00:00",
+      "ts": 1789143098.0,
+      "summary": "Classic McEliece is a post-quantum encryption scheme. Its public key is a generator matrix of a secret binary Goppa code. Its security levels are set by generic decoding attacks, which cost $2^{151}$ to $2^{287}$ bit operations for the five parameter sets. Ghoshal, Ishai, Jain and Sun (GIJS26) recently gave the first test that tells a public key from a random matrix at a lower cost, an estimated $"
+    },
+    {
       "id": "0c016fa822b6",
       "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
       "link": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
@@ -573,16 +603,6 @@
       "published": "2026-09-01T22:40:28+00:00",
       "ts": 1788302428.0,
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity a"
-    },
-    {
-      "id": "c1ca3d574e7d",
-      "title": "On the Fault Injection Security of White-box Ciphers",
-      "link": "https://eprint.iacr.org/2026/1833",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-29T16:48:09+00:00",
-      "ts": 1788022089.0,
-      "summary": "White-box security settings assume an extremely powerful adversary having full visibility and control of the software implementation and internal computations. Leakage-based attacks extract secret information via a local passive attacker (e.g., malware) and transmit it to a remote server. However, an active adversary, who can perform fault injections in a white box setting, has received limited at"
     },
     {
       "id": "a3160ec17f8b",
@@ -655,16 +675,6 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
-      "id": "2ccd367da719",
-      "title": "Deniability for Signed Credentials: Revisiting the Authenticated Channel vs. Signed Data Debate in the EUDI Wallet",
-      "link": "https://eprint.iacr.org/2026/1648",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-10T13:57:04+00:00",
-      "ts": 1786370224.0,
-      "summary": "The European Digital Identity Wallet (EUDI Wallet) is currently adopting ECDSA-based signed credentials as part of its core architecture, which raised concerns that such designs inherently lack plausible deniability compared to authenticated-channel approaches such as the German electronic identity card. This paper revisits this perceived trade-off and argues that it is not a property of signature"
-    },
-    {
       "id": "fe4f47339d9c",
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
@@ -725,16 +735,6 @@
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
     },
     {
-      "id": "aa923b4fce05",
-      "title": "The SecureDrop Protocol: End-to-End Encrypted Whistleblowing for All",
-      "link": "https://eprint.iacr.org/2026/1484",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-20T19:09:40+00:00",
-      "ts": 1784574580.0,
-      "summary": "Confidential sources are vital for investigative journalism and thus for holding those in power to account. However, sources often face great risks to their privacy and safety. SecureDrop is a system that enables sources to anonymously contact journalists, including at major news organisations around the world. Despite its widespread use, the current design requires physical servers hosted on prem"
-    },
-    {
       "id": "bdc2700324bc",
       "title": "Rust-proof your code with our new Testing Handbook chapter",
       "link": "https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/",
@@ -765,6 +765,16 @@
       "summary": "We’re running Patch the Planet, an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest model"
     },
     {
+      "id": "4100b305adcd",
+      "title": "Auxiliary Isogeny Freedom in SQIsign's Two-Dimensional Representation",
+      "link": "https://eprint.iacr.org/2026/1305",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-23T04:21:12+00:00",
+      "ts": 1782188472.0,
+      "summary": "SQIsign encodes its response isogeny via a two-dimensional representation on a product of elliptic curves, using the Kani construction. We analyze the algebraic structure of this encoding in detail, with a focus on the role of the auxiliary isogeny and its implications for strong unforgeability. We show that the anti-isometry $\\psi$ determining the Kani kernel is publicly computable from the torsi"
+    },
+    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -783,6 +793,16 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
+    },
+    {
+      "id": "1f3b2c6d0df7",
+      "title": "Issuer-Hiding Anonymous Tokens and Credentials from Key-Randomizable Signatures",
+      "link": "https://eprint.iacr.org/2026/870",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-04T20:22:21+00:00",
+      "ts": 1777926141.0,
+      "summary": "Anonymous authentication schemes allow a user to prove they have been authorized by some issuer, without revealing any additional information about the user's identity. Two variants are currently seeing strong real-world interest. Anonymous tokens (ATs) allow one-time proofs of authorization, e.g., for privacy-preserving rate limiting as currently being pursued in the MoLE effort at the IETF. Anon"
     },
     {
       "id": "e867d3e3dacb",
@@ -865,16 +885,6 @@
       "summary": "This post has been on my back burner for well over a year. This has bothered me, since with every month that goes by, I become more convinced that anonymous authentication the most important topic we could be talking about as cryptographers. This isn&#8217;t just because I love neat cryptography: it&#8217;s that I don&#8217;t trust &#8230; Continue reading Anonymous credentials: an illustrated&#16"
     },
     {
-      "id": "6e8943548451",
-      "title": "On Best-Possible One-Time Programs",
-      "link": "https://eprint.iacr.org/2026/413",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-28T07:31:38+00:00",
-      "ts": 1772263898.0,
-      "summary": "One-time programs (OTPs) aim to let a user evaluate a program on a single input while revealing nothing else. Classical OTPs require hardware assumptions. Quantum measurement offers a possible physical basis for one-time use: obtaining an output may irreversibly disturb the program needed for further computation. Yet deterministic functionalities remain impossible due to gentle-measurement attacks"
-    },
-    {
       "id": "2730dbb5bde5",
       "title": "Cultivating a robust and efficient quantum-safe HTTPS",
       "link": "http://security.googleblog.com/2026/02/cultivating-robust-and-efficient.html",
@@ -893,16 +903,6 @@
       "published": "2026-02-25T15:17:00+00:00",
       "ts": 1772032620.0,
       "summary": "Posted by Lyubov Farafonova, Product Manager, Phone by Google; Alberto Pastor Nieto, Sr. Product Manager Google Messages and RCS Spam and Abuse We’ve shared how Android’s proactive, multi-layered scam defenses utilize Google AI to protect users around the world from over 10 billion suspected malicious calls and messages every month1. While that scale is significant, the true impact of these protec"
-    },
-    {
-      "id": "05bd03e681d3",
-      "title": "HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant",
-      "link": "https://eprint.iacr.org/2026/383",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-24T18:15:32+00:00",
-      "ts": 1771956932.0,
-      "summary": "Current industry-standard block cipher modes of operation, such as CBC and GCM, are fundamentally limited by the birthday bound $O(2^{n/2})$, a constraint that has evolved from a theoretical concern into a practical security bottleneck in contemporary high-throughput, high-data-volume environments. To address this, the cryptographic community and NIST are prioritizing Beyond Birthday Bound (BBB) s"
     },
     {
       "id": "7ed1806aa84e",
@@ -933,6 +933,16 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
+    },
+    {
+      "id": "e1bfa6343b8a",
+      "title": "BABE: Verifying Proofs on Bitcoin Made 1000x Cheaper",
+      "link": "https://eprint.iacr.org/2026/065",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-16T03:51:25+00:00",
+      "ts": 1768535485.0,
+      "summary": "Endowing Bitcoin with the ability to verify succinct proofs has been a longstanding problem with important applications such as scaling Bitcoin and allowing the Bitcoin asset to be used in other blockchains trustlessly. It is a challenging problem due to the lack of expressiveness in the Bitcoin scripting language and the small Bitcoin block space. BitVM2 is the state-of-the-art verification proto"
     },
     {
       "id": "d89b8a28e282",
@@ -973,16 +983,6 @@
       "published": "2025-12-03T16:59:00+00:00",
       "ts": 1764781140.0,
       "summary": "Posted by Aden Haussmann, Associate Product Manager and Sumeet Sharma, Play Partnerships Trust & Safety Lead Android uses the best of Google AI and our advanced security expertise to tackle mobile scams from every angle. Over the last few years, we’ve launched industry-leading features to detect scams and protect users across phone calls, text messages and messaging app chat notifications. These e"
-    },
-    {
-      "id": "cb9143913e80",
-      "title": "Game-Theoretically Fair Distributed Coin Tossing With Private Preferences",
-      "link": "https://eprint.iacr.org/2025/2190",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-12-02T19:25:56+00:00",
-      "ts": 1764703556.0,
-      "summary": "Secure coin-tossing is typically modeled as an input-less functionality, where parties with no private inputs jointly generate a fair coin. In the dishonest majority setting, however, a strongly fair coin-tossing protocol is impossible. To circumvent this barrier, recent work has adopted the weaker notion of game-theoretic fairness, where adversaries are rational parties with preferences for speci"
     },
     {
       "id": "da91654fce63",
