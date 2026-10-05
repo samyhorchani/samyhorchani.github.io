@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:29:40.370645+00:00",
+  "generated_at": "2026-10-05T08:07:18.642297+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,6 +15,16 @@
   ],
   "items": [
     {
+      "id": "2ae1757079e6",
+      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+      "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-05T06:40:19+00:00",
+      "ts": 1791182419.0,
+      "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. \"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to"
+    },
+    {
       "id": "cf99edc47c62",
       "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
       "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
@@ -22,7 +32,7 @@
       "category": "veille",
       "published": "2026-10-04T07:22:05+00:00",
       "ts": 1791098525.0,
-      "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September 29, 2026, cooperating with the U.S. Federal Bureau of Investigation (FBI) and"
+      "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September 29, 2026, and cooperating with the U.S. Federal Bureau of Investigation (FBI)"
     },
     {
       "id": "81eedabe33c3",
@@ -63,26 +73,6 @@
       "published": "2026-10-03T11:00:00+00:00",
       "ts": 1791025200.0,
       "summary": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility, control, and the ability to respond to risk at scale. This report examines how core areas of"
-    },
-    {
-      "id": "586736bce4f5",
-      "title": "SPIN: Fast Codes for Correlation Generation and Polynomial Commitments",
-      "link": "https://eprint.iacr.org/2026/2317",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-02T23:06:44+00:00",
-      "ts": 1790982404.0,
-      "summary": "Binary codes used in correlation generation and proof systems need strong distance, fast ordinary and transposed encoding, and regular memory access. We introduce Single-Permutation INterleaved (SPIN) codes, combining a blockwise outer encoder, one global interleaver, and a recursive inner. Our main result is a Structured SPIN family with rate $1/2$ and $O(N)$ bit operations for ordinary and trans"
-    },
-    {
-      "id": "4f63e9012fb5",
-      "title": "Fast Linear Codes over Large Fields: Addition-Only and Small-Coefficient Encoders",
-      "link": "https://eprint.iacr.org/2026/2316",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-02T22:49:47+00:00",
-      "ts": 1790981387.0,
-      "summary": "We construct fast linear codes over large fields using addition-only encoders and variants with small integer coefficients. A local precode is followed by rounds of a random permutation and a scan, a linear recurrence with a short feedback window. At dimension $2^{20}$, rate $1/2$, and $p=2^{128}-159$, two plain accumulators (unweighted prefix sums) give relative distance above $11.7\\%$, except wi"
     },
     {
       "id": "826b48a40b29",
@@ -213,16 +203,6 @@
       "published": "2026-10-01T16:45:38+00:00",
       "ts": 1790873138.0,
       "summary": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can"
-    },
-    {
-      "id": "89f13c40a286",
-      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-      "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-01T14:37:35+00:00",
-      "ts": 1790865455.0,
-      "summary": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again. The backdoor has been codenamed SC after the \"SC_\" markers present in the injected content. Sucuri has described the malware as a \"self-healing mesh\" that's"
     },
     {
       "id": "4eea68c2ad9f",
@@ -635,16 +615,6 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
-      "id": "fd245f53eb80",
-      "title": "Limber: Low Overhead SNARKs for Integers from Any PCS",
-      "link": "https://eprint.iacr.org/2026/1635",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-07T22:11:14+00:00",
-      "ts": 1786140674.0,
-      "summary": "In real-world applications of SNARKs, non-native arithmetic, the emulation of computation outside of the specified SNARK field, is a key bottleneck. It introduces large overheads, and proof system designers often resort to non-standard SNARK-friendly hash-functions or other means like elliptic curve cycles to mitigate its costs. Besides performance concerns, non-native circuit arithmetization is a"
-    },
-    {
       "id": "fe4f47339d9c",
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
@@ -713,6 +683,16 @@
       "published": "2026-07-28T11:00:00+00:00",
       "ts": 1785236400.0,
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
+    },
+    {
+      "id": "aa923b4fce05",
+      "title": "The SecureDrop Protocol: End-to-End Encrypted Whistleblowing for All",
+      "link": "https://eprint.iacr.org/2026/1484",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-20T19:09:40+00:00",
+      "ts": 1784574580.0,
+      "summary": "Confidential sources are vital for investigative journalism and thus for holding those in power to account. However, sources often face great risks to their privacy and safety. SecureDrop is a system that enables sources to anonymously contact journalists, including at major news organisations around the world. Despite its widespread use, the current design requires physical servers hosted on prem"
     },
     {
       "id": "bdc2700324bc",
@@ -885,6 +865,16 @@
       "summary": "This post has been on my back burner for well over a year. This has bothered me, since with every month that goes by, I become more convinced that anonymous authentication the most important topic we could be talking about as cryptographers. This isn&#8217;t just because I love neat cryptography: it&#8217;s that I don&#8217;t trust &#8230; Continue reading Anonymous credentials: an illustrated&#16"
     },
     {
+      "id": "6e8943548451",
+      "title": "On Best-Possible One-Time Programs",
+      "link": "https://eprint.iacr.org/2026/413",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-28T07:31:38+00:00",
+      "ts": 1772263898.0,
+      "summary": "One-time programs (OTPs) aim to let a user evaluate a program on a single input while revealing nothing else. Classical OTPs require hardware assumptions. Quantum measurement offers a possible physical basis for one-time use: obtaining an output may irreversibly disturb the program needed for further computation. Yet deterministic functionalities remain impossible due to gentle-measurement attacks"
+    },
+    {
       "id": "2730dbb5bde5",
       "title": "Cultivating a robust and efficient quantum-safe HTTPS",
       "link": "http://security.googleblog.com/2026/02/cultivating-robust-and-efficient.html",
@@ -903,6 +893,16 @@
       "published": "2026-02-25T15:17:00+00:00",
       "ts": 1772032620.0,
       "summary": "Posted by Lyubov Farafonova, Product Manager, Phone by Google; Alberto Pastor Nieto, Sr. Product Manager Google Messages and RCS Spam and Abuse We’ve shared how Android’s proactive, multi-layered scam defenses utilize Google AI to protect users around the world from over 10 billion suspected malicious calls and messages every month1. While that scale is significant, the true impact of these protec"
+    },
+    {
+      "id": "05bd03e681d3",
+      "title": "HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant",
+      "link": "https://eprint.iacr.org/2026/383",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-24T18:15:32+00:00",
+      "ts": 1771956932.0,
+      "summary": "Current industry-standard block cipher modes of operation, such as CBC and GCM, are fundamentally limited by the birthday bound $O(2^{n/2})$, a constraint that has evolved from a theoretical concern into a practical security bottleneck in contemporary high-throughput, high-data-volume environments. To address this, the cryptographic community and NIST are prioritizing Beyond Birthday Bound (BBB) s"
     },
     {
       "id": "7ed1806aa84e",
@@ -985,6 +985,16 @@
       "summary": "Posted by Aden Haussmann, Associate Product Manager and Sumeet Sharma, Play Partnerships Trust & Safety Lead Android uses the best of Google AI and our advanced security expertise to tackle mobile scams from every angle. Over the last few years, we’ve launched industry-leading features to detect scams and protect users across phone calls, text messages and messaging app chat notifications. These e"
     },
     {
+      "id": "cb9143913e80",
+      "title": "Game-Theoretically Fair Distributed Coin Tossing With Private Preferences",
+      "link": "https://eprint.iacr.org/2025/2190",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-12-02T19:25:56+00:00",
+      "ts": 1764703556.0,
+      "summary": "Secure coin-tossing is typically modeled as an input-less functionality, where parties with no private inputs jointly generate a fair coin. In the dishonest majority setting, however, a strongly fair coin-tossing protocol is impossible. To circumvent this barrier, recent work has adopted the weaker notion of game-theoretic fairness, where adversaries are rational parties with preferences for speci"
+    },
+    {
       "id": "da91654fce63",
       "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
       "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
@@ -993,16 +1003,6 @@
       "published": "2025-11-20T17:00:00+00:00",
       "ts": 1763658000.0,
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
-    },
-    {
-      "id": "e2a04cb1ae6e",
-      "title": "SCORE: A SlotToCoeff Optimization for Real-Vector Encryption in CKKS",
-      "link": "https://eprint.iacr.org/2025/1983",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-10-23T11:36:53+00:00",
-      "ts": 1761219413.0,
-      "summary": "We present SCORE, a tweaked version of the SlotToCoeff operation tailored to the context of encrypted real vectors in the CKKS scheme, where SCORE stands for “SlotToCoeff Optimization for Real-Vector Encryption”. This approach accelerates CKKS bootstrapping algorithms that employ the SlotToCoeff operation as their final step, provided the inputs are encryptions of real vectors. SCORE constitutes a"
     },
     {
       "id": "60a6eaa9b24b",
