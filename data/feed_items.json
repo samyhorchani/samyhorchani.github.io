@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:23:14.777170+00:00",
+  "generated_at": "2026-10-06T11:41:05.442712+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,66 @@
     }
   ],
   "items": [
+    {
+      "id": "cbdd34ec8fc0",
+      "title": "Possible Vulnerability in Apple’s Automatic Reboot",
+      "link": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-06T11:06:46+00:00",
+      "ts": 1791284806.0,
+      "summary": "404Media is reporting (alternate link) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn&#8217;t been used for 72 hours. The new technology to get around inactivity reboot was developed by Magnet Forensics, the company behind GrayKey, "
+    },
+    {
+      "id": "d37156a421b2",
+      "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+      "link": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-06T09:21:47+00:00",
+      "ts": 1791278507.0,
+      "summary": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers there for a reward. Reports about supply chain compromises are still accepted, and reports filed before October 1 are"
+    },
+    {
+      "id": "7978d7c90dcf",
+      "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+      "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-06T06:58:56+00:00",
+      "ts": 1791269936.0,
+      "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory. The attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian&nbsp;disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and"
+    },
+    {
+      "id": "d9190e39075e",
+      "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+      "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-06T06:56:57+00:00",
+      "ts": 1791269817.0,
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. \"To date, our review has determined that the incident occurred as the result of a security failure ​"
+    },
+    {
+      "id": "400435b3e1b6",
+      "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+      "link": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-06T06:00:30+00:00",
+      "ts": 1791266430.0,
+      "summary": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5. They used a private Danish company's lawful right to look up records in the Central Person Register (CPR). The ministry has told people never to"
+    },
+    {
+      "id": "f0fad9e95156",
+      "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+      "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-06T05:22:55+00:00",
+      "ts": 1791264175.0,
+      "summary": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. \"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache disguised as a PNG file,\" the Microsoft Threat Intelligence team said in a post on X."
+    },
     {
       "id": "68c6e2ae0660",
       "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
@@ -125,26 +185,6 @@
       "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a \"Security Service Espionage Alert\" issued on September 30, 2026, MI5 said the \"primary purpose of the China General Technology Research Institute (CGTRI) 中国通用技术研究院 is to fund research that"
     },
     {
-      "id": "86ee01d8144d",
-      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
-      "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-03T14:36:33+00:00",
-      "ts": 1791038193.0,
-      "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and Carbon Black Threat Hunter Team, has hit critical infrastructure, government, and education organizations. \"In the"
-    },
-    {
-      "id": "9123907022c8",
-      "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
-      "link": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-03T11:00:00+00:00",
-      "ts": 1791025200.0,
-      "summary": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility, control, and the ability to respond to risk at scale. This report examines how core areas of"
-    },
-    {
       "id": "63620a7683b8",
       "title": "Explicit Nonlinear Functions beyond the Fourier bound",
       "link": "https://eprint.iacr.org/2026/2320",
@@ -173,36 +213,6 @@
       "published": "2026-10-02T21:02:18+00:00",
       "ts": 1790974938.0,
       "summary": "The EU is recommending import controls to combat unregulated squid fishing in the Southwest Atlantic. I&#8217;m not optimistic. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
-      "id": "04b7ee6e46d3",
-      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
-      "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-02T17:33:31+00:00",
-      "ts": 1790962411.0,
-      "summary": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab&nbsp;said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1. The flaw"
-    },
-    {
-      "id": "7fa377d9aeb9",
-      "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
-      "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-02T17:33:16+00:00",
-      "ts": 1790962396.0,
-      "summary": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the deployment of a previously undocumented backdoor codenamed Antino. Cisco Talos is tracking the cluster"
-    },
-    {
-      "id": "cc1cab1b3ba8",
-      "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
-      "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-02T17:02:12+00:00",
-      "ts": 1790960532.0,
-      "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an"
     },
     {
       "id": "a131500535de",
@@ -243,16 +253,6 @@
       "published": "2026-10-02T03:02:47+00:00",
       "ts": 1790910167.0,
       "summary": "We construct the first (conjectured) post-quantum Time Lock Puzzle (TLP) from isogenies. Our construction avoids setup/preprocessing and achieves non-trivial efficiency, where puzzle generation runs in time $\\sqrt{T}$ . We prove security in the quantum random oracle model (QROM) under a new conjecture about the sequentiality of isogeny pushforward computations, for which we provide a thorough just"
-    },
-    {
-      "id": "ddf6fb938441",
-      "title": "iX3DH: Post-Quantum Subversion-Resilient X3DH Key-Exchange from Isogenies",
-      "link": "https://eprint.iacr.org/2026/2296",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-01T13:56:48+00:00",
-      "ts": 1790863008.0,
-      "summary": "Secure messaging runs on commodity devices that can be subverted by malware or supply-chain attacks. Reverse firewalls address this threat by interposing a user-side device that mediates the communication of a potentially compromised end-point. Recently, Dodis et, al. (CRYPTO 2025) proposed a reverse firewall design for protecting Signal, including its Diffie-Hellman based X3DH handshake, against "
     },
     {
       "id": "4eea68c2ad9f",
@@ -455,16 +455,6 @@
       "summary": "I feel like someone who reads this blog will want to go to this: Families are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines an interactive lesson with the opportunity to explore the anatomy and adaptations of real ocean life."
     },
     {
-      "id": "e95061812d96",
-      "title": "On Anthropic’s AI Misuse Report",
-      "link": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-25T11:07:22+00:00",
-      "ts": 1790334442.0,
-      "summary": "Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of the highlights: AI agents increasingly handled reconnaissance, exploitation, data theft, propaganda production, surveillance workflows, and research while humans selected targets, set goals, and reviewed important outputs."
-    },
-    {
       "id": "f391bd68698a",
       "title": "Don't let TEEs break your MPC",
       "link": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/",
@@ -653,6 +643,16 @@
       "published": "2026-08-14T11:24:35+00:00",
       "ts": 1786706675.0,
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and c"
+    },
+    {
+      "id": "f9c5e3409fd7",
+      "title": "Hell’s Bells: A Neural Network Pipeline for Ternary Fast Matrix Multiplication Algorithms",
+      "link": "https://eprint.iacr.org/2026/1688",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-14T09:57:08+00:00",
+      "ts": 1786701428.0,
+      "summary": "We present a neural network-based pipeline for efficiently generating fast matrix multiplication (FMM) algorithms of small but arbitrary dimensions $(n,m,k)$. Our neural network is general and tunable to output FMM schemes with specific properties, and in this paper we specifically target aspects that are useful and important in practical implementation, such as ternarity (coefficients in $\\{-1, 0"
     },
     {
       "id": "30cb08c656eb",
@@ -875,6 +875,16 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
+      "id": "0af55dbc7bd9",
+      "title": "Post-Quantum Anonymous Signatures from the Lattice Isomorphism Group Action",
+      "link": "https://eprint.iacr.org/2026/436",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-03T16:28:05+00:00",
+      "ts": 1772555285.0,
+      "summary": "Post-quantum assumptions may not rely on the difficulty of finding secret subgroups as many classical schemes did. Instead, several assumptions make use of more general group actions, with the hope that quantum algorithms are not helpful in this less structured setting. Group action-based constructions were first presented in the context of isogenies in which an ideal class group acts on elliptic "
+    },
+    {
       "id": "b7ffc9dc8c13",
       "title": "Anonymous credentials: an illustrated primer",
       "link": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
@@ -923,6 +933,16 @@
       "published": "2026-02-02T18:25:32+00:00",
       "ts": 1770056732.0,
       "summary": "It&#8217;s not every day that we see mainstream media get excited about encryption apps! For that reason, the past several days have been fascinating, since we&#8217;ve been given not one but several unusual stories about the encryption used in WhatsApp. Or more accurately, if you read the story, a pretty wild allegation that the widely-used &#8230; Continue reading WhatsApp Encryption, a Lawsuit,"
+    },
+    {
+      "id": "c450aca265ad",
+      "title": "Minimizing Mempool Dependency in PoW Mining on Blockchain: Scaling Blockchain Throughput via Asynchronous Pipeline Consensus",
+      "link": "https://eprint.iacr.org/2026/141",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-29T09:47:02+00:00",
+      "ts": 1769680022.0,
+      "summary": "Traditional Proof-of-Work protocols face structural limits in transaction throughput, as scaling block capacity within a serial verification model introduces severe propagation delays and elevates orphan block rates. To address this classical constraint, this paper proposes an asynchronous pipeline consensus architecture that decouples mining initiation from full transaction verification. By embed"
     },
     {
       "id": "d01b11ba041d",
@@ -1035,16 +1055,6 @@
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
     },
     {
-      "id": "12cef9cff7af",
-      "title": "StaMAC: Fault Protection via Stable-MAC Tags",
-      "link": "https://eprint.iacr.org/2025/455",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-03-11T10:18:16+00:00",
-      "ts": 1741688296.0,
-      "summary": "Fault attacks pose a significant threat to cryptographic implementations, motivating the development of countermeasures, primarily based on a combination of redundancy and masking techniques. Redundancy, in these countermeasures, is often implemented via duplication or linear codes. However, their inherent structure remains susceptible to strategic fault injections bypassing error checks. To addre"
-    },
-    {
       "id": "3be2629a4148",
       "title": "MULTISS: Long-Term Secure Distributed Storage over Remote QKD Networks",
       "link": "https://eprint.iacr.org/2024/1915",
@@ -1053,16 +1063,6 @@
       "published": "2024-11-25T09:06:28+00:00",
       "ts": 1732525588.0,
       "summary": "We introduce MULTISS, a distributed storage protocol over multiple remote Quantum Key Distribution (QKD) networks that ensures long-term data confidentiality. MULTISS is designed to combine several QKD networks, as QKD links are inherently limited in range, and to connect these networks through classical cryptographic channels. It relies on a hierarchical secret sharing scheme that makes certain s"
-    },
-    {
-      "id": "88de30ac4159",
-      "title": "SoK: Parameterization of Fault Adversary Models - Connecting Theory and Practice",
-      "link": "https://eprint.iacr.org/2024/289",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-02-20T15:27:32+00:00",
-      "ts": 1708442852.0,
-      "summary": "Since the first fault attack by Boneh et al. in 1997, various physical fault injection mechanisms have been explored to induce errors in electronic systems. Subsequent fault analysis methods of these errors have been studied, and successfully used to attack many cryptographic implementations. This poses a significant challenge to the secure implementation of cryptographic algorithms. To address th"
     }
   ]
 }
