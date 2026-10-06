@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:41:05.442712+00:00",
+  "generated_at": "2026-10-06T17:46:17.475465+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "740a0b17abd5",
+      "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
+      "link": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-06T11:57:00+00:00",
+      "ts": 1791287820.0,
+      "summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro. The attack works only when the program's Java support is enabled. So far, it has only been shown as a proof of concept, and there are no reports of its use in"
+    },
+    {
+      "id": "a34d42a28f71",
+      "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+      "link": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-06T11:26:25+00:00",
+      "ts": 1791285985.0,
+      "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages. \"The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic,"
+    },
+    {
       "id": "cbdd34ec8fc0",
       "title": "Possible Vulnerability in Apple’s Automatic Reboot",
       "link": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
@@ -23,6 +43,16 @@
       "published": "2026-10-06T11:06:46+00:00",
       "ts": 1791284806.0,
       "summary": "404Media is reporting (alternate link) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn&#8217;t been used for 72 hours. The new technology to get around inactivity reboot was developed by Magnet Forensics, the company behind GrayKey, "
+    },
+    {
+      "id": "47c3b4abe06e",
+      "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
+      "link": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-06T11:02:30+00:00",
+      "ts": 1791284550.0,
+      "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows. The ecosystem around it fell short. Earlier this year, our team at OX Security,&nbsp; traced critical vulnerabilities in Anthropic's MCP"
     },
     {
       "id": "d37156a421b2",
@@ -155,36 +185,6 @@
       "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. \"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to"
     },
     {
-      "id": "cf99edc47c62",
-      "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-      "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-04T07:22:05+00:00",
-      "ts": 1791098525.0,
-      "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September 29, 2026, and cooperating with the U.S. Federal Bureau of Investigation (FBI)"
-    },
-    {
-      "id": "81eedabe33c3",
-      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
-      "link": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-04T07:20:32+00:00",
-      "ts": 1791098432.0,
-      "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations. The campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a"
-    },
-    {
-      "id": "4134fe972dd7",
-      "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
-      "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-03T14:38:46+00:00",
-      "ts": 1791038326.0,
-      "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a \"Security Service Espionage Alert\" issued on September 30, 2026, MI5 said the \"primary purpose of the China General Technology Research Institute (CGTRI) 中国通用技术研究院 is to fund research that"
-    },
-    {
       "id": "63620a7683b8",
       "title": "Explicit Nonlinear Functions beyond the Fourier bound",
       "link": "https://eprint.iacr.org/2026/2320",
@@ -263,6 +263,16 @@
       "published": "2026-10-01T11:06:14+00:00",
       "ts": 1790852774.0,
       "summary": "Researchers at Northeastern University, in collaboration with Consumer Reports, evaluated how much modern cars spy in their drivers: The new Northeastern study shows, for the first time, data flowing among the vehicles, the vehicle apps you download when you buy your car, and third-party companies, documenting exactly what kind of data gets siphoned from our vehicles and which companies are receiv"
+    },
+    {
+      "id": "55ce08bdc3e5",
+      "title": "Multiples vulnérabilités dans CPython (01 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1243/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-01T00:00:00+00:00",
+      "ts": 1790812800.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans CPython. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité."
     },
     {
       "id": "e850f3fade1f",
@@ -353,6 +363,26 @@
       "published": "2026-09-30T00:00:00+00:00",
       "ts": 1790726400.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "4d44111ddecf",
+      "title": "Multiples vulnérabilités dans GitLab (30 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1242/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-30T00:00:00+00:00",
+      "ts": 1790726400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité. Gitlab indique que la vulnérabilité CVE-2026-85706 est activement exploitée."
+    },
+    {
+      "id": "51f847e88594",
+      "title": "Vulnérabilité dans CPython (30 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1239/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-30T00:00:00+00:00",
+      "ts": 1790726400.0,
+      "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données."
     },
     {
       "id": "955865a93323",
@@ -475,16 +505,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
     },
     {
-      "id": "0dcec13d4098",
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (25 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1229/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-25T00:00:00+00:00",
-      "ts": 1790294400.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
       "id": "708d7b625cb9",
       "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (25 septembre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1232/",
@@ -493,26 +513,6 @@
       "published": "2026-09-25T00:00:00+00:00",
       "ts": 1790294400.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service."
-    },
-    {
-      "id": "c8a112b5dd3f",
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (25 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1231/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-25T00:00:00+00:00",
-      "ts": 1790294400.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "dfea820b29b5",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (25 septembre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1230/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-09-25T00:00:00+00:00",
-      "ts": 1790294400.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
     },
     {
       "id": "71c4a4caf94f",
@@ -795,6 +795,16 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
+      "id": "ef062ea07055",
+      "title": "How To Track Qubits Through Space and Time (Or: Sailing in a Quantum Boat)",
+      "link": "https://eprint.iacr.org/2026/1090",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-29T03:05:14+00:00",
+      "ts": 1780023914.0,
+      "summary": "While quantum position verification aims to certify a prover's location using quantum information, existing security definitions only guarantee that part of the successful adversarial party is in the claimed location. This leaves open the possibility that a distributed team of adversaries can jointly simulate a prover in a way that defeats the intended meaning of ``being at a location'' in positio"
+    },
+    {
       "id": "1f3b2c6d0df7",
       "title": "Issuer-Hiding Anonymous Tokens and Credentials from Key-Randomizable Signatures",
       "link": "https://eprint.iacr.org/2026/870",
@@ -1005,6 +1015,16 @@
       "summary": "Posted by Aden Haussmann, Associate Product Manager and Sumeet Sharma, Play Partnerships Trust & Safety Lead Android uses the best of Google AI and our advanced security expertise to tackle mobile scams from every angle. Over the last few years, we’ve launched industry-leading features to detect scams and protect users across phone calls, text messages and messaging app chat notifications. These e"
     },
     {
+      "id": "75c546a6cb21",
+      "title": "Decentralized Proposer-as-a-Service (DPaaS): Improving Decentralization and Trustworthiness in Ethereum PBS",
+      "link": "https://eprint.iacr.org/2025/2126",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-11-20T20:09:36+00:00",
+      "ts": 1763669376.0,
+      "summary": "Proposer-Builder Separation (PBS) in Ethereum aims to improve decentralization and scalability by offloading block construction to specialized builders, but its current MEV-Boost implementation relies on trusted relays, introducing centralization as well as security and performance concerns. We propose Decentralized Proposer-as-a-Service (DPaaS) to eliminate relays while preserving compatibility w"
+    },
+    {
       "id": "da91654fce63",
       "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
       "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
@@ -1015,16 +1035,6 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
-      "id": "12f785b09908",
-      "title": "Combined Stability: Protecting against Combined Attacks",
-      "link": "https://eprint.iacr.org/2025/1692",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-09-17T15:01:25+00:00",
-      "ts": 1758121285.0,
-      "summary": "Physical attacks pose serious challenges to the secure implementation of cryptographic algorithms. While side-channel analysis (SCA) has received significant attention, leading to well-established countermeasures, fault attacks and especially their combination with SCA (i.e., combined attacks) remain less researched. Addressing such combined attacks often requires a careful integration of masking "
-    },
-    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1033,16 +1043,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "b80120ec7323",
-      "title": "Picking up the Fallen Mask: Breaking and Fixing the RS-Mask Countermeasure",
-      "link": "https://eprint.iacr.org/2025/1320",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-07-18T17:01:58+00:00",
-      "ts": 1752858118.0,
-      "summary": "Physical attacks pose a major challenge to the secure implementation of cryptographic algorithms. Although significant progress has been made in countering passive attacks such as side-channel analysis (SCA), protection against fault attacks is still less developed. One reason for this is the broader and more complex nature of fault attacks, which makes it difficult to create standardized fault ev"
     },
     {
       "id": "db1275ef2e81",
