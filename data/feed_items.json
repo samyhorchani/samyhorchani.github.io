@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T17:46:17.475465+00:00",
+  "generated_at": "2026-10-06T22:10:05.812635+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "e363caebd5a4",
+      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+      "link": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-06T18:38:55+00:00",
+      "ts": 1791311935.0,
+      "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus. The products, which claim to offer campaign optimization, spend audits, and business-account connections, are designed with one goal in"
+    },
+    {
+      "id": "df35d1199ed6",
+      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+      "link": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-06T18:24:25+00:00",
+      "ts": 1791311065.0,
+      "summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection. Threat actors are known to name their malicious software after a legitimate operating system component or a process as a defense evasion measure. By borrowing the name of a real binary, it may"
+    },
     {
       "id": "740a0b17abd5",
       "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
@@ -165,36 +185,6 @@
       "summary": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents. \"Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users' full knowledge"
     },
     {
-      "id": "988351189ff5",
-      "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
-      "link": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-05T08:09:23+00:00",
-      "ts": 1791187763.0,
-      "summary": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and"
-    },
-    {
-      "id": "2ae1757079e6",
-      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-      "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-05T06:40:19+00:00",
-      "ts": 1791182419.0,
-      "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. \"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to"
-    },
-    {
-      "id": "63620a7683b8",
-      "title": "Explicit Nonlinear Functions beyond the Fourier bound",
-      "link": "https://eprint.iacr.org/2026/2320",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-03T02:40:56+00:00",
-      "ts": 1790995256.0,
-      "summary": "We study the problem of constructing highly nonlinear vectorial maps $F: \\mathbb{F}_2^n \\to \\mathbb{F}_2^m$. Concretely, we want an $F$ and an $A = A(m,n)0$ as small as possible, so that for every affine map $L: \\mathbb{F}_2^n \\to \\mathbb{F}_2^m$ (of the form $L(x) = Mx + b$) we have: $$ \\operatorname{agree}(F,L) := |\\{x \\in \\mathbb{F}_2^n \\mid F(x) = L(x)\\}| \\leq A. $$ Such questions have been st"
-    },
-    {
       "id": "6271d9138600",
       "title": "Beyond Mosca’s Heuristic: Supported Is Not Protected in Post-Quantum Migration",
       "link": "https://eprint.iacr.org/2026/2318",
@@ -245,14 +235,14 @@
       "summary": "Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC, a pair of related hash constructions that bring secure multihashing to de"
     },
     {
-      "id": "18af5915abed",
-      "title": "Post-Quantum Time-Lock Puzzle from Isogenies",
-      "link": "https://eprint.iacr.org/2026/2306",
+      "id": "e8585f548048",
+      "title": "CAROUSEL: GPU-Accelerated Private Vector Search via Homomorphic Sketching",
+      "link": "https://eprint.iacr.org/2026/2302",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-10-02T03:02:47+00:00",
-      "ts": 1790910167.0,
-      "summary": "We construct the first (conjectured) post-quantum Time Lock Puzzle (TLP) from isogenies. Our construction avoids setup/preprocessing and achieves non-trivial efficiency, where puzzle generation runs in time $\\sqrt{T}$ . We prove security in the quantum random oracle model (QROM) under a new conjecture about the sequentiality of isogeny pushforward computations, for which we provide a thorough just"
+      "published": "2026-10-01T20:16:43+00:00",
+      "ts": 1790885803.0,
+      "summary": "Vector search on untrusted infrastructure exposes the \\emph{query embedding}, a faithful summary of the user's intent. Fully homomorphic encryption can hide the query, but existing approaches still require a full scan followed by ranking of encrypted scores. Scalable private systems avoid encrypted ranking by either sending scores from a single cluster to the client or moving the search to the cli"
     },
     {
       "id": "4eea68c2ad9f",
@@ -273,16 +263,6 @@
       "published": "2026-10-01T00:00:00+00:00",
       "ts": 1790812800.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans CPython. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "e850f3fade1f",
-      "title": "A Kleptographic Attack on CSIDH",
-      "link": "https://eprint.iacr.org/2026/2283",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-30T22:38:35+00:00",
-      "ts": 1790807915.0,
-      "summary": "This note reports an attack scenario for CSIDH that does not appear to have been considered in the literature. A subverted device of Alice can leak a shared curve between Alice and Bob through Alice's public curves in later CSIDH sessions. The attack adapts the Young--Yung kleptographic attack from classical Diffie--Hellman to CSIDH using the Goldreich--Levin theorem and rejection sampling. We pro"
     },
     {
       "id": "bcbe1c4698ed",
@@ -545,6 +525,16 @@
       "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off"
     },
     {
+      "id": "13242aacd6a1",
+      "title": "Linear list size bounds for Reed-Solomon beyond the Johnson radius",
+      "link": "https://eprint.iacr.org/2026/2048",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-15T15:38:57+00:00",
+      "ts": 1789486737.0,
+      "summary": "Based on techniques discovered in the better.codes autoresearch project, we show that Reed-Solomon codes of rate $\\rho$ and block length $n$ over a field of sufficiently large characteristic, have $C\\cdot n$ list size bound when requiring fractional agreement $\\alpha$ with a received word; where $C,\\alpha$ are constants depending only on $\\rho$ and $\\alpha0$ with an unspecified constant exponent $"
+    },
+    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -665,6 +655,16 @@
       "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today."
     },
     {
+      "id": "4a6e41183716",
+      "title": "Transient Quantum Resistance, with Application to Ethereum Consensus",
+      "link": "https://eprint.iacr.org/2026/1660",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-11T19:32:08+00:00",
+      "ts": 1786476728.0,
+      "summary": "Candidates for post-quantum migration carry additional costs compared to their pre-quantum counterparts, especially for signatures, and they lose attractive properties of schemes such as BLS: homomorphism, and hence direct signature aggregation. We propose a methodology through which a pre-quantum primitive may still be securely used past Q-day (the advent of quantum computers) in settings where f"
+    },
+    {
       "id": "bc128d0703d3",
       "title": "How Trail of Bits helps verify the integrity of your Signal chats",
       "link": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
@@ -733,6 +733,16 @@
       "published": "2026-07-28T11:00:00+00:00",
       "ts": 1785236400.0,
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
+    },
+    {
+      "id": "70c00f235276",
+      "title": "Quintus: Two-round Good-case Information Theoretic BFT for $n=5f+1$",
+      "link": "https://eprint.iacr.org/2026/1520",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-24T12:24:36+00:00",
+      "ts": 1784895876.0,
+      "summary": "We present Quintus, information-theoretic BFT protocols for tolerating $f"
     },
     {
       "id": "bdc2700324bc",
@@ -805,16 +815,6 @@
       "summary": "While quantum position verification aims to certify a prover's location using quantum information, existing security definitions only guarantee that part of the successful adversarial party is in the claimed location. This leaves open the possibility that a distributed team of adversaries can jointly simulate a prover in a way that defeats the intended meaning of ``being at a location'' in positio"
     },
     {
-      "id": "1f3b2c6d0df7",
-      "title": "Issuer-Hiding Anonymous Tokens and Credentials from Key-Randomizable Signatures",
-      "link": "https://eprint.iacr.org/2026/870",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-04T20:22:21+00:00",
-      "ts": 1777926141.0,
-      "summary": "Anonymous authentication schemes allow a user to prove they have been authorized by some issuer, without revealing any additional information about the user's identity. Two variants are currently seeing strong real-world interest. Anonymous tokens (ATs) allow one-time proofs of authorization, e.g., for privacy-preserving rate limiting as currently being pursued in the MoLE effort at the IETF. Anon"
-    },
-    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -883,6 +883,16 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
+    },
+    {
+      "id": "bf35219f42f5",
+      "title": "Post-Quantum Cryptography from Quantum Stabilizer Decoding",
+      "link": "https://eprint.iacr.org/2026/548",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-19T16:37:47+00:00",
+      "ts": 1773938267.0,
+      "summary": "Post-quantum cryptography currently rests on a small number of hardness assumptions, posing significant risks should any one of them be compromised. This vulnerability motivates the search for new and cryptographically versatile assumptions that make a convincing case for quantum hardness. In this work, we argue that decoding random quantum stabilizer codes -- a quantum analog of the well-studied "
     },
     {
       "id": "0af55dbc7bd9",
@@ -1053,16 +1063,6 @@
       "published": "2025-06-09T18:22:31+00:00",
       "ts": 1749493351.0,
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
-    },
-    {
-      "id": "3be2629a4148",
-      "title": "MULTISS: Long-Term Secure Distributed Storage over Remote QKD Networks",
-      "link": "https://eprint.iacr.org/2024/1915",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-11-25T09:06:28+00:00",
-      "ts": 1732525588.0,
-      "summary": "We introduce MULTISS, a distributed storage protocol over multiple remote Quantum Key Distribution (QKD) networks that ensures long-term data confidentiality. MULTISS is designed to combine several QKD networks, as QKD links are inherently limited in range, and to connect these networks through classical cryptographic channels. It relies on a hierarchical secret sharing scheme that makes certain s"
     }
   ]
 }
