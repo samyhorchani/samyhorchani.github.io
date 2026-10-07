@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T22:10:05.812635+00:00",
+  "generated_at": "2026-10-07T01:58:34.497075+00:00",
   "count": 105,
   "errors": [
     {
@@ -123,6 +123,16 @@
       "published": "2026-10-06T05:22:55+00:00",
       "ts": 1791264175.0,
       "summary": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. \"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache disguised as a PNG file,\" the Microsoft Threat Intelligence team said in a post on X."
+    },
+    {
+      "id": "d2693d4ed6ea",
+      "title": "Low-Latency Parallel Digit Decomposition and Sign Evaluation for CKKS",
+      "link": "https://eprint.iacr.org/2026/2368",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-05T23:52:42+00:00",
+      "ts": 1791244362.0,
+      "summary": "Nonlinear functions such as sign, comparison, and ReLU are commonly evaluated in CKKS by approximating them with polynomials. The sign jumps at zero, so inputs on the two sides of zero, however close, must be mapped to outputs that differ by a constant. Comparison is the sign of a difference, and ReLU and max inherit this requirement when computed through the sign at high output precision. To dist"
     },
     {
       "id": "68c6e2ae0660",
@@ -775,16 +785,6 @@
       "summary": "We’re running Patch the Planet, an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest model"
     },
     {
-      "id": "4100b305adcd",
-      "title": "Auxiliary Isogeny Freedom in SQIsign's Two-Dimensional Representation",
-      "link": "https://eprint.iacr.org/2026/1305",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-23T04:21:12+00:00",
-      "ts": 1782188472.0,
-      "summary": "SQIsign encodes its response isogeny via a two-dimensional representation on a product of elliptic curves, using the Kani construction. We analyze the algebraic structure of this encoding in detail, with a focus on the role of the auxiliary isogeny and its implications for strong unforgeability. We show that the anti-isometry $\\psi$ determining the Kani kernel is publicly computable from the torsi"
-    },
-    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -813,6 +813,16 @@
       "published": "2026-05-29T03:05:14+00:00",
       "ts": 1780023914.0,
       "summary": "While quantum position verification aims to certify a prover's location using quantum information, existing security definitions only guarantee that part of the successful adversarial party is in the claimed location. This leaves open the possibility that a distributed team of adversaries can jointly simulate a prover in a way that defeats the intended meaning of ``being at a location'' in positio"
+    },
+    {
+      "id": "713cb1566340",
+      "title": "Adaptive Distributed Key Generation for Discrete-Log Cryptosystems",
+      "link": "https://eprint.iacr.org/2026/892",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-06T22:17:49+00:00",
+      "ts": 1778105869.0,
+      "summary": "Threshold signatures are widely deployed in decentralized asset custody and blockchain infrastructure to eliminate single points of failure. In these systems, an attacker can adaptively corrupt committee members based on public membership and protocol transcripts. Recent cryptanalysis shows this threat is concrete: schemes exposing per-party key commitments enable practical forgeries for committee"
     },
     {
       "id": "e867d3e3dacb",
@@ -973,16 +983,6 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
-    },
-    {
-      "id": "e1bfa6343b8a",
-      "title": "BABE: Verifying Proofs on Bitcoin Made 1000x Cheaper",
-      "link": "https://eprint.iacr.org/2026/065",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-16T03:51:25+00:00",
-      "ts": 1768535485.0,
-      "summary": "Endowing Bitcoin with the ability to verify succinct proofs has been a longstanding problem with important applications such as scaling Bitcoin and allowing the Bitcoin asset to be used in other blockchains trustlessly. It is a challenging problem due to the lack of expressiveness in the Bitcoin scripting language and the small Bitcoin block space. BitVM2 is the state-of-the-art verification proto"
     },
     {
       "id": "d89b8a28e282",
