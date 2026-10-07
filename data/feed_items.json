@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T16:00:26.149094+00:00",
+  "generated_at": "2026-10-07T21:43:36.848202+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,56 @@
     }
   ],
   "items": [
+    {
+      "id": "3d66088ede6f",
+      "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+      "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-07T18:48:17+00:00",
+      "ts": 1791398897.0,
+      "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6. Google's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (American Samoa) was put at risk. With such a certificate, an attacker could pose as the real site over an encrypted"
+    },
+    {
+      "id": "24d719367de5",
+      "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+      "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-07T17:43:20+00:00",
+      "ts": 1791395000.0,
+      "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed to be the work of a lone threat actor who appears to have published 12 packages since August 2023, eight of which have"
+    },
+    {
+      "id": "31cd06cbc3af",
+      "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+      "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-07T16:17:44+00:00",
+      "ts": 1791389864.0,
+      "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to send requests through the appliance and reach internal functions. SonicWall rates it 10.0 on the CVSS scale and says it has no evidence that any of the four flaws is being"
+    },
+    {
+      "id": "02681d5b9517",
+      "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+      "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-07T15:34:53+00:00",
+      "ts": 1791387293.0,
+      "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's&nbsp;multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network"
+    },
+    {
+      "id": "4413e5ea098a",
+      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+      "link": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-07T15:33:51+00:00",
+      "ts": 1791387231.0,
+      "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet. The financially motivated campaign, dubbed Canto Incognito, has been found to install cryptocurrency miners, including"
+    },
     {
       "id": "4b3e102168c7",
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
@@ -143,56 +193,6 @@
       "published": "2026-10-06T11:06:46+00:00",
       "ts": 1791284806.0,
       "summary": "404Media is reporting (alternate link) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn&#8217;t been used for 72 hours. The new technology to get around inactivity reboot was developed by Magnet Forensics, the company behind GrayKey, "
-    },
-    {
-      "id": "47c3b4abe06e",
-      "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
-      "link": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-06T11:02:30+00:00",
-      "ts": 1791284550.0,
-      "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows. The ecosystem around it fell short. Earlier this year, our team at OX Security,&nbsp; traced critical vulnerabilities in Anthropic's MCP"
-    },
-    {
-      "id": "d37156a421b2",
-      "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
-      "link": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-06T09:21:47+00:00",
-      "ts": 1791278507.0,
-      "summary": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers there for a reward. Reports about supply chain compromises are still accepted, and reports filed before October 1 are"
-    },
-    {
-      "id": "7978d7c90dcf",
-      "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-      "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-06T06:58:56+00:00",
-      "ts": 1791269936.0,
-      "summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory. The attacker must already know a file's exact name and path and cannot list what the directory holds. Atlassian&nbsp;disclosed the flaw, CVE-2026-21589, on October 5, rated it 9.3 out of 10, and"
-    },
-    {
-      "id": "d9190e39075e",
-      "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-      "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-06T06:56:57+00:00",
-      "ts": 1791269817.0,
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. \"To date, our review has determined that the incident occurred as the result of a security failure ​"
-    },
-    {
-      "id": "400435b3e1b6",
-      "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-      "link": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-06T06:00:30+00:00",
-      "ts": 1791266430.0,
-      "summary": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5. They used a private Danish company's lawful right to look up records in the Central Person Register (CPR). The ministry has told people never to"
     },
     {
       "id": "70a890f169c3",
@@ -525,16 +525,6 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
-      "id": "d0fd49955de5",
-      "title": "More Efficient Secret-Shared Joins with Multiplicity via Oblivious Sort Expansion",
-      "link": "https://eprint.iacr.org/2026/1957",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-10T03:28:23+00:00",
-      "ts": 1789010903.0,
-      "summary": "Secret-shared SQL-style join is a fundamental building block in secure collaborative data analysis. In practice, join operations frequently involve duplicate keys, giving rise to one-to-many (Join-OM) and many-to-many (Join-MM) relationships. Supporting such joins requires obliviously materializing all matching row pairs. Existing protocols achieve this in two costly ways: they either perform obli"
-    },
-    {
       "id": "0c016fa822b6",
       "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
       "link": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
@@ -593,6 +583,16 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
+    },
+    {
+      "id": "1b8d304931b4",
+      "title": "De-SyRIS: A Decentralized Sybil-Resistant Identity System Using Mutual Facial Biometric Verification and Social Graph Analysis",
+      "link": "https://eprint.iacr.org/2026/1723",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-18T16:51:42+00:00",
+      "ts": 1787071902.0,
+      "summary": "While decentralized identity management systems strive for autonomy, most still rely on centralized mechanisms (e.g., phone numbers or government-issued IDs) to achieve Sybil resistance and prevent fake identity attacks. This article proposes a novel approach for decentralized identity management that ensures robust Sybil resistance, unlike the systems currently in widespread use. Our approach is "
     },
     {
       "id": "bea5a06fb576",
@@ -665,6 +665,16 @@
       "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t"
     },
     {
+      "id": "57def3f2e820",
+      "title": "A Polynomial-Time Quantum Algorithm for the Dihedral Coset Problem",
+      "link": "https://eprint.iacr.org/2026/1591",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-03T20:17:09+00:00",
+      "ts": 1785788229.0,
+      "summary": "We present a polynomial-time quantum algorithm for the Dihedral Coset Problem (DCP). The algorithm is based on Regev's polynomial-time reduction of the Dihedral Subgroup Problem (DSP) to the modular subset sum problem, but uses a different technique to erase sample bits without use of a subset sum oracle. The algorithm can thus combine with Regev's reduction of lattice problems to DCP, improved by"
+    },
+    {
       "id": "f26b7f89b569",
       "title": "Building secure Uniswap v4 hooks",
       "link": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
@@ -695,16 +705,6 @@
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
     },
     {
-      "id": "60d11eea3a3e",
-      "title": "Masking, Sequences, and FALCON: A Theoretical Study on Masking Strategies Using Sequences for Non-Linear Operators in the FALCON Post-Quantum Signature",
-      "link": "https://eprint.iacr.org/2026/1534",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-27T08:25:47+00:00",
-      "ts": 1785140747.0,
-      "summary": "Post-Quantum Cryptography is now in its deployment phase. Amongst the threats encountered in real-world applications is Side Channel Analysis, a cryptanalysis branch relying on the study of physical leakages from unsecured implementations. However, the FALCON post-quantum signature includes non-linear functions on real numbers, and applying the generic masking countermeasure to these functions has"
-    },
-    {
       "id": "b76a4ae237d5",
       "title": "Proof of Demand Is Not Proof of Work: On the Limits of Demand-Weighted Consensus under Free Pseudonyms",
       "link": "https://eprint.iacr.org/2026/1492",
@@ -713,16 +713,6 @@
       "published": "2026-07-21T12:56:34+00:00",
       "ts": 1784638594.0,
       "summary": "Proof-of-useful-work (PoUW) certifies computational hardness, not utility. We separate three properties of a work receipt: work soundness ($\\mathsf{W}$), job binding ($\\mathsf{B}$), and demand exogeneity ($\\mathsf{E}$), the last defined relative to an attacking coalition. Job binding is cryptographically achievable; demand exogeneity is not derivable from endogenous receipts. Payments between coal"
-    },
-    {
-      "id": "67d66ac9de1a",
-      "title": "QuantumScouter: Reinforcement Learning-Based Optimization of Variational Quantum Circuits for Differential Cryptanalysis",
-      "link": "https://eprint.iacr.org/2026/1456",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-16T23:13:43+00:00",
-      "ts": 1784243623.0,
-      "summary": "Classical deep learning for differential cryptanalysis requires millions of ciphertext pairs, rendering attacks infeasible or easily detectable. This work overcomes this data limitation by introducing quantum differential distinguishers, enabling a practical attacker model where executing few queries is feasible. We design these distinguishers via quantum machine learning based on variational quan"
     },
     {
       "id": "bdc2700324bc",
@@ -793,16 +783,6 @@
       "published": "2026-05-07T11:48:57+00:00",
       "ts": 1778154537.0,
       "summary": "DAG-based Byzantine fault-tolerant (BFT) consensus lets all validators propose concurrently, and uncertified designs such as Mysticeti skip per-block certification to achieve low latency. In existing partially synchronous round-based DAGs that use only hashing and standard signatures, however, every block references a quorum of previous-round blocks, so block metadata grows linearly with the commi"
-    },
-    {
-      "id": "713cb1566340",
-      "title": "Adaptive Distributed Key Generation for Discrete-Log Cryptosystems",
-      "link": "https://eprint.iacr.org/2026/892",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-06T22:17:49+00:00",
-      "ts": 1778105869.0,
-      "summary": "Threshold signatures are widely deployed in decentralized asset custody and blockchain infrastructure to eliminate single points of failure. In these systems, an attacker can adaptively corrupt committee members based on public membership and protocol transcripts. Recent cryptanalysis shows this threat is concrete: schemes exposing per-party key commitments enable practical forgeries for committee"
     },
     {
       "id": "a6ef80b7eb1c",
@@ -1045,6 +1025,16 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
+      "id": "88aa597aa5e9",
+      "title": "Foundations of Dynamic Group Signatures: The Case of Malicious Openers and Issuers",
+      "link": "https://eprint.iacr.org/2025/1752",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-09-25T13:34:29+00:00",
+      "ts": 1758807269.0,
+      "summary": "Dynamic group signatures are commonly formalized in the model of Bellare, Shi, and Zhang (BSZ, CT-RSA 2005), whose security notions are defined relative to specific trust assumptions and registration state. We revisit these assumptions and systematically study which guarantees continue to hold when the trust assumptions on the issuer and opener are considered independently and no trusted registrat"
+    },
+    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1063,6 +1053,16 @@
       "published": "2025-06-09T18:22:31+00:00",
       "ts": 1749493351.0,
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
+    },
+    {
+      "id": "a51626ab7074",
+      "title": "On the Preprocessing Security of Nonzero Schnorr Signatures with Adaptive Corruptions",
+      "link": "https://eprint.iacr.org/2025/138",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-01-28T17:22:06+00:00",
+      "ts": 1738084926.0,
+      "summary": "Modern cryptographic protocols rely on a relatively small collection of standardized hash functions and groups, raising the possibility of preprocessing attacks in which a computationally unbounded offline attacker generates a bounded-size hint that accelerates a later online attack. Blocki and Lee (EUROCRYPT~2022) analyzed the preprocessing security of key-prefixed short Schnorr signatures, where"
     }
   ]
 }
