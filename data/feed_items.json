@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T01:58:34.497075+00:00",
+  "generated_at": "2026-10-07T08:19:07.658747+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "790db07b25c8",
+      "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+      "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-07T06:57:54+00:00",
+      "ts": 1791356274.0,
+      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the"
+    },
     {
       "id": "e363caebd5a4",
       "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
@@ -125,16 +135,6 @@
       "summary": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. \"Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the browser cache disguised as a PNG file,\" the Microsoft Threat Intelligence team said in a post on X."
     },
     {
-      "id": "d2693d4ed6ea",
-      "title": "Low-Latency Parallel Digit Decomposition and Sign Evaluation for CKKS",
-      "link": "https://eprint.iacr.org/2026/2368",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-05T23:52:42+00:00",
-      "ts": 1791244362.0,
-      "summary": "Nonlinear functions such as sign, comparison, and ReLU are commonly evaluated in CKKS by approximating them with polynomials. The sign jumps at zero, so inputs on the two sides of zero, however close, must be mapped to outputs that differ by a constant. Comparison is the sign of a difference, and ReLU and max inherit this requirement when computed through the sign at high output precision. To dist"
-    },
-    {
       "id": "68c6e2ae0660",
       "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
       "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
@@ -183,16 +183,6 @@
       "published": "2026-10-05T11:04:47+00:00",
       "ts": 1791198287.0,
       "summary": "This one is from 1809, written by Napoleon&#8217;s nephew."
-    },
-    {
-      "id": "259bbce51bb6",
-      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-      "link": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-05T10:38:50+00:00",
-      "ts": 1791196730.0,
-      "summary": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents. \"Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users' full knowledge"
     },
     {
       "id": "6271d9138600",
@@ -283,16 +273,6 @@
       "published": "2026-09-30T18:30:13+00:00",
       "ts": 1790793013.0,
       "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
-    },
-    {
-      "id": "d647eff64c8e",
-      "title": "A Cryptographic Perspective on Fingerprinting Machine Learning Model Weights",
-      "link": "https://eprint.iacr.org/2026/2279",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-30T13:37:17+00:00",
-      "ts": 1790775437.0,
-      "summary": "We introduce a cryptographic framework for fingerprinting machine learning models, enabling model providers to train models that can later be attributed to them. Our framework captures an honest setting in which providers distribute base models that users may subsequently modify to adapt them to their own applications (e.g., through finetuning). We formalize three properties for fingerprinting sch"
     },
     {
       "id": "7f4900bb56a3",
@@ -555,14 +535,14 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
-      "id": "a49fb5603ee2",
-      "title": "Improving GIJS Key Recovery for Classic McEliece",
-      "link": "https://eprint.iacr.org/2026/1984",
+      "id": "d0fd49955de5",
+      "title": "More Efficient Secret-Shared Joins with Multiplicity via Oblivious Sort Expansion",
+      "link": "https://eprint.iacr.org/2026/1957",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-11T16:11:38+00:00",
-      "ts": 1789143098.0,
-      "summary": "Classic McEliece is a post-quantum encryption scheme. Its public key is a generator matrix of a secret binary Goppa code. Its security levels are set by generic decoding attacks, which cost $2^{151}$ to $2^{287}$ bit operations for the five parameter sets. Ghoshal, Ishai, Jain and Sun (GIJS26) recently gave the first test that tells a public key from a random matrix at a lower cost, an estimated $"
+      "published": "2026-09-10T03:28:23+00:00",
+      "ts": 1789010903.0,
+      "summary": "Secret-shared SQL-style join is a fundamental building block in secure collaborative data analysis. In practice, join operations frequently involve duplicate keys, giving rise to one-to-many (Join-OM) and many-to-many (Join-MM) relationships. Supporting such joins requires obliviously materializing all matching row pairs. Existing protocols achieve this in two costly ways: they either perform obli"
     },
     {
       "id": "0c016fa822b6",
@@ -745,6 +725,16 @@
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
     },
     {
+      "id": "60d11eea3a3e",
+      "title": "Masking, Sequences, and FALCON: A Theoretical Study on Masking Strategies Using Sequences for Non-Linear Operators in the FALCON Post-Quantum Signature",
+      "link": "https://eprint.iacr.org/2026/1534",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-27T08:25:47+00:00",
+      "ts": 1785140747.0,
+      "summary": "Post-Quantum Cryptography is now in its deployment phase. Amongst the threats encountered in real-world applications is Side Channel Analysis, a cryptanalysis branch relying on the study of physical leakages from unsecured implementations. However, the FALCON post-quantum signature includes non-linear functions on real numbers, and applying the generic masking countermeasure to these functions has"
+    },
+    {
       "id": "70c00f235276",
       "title": "Quintus: Two-round Good-case Information Theoretic BFT for $n=5f+1$",
       "link": "https://eprint.iacr.org/2026/1520",
@@ -753,6 +743,16 @@
       "published": "2026-07-24T12:24:36+00:00",
       "ts": 1784895876.0,
       "summary": "We present Quintus, information-theoretic BFT protocols for tolerating $f"
+    },
+    {
+      "id": "67d66ac9de1a",
+      "title": "QuantumScouter: Reinforcement Learning-Based Optimization of Variational Quantum Circuits for Differential Cryptanalysis",
+      "link": "https://eprint.iacr.org/2026/1456",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-16T23:13:43+00:00",
+      "ts": 1784243623.0,
+      "summary": "Classical deep learning for differential cryptanalysis requires millions of ciphertext pairs, rendering attacks infeasible or easily detectable. This work overcomes this data limitation by introducing quantum differential distinguishers, enabling a practical attacker model where executing few queries is feasible. We design these distinguishers via quantum machine learning based on variational quan"
     },
     {
       "id": "bdc2700324bc",
