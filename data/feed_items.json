@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T08:18:07.790192+00:00",
+  "generated_at": "2026-10-08T16:02:47.794928+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,56 @@
     }
   ],
   "items": [
+    {
+      "id": "621bfc5e1bd0",
+      "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
+      "link": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-08T15:26:56+00:00",
+      "ts": 1791473216.0,
+      "summary": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cybersecurity company is tracking the cluster under the name Earth Sirrush (previously SHADOW-EARTH-065). ASHVEIN,"
+    },
+    {
+      "id": "91889d9ce99a",
+      "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+      "link": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-08T14:12:34+00:00",
+      "ts": 1791468754.0,
+      "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early October 2026, and resulted in data exfiltration. \"In this activity, the threat actor leveraged"
+    },
+    {
+      "id": "b03b15e0f278",
+      "title": "How Technology Empowers—and Imperils—Dictators",
+      "link": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-08T11:07:35+00:00",
+      "ts": 1791457655.0,
+      "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs. Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re"
+    },
+    {
+      "id": "51897b9b7715",
+      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
+      "link": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-08T10:30:00+00:00",
+      "ts": 1791455400.0,
+      "summary": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself. ANY.RUN has identified Wazza, a new phishkit targeting banking, manufacturing, and government organizations across the US, Europe"
+    },
+    {
+      "id": "6f822a0643a6",
+      "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+      "link": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-08T09:46:32+00:00",
+      "ts": 1791452792.0,
+      "summary": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys. \"The extensions masquerade as wallet portals, desktop utilities, and browser tools, but their code intercepts recovery phrases and private keys during wallet import flows and attempts to send those secrets to"
+    },
     {
       "id": "3fee2a4a6e14",
       "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
@@ -135,16 +185,6 @@
       "summary": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions. The arbitrary file access flaw, tracked as CVE-2026-21589 (CVSS score: 9.3) affects multiple products, including Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software"
     },
     {
-      "id": "3e2924c42f1c",
-      "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
-      "link": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-07T11:42:24+00:00",
-      "ts": 1791373344.0,
-      "summary": "If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would. That promise is worth taking seriously. It’s also worth pressure testing, and three questions do the heavy lifting.&nbsp; What can the assessment actually"
-    },
-    {
       "id": "164755aee07e",
       "title": "Apple’s Verified Photography System",
       "link": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
@@ -153,36 +193,6 @@
       "published": "2026-10-07T11:07:36+00:00",
       "ts": 1791371256.0,
       "summary": "Apple just released a system called &#8220;Reference Image.&#8221; It can verify the image is exactly as taken by an iPhone&#8212;new models only&#8212;without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own credentials. We are conce"
-    },
-    {
-      "id": "0b095f9149e4",
-      "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-      "link": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-07T08:07:38+00:00",
-      "ts": 1791360458.0,
-      "summary": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026. The company said it also found an additional"
-    },
-    {
-      "id": "790db07b25c8",
-      "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
-      "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-07T06:57:54+00:00",
-      "ts": 1791356274.0,
-      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the"
-    },
-    {
-      "id": "e363caebd5a4",
-      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-      "link": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-06T18:38:55+00:00",
-      "ts": 1791311935.0,
-      "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus. The products, which claim to offer campaign optimization, spend audits, and business-account connections, are designed with one goal in"
     },
     {
       "id": "cbdd34ec8fc0",
@@ -203,6 +213,16 @@
       "published": "2026-10-05T11:04:47+00:00",
       "ts": 1791198287.0,
       "summary": "This one is from 1809, written by Napoleon&#8217;s nephew."
+    },
+    {
+      "id": "c4e58f69537b",
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-042 (05 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-042/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-05T00:00:00+00:00",
+      "ts": 1791158400.0,
+      "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des..."
     },
     {
       "id": "826b48a40b29",
@@ -355,6 +375,26 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
     },
     {
+      "id": "43476ef220f1",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian (02 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1253/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-02T00:00:00+00:00",
+      "ts": 1790899200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service."
+    },
+    {
+      "id": "bb9ba210effe",
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (02 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1252/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-02T00:00:00+00:00",
+      "ts": 1790899200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance."
+    },
+    {
       "id": "e8585f548048",
       "title": "CAROUSEL: GPU-Accelerated Private Vector Search via Homomorphic Sketching",
       "link": "https://eprint.iacr.org/2026/2302",
@@ -365,6 +405,16 @@
       "summary": "Vector search on untrusted infrastructure exposes the \\emph{query embedding}, a faithful summary of the user's intent. Fully homomorphic encryption can hide the query, but existing approaches still require a full scan followed by ranking of encrypted scores. Scalable private systems avoid encrypted ranking by either sending scores from a single cluster to the client or moving the search to the cli"
     },
     {
+      "id": "6fe2b8dc9889",
+      "title": "An Analysis of the ITU-T Multiple Cryptographic Algorithms X.509 Extensions for PQC Migration",
+      "link": "https://eprint.iacr.org/2026/2297",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-01T16:12:23+00:00",
+      "ts": 1790871143.0,
+      "summary": "The 2019 edition of ITU-T X.509 adds three certificate extensions, colloquially called the Catalyst extensions, that let a single certificate carry a second, alternative public key and issuer signature beside the native ones, as a backwards-compatible path for migrating a public-key infrastructure to post-quantum cryptography (PQC). This paper collects the known problems of this multiple cryptogra"
+    },
+    {
       "id": "4eea68c2ad9f",
       "title": "Connected Cars Are a Surveillance Platform",
       "link": "https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html",
@@ -373,36 +423,6 @@
       "published": "2026-10-01T11:06:14+00:00",
       "ts": 1790852774.0,
       "summary": "Researchers at Northeastern University, in collaboration with Consumer Reports, evaluated how much modern cars spy in their drivers: The new Northeastern study shows, for the first time, data flowing among the vehicles, the vehicle apps you download when you buy your car, and third-party companies, documenting exactly what kind of data gets siphoned from our vehicles and which companies are receiv"
-    },
-    {
-      "id": "55ce08bdc3e5",
-      "title": "Multiples vulnérabilités dans CPython (01 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1243/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-01T00:00:00+00:00",
-      "ts": 1790812800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans CPython. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "09534ffe269c",
-      "title": "Multiples vulnérabilités dans Redmine (01 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1245/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-01T00:00:00+00:00",
-      "ts": 1790812800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Redmine. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS)."
-    },
-    {
-      "id": "850fc59f3ef0",
-      "title": "Multiples vulnérabilités dans Mozilla Thunderbird (01 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1244/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-01T00:00:00+00:00",
-      "ts": 1790812800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Thunderbird. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données."
     },
     {
       "id": "5581433890a1",
@@ -465,16 +485,6 @@
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p."
     },
     {
-      "id": "dd3f81a0533c",
-      "title": "New Attack Against RSA",
-      "link": "https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-28T11:02:58+00:00",
-      "ts": 1790593378.0,
-      "summary": "ArsTechnica is reporting on a &#8220;new&#8221; attack against RSA, one that bypasses factoring. First, this attack isn&#8217;t new. The original research is from 2007. What is new is the implementation. Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key. Third, the attack only works against pure signatures. Th"
-    },
-    {
       "id": "9f7f27a99a55",
       "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-011/",
@@ -503,6 +513,16 @@
       "published": "2026-09-25T11:00:00+00:00",
       "ts": 1790334000.0,
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
+    },
+    {
+      "id": "1df6d651b55a",
+      "title": "$\\mathsf{Rotor}$: SNARKs for Power-of-Two Rings",
+      "link": "https://eprint.iacr.org/2026/2175",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-23T10:48:47+00:00",
+      "ts": 1790160527.0,
+      "summary": "Succinct proofs for arithmetic modulo powers of two are crucial for verifying machine-word computations in practice. However, designing SNARKs over such rings is challenging, since they lack the algebraic properties that common SNARKs over fields rely on to achieve negligible soundness error. Existing approaches either work over Galois rings, whose arithmetic is expensive, or lift the statement to"
     },
     {
       "id": "71c4a4caf94f",
@@ -543,6 +563,16 @@
       "published": "2026-09-15T11:00:00+00:00",
       "ts": 1789470000.0,
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
+    },
+    {
+      "id": "618cd1f8bf93",
+      "title": "Bridging the Cryptographic Transition: A Unified Framework for Post-Quantum Key Exchange",
+      "link": "https://eprint.iacr.org/2026/1992",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-12T10:58:41+00:00",
+      "ts": 1789210721.0,
+      "summary": "In a widely publicized recent announcement, Google established a formal 2029 deadline for completing its post-quantum cryptography (PQC) migration---one that deliberately preempts the 2035 deadline set by NIST and the US federal government to complete the deprecation of classical public-key algorithms. Google cited faster-than-expected progress across three fronts: quantum computing hardware devel"
     },
     {
       "id": "0c016fa822b6",
@@ -605,6 +635,16 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
+      "id": "6f70a13741e0",
+      "title": "HOVER: Higher-Order Vanishing Endomorphism Recovery",
+      "link": "https://eprint.iacr.org/2026/1778",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-22T18:04:05+00:00",
+      "ts": 1787421845.0,
+      "summary": "Higher-Order Vanishing (HOV), introduced by Hemmert and Wiemers at CRYPTO 2026, distinguishes Goppa codes and was recently extended to McEliece key recovery. We introduce a new variant of HOV, HOVER (Higher-Order Vanishing Endomorphism Recovery), that replaces the costly low-rank direction-search phase of HOV with a much faster linear algebra step. Our attack is based on the observation that the f"
+    },
+    {
       "id": "b818c4425dfc",
       "title": "Extending Distinguishing to Key Recovery for Subfield Subcodes of GRS codes",
       "link": "https://eprint.iacr.org/2026/1747",
@@ -613,16 +653,6 @@
       "published": "2026-08-20T12:11:00+00:00",
       "ts": 1787227860.0,
       "summary": "We present two key-recovery attacks against subcodes of generalized Reed–Solomon codes, including alternant and Goppa codes, extending the distinguisher recently introduced by Ghoshal, Ishai, Jain, and Sun. Both attacks recover the full secret key from a single run of the distinguisher. Because the public columns are evaluations of secret polynomials, they lie (up to scaling) on a hidden algebraic"
-    },
-    {
-      "id": "1b8d304931b4",
-      "title": "De-SyRIS: A Decentralized Sybil-Resistant Identity System Using Mutual Facial Biometric Verification and Social Graph Analysis",
-      "link": "https://eprint.iacr.org/2026/1723",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-18T16:51:42+00:00",
-      "ts": 1787071902.0,
-      "summary": "While decentralized identity management systems strive for autonomy, most still rely on centralized mechanisms (e.g., phone numbers or government-issued IDs) to achieve Sybil resistance and prevent fake identity attacks. This article proposes a novel approach for decentralized identity management that ensures robust Sybil resistance, unlike the systems currently in widespread use. Our approach is "
     },
     {
       "id": "bea5a06fb576",
@@ -663,16 +693,6 @@
       "published": "2026-08-11T17:30:00+00:00",
       "ts": 1786469400.0,
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
-    },
-    {
-      "id": "98d357cc6bd4",
-      "title": "D-James: Ultra Short Multivariate Signatures",
-      "link": "https://eprint.iacr.org/2026/1650",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-10T16:15:46+00:00",
-      "ts": 1786378546.0,
-      "summary": "Multivariate signature schemes are among the few post-qua-\\allowbreak ntum candidates capable of providing very short signatures, but designing secure constructions has proven challenging. HFE-based schemes such as G$e$MSS were compromised by algebraic MinRank attacks. This motivates the HFE$_\\text{IP}^-$ framework, which combines IP and minus modifiers to address these attacks. We introduce James"
     },
     {
       "id": "fe4f47339d9c",
@@ -805,14 +825,14 @@
       "summary": "As zero-knowledge proofs are used in real-world systems, they face threats such as resetting attacks, where an attacker manipulates the prover's randomness. While resettable security has been studied for interactive protocols, whether modern non-interactive systems such as zkSNARKs remain secure under resets is still unclear. This work provides the first systematic study of resettable security for"
     },
     {
-      "id": "a6ef80b7eb1c",
-      "title": "Privacy Coins Under Viewing Key Compromise",
-      "link": "https://eprint.iacr.org/2026/872",
+      "id": "171971d95d40",
+      "title": "Can We Tolerate Small Side-Channel Leakages: The Role of Registers in Glitch-Stopping Circuits",
+      "link": "https://eprint.iacr.org/2026/1011",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-05-05T06:02:58+00:00",
-      "ts": 1777960978.0,
-      "summary": "Anonymity guarantees of privacy-oriented cryptocurrencies are garnering negative attention from lawmakers who view them as antinomic to accountability. Having recognized their potential for innovation, however, regulators may not want to outright ban privacy coins but instead seek a middle ground where financial oversight is effective, and still some privacy is maintained. Mature designs, such as "
+      "published": "2026-05-20T14:55:10+00:00",
+      "ts": 1779288910.0,
+      "summary": "Research on cryptographic algorithms implemented in hardware and protected against side-channel attacks has advanced rapidly in recent years. Generalized masking schemes, such as Threshold Implementations (TI) and Domain-Oriented Masking (DOM), currently provide a solid theoretical security foundation. Security models, including the probing model and its various extensions, enable formal verificat"
     },
     {
       "id": "e867d3e3dacb",
@@ -883,6 +903,16 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
+    },
+    {
+      "id": "634061594793",
+      "title": "A Resource-Efficient Hardware Accelerator for Large-Size NTT via Algorithm–Architecture Co-Design",
+      "link": "https://eprint.iacr.org/2026/460",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-05T11:59:42+00:00",
+      "ts": 1772711982.0,
+      "summary": "Large-size Number Theoretic Transforms (NTTs) are key operations in modern Zero-Knowledge Proofs (ZKPs), where the NTT size often reaches millions of points and the arithmetic is over wide prime fields. To handle such NTTs on hardware, prior designs commonly rely on the decomposition algorithm, which makes large-size NTTs feasible by streaming sub-NTTs through limited on-chip buffers. However, in "
     },
     {
       "id": "b7ffc9dc8c13",
@@ -995,16 +1025,6 @@
       "summary": "Posted by Aden Haussmann, Associate Product Manager and Sumeet Sharma, Play Partnerships Trust & Safety Lead Android uses the best of Google AI and our advanced security expertise to tackle mobile scams from every angle. Over the last few years, we’ve launched industry-leading features to detect scams and protect users across phone calls, text messages and messaging app chat notifications. These e"
     },
     {
-      "id": "431ae4763a23",
-      "title": "Hardness and Algorithms for Batch LPN under Dependent Noise",
-      "link": "https://eprint.iacr.org/2025/2164",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-11-28T15:17:41+00:00",
-      "ts": 1764343061.0,
-      "summary": "We study the Batch Learning Parity with Noise (LPN) variant, where the oracle returns $k$ samples in a batch and draws the noise vector from a joint noise distribution $\\mathcal{D}$ over $\\mathbb{F}_2^k$ instead of from an i.i.d. product distribution. This model captures a broad range of correlated or structured noise patterns studied in cryptography and learning theory. Consequently, understandin"
-    },
-    {
       "id": "2e807f5015b9",
       "title": "Improved Robust Secret-Sharing for Honest-Majority Preprocessing-MPC",
       "link": "https://eprint.iacr.org/2025/2135",
@@ -1025,16 +1045,6 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
-      "id": "88aa597aa5e9",
-      "title": "Foundations of Dynamic Group Signatures: The Case of Malicious Openers and Issuers",
-      "link": "https://eprint.iacr.org/2025/1752",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-09-25T13:34:29+00:00",
-      "ts": 1758807269.0,
-      "summary": "Dynamic group signatures are commonly formalized in the model of Bellare, Shi, and Zhang (BSZ, CT-RSA 2005), whose security notions are defined relative to specific trust assumptions and registration state. We revisit these assumptions and systematically study which guarantees continue to hold when the trust assumptions on the issuer and opener are considered independently and no trusted registrat"
-    },
-    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1053,16 +1063,6 @@
       "published": "2025-06-09T18:22:31+00:00",
       "ts": 1749493351.0,
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
-    },
-    {
-      "id": "a51626ab7074",
-      "title": "On the Preprocessing Security of Nonzero Schnorr Signatures with Adaptive Corruptions",
-      "link": "https://eprint.iacr.org/2025/138",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-01-28T17:22:06+00:00",
-      "ts": 1738084926.0,
-      "summary": "Modern cryptographic protocols rely on a relatively small collection of standardized hash functions and groups, raising the possibility of preprocessing attacks in which a computationally unbounded offline attacker generates a bounded-size hint that accelerates a later online attack. Blocki and Lee (EUROCRYPT~2022) analyzed the preprocessing security of key-prefixed short Schnorr signatures, where"
     }
   ]
 }
