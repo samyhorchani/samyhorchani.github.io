@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T08:20:08.868388+00:00",
+  "generated_at": "2026-10-09T15:44:51.988399+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,96 @@
     }
   ],
   "items": [
+    {
+      "id": "14861d20be6b",
+      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+      "link": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T13:22:53+00:00",
+      "ts": 1791552173.0,
+      "summary": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with &nbsp;Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its routers are and how separate it is from China. TP-Link&nbsp;denies the claims&nbsp;and says it will fight them in court. TP-Link Systems is based in"
+    },
+    {
+      "id": "2d81ee4b8924",
+      "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+      "link": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T12:59:22+00:00",
+      "ts": 1791550762.0,
+      "summary": "Security researchers have&nbsp;published a full working exploit&nbsp;for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection. AnyDesk patched the flaw in version 8.0.3 in June, but its&nbsp;changelog&nbsp;described the fix only as \"fixed a bug that could lead to a crash,\" with no CVE assigned and no security"
+    },
+    {
+      "id": "0beaeed3a07d",
+      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+      "link": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T12:47:28+00:00",
+      "ts": 1791550048.0,
+      "summary": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic said. \"Projects that join will receive thorough, periodic security scans by our strongest models at no cost.\""
+    },
+    {
+      "id": "df28d20404ff",
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+      "link": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T12:47:26+00:00",
+      "ts": 1791550046.0,
+      "summary": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners. Details of the flaws are below - CVE-2026-105133 (CVSS v4 score: 5.5) - An improper authentication vulnerability in the checkSysPwd() function in the \"com/ahsay/obs/api/ApiStructsAction.java\""
+    },
+    {
+      "id": "ca26bf4f52b5",
+      "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+      "link": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T12:21:51+00:00",
+      "ts": 1791548511.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon. The vulnerabilities in question are listed below - CVE-2015-3306 (CVSS score: 10.0) - An improper access control vulnerability in ProFTPD that could allow"
+    },
+    {
+      "id": "1f1893acd123",
+      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+      "link": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T11:30:00+00:00",
+      "ts": 1791545400.0,
+      "summary": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in AI-speed business operations while continuing to rely on human-speed security controls, creating a"
+    },
+    {
+      "id": "e758a32300c8",
+      "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
+      "link": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T09:03:24+00:00",
+      "ts": 1791536604.0,
+      "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over. Searchlight Cyber, which&nbsp;disclosed the flaw&nbsp;on October 8, says an attacker who recovers the key can redirect the site's visitors to a copy of the site they control."
+    },
+    {
+      "id": "9ae763f227a2",
+      "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
+      "link": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T08:26:17+00:00",
+      "ts": 1791534377.0,
+      "summary": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and passes the flaws to the vendors. One of the three Pixel exploits earned Ikotas Labs $300,000, the contest's top prize, and made the team the overall winner. Trend Micro's Zero"
+    },
+    {
+      "id": "96f800da1adf",
+      "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+      "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T08:11:33+00:00",
+      "ts": 1791533493.0,
+      "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions. \"CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions,\" Citrix said. The vulnerability"
+    },
     {
       "id": "702682673fff",
       "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
@@ -72,7 +162,7 @@
       "category": "veille",
       "published": "2026-10-08T14:12:34+00:00",
       "ts": 1791468754.0,
-      "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early October 2026, and resulted in data exfiltration. \"In this activity, the threat actor leveraged"
+      "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early October 2026, and resulted in data exfiltration from various South Korea-based financial firms,"
     },
     {
       "id": "b03b15e0f278",
@@ -83,96 +173,6 @@
       "published": "2026-10-08T11:07:35+00:00",
       "ts": 1791457655.0,
       "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs. Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re"
-    },
-    {
-      "id": "51897b9b7715",
-      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
-      "link": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-08T10:30:00+00:00",
-      "ts": 1791455400.0,
-      "summary": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself. ANY.RUN has identified Wazza, a new phishkit targeting banking, manufacturing, and government organizations across the US, Europe"
-    },
-    {
-      "id": "6f822a0643a6",
-      "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
-      "link": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-08T09:46:32+00:00",
-      "ts": 1791452792.0,
-      "summary": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys. \"The extensions masquerade as wallet portals, desktop utilities, and browser tools, but their code intercepts recovery phrases and private keys during wallet import flows and attempts to send those secrets to"
-    },
-    {
-      "id": "3fee2a4a6e14",
-      "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
-      "link": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-08T07:42:04+00:00",
-      "ts": 1791445324.0,
-      "summary": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese national charged in the United States in connection with the 2021 Microsoft Exchange Server attacks known as HAFNIUM. The reward is for information leading to his identification or location, the news outlet&nbsp;NTD reported&nbsp;this week, citing a notice"
-    },
-    {
-      "id": "b028f35df5c5",
-      "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
-      "link": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-08T07:41:44+00:00",
-      "ts": 1791445304.0,
-      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data. Zohar Pinhasi (aka Zack Silver and Zack Green) has been charged with two counts of wire fraud and one count of wire"
-    },
-    {
-      "id": "bf698c21170f",
-      "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
-      "link": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-08T05:46:20+00:00",
-      "ts": 1791438380.0,
-      "summary": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack. The malicious version 0.5.144 \"contains obfuscated malware that harvests credentials, exfiltrates secrets, establishes persistence, and executes remotely supplied code,\" Socket said"
-    },
-    {
-      "id": "3d66088ede6f",
-      "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
-      "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-07T18:48:17+00:00",
-      "ts": 1791398897.0,
-      "summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6. Google's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (American Samoa) was put at risk. With such a certificate, an attacker could pose as the real site over an encrypted"
-    },
-    {
-      "id": "24d719367de5",
-      "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
-      "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-07T17:43:20+00:00",
-      "ts": 1791395000.0,
-      "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed to be the work of a lone threat actor who appears to have published 12 packages since August 2023, eight of which have"
-    },
-    {
-      "id": "31cd06cbc3af",
-      "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-      "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-07T16:17:44+00:00",
-      "ts": 1791389864.0,
-      "summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to send requests through the appliance and reach internal functions. SonicWall rates it 10.0 on the CVSS scale and says it has no evidence that any of the four flaws is being"
-    },
-    {
-      "id": "02681d5b9517",
-      "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-      "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-07T15:34:53+00:00",
-      "ts": 1791387293.0,
-      "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's&nbsp;multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network"
     },
     {
       "id": "4b3e102168c7",
@@ -215,6 +215,36 @@
       "summary": "404Media is reporting (alternate link) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn&#8217;t been used for 72 hours. The new technology to get around inactivity reboot was developed by Magnet Forensics, the company behind GrayKey, "
     },
     {
+      "id": "99a95988dc8c",
+      "title": "Vulnérabilité dans les produits Atlassian (06 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1264/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-06T00:00:00+00:00",
+      "ts": 1791244800.0,
+      "summary": "Unevulnérabilité a été découverte dans les produits Atlassian. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "9b7741704ff7",
+      "title": "Vulnérabilité dans Microsoft Office (06 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1266/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-06T00:00:00+00:00",
+      "ts": 1791244800.0,
+      "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
+    },
+    {
+      "id": "1a27f38376ae",
+      "title": "Multiples vulnérabilités dans Google Android (06 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1265/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-06T00:00:00+00:00",
+      "ts": 1791244800.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données."
+    },
+    {
       "id": "70a890f169c3",
       "title": "Another Historic Cipher Falls to AI",
       "link": "https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html",
@@ -235,6 +265,66 @@
       "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des..."
     },
     {
+      "id": "09b03113ecb6",
+      "title": "Vulnérabilité dans Citrix NetScaler ADC et Gateway (05 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1263/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-05T00:00:00+00:00",
+      "ts": 1791158400.0,
+      "summary": "Une vulnérabilité a été découverte dans Citrix NetScaler ADC et Gateway. Elle permet à un attaquant de provoquer un déni de service à distance. La CISA indique que la vulnérabilité CVE-2026-88779 est activement exploitée."
+    },
+    {
+      "id": "b5807ebe75f2",
+      "title": "Multiples vulnérabilités dans OpenOffice (05 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1260/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-05T00:00:00+00:00",
+      "ts": 1791158400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans OpenOffice. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance."
+    },
+    {
+      "id": "cff1f6be6235",
+      "title": "Multiples vulnérabilités dans Google Chrome (05 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1259/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-05T00:00:00+00:00",
+      "ts": 1791158400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+      "id": "7027c0cd1c26",
+      "title": "Vulnérabilité dans Microsoft Exchange Server (05 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1258/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-05T00:00:00+00:00",
+      "ts": 1791158400.0,
+      "summary": "Une vulnérabilité a été découverte dans Microsoft Exchange Server. Elle permet à un attaquant de provoquer une élévation de privilèges."
+    },
+    {
+      "id": "c9628a4d5d20",
+      "title": "Vulnérabilité dans GitLab (05 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1262/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-05T00:00:00+00:00",
+      "ts": 1791158400.0,
+      "summary": "Une vulnérabilité a été découverte dans GitLab. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
+    },
+    {
+      "id": "51c4985fd1dc",
+      "title": "Multiples vulnérabilités dans Zabbix (05 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1261/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-05T00:00:00+00:00",
+      "ts": 1791158400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Zabbix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
       "id": "826b48a40b29",
       "title": "Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
@@ -243,16 +333,6 @@
       "published": "2026-10-02T21:02:18+00:00",
       "ts": 1790974938.0,
       "summary": "The EU is recommending import controls to combat unregulated squid fishing in the Southwest Atlantic. I&#8217;m not optimistic. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
-      "id": "0a74275ef63e",
-      "title": "ECLIPSE: Strongly Unforgeable Isogeny Signatures from the Prime-Degree Variant of PRISM",
-      "link": "https://eprint.iacr.org/2026/2312",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-02T16:32:53+00:00",
-      "ts": 1790958773.0,
-      "summary": "ECLIPSE is the prime-degree signature construction the PRISM authors describe beside their salted scheme, with that salt, implemented. It exists because a two-dimensional isogeny signature carries an auxiliary isogeny the hash does not bind: the SQIsign round-3 specification says SQIsign cannot be strongly unforgeable for that reason, and PRISM's prime-degree variant has no auxiliary isogeny but w"
     },
     {
       "id": "a131500535de",
@@ -285,26 +365,6 @@
       "summary": "Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC, a pair of related hash constructions that bring secure multihashing to de"
     },
     {
-      "id": "9b27c24e91b4",
-      "title": "Vulnérabilités de produits du secteur santé : Retour d'expérience du CERT Santé et du CERT-FR (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-007/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "Le CERT Santé et le CERT-FR assurent le traitement des vulnérabilités qui leur sont signalées par des tiers. A ce titre, ils accompagnent les éditeurs affectés dans la conception et le suivi de plan d’action incluant le développement de correctifs et la communication vers leurs utilisateurs. Dans..."
-    },
-    {
-      "id": "e59dda6ca4a9",
-      "title": "Multiples vulnérabilités dans les produits Moxa (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1250/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Moxa. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité."
-    },
-    {
       "id": "a91ad728a621",
       "title": "Vulnérabilité dans Fortinet FortiMail (02 octobre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1257/",
@@ -313,16 +373,6 @@
       "published": "2026-10-02T00:00:00+00:00",
       "ts": 1790899200.0,
       "summary": "Une vulnérabilité a été découverte dans Fortinet FortiMail. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Fortinet indique que la vulnérabilité CVE-2026-104286 est activement exploitée. Des indicateurs de compromission sont disponibles dans l'avis de l'éditeur."
-    },
-    {
-      "id": "3991bcde90df",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1251/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
     },
     {
       "id": "fc395c943e67",
@@ -355,56 +405,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
     },
     {
-      "id": "ea6285fc378e",
-      "title": "Multiples vulnérabilités dans Tenable Nessus (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1247/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Nessus. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
-      "id": "5b7cd15c95e4",
-      "title": "Multiples vulnérabilités dans Apache HTTP Server (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1248/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Apache HTTP Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "2474a9067620",
-      "title": "Multiples vulnérabilités dans les produits VMware (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1249/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
-      "id": "43476ef220f1",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1253/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service."
-    },
-    {
-      "id": "bb9ba210effe",
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1252/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance."
-    },
-    {
       "id": "6fe2b8dc9889",
       "title": "An Analysis of the ITU-T Multiple Cryptographic Algorithms X.509 Extensions for PQC Migration",
       "link": "https://eprint.iacr.org/2026/2297",
@@ -423,16 +423,6 @@
       "published": "2026-10-01T11:06:14+00:00",
       "ts": 1790852774.0,
       "summary": "Researchers at Northeastern University, in collaboration with Consumer Reports, evaluated how much modern cars spy in their drivers: The new Northeastern study shows, for the first time, data flowing among the vehicles, the vehicle apps you download when you buy your car, and third-party companies, documenting exactly what kind of data gets siphoned from our vehicles and which companies are receiv"
-    },
-    {
-      "id": "5581433890a1",
-      "title": "Vulnérabilité dans Cisco Catalyst SD-WAN (01 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1246/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-01T00:00:00+00:00",
-      "ts": 1790812800.0,
-      "summary": "Une vulnérabilité a été découverte dans Cisco Catalyst SD-WAN. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Cisco indique que la vulnérabilité CVE-2026-76504 est activement exploitée."
     },
     {
       "id": "bcbe1c4698ed",
@@ -695,6 +685,16 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
+      "id": "98d357cc6bd4",
+      "title": "D-James: Ultra Short Multivariate Signatures",
+      "link": "https://eprint.iacr.org/2026/1650",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-10T16:15:46+00:00",
+      "ts": 1786378546.0,
+      "summary": "Multivariate signature schemes are among the few post-quantum candidates capable of providing very short signatures, but designing secure constructions has proven challenging. HFE-based schemes such as G$e$MSS were compromised by algebraic MinRank attacks. This motivates the HFE$_\\text{IP}^-$ framework, which combines IP and minus modifiers to address these attacks. We introduce James and D-James,"
+    },
+    {
       "id": "fe4f47339d9c",
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
@@ -753,16 +753,6 @@
       "published": "2026-07-28T11:00:00+00:00",
       "ts": 1785236400.0,
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
-    },
-    {
-      "id": "c22186453421",
-      "title": "Lightweight Hardware Accelerator for the UOV Signature Scheme with Oil Space Blinding",
-      "link": "https://eprint.iacr.org/2026/1451",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-16T14:54:32+00:00",
-      "ts": 1784213672.0,
-      "summary": "In reaction to the emerging quantum threat, the National Institute of Standards and Technology (NIST) seeks post-quantum secure digital signature schemes. NIST's ongoing competition recently advanced to the third round, in which the Unbalanced Oil and Vinegar scheme (UOV) is a promising candidate due to UOV's conservative design, small signatures, and performant signing and verification. While the"
     },
     {
       "id": "bdc2700324bc",
@@ -835,6 +825,16 @@
       "summary": "Research on cryptographic algorithms implemented in hardware and protected against side-channel attacks has advanced rapidly in recent years. Generalized masking schemes, such as Threshold Implementations (TI) and Domain-Oriented Masking (DOM), currently provide a solid theoretical security foundation. Security models, including the probing model and its various extensions, enable formal verificat"
     },
     {
+      "id": "af7e09f5cf6c",
+      "title": "Practical Post-Quantum Secure Publicly Verifiable Secret Sharing and Applications",
+      "link": "https://eprint.iacr.org/2026/813",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-24T21:24:47+00:00",
+      "ts": 1777065887.0,
+      "summary": "We present a new framework for constructing practically efficient publicly verifiable secret sharing (PVSS) with $non-interactive$ $dealers$, in that the dealer may go offline after sending a single message, and is not involved in the share verification process. We use identity-based encryption (IBE) and commitments as the main ingredients and avoid expensive zero-knowledge proofs. By instantiatin"
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -873,6 +873,16 @@
       "published": "2026-04-09T17:07:00+00:00",
       "ts": 1775754420.0,
       "summary": "Posted by Ben Ackerman, Chrome team, Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team Following our April 2024 announcement, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to comba"
+    },
+    {
+      "id": "f59a6cdf54ea",
+      "title": "Secure MSM Outsourcing Computation for Zero-knowledge Proof Generation",
+      "link": "https://eprint.iacr.org/2026/686",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-08T02:28:29+00:00",
+      "ts": 1775615309.0,
+      "summary": "Zero-knowledge proof (ZKP) schemes enable a prover to convince a verifier of the validity of a statement without revealing the underlying secret. These schemes have found extensive applications in secure communications, privacy-preserving transactions and blockchain technologies. However, the computational cost of proof generation remains a major obstacle to practical deployment. Although various "
     },
     {
       "id": "d305b2065812",
@@ -943,16 +953,6 @@
       "published": "2026-02-25T15:17:00+00:00",
       "ts": 1772032620.0,
       "summary": "Posted by Lyubov Farafonova, Product Manager, Phone by Google; Alberto Pastor Nieto, Sr. Product Manager Google Messages and RCS Spam and Abuse We’ve shared how Android’s proactive, multi-layered scam defenses utilize Google AI to protect users around the world from over 10 billion suspected malicious calls and messages every month1. While that scale is significant, the true impact of these protec"
-    },
-    {
-      "id": "fb26d483ba30",
-      "title": "Perfectly Secure Network-Agnostic MPC Comes for Free",
-      "link": "https://eprint.iacr.org/2026/377",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-24T09:56:11+00:00",
-      "ts": 1771926971.0,
-      "summary": "Secure multiparty computation (MPC) allows a set of parties to jointly compute a function while keeping their inputs private. Classical MPC protocols assume either a synchronous or an asynchronous network. Synchronous protocols tolerate more corrupted parties but rely on a timing bound, while asynchronous protocols make no timing assumptions but handle fewer corruptions. The network-agnostic model"
     },
     {
       "id": "7ed1806aa84e",
