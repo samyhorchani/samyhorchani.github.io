@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T15:44:51.988399+00:00",
+  "generated_at": "2026-10-09T20:28:27.777240+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "b449e7e8a3d1",
+      "title": "Friday Squid Blogging: I Caught a Squid",
+      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-09T20:24:45+00:00",
+      "ts": 1791577485.0,
+      "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (Doryteuthis (Amerigo) pealeii). That night I cooked it over a barbecue grill&#8212;hot and fast. Delici"
+    },
+    {
+      "id": "74570fd1f54f",
+      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+      "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T17:45:26+00:00",
+      "ts": 1791567926.0,
+      "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X. ShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not named the suspect, and no charges have been made public. The"
+    },
+    {
+      "id": "51af4a99e7f4",
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T16:29:55+00:00",
+      "ts": 1791563395.0,
+      "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday. The name"
+    },
     {
       "id": "14861d20be6b",
       "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
@@ -143,26 +173,6 @@
       "published": "2026-10-08T15:45:56+00:00",
       "ts": 1791474356.0,
       "summary": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its&nbsp;October 8, 2026 alert&nbsp;on those reports and other information. The alert names no attacker and no affected organization. JPCERT/"
-    },
-    {
-      "id": "621bfc5e1bd0",
-      "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
-      "link": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-08T15:26:56+00:00",
-      "ts": 1791473216.0,
-      "summary": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cybersecurity company is tracking the cluster under the name Earth Sirrush (previously SHADOW-EARTH-065). ASHVEIN,"
-    },
-    {
-      "id": "91889d9ce99a",
-      "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
-      "link": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-08T14:12:34+00:00",
-      "ts": 1791468754.0,
-      "summary": "Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The activity, per CrowdStrike Intelligence, was active from late September to early October 2026, and resulted in data exfiltration from various South Korea-based financial firms,"
     },
     {
       "id": "b03b15e0f278",
@@ -455,16 +465,6 @@
       "summary": "AI systems are regularly completing tasks in ways that their prompters don&#8217;t want or intend. Some of them are disturbing, and some of them are dangerous. This is something I&#8217;ve been calling &#8220;genie behavior,&#8221; because I think that really gets at the core of what&#8217;s happening. I wish the popular press would report on this better. I don&#8217;t like the &#8220;going rogue&"
     },
     {
-      "id": "955865a93323",
-      "title": "Using Device Linking to Eavesdrop on WhatsApp and Signal",
-      "link": "https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-29T11:02:19+00:00",
-      "ts": 1790679739.0,
-      "summary": "Modern messaging apps allow users to link their phone accounts to their computer desktop. Eavesdroppers are taking advantage of this capability: Apps such as WhatsApp Web and Signal Desktop allow people to use their accounts on other devices, such as laptops or desktop computers. Germany&#8217;s Customs Office has been using these features to connect a police-controlled computer to a suspect&#8217"
-    },
-    {
       "id": "535fdeca402d",
       "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
       "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
@@ -505,16 +505,6 @@
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
     },
     {
-      "id": "1df6d651b55a",
-      "title": "$\\mathsf{Rotor}$: SNARKs for Power-of-Two Rings",
-      "link": "https://eprint.iacr.org/2026/2175",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-23T10:48:47+00:00",
-      "ts": 1790160527.0,
-      "summary": "Succinct proofs for arithmetic modulo powers of two are crucial for verifying machine-word computations in practice. However, designing SNARKs over such rings is challenging, since they lack the algebraic properties that common SNARKs over fields rely on to achieve negligible soundness error. Existing approaches either work over Galois rings, whose arithmetic is expensive, or lift the statement to"
-    },
-    {
       "id": "71c4a4caf94f",
       "title": "SAML: A fractal of bad design",
       "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
@@ -553,16 +543,6 @@
       "published": "2026-09-15T11:00:00+00:00",
       "ts": 1789470000.0,
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
-    },
-    {
-      "id": "618cd1f8bf93",
-      "title": "Bridging the Cryptographic Transition: A Unified Framework for Post-Quantum Key Exchange",
-      "link": "https://eprint.iacr.org/2026/1992",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-12T10:58:41+00:00",
-      "ts": 1789210721.0,
-      "summary": "In a widely publicized recent announcement, Google established a formal 2029 deadline for completing its post-quantum cryptography (PQC) migration---one that deliberately preempts the 2035 deadline set by NIST and the US federal government to complete the deprecation of classical public-key algorithms. Google cited faster-than-expected progress across three fronts: quantum computing hardware devel"
     },
     {
       "id": "0c016fa822b6",
@@ -965,6 +945,16 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
+      "id": "51b3dd5afa41",
+      "title": "Hash Function Constructions from Lightweight Block Ciphers for Fully Homomorphic Encryption",
+      "link": "https://eprint.iacr.org/2026/309",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-18T14:45:35+00:00",
+      "ts": 1771425935.0,
+      "summary": "This paper investigates hash-function constructions derived from lightweight block ciphers, that are suitable for evaluation in fully homomorphic encryption (FHE) settings. We focus on PRINCEv2, a 64-bit lightweight block cipher with 128-bit keys and low algebraic complexity, which is particularly amenable to FHE evaluation. However, the small block size of such ciphers limits the applicability of"
+    },
+    {
       "id": "8786ec150779",
       "title": "Revisiting Generic Transforms for Committing Authenticated Encryption",
       "link": "https://eprint.iacr.org/2026/240",
@@ -1063,6 +1053,16 @@
       "published": "2025-06-09T18:22:31+00:00",
       "ts": 1749493351.0,
       "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
+    },
+    {
+      "id": "e6f3482cf262",
+      "title": "ADC-BE: Optimizing Worst-Case Bandwidth in Broadcast Encryption with Boolean Functions",
+      "link": "https://eprint.iacr.org/2025/650",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-04-09T13:50:57+00:00",
+      "ts": 1744206657.0,
+      "summary": "Abstract. Recently, Dupin and Abelard [11] proposed a broadcast encryption scheme, outperforming the Complete Subtree-based and Subset Difference broadcast encryption in terms of encryption cost and bandwidth requirement. However, Dupin and Abelard acknowledge that the worst-case bound for bandwidth requirement of Complete Subtree approach can be reached in their scheme as well. In this paper, we "
     }
   ]
 }
