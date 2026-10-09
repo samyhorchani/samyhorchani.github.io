@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T01:39:07.243637+00:00",
+  "generated_at": "2026-10-09T08:20:08.868388+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "702682673fff",
+      "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
+      "link": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T06:39:29+00:00",
+      "ts": 1791527969.0,
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon. To that end, the agencies seized several domains and blocked access to platforms that were used to scan, and in some cases infiltrate, U.S. critical infrastructure. The list of seized"
+    },
     {
       "id": "ade7501dd8dd",
       "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
@@ -163,16 +173,6 @@
       "published": "2026-10-07T15:34:53+00:00",
       "ts": 1791387293.0,
       "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's&nbsp;multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network"
-    },
-    {
-      "id": "4413e5ea098a",
-      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-      "link": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-07T15:33:51+00:00",
-      "ts": 1791387231.0,
-      "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet. The financially motivated campaign, dubbed Canto Incognito, has been found to install cryptocurrency miners, including"
     },
     {
       "id": "4b3e102168c7",
@@ -405,16 +405,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance."
     },
     {
-      "id": "e8585f548048",
-      "title": "CAROUSEL: GPU-Accelerated Private Vector Search via Homomorphic Sketching",
-      "link": "https://eprint.iacr.org/2026/2302",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-01T20:16:43+00:00",
-      "ts": 1790885803.0,
-      "summary": "Vector search on untrusted infrastructure exposes the \\emph{query embedding}, a faithful summary of the user's intent. Fully homomorphic encryption can hide the query, but existing approaches still require a full scan followed by ranking of encrypted scores. Scalable private systems avoid encrypted ranking by either sending scores from a single cluster to the client or moving the search to the cli"
-    },
-    {
       "id": "6fe2b8dc9889",
       "title": "An Analysis of the ITU-T Multiple Cryptographic Algorithms X.509 Extensions for PQC Migration",
       "link": "https://eprint.iacr.org/2026/2297",
@@ -455,6 +445,16 @@
       "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
     },
     {
+      "id": "d371fec5b56e",
+      "title": "Natural Barriers to Quantum Extraction: On the Post-Quantum (In)security of (O)EKE and Masny-Rindal OT",
+      "link": "https://eprint.iacr.org/2026/2280",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-30T14:42:37+00:00",
+      "ts": 1790779357.0,
+      "summary": "Encrypted key exchange (EKE), introduced by Bellovin and Merritt (IEEE S\\&amp;P 1992), and Masny-Rindal OT, introduced by Masny and Rindal (ACM CCS 2019), are highly-efficient methods for compiling essentially any KEM into advanced cryptographic protocols, namely password-authenticated key exchange (PAKE) and oblivious transfer (OT), by relying only on idealized symmetric-key primitives. They have"
+    },
+    {
       "id": "7f4900bb56a3",
       "title": "I Want Better Reporting on AI Genie Behavior",
       "link": "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
@@ -463,16 +463,6 @@
       "published": "2026-09-30T11:05:35+00:00",
       "ts": 1790766335.0,
       "summary": "AI systems are regularly completing tasks in ways that their prompters don&#8217;t want or intend. Some of them are disturbing, and some of them are dangerous. This is something I&#8217;ve been calling &#8220;genie behavior,&#8221; because I think that really gets at the core of what&#8217;s happening. I wish the popular press would report on this better. I don&#8217;t like the &#8220;going rogue&"
-    },
-    {
-      "id": "c9c84e811b68",
-      "title": "UC PAKE and Concrete Security",
-      "link": "https://eprint.iacr.org/2026/2270",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-29T23:26:47+00:00",
-      "ts": 1790724407.0,
-      "summary": "The Universal Composability (UC) framework provides a paradigm for security definitions that allows for arbitrary composition, but has been criticized for being unamicable to the concrete security approach, as the meaning of a concrete UC-security statement is hard to interpret in practice. This work aims at alleviating this concern in the context of Password-Authenticated Key Exchange (PAKE): we "
     },
     {
       "id": "955865a93323",
@@ -725,14 +715,14 @@
       "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t"
     },
     {
-      "id": "57def3f2e820",
-      "title": "A Polynomial-Time Quantum Algorithm for the Dihedral Coset Problem",
-      "link": "https://eprint.iacr.org/2026/1591",
+      "id": "ce75816bf337",
+      "title": "LAMP: Linear Verification of Matrix Multiplication via Proximity Testing",
+      "link": "https://eprint.iacr.org/2026/1571",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-08-03T20:17:09+00:00",
-      "ts": 1785788229.0,
-      "summary": "We present a polynomial-time quantum algorithm for the Dihedral Coset Problem (DCP). The algorithm is based on Regev's polynomial-time reduction of the Dihedral Subgroup Problem (DSP) to the modular subset sum problem, but uses a different technique to erase sample bits without use of a subset sum oracle. The algorithm can thus combine with Regev's reduction of lattice problems to DCP, improved by"
+      "published": "2026-07-31T10:02:35+00:00",
+      "ts": 1785492155.0,
+      "summary": "Verifiable computation systems often need to prove large matrix multiplication statements, but a direct SNARK arithmetization of a \\(k \\times k\\) product requires \\(\\mathcal{O}(k^3)\\) constraints. Freivalds' randomized check reduces the algebraic computation to vector-matrix products, but proving those products inside a SNARK still costs \\(\\mathcal{O}(k^2)\\) constraints. We present LAMP, a matrix-"
     },
     {
       "id": "f26b7f89b569",
@@ -825,14 +815,14 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
-      "id": "5337d090e59b",
-      "title": "Resettable Non-Interactive Zero-Knowledge: Attacks and Defenses",
-      "link": "https://eprint.iacr.org/2026/1036",
+      "id": "1bba1684b22b",
+      "title": "Threshold Traitor Tracing with Partial-Insider Resilience",
+      "link": "https://eprint.iacr.org/2026/1059",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-05-22T23:14:18+00:00",
-      "ts": 1779491658.0,
-      "summary": "As zero-knowledge proofs are used in real-world systems, they face threats such as resetting attacks, where an attacker manipulates the prover's randomness. While resettable security has been studied for interactive protocols, whether modern non-interactive systems such as zkSNARKs remain secure under resets is still unclear. This work provides the first systematic study of resettable security for"
+      "published": "2026-05-26T14:28:16+00:00",
+      "ts": 1779805696.0,
+      "summary": "Threshold traitor tracing (Boneh et al. Crypto'24) addresses collusion in threshold encryption by tracing parties who collude to build illegal decryption devices called decoders. However, the original definition does not capture settings where adversaries can access partial decryptions published during normal system operation. In such settings, decoders sold to external buyers could depend on inpu"
     },
     {
       "id": "171971d95d40",
@@ -973,6 +963,16 @@
       "published": "2026-02-19T17:00:00+00:00",
       "ts": 1771520400.0,
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
+    },
+    {
+      "id": "8786ec150779",
+      "title": "Revisiting Generic Transforms for Committing Authenticated Encryption",
+      "link": "https://eprint.iacr.org/2026/240",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-13T01:41:17+00:00",
+      "ts": 1770946877.0,
+      "summary": "Committing security for authenticated encryption (AE) captures the difficulty of constructing a distinct input tuple, including the key, that yields the same ciphertext. This notion is relatively new but has attracted significant attention due to its practical relevance. A promising direction is to design generic transforms that convert any AE scheme into a committing one. A common approach to gen"
     },
     {
       "id": "96ed87c2cba3",
