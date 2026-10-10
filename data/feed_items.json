@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:37:10.112429+00:00",
+  "generated_at": "2026-10-10T13:13:26.235996+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "5d9578f8588d",
+      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-10T11:00:00+00:00",
+      "ts": 1791630000.0,
+      "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what authenticates through it, and most agents never do. That gap is the clearest"
+    },
+    {
+      "id": "6f89a3d2cbd6",
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-10T09:18:45+00:00",
+      "ts": 1791623925.0,
+      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos"
+    },
     {
       "id": "43ff0300f95d",
       "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
@@ -163,26 +183,6 @@
       "published": "2026-10-09T06:39:29+00:00",
       "ts": 1791527969.0,
       "summary": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon. To that end, the agencies seized several domains and blocked access to platforms that were used to scan, and in some cases infiltrate, U.S. critical infrastructure. The list of seized"
-    },
-    {
-      "id": "ade7501dd8dd",
-      "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
-      "link": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-08T18:32:21+00:00",
-      "ts": 1791484341.0,
-      "summary": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other countries said on October 8. The company, Integrity Technology Group, has been sanctioned by the U.S. and the UK. The hackers scanned websites for flaws using a tool containing more"
-    },
-    {
-      "id": "227da15a163e",
-      "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
-      "link": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-08T17:58:02+00:00",
-      "ts": 1791482282.0,
-      "summary": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, keeping things secure is a problem on both sides of the fence. The rest of the week isn't much more reassuring. Malicious code turned up in developer packages and extensions that"
     },
     {
       "id": "b03b15e0f278",
