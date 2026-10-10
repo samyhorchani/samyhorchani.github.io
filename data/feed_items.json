@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:13:26.235996+00:00",
+  "generated_at": "2026-10-10T18:10:48.949262+00:00",
   "count": 105,
   "errors": [
     {
@@ -35,8 +35,8 @@
       "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos"
     },
     {
-      "id": "43ff0300f95d",
-      "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+      "id": "878d602d6c0b",
+      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
       "source": "Krebs on Security",
       "category": "veille",
