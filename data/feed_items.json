@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:28:27.777240+00:00",
+  "generated_at": "2026-10-10T00:26:13.062317+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,6 +15,16 @@
   ],
   "items": [
     {
+      "id": "43ff0300f95d",
+      "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "source": "Krebs on Security",
+      "category": "veille",
+      "published": "2026-10-10T00:17:42+00:00",
+      "ts": 1791591462.0,
+      "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity."
+    },
+    {
       "id": "b449e7e8a3d1",
       "title": "Friday Squid Blogging: I Caught a Squid",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
@@ -23,6 +33,16 @@
       "published": "2026-10-09T20:24:45+00:00",
       "ts": 1791577485.0,
       "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (Doryteuthis (Amerigo) pealeii). That night I cooked it over a barbecue grill&#8212;hot and fast. Delici"
+    },
+    {
+      "id": "d0585e08a868",
+      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-09T19:14:28+00:00",
+      "ts": 1791573268.0,
+      "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories. \"Using the account of Takashi Kitao, author of the 18,400-star game engine pyxel, the attacker pushed a malicious workflow to 27 repositories starting at 13:20 UTC,\" StepSecurity"
     },
     {
       "id": "74570fd1f54f",
@@ -163,16 +183,6 @@
       "published": "2026-10-08T17:58:02+00:00",
       "ts": 1791482282.0,
       "summary": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, keeping things secure is a problem on both sides of the fence. The rest of the week isn't much more reassuring. Malicious code turned up in developer packages and extensions that"
-    },
-    {
-      "id": "aabde4355e09",
-      "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
-      "link": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-08T15:45:56+00:00",
-      "ts": 1791474356.0,
-      "summary": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, which takes incident reports, based its&nbsp;October 8, 2026 alert&nbsp;on those reports and other information. The alert names no attacker and no affected organization. JPCERT/"
     },
     {
       "id": "b03b15e0f278",
@@ -415,16 +425,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
     },
     {
-      "id": "6fe2b8dc9889",
-      "title": "An Analysis of the ITU-T Multiple Cryptographic Algorithms X.509 Extensions for PQC Migration",
-      "link": "https://eprint.iacr.org/2026/2297",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-01T16:12:23+00:00",
-      "ts": 1790871143.0,
-      "summary": "The 2019 edition of ITU-T X.509 adds three certificate extensions, colloquially called the Catalyst extensions, that let a single certificate carry a second, alternative public key and issuer signature beside the native ones, as a backwards-compatible path for migrating a public-key infrastructure to post-quantum cryptography (PQC). This paper collects the known problems of this multiple cryptogra"
-    },
-    {
       "id": "4eea68c2ad9f",
       "title": "Connected Cars Are a Surveillance Platform",
       "link": "https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html",
@@ -535,6 +535,16 @@
       "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off"
     },
     {
+      "id": "aad7ed5b1d46",
+      "title": "Weighted Batch Threshold Encryption with Efficient DKG",
+      "link": "https://eprint.iacr.org/2026/2053",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-15T21:02:08+00:00",
+      "ts": 1789506128.0,
+      "summary": "Batch threshold encryption allows a committee to decrypt a selected batch of ciphertexts using one short pre-decryption key per party, while ciphertexts outside the batch remain private. This makes batch threshold encryption attractive for building encrypted mempools for blockchains, where validators reveal transactions selected for a block while pending transactions remain private. However, in pr"
+    },
+    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -605,16 +615,6 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
-      "id": "6f70a13741e0",
-      "title": "HOVER: Higher-Order Vanishing Endomorphism Recovery",
-      "link": "https://eprint.iacr.org/2026/1778",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-22T18:04:05+00:00",
-      "ts": 1787421845.0,
-      "summary": "Higher-Order Vanishing (HOV), introduced by Hemmert and Wiemers at CRYPTO 2026, distinguishes Goppa codes and was recently extended to McEliece key recovery. We introduce a new variant of HOV, HOVER (Higher-Order Vanishing Endomorphism Recovery), that replaces the costly low-rank direction-search phase of HOV with a much faster linear algebra step. Our attack is based on the observation that the f"
-    },
-    {
       "id": "bea5a06fb576",
       "title": "Everything is about to “go dark”",
       "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
@@ -673,16 +673,6 @@
       "published": "2026-08-10T16:15:46+00:00",
       "ts": 1786378546.0,
       "summary": "Multivariate signature schemes are among the few post-quantum candidates capable of providing very short signatures, but designing secure constructions has proven challenging. HFE-based schemes such as G$e$MSS were compromised by algebraic MinRank attacks. This motivates the HFE$_\\text{IP}^-$ framework, which combines IP and minus modifiers to address these attacks. We introduce James and D-James,"
-    },
-    {
-      "id": "fe4f47339d9c",
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "source": "Krebs on Security",
-      "category": "veille",
-      "published": "2026-08-06T17:00:56+00:00",
-      "ts": 1786035656.0,
-      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&#038;T custo"
     },
     {
       "id": "5ce90ec573e9",
@@ -1063,6 +1053,16 @@
       "published": "2025-04-09T13:50:57+00:00",
       "ts": 1744206657.0,
       "summary": "Abstract. Recently, Dupin and Abelard [11] proposed a broadcast encryption scheme, outperforming the Complete Subtree-based and Subset Difference broadcast encryption in terms of encryption cost and bandwidth requirement. However, Dupin and Abelard acknowledge that the worst-case bound for bandwidth requirement of Complete Subtree approach can be reached in their scheme as well. In this paper, we "
+    },
+    {
+      "id": "b664ea898e6b",
+      "title": "Refined Strategy for Solving LWE in Two-step Mode",
+      "link": "https://eprint.iacr.org/2022/1343",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2022-10-08T03:38:05+00:00",
+      "ts": 1665200285.0,
+      "summary": "Learning with Errors (LWE) and its variants underlie many lattice-based cryptosystems, making accurate concrete attack-cost estimates important for parameter selection. Practical primal attacks combine lattice-basis reduction with a final shortest-vector search, and their performance depends strongly on how these components are scheduled. We formalize the two-step strategy space considered in this"
     }
   ]
 }
