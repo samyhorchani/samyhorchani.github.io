@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T01:29:05.459189+00:00",
+  "generated_at": "2026-10-11T08:09:38.455683+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "51af4a99e7f4",
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-11T04:24:34+00:00",
+      "ts": 1791692674.0,
+      "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday. The name"
+    },
     {
       "id": "5d9578f8588d",
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
@@ -73,16 +83,6 @@
       "published": "2026-10-09T17:45:26+00:00",
       "ts": 1791567926.0,
       "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X. ShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not named the suspect, and no charges have been made public. The"
-    },
-    {
-      "id": "51af4a99e7f4",
-      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-      "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T16:29:55+00:00",
-      "ts": 1791563395.0,
-      "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday. The name"
     },
     {
       "id": "14861d20be6b",
@@ -213,16 +213,6 @@
       "published": "2026-10-07T11:07:36+00:00",
       "ts": 1791371256.0,
       "summary": "Apple just released a system called &#8220;Reference Image.&#8221; It can verify the image is exactly as taken by an iPhone&#8212;new models only&#8212;without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own credentials. We are conce"
-    },
-    {
-      "id": "00adf543dd5a",
-      "title": "Provable Subexponential Algorithms for NIST Third-Round Lattice Families",
-      "link": "https://eprint.iacr.org/2026/2386",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-06T17:34:34+00:00",
-      "ts": 1791308074.0,
-      "summary": "We give provable classical subexponential algorithms for secret recovery in growing parameter families associated with NIST third-round lattice candidates. For the Kyber/ML-KEM, FrodoKEM, SABER, NTRU LPRime, and Dilithium/ML-DSA families studied here, polynomial moduli and polylogarithmic coefficient scales yield recovery of the short secret component in expected time and space $2^{(1/2+o(1))n/\\ln"
     },
     {
       "id": "cbdd34ec8fc0",
@@ -795,16 +785,6 @@
       "summary": "Threshold traitor tracing (Boneh et al. Crypto'24) addresses collusion in threshold encryption by tracing parties who collude to build illegal decryption devices called decoders. However, the original definition does not capture settings where adversaries can access partial decryptions published during normal system operation. In such settings, decoders sold to external buyers could depend on inpu"
     },
     {
-      "id": "171971d95d40",
-      "title": "Can We Tolerate Small Side-Channel Leakages: The Role of Registers in Glitch-Stopping Circuits",
-      "link": "https://eprint.iacr.org/2026/1011",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-20T14:55:10+00:00",
-      "ts": 1779288910.0,
-      "summary": "Research on cryptographic algorithms implemented in hardware and protected against side-channel attacks has advanced rapidly in recent years. Generalized masking schemes, such as Threshold Implementations (TI) and Domain-Oriented Masking (DOM), currently provide a solid theoretical security foundation. Security models, including the probing model and its various extensions, enable formal verificat"
-    },
-    {
       "id": "af7e09f5cf6c",
       "title": "Practical Post-Quantum Secure Publicly Verifiable Secret Sharing and Applications",
       "link": "https://eprint.iacr.org/2026/813",
@@ -863,6 +843,16 @@
       "published": "2026-04-08T02:28:29+00:00",
       "ts": 1775615309.0,
       "summary": "Zero-knowledge proof (ZKP) schemes enable a prover to convince a verifier of the validity of a statement without revealing the underlying secret. These schemes have found extensive applications in secure communications, privacy-preserving transactions and blockchain technologies. However, the computational cost of proof generation remains a major obstacle to practical deployment. Although various "
+    },
+    {
+      "id": "c243dcc0edea",
+      "title": "An Efficient SM9-Compatible Identity-Based Blind Signature Scheme for One-Time Issuance Identities",
+      "link": "https://eprint.iacr.org/2026/676",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-07T03:17:17+00:00",
+      "ts": 1775531837.0,
+      "summary": "We present an identity-based blind signature scheme built on the SM9 Chinese national cryptographic standard. The scheme outputs standard SM9 signatures, removes all online pairing operations through a single setup-time pre-computation, and adds only one user-side exponentiation to achieve blindness. We prove two properties rigorously: \\emph{restricted target-identity unforgeability} (RTU) under t"
     },
     {
       "id": "d305b2065812",
@@ -1053,6 +1043,16 @@
       "published": "2025-04-09T13:50:57+00:00",
       "ts": 1744206657.0,
       "summary": "Abstract. Recently, Dupin and Abelard [11] proposed a broadcast encryption scheme, outperforming the Complete Subtree-based and Subset Difference broadcast encryption in terms of encryption cost and bandwidth requirement. However, Dupin and Abelard acknowledge that the worst-case bound for bandwidth requirement of Complete Subtree approach can be reached in their scheme as well. In this paper, we "
+    },
+    {
+      "id": "d1eb2e8a4c88",
+      "title": "A Note on P $\\neq$ NP",
+      "link": "https://eprint.iacr.org/2024/2035",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-12-17T08:18:53+00:00",
+      "ts": 1734423533.0,
+      "summary": "We study the Add/XNOR decision problem: given $n$ words of $n$ bits each, choose between addition modulo $2^n$ and bitwise XNOR at each position of a left-associative expression so that its final value is zero. We prove NP-completeness by a deterministic polynomial-time reduction from binary SUBSET-SUM. Independent four-bit guard fields force each successful four-operation gadget to consist entire"
     },
     {
       "id": "b664ea898e6b",
