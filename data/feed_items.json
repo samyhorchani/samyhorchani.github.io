@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T08:09:38.455683+00:00",
+  "generated_at": "2026-10-11T15:16:02.361480+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "004fbb2e40f0",
+      "title": "New website: estimating human cryptanalytic work",
+      "link": "https://blog.cryptographyengineering.com/2026/10/11/new-website-estimating-human-cryptanalytic-work/",
+      "source": "A Few Thoughts on Cryptographic Engineering",
+      "category": "crypto",
+      "published": "2026-10-11T14:14:03+00:00",
+      "ts": 1791728043.0,
+      "summary": "This is not so much a full post as it is an advertisement. I&#8217;ve been working with Claude and GPT 6 Astra to conduct a survey of historical cryptanalysis results, in an effort to determine how many human-hours have been spent attempting to cryptanalyze the problems we use in public-key encryption schemes. This is work &#8230; Continue reading New website: estimating human cryptanalytic&#160;w"
+    },
     {
       "id": "51af4a99e7f4",
       "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
@@ -435,16 +445,6 @@
       "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
     },
     {
-      "id": "d371fec5b56e",
-      "title": "Natural Barriers to Quantum Extraction: On the Post-Quantum (In)security of (O)EKE and Masny-Rindal OT",
-      "link": "https://eprint.iacr.org/2026/2280",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-30T14:42:37+00:00",
-      "ts": 1790779357.0,
-      "summary": "Encrypted key exchange (EKE), introduced by Bellovin and Merritt (IEEE S\\&amp;P 1992), and Masny-Rindal OT, introduced by Masny and Rindal (ACM CCS 2019), are highly-efficient methods for compiling essentially any KEM into advanced cryptographic protocols, namely password-authenticated key exchange (PAKE) and oblivious transfer (OT), by relying only on idealized symmetric-key primitives. They have"
-    },
-    {
       "id": "7f4900bb56a3",
       "title": "I Want Better Reporting on AI Genie Behavior",
       "link": "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
@@ -525,6 +525,16 @@
       "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off"
     },
     {
+      "id": "5d3371f5da74",
+      "title": "Low-Space Quantum Discrete Logarithms on Genus-Two Jacobians",
+      "link": "https://eprint.iacr.org/2026/2057",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-16T02:08:49+00:00",
+      "ts": 1789524529.0,
+      "summary": "Generic divisor-addition formulas require little arithmetic workspace but fail on exceptional inputs. We prove a randomized reduction that enables their use in quantum phase computation. The reduction uses two independent public group seeds in a finite abelian group of odd order. For every fixed input, the two child values at each internal node of a complete balanced addition tree are independent "
+    },
+    {
       "id": "aad7ed5b1d46",
       "title": "Weighted Batch Threshold Encryption with Efficient DKG",
       "link": "https://eprint.iacr.org/2026/2053",
@@ -573,6 +583,16 @@
       "published": "2026-09-08T21:44:22+00:00",
       "ts": 1788903862.0,
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
+    },
+    {
+      "id": "7eae207782cc",
+      "title": "Constant-Time Conditions for Left-to-Right Scalar Multiplication",
+      "link": "https://eprint.iacr.org/2026/1881",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-03T14:29:40+00:00",
+      "ts": 1788445780.0,
+      "summary": "We consider methods for scalar multiplication on an elliptic curve where the scalar digits are processed from left to right, that is, from most significant to least significant. We analyze exceptions that may arise during point addition and doubling throughout the multiplication. Eliminating such exceptions is critical for achieving constant-time execution and preventing timing attacks. We establi"
     },
     {
       "id": "94f014263cfc",
@@ -633,16 +653,6 @@
       "published": "2026-08-14T11:24:35+00:00",
       "ts": 1786706675.0,
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and c"
-    },
-    {
-      "id": "9ede6907c408",
-      "title": "Fully-Succinct Multi-Key FHE & Rate-1 Simulatable Threshold Decryption from LWE",
-      "link": "https://eprint.iacr.org/2026/1683",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-13T21:40:18+00:00",
-      "ts": 1786657218.0,
-      "summary": "We construct the first multi-key fully homomorphic encryption (MKFHE) scheme where the ciphertext size, public key size, and secret key size remain independent of the number of users, $N$. Our construction is leveled and relies on the standard Learning with Errors (LWE) assumption. All prior MKFHE schemes incur at least linear growth in ciphertext size with the number of users ($|\\mathsf{ct}| \\pro"
     },
     {
       "id": "30cb08c656eb",
@@ -935,16 +945,6 @@
       "summary": "This paper investigates hash-function constructions derived from lightweight block ciphers, that are suitable for evaluation in fully homomorphic encryption (FHE) settings. We focus on PRINCEv2, a 64-bit lightweight block cipher with 128-bit keys and low algebraic complexity, which is particularly amenable to FHE evaluation. However, the small block size of such ciphers limits the applicability of"
     },
     {
-      "id": "8786ec150779",
-      "title": "Revisiting Generic Transforms for Committing Authenticated Encryption",
-      "link": "https://eprint.iacr.org/2026/240",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-13T01:41:17+00:00",
-      "ts": 1770946877.0,
-      "summary": "Committing security for authenticated encryption (AE) captures the difficulty of constructing a distinct input tuple, including the key, that yields the same ciphertext. This notion is relatively new but has attracted significant attention due to its practical relevance. A promising direction is to design generic transforms that convert any AE scheme into a committing one. A common approach to gen"
-    },
-    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -1025,16 +1025,6 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "db1275ef2e81",
-      "title": "A bit more on Twitter/X’s new encrypted messaging",
-      "link": "https://blog.cryptographyengineering.com/2025/06/09/a-bit-more-on-twitter-xs-new-encrypted-messaging/",
-      "source": "A Few Thoughts on Cryptographic Engineering",
-      "category": "crypto",
-      "published": "2025-06-09T18:22:31+00:00",
-      "ts": 1749493351.0,
-      "summary": "Update 6/10: Based on a short conversation with an engineering lead at X, some of the devices used at X are claimed to be using HSMs. See more further below. Matthew Garrett has a nice post about Twitter (uh, X)&#8217;s new end-to-end encryption messaging protocol, which is now called XChat. The TL;DR of Matthew&#8217;s post &#8230; Continue reading A bit more on Twitter/X&#8217;s new encrypted&#1"
-    },
-    {
       "id": "e6f3482cf262",
       "title": "ADC-BE: Optimizing Worst-Case Bandwidth in Broadcast Encryption with Boolean Functions",
       "link": "https://eprint.iacr.org/2025/650",
@@ -1063,6 +1053,16 @@
       "published": "2022-10-08T03:38:05+00:00",
       "ts": 1665200285.0,
       "summary": "Learning with Errors (LWE) and its variants underlie many lattice-based cryptosystems, making accurate concrete attack-cost estimates important for parameter selection. Practical primal attacks combine lattice-basis reduction with a final shortest-vector search, and their performance depends strongly on how these components are scheduled. We formalize the two-step strategy space considered in this"
+    },
+    {
+      "id": "609395ecacd6",
+      "title": "Programmable Distributed Point Functions",
+      "link": "https://eprint.iacr.org/2022/1060",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2022-08-15T19:27:12+00:00",
+      "ts": 1660591632.0,
+      "summary": "A distributed point function (DPF) is a cryptographic primitive that enables compressed additive sharing of a secret unit vector across two or more parties. Despite growing ubiquity within applications and notable research efforts, the best 2-party DPF construction to date remains the tree-based construction from (Boyle et al, CCS'16), with no significantly new approaches since. We present a new f"
     }
   ]
 }
