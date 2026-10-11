@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T22:09:33.618412+00:00",
+  "generated_at": "2026-10-11T01:29:05.459189+00:00",
   "count": 105,
   "errors": [
     {
@@ -555,6 +555,16 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
+      "id": "d7129dc19856",
+      "title": "Akita: A High-Performance Lattice-Based Polynomial Commitment Scheme",
+      "link": "https://eprint.iacr.org/2026/1983",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-11T16:03:03+00:00",
+      "ts": 1789142583.0,
+      "summary": "Lattice-based polynomial commitment schemes (PCSs) promise post-quantum SNARKs with two properties that elliptic curves provide and hash-based schemes, today's deployed post-quantum default, do not: concretely small proofs and commitment time proportional to the number of nonzero entries in the committed polynomial rather than its length. The second property is essential to Twist and Shout (CRYPTO"
+    },
+    {
       "id": "0c016fa822b6",
       "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
       "link": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
@@ -883,16 +893,6 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
-    },
-    {
-      "id": "634061594793",
-      "title": "A Resource-Efficient Hardware Accelerator for Large-Size NTT via Algorithm–Architecture Co-Design",
-      "link": "https://eprint.iacr.org/2026/460",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-05T11:59:42+00:00",
-      "ts": 1772711982.0,
-      "summary": "Large-size Number Theoretic Transforms (NTTs) are key operations in modern Zero-Knowledge Proofs (ZKPs), where the NTT size often reaches millions of points and the arithmetic is over wide prime fields. To handle such NTTs on hardware, prior designs commonly rely on the decomposition algorithm, which makes large-size NTTs feasible by streaming sub-NTTs through limited on-chip buffers. However, in "
     },
     {
       "id": "b7ffc9dc8c13",
