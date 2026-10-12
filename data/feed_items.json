@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-12T03:51:09.833510+00:00",
+  "generated_at": "2026-10-12T11:34:39.435766+00:00",
   "count": 105,
   "errors": [
     {
       "source": "ANSSI — Actualités",
       "url": "https://www.ssi.gouv.fr/feed/actualites/",
-      "error": "<unknown>:64:14: not well-formed (invalid token)"
+      "error": "<unknown>:85:4: mismatched tag"
     },
     {
       "source": "NCC Group Research",
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "65c4aea503f5",
+      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+      "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-12T10:36:56+00:00",
+      "ts": 1791801416.0,
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker \"to direct the appliance to issue requests on their"
+    },
+    {
+      "id": "274dc93ff92a",
+      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-12T09:02:14+00:00",
+      "ts": 1791795734.0,
+      "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The"
+    },
+    {
+      "id": "938e67be9c8d",
+      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+      "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-12T07:26:12+00:00",
+      "ts": 1791789972.0,
+      "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed"
+    },
     {
       "id": "004fbb2e40f0",
       "title": "New website: estimating human cryptanalytic work",
@@ -52,7 +82,7 @@
       "category": "veille",
       "published": "2026-10-10T09:18:45+00:00",
       "ts": 1791623925.0,
-      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos"
+      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude"
     },
     {
       "id": "878d602d6c0b",
@@ -163,36 +193,6 @@
       "published": "2026-10-09T09:03:24+00:00",
       "ts": 1791536604.0,
       "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over. Searchlight Cyber, which&nbsp;disclosed the flaw&nbsp;on October 8, says an attacker who recovers the key can redirect the site's visitors to a copy of the site they control."
-    },
-    {
-      "id": "9ae763f227a2",
-      "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
-      "link": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T08:26:17+00:00",
-      "ts": 1791534377.0,
-      "summary": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and passes the flaws to the vendors. One of the three Pixel exploits earned Ikotas Labs $300,000, the contest's top prize, and made the team the overall winner. Trend Micro's Zero"
-    },
-    {
-      "id": "96f800da1adf",
-      "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-      "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T08:11:33+00:00",
-      "ts": 1791533493.0,
-      "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions. \"CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions,\" Citrix said. The vulnerability"
-    },
-    {
-      "id": "702682673fff",
-      "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
-      "link": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T06:39:29+00:00",
-      "ts": 1791527969.0,
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon. To that end, the agencies seized several domains and blocked access to platforms that were used to scan, and in some cases infiltrate, U.S. critical infrastructure. The list of seized"
     },
     {
       "id": "b03b15e0f278",
@@ -495,6 +495,16 @@
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
     },
     {
+      "id": "8ce48630fa00",
+      "title": "Static Group Signature with Post-Compromise Accountability",
+      "link": "https://eprint.iacr.org/2026/2184",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-23T14:20:34+00:00",
+      "ts": 1790173234.0,
+      "summary": "Signatures with Post-Compromise Accountability (SPCA), introduced by Dayanikli et al. at SCN'26, are signature schemes that enable signatures generated before the compromise of a signing key to be distinguished from those produced after the compromise. In this paper, we extend this notion to static group signatures and introduce Group Signatures with Post-Compromise Accountability (GSPCA). GSPCA p"
+    },
+    {
       "id": "71c4a4caf94f",
       "title": "SAML: A fractal of bad design",
       "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
@@ -675,16 +685,6 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
-      "id": "98d357cc6bd4",
-      "title": "D-James: Ultra Short Multivariate Signatures",
-      "link": "https://eprint.iacr.org/2026/1650",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-10T16:15:46+00:00",
-      "ts": 1786378546.0,
-      "summary": "Multivariate signature schemes are among the few post-quantum candidates capable of providing very short signatures, but designing secure constructions has proven challenging. HFE-based schemes such as G$e$MSS were compromised by algebraic MinRank attacks. This motivates the HFE$_\\text{IP}^-$ framework, which combines IP and minus modifiers to address these attacks. We introduce James and D-James,"
-    },
-    {
       "id": "5ce90ec573e9",
       "title": "A few notes on AWS Nitro Enclaves: KMS integration",
       "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
@@ -723,6 +723,16 @@
       "published": "2026-07-28T11:00:00+00:00",
       "ts": 1785236400.0,
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
+    },
+    {
+      "id": "7f47dbd5edf4",
+      "title": "Batched Oblivious Transfer with Square-Root Communication",
+      "link": "https://eprint.iacr.org/2026/1541",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-28T03:36:57+00:00",
+      "ts": 1785209817.0,
+      "summary": "Oblivious Transfer (OT) is a fundamental cryptographic primitive and a core building block for many multiparty cryptographic protocols. While existing OT extension techniques achieve excellent asymptotic efficiency for very large batches, their performance degrades when the total number of OTs is only moderate, since the cost of generating the required base OTs is no longer effectively amortized. "
     },
     {
       "id": "bdc2700324bc",
@@ -775,6 +785,16 @@
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
     },
     {
+      "id": "12ee7e40a3cb",
+      "title": "A Note on Splittings and Endomorphisms",
+      "link": "https://eprint.iacr.org/2026/1198",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-08T09:44:08+00:00",
+      "ts": 1780911848.0,
+      "summary": "Finding a nontrivial endomorphism of a given supersingular elliptic curve is a hardness assumption of isogeny-based cryptography. We prove the reduction from it to the problem of finding a splitting of a given principally polarized abelian surface. By using this new reduction, we also prove the heuristic equivalence of the splitting problem with a degree restriction and the endomorphism ring probl"
+    },
+    {
       "id": "7990c40a74ab",
       "title": "Let’s talk about encrypted reasoning",
       "link": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
@@ -783,26 +803,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "1bba1684b22b",
-      "title": "Threshold Traitor Tracing with Partial-Insider Resilience",
-      "link": "https://eprint.iacr.org/2026/1059",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-26T14:28:16+00:00",
-      "ts": 1779805696.0,
-      "summary": "Threshold traitor tracing (Boneh et al. Crypto'24) addresses collusion in threshold encryption by tracing parties who collude to build illegal decryption devices called decoders. However, the original definition does not capture settings where adversaries can access partial decryptions published during normal system operation. In such settings, decoders sold to external buyers could depend on inpu"
-    },
-    {
-      "id": "af7e09f5cf6c",
-      "title": "Practical Post-Quantum Secure Publicly Verifiable Secret Sharing and Applications",
-      "link": "https://eprint.iacr.org/2026/813",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-24T21:24:47+00:00",
-      "ts": 1777065887.0,
-      "summary": "We present a new framework for constructing practically efficient publicly verifiable secret sharing (PVSS) with $non-interactive$ $dealers$, in that the dealer may go offline after sending a single message, and is not involved in the share verification process. We use identity-based encryption (IBE) and commitments as the main ingredients and avoid expensive zero-knowledge proofs. By instantiatin"
     },
     {
       "id": "e867d3e3dacb",
