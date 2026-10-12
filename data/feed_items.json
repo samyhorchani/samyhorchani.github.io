@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T11:34:39.435766+00:00",
+  "generated_at": "2026-10-12T20:45:58.676936+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "cc3a1b2ae6b2",
+      "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+      "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-12T15:16:26+00:00",
+      "ts": 1791818186.0,
+      "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves."
+    },
+    {
+      "id": "96467e4b9fc5",
+      "title": "FBI Arrests Suspect in FBI-Hacking Case",
+      "link": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-12T15:01:26+00:00",
+      "ts": 1791817286.0,
+      "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster. Last week, the FBI arrested (alternate link) someone associated with that crime."
+    },
+    {
+      "id": "1165d285fcb5",
+      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+      "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-12T11:55:00+00:00",
+      "ts": 1791806100.0,
+      "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up. Regardless, the tech world is mesmerized by the capabilities and potential of these services. Less than a year"
+    },
+    {
+      "id": "f474f0bad7de",
+      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+      "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-12T11:21:48+00:00",
+      "ts": 1791804108.0,
+      "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who had purchased products from CryptoBilis. The incident is said to have resulted in losses totaling more than $86"
+    },
     {
       "id": "65c4aea503f5",
       "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
@@ -165,36 +205,6 @@
       "summary": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners. Details of the flaws are below - CVE-2026-105133 (CVSS v4 score: 5.5) - An improper authentication vulnerability in the checkSysPwd() function in the \"com/ahsay/obs/api/ApiStructsAction.java\""
     },
     {
-      "id": "ca26bf4f52b5",
-      "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
-      "link": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T12:21:51+00:00",
-      "ts": 1791548511.0,
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon. The vulnerabilities in question are listed below - CVE-2015-3306 (CVSS score: 10.0) - An improper access control vulnerability in ProFTPD that could allow"
-    },
-    {
-      "id": "1f1893acd123",
-      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
-      "link": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T11:30:00+00:00",
-      "ts": 1791545400.0,
-      "summary": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in AI-speed business operations while continuing to rely on human-speed security controls, creating a"
-    },
-    {
-      "id": "e758a32300c8",
-      "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
-      "link": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T09:03:24+00:00",
-      "ts": 1791536604.0,
-      "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then take that address over. Searchlight Cyber, which&nbsp;disclosed the flaw&nbsp;on October 8, says an attacker who recovers the key can redirect the site's visitors to a copy of the site they control."
-    },
-    {
       "id": "b03b15e0f278",
       "title": "How Technology Empowers—and Imperils—Dictators",
       "link": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
@@ -223,6 +233,66 @@
       "published": "2026-10-07T11:07:36+00:00",
       "ts": 1791371256.0,
       "summary": "Apple just released a system called &#8220;Reference Image.&#8221; It can verify the image is exactly as taken by an iPhone&#8212;new models only&#8212;without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own credentials. We are conce"
+    },
+    {
+      "id": "b58c938c720c",
+      "title": "Fair and Efficient Helper-Aided MPC with Cheater Identification",
+      "link": "https://eprint.iacr.org/2026/2392",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-07T09:28:44+00:00",
+      "ts": 1791365324.0,
+      "summary": "Secure multi-party computation (MPC) enables privacy-preserving tasks such as auctions and voting. In practice, more than half of the parties may collude, making security against a dishonest majority desirable. Unfortunately, dishonest-majority MPC suffers from high communication and can achieve only abort security. For instance, in an auction, an adversary may abort after learning the outcome and"
+    },
+    {
+      "id": "001caf75a5f1",
+      "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access (07 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1275/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-07T00:00:00+00:00",
+      "ts": 1791331200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Sonicwall Secure Mobile Access. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance (XSS)...."
+    },
+    {
+      "id": "a6ac25dbcefd",
+      "title": "Multiples vulnérabilités dans les produits Elastic (07 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1276/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-07T00:00:00+00:00",
+      "ts": 1791331200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de la politique de sécurité."
+    },
+    {
+      "id": "05361d26f207",
+      "title": "Multiples vulnérabilités dans SPIP (07 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1279/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-07T00:00:00+00:00",
+      "ts": 1791331200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "b2a032b3f4c2",
+      "title": "Multiples vulnérabilités dans les produits Veeam (07 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1278/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-07T00:00:00+00:00",
+      "ts": 1791331200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS)."
+    },
+    {
+      "id": "611604af9e58",
+      "title": "Multiples vulnérabilités dans WordPress (07 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1273/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-07T00:00:00+00:00",
+      "ts": 1791331200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
       "id": "cbdd34ec8fc0",
@@ -273,16 +343,6 @@
       "published": "2026-10-05T11:04:47+00:00",
       "ts": 1791198287.0,
       "summary": "This one is from 1809, written by Napoleon&#8217;s nephew."
-    },
-    {
-      "id": "c4e58f69537b",
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-042 (05 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-042/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-05T00:00:00+00:00",
-      "ts": 1791158400.0,
-      "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des..."
     },
     {
       "id": "09b03113ecb6",
@@ -385,46 +445,6 @@
       "summary": "Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC, a pair of related hash constructions that bring secure multihashing to de"
     },
     {
-      "id": "a91ad728a621",
-      "title": "Vulnérabilité dans Fortinet FortiMail (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1257/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "Une vulnérabilité a été découverte dans Fortinet FortiMail. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Fortinet indique que la vulnérabilité CVE-2026-104286 est activement exploitée. Des indicateurs de compromission sont disponibles dans l'avis de l'éditeur."
-    },
-    {
-      "id": "fc395c943e67",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1254/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance."
-    },
-    {
-      "id": "b2641b4e7630",
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1255/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
-      "id": "010fab7b9e8f",
-      "title": "Multiples vulnérabilités dans les produits IBM (02 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1256/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-02T00:00:00+00:00",
-      "ts": 1790899200.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
-    },
-    {
       "id": "4eea68c2ad9f",
       "title": "Connected Cars Are a Surveillance Platform",
       "link": "https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html",
@@ -443,16 +463,6 @@
       "published": "2026-09-30T18:30:13+00:00",
       "ts": 1790793013.0,
       "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
-    },
-    {
-      "id": "7f4900bb56a3",
-      "title": "I Want Better Reporting on AI Genie Behavior",
-      "link": "https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-09-30T11:05:35+00:00",
-      "ts": 1790766335.0,
-      "summary": "AI systems are regularly completing tasks in ways that their prompters don&#8217;t want or intend. Some of them are disturbing, and some of them are dangerous. This is something I&#8217;ve been calling &#8220;genie behavior,&#8221; because I think that really gets at the core of what&#8217;s happening. I wish the popular press would report on this better. I don&#8217;t like the &#8220;going rogue&"
     },
     {
       "id": "535fdeca402d",
@@ -515,6 +525,16 @@
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it&rsquo;s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoni"
     },
     {
+      "id": "a61fa133af99",
+      "title": "ANSA-IBS: Identity-Based Signatures from Annular NTRU Trapdoors and Bimodal Fiat-Shamir with Aborts",
+      "link": "https://eprint.iacr.org/2026/2134",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-21T06:18:04+00:00",
+      "ts": 1789971484.0,
+      "summary": "We give a lattice identity-based signature scheme from annular NTRU trapdoors and Fiat--Shamir with aborts (FSwA). Countered hashing maps each identity to its first invertible DLP/NTRU syndrome $a$. Extraction returns a short witness to $s_0+s_1h=a\\bmod q$, and signing normalizes this relation to a fixed-target two-response equation with public commitment recovery. Gärtner's iterative rejection me"
+    },
+    {
       "id": "a91514e92c6f",
       "title": "Auditing in the age of (good enough) AI",
       "link": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
@@ -545,16 +565,6 @@
       "summary": "Generic divisor-addition formulas require little arithmetic workspace but fail on exceptional inputs. We prove a randomized reduction that enables their use in quantum phase computation. The reduction uses two independent public group seeds in a finite abelian group of odd order. For every fixed input, the two child values at each internal node of a complete balanced addition tree are independent "
     },
     {
-      "id": "aad7ed5b1d46",
-      "title": "Weighted Batch Threshold Encryption with Efficient DKG",
-      "link": "https://eprint.iacr.org/2026/2053",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-15T21:02:08+00:00",
-      "ts": 1789506128.0,
-      "summary": "Batch threshold encryption allows a committee to decrypt a selected batch of ciphertexts using one short pre-decryption key per party, while ciphertexts outside the batch remain private. This makes batch threshold encryption attractive for building encrypted mempools for blockchains, where validators reveal transactions selected for a block while pending transactions remain private. However, in pr"
-    },
-    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -563,16 +573,6 @@
       "published": "2026-09-15T11:00:00+00:00",
       "ts": 1789470000.0,
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
-    },
-    {
-      "id": "d7129dc19856",
-      "title": "Akita: A High-Performance Lattice-Based Polynomial Commitment Scheme",
-      "link": "https://eprint.iacr.org/2026/1983",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-11T16:03:03+00:00",
-      "ts": 1789142583.0,
-      "summary": "Lattice-based polynomial commitment schemes (PCSs) promise post-quantum SNARKs with two properties that elliptic curves provide and hash-based schemes, today's deployed post-quantum default, do not: concretely small proofs and commitment time proportional to the number of nonzero entries in the committed polynomial rather than its length. The second property is essential to Twist and Shout (CRYPTO"
     },
     {
       "id": "0c016fa822b6",
@@ -625,6 +625,16 @@
       "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a \"sophisticated"
     },
     {
+      "id": "4cb090d0c9d8",
+      "title": "Cross-Signature Signing-Key Recovery and Domain-Separation Repair for SDitH v2",
+      "link": "https://eprint.iacr.org/2026/1808",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-26T17:55:06+00:00",
+      "ts": 1787766906.0,
+      "summary": "SDitH is a code-based signature scheme built from the regular syndrome decoding (RSD) problem. Each v2 signature masks the long-term witness with pseudorandom leaf-seed shares. In each repetition, cancelling the shares reconstructed by the verifier leaves the witness XORed with the hidden seed's PRG output. The VOLEitH PRG runs AES or Rijndael in counter mode from zero, so every signature and leaf"
+    },
+    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -645,6 +655,16 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
+      "id": "8bb1e4b84cdc",
+      "title": "DTRU: A Versatile, Compact, Simple, and Robust NTRU KEM with Double $E_8$ Encoding",
+      "link": "https://eprint.iacr.org/2026/1701",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-16T01:52:58+00:00",
+      "ts": 1786845178.0,
+      "summary": "Responding to China's 2025 call for commercial cryptographic standards mandating 128-bit, 256-bit, and 512-bit security (optional 384-bit), we propose DTRU, a versatile, compact, simple, and robust NTRU-based key encapsulation mechanism (KEM). Our principal design contribution is double $E_8$ encoding, which constructs 16-dimensional lattice codes from $E_8$ with low decoding complexity. We furthe"
+    },
+    {
       "id": "bea5a06fb576",
       "title": "Everything is about to “go dark”",
       "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
@@ -663,6 +683,16 @@
       "published": "2026-08-14T11:24:35+00:00",
       "ts": 1786706675.0,
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and c"
+    },
+    {
+      "id": "d7cff90d5df7",
+      "title": "Critical-Round Special Soundness for Multi-Round Proofs",
+      "link": "https://eprint.iacr.org/2026/1679",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-13T16:22:56+00:00",
+      "ts": 1786638176.0,
+      "summary": "Multi-round public-coin proof systems have progressed rapidly, yet their simulators and extractors are rarely used as building blocks in other protocols, unlike those of 3-move $\\Sigma$-protocols. Prior work [Abe et al., Eurocrypt~'26] addressed the simulator side with critical-round zero-knowledge. In this paper, we address the extractor side and introduce critical-round special soundness (CRSS):"
     },
     {
       "id": "30cb08c656eb",
@@ -713,6 +743,16 @@
       "published": "2026-07-29T14:23:30+00:00",
       "ts": 1785335010.0,
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
+    },
+    {
+      "id": "5d4f864ea9c4",
+      "title": "Signing-Key Recovery from Unsalted Root Expansion and Salt-Binding Repair for MQOM v2",
+      "link": "https://eprint.iacr.org/2026/1542",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-28T12:30:08+00:00",
+      "ts": 1785241808.0,
+      "summary": "We give the first passive signing-key recovery attack on MQOM v2 in the classical EUF-CMA setting by exploiting the generation of the correlated GGM trees used in each signature. MQOM v2 expands a fresh $\\lambda$-bit signature master seed, denoted $\\mathsf{mseed}$ in the specification, with a PRG call whose salt input is always zero. A repeated $\\mathsf{mseed}$ therefore produces the same GGM root"
     },
     {
       "id": "9746ad058ff2",
@@ -845,16 +885,6 @@
       "summary": "Posted by Ben Ackerman, Chrome team, Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team Following our April 2024 announcement, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to comba"
     },
     {
-      "id": "f59a6cdf54ea",
-      "title": "Secure MSM Outsourcing Computation for Zero-knowledge Proof Generation",
-      "link": "https://eprint.iacr.org/2026/686",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-08T02:28:29+00:00",
-      "ts": 1775615309.0,
-      "summary": "Zero-knowledge proof (ZKP) schemes enable a prover to convince a verifier of the validity of a statement without revealing the underlying secret. These schemes have found extensive applications in secure communications, privacy-preserving transactions and blockchain technologies. However, the computational cost of proof generation remains a major obstacle to practical deployment. Although various "
-    },
-    {
       "id": "c243dcc0edea",
       "title": "An Efficient SM9-Compatible Identity-Based Blind Signature Scheme for One-Time Issuance Identities",
       "link": "https://eprint.iacr.org/2026/676",
@@ -933,16 +963,6 @@
       "published": "2026-02-19T17:00:00+00:00",
       "ts": 1771520400.0,
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
-    },
-    {
-      "id": "51b3dd5afa41",
-      "title": "Hash Function Constructions from Lightweight Block Ciphers for Fully Homomorphic Encryption",
-      "link": "https://eprint.iacr.org/2026/309",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-18T14:45:35+00:00",
-      "ts": 1771425935.0,
-      "summary": "This paper investigates hash-function constructions derived from lightweight block ciphers, that are suitable for evaluation in fully homomorphic encryption (FHE) settings. We focus on PRINCEv2, a 64-bit lightweight block cipher with 128-bit keys and low algebraic complexity, which is particularly amenable to FHE evaluation. However, the small block size of such ciphers limits the applicability of"
     },
     {
       "id": "96ed87c2cba3",
@@ -1025,16 +1045,6 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "e6f3482cf262",
-      "title": "ADC-BE: Optimizing Worst-Case Bandwidth in Broadcast Encryption with Boolean Functions",
-      "link": "https://eprint.iacr.org/2025/650",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-04-09T13:50:57+00:00",
-      "ts": 1744206657.0,
-      "summary": "Abstract. Recently, Dupin and Abelard [11] proposed a broadcast encryption scheme, outperforming the Complete Subtree-based and Subset Difference broadcast encryption in terms of encryption cost and bandwidth requirement. However, Dupin and Abelard acknowledge that the worst-case bound for bandwidth requirement of Complete Subtree approach can be reached in their scheme as well. In this paper, we "
-    },
-    {
       "id": "d1eb2e8a4c88",
       "title": "A Note on P $\\neq$ NP",
       "link": "https://eprint.iacr.org/2024/2035",
@@ -1043,16 +1053,6 @@
       "published": "2024-12-17T08:18:53+00:00",
       "ts": 1734423533.0,
       "summary": "We study the Add/XNOR decision problem: given $n$ words of $n$ bits each, choose between addition modulo $2^n$ and bitwise XNOR at each position of a left-associative expression so that its final value is zero. We prove NP-completeness by a deterministic polynomial-time reduction from binary SUBSET-SUM. Independent four-bit guard fields force each successful four-operation gadget to consist entire"
-    },
-    {
-      "id": "b664ea898e6b",
-      "title": "Refined Strategy for Solving LWE in Two-step Mode",
-      "link": "https://eprint.iacr.org/2022/1343",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2022-10-08T03:38:05+00:00",
-      "ts": 1665200285.0,
-      "summary": "Learning with Errors (LWE) and its variants underlie many lattice-based cryptosystems, making accurate concrete attack-cost estimates important for parameter selection. Practical primal attacks combine lattice-basis reduction with a final shortest-vector search, and their performance depends strongly on how these components are scheduled. We formalize the two-step strategy space considered in this"
     },
     {
       "id": "609395ecacd6",
