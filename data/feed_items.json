@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T17:27:05.830799+00:00",
+  "generated_at": "2026-10-13T22:11:45.956513+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "626e58ba6983",
+      "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+      "link": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T18:20:57+00:00",
+      "ts": 1791915657.0,
+      "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are \"challenging to shut down,\" since \"there's no centralized point to shut off.\""
+    },
+    {
+      "id": "64ad73050c5a",
+      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+      "link": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T18:03:18+00:00",
+      "ts": 1791914598.0,
+      "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it. The flaw was in the feature that&nbsp;converts a personal account&nbsp;into an organization, Docker said in a&nbsp;security advisory&nbsp;on October 12."
+    },
+    {
+      "id": "22b0110b0355",
+      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+      "link": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T17:33:11+00:00",
+      "ts": 1791912791.0,
+      "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm&nbsp;Volexity said&nbsp;on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third is still pending, according to Volexity. Volexity, which reported the flaws to Ivanti,"
+    },
+    {
+      "id": "4f973c800508",
+      "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
+      "link": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T17:28:50+00:00",
+      "ts": 1791912530.0,
+      "summary": "A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python client for BTP services. An attacker must be able to control the tenant subdomain,"
+    },
     {
       "id": "5047514f1d3c",
       "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
@@ -133,46 +173,6 @@
       "published": "2026-10-12T11:55:00+00:00",
       "ts": 1791806100.0,
       "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up. Regardless, the tech world is mesmerized by the capabilities and potential of these services. Less than a year"
-    },
-    {
-      "id": "f474f0bad7de",
-      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-      "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-12T11:21:48+00:00",
-      "ts": 1791804108.0,
-      "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who had purchased products from CryptoBilis. The incident is said to have resulted in losses totaling more than $86"
-    },
-    {
-      "id": "65c4aea503f5",
-      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-      "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-12T10:36:56+00:00",
-      "ts": 1791801416.0,
-      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker \"to direct the appliance to issue requests on their"
-    },
-    {
-      "id": "274dc93ff92a",
-      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-12T09:02:14+00:00",
-      "ts": 1791795734.0,
-      "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The"
-    },
-    {
-      "id": "938e67be9c8d",
-      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-      "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-12T07:26:12+00:00",
-      "ts": 1791789972.0,
-      "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed"
     },
     {
       "id": "004fbb2e40f0",
@@ -625,16 +625,6 @@
       "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a \"sophisticated"
     },
     {
-      "id": "4cb090d0c9d8",
-      "title": "Cross-Signature Signing-Key Recovery and Domain-Separation Repair for SDitH v2",
-      "link": "https://eprint.iacr.org/2026/1808",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-26T17:55:06+00:00",
-      "ts": 1787766906.0,
-      "summary": "SDitH is a code-based signature scheme built from the regular syndrome decoding (RSD) problem. Each v2 signature masks the long-term witness with pseudorandom leaf-seed shares. In each repetition, cancelling the shares reconstructed by the verifier leaves the witness XORed with the hidden seed's PRG output. The VOLEitH PRG runs AES or Rijndael in counter mode from zero, so every signature and leaf"
-    },
-    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -1043,6 +1033,16 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
+    },
+    {
+      "id": "dfabd960d3bf",
+      "title": "What’s the Matter? An In-Depth Security Analysis of the Matter Protocol",
+      "link": "https://eprint.iacr.org/2025/1268",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-07-10T14:51:26+00:00",
+      "ts": 1752159086.0,
+      "summary": "The Matter protocol has emerged as the leading standard for secure IoT interoperability, backed by major vendors such as Apple, Google, Amazon, Samsung, and others. With millions of Matter devices already deployed, its security guarantees are critical to the safety of modern IoT ecosystems. This paper presents the first in-depth analysis of Matter's key establishment protocols: Passcode-Authentica"
     },
     {
       "id": "68457873f036",
