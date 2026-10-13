@@ -1,159 +1,271 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Veille — Samy HORCHANI</title>
+<script src="https://cdn.tailwindcss.com"></script>
+
 <style>
-  :root{
-    --bg:#0b0d0c;
-    --bg-raised:#111413;
-    --line:#1f2624;
-    --text:#d7ddd9;
-    --text-dim:#7d8b85;
-    --accent:#5fe38c;
-    --accent-dim:#2f6b48;
-    --warn:#e3b95f;
-    --font-mono:"JetBrains Mono","SFMono-Regular",Consolas,Menlo,monospace;
-    --maxw:760px;
-  }
-  *{box-sizing:border-box;}
-  html{scroll-padding-top:70px;}
-  body{
-    margin:0;
-    background:var(--bg);
-    color:var(--text);
-    font-family:var(--font-mono);
-    font-size:15px;
-    line-height:1.55;
-    -webkit-font-smoothing:antialiased;
-  }
-  a{color:inherit;}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
 
-  header{
-    position:sticky; top:0; z-index:10;
-    background:rgba(11,13,12,0.92);
-    backdrop-filter:blur(6px);
-    border-bottom:1px solid var(--line);
-  }
-  .nav{
-    max-width:var(--maxw); margin:0 auto; padding:14px 20px;
-    display:flex; align-items:center; justify-content:space-between; gap:16px;
-    flex-wrap:wrap;
-  }
-  .brand{font-size:14px; color:var(--text-dim); text-decoration:none;}
-  .brand b{color:var(--accent); font-weight:500;}
-  .links{display:flex; gap:18px; font-size:13px;}
-  .links a{color:var(--text-dim); text-decoration:none; border-bottom:1px solid transparent;}
-  .links a:hover, .links a:focus-visible{color:var(--text); border-color:var(--accent);}
-  .links a.current{color:var(--accent);}
+:root {
+  --green: #00ff9f;
+  --green-dim: #00cc7a;
+  --cyan: #00e5ff;
+  --amber: #ffb300;
+  --violet: #a78bfa;
+  --slate: #94a3b8;
+}
 
-  main{max-width:var(--maxw); margin:0 auto; padding:28px 20px 80px;}
+html { scroll-padding-top: 80px; }
+body { font-family: 'Inter', sans-serif; }
+.mono { font-family: 'JetBrains Mono', monospace; }
 
-  .prompt{color:var(--text-dim); font-size:13px; margin:0 0 4px;}
-  .prompt::before{content:"$ "; color:var(--accent);}
-  h1{font-size:20px; font-weight:500; margin:0 0 22px; color:var(--text);}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg, transparent, transparent 2px,
+    rgba(0,255,159,0.015) 2px, rgba(0,255,159,0.015) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
 
-  .meta-row{
-    display:flex; align-items:center; justify-content:space-between;
-    gap:10px; flex-wrap:wrap; margin-bottom:18px;
-    font-size:12px; color:var(--text-dim);
-  }
-  #status-dot{display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--accent); margin-right:6px; box-shadow:0 0 6px var(--accent);}
+.glow { text-shadow: 0 0 8px var(--green); }
 
-  .controls{
-    display:flex; flex-wrap:wrap; gap:8px; margin-bottom:22px;
-    padding-bottom:18px; border-bottom:1px solid var(--line);
-  }
-  .chip{
-    font-family:var(--font-mono); font-size:12px; color:var(--text-dim);
-    background:var(--bg-raised); border:1px solid var(--line);
-    padding:5px 11px; border-radius:3px; cursor:pointer;
-    transition:border-color .15s, color .15s;
-  }
-  .chip:hover{color:var(--text); border-color:var(--text-dim);}
-  .chip.active{color:var(--bg); background:var(--accent); border-color:var(--accent);}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+.cursor::after {
+  content: '█';
+  color: var(--green);
+  animation: blink 1s step-end infinite;
+  margin-left: 2px;
+}
 
-  .search{
-    width:100%; margin-bottom:22px;
-    background:var(--bg-raised); border:1px solid var(--line); border-radius:3px;
-    color:var(--text); font-family:var(--font-mono); font-size:13px;
-    padding:9px 12px;
-  }
-  .search:focus{outline:none; border-color:var(--accent-dim);}
-  .search::placeholder{color:var(--text-dim);}
+.tag-crypto    { background: rgba(0,255,159,0.08); color: #00ff9f; border: 1px solid rgba(0,255,159,0.25); }
+.tag-recherche { background: rgba(0,229,255,0.08); color: #00e5ff; border: 1px solid rgba(0,229,255,0.25); }
+.tag-anssi     { background: rgba(255,179,0,0.08); color: #ffb300; border: 1px solid rgba(255,179,0,0.25); }
+.tag-veille    { background: rgba(167,139,250,0.1); color: #a78bfa; border: 1px solid rgba(167,139,250,0.25); }
+.tag-neutral   { background: rgba(255,255,255,0.05); color: #94a3b8; border: 1px solid rgba(255,255,255,0.1); }
 
-  .day-heading{
-    font-size:12px; color:var(--text-dim); margin:26px 0 10px;
-    text-transform:lowercase;
-  }
-  .day-heading:first-of-type{margin-top:0;}
+.card {
+  border: 1px solid rgba(0,255,159,0.12);
+  background: rgba(0,10,5,0.6);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.card:hover { border-color: rgba(0,255,159,0.3); box-shadow: 0 0 24px rgba(0,255,159,0.06); }
 
-  .item{
-    display:block; padding:14px 0; border-bottom:1px solid var(--line);
-    text-decoration:none; color:var(--text);
-    transition:opacity .15s;
-  }
-  .item:hover .item-title{color:var(--accent);}
-  .item.read{opacity:0.45;}
-  .item-top{display:flex; gap:10px; align-items:baseline; font-size:11.5px; color:var(--text-dim); margin-bottom:5px; flex-wrap:wrap;}
-  .item-source{color:var(--accent-dim); background:rgba(95,227,140,0.08); padding:1px 7px; border-radius:2px;}
-  .item-title{font-size:14.5px; color:var(--text); display:block; margin-bottom:4px;}
-  .item-summary{font-size:12.5px; color:var(--text-dim); max-width:64ch;}
+.section-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--green);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
 
-  .empty, .errbox{
-    font-size:13px; color:var(--text-dim); border:1px dashed var(--line);
-    border-radius:4px; padding:18px; margin-top:10px;
-  }
-  .errbox{border-color:var(--warn); color:var(--warn);}
-  .empty code, .errbox code{color:var(--text); background:var(--bg-raised); padding:1px 5px; border-radius:2px;}
+nav a.nav-link { position: relative; }
+nav a.nav-link::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: var(--green);
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+nav a.nav-link:hover::after,
+nav a.nav-link.active::after { transform: scaleX(1); }
+nav a.nav-link.active { color: var(--green); }
 
-  footer{max-width:var(--maxw); margin:0 auto; padding:0 20px 40px; font-size:11px; color:var(--text-dim);}
+/* Filter chips */
+.chip {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 0.15s, box-shadow 0.15s;
+}
+.chip:hover { opacity: 0.85; }
+.chip.active { opacity: 1; box-shadow: 0 0 12px rgba(0,255,159,0.12); }
 
-  @media (max-width:480px){
-    .nav{padding:12px 16px;}
-    main{padding:22px 16px 60px;}
-  }
+/* Search */
+.search {
+  width: 100%;
+  background: rgba(0,10,5,0.6);
+  border: 1px solid rgba(0,255,159,0.15);
+  border-radius: 0.375rem;
+  color: #e2e8f0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  padding: 0.6rem 0.9rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.search:focus { outline: none; border-color: rgba(0,255,159,0.5); box-shadow: 0 0 12px rgba(0,255,159,0.08); }
+.search::placeholder { color: #64748b; }
+
+/* Feed items */
+.day-heading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: #64748b;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 2rem 0 0.75rem;
+}
+.day-heading::before { content: '// '; color: var(--green-dim); }
+.day-heading:first-child { margin-top: 0; }
+
+.item {
+  display: block;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid rgba(0,255,159,0.08);
+  background: rgba(0,10,5,0.6);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: border-color 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+.item:hover { border-color: rgba(0,255,159,0.3); box-shadow: 0 0 24px rgba(0,255,159,0.06); }
+.item:hover .item-title { color: var(--green); }
+.item.read { opacity: 0.45; }
+.item.read:hover { opacity: 0.8; }
+.item-title { color: #e2e8f0; font-weight: 500; transition: color 0.15s; }
+
+#status-dot {
+  display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--green); box-shadow: 0 0 6px var(--green);
+  margin-right: 0.5rem; vertical-align: middle;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: rgba(0,255,159,0.2); border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
 </style>
 </head>
-<body>
 
-<header>
-  <div class="nav">
-    <a class="brand" href="index.html">~/samy.horchani</a>
-    <nav class="links">
-      <a href="index.html#work">work</a>
-      <a href="index.html#projects">projects</a>
-      <a href="notes.html">notes</a>
-      <a href="veille.html" class="current">veille</a>
-    </nav>
-  </div>
+<body class="bg-[#020c06] text-slate-200 antialiased">
+
+<!-- Navbar -->
+<header class="border-b border-[rgba(0,255,159,0.1)] sticky top-0 bg-[#020c06]/90 backdrop-blur z-50">
+  <nav class="max-w-5xl mx-auto px-6 py-4 flex flex-wrap gap-y-3 justify-between items-center">
+    <a href="index.html" class="mono text-sm text-[#00ff9f] glow">~/samy.horchani<span class="cursor"></span></a>
+    <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-slate-400">
+      <a href="index.html#work" class="nav-link hover:text-[#00ff9f] transition-colors" data-fr="Expériences" data-en="Work"></a>
+      <a href="index.html#projects" class="nav-link hover:text-[#00ff9f] transition-colors" data-fr="Projets" data-en="Projects"></a>
+      <a href="notes.html" class="nav-link hover:text-[#00ff9f] transition-colors" data-fr="Notes" data-en="Notes"></a>
+      <a href="veille.html" class="nav-link active" data-fr="Veille" data-en="Watch"></a>
+      <button onclick="switchLang()" class="mono px-3 py-1 border border-[rgba(0,255,159,0.25)] rounded text-xs text-[#00ff9f] hover:bg-[rgba(0,255,159,0.08)] transition-colors">FR / EN</button>
+    </div>
+  </nav>
 </header>
 
-<main>
-  <p class="prompt">tail -f ./veille</p>
-  <h1>Veille crypto &amp; sécurité</h1>
+<!-- Header -->
+<section class="max-w-5xl mx-auto px-6 pt-16 pb-8">
+  <p class="section-label">$ tail -f ./veille</p>
+  <h1 class="text-4xl font-bold tracking-tight">
+    <span data-fr="Veille" data-en="Watch"></span> <span class="text-[#00ff9f]" data-fr="crypto & sécurité" data-en="crypto & security"></span>
+  </h1>
+  <p class="mt-3 text-slate-400 max-w-2xl leading-relaxed"
+     data-fr="Agrégation automatique de flux : recherche (IACR ePrint…), ANSSI / CERT-FR, blogs crypto et actualité sécurité."
+     data-en="Automatically aggregated feeds: research (IACR ePrint…), ANSSI / CERT-FR, crypto blogs and security news.">
+  </p>
+</section>
 
-  <div class="meta-row">
-    <span><span id="status-dot"></span><span id="last-update">chargement…</span></span>
-    <span id="unread-count"></span>
+<!-- Feed -->
+<section class="max-w-5xl mx-auto px-6 pb-24">
+  <div class="card mb-8">
+    <div class="flex flex-wrap items-center justify-between gap-3 mb-4 mono text-xs text-slate-400">
+      <span><span id="status-dot"></span><span id="last-update"></span></span>
+      <span id="unread-count" class="text-[#00ff9f]"></span>
+    </div>
+    <input class="search mb-4" id="search" type="text">
+    <div class="flex flex-wrap gap-2" id="chips"></div>
   </div>
 
-  <input class="search" id="search" type="text" placeholder="filtrer par mot-clé…">
-
-  <div class="controls" id="chips"></div>
-
+  <div id="err-state" class="hidden mb-6 rounded-lg border border-[rgba(255,179,0,0.3)] bg-[rgba(255,179,0,0.05)] px-4 py-3 mono text-xs text-[#ffb300]"></div>
   <div id="list"></div>
-  <div id="empty-state" class="empty" style="display:none;"></div>
-  <div id="err-state" class="errbox" style="display:none;"></div>
-</main>
+  <div id="empty-state" class="hidden rounded-lg border border-dashed border-[rgba(0,255,159,0.2)] px-5 py-6 mono text-sm text-slate-500"></div>
+</section>
 
-<footer>flux mis à jour automatiquement chaque heure · source : feeds.json</footer>
+<footer class="border-t border-[rgba(0,255,159,0.1)] py-8 text-center">
+  <p class="mono text-xs text-slate-600"
+     data-fr="// 2026 · Samy HORCHANI · flux mis à jour automatiquement chaque heure"
+     data-en="// 2026 · Samy HORCHANI · feeds refreshed automatically every hour"></p>
+</footer>
 
 <script>
+let currentLang = "en";
+
+const I18N = {
+  fr: {
+    loading: "chargement…",
+    updated: "mis à jour ",
+    waiting: "en attente du premier passage",
+    loadError: "erreur de chargement",
+    unread: n => n + " non lus",
+    search: "filtrer par mot-clé…",
+    all: "tout",
+    justNow: "à l'instant",
+    day: "j",
+    today: "aujourd'hui",
+    yesterday: "hier",
+    undated: "sans date",
+    noData: "Aucune donnée pour l'instant. Le premier passage du workflow <code>update-feeds.yml</code> n'a peut-être pas encore tourné — lance-le manuellement depuis l'onglet <em>Actions</em> du repo.",
+    noMatch: "Aucun article ne correspond à ce filtre.",
+    fetchFail: "Impossible de charger data/feed_items.json.",
+    feedErrors: n => n + " flux en erreur : ",
+    locale: "fr-FR",
+  },
+  en: {
+    loading: "loading…",
+    updated: "updated ",
+    waiting: "waiting for first run",
+    loadError: "loading error",
+    unread: n => n + " unread",
+    search: "filter by keyword…",
+    all: "all",
+    justNow: "just now",
+    day: "d",
+    today: "today",
+    yesterday: "yesterday",
+    undated: "undated",
+    noData: "No data yet. The <code>update-feeds.yml</code> workflow may not have run yet — trigger it manually from the repo's <em>Actions</em> tab.",
+    noMatch: "No article matches this filter.",
+    fetchFail: "Could not load data/feed_items.json.",
+    feedErrors: n => n + " feed(s) failing: ",
+    locale: "en-GB",
+  },
+};
+const t = () => I18N[currentLang];
+
+function applyStaticLang() {
+  document.documentElement.lang = currentLang;
+  document.querySelectorAll("[data-fr]").forEach(el => {
+    el.textContent = el.dataset[currentLang];
+  });
+  document.getElementById("search").placeholder = t().search;
+}
+
+function switchLang() {
+  currentLang = currentLang === "en" ? "fr" : "en";
+  applyStaticLang();
+  if (window.veilleRender) window.veilleRender();
+}
+
 (function(){
   const DATA_URL = "data/feed_items.json";
   const READ_KEY = "veille_read_ids";
+  const CATEGORY_TAG = { crypto: "tag-crypto", recherche: "tag-recherche", anssi: "tag-anssi", veille: "tag-veille" };
+  const CATEGORY_LABEL = {
+    fr: { crypto: "crypto", recherche: "recherche", anssi: "anssi", veille: "actu" },
+    en: { crypto: "crypto", recherche: "research", anssi: "anssi", veille: "news" },
+  };
 
   const els = {
     list: document.getElementById("list"),
@@ -166,9 +278,16 @@
     dot: document.getElementById("status-dot"),
   };
 
+  let DATA = null;
   let ITEMS = [];
+  let loadFailed = false;
   let activeCategory = "all";
   let query = "";
+
+  // Feed text is plain text with HTML entities (&nbsp;, &#8217;…): decode
+  // them without ever interpreting markup, then insert via textContent.
+  const decoder = document.createElement("textarea");
+  function decode(s){ decoder.innerHTML = s || ""; return decoder.value; }
 
   function getReadIds(){
     try { return new Set(JSON.parse(localStorage.getItem(READ_KEY) || "[]")); }
@@ -180,35 +299,62 @@
     try { localStorage.setItem(READ_KEY, JSON.stringify([...set])); } catch(e){}
   }
 
+  function catLabel(cat){ return CATEGORY_LABEL[currentLang][cat] || cat; }
+
   function timeAgo(iso){
     if(!iso) return "";
     const diffMs = Date.now() - new Date(iso).getTime();
     const h = Math.floor(diffMs / 3600000);
-    if (h < 1) return "à l'instant";
+    if (h < 1) return t().justNow;
     if (h < 24) return h + "h";
     const d = Math.floor(h / 24);
-    if (d < 7) return d + "j";
-    return new Date(iso).toLocaleDateString("fr-FR", {day:"numeric", month:"short"});
+    if (d < 7) return d + t().day;
+    return new Date(iso).toLocaleDateString(t().locale, {day:"numeric", month:"short"});
   }
 
   function dayLabel(iso){
-    if(!iso) return "sans date";
+    if(!iso) return t().undated;
     const d = new Date(iso);
     const today = new Date();
     const yest = new Date(Date.now() - 86400000);
     const sameDay = (a,b) => a.toDateString() === b.toDateString();
-    if (sameDay(d, today)) return "aujourd'hui";
-    if (sameDay(d, yest)) return "hier";
-    return d.toLocaleDateString("fr-FR", {weekday:"long", day:"numeric", month:"long"});
+    if (sameDay(d, today)) return t().today;
+    if (sameDay(d, yest)) return t().yesterday;
+    return d.toLocaleDateString(t().locale, {weekday:"long", day:"numeric", month:"long"});
+  }
+
+  function el(tag, cls, text){
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+
+  function renderStatus(){
+    if (loadFailed){
+      els.lastUpdate.textContent = t().loadError;
+      return;
+    }
+    if (!DATA){ els.lastUpdate.textContent = t().loading; return; }
+    els.lastUpdate.textContent = DATA.generated_at ? t().updated + timeAgo(DATA.generated_at) : t().waiting;
+
+    if (DATA.errors && DATA.errors.length){
+      els.err.classList.remove("hidden");
+      els.err.textContent = t().feedErrors(DATA.errors.length);
+      DATA.errors.forEach((e, i) => {
+        if (i) els.err.appendChild(document.createTextNode(", "));
+        els.err.appendChild(el("code", "text-slate-300", e.source));
+      });
+    }
   }
 
   function renderChips(){
     const cats = ["all", ...new Set(ITEMS.map(i => i.category))];
     els.chips.innerHTML = "";
     cats.forEach(cat => {
-      const b = document.createElement("button");
-      b.className = "chip" + (cat === activeCategory ? " active" : "");
-      b.textContent = cat === "all" ? "tout" : cat;
+      const b = el("button",
+        "chip " + (cat === "all" ? "tag-neutral" : (CATEGORY_TAG[cat] || "tag-neutral")) + (cat === activeCategory ? " active" : ""),
+        cat === "all" ? t().all : catLabel(cat));
       b.onclick = () => { activeCategory = cat; renderChips(); renderList(); };
       els.chips.appendChild(b);
     });
@@ -224,73 +370,78 @@
       return (i.title + " " + i.source + " " + i.summary).toLowerCase().includes(q);
     });
 
-    els.unreadCount.textContent = filtered.filter(i => !readIds.has(i.id)).length + " non lus";
+    els.unreadCount.textContent = DATA ? t().unread(filtered.filter(i => !readIds.has(i.id)).length) : "";
 
     els.list.innerHTML = "";
-    if (filtered.length === 0){
-      els.empty.style.display = "block";
-      els.empty.innerHTML = ITEMS.length === 0
-        ? "Aucune donnée pour l'instant. Le premier passage du workflow <code>update-feeds.yml</code> n'a peut-être pas encore tourné — lance-le manuellement depuis l'onglet <em>Actions</em> du repo."
-        : "Aucun article ne correspond à ce filtre.";
+    if (loadFailed){
+      els.empty.classList.remove("hidden");
+      els.empty.textContent = t().fetchFail;
       return;
     }
-    els.empty.style.display = "none";
+    if (!DATA) return;
+    if (filtered.length === 0){
+      els.empty.classList.remove("hidden");
+      if (ITEMS.length === 0) els.empty.innerHTML = t().noData;
+      else els.empty.textContent = t().noMatch;
+      return;
+    }
+    els.empty.classList.add("hidden");
 
     let lastDay = null;
     filtered.forEach(item => {
       const day = dayLabel(item.published);
       if (day !== lastDay){
-        const h = document.createElement("div");
-        h.className = "day-heading";
-        h.textContent = day;
-        els.list.appendChild(h);
+        els.list.appendChild(el("div", "day-heading", day));
         lastDay = day;
       }
 
-      const a = document.createElement("a");
+      const a = el("a", "item" + (readIds.has(item.id) ? " read" : ""));
       a.href = item.link;
       a.target = "_blank";
       a.rel = "noopener noreferrer";
-      a.className = "item" + (readIds.has(item.id) ? " read" : "");
-      a.onclick = () => markRead(item.id);
+      a.onclick = () => { markRead(item.id); a.classList.add("read"); renderUnread(); };
 
-      a.innerHTML = `
-        <div class="item-top">
-          <span class="item-source">${item.source}</span>
-          <span>${timeAgo(item.published)}</span>
-        </div>
-        <span class="item-title">${item.title}</span>
-        ${item.summary ? `<span class="item-summary">${item.summary}</span>` : ""}
-      `;
+      const top = el("div", "flex flex-wrap items-center gap-2 mb-2 mono text-[0.7rem] text-slate-500");
+      top.appendChild(el("span", "px-2 py-0.5 rounded-full " + (CATEGORY_TAG[item.category] || "tag-neutral"), decode(item.source)));
+      top.appendChild(el("span", null, timeAgo(item.published)));
+      a.appendChild(top);
+
+      a.appendChild(el("div", "item-title", decode(item.title)));
+      if (item.summary) a.appendChild(el("p", "mt-1 text-sm text-slate-400 leading-relaxed max-w-3xl", decode(item.summary)));
       els.list.appendChild(a);
     });
   }
 
+  function renderUnread(){
+    const readIds = getReadIds();
+    const q = query.trim().toLowerCase();
+    const n = ITEMS.filter(i =>
+      (activeCategory === "all" || i.category === activeCategory) &&
+      (!q || (i.title + " " + i.source + " " + i.summary).toLowerCase().includes(q)) &&
+      !readIds.has(i.id)).length;
+    els.unreadCount.textContent = t().unread(n);
+  }
+
+  window.veilleRender = () => { renderStatus(); renderChips(); renderList(); };
+
   els.search.addEventListener("input", e => { query = e.target.value; renderList(); });
+
+  applyStaticLang();
+  renderStatus();
 
   fetch(DATA_URL, {cache: "no-store"})
     .then(r => r.json())
     .then(data => {
+      DATA = data;
       ITEMS = data.items || [];
-      els.lastUpdate.textContent = data.generated_at
-        ? "mis à jour " + timeAgo(data.generated_at)
-        : "en attente du premier passage";
-      if (!data.generated_at) els.dot.style.background = "var(--warn)";
-
-      if (data.errors && data.errors.length){
-        els.err.style.display = "block";
-        els.err.innerHTML = data.errors.length + " flux en erreur : " +
-          data.errors.map(e => `<code>${e.source}</code>`).join(", ");
-      }
-
-      renderChips();
-      renderList();
+      if (!data.generated_at){ els.dot.style.background = "var(--amber)"; els.dot.style.boxShadow = "0 0 6px var(--amber)"; }
+      window.veilleRender();
     })
     .catch(() => {
-      els.lastUpdate.textContent = "erreur de chargement";
-      els.dot.style.background = "var(--warn)";
-      els.empty.style.display = "block";
-      els.empty.textContent = "Impossible de charger data/feed_items.json.";
+      loadFailed = true;
+      els.dot.style.background = "var(--amber)";
+      els.dot.style.boxShadow = "0 0 6px var(--amber)";
+      window.veilleRender();
     });
 })();
 </script>
