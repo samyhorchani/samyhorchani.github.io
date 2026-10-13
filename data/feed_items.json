@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T02:21:48.482218+00:00",
+  "generated_at": "2026-10-13T09:59:13.802708+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "0038c725af40",
+      "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+      "link": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T08:48:41+00:00",
+      "ts": 1791881321.0,
+      "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said. The attackers reached them through the controller that runs all of a store's fridges and freezers, a device made by Danish company Danfoss that maintenance firms can manage remotely. Les Mousquetaires"
+    },
+    {
+      "id": "420cbf5525a2",
+      "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+      "link": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T08:44:01+00:00",
+      "ts": 1791881041.0,
+      "summary": "Two of 31 newly disclosed flaws in Progress Software's&nbsp;MarkLogic Server&nbsp;database could let an account given only some management privileges take administrator control of the server, the company says. Progress published all 31 on October 12 and scored five of them critical. Fixes have been available since September 10, in&nbsp;MarkLogic 11.3.7&nbsp;and&nbsp;MarkLogic 12.1.0. Affected"
+    },
+    {
+      "id": "2c682e78b0af",
+      "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+      "link": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T08:43:37+00:00",
+      "ts": 1791881017.0,
+      "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. \"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD"
+    },
+    {
+      "id": "adb247611783",
+      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+      "link": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T06:00:11+00:00",
+      "ts": 1791871211.0,
+      "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being tracked by Bitdefender under the moniker Midnight Mimosa. The preinstalled"
+    },
     {
       "id": "cc3a1b2ae6b2",
       "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
@@ -125,6 +165,16 @@
       "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude"
     },
     {
+      "id": "3fc6318920a7",
+      "title": "Witness-Succinct UC-Secure SNARKs with Weaker Trust Assumptions",
+      "link": "https://eprint.iacr.org/2026/2434",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-10T00:30:59+00:00",
+      "ts": 1791592259.0,
+      "summary": "Zero-knowledge Succinct Non-Interactive Arguments of Knowledge (zkSNARKs) are foundational cryptographic primitives enabling privacy-preserving and verifiable computation. However, most existing zkSNARK constructions rely on strong trust assumptions—typically a fully trusted setup—which undermines their applicability in adversarial or decentralized environments. Although transparent zkSNARKs remov"
+    },
+    {
       "id": "878d602d6c0b",
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
@@ -163,46 +213,6 @@
       "published": "2026-10-09T17:45:26+00:00",
       "ts": 1791567926.0,
       "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X. ShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not named the suspect, and no charges have been made public. The"
-    },
-    {
-      "id": "14861d20be6b",
-      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
-      "link": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T13:22:53+00:00",
-      "ts": 1791552173.0,
-      "summary": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with &nbsp;Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its routers are and how separate it is from China. TP-Link&nbsp;denies the claims&nbsp;and says it will fight them in court. TP-Link Systems is based in"
-    },
-    {
-      "id": "2d81ee4b8924",
-      "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
-      "link": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T12:59:22+00:00",
-      "ts": 1791550762.0,
-      "summary": "Security researchers have&nbsp;published a full working exploit&nbsp;for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection. AnyDesk patched the flaw in version 8.0.3 in June, but its&nbsp;changelog&nbsp;described the fix only as \"fixed a bug that could lead to a crash,\" with no CVE assigned and no security"
-    },
-    {
-      "id": "0beaeed3a07d",
-      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
-      "link": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T12:47:28+00:00",
-      "ts": 1791550048.0,
-      "summary": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing,\" Anthropic said. \"Projects that join will receive thorough, periodic security scans by our strongest models at no cost.\""
-    },
-    {
-      "id": "df28d20404ff",
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
-      "link": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T12:47:26+00:00",
-      "ts": 1791550046.0,
-      "summary": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners. Details of the flaws are below - CVE-2026-105133 (CVSS v4 score: 5.5) - An improper authentication vulnerability in the checkSysPwd() function in the \"com/ahsay/obs/api/ApiStructsAction.java\""
     },
     {
       "id": "b03b15e0f278",
@@ -515,16 +525,6 @@
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
     },
     {
-      "id": "8ce48630fa00",
-      "title": "Static Group Signature with Post-Compromise Accountability",
-      "link": "https://eprint.iacr.org/2026/2184",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-23T14:20:34+00:00",
-      "ts": 1790173234.0,
-      "summary": "Signatures with Post-Compromise Accountability (SPCA), introduced by Dayanikli et al. at SCN'26, are signature schemes that enable signatures generated before the compromise of a signing key to be distinguished from those produced after the compromise. In this paper, we extend this notion to static group signatures and introduce Group Signatures with Post-Compromise Accountability (GSPCA). GSPCA p"
-    },
-    {
       "id": "71c4a4caf94f",
       "title": "SAML: A fractal of bad design",
       "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
@@ -595,16 +595,6 @@
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
     },
     {
-      "id": "7eae207782cc",
-      "title": "Constant-Time Conditions for Left-to-Right Scalar Multiplication",
-      "link": "https://eprint.iacr.org/2026/1881",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-03T14:29:40+00:00",
-      "ts": 1788445780.0,
-      "summary": "We consider methods for scalar multiplication on an elliptic curve where the scalar digits are processed from left to right, that is, from most significant to least significant. We analyze exceptions that may arise during point addition and doubling throughout the multiplication. Eliminating such exceptions is critical for achieving constant-time execution and preventing timing attacks. We establi"
-    },
-    {
       "id": "94f014263cfc",
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
       "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
@@ -653,6 +643,16 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
+    },
+    {
+      "id": "6f70a13741e0",
+      "title": "HOVER: Higher-Order Vanishing Endomorphism Recovery",
+      "link": "https://eprint.iacr.org/2026/1778",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-22T18:04:05+00:00",
+      "ts": 1787421845.0,
+      "summary": "Higher-Order Vanishing (HOV), introduced by Hemmert and Wiemers at CRYPTO 2026, distinguishes Goppa codes and was recently extended to McEliece key recovery. We introduce a new variant of HOV, HOVER (Higher-Order Vanishing Endomorphism Recovery), that replaces the costly low-rank direction-search phase of HOV with a much faster linear algebra step. Our attack is based on the observation that the f"
     },
     {
       "id": "8bb1e4b84cdc",
@@ -725,6 +725,16 @@
       "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t"
     },
     {
+      "id": "1092e889f4c6",
+      "title": "Proving Threshold Regev PKE from Adaptive Hint-MLWE: Efficient, Non-interactive, and CCA Secure",
+      "link": "https://eprint.iacr.org/2026/1585",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-03T06:08:01+00:00",
+      "ts": 1785737281.0,
+      "summary": "Threshold public-key encryption (tPKE) has recently attracted renewed interest, largely due to NIST's call for Multi-Party Threshold Cryptography. While classical tPKE has approached a high state of maturity, its post-quantum counterpart has not. Indeed, thresholdizing the celebrated lattice-based Regev PKE, which forms the basis of ML-KEM, remains unsatisfactory. Interestingly, how to thresholdiz"
+    },
+    {
       "id": "f26b7f89b569",
       "title": "Building secure Uniswap v4 hooks",
       "link": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
@@ -765,16 +775,6 @@
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
     },
     {
-      "id": "7f47dbd5edf4",
-      "title": "Batched Oblivious Transfer with Square-Root Communication",
-      "link": "https://eprint.iacr.org/2026/1541",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-28T03:36:57+00:00",
-      "ts": 1785209817.0,
-      "summary": "Oblivious Transfer (OT) is a fundamental cryptographic primitive and a core building block for many multiparty cryptographic protocols. While existing OT extension techniques achieve excellent asymptotic efficiency for very large batches, their performance degrades when the total number of OTs is only moderate, since the cost of generating the required base OTs is no longer effectively amortized. "
-    },
-    {
       "id": "bdc2700324bc",
       "title": "Rust-proof your code with our new Testing Handbook chapter",
       "link": "https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/",
@@ -785,6 +785,16 @@
       "summary": "We’ve added a new chapter to our Testing Handbook: a comprehensive guide to security testing Rust programs. This chapter covers the tools and techniques we use at Trail of Bits to validate the security of Rust programs and systems. fn main() {(|f:&amp;dyn Fn(u128)-&gt;Box&lt; dyn Iterator&lt;Item= char&gt;+'static&gt;|f(*[&amp;( 0x7B736D70683F73u128&lt;&lt;64| 0x7A6A6D7C3F7A667D),&amp;(0x7B736Du12"
     },
     {
+      "id": "ed65ba3d9e8e",
+      "title": "What Happens When Integrating Modulus Switching and Lossy Source Coding: A New Dual Attack Variant on LWE",
+      "link": "https://eprint.iacr.org/2026/1400",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-09T12:02:37+00:00",
+      "ts": 1783598557.0,
+      "summary": "The threat of large-scale quantum computers to classical public-key cryptograp-hy has motivated the development of post-quantum cryptographic schemes. Among these, lattice-based constructions have become the mainstream choice in the ongoing NIST standardization process. The security of these schemes typical-ly relies on the hardness of the LWE problem, and the dual-sieve-FFT attack is widely recog"
+    },
+    {
       "id": "3d2c6bf45d3c",
       "title": "Mutation testing comes to DAML",
       "link": "https://blog.trailofbits.com/2026/07/08/mutation-testing-comes-to-daml/",
@@ -793,16 +803,6 @@
       "published": "2026-07-08T11:00:00+00:00",
       "ts": 1783508400.0,
       "summary": "In April we released Mewt, our open-source mutation-testing engine that finds the gaps in your test suite. Today we’re expanding it with support for DAML, the language Canton Network applications are written in. Mewt now reads DAML, generates several classes of mutants (including two built for DAML&rsquo;s authorization primitives), and runs them through your existing test suite to count how many "
-    },
-    {
-      "id": "79668fa162e5",
-      "title": "MPC with Weighted and Fluid Participation",
-      "link": "https://eprint.iacr.org/2026/1375",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-04T13:52:17+00:00",
-      "ts": 1783173137.0,
-      "summary": "Most existing multiparty computation (MPC) protocols assume static and equal participation. All computing parties can dedicate resources and stay online for the entire computation, and they have equal influence on computation correctness and security (i.e., they are equally hard to corrupt). Supporting dynamic participation, so parties can join/leave at will, and associating weights to these parti"
     },
     {
       "id": "66b196c02042",
@@ -1055,14 +1055,14 @@
       "summary": "Verifiable Secret Sharing (VSS) ensures consistent sharing and correct reconstruction, but does not identify the shareholders involved. Traceable Secret Sharing (TSS) expands secret sharing with two guarantees: $\\textit{traceability}$, which identifies the makers of a reconstruction box through black-box queries; and $\\textit{non-imputability}$, which prevents false accusations against honest shar"
     },
     {
-      "id": "609395ecacd6",
-      "title": "Programmable Distributed Point Functions",
-      "link": "https://eprint.iacr.org/2022/1060",
+      "id": "ac2568bb1603",
+      "title": "Succinct Homomorphic MACs from Groups and Applications",
+      "link": "https://eprint.iacr.org/2024/2073",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2022-08-15T19:27:12+00:00",
-      "ts": 1660591632.0,
-      "summary": "A distributed point function (DPF) is a cryptographic primitive that enables compressed additive sharing of a secret unit vector across two or more parties. Despite growing ubiquity within applications and notable research efforts, the best 2-party DPF construction to date remains the tree-based construction from (Boyle et al, CCS'16), with no significantly new approaches since. We present a new f"
+      "published": "2024-12-24T22:01:48+00:00",
+      "ts": 1735077708.0,
+      "summary": "Homomorphic message authentication codes (HMACs) allow users to authenticate data using a shared secret key, while supporting computation over authenticated data. Given data $(m_1, \\ldots, m_n)$ and their tags $(\\sigma_1, \\ldots, \\sigma_n)$, anyone can evaluate a circuit $C$ on the data and tags to produce a succinct tag authenticating the output $C(m_1, \\ldots, m_n)$. Importantly, tags remain suc"
     }
   ]
 }
