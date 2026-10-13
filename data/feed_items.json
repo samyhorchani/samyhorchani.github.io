@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T09:59:13.802708+00:00",
+  "generated_at": "2026-10-13T17:27:05.830799+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,56 @@
     }
   ],
   "items": [
+    {
+      "id": "5047514f1d3c",
+      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+      "link": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T16:18:18+00:00",
+      "ts": 1791908298.0,
+      "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials. \"Your configuration becomes validated and exempt from expiry after its first successful publish,\" the Microsoft-owned subsidiary"
+    },
+    {
+      "id": "e1a2701e96fa",
+      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
+      "link": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T13:12:32+00:00",
+      "ts": 1791897152.0,
+      "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers. The administrative penalty is the largest issued by the data protection watchdog, arguing the case merited a high fine because of the \"very serious\" nature of the breach. The infringements"
+    },
+    {
+      "id": "1d5edc09b276",
+      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
+      "link": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T11:57:06+00:00",
+      "ts": 1791892626.0,
+      "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next. With AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security teams can investigate. A compromised account that looks legitimate at first could become the starting point for a much"
+    },
+    {
+      "id": "a658f1091c92",
+      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
+      "link": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T11:09:10+00:00",
+      "ts": 1791889750.0,
+      "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner. LG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on October 12. The chain was tested on two TV models, the 32LQ636BPSA and the 27TQ600SW, running webOS 7.5.7-25 on firmware"
+    },
+    {
+      "id": "cdd7ae3964f2",
+      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
+      "link": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-13T10:30:00+00:00",
+      "ts": 1791887400.0,
+      "summary": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed. A developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed programs list. Someone downloads a local model runtime, a program that runs models directly on the machine instead of sending data to an external service, because they were told not to send company data"
+    },
     {
       "id": "0038c725af40",
       "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
@@ -135,36 +185,6 @@
       "summary": "This is not so much a full post as it is an advertisement. I&#8217;ve been working with Claude and GPT 6 Astra to conduct a survey of historical cryptanalysis results, in an effort to determine how many human-hours have been spent attempting to cryptanalyze the problems we use in public-key encryption schemes. This is work &#8230; Continue reading New website: estimating human cryptanalytic&#160;w"
     },
     {
-      "id": "51af4a99e7f4",
-      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-      "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-11T04:24:34+00:00",
-      "ts": 1791692674.0,
-      "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday. The name"
-    },
-    {
-      "id": "5d9578f8588d",
-      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-      "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-10T11:00:00+00:00",
-      "ts": 1791630000.0,
-      "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what authenticates through it, and most agents never do. That gap is the clearest"
-    },
-    {
-      "id": "6f89a3d2cbd6",
-      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-      "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-10T09:18:45+00:00",
-      "ts": 1791623925.0,
-      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude"
-    },
-    {
       "id": "3fc6318920a7",
       "title": "Witness-Succinct UC-Secure SNARKs with Weaker Trust Assumptions",
       "link": "https://eprint.iacr.org/2026/2434",
@@ -193,26 +213,6 @@
       "published": "2026-10-09T20:24:45+00:00",
       "ts": 1791577485.0,
       "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (Doryteuthis (Amerigo) pealeii). That night I cooked it over a barbecue grill&#8212;hot and fast. Delici"
-    },
-    {
-      "id": "d0585e08a868",
-      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-      "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T19:14:28+00:00",
-      "ts": 1791573268.0,
-      "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories. \"Using the account of Takashi Kitao, author of the 18,400-star game engine pyxel, the attacker pushed a malicious workflow to 27 repositories starting at 13:20 UTC,\" StepSecurity"
-    },
-    {
-      "id": "74570fd1f54f",
-      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-      "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-09T17:45:26+00:00",
-      "ts": 1791567926.0,
-      "summary": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X. ShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not named the suspect, and no charges have been made public. The"
     },
     {
       "id": "b03b15e0f278",
@@ -315,6 +315,16 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
+      "id": "f30abb5b75e6",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (07 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1267/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-07T00:00:00+00:00",
+      "ts": 1791331200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
       "id": "cbdd34ec8fc0",
       "title": "Possible Vulnerability in Apple’s Automatic Reboot",
       "link": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
@@ -373,36 +383,6 @@
       "published": "2026-10-05T00:00:00+00:00",
       "ts": 1791158400.0,
       "summary": "Une vulnérabilité a été découverte dans Citrix NetScaler ADC et Gateway. Elle permet à un attaquant de provoquer un déni de service à distance. La CISA indique que la vulnérabilité CVE-2026-88779 est activement exploitée."
-    },
-    {
-      "id": "b5807ebe75f2",
-      "title": "Multiples vulnérabilités dans OpenOffice (05 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1260/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-05T00:00:00+00:00",
-      "ts": 1791158400.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans OpenOffice. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance."
-    },
-    {
-      "id": "cff1f6be6235",
-      "title": "Multiples vulnérabilités dans Google Chrome (05 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1259/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-05T00:00:00+00:00",
-      "ts": 1791158400.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
-      "id": "7027c0cd1c26",
-      "title": "Vulnérabilité dans Microsoft Exchange Server (05 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1258/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-05T00:00:00+00:00",
-      "ts": 1791158400.0,
-      "summary": "Une vulnérabilité a été découverte dans Microsoft Exchange Server. Elle permet à un attaquant de provoquer une élévation de privilèges."
     },
     {
       "id": "c9628a4d5d20",
@@ -575,6 +555,26 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
+      "id": "a8db2f3712db",
+      "title": "Efficient Single-Server Online-Offline PIR without Periodic Preprocessing",
+      "link": "https://eprint.iacr.org/2026/2033",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-14T23:22:43+00:00",
+      "ts": 1789428163.0,
+      "summary": "Private Information Retrieval (PIR) allows a client to retrieve an entry from a public database without revealing the entry of interest. Standard PIR, however, requires the server to perform expensive computation that is linear in the database size per client query. To reduce this online cost, Online-Offline PIR (OO-PIR) was proposed, allowing the client to precompute a query-independent hint tabl"
+    },
+    {
+      "id": "cc3be13916de",
+      "title": "Vulnérabilité dans Metabase (10 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-010/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-10T00:00:00+00:00",
+      "ts": 1788998400.0,
+      "summary": "Le 06 août 2026, Metabase a publié un avis de sécurité concernant une vulnérabilité critique permettant à un attaquant non authentifié de provoquer une injection SQL (SQLi) dans la base de donnée de l'application Metabase. Cette injection SQL permet d’obtenir les droits administrateur de..."
+    },
+    {
       "id": "0c016fa822b6",
       "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
       "link": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
@@ -593,6 +593,16 @@
       "published": "2026-09-08T21:44:22+00:00",
       "ts": 1788903862.0,
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
+    },
+    {
+      "id": "b41a98772760",
+      "title": "Multiples vulnérabilités dans SonicWall Secure Mobile Access (02 septembre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-009/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-02T00:00:00+00:00",
+      "ts": 1788307200.0,
+      "summary": "Le 01 septembre 2026, SonicWall a publié un avis de sécurité concernant deux vulnérabilités affectant les Secure Mobile Access (SMA) 1000. La vulnérabilité critique CVE-2026-83548 permet une falsification de requêtes côté serveur (SSRF) de la part d'un attaquant non authentifié. La vulnérabilité..."
     },
     {
       "id": "94f014263cfc",
@@ -755,16 +765,6 @@
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
     },
     {
-      "id": "5d4f864ea9c4",
-      "title": "Signing-Key Recovery from Unsalted Root Expansion and Salt-Binding Repair for MQOM v2",
-      "link": "https://eprint.iacr.org/2026/1542",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-28T12:30:08+00:00",
-      "ts": 1785241808.0,
-      "summary": "We give the first passive signing-key recovery attack on MQOM v2 in the classical EUF-CMA setting by exploiting the generation of the correlated GGM trees used in each signature. MQOM v2 expands a fresh $\\lambda$-bit signature master seed, denoted $\\mathsf{mseed}$ in the specification, with a PRG call whose salt input is always zero. A repeated $\\mathsf{mseed}$ therefore produces the same GGM root"
-    },
-    {
       "id": "9746ad058ff2",
       "title": "How we use /goal to find bugs in Patch the Planet",
       "link": "https://blog.trailofbits.com/2026/07/28/how-we-use-goal-to-find-bugs-in-patch-the-planet/",
@@ -815,6 +815,16 @@
       "summary": "We’re running Patch the Planet, an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest model"
     },
     {
+      "id": "b588d589c421",
+      "title": "Invisible Traces: Subversion Attacks on Batch-Issued Credentials",
+      "link": "https://eprint.iacr.org/2026/1229",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-10T12:22:36+00:00",
+      "ts": 1781094156.0,
+      "summary": "All EU member states are required to roll out a digital identity system - the European Digital Identity (EUDI) wallet - by the end of 2026. Strong privacy is at the core of the underlying regulation, which mandates the EUDI wallet to support selective disclosure and unlinkability. The wallet currently being developed relies on the batch issuance of one-time ECDSA credentials that sign attributes t"
+    },
+    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -823,16 +833,6 @@
       "published": "2026-06-09T19:00:02+00:00",
       "ts": 1781031602.0,
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
-    },
-    {
-      "id": "12ee7e40a3cb",
-      "title": "A Note on Splittings and Endomorphisms",
-      "link": "https://eprint.iacr.org/2026/1198",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-08T09:44:08+00:00",
-      "ts": 1780911848.0,
-      "summary": "Finding a nontrivial endomorphism of a given supersingular elliptic curve is a hardness assumption of isogeny-based cryptography. We prove the reduction from it to the problem of finding a splitting of a given principally polarized abelian surface. By using this new reduction, we also prove the heuristic equivalence of the splitting problem with a degree restriction and the endomorphism ring probl"
     },
     {
       "id": "7990c40a74ab",
