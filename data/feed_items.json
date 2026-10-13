@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:45:58.676936+00:00",
+  "generated_at": "2026-10-13T02:21:48.482218+00:00",
   "count": 105,
   "errors": [
     {
@@ -213,6 +213,16 @@
       "published": "2026-10-08T11:07:35+00:00",
       "ts": 1791457655.0,
       "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs. Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re"
+    },
+    {
+      "id": "4d5c888e4ff6",
+      "title": "Game-Theoretically Fair Coin Toss from Random Walk Against $n-1$ Corruptions",
+      "link": "https://eprint.iacr.org/2026/2405",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-07T22:07:45+00:00",
+      "ts": 1791410865.0,
+      "summary": "Coin-tossing protocols allow mutually distrustful parties to generate trusted randomness. While strong fairness is impossible against a corrupted majority, Chung et al. (2018) introduced cooperative-strategy-proof (CSP) fairness for multi-party coin tossing, under the assumption that each party gets utility only when the outcome matches its public preference. CSP-fairness ensures that no PPT adver"
     },
     {
       "id": "4b3e102168c7",
@@ -555,16 +565,6 @@
       "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off"
     },
     {
-      "id": "5d3371f5da74",
-      "title": "Low-Space Quantum Discrete Logarithms on Genus-Two Jacobians",
-      "link": "https://eprint.iacr.org/2026/2057",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-16T02:08:49+00:00",
-      "ts": 1789524529.0,
-      "summary": "Generic divisor-addition formulas require little arithmetic workspace but fail on exceptional inputs. We prove a randomized reduction that enables their use in quantum phase computation. The reduction uses two independent public group seeds in a finite abelian group of odd order. For every fixed input, the two child values at each internal node of a complete balanced addition tree are independent "
-    },
-    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -875,6 +875,16 @@
       "summary": "Posted by Jiacheng Lu, Software Engineer, Google Pixel Team Google is continuously advancing the security of Pixel devices. We have been focusing on hardening the cellular baseband modem against exploitation. Recognizing the risks associated within the complex modem firmware, Pixel 9 shipped with mitigations against a range of memory-safety vulnerabilities. For Pixel 10, Google is advancing its pr"
     },
     {
+      "id": "b6afa75d5451",
+      "title": "Quick Draw Queries: Lightweight Searchable Public-key Ciphertexts with Hidden Structures via Non-Interactive Key Exchange",
+      "link": "https://eprint.iacr.org/2026/703",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-10T00:48:03+00:00",
+      "ts": 1775782083.0,
+      "summary": "Basically, public-key searchable encryption schemes require a linear search time with respect to the total number of ciphertexts. Xu, Wu, Wang, Susilo, Domingo-Ferrer, and Jin (IEEE Transactions on Information Forensics and Security, 2015) introduced Searchable Public-Key Ciphertexts with Hidden Structure (SPCHS). In SPCHS, ciphertexts associated with the same keyword are linked through a hidden s"
+    },
+    {
       "id": "f27344d4a245",
       "title": "Protecting Cookies with Device Bound Session Credentials",
       "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -883,16 +893,6 @@
       "published": "2026-04-09T17:07:00+00:00",
       "ts": 1775754420.0,
       "summary": "Posted by Ben Ackerman, Chrome team, Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team Following our April 2024 announcement, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to comba"
-    },
-    {
-      "id": "c243dcc0edea",
-      "title": "An Efficient SM9-Compatible Identity-Based Blind Signature Scheme for One-Time Issuance Identities",
-      "link": "https://eprint.iacr.org/2026/676",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-07T03:17:17+00:00",
-      "ts": 1775531837.0,
-      "summary": "We present an identity-based blind signature scheme built on the SM9 Chinese national cryptographic standard. The scheme outputs standard SM9 signatures, removes all online pairing operations through a single setup-time pre-computation, and adds only one user-side exponentiation to achieve blindness. We prove two properties rigorously: \\emph{restricted target-identity unforgeability} (RTU) under t"
     },
     {
       "id": "d305b2065812",
@@ -1045,14 +1045,14 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "d1eb2e8a4c88",
-      "title": "A Note on P $\\neq$ NP",
-      "link": "https://eprint.iacr.org/2024/2035",
+      "id": "68457873f036",
+      "title": "Accountable Verifiable Secret Sharing and Applications",
+      "link": "https://eprint.iacr.org/2025/318",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2024-12-17T08:18:53+00:00",
-      "ts": 1734423533.0,
-      "summary": "We study the Add/XNOR decision problem: given $n$ words of $n$ bits each, choose between addition modulo $2^n$ and bitwise XNOR at each position of a left-associative expression so that its final value is zero. We prove NP-completeness by a deterministic polynomial-time reduction from binary SUBSET-SUM. Independent four-bit guard fields force each successful four-operation gadget to consist entire"
+      "published": "2025-02-21T15:39:04+00:00",
+      "ts": 1740152344.0,
+      "summary": "Verifiable Secret Sharing (VSS) ensures consistent sharing and correct reconstruction, but does not identify the shareholders involved. Traceable Secret Sharing (TSS) expands secret sharing with two guarantees: $\\textit{traceability}$, which identifies the makers of a reconstruction box through black-box queries; and $\\textit{non-imputability}$, which prevents false accusations against honest shar"
     },
     {
       "id": "609395ecacd6",
