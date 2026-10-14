@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T17:44:20.942358+00:00",
+  "generated_at": "2026-10-14T21:12:46.213902+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "c25a66ec92b3",
+      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+      "link": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T18:38:56+00:00",
+      "ts": 1792003136.0,
+      "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday. The attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,"
+    },
+    {
+      "id": "eb5b5e2d23a6",
+      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+      "link": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T17:38:31+00:00",
+      "ts": 1791999511.0,
+      "summary": "Attackers exploited a flaw in an optional Nextcloud app,&nbsp;Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators&nbsp;reported the issue on GitHub, with the first logged attack on September 10. A web shell is a small file that executes any command an attacker sends via a web request, with the rights of the web server account. The flaw"
+    },
+    {
+      "id": "3697cc05e511",
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "link": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T17:09:15+00:00",
+      "ts": 1791997755.0,
+      "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man System. \"Since January 2026, the threat actors behind these kits have been responsible for"
+    },
     {
       "id": "3c849224cd5a",
       "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
@@ -185,16 +215,6 @@
       "summary": "I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed1, fewer than half used lockfiles that checked for tam"
     },
     {
-      "id": "eeea45a77d31",
-      "title": "edaBits in the Exponent (edaBitE) and Issuer-Hiding Blind Signatures from ML-DSA and VOLE-in-the-Head",
-      "link": "https://eprint.iacr.org/2026/2473",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-14T10:31:45+00:00",
-      "ts": 1791973905.0,
-      "summary": "Blind signatures let a user obtain a signature by interacting with an issuer that controls the signing key, while the issuer never sees the message. They form the basis of anonymous credentials, which are the centerpiece of privacy-preserving digital identification to be deployed widely in the coming years. Existing plausibly quantum-secure blind signatures rely on bespoke cryptographic constructi"
-    },
-    {
       "id": "ffa4a343ce01",
       "title": "Connecting Cryptanalytic Distinguishers through Divisibility",
       "link": "https://eprint.iacr.org/2026/2471",
@@ -265,36 +285,6 @@
       "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are \"challenging to shut down,\" since \"there's no centralized point to shut off.\""
     },
     {
-      "id": "64ad73050c5a",
-      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-      "link": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T18:03:18+00:00",
-      "ts": 1791914598.0,
-      "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it. The flaw was in the feature that&nbsp;converts a personal account&nbsp;into an organization, Docker said in a&nbsp;security advisory&nbsp;on October 12."
-    },
-    {
-      "id": "22b0110b0355",
-      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-      "link": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T17:33:11+00:00",
-      "ts": 1791912791.0,
-      "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm&nbsp;Volexity said&nbsp;on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third is still pending, according to Volexity. Volexity, which reported the flaws to Ivanti,"
-    },
-    {
-      "id": "4f973c800508",
-      "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
-      "link": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T17:28:50+00:00",
-      "ts": 1791912530.0,
-      "summary": "A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python client for BTP services. An attacker must be able to control the tenant subdomain,"
-    },
-    {
       "id": "4049f808660b",
       "title": "Tree-BTE: Batched Threshold Encryption using Additive Homomorphism",
       "link": "https://eprint.iacr.org/2026/2463",
@@ -313,6 +303,16 @@
       "published": "2026-10-12T15:01:26+00:00",
       "ts": 1791817286.0,
       "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster. Last week, the FBI arrested (alternate link) someone associated with that crime."
+    },
+    {
+      "id": "59239e2eaae5",
+      "title": "Extended biprojective APN functions",
+      "link": "https://eprint.iacr.org/2026/2451",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-12T13:54:06+00:00",
+      "ts": 1791813246.0,
+      "summary": "Almost perfect nonlinear (APN) functions provide optimal resistance to differential cryptanalysis in characteristic two, and constructing new infinite families inequivalent to the known ones remains an important problem in the study of cryptographic functions. We introduce extended biprojective functions, obtained by augmenting biprojective polynomials with truncated trace terms, and establish a n"
     },
     {
       "id": "bcb5049cc528",
@@ -553,6 +553,16 @@
       "published": "2026-10-02T11:00:00+00:00",
       "ts": 1790938800.0,
       "summary": "Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC, a pair of related hash constructions that bring secure multihashing to de"
+    },
+    {
+      "id": "f5e095982125",
+      "title": "Context-Blind Device-Bound Anonymous Credentials from Signatures and Proofs",
+      "link": "https://eprint.iacr.org/2026/2295",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-01T12:56:00+00:00",
+      "ts": 1790859360.0,
+      "summary": "Anonymous credentials enable privacy preserving authentication, but their transferability motivates binding each credential to a key protected by a secure element (SE). Such binding should preserve privacy even when the SE is remote or corrupted: every presentation must require fresh SE participation without revealing its context to the SE (Friedrichs et al., EC'26). Existing context-blind device-"
     },
     {
       "id": "bcbe1c4698ed",
@@ -1033,16 +1043,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "a6862b227c50",
-      "title": "Weak keys in QC-MDPC-based cryptosystems via the extended Euclidean algorithm",
-      "link": "https://eprint.iacr.org/2025/1435",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-08-07T08:17:58+00:00",
-      "ts": 1754554678.0,
-      "summary": "In this work we analyze a problem strictly linked with the Rational Reconstruction, which forms the foundation of some post-quantum Quasi-Cyclic Moderate-Density Parity-Check and Quasi-Cyclic Low-Density Parity-Check code-based schemes such as LEDAkem and BIKE. Given a polynomial in a cyclic ring as input, our aim is to recover two polynomials, with specific properties, whose ratio is the input on"
     },
     {
       "id": "dfabd960d3bf",
