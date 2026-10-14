@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T01:32:31.421683+00:00",
+  "generated_at": "2026-10-14T07:00:04.808420+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "96e97dc3db6c",
+      "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+      "link": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T05:52:28+00:00",
+      "ts": 1791957148.0,
+      "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over. The protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for a Windows anti-phishing feature. The work was done in a lab as a proof of"
+    },
+    {
+      "id": "b57d683bf2d1",
+      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+      "link": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T04:34:43+00:00",
+      "ts": 1791952483.0,
+      "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these, more than 670 relate to privilege escalation, followed by over 300 remote code"
+    },
+    {
+      "id": "c7e2f17c2d03",
+      "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+      "link": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T01:59:25+00:00",
+      "ts": 1791943165.0,
+      "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by"
+    },
     {
       "id": "c5a36601271c",
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
@@ -145,26 +175,6 @@
       "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. \"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD"
     },
     {
-      "id": "adb247611783",
-      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
-      "link": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T06:00:11+00:00",
-      "ts": 1791871211.0,
-      "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being tracked by Bitdefender under the moniker Midnight Mimosa. The preinstalled"
-    },
-    {
-      "id": "cc3a1b2ae6b2",
-      "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-      "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-12T15:16:26+00:00",
-      "ts": 1791818186.0,
-      "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves."
-    },
-    {
       "id": "96467e4b9fc5",
       "title": "FBI Arrests Suspect in FBI-Hacking Case",
       "link": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
@@ -173,16 +183,6 @@
       "published": "2026-10-12T15:01:26+00:00",
       "ts": 1791817286.0,
       "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster. Last week, the FBI arrested (alternate link) someone associated with that crime."
-    },
-    {
-      "id": "1165d285fcb5",
-      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-      "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-12T11:55:00+00:00",
-      "ts": 1791806100.0,
-      "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up. Regardless, the tech world is mesmerized by the capabilities and potential of these services. Less than a year"
     },
     {
       "id": "004fbb2e40f0",
@@ -233,16 +233,6 @@
       "published": "2026-10-08T11:07:35+00:00",
       "ts": 1791457655.0,
       "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs. Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re"
-    },
-    {
-      "id": "4d5c888e4ff6",
-      "title": "Game-Theoretically Fair Coin Toss from Random Walk Against $n-1$ Corruptions",
-      "link": "https://eprint.iacr.org/2026/2405",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-07T22:07:45+00:00",
-      "ts": 1791410865.0,
-      "summary": "Coin-tossing protocols allow mutually distrustful parties to generate trusted randomness. While strong fairness is impossible against a corrupted majority, Chung et al. (2018) introduced cooperative-strategy-proof (CSP) fairness for multi-party coin tossing, under the assumption that each party gets utility only when the outcome matches its public preference. CSP-fairness ensures that no PPT adver"
     },
     {
       "id": "4b3e102168c7",
@@ -415,6 +405,16 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Zabbix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
+      "id": "0a0ff22389a7",
+      "title": "Ziren: Succinct Arguments for MIPS32 Execution",
+      "link": "https://eprint.iacr.org/2026/2330",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-04T05:50:21+00:00",
+      "ts": 1791093021.0,
+      "summary": "Proving MIPS32 execution requires preserving branch-delay semantics while controlling the cost of heterogeneous instruction constraints. We present Ziren, a production zkVM for MIPS32r2 that supports 77 user-mode integer instructions and has proved Ethereum mainnet blocks end to end. Its arithmetisation embeds the program-counter pair in per-opcode instruction frames, eliminating the central CPU t"
+    },
+    {
       "id": "826b48a40b29",
       "title": "Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
@@ -525,16 +525,6 @@
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it&rsquo;s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoni"
     },
     {
-      "id": "a61fa133af99",
-      "title": "ANSA-IBS: Identity-Based Signatures from Annular NTRU Trapdoors and Bimodal Fiat-Shamir with Aborts",
-      "link": "https://eprint.iacr.org/2026/2134",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-21T06:18:04+00:00",
-      "ts": 1789971484.0,
-      "summary": "We give a lattice identity-based signature scheme from annular NTRU trapdoors and Fiat--Shamir with aborts (FSwA). Countered hashing maps each identity to its first invertible DLP/NTRU syndrome $a$. Extraction returns a short witness to $s_0+s_1h=a\\bmod q$, and signing normalizes this relation to a fixed-target two-response equation with public commitment recovery. Gärtner's iterative rejection me"
-    },
-    {
       "id": "a91514e92c6f",
       "title": "Auditing in the age of (good enough) AI",
       "link": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
@@ -573,6 +563,16 @@
       "published": "2026-09-14T23:22:43+00:00",
       "ts": 1789428163.0,
       "summary": "Private Information Retrieval (PIR) allows a client to retrieve an entry from a public database without revealing the entry of interest. Standard PIR, however, requires the server to perform expensive computation that is linear in the database size per client query. To reduce this online cost, Online-Offline PIR (OO-PIR) was proposed, allowing the client to precompute a query-independent hint tabl"
+    },
+    {
+      "id": "3ea8c4623eee",
+      "title": "A Unified Analysis of Refresh Gadgets in the Random Probing Model",
+      "link": "https://eprint.iacr.org/2026/2015",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-14T07:07:00+00:00",
+      "ts": 1789369620.0,
+      "summary": "Masking is a standard countermeasure against side-channel attacks on embedded cryptographic implementations. Its security is commonly analyzed in the random probing model, which offers a useful trade-off between realistic leakage assumptions and tractable security proofs. Recent years have seen the emergence of several masking compilers based on compositional security frameworks such as general/ca"
     },
     {
       "id": "cc3be13916de",
@@ -665,16 +665,6 @@
       "summary": "Higher-Order Vanishing (HOV), introduced by Hemmert and Wiemers at CRYPTO 2026, distinguishes Goppa codes and was recently extended to McEliece key recovery. We introduce a new variant of HOV, HOVER (Higher-Order Vanishing Endomorphism Recovery), that replaces the costly low-rank direction-search phase of HOV with a much faster linear algebra step. Our attack is based on the observation that the f"
     },
     {
-      "id": "8bb1e4b84cdc",
-      "title": "DTRU: A Versatile, Compact, Simple, and Robust NTRU KEM with Double $E_8$ Encoding",
-      "link": "https://eprint.iacr.org/2026/1701",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-16T01:52:58+00:00",
-      "ts": 1786845178.0,
-      "summary": "Responding to China's 2025 call for commercial cryptographic standards mandating 128-bit, 256-bit, and 512-bit security (optional 384-bit), we propose DTRU, a versatile, compact, simple, and robust NTRU-based key encapsulation mechanism (KEM). Our principal design contribution is double $E_8$ encoding, which constructs 16-dimensional lattice codes from $E_8$ with low decoding complexity. We furthe"
-    },
-    {
       "id": "bea5a06fb576",
       "title": "Everything is about to “go dark”",
       "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
@@ -693,16 +683,6 @@
       "published": "2026-08-14T11:24:35+00:00",
       "ts": 1786706675.0,
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and c"
-    },
-    {
-      "id": "d7cff90d5df7",
-      "title": "Critical-Round Special Soundness for Multi-Round Proofs",
-      "link": "https://eprint.iacr.org/2026/1679",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-13T16:22:56+00:00",
-      "ts": 1786638176.0,
-      "summary": "Multi-round public-coin proof systems have progressed rapidly, yet their simulators and extractors are rarely used as building blocks in other protocols, unlike those of 3-move $\\Sigma$-protocols. Prior work [Abe et al., Eurocrypt~'26] addressed the simulator side with critical-round zero-knowledge. In this paper, we address the extractor side and introduce critical-round special soundness (CRSS):"
     },
     {
       "id": "bc128d0703d3",
@@ -833,6 +813,16 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
+    },
+    {
+      "id": "021801730087",
+      "title": "Unified Dual Attack Analyses: Covariance-Based Score Distribution Prediction for LWE",
+      "link": "https://eprint.iacr.org/2026/1048",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-25T01:12:26+00:00",
+      "ts": 1779671546.0,
+      "summary": "The Learning with Errors (LWE) problem underpins many post-quantum cryptosystems, including the NIST-selected CRYSTALS-KYBER and CRYSTALS-DILITHIUM. Recent dual attacks have demonstrated remarkable effectiveness against concrete LWE-based schemes, with some claims suggesting that the security of CRYSTALS-KYBER may be reduced below the NIST threshold. However, the analysis of the score distribution"
     },
     {
       "id": "e867d3e3dacb",
@@ -1025,6 +1015,16 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
+      "id": "af991b9d0b5c",
+      "title": "Going Faster: Privacy-Preserving Shortest paths from Start to End (Extended Version)",
+      "link": "https://eprint.iacr.org/2025/1794",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-10-01T09:22:15+00:00",
+      "ts": 1759310535.0,
+      "summary": "Finding shortest paths in graphs is a fundamental combinatorial optimization problem with numerous applications, e.g., in graph centrality measures, computational biology, and business process analysis. To address privacy constraints in such applications, Secure Multi-Party Computation (SMPC) protocols can compute the lengths of shortest paths on secret-shared graphs. Many such protocols have been"
+    },
+    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1035,6 +1035,16 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
+      "id": "3eed380bf2cf",
+      "title": "Collusion-Safe Proxy Re-Encryption",
+      "link": "https://eprint.iacr.org/2025/1423",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-08-05T06:42:09+00:00",
+      "ts": 1754376129.0,
+      "summary": "Proxy re-encryption is a cryptographic scheme enabling a delegator (user $i$) to delegate its decryption right to a valid delegatee (user $j$) through a proxy, who cannot extract any information about the message during the procedure. An important security notion is the security against collusion between the proxy and the delegatee. In this case, the adversary has the secret key of the delegatee, "
+    },
+    {
       "id": "dfabd960d3bf",
       "title": "What’s the Matter? An In-Depth Security Analysis of the Matter Protocol",
       "link": "https://eprint.iacr.org/2025/1268",
@@ -1043,16 +1053,6 @@
       "published": "2025-07-10T14:51:26+00:00",
       "ts": 1752159086.0,
       "summary": "The Matter protocol has emerged as the leading standard for secure IoT interoperability, backed by major vendors such as Apple, Google, Amazon, Samsung, and others. With millions of Matter devices already deployed, its security guarantees are critical to the safety of modern IoT ecosystems. This paper presents the first in-depth analysis of Matter's key establishment protocols: Passcode-Authentica"
-    },
-    {
-      "id": "68457873f036",
-      "title": "Accountable Verifiable Secret Sharing and Applications",
-      "link": "https://eprint.iacr.org/2025/318",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-02-21T15:39:04+00:00",
-      "ts": 1740152344.0,
-      "summary": "Verifiable Secret Sharing (VSS) ensures consistent sharing and correct reconstruction, but does not identify the shareholders involved. Traceable Secret Sharing (TSS) expands secret sharing with two guarantees: $\\textit{traceability}$, which identifies the makers of a reconstruction box through black-box queries; and $\\textit{non-imputability}$, which prevents false accusations against honest shar"
     },
     {
       "id": "ac2568bb1603",
