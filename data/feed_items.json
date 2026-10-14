@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T07:00:04.808420+00:00",
+  "generated_at": "2026-10-14T12:48:42.315356+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,86 @@
     }
   ],
   "items": [
+    {
+      "id": "a293c41d0267",
+      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+      "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T12:30:42+00:00",
+      "ts": 1791981042.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS"
+    },
+    {
+      "id": "ac10accacdb2",
+      "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+      "link": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T12:13:36+00:00",
+      "ts": 1791980016.0,
+      "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine. The curl project fixed it on October 14 in&nbsp;curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash"
+    },
+    {
+      "id": "d08b58b8c637",
+      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+      "link": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T11:50:00+00:00",
+      "ts": 1791978600.0,
+      "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes"
+    },
+    {
+      "id": "2a9f9d9f4388",
+      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+      "link": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T11:19:02+00:00",
+      "ts": 1791976742.0,
+      "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs,&nbsp;fixed them, and paid XBOW its top $"
+    },
+    {
+      "id": "6eb52dcbe785",
+      "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+      "link": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T11:08:22+00:00",
+      "ts": 1791976102.0,
+      "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud.&nbsp; Dutch mobile security company ThreatFabric said it identified replacements for eight Indonesian banking"
+    },
+    {
+      "id": "ae285c2b5d23",
+      "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+      "link": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T11:00:00+00:00",
+      "ts": 1791975600.0,
+      "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let the user choose where the one-time passcode went. The attack was the easy part. Proving it"
+    },
+    {
+      "id": "ebfdd8968269",
+      "title": "Package managers have an integrity problem",
+      "link": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/",
+      "source": "Trail of Bits Blog",
+      "category": "recherche",
+      "published": "2026-10-14T11:00:00+00:00",
+      "ts": 1791975600.0,
+      "summary": "I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed1, fewer than half used lockfiles that checked for tam"
+    },
+    {
+      "id": "6acd562a29a8",
+      "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+      "link": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-14T07:46:57+00:00",
+      "ts": 1791964017.0,
+      "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine. The bug is tracked as&nbsp;CVE-2026-74580&nbsp;and named Vghost. Tencent Zhuque Lab, which found the"
+    },
     {
       "id": "96e97dc3db6c",
       "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
@@ -42,7 +122,7 @@
       "category": "veille",
       "published": "2026-10-14T01:59:25+00:00",
       "ts": 1791943165.0,
-      "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by"
+      "summary": "A Saudi national and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by"
     },
     {
       "id": "c5a36601271c",
@@ -105,76 +185,6 @@
       "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials. \"Your configuration becomes validated and exempt from expiry after its first successful publish,\" the Microsoft-owned subsidiary"
     },
     {
-      "id": "e1a2701e96fa",
-      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
-      "link": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T13:12:32+00:00",
-      "ts": 1791897152.0,
-      "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers. The administrative penalty is the largest issued by the data protection watchdog, arguing the case merited a high fine because of the \"very serious\" nature of the breach. The infringements"
-    },
-    {
-      "id": "1d5edc09b276",
-      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
-      "link": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T11:57:06+00:00",
-      "ts": 1791892626.0,
-      "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next. With AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security teams can investigate. A compromised account that looks legitimate at first could become the starting point for a much"
-    },
-    {
-      "id": "a658f1091c92",
-      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-      "link": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T11:09:10+00:00",
-      "ts": 1791889750.0,
-      "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner. LG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on October 12. The chain was tested on two TV models, the 32LQ636BPSA and the 27TQ600SW, running webOS 7.5.7-25 on firmware"
-    },
-    {
-      "id": "cdd7ae3964f2",
-      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
-      "link": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T10:30:00+00:00",
-      "ts": 1791887400.0,
-      "summary": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed. A developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed programs list. Someone downloads a local model runtime, a program that runs models directly on the machine instead of sending data to an external service, because they were told not to send company data"
-    },
-    {
-      "id": "0038c725af40",
-      "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
-      "link": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T08:48:41+00:00",
-      "ts": 1791881321.0,
-      "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said. The attackers reached them through the controller that runs all of a store's fridges and freezers, a device made by Danish company Danfoss that maintenance firms can manage remotely. Les Mousquetaires"
-    },
-    {
-      "id": "420cbf5525a2",
-      "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-      "link": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T08:44:01+00:00",
-      "ts": 1791881041.0,
-      "summary": "Two of 31 newly disclosed flaws in Progress Software's&nbsp;MarkLogic Server&nbsp;database could let an account given only some management privileges take administrator control of the server, the company says. Progress published all 31 on October 12 and scored five of them critical. Fixes have been available since September 10, in&nbsp;MarkLogic 11.3.7&nbsp;and&nbsp;MarkLogic 12.1.0. Affected"
-    },
-    {
-      "id": "2c682e78b0af",
-      "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
-      "link": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T08:43:37+00:00",
-      "ts": 1791881017.0,
-      "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. \"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD"
-    },
-    {
       "id": "96467e4b9fc5",
       "title": "FBI Arrests Suspect in FBI-Hacking Case",
       "link": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
@@ -195,16 +205,6 @@
       "summary": "This is not so much a full post as it is an advertisement. I&#8217;ve been working with Claude and GPT 6 Astra to conduct a survey of historical cryptanalysis results, in an effort to determine how many human-hours have been spent attempting to cryptanalyze the problems we use in public-key encryption schemes. This is work &#8230; Continue reading New website: estimating human cryptanalytic&#160;w"
     },
     {
-      "id": "3fc6318920a7",
-      "title": "Witness-Succinct UC-Secure SNARKs with Weaker Trust Assumptions",
-      "link": "https://eprint.iacr.org/2026/2434",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-10T00:30:59+00:00",
-      "ts": 1791592259.0,
-      "summary": "Zero-knowledge Succinct Non-Interactive Arguments of Knowledge (zkSNARKs) are foundational cryptographic primitives enabling privacy-preserving and verifiable computation. However, most existing zkSNARK constructions rely on strong trust assumptions—typically a fully trusted setup—which undermines their applicability in adversarial or decentralized environments. Although transparent zkSNARKs remov"
-    },
-    {
       "id": "878d602d6c0b",
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
@@ -223,6 +223,16 @@
       "published": "2026-10-09T20:24:45+00:00",
       "ts": 1791577485.0,
       "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (Doryteuthis (Amerigo) pealeii). That night I cooked it over a barbecue grill&#8212;hot and fast. Delici"
+    },
+    {
+      "id": "075472d663a0",
+      "title": "Flying, Not Floating: Precise Fixed-Point Falcon on Embedded Processors",
+      "link": "https://eprint.iacr.org/2026/2431",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-09T17:06:27+00:00",
+      "ts": 1791565587.0,
+      "summary": "The Falcon digital signature scheme, under standardization as FN-DSA, requires real-number arithmetic during signing, with its security dependent on numerical precision. Recently, De Almeida Braga et al. (CRYPTO 2026) showed that Falcon-512 can sign in 64.64 fixed-point arithmetic on 64-bit hosts. In this work, we present the first fixed-point FN-DSA signer for microcontrollers, using 32.64 arithm"
     },
     {
       "id": "b03b15e0f278",
@@ -655,16 +665,6 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
-      "id": "6f70a13741e0",
-      "title": "HOVER: Higher-Order Vanishing Endomorphism Recovery",
-      "link": "https://eprint.iacr.org/2026/1778",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-22T18:04:05+00:00",
-      "ts": 1787421845.0,
-      "summary": "Higher-Order Vanishing (HOV), introduced by Hemmert and Wiemers at CRYPTO 2026, distinguishes Goppa codes and was recently extended to McEliece key recovery. We introduce a new variant of HOV, HOVER (Higher-Order Vanishing Endomorphism Recovery), that replaces the costly low-rank direction-search phase of HOV with a much faster linear algebra step. Our attack is based on the observation that the f"
-    },
-    {
       "id": "bea5a06fb576",
       "title": "Everything is about to “go dark”",
       "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
@@ -703,16 +703,6 @@
       "published": "2026-08-05T11:00:00+00:00",
       "ts": 1785927600.0,
       "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t"
-    },
-    {
-      "id": "1092e889f4c6",
-      "title": "Proving Threshold Regev PKE from Adaptive Hint-MLWE: Efficient, Non-interactive, and CCA Secure",
-      "link": "https://eprint.iacr.org/2026/1585",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-03T06:08:01+00:00",
-      "ts": 1785737281.0,
-      "summary": "Threshold public-key encryption (tPKE) has recently attracted renewed interest, largely due to NIST's call for Multi-Party Threshold Cryptography. While classical tPKE has approached a high state of maturity, its post-quantum counterpart has not. Indeed, thresholdizing the celebrated lattice-based Regev PKE, which forms the basis of ML-KEM, remains unsatisfactory. Interestingly, how to thresholdiz"
     },
     {
       "id": "f26b7f89b569",
@@ -755,16 +745,6 @@
       "summary": "We’ve added a new chapter to our Testing Handbook: a comprehensive guide to security testing Rust programs. This chapter covers the tools and techniques we use at Trail of Bits to validate the security of Rust programs and systems. fn main() {(|f:&amp;dyn Fn(u128)-&gt;Box&lt; dyn Iterator&lt;Item= char&gt;+'static&gt;|f(*[&amp;( 0x7B736D70683F73u128&lt;&lt;64| 0x7A6A6D7C3F7A667D),&amp;(0x7B736Du12"
     },
     {
-      "id": "ed65ba3d9e8e",
-      "title": "What Happens When Integrating Modulus Switching and Lossy Source Coding: A New Dual Attack Variant on LWE",
-      "link": "https://eprint.iacr.org/2026/1400",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-09T12:02:37+00:00",
-      "ts": 1783598557.0,
-      "summary": "The threat of large-scale quantum computers to classical public-key cryptograp-hy has motivated the development of post-quantum cryptographic schemes. Among these, lattice-based constructions have become the mainstream choice in the ongoing NIST standardization process. The security of these schemes typical-ly relies on the hardness of the LWE problem, and the dual-sieve-FFT attack is widely recog"
-    },
-    {
       "id": "3d2c6bf45d3c",
       "title": "Mutation testing comes to DAML",
       "link": "https://blog.trailofbits.com/2026/07/08/mutation-testing-comes-to-daml/",
@@ -773,16 +753,6 @@
       "published": "2026-07-08T11:00:00+00:00",
       "ts": 1783508400.0,
       "summary": "In April we released Mewt, our open-source mutation-testing engine that finds the gaps in your test suite. Today we’re expanding it with support for DAML, the language Canton Network applications are written in. Mewt now reads DAML, generates several classes of mutants (including two built for DAML&rsquo;s authorization primitives), and runs them through your existing test suite to count how many "
-    },
-    {
-      "id": "66b196c02042",
-      "title": "GPT-5.5-Cyber built a zlib fuzzing lab in a day",
-      "link": "https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/",
-      "source": "Trail of Bits Blog",
-      "category": "recherche",
-      "published": "2026-07-02T11:00:00+00:00",
-      "ts": 1782990000.0,
-      "summary": "We’re running Patch the Planet, an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest model"
     },
     {
       "id": "b588d589c421",
@@ -853,16 +823,6 @@
       "published": "2026-04-10T15:12:00+00:00",
       "ts": 1775833920.0,
       "summary": "Posted by Jiacheng Lu, Software Engineer, Google Pixel Team Google is continuously advancing the security of Pixel devices. We have been focusing on hardening the cellular baseband modem against exploitation. Recognizing the risks associated within the complex modem firmware, Pixel 9 shipped with mitigations against a range of memory-safety vulnerabilities. For Pixel 10, Google is advancing its pr"
-    },
-    {
-      "id": "b6afa75d5451",
-      "title": "Quick Draw Queries: Lightweight Searchable Public-key Ciphertexts with Hidden Structures via Non-Interactive Key Exchange",
-      "link": "https://eprint.iacr.org/2026/703",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-10T00:48:03+00:00",
-      "ts": 1775782083.0,
-      "summary": "Basically, public-key searchable encryption schemes require a linear search time with respect to the total number of ciphertexts. Xu, Wu, Wang, Susilo, Domingo-Ferrer, and Jin (IEEE Transactions on Information Forensics and Security, 2015) introduced Searchable Public-Key Ciphertexts with Hidden Structure (SPCHS). In SPCHS, ciphertexts associated with the same keyword are linked through a hidden s"
     },
     {
       "id": "f27344d4a245",
@@ -945,6 +905,16 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
+      "id": "b4f85feb5fd5",
+      "title": "ECHO: Efficient Covertly-Secure Three-party Computation with Applications to Private Machine Learning",
+      "link": "https://eprint.iacr.org/2026/216",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-10T08:40:58+00:00",
+      "ts": 1770712858.0,
+      "summary": "Secure three-party computation with an honest majority is among the most efficient secure computation settings and is widely used in practice. However, achieving malicious security incurs significant overhead, often an order of magnitude higher than semi-honest protocols. Covert security provides a security–efficiency trade-off by detecting malicious behavior with a certain probability (e.g., $50\\"
+    },
+    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -963,6 +933,16 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
+    },
+    {
+      "id": "9a7b2c25bb60",
+      "title": "Complete Characterization of Randomness Extraction from DAG-Correlated Sources",
+      "link": "https://eprint.iacr.org/2026/066",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-16T06:07:58+00:00",
+      "ts": 1768543678.0,
+      "summary": "We introduce the SHEDAG (Somewhere Honest Entropic sources over Directed Acyclic Graphs) source model, a general framework for multi-block randomness sources with causal correlations. A SHEDAG source is defined over a directed acyclic graph (DAG) $G$, whose nodes output $n$-bit blocks. Honest nodes output mutually independent blocks, which are uniformly random by default and, more generally, may h"
     },
     {
       "id": "d89b8a28e282",
@@ -1035,6 +1015,16 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
+      "id": "a6862b227c50",
+      "title": "Weak keys in QC-MDPC-based cryptosystems via the extended Euclidean algorithm",
+      "link": "https://eprint.iacr.org/2025/1435",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-08-07T08:17:58+00:00",
+      "ts": 1754554678.0,
+      "summary": "In this work we analyze a problem strictly linked with the Rational Reconstruction, which forms the foundation of some post-quantum Quasi-Cyclic Moderate-Density Parity-Check and Quasi-Cyclic Low-Density Parity-Check code-based schemes such as LEDAkem and BIKE. Given a polynomial in a cyclic ring as input, our aim is to recover two polynomials, with specific properties, whose ratio is the input on"
+    },
+    {
       "id": "3eed380bf2cf",
       "title": "Collusion-Safe Proxy Re-Encryption",
       "link": "https://eprint.iacr.org/2025/1423",
@@ -1055,14 +1045,24 @@
       "summary": "The Matter protocol has emerged as the leading standard for secure IoT interoperability, backed by major vendors such as Apple, Google, Amazon, Samsung, and others. With millions of Matter devices already deployed, its security guarantees are critical to the safety of modern IoT ecosystems. This paper presents the first in-depth analysis of Matter's key establishment protocols: Passcode-Authentica"
     },
     {
-      "id": "ac2568bb1603",
-      "title": "Succinct Homomorphic MACs from Groups and Applications",
-      "link": "https://eprint.iacr.org/2024/2073",
+      "id": "b79cc13a33dd",
+      "title": "SubLogarithmic Linear Time SNARKs from Improved Sumcheck",
+      "link": "https://eprint.iacr.org/2025/908",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2024-12-24T22:01:48+00:00",
-      "ts": 1735077708.0,
-      "summary": "Homomorphic message authentication codes (HMACs) allow users to authenticate data using a shared secret key, while supporting computation over authenticated data. Given data $(m_1, \\ldots, m_n)$ and their tags $(\\sigma_1, \\ldots, \\sigma_n)$, anyone can evaluate a circuit $C$ on the data and tags to produce a succinct tag authenticating the output $C(m_1, \\ldots, m_n)$. Importantly, tags remain suc"
+      "published": "2025-05-21T05:53:01+00:00",
+      "ts": 1747806781.0,
+      "summary": "We present $\\mathsf{HybridSpartan}$ and $\\mathsf{HybridPlonk}$ -- the first SNARKs that simultaneously achieve linear-time prover, sublogarithmic proof size, logarithmic verifier, and also feature updatable setups. Our constructions are provably secure in the Random Oracle Model (ROM) and the Algebraic Group Model (AGM). As a core technical contribution (possibly of independent interest), we reduc"
+    },
+    {
+      "id": "33683337e8e4",
+      "title": "Compute, but Verify: Efficient Multiparty Computation over Authenticated Inputs",
+      "link": "https://eprint.iacr.org/2022/1648",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2022-11-28T06:38:29+00:00",
+      "ts": 1669617509.0,
+      "summary": "Traditional notions of secure multiparty computation (MPC) allow mutually distrusting parties to jointly compute a function over their private inputs, but typically do not specify how these inputs are chosen. Motivated by real-world applications where corrupt inputs could adversely impact privacy and operational legitimacy, we consider a notion of authenticated MPC where the inputs are authenticat"
     }
   ]
 }
