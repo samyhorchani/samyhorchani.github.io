@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:11:45.956513+00:00",
+  "generated_at": "2026-10-14T01:32:31.421683+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "c5a36601271c",
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "source": "Krebs on Security",
+      "category": "veille",
+      "published": "2026-10-13T23:24:53+00:00",
+      "ts": 1791933893.0,
+      "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond."
+    },
     {
       "id": "626e58ba6983",
       "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
@@ -693,16 +703,6 @@
       "published": "2026-08-13T16:22:56+00:00",
       "ts": 1786638176.0,
       "summary": "Multi-round public-coin proof systems have progressed rapidly, yet their simulators and extractors are rarely used as building blocks in other protocols, unlike those of 3-move $\\Sigma$-protocols. Prior work [Abe et al., Eurocrypt~'26] addressed the simulator side with critical-round zero-knowledge. In this paper, we address the extractor side and introduce critical-round special soundness (CRSS):"
-    },
-    {
-      "id": "30cb08c656eb",
-      "title": "Microsoft Plugs Nearly 400 Security Holes",
-      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-      "source": "Krebs on Security",
-      "category": "veille",
-      "published": "2026-08-11T21:28:35+00:00",
-      "ts": 1786483715.0,
-      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today."
     },
     {
       "id": "bc128d0703d3",
