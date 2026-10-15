@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:27:45.449640+00:00",
+  "generated_at": "2026-10-15T19:38:47.040507+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,66 @@
     }
   ],
   "items": [
+    {
+      "id": "1d337a14b5c5",
+      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+      "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T18:49:33+00:00",
+      "ts": 1792090173.0,
+      "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old bugs are finding new victims, familiar tools are being put to strange uses, and"
+    },
+    {
+      "id": "8286d7b68a18",
+      "title": "Measuring Human Cryptanalysis Effort",
+      "link": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-15T16:24:29+00:00",
+      "ts": 1792081469.0,
+      "summary": "Matthew Green has a new site that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms: Abstract: We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain la"
+    },
+    {
+      "id": "0ab968404fd4",
+      "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+      "link": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T16:01:57+00:00",
+      "ts": 1792080117.0,
+      "summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&nbsp;the Citizen Lab&nbsp;said Thursday. The hidden attack code ran the moment an ad loaded on the screen, and in some cases the ad loaded out of sight, in the background. The Citizen"
+    },
+    {
+      "id": "a222d152546d",
+      "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+      "link": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T16:00:26+00:00",
+      "ts": 1792080026.0,
+      "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through August 2026, involves four different infection chains that make use of macro-enabled documents, PS2EXE downloaders, GitHub-hosted PowerShell, and crafted WinRAR archives"
+    },
+    {
+      "id": "0c64da2d04d6",
+      "title": "Noise-Tolerant Quantum One-Time Programs Using Stateless Trusted Hardware, Revisited",
+      "link": "https://eprint.iacr.org/2026/2498",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-15T15:24:02+00:00",
+      "ts": 1792077842.0,
+      "summary": "A quantum one-time program scheme is a functionality-preserving compiler that transforms a program into a quantum state that can be used to obtain only one output of the program. Our goal is to design quantum one-time programs that can be realized on existing quantum technologies. Our contributions are two-fold: 1. We design a BB84 state-based quantum one-time program scheme in the stateless trust"
+    },
+    {
+      "id": "4b3eb2b610ce",
+      "title": "SecAgg++: A Post-Quantum Privacy Preserving Federated Learning Protocol",
+      "link": "https://eprint.iacr.org/2026/2497",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-15T14:27:10+00:00",
+      "ts": 1792074430.0,
+      "summary": "Secure aggregation is a fundamental building block for privacy-preserving federated learning, yet most existing masking-based secure aggregation protocols do not provide post-quantum security. In this work, we present SecAgg++, a masking-based post-quantum secure aggregation protocol for the single-server setting. SecAgg++ integrates post-quantum cryptographic primitives while preserving the commu"
+    },
     {
       "id": "e0c20d0c0e8c",
       "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
@@ -105,6 +165,46 @@
       "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026. \"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract 3,174 secrets from public repositories' CI,\" security researchers Gaetan"
     },
     {
+      "id": "a3ba36a021a5",
+      "title": "Structural Cryptanalysis of the Eevee AEAD Family",
+      "link": "https://eprint.iacr.org/2026/2496",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-15T08:05:19+00:00",
+      "ts": 1792051519.0,
+      "summary": "Eevee is a family of three AEAD modes, Umbreon, Jolteon, and Espeon, proposed at CCS 2023 for IoT-to-cloud secure computation. We analyze structural flaws in the algorithms of the supplied full-version specification and the proof steps underlying their online authenticated-encryption claims. An AD-free, two-encryption prefix distinguisher has advantage $1-2^{-n}$ in the ideal-forkcipher model, con"
+    },
+    {
+      "id": "32281502fe20",
+      "title": "Issuer-Independent Decentralized Exchange for E-Cash",
+      "link": "https://eprint.iacr.org/2026/2495",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-15T07:49:32+00:00",
+      "ts": 1792050572.0,
+      "summary": "Despite decades of cryptographic advances, electronic cash (e-cash) remains largely confined to payments and lacks the broader decentralized financial applications built around cryptocurrencies. As a step toward broadening its application layer, we present an issuer-independent e-cash exchange in which a liquidity provider holds inventories of two independently issued e-cash currencies and users t"
+    },
+    {
+      "id": "edc141e376aa",
+      "title": "Speeding up Sumcheck using Algebraic Geometry",
+      "link": "https://eprint.iacr.org/2026/2494",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-15T07:19:15+00:00",
+      "ts": 1792048755.0,
+      "summary": "The sumcheck protocol, a ubiquitous component of modern proof-systems, enables proving the sum of evaluations of a low-degree multivariate polynomial. In theory, sumcheck has been generalized from polynomials to (tensors of) any multiplication code, a code whose pointwise products of codewords lie in a related product code. All practical systems nonetheless specifically use polynomials. For proof-"
+    },
+    {
+      "id": "0633e60870e4",
+      "title": "Robust ECDSA Threshold Signing at Scale",
+      "link": "https://eprint.iacr.org/2026/2493",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-15T07:08:55+00:00",
+      "ts": 1792048135.0,
+      "summary": "This work presents an efficient, scalable, and robust threshold ECDSA signing protocol for the $t\\leq (n-1)/3$ scenario, making it suitable for e.g., bridging consensus from one Blockchain to another. Our construction allows to batch-compute pre-processing material for efficient online signing. While our protocol is based on established ideas for (Verifiable) Secret Sharing, we optimize it to scal"
+    },
+    {
       "id": "3bc593e1f7f5",
       "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
       "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
@@ -125,36 +225,6 @@
       "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners. The vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems. In a report published earlier"
     },
     {
-      "id": "5376742e1375",
-      "title": "Exploring Fault Injection Attacks on HQC and BIKE Beyond Fujisaki-Okamoto Verification",
-      "link": "https://eprint.iacr.org/2026/2492",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-15T03:39:21+00:00",
-      "ts": 1792035561.0,
-      "summary": "Fault injection attacks have been extensively studied in the context of post-quantum cryptography, yet existing analyses on code-based KEMs largely focus on faults targeting the Fujisaki-Okamoto transform. This work presents new fault injection attacks against BIKE and HQC that operate beyond this commonly protected component and target less obvious instructions within the decapsulation process. T"
-    },
-    {
-      "id": "09025d607a14",
-      "title": "Shift-Invariant Permutations with Polynomial Composition: Construction and Algebraic Structure",
-      "link": "https://eprint.iacr.org/2026/2491",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-15T02:48:48+00:00",
-      "ts": 1792032528.0,
-      "summary": "Shift-invariant permutations of \\(\\mathbb F_2^n\\) are particularly attractive in symmetric cryptography because of their regularity and implementation efficiency. Constructing such permutations with an explicit algebraic structure remains a challenging problem. In this paper, we study a family of shift-invariant transformations of \\(\\mathbb F_2^n\\) constructed from a recursively defined sequence o"
-    },
-    {
-      "id": "8076f5863428",
-      "title": "Reaction Attack on CKKS Deployments with Asymptotically Optimal Query Complexity",
-      "link": "https://eprint.iacr.org/2026/2490",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-15T02:33:00+00:00",
-      "ts": 1792031580.0,
-      "summary": "We study a protocol-level reaction leakage in CKKS deployments where public coefficient-to-slot (C2S) evaluation keys are combined with a client's 1-bit validity response. Under this deployment surface, a malicious evaluator can recover a ternary secret key using asymptotically optimal $O(\\mathcal{H})$ reaction queries, where $\\mathcal{H}$ is the entropy of the secret key. The attack does not brea"
-    },
-    {
       "id": "c25a66ec92b3",
       "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
       "link": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
@@ -163,36 +233,6 @@
       "published": "2026-10-14T18:38:56+00:00",
       "ts": 1792003136.0,
       "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday. The attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,"
-    },
-    {
-      "id": "eb5b5e2d23a6",
-      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
-      "link": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T17:38:31+00:00",
-      "ts": 1791999511.0,
-      "summary": "Attackers exploited a flaw in an optional Nextcloud app,&nbsp;Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators&nbsp;reported the issue on GitHub, with the first logged attack on September 10. A web shell is a small file that executes any command an attacker sends via a web request, with the rights of the web server account. The flaw"
-    },
-    {
-      "id": "3697cc05e511",
-      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
-      "link": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T17:09:15+00:00",
-      "ts": 1791997755.0,
-      "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man System. \"Since January 2026, the threat actors behind these kits have been responsible for"
-    },
-    {
-      "id": "3c849224cd5a",
-      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
-      "link": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T16:34:31+00:00",
-      "ts": 1791995671.0,
-      "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers and KVM devices as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud"
     },
     {
       "id": "e1e7b17e135b",
@@ -243,16 +283,6 @@
       "published": "2026-10-14T11:00:00+00:00",
       "ts": 1791975600.0,
       "summary": "I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed1, fewer than half used lockfiles that checked for tam"
-    },
-    {
-      "id": "069b852bd61e",
-      "title": "Trustless Bitcoin Vaults",
-      "link": "https://eprint.iacr.org/2026/2466",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-14T00:16:23+00:00",
-      "ts": 1791936983.0,
-      "summary": "Bitcoin (BTC) is the largest crypto asset, yet the Bitcoin blockchain offers few applications in which BTC can be used. A standard approach to make BTC useful is bridging: BTC is deposited on the Bitcoin chain and a wrapped asset is minted on a chain such as Ethereum, where it can be used in smart contract applications. Unfortunately, all Bitcoin bridges to date require trust assumptions on a cent"
     },
     {
       "id": "4159f39231f1",
@@ -505,16 +535,6 @@
       "summary": "This one is from 1809, written by Napoleon&#8217;s nephew."
     },
     {
-      "id": "826b48a40b29",
-      "title": "Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-02T21:02:18+00:00",
-      "ts": 1790974938.0,
-      "summary": "The EU is recommending import controls to combat unregulated squid fishing in the Southwest Atlantic. I&#8217;m not optimistic. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
       "id": "b224d08c01cc",
       "title": "SequenceHash: multihashing for the rest of us",
       "link": "https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/",
@@ -725,16 +745,6 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
-      "id": "155c9ad41b96",
-      "title": "Relect: Single Secret Leader Election via FHE with Reduced Computation and Communication and Transparent Setup",
-      "link": "https://eprint.iacr.org/2026/1619",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-05T15:08:39+00:00",
-      "ts": 1785942519.0,
-      "summary": "In a single secret leader election (SSLE) protocol, all parties collectively and obliviously elect one leader. Parties other than the selected leader should not be able to learn the identity of the leader unless it is revealed by the leader itself. The problem is first formalized by Boneh et al. (AFT 2020), and the first concretely feasible lattice-based SSLE with proof-of-concept implementations,"
-    },
-    {
       "id": "5ce90ec573e9",
       "title": "A few notes on AWS Nitro Enclaves: KMS integration",
       "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
@@ -943,16 +953,6 @@
       "published": "2026-02-19T17:00:00+00:00",
       "ts": 1771520400.0,
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
-    },
-    {
-      "id": "3825252d84d5",
-      "title": "Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model",
-      "link": "https://eprint.iacr.org/2026/322",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-19T06:52:58+00:00",
-      "ts": 1771483978.0,
-      "summary": "Multi-key fully homomorphic encryption (MKFHE) enables computation over encrypted data under multiple different keys. Constructing MKFHE without any trusted or interactive setup remains an open problem. In the context of MKFHE, a trusted setup is often assumed to mean the use of a common random string (CRS). In this paper, we present the first MKFHE scheme in the plain model (i.e., without any tru"
     },
     {
       "id": "468dff3d0e31",
