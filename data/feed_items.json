@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T10:43:27.679756+00:00",
+  "generated_at": "2026-10-15T15:27:45.449640+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,86 @@
     }
   ],
   "items": [
+    {
+      "id": "e0c20d0c0e8c",
+      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+      "link": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T14:11:36+00:00",
+      "ts": 1792073496.0,
+      "summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is assessed to be active since at least 2017, offering PHP code templates to partners and affiliates that are installed into compromised websites with an aim to direct unsuspecting"
+    },
+    {
+      "id": "aa46c92d7752",
+      "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
+      "link": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T12:58:05+00:00",
+      "ts": 1792069085.0,
+      "summary": "NGINX released&nbsp;versions 1.30.6 and 1.31.7&nbsp;on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit. A fourth lets an attacker forge a TLS session that could"
+    },
+    {
+      "id": "3c66b72249cd",
+      "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
+      "link": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T12:28:13+00:00",
+      "ts": 1792067293.0,
+      "summary": "Next.js released an&nbsp;out-of-band security update&nbsp;on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw. One code-execution flaw is in React Server Components, and the other in librsvg, the open-source library Next.js uses through the&nbsp;sharp&nbsp;package to handle SVG images. The fixes are in"
+    },
+    {
+      "id": "a4fe28734900",
+      "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
+      "link": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T12:07:20+00:00",
+      "ts": 1792066040.0,
+      "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19. An attacker cannot reach the flaw through core alone, the Drupal Security Team said in&nbsp;its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login."
+    },
+    {
+      "id": "c60aab61d649",
+      "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+      "link": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T11:46:59+00:00",
+      "ts": 1792064819.0,
+      "summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026.&nbsp; The campaigns also increase operational pressure on MSSPs serving US businesses, which accounted for 16% of country-attributed targets.&nbsp; Similar attacks"
+    },
+    {
+      "id": "f0950f581d3d",
+      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+      "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T11:46:49+00:00",
+      "ts": 1792064809.0,
+      "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. \"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an"
+    },
+    {
+      "id": "9447d121d94d",
+      "title": "Why AI Confidence Is Not Validation",
+      "link": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T11:04:35+00:00",
+      "ts": 1792062275.0,
+      "summary": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance models and validation standards in place, that gap compounds and rarely stays contained to a workstation: an"
+    },
+    {
+      "id": "79be90c4de0e",
+      "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+      "link": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T10:42:16+00:00",
+      "ts": 1792060936.0,
+      "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to help people identify calls from unknown numbers and tackle spam or fraudulent calls. To that end, the Department of Telecommunications has issued a circular urging service"
+    },
     {
       "id": "c2278a03642c",
       "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
@@ -45,16 +125,6 @@
       "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners. The vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems. In a report published earlier"
     },
     {
-      "id": "f0950f581d3d",
-      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
-      "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-15T06:17:58+00:00",
-      "ts": 1792045078.0,
-      "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. \"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an"
-    },
-    {
       "id": "5376742e1375",
       "title": "Exploring Fault Injection Attacks on HQC and BIKE Beyond Fujisaki-Okamoto Verification",
       "link": "https://eprint.iacr.org/2026/2492",
@@ -83,16 +153,6 @@
       "published": "2026-10-15T02:33:00+00:00",
       "ts": 1792031580.0,
       "summary": "We study a protocol-level reaction leakage in CKKS deployments where public coefficient-to-slot (C2S) evaluation keys are combined with a client's 1-bit validity response. Under this deployment surface, a malicious evaluator can recover a ternary secret key using asymptotically optimal $O(\\mathcal{H})$ reaction queries, where $\\mathcal{H}$ is the entropy of the secret key. The attack does not brea"
-    },
-    {
-      "id": "7131403b66e1",
-      "title": "FAEST on GPUs: Addressing Field Multiplication as a Bottleneck",
-      "link": "https://eprint.iacr.org/2026/2489",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-15T00:53:20+00:00",
-      "ts": 1792025600.0,
-      "summary": "FAEST is a post-quantum signature scheme that combines VOLE-in-the-Head with QuickSilver to prove knowledge of a secret key. It relies on well-established symmetric primitives and offers small public keys, but signing and verification are computationally expensive. We present an NVIDIA GPU implementation of the key-generation core and the QuickSilver procedures OWFProve and OWFVerify for the stand"
     },
     {
       "id": "c25a66ec92b3",
@@ -175,66 +235,6 @@
       "summary": "Another IoT cyberattack, this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [&#8230;] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to"
     },
     {
-      "id": "a293c41d0267",
-      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-      "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T12:30:42+00:00",
-      "ts": 1791981042.0,
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS"
-    },
-    {
-      "id": "ac10accacdb2",
-      "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
-      "link": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T12:13:36+00:00",
-      "ts": 1791980016.0,
-      "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine. The curl project fixed it on October 14 in&nbsp;curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash"
-    },
-    {
-      "id": "d08b58b8c637",
-      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
-      "link": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T11:50:00+00:00",
-      "ts": 1791978600.0,
-      "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes"
-    },
-    {
-      "id": "2a9f9d9f4388",
-      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-      "link": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T11:19:02+00:00",
-      "ts": 1791976742.0,
-      "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs,&nbsp;fixed them, and paid XBOW its top $"
-    },
-    {
-      "id": "6eb52dcbe785",
-      "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
-      "link": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T11:08:22+00:00",
-      "ts": 1791976102.0,
-      "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud.&nbsp; Dutch mobile security company ThreatFabric said it identified replacements for eight Indonesian banking"
-    },
-    {
-      "id": "ae285c2b5d23",
-      "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
-      "link": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T11:00:00+00:00",
-      "ts": 1791975600.0,
-      "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let the user choose where the one-time passcode went. The attack was the easy part. Proving it"
-    },
-    {
       "id": "ebfdd8968269",
       "title": "Package managers have an integrity problem",
       "link": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/",
@@ -243,26 +243,6 @@
       "published": "2026-10-14T11:00:00+00:00",
       "ts": 1791975600.0,
       "summary": "I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed1, fewer than half used lockfiles that checked for tam"
-    },
-    {
-      "id": "ffa4a343ce01",
-      "title": "Connecting Cryptanalytic Distinguishers through Divisibility",
-      "link": "https://eprint.iacr.org/2026/2471",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-14T09:12:14+00:00",
-      "ts": 1791969134.0,
-      "summary": "Integral distinguishers can reveal more than a zero-sum property: the number of ones in an output component may be divisible by a high power of $2$, rather than merely being even. To exploit this divisibility, we relate linear, integral, differential-linear, and restricted differential sums through two-way conversions with explicit divisibility guarantees and data complexity, recovering establishe"
-    },
-    {
-      "id": "6acd562a29a8",
-      "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
-      "link": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T07:46:57+00:00",
-      "ts": 1791964017.0,
-      "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine. The bug is tracked as&nbsp;CVE-2026-74580&nbsp;and named Vghost. Tencent Zhuque Lab, which found the"
     },
     {
       "id": "069b852bd61e",
@@ -275,6 +255,26 @@
       "summary": "Bitcoin (BTC) is the largest crypto asset, yet the Bitcoin blockchain offers few applications in which BTC can be used. A standard approach to make BTC useful is bridging: BTC is deposited on the Bitcoin chain and a wrapped asset is minted on a chain such as Ethereum, where it can be used in smart contract applications. Unfortunately, all Bitcoin bridges to date require trust assumptions on a cent"
     },
     {
+      "id": "4159f39231f1",
+      "title": "Multiples vulnérabilités dans les produits Ivanti (14 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1311/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-14T00:00:00+00:00",
+      "ts": 1791936000.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données. Ivanti indique que la vulnérabilité..."
+    },
+    {
+      "id": "66ff7729b9b3",
+      "title": "Multiples vulnérabilités dans Microsoft Office (14 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1312/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-14T00:00:00+00:00",
+      "ts": 1791936000.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données. Microsoft indique que la vulnérabilité..."
+    },
+    {
       "id": "c5a36601271c",
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
@@ -283,6 +283,66 @@
       "published": "2026-10-13T23:24:53+00:00",
       "ts": 1791933893.0,
       "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond."
+    },
+    {
+      "id": "269cb5cde083",
+      "title": "Vulnérabilité dans NetApp StorageGRID (13 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1295/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-13T00:00:00+00:00",
+      "ts": 1791849600.0,
+      "summary": "Une vulnérabilité a été découverte dans NetApp StorageGRID. Elle permet à un attaquant de provoquer un déni de service à distance."
+    },
+    {
+      "id": "eb64ee56e216",
+      "title": "Multiples vulnérabilités dans Mozilla Firefox (13 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1297/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-13T00:00:00+00:00",
+      "ts": 1791849600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Firefox. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité."
+    },
+    {
+      "id": "13230ff91a1f",
+      "title": "Vulnérabilité dans Schneider Electric Harmony (13 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1299/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-13T00:00:00+00:00",
+      "ts": 1791849600.0,
+      "summary": "Une vulnérabilité a été découverte dans Schneider Electric Harmony. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité."
+    },
+    {
+      "id": "2ad34ec7d0be",
+      "title": "Multiples vulnérabilités dans les produits SAP (13 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1300/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-13T00:00:00+00:00",
+      "ts": 1791849600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection SQL (SQLi)."
+    },
+    {
+      "id": "d245910ffe70",
+      "title": "Multiples vulnérabilités dans les produits Siemens (13 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1298/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-13T00:00:00+00:00",
+      "ts": 1791849600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+    },
+    {
+      "id": "9fa37299b51f",
+      "title": "Vulnérabilité dans Typo3 (13 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1296/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-13T00:00:00+00:00",
+      "ts": 1791849600.0,
+      "summary": "Une vulnérabilité a été découverte dans Typo3. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité."
     },
     {
       "id": "96467e4b9fc5",
@@ -325,6 +385,26 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL JDBC. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité."
     },
     {
+      "id": "93ec4181b968",
+      "title": "Multiples vulnérabilités dans MongoDB (12 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1293/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-12T00:00:00+00:00",
+      "ts": 1791763200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits MongoDB. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+      "id": "84f232d8ee80",
+      "title": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération (12 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-12T00:00:00+00:00",
+      "ts": 1791763200.0,
+      "summary": "Le CERT-FR a connaissance de nombreuses compromissions des controleurs à distance d'installation de réfrigération Danfoss série AK-SM, AK-SC ainsi que Copeland xweb et Dixell xweb. De manière générale l'exposition d'une interface de gestion sur Internet est contraire aux bonnes pratiques."
+    },
+    {
       "id": "004fbb2e40f0",
       "title": "New website: estimating human cryptanalytic work",
       "link": "https://blog.cryptographyengineering.com/2026/10/11/new-website-estimating-human-cryptanalytic-work/",
@@ -355,94 +435,14 @@
       "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (Doryteuthis (Amerigo) pealeii). That night I cooked it over a barbecue grill&#8212;hot and fast. Delici"
     },
     {
-      "id": "7452b758cb25",
-      "title": "Vulnérabilité dans les produits Tenable (09 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1284/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-09T00:00:00+00:00",
-      "ts": 1791504000.0,
-      "summary": "Une vulnérabilité a été découverte dans les produits Tenable. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur indique qu'une réinstallation d'un composant est nécessaire après la mise à jour."
-    },
-    {
-      "id": "a57fe7edd26e",
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (09 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1286/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-09T00:00:00+00:00",
-      "ts": 1791504000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "9bb6b183a8cf",
-      "title": "Multiples vulnérabilités dans les produits Nextcloud (09 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1283/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-09T00:00:00+00:00",
-      "ts": 1791504000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Nextcloud. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "189c30a7ecec",
-      "title": "Vulnérabilité dans Citrix NetScaler ADC et Gateway (09 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1285/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-09T00:00:00+00:00",
-      "ts": 1791504000.0,
-      "summary": "Une vulnérabilité a été découverte dans Citrix NetScaler ADC et Gateway. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance."
-    },
-    {
-      "id": "a35aeb4c92c6",
-      "title": "Multiples vulnérabilités dans les produits IBM (09 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1291/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-09T00:00:00+00:00",
-      "ts": 1791504000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
-    },
-    {
-      "id": "c4c58080e672",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (09 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1289/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-09T00:00:00+00:00",
-      "ts": 1791504000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service."
-    },
-    {
-      "id": "8c35af72b611",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (09 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1287/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-09T00:00:00+00:00",
-      "ts": 1791504000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
-    },
-    {
-      "id": "010dd4605e4c",
-      "title": "Multiples vulnérabilités dans Apache Struts (09 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1290/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-09T00:00:00+00:00",
-      "ts": 1791504000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Struts. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données. L'éditeur indique que les versions 2 des..."
-    },
-    {
-      "id": "0e5c57c91ca4",
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (09 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1288/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-09T00:00:00+00:00",
-      "ts": 1791504000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confidentialité des données."
+      "id": "d61a16cb4a3a",
+      "title": "Magnetar: High-speed post-quantum RV64 zkVM from standard hashes",
+      "link": "https://eprint.iacr.org/2026/2423",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-09T00:37:27+00:00",
+      "ts": 1791506247.0,
+      "summary": "We describe the design, implementation, and experimental evaluation of Magnetar, a transparent proof system for RV64I program executions (i.e., a zkVM). Magnetar is the first zkVM to simultaneously satisfy the following three properties: 1. General-purpose proving. Magnetar proves programs compiled to the general-purpose RV64I ISA. An implementation of the Ethereum Virtual Machine (EVM) written in"
     },
     {
       "id": "b03b15e0f278",
@@ -455,14 +455,14 @@
       "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs. Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re"
     },
     {
-      "id": "6322894002fd",
-      "title": "Multiples vulnérabilités dans les produits Cisco (08 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1282/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-08T00:00:00+00:00",
-      "ts": 1791417600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+      "id": "c4ca75a7184a",
+      "title": "New infinite families of APN functions from the switching construction in even dimension",
+      "link": "https://eprint.iacr.org/2026/2401",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-07T15:21:37+00:00",
+      "ts": 1791386497.0,
+      "summary": "We present the first new infinite family of APN functions obtained by applying the switching construction to a known family since the introduction of the Budaghyan-Carlet-Leander family in 2009. Our construction is also the first example of an infinite APN family obtained via the switching construction from an infinite family of non-power functions. More generally, we study families of APN functio"
     },
     {
       "id": "4b3e102168c7",
@@ -525,6 +525,16 @@
       "summary": "Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC, a pair of related hash constructions that bring secure multihashing to de"
     },
     {
+      "id": "b2f853cdf768",
+      "title": "Knuth–Yao masked (Gaussian) sampling",
+      "link": "https://eprint.iacr.org/2026/2287",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-01T00:32:08+00:00",
+      "ts": 1790814728.0,
+      "summary": "Discrete Gaussian sampling remains one of the most delicate operations to protect against side-channel attacks in lattice-based cryptography. In this work, we present the first masked evaluation of the Knuth-Yao sampler, a generic building block for lattice-based schemes. Its random-walk formulation might seem fundamentally at odds with masking, since the walk's control flow depends precisely on t"
+    },
+    {
       "id": "bcbe1c4698ed",
       "title": "Is sandboxing sufficient to contain rogue agents?",
       "link": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
@@ -553,16 +563,6 @@
       "published": "2026-09-25T21:44:40+00:00",
       "ts": 1790372680.0,
       "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims."
-    },
-    {
-      "id": "1f38b761c070",
-      "title": "Skyhook: Trustless Cross-Chain Value Transfer with a Fully Scriptless Pool",
-      "link": "https://eprint.iacr.org/2026/2210",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-25T12:13:14+00:00",
-      "ts": 1790338394.0,
-      "summary": "Facilitating value transfers with a scriptless chain is a longstanding problem in cryptography. We present a cross-chain messaging and value transfer protocol that maintains game-theoretic atomicity even when one party is operating on a chain which is fully scriptless, such as shielded Zcash, which has no scripting capabilities at all and requires transactions to be virtually identical. The observ"
     },
     {
       "id": "f391bd68698a",
@@ -825,16 +825,6 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
-      "id": "a9e9af31e036",
-      "title": "Fault Injection Attacks Against zkSTARKs",
-      "link": "https://eprint.iacr.org/2026/835",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-28T14:39:14+00:00",
-      "ts": 1777387154.0,
-      "summary": "Fault injection attacks on zero-knowledge (ZK) constructions have received little attention in the wider literature. Recent work has demonstrated single-fault key recovery attacks against a ZK signature scheme. In this paper, we detail candidate fault injection attacks against zero-knowledge scalable transparent argument of knowledge (zkSTARK) provers, designed to violate ZK capabilities. zkSTARK "
-    },
-    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -993,6 +983,16 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
+    },
+    {
+      "id": "789eb0f5718f",
+      "title": "Cryptanalysis of Full BEANIE",
+      "link": "https://eprint.iacr.org/2025/2297",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-12-20T21:16:26+00:00",
+      "ts": 1766265386.0,
+      "summary": "Beanie is a tweakable block cipher recently published at ToSC aiming for memory encryption of microcontroller units. In line with this goal, it handles small plaintexts of only 32 bits and has a low latency. In this paper, we propose the first third-party analysis of the two variants of Beanie. By carefully leveraging structural properties of the cipher and taking advantage of its distinctive atta"
     },
     {
       "id": "d89b8a28e282",
