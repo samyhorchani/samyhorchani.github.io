@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:38:47.040507+00:00",
+  "generated_at": "2026-10-15T22:50:57.743914+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,6 +15,16 @@
   ],
   "items": [
     {
+      "id": "deec60e140c8",
+      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+      "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T20:24:36+00:00",
+      "ts": 1792095876.0,
+      "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared"
+    },
+    {
       "id": "1d337a14b5c5",
       "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
       "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
@@ -23,6 +33,16 @@
       "published": "2026-10-15T18:49:33+00:00",
       "ts": 1792090173.0,
       "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old bugs are finding new victims, familiar tools are being put to strange uses, and"
+    },
+    {
+      "id": "6a32e31b71ef",
+      "title": "GhostFaceMPC: Privacy-Preserving Face Recognition with Multi-Party Computation",
+      "link": "https://eprint.iacr.org/2026/2499",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-15T17:33:21+00:00",
+      "ts": 1792085601.0,
+      "summary": "Facial recognition has become central to modern authentication systems, security frameworks, and personalized services. However, its widespread adoption is hindered by severe privacy risks, particularly surrounding unauthorized access to sensitive biometric data. To address these challenges, this paper presents GhostFaceMPC, the first end-to-end, privacy-preserving face recognition system to evalu"
     },
     {
       "id": "8286d7b68a18",
@@ -195,16 +215,6 @@
       "summary": "The sumcheck protocol, a ubiquitous component of modern proof-systems, enables proving the sum of evaluations of a low-degree multivariate polynomial. In theory, sumcheck has been generalized from polynomials to (tensors of) any multiplication code, a code whose pointwise products of codewords lie in a related product code. All practical systems nonetheless specifically use polynomials. For proof-"
     },
     {
-      "id": "0633e60870e4",
-      "title": "Robust ECDSA Threshold Signing at Scale",
-      "link": "https://eprint.iacr.org/2026/2493",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-15T07:08:55+00:00",
-      "ts": 1792048135.0,
-      "summary": "This work presents an efficient, scalable, and robust threshold ECDSA signing protocol for the $t\\leq (n-1)/3$ scenario, making it suitable for e.g., bridging consensus from one Blockchain to another. Our construction allows to batch-compute pre-processing material for efficient online signing. While our protocol is based on established ideas for (Verifiable) Secret Sharing, we optimize it to scal"
-    },
-    {
       "id": "3bc593e1f7f5",
       "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
       "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
@@ -223,16 +233,6 @@
       "published": "2026-10-15T06:43:08+00:00",
       "ts": 1792046588.0,
       "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners. The vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems. In a report published earlier"
-    },
-    {
-      "id": "c25a66ec92b3",
-      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
-      "link": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T18:38:56+00:00",
-      "ts": 1792003136.0,
-      "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday. The attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,"
     },
     {
       "id": "e1e7b17e135b",
@@ -635,6 +635,16 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
+      "id": "d7129dc19856",
+      "title": "Akita: A High-Performance Lattice-Based Polynomial Commitment Scheme",
+      "link": "https://eprint.iacr.org/2026/1983",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-11T16:03:03+00:00",
+      "ts": 1789142583.0,
+      "summary": "Lattice-based polynomial commitment schemes (PCSs) promise post-quantum SNARKs with two properties that elliptic curves provide and hash-based schemes, today's deployed post-quantum default, do not: concretely small proofs and commitment time proportional to the number of nonzero entries in the committed polynomial rather than its length. The second property is essential to Twist and Shout (CRYPTO"
+    },
+    {
       "id": "cc3be13916de",
       "title": "Vulnérabilité dans Metabase (10 septembre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-010/",
@@ -713,16 +723,6 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
-    },
-    {
-      "id": "cf70e89ea800",
-      "title": "Enhancing Capital Efficiency in DeFi Lending and Liquidity Provision",
-      "link": "https://eprint.iacr.org/2026/1727",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-18T18:29:51+00:00",
-      "ts": 1787077791.0,
-      "summary": "Decentralized Finance (DeFi) continues to experience rapid growth, yet a significant portion of capital remains inefficiently utilized in overprovisioned lending reserves or inactive liquidity positions. This paper presents two extension-based improvement proposals aimed at increasing capital efficiency in DeFi protocols. The first addresses idle capital in pool-based lending by adding an allocati"
     },
     {
       "id": "bea5a06fb576",
