@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T05:28:41.629615+00:00",
+  "generated_at": "2026-10-15T10:43:27.679756+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,86 @@
     }
   ],
   "items": [
+    {
+      "id": "c2278a03642c",
+      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+      "link": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T08:45:10+00:00",
+      "ts": 1792053910.0,
+      "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026. \"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract 3,174 secrets from public repositories' CI,\" security researchers Gaetan"
+    },
+    {
+      "id": "3bc593e1f7f5",
+      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+      "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T07:07:05+00:00",
+      "ts": 1792048025.0,
+      "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM. The vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of"
+    },
+    {
+      "id": "bd41c1a21693",
+      "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "link": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T06:43:08+00:00",
+      "ts": 1792046588.0,
+      "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners. The vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems. In a report published earlier"
+    },
+    {
+      "id": "f0950f581d3d",
+      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+      "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-15T06:17:58+00:00",
+      "ts": 1792045078.0,
+      "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. \"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an"
+    },
+    {
+      "id": "5376742e1375",
+      "title": "Exploring Fault Injection Attacks on HQC and BIKE Beyond Fujisaki-Okamoto Verification",
+      "link": "https://eprint.iacr.org/2026/2492",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-15T03:39:21+00:00",
+      "ts": 1792035561.0,
+      "summary": "Fault injection attacks have been extensively studied in the context of post-quantum cryptography, yet existing analyses on code-based KEMs largely focus on faults targeting the Fujisaki-Okamoto transform. This work presents new fault injection attacks against BIKE and HQC that operate beyond this commonly protected component and target less obvious instructions within the decapsulation process. T"
+    },
+    {
+      "id": "09025d607a14",
+      "title": "Shift-Invariant Permutations with Polynomial Composition: Construction and Algebraic Structure",
+      "link": "https://eprint.iacr.org/2026/2491",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-15T02:48:48+00:00",
+      "ts": 1792032528.0,
+      "summary": "Shift-invariant permutations of \\(\\mathbb F_2^n\\) are particularly attractive in symmetric cryptography because of their regularity and implementation efficiency. Constructing such permutations with an explicit algebraic structure remains a challenging problem. In this paper, we study a family of shift-invariant transformations of \\(\\mathbb F_2^n\\) constructed from a recursively defined sequence o"
+    },
+    {
+      "id": "8076f5863428",
+      "title": "Reaction Attack on CKKS Deployments with Asymptotically Optimal Query Complexity",
+      "link": "https://eprint.iacr.org/2026/2490",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-15T02:33:00+00:00",
+      "ts": 1792031580.0,
+      "summary": "We study a protocol-level reaction leakage in CKKS deployments where public coefficient-to-slot (C2S) evaluation keys are combined with a client's 1-bit validity response. Under this deployment surface, a malicious evaluator can recover a ternary secret key using asymptotically optimal $O(\\mathcal{H})$ reaction queries, where $\\mathcal{H}$ is the entropy of the secret key. The attack does not brea"
+    },
+    {
+      "id": "7131403b66e1",
+      "title": "FAEST on GPUs: Addressing Field Multiplication as a Bottleneck",
+      "link": "https://eprint.iacr.org/2026/2489",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-15T00:53:20+00:00",
+      "ts": 1792025600.0,
+      "summary": "FAEST is a post-quantum signature scheme that combines VOLE-in-the-Head with QuickSilver to prove knowledge of a secret key. It relies on well-established symmetric primitives and offers small public keys, but signing and verification are computationally expensive. We present an NVIDIA GPU implementation of the key-generation core and the QuickSilver procedures OWFProve and OWFVerify for the stand"
+    },
     {
       "id": "c25a66ec92b3",
       "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
@@ -52,7 +132,7 @@
       "category": "veille",
       "published": "2026-10-14T16:34:31+00:00",
       "ts": 1791995671.0,
-      "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud conspiracy, money"
+      "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers and KVM devices as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud"
     },
     {
       "id": "e1e7b17e135b",
@@ -62,7 +142,7 @@
       "category": "veille",
       "published": "2026-10-14T16:02:17+00:00",
       "ts": 1791993737.0,
-      "summary": "This is a current list of where and when I am scheduled to speak: I’m speaking at ATTENTION: Democracy, Rebuilt in Montreal, Canada. The event runs October 21–23, 2026, and my talk is on Wednesday, October 21. I’m speaking at the University of Toronto in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026. I’m speaking at [un]prompted in San Francisco, California. The event runs October 27–29"
+      "summary": "This is a current list of where and when I am scheduled to speak: I’m speaking at ATTENTION: Democracy, Rebuilt in Montreal, Quebec, Canada. The event runs October 21–23, 2026, and my talk is on Wednesday, October 21. I’m speaking at the University of Toronto in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026. I’m speaking at [un]prompted in San Francisco, California. The event runs Octob"
     },
     {
       "id": "a554a3d3d359",
@@ -93,26 +173,6 @@
       "published": "2026-10-14T14:10:22+00:00",
       "ts": 1791987022.0,
       "summary": "Another IoT cyberattack, this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [&#8230;] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to"
-    },
-    {
-      "id": "d58f1b002470",
-      "title": "Hardware-Level Mitigation of Micro-Architectural Leakages in Embedded Processors",
-      "link": "https://eprint.iacr.org/2026/2478",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-14T13:24:06+00:00",
-      "ts": 1791984246.0,
-      "summary": "Cryptographic software, with its inherent flexibility and adaptability, has become essential for meeting today’s rapidly evolving security requirements, despite offering lower performance than dedicated hardware accelerators. However, Side-Channel Analysis (SCA) complicates its secure execution on physical hardware, making robust protection a central challenge. While the masking countermeasure off"
-    },
-    {
-      "id": "f4e3f0371cec",
-      "title": "On the Hardness of Finding Permutation Automorphisms of Linear Codes",
-      "link": "https://eprint.iacr.org/2026/2476",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-14T13:03:11+00:00",
-      "ts": 1791982991.0,
-      "summary": "We study the hardness of finding permutation automorphisms of linear codes. We look into three main problems: $\\mathsf{AUT}$, $\\mathsf{AUT}$-$\\mathsf{Gen}$ and $\\mathsf{AUT}$-$\\mathsf{Count}$ which, respectively, ask to find a non-trivial automorphism, a generating set and the order of the automorphism group. We give polynomial time reductions from $\\mathsf{AUT}$ to $\\mathsf{ISO}$ (the problem of "
     },
     {
       "id": "a293c41d0267",
@@ -205,36 +265,6 @@
       "summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine. The bug is tracked as&nbsp;CVE-2026-74580&nbsp;and named Vghost. Tencent Zhuque Lab, which found the"
     },
     {
-      "id": "96e97dc3db6c",
-      "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
-      "link": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T05:52:28+00:00",
-      "ts": 1791957148.0,
-      "summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over. The protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for a Windows anti-phishing feature. The work was done in a lab as a proof of"
-    },
-    {
-      "id": "b57d683bf2d1",
-      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
-      "link": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T04:34:43+00:00",
-      "ts": 1791952483.0,
-      "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these, more than 670 relate to privilege escalation, followed by over 300 remote code"
-    },
-    {
-      "id": "c7e2f17c2d03",
-      "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
-      "link": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-14T01:59:25+00:00",
-      "ts": 1791943165.0,
-      "summary": "A Saudi national and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by"
-    },
-    {
       "id": "069b852bd61e",
       "title": "Trustless Bitcoin Vaults",
       "link": "https://eprint.iacr.org/2026/2466",
@@ -255,26 +285,6 @@
       "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond."
     },
     {
-      "id": "626e58ba6983",
-      "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
-      "link": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-13T18:20:57+00:00",
-      "ts": 1791915657.0,
-      "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are \"challenging to shut down,\" since \"there's no centralized point to shut off.\""
-    },
-    {
-      "id": "4049f808660b",
-      "title": "Tree-BTE: Batched Threshold Encryption using Additive Homomorphism",
-      "link": "https://eprint.iacr.org/2026/2463",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-13T15:07:26+00:00",
-      "ts": 1791904046.0,
-      "summary": "Batched threshold encryption (BTE) enables a committee of servers to jointly decrypt any chosen subset of ciphertexts from a large pool, while all remaining ciphertexts stay private. BTE is a key building block for encrypted mempools, where transactions are encrypted until block inclusion to mitigate maximal extractable value (MEV). We give a new tree-based BTE construction from two simple buildin"
-    },
-    {
       "id": "96467e4b9fc5",
       "title": "FBI Arrests Suspect in FBI-Hacking Case",
       "link": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
@@ -283,26 +293,6 @@
       "published": "2026-10-12T15:01:26+00:00",
       "ts": 1791817286.0,
       "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster. Last week, the FBI arrested (alternate link) someone associated with that crime."
-    },
-    {
-      "id": "59239e2eaae5",
-      "title": "Extended biprojective APN functions",
-      "link": "https://eprint.iacr.org/2026/2451",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-12T13:54:06+00:00",
-      "ts": 1791813246.0,
-      "summary": "Almost perfect nonlinear (APN) functions provide optimal resistance to differential cryptanalysis in characteristic two, and constructing new infinite families inequivalent to the known ones remains an important problem in the study of cryptographic functions. We introduce extended biprojective functions, obtained by augmenting biprojective polynomials with truncated trace terms, and establish a n"
-    },
-    {
-      "id": "bcb5049cc528",
-      "title": "A methodology to derive security specifications for complex electronic systems",
-      "link": "https://eprint.iacr.org/2026/2447",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-12T05:10:57+00:00",
-      "ts": 1791781857.0,
-      "summary": "Modern electronic systems are becoming increas- ingly complex and must satisfy demanding performance, power, and area (PPA) constraints. Consider for instance artificial intelligence chips, aiming at datacenters running LLMs or at automotive perception, which manipulate massive data streams. Beyond performance considerations, these systems must also provide increasingly strong security and dependa"
     },
     {
       "id": "18795afe728c",
@@ -535,16 +525,6 @@
       "summary": "Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC, a pair of related hash constructions that bring secure multihashing to de"
     },
     {
-      "id": "f5e095982125",
-      "title": "Context-Blind Device-Bound Anonymous Credentials from Signatures and Proofs",
-      "link": "https://eprint.iacr.org/2026/2295",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-01T12:56:00+00:00",
-      "ts": 1790859360.0,
-      "summary": "Anonymous credentials enable privacy preserving authentication, but their transferability motivates binding each credential to a key protected by a secure element (SE). Such binding should preserve privacy even when the SE is remote or corrupted: every presentation must require fresh SE participation without revealing its context to the SE (Friedrichs et al., EC'26). Existing context-blind device-"
-    },
-    {
       "id": "bcbe1c4698ed",
       "title": "Is sandboxing sufficient to contain rogue agents?",
       "link": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
@@ -685,16 +665,6 @@
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity a"
     },
     {
-      "id": "173f01a3ba90",
-      "title": "Decomposed LWE is Equivalent to Succinct LWE",
-      "link": "https://eprint.iacr.org/2026/1829",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-28T20:46:06+00:00",
-      "ts": 1787949966.0,
-      "summary": "We prove that the Succinct Learning with Errors assumption, introduced by Wee (CRYPTO '24), and the Decomposed Learning with Errors assumption, introduced by Abram, Malavolta, and Roy (CRYPTO '25), are equivalent under appropriate parameter settings. Abram, Malavolta, and Roy proved that Succinct LWE implies Decomposed LWE. We establish the converse implication, showing that Decomposed LWE implies"
-    },
-    {
       "id": "a3160ec17f8b",
       "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
@@ -723,6 +693,16 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
+    },
+    {
+      "id": "cf70e89ea800",
+      "title": "Enhancing Capital Efficiency in DeFi Lending and Liquidity Provision",
+      "link": "https://eprint.iacr.org/2026/1727",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-18T18:29:51+00:00",
+      "ts": 1787077791.0,
+      "summary": "Decentralized Finance (DeFi) continues to experience rapid growth, yet a significant portion of capital remains inefficiently utilized in overprovisioned lending reserves or inactive liquidity positions. This paper presents two extension-based improvement proposals aimed at increasing capital efficiency in DeFi protocols. The first addresses idle capital in pool-based lending by adding an allocati"
     },
     {
       "id": "bea5a06fb576",
@@ -815,6 +795,16 @@
       "summary": "In April we released Mewt, our open-source mutation-testing engine that finds the gaps in your test suite. Today we’re expanding it with support for DAML, the language Canton Network applications are written in. Mewt now reads DAML, generates several classes of mutants (including two built for DAML&rsquo;s authorization primitives), and runs them through your existing test suite to count how many "
     },
     {
+      "id": "747f5f07165d",
+      "title": "LaMS: A p-adic Layered Modulus Switching for Provable Dual Attacks on LWE",
+      "link": "https://eprint.iacr.org/2026/1326",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-26T13:40:03+00:00",
+      "ts": 1782481203.0,
+      "summary": "The Learning with Errors (LWE) problem is a central foundation for post-quantum schemes such as Kyber and Dilithium. Dual attacks are among the main tools for assessing the concrete hardness of LWE instances. At EUROCRYPT 2024, Pouly and Shen introduced the first provable dual attack against LWE. Subsequently, at ASIACRYPT 2025, Qu and Xu incorporated modulus switching into this framework by recov"
+    },
+    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -833,16 +823,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "1c8901ea3841",
-      "title": "DDYF: Differential Dolev-Yao Fuzzing of Cryptographic Protocols",
-      "link": "https://eprint.iacr.org/2026/991",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-19T06:52:03+00:00",
-      "ts": 1779173523.0,
-      "summary": "Symbolic formal verification of cryptographic protocols based on the Dolev-Yao (DY) attacker model—an active attacker with full network control and perfect cryptography—is well-established for finding design-level logical flaws in cryptographic protocols. Building on this, Dolev-Yao Fuzzing (DYF) enriches fuzzing with this attacker model to uncover logical bugs at the implementation level. In cont"
     },
     {
       "id": "a9e9af31e036",
@@ -925,6 +905,16 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
+      "id": "cb1ce3471511",
+      "title": "Leakage-Diagrams, Importance Sampling, and Composition in the Random Probing Model",
+      "link": "https://eprint.iacr.org/2026/444",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-04T11:10:11+00:00",
+      "ts": 1772622611.0,
+      "summary": "Security evaluation of masking in low-noise regimes remains poorly understood: increasing the masking order does not automatically translate into higher concrete resistance once many correlated intermediates are processed by a full implementation. A common approach is to reduce noisy side-channel leakage to the random probing model (RPM), but existing reductions can be too loose to yield meaningfu"
+    },
+    {
       "id": "b7ffc9dc8c13",
       "title": "Anonymous credentials: an illustrated primer",
       "link": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
@@ -973,6 +963,16 @@
       "published": "2026-02-19T06:52:58+00:00",
       "ts": 1771483978.0,
       "summary": "Multi-key fully homomorphic encryption (MKFHE) enables computation over encrypted data under multiple different keys. Constructing MKFHE without any trusted or interactive setup remains an open problem. In the context of MKFHE, a trusted setup is often assumed to mean the use of a common random string (CRS). In this paper, we present the first MKFHE scheme in the plain model (i.e., without any tru"
+    },
+    {
+      "id": "468dff3d0e31",
+      "title": "Fuzzy Private Set Intersection under Density-Bounded Assumptions",
+      "link": "https://eprint.iacr.org/2026/262",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-14T23:57:29+00:00",
+      "ts": 1771113449.0,
+      "summary": "This paper presents a new fuzzy private set intersection (FPSI) protocol, a two-party protocol to securely identify similar items across private sets. Our design departs from the prevailing separation-based paradigm---e.g., ``apart by $2\\delta$'' or the disjoint projection assumption---which either incurs exponential overhead in dimensionality or requires high dimensionality to justify the assumpt"
     },
     {
       "id": "96ed87c2cba3",
@@ -1055,14 +1055,14 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "dfabd960d3bf",
-      "title": "What’s the Matter? An In-Depth Security Analysis of the Matter Protocol",
-      "link": "https://eprint.iacr.org/2025/1268",
+      "id": "de80193a1620",
+      "title": "A zk-SNARK Programming Framework for Verifiable Data Analytics",
+      "link": "https://eprint.iacr.org/2025/572",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-07-10T14:51:26+00:00",
-      "ts": 1752159086.0,
-      "summary": "The Matter protocol has emerged as the leading standard for secure IoT interoperability, backed by major vendors such as Apple, Google, Amazon, Samsung, and others. With millions of Matter devices already deployed, its security guarantees are critical to the safety of modern IoT ecosystems. This paper presents the first in-depth analysis of Matter's key establishment protocols: Passcode-Authentica"
+      "published": "2025-03-29T12:06:05+00:00",
+      "ts": 1743249965.0,
+      "summary": "zk-SNARKs enable succinct, efficiently verifiable proofs of correct computation over private data, but require the computation to be compiled into a \\emph{statically defined and bounded} arithmetic circuit. This requirement creates a multidimensional mismatch with data-analytic programming, which consists largely of array programs: (a)~array operations and resulting shapes are dynamic; (b)~arrays "
     }
   ]
 }
