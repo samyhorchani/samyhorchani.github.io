@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:12:46.213902+00:00",
+  "generated_at": "2026-10-15T00:15:23.355018+00:00",
   "count": 105,
   "errors": [
     {
@@ -145,16 +145,6 @@
       "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine. The curl project fixed it on October 14 in&nbsp;curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash"
     },
     {
-      "id": "75f70cf31395",
-      "title": "Tamper Sensing Meshes in Payment Terminals and Beyond",
-      "link": "https://eprint.iacr.org/2026/2475",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-14T12:03:35+00:00",
-      "ts": 1791979415.0,
-      "summary": "Card Payment Terminals commonly use tamper sensing meshes to deter physical attacks on devices handling sensitive data such as cryptographic keys. Although their use of such meshes is frequently referenced in research literature, the public record contains little research on their construction. Addressing this gap, in this paper we present the first comprehensive analysis of the practical implemen"
-    },
-    {
       "id": "d08b58b8c637",
       "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
       "link": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
@@ -183,16 +173,6 @@
       "published": "2026-10-14T11:08:22+00:00",
       "ts": 1791976102.0,
       "summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud.&nbsp; Dutch mobile security company ThreatFabric said it identified replacements for eight Indonesian banking"
-    },
-    {
-      "id": "f02b8de3057b",
-      "title": "Software-Pipelining The Number Theoretic Transform on Neural Processing Units: A Loop-Fission Methodology",
-      "link": "https://eprint.iacr.org/2026/2474",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-14T11:00:55+00:00",
-      "ts": 1791975655.0,
-      "summary": "Lattice-based post-quantum cryptography (PQC) and fully homomorphic encryption (FHE) rely heavily on the number theoretic transform (NTT) for efficient polynomial multiplication. While GPUs and FPGAs have been widely explored for NTT acceleration, neural processing units (NPUs), a rapidly growing class of AI accelerators, remain largely unexplored for cryptographic workloads. In this work, we deve"
     },
     {
       "id": "ae285c2b5d23",
@@ -595,6 +575,16 @@
       "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims."
     },
     {
+      "id": "1f38b761c070",
+      "title": "Skyhook: Trustless Cross-Chain Value Transfer with a Fully Scriptless Pool",
+      "link": "https://eprint.iacr.org/2026/2210",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-25T12:13:14+00:00",
+      "ts": 1790338394.0,
+      "summary": "Facilitating value transfers with a scriptless chain is a longstanding problem in cryptography. We present a cross-chain messaging and value transfer protocol that maintains game-theoretic atomicity even when one party is operating on a chain which is fully scriptless, such as shielded Zcash, which has no scripting capabilities at all and requires transactions to be virtually identical. The observ"
+    },
+    {
       "id": "f391bd68698a",
       "title": "Don't let TEEs break your MPC",
       "link": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/",
@@ -853,6 +843,16 @@
       "published": "2026-05-19T06:52:03+00:00",
       "ts": 1779173523.0,
       "summary": "Symbolic formal verification of cryptographic protocols based on the Dolev-Yao (DY) attacker model—an active attacker with full network control and perfect cryptography—is well-established for finding design-level logical flaws in cryptographic protocols. Building on this, Dolev-Yao Fuzzing (DYF) enriches fuzzing with this attacker model to uncover logical bugs at the implementation level. In cont"
+    },
+    {
+      "id": "a9e9af31e036",
+      "title": "Fault Injection Attacks Against zkSTARKs",
+      "link": "https://eprint.iacr.org/2026/835",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-28T14:39:14+00:00",
+      "ts": 1777387154.0,
+      "summary": "Fault injection attacks on zero-knowledge (ZK) constructions have received little attention in the wider literature. Recent work has demonstrated single-fault key recovery attacks against a ZK signature scheme. In this paper, we detail candidate fault injection attacks against zero-knowledge scalable transparent argument of knowledge (zkSTARK) provers, designed to violate ZK capabilities. zkSTARK "
     },
     {
       "id": "e867d3e3dacb",
