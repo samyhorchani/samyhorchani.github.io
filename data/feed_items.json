@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T22:50:57.743914+00:00",
+  "generated_at": "2026-10-16T00:57:31.300274+00:00",
   "count": 105,
   "errors": [
     {
@@ -203,16 +203,6 @@
       "published": "2026-10-15T07:49:32+00:00",
       "ts": 1792050572.0,
       "summary": "Despite decades of cryptographic advances, electronic cash (e-cash) remains largely confined to payments and lacks the broader decentralized financial applications built around cryptocurrencies. As a step toward broadening its application layer, we present an issuer-independent e-cash exchange in which a liquidity provider holds inventories of two independently issued e-cash currencies and users t"
-    },
-    {
-      "id": "edc141e376aa",
-      "title": "Speeding up Sumcheck using Algebraic Geometry",
-      "link": "https://eprint.iacr.org/2026/2494",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-15T07:19:15+00:00",
-      "ts": 1792048755.0,
-      "summary": "The sumcheck protocol, a ubiquitous component of modern proof-systems, enables proving the sum of evaluations of a low-degree multivariate polynomial. In theory, sumcheck has been generalized from polynomials to (tensors of) any multiplication code, a code whose pointwise products of codewords lie in a related product code. All practical systems nonetheless specifically use polynomials. For proof-"
     },
     {
       "id": "3bc593e1f7f5",
@@ -783,6 +773,16 @@
       "published": "2026-07-28T11:00:00+00:00",
       "ts": 1785236400.0,
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
+    },
+    {
+      "id": "b72e66a0f525",
+      "title": "Exponentially Fewer-Server PIR from Sparser $S$-Decoding Polynomials",
+      "link": "https://eprint.iacr.org/2026/1515",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-24T06:47:30+00:00",
+      "ts": 1784875650.0,
+      "summary": "We show that under a plausible number-theoretic conjecture, for any constant $s$ there exists an $s$-server private information retrieval (PIR) protocol that on an $n$-bit database requires communication $\\exp(O((\\log n)^{1/s} (\\log \\log n)^{1-1/s}))$. This achieves a superpolynomial improvement in communication when $s \\geq 4$; previous constructions attaining the same communication required $2^{"
     },
     {
       "id": "bdc2700324bc",
