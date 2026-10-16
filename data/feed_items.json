@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T00:57:31.300274+00:00",
+  "generated_at": "2026-10-16T05:31:08.879861+00:00",
   "count": 105,
   "errors": [
     {
@@ -195,16 +195,6 @@
       "summary": "Eevee is a family of three AEAD modes, Umbreon, Jolteon, and Espeon, proposed at CCS 2023 for IoT-to-cloud secure computation. We analyze structural flaws in the algorithms of the supplied full-version specification and the proof steps underlying their online authenticated-encryption claims. An AD-free, two-encryption prefix distinguisher has advantage $1-2^{-n}$ in the ideal-forkcipher model, con"
     },
     {
-      "id": "32281502fe20",
-      "title": "Issuer-Independent Decentralized Exchange for E-Cash",
-      "link": "https://eprint.iacr.org/2026/2495",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-15T07:49:32+00:00",
-      "ts": 1792050572.0,
-      "summary": "Despite decades of cryptographic advances, electronic cash (e-cash) remains largely confined to payments and lacks the broader decentralized financial applications built around cryptocurrencies. As a step toward broadening its application layer, we present an issuer-independent e-cash exchange in which a liquidity provider holds inventories of two independently issued e-cash currencies and users t"
-    },
-    {
       "id": "3bc593e1f7f5",
       "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
       "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
@@ -223,6 +213,16 @@
       "published": "2026-10-15T06:43:08+00:00",
       "ts": 1792046588.0,
       "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners. The vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems. In a report published earlier"
+    },
+    {
+      "id": "68ff8a8c6718",
+      "title": "Yoshan: Algebraic-Circuit Co-Synthesis and Search Methodology of Hardware-Efficient S-Boxes",
+      "link": "https://eprint.iacr.org/2026/2488",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-14T22:17:23+00:00",
+      "ts": 1792016243.0,
+      "summary": "Choosing a hardware S-box means balancing cryptanalytic strength (differential uniformity δ, linearity L, and algebraic degree) against circuit cost (AND count and AND depth D). Under masking, non-linear gates dominate silicon area, registers, and fresh randomness, while D sets pipeline latency. As a result, automated searches have largely retreated to quadratic permutations (D = 1), whose slow de"
     },
     {
       "id": "e1e7b17e135b",
