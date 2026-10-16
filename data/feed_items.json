@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T05:31:08.879861+00:00",
+  "generated_at": "2026-10-16T10:30:42.137117+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "7edb2adcf316",
+      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+      "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-16T06:55:55+00:00",
+      "ts": 1792133755.0,
+      "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a"
+    },
+    {
+      "id": "bdd74184ed32",
+      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+      "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-16T06:53:09+00:00",
+      "ts": 1792133589.0,
+      "summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In&nbsp;said in an advisory&nbsp;on October 15. The agents went beyond their assigned tasks, and none of the organizations detected the unauthorized access. After internal reviews, the AI companies whose models were being tested"
+    },
+    {
+      "id": "c7fd022ab937",
+      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+      "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-16T04:59:36+00:00",
+      "ts": 1792126776.0,
+      "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a"
+    },
     {
       "id": "deec60e140c8",
       "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
@@ -173,46 +203,6 @@
       "published": "2026-10-15T10:42:16+00:00",
       "ts": 1792060936.0,
       "summary": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to help people identify calls from unknown numbers and tackle spam or fraudulent calls. To that end, the Department of Telecommunications has issued a circular urging service"
-    },
-    {
-      "id": "c2278a03642c",
-      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
-      "link": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-15T08:45:10+00:00",
-      "ts": 1792053910.0,
-      "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026. \"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract 3,174 secrets from public repositories' CI,\" security researchers Gaetan"
-    },
-    {
-      "id": "a3ba36a021a5",
-      "title": "Structural Cryptanalysis of the Eevee AEAD Family",
-      "link": "https://eprint.iacr.org/2026/2496",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-15T08:05:19+00:00",
-      "ts": 1792051519.0,
-      "summary": "Eevee is a family of three AEAD modes, Umbreon, Jolteon, and Espeon, proposed at CCS 2023 for IoT-to-cloud secure computation. We analyze structural flaws in the algorithms of the supplied full-version specification and the proof steps underlying their online authenticated-encryption claims. An AD-free, two-encryption prefix distinguisher has advantage $1-2^{-n}$ in the ideal-forkcipher model, con"
-    },
-    {
-      "id": "3bc593e1f7f5",
-      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-      "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-15T07:07:05+00:00",
-      "ts": 1792048025.0,
-      "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM. The vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of"
-    },
-    {
-      "id": "bd41c1a21693",
-      "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
-      "link": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-15T06:43:08+00:00",
-      "ts": 1792046588.0,
-      "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners. The vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems. In a report published earlier"
     },
     {
       "id": "68ff8a8c6718",
@@ -475,16 +465,6 @@
       "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs. Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re"
     },
     {
-      "id": "c4ca75a7184a",
-      "title": "New infinite families of APN functions from the switching construction in even dimension",
-      "link": "https://eprint.iacr.org/2026/2401",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-07T15:21:37+00:00",
-      "ts": 1791386497.0,
-      "summary": "We present the first new infinite family of APN functions obtained by applying the switching construction to a known family since the introduction of the Budaghyan-Carlet-Leander family in 2009. Our construction is also the first example of an infinite APN family obtained via the switching construction from an infinite family of non-power functions. More generally, we study families of APN functio"
-    },
-    {
       "id": "4b3e102168c7",
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
@@ -695,6 +675,16 @@
       "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a \"sophisticated"
     },
     {
+      "id": "8ab92be8617d",
+      "title": "On Module Lattices with Galois-Symmetries: What You See Is Not What You Get",
+      "link": "https://eprint.iacr.org/2026/1805",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-26T11:25:04+00:00",
+      "ts": 1787743504.0,
+      "summary": "This paper deals with the hardness of finding short vectors in module lattices. Let $K$ be a number field of degree $d$ and $\\mathcal{O}_K$ its ring of integers. We show that if a module lattice $M$ of rank $n$ in $\\mathcal{O}_K^n$ has some Galois-symmetries, namely if it is fixed coordinate-wise (as a set) by a group $G$ of automorphisms of $K$, then $M$ can actually be seen as a module of rank~$"
+    },
+    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -713,6 +703,16 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
+    },
+    {
+      "id": "db3e650f633b",
+      "title": "Cryptanalysis of ‘Quantum public key encryption scheme with four states key’",
+      "link": "https://eprint.iacr.org/2026/1706",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-16T12:19:05+00:00",
+      "ts": 1786882745.0,
+      "summary": "Liu et al. (2022 Phys. Scr. 97 045102) propose a quantum public key encryption scheme in which a qubit message is encrypted by a controlled-NOT gate driven by a four-state public key, followed by measurement of the message register, and claim information-theoretic security. I show that the encryption map reduces exactly to \\( |M\\rangle \\mapsto R_{\\theta}X^{m}|M\\rangle \\), where the outcome \\(m\\) i"
     },
     {
       "id": "bea5a06fb576",
@@ -785,6 +785,16 @@
       "summary": "We show that under a plausible number-theoretic conjecture, for any constant $s$ there exists an $s$-server private information retrieval (PIR) protocol that on an $n$-bit database requires communication $\\exp(O((\\log n)^{1/s} (\\log \\log n)^{1-1/s}))$. This achieves a superpolynomial improvement in communication when $s \\geq 4$; previous constructions attaining the same communication required $2^{"
     },
     {
+      "id": "65559fc6fa2a",
+      "title": "ZKPoSP: Post-Quantum Zero-Knowledge Proofs for Hierarchical Deterministic Wallets",
+      "link": "https://eprint.iacr.org/2026/1508",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-23T19:28:41+00:00",
+      "ts": 1784834921.0,
+      "summary": "In the blockchain setting, where key derivation standards such as BIP32, BIP44, and SLIP-10 are the dominant infrastructure for wallet management, a quantum computer running Shor's algorithm can recover any elliptic-curve private key from the corresponding public key, threatening every wallet in production today. Migrating to post-quantum signature schemes requires changing the public key format a"
+    },
+    {
       "id": "bdc2700324bc",
       "title": "Rust-proof your code with our new Testing Handbook chapter",
       "link": "https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/",
@@ -803,16 +813,6 @@
       "published": "2026-07-08T11:00:00+00:00",
       "ts": 1783508400.0,
       "summary": "In April we released Mewt, our open-source mutation-testing engine that finds the gaps in your test suite. Today we’re expanding it with support for DAML, the language Canton Network applications are written in. Mewt now reads DAML, generates several classes of mutants (including two built for DAML&rsquo;s authorization primitives), and runs them through your existing test suite to count how many "
-    },
-    {
-      "id": "747f5f07165d",
-      "title": "LaMS: A p-adic Layered Modulus Switching for Provable Dual Attacks on LWE",
-      "link": "https://eprint.iacr.org/2026/1326",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-26T13:40:03+00:00",
-      "ts": 1782481203.0,
-      "summary": "The Learning with Errors (LWE) problem is a central foundation for post-quantum schemes such as Kyber and Dilithium. Dual attacks are among the main tools for assessing the concrete hardness of LWE instances. At EUROCRYPT 2024, Pouly and Shen introduced the first provable dual attack against LWE. Subsequently, at ASIACRYPT 2025, Qu and Xu incorporated modulus switching into this framework by recov"
     },
     {
       "id": "09b719e50e41",
@@ -905,16 +905,6 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
-      "id": "cb1ce3471511",
-      "title": "Leakage-Diagrams, Importance Sampling, and Composition in the Random Probing Model",
-      "link": "https://eprint.iacr.org/2026/444",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-04T11:10:11+00:00",
-      "ts": 1772622611.0,
-      "summary": "Security evaluation of masking in low-noise regimes remains poorly understood: increasing the masking order does not automatically translate into higher concrete resistance once many correlated intermediates are processed by a full implementation. A common approach is to reduce noisy side-channel leakage to the random probing model (RPM), but existing reductions can be too loose to yield meaningfu"
-    },
-    {
       "id": "b7ffc9dc8c13",
       "title": "Anonymous credentials: an illustrated primer",
       "link": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
@@ -973,6 +963,16 @@
       "published": "2026-02-02T18:25:32+00:00",
       "ts": 1770056732.0,
       "summary": "It&#8217;s not every day that we see mainstream media get excited about encryption apps! For that reason, the past several days have been fascinating, since we&#8217;ve been given not one but several unusual stories about the encryption used in WhatsApp. Or more accurately, if you read the story, a pretty wild allegation that the widely-used &#8230; Continue reading WhatsApp Encryption, a Lawsuit,"
+    },
+    {
+      "id": "ca5f42a33213",
+      "title": "Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index",
+      "link": "https://eprint.iacr.org/2026/144",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-29T17:30:19+00:00",
+      "ts": 1769707819.0,
+      "summary": "Recently, the notion of dynamic zk-SNARKs was introduced. A dynamic zk-SNARK augments a standard zk-SNARK with an efficient update algorithm. Given a valid source statement-witness pair $(x,w)$ together with a verifying proof $p$, and a valid target statement-witness pair $(x',w')$, the update algorithm outputs a verifying proof $p'$ for $(x',w')$. Crucially, $p'$ is not recomputed from scratch; i"
     },
     {
       "id": "d01b11ba041d",
@@ -1055,14 +1055,14 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "de80193a1620",
-      "title": "A zk-SNARK Programming Framework for Verifiable Data Analytics",
-      "link": "https://eprint.iacr.org/2025/572",
+      "id": "cf74d7222eb1",
+      "title": "When Can We Incrementally Prove Computations of Arbitrary Depth?",
+      "link": "https://eprint.iacr.org/2025/1413",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-03-29T12:06:05+00:00",
-      "ts": 1743249965.0,
-      "summary": "zk-SNARKs enable succinct, efficiently verifiable proofs of correct computation over private data, but require the computation to be compiled into a \\emph{statically defined and bounded} arithmetic circuit. This requirement creates a multidimensional mismatch with data-analytic programming, which consists largely of array programs: (a)~array operations and resulting shapes are dynamic; (b)~arrays "
+      "published": "2025-08-03T11:55:44+00:00",
+      "ts": 1754222144.0,
+      "summary": "Incrementally Verifiable Computation (IVC) allows one to prove the correctness of a computation of potentially unbounded length (or, depth) in an incremental way, while a computationally weak client can efficiently check its correctness in time sublinear in the computation's length. IVC are of practical relevance; yet, most existing IVC schemes are only provably secure for constant-depth computati"
     }
   ]
 }
