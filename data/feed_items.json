@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T00:58:09.470832+00:00",
+  "generated_at": "2026-10-17T05:23:00.250899+00:00",
   "count": 105,
   "errors": [
     {
@@ -193,16 +193,6 @@
       "published": "2026-10-15T12:28:13+00:00",
       "ts": 1792067293.0,
       "summary": "Next.js released an&nbsp;out-of-band security update&nbsp;on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw. One code-execution flaw is in React Server Components, and the other in librsvg, the open-source library Next.js uses through the&nbsp;sharp&nbsp;package to handle SVG images. The fixes are in"
-    },
-    {
-      "id": "68ff8a8c6718",
-      "title": "Yoshan: Algebraic-Circuit Co-Synthesis and Search Methodology of Hardware-Efficient S-Boxes",
-      "link": "https://eprint.iacr.org/2026/2488",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-14T22:17:23+00:00",
-      "ts": 1792016243.0,
-      "summary": "Choosing a hardware S-box means balancing cryptanalytic strength (differential uniformity δ, linearity L, and algebraic degree) against circuit cost (AND count and AND depth D). Under masking, non-linear gates dominate silicon area, registers, and fresh randomness, while D sets pipeline latency. As a result, automated searches have largely retreated to quadratic permutations (D = 1), whose slow de"
     },
     {
       "id": "e1e7b17e135b",
@@ -985,16 +975,6 @@
       "summary": "It&#8217;s not every day that we see mainstream media get excited about encryption apps! For that reason, the past several days have been fascinating, since we&#8217;ve been given not one but several unusual stories about the encryption used in WhatsApp. Or more accurately, if you read the story, a pretty wild allegation that the widely-used &#8230; Continue reading WhatsApp Encryption, a Lawsuit,"
     },
     {
-      "id": "ca5f42a33213",
-      "title": "Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index",
-      "link": "https://eprint.iacr.org/2026/144",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-29T17:30:19+00:00",
-      "ts": 1769707819.0,
-      "summary": "Recently, the notion of dynamic zk-SNARKs was introduced. A dynamic zk-SNARK augments a standard zk-SNARK with an efficient update algorithm. Given a valid source statement-witness pair $(x,w)$ together with a verifying proof $p$, and a valid target statement-witness pair $(x',w')$, the update algorithm outputs a verifying proof $p'$ for $(x',w')$. Crucially, $p'$ is not recomputed from scratch; i"
-    },
-    {
       "id": "d01b11ba041d",
       "title": "New Android Theft Protection Feature Updates: Smarter, Stronger",
       "link": "http://security.googleblog.com/2026/01/android-theft-protection-feature-updates.html",
@@ -1063,6 +1043,26 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
+    },
+    {
+      "id": "4692ae443a22",
+      "title": "Twist and Shout: Faster memory checking arguments via one-hot addressing and increments",
+      "link": "https://eprint.iacr.org/2025/105",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-01-22T23:51:09+00:00",
+      "ts": 1737589869.0,
+      "summary": "Memory checking arguments enable an untrusted prover to prove that it is correctly processing reads and writes to memory. They are used widely in modern SNARKs, especially in zkVMs, where the prover proves the correct execution of a CPU including the correctness of memory operations. We describe a new approach for memory checking, called the method of one-hot addressing and increments. We instanti"
+    },
+    {
+      "id": "d309bfbecb1f",
+      "title": "SnarkMux: Streaming SNARK Aggregation with Constant Online Verification",
+      "link": "https://eprint.iacr.org/2023/1946",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2023-12-22T15:36:21+00:00",
+      "ts": 1703259381.0,
+      "summary": "SNARKs let a verifier check an expensive computation via a succinct proof, without re-executing the computation. However, many applications still verify proofs individually, creating verifier load and high fees in replicated or constrained-verifier settings. Existing proof aggregation schemes largely follow the generalized inner product argument (GIPA) line, achieving $O(\\log n)$ proof size and ve"
     }
   ]
 }
