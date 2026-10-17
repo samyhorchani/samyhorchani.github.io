@@ -1,16 +1,11 @@
 {
-  "generated_at": "2026-10-17T14:01:57.284627+00:00",
-  "count": 95,
+  "generated_at": "2026-10-17T17:42:03.119013+00:00",
+  "count": 105,
   "errors": [
     {
       "source": "ANSSI — Actualités",
       "url": "https://www.ssi.gouv.fr/feed/actualites/",
-      "error": "<unknown>:106:89: not well-formed (invalid token)"
-    },
-    {
-      "source": "Schneier on Security",
-      "url": "https://www.schneier.com/feed/atom/",
-      "error": "<unknown>:2:39: junk after document element"
+      "error": "<unknown>:85:4: mismatched tag"
     },
     {
       "source": "NCC Group Research",
@@ -38,6 +33,16 @@
       "published": "2026-10-17T06:16:46+00:00",
       "ts": 1792217806.0,
       "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs"
+    },
+    {
+      "id": "3e99bd23e18f",
+      "title": "Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact",
+      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-16T21:06:47+00:00",
+      "ts": 1792184807.0,
+      "summary": "New research shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
     },
     {
       "id": "c30b91a21ec4",
@@ -160,6 +165,16 @@
       "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cribl published cribl-decision, an open LoRA adapter you can run locally. Others, like Laya, are"
     },
     {
+      "id": "6760eee245b8",
+      "title": "Backdooring Open-Weight AI Models",
+      "link": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-16T11:04:53+00:00",
+      "ts": 1792148693.0,
+      "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it&#8217;s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it&#8217;s the most popular reason people download modified weights without verifying what&#8217;s inside. Abliteration is a cheap fine-tune that takes away a model&#8217;s abil"
+    },
+    {
       "id": "7edb2adcf316",
       "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
       "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
@@ -210,6 +225,16 @@
       "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old bugs are finding new victims, familiar tools are being put to strange uses, and"
     },
     {
+      "id": "8286d7b68a18",
+      "title": "Measuring Human Cryptanalysis Effort",
+      "link": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-15T16:24:29+00:00",
+      "ts": 1792081469.0,
+      "summary": "Matthew Green has a new site that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms: Abstract: We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain la"
+    },
+    {
       "id": "0ab968404fd4",
       "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
       "link": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
@@ -250,6 +275,26 @@
       "summary": "Signatures in the MPC-in-the-head paradigm rest only on a symmetric primitive, but their signing is slow, because it computes hash functions and a linear map for every simulated party of every repetition. We show that the Hexagon NPU of Snapdragon SoCs shortens one complete signing operation of AIMer, the MPC-in- the-head signature that the Korean post-quantum cryptography competition selected. Pr"
     },
     {
+      "id": "e1e7b17e135b",
+      "title": "Upcoming Speaking Engagements",
+      "link": "https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-14T16:02:17+00:00",
+      "ts": 1791993737.0,
+      "summary": "This is a current list of where and when I am scheduled to speak: I’m speaking at ATTENTION: Democracy, Rebuilt in Montreal, Quebec, Canada. The event runs October 21–23, 2026, and my talk is on Wednesday, October 21. I’m speaking at the University of Toronto in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026. I’m speaking at [un]prompted in San Francisco, California. The event runs Octob"
+    },
+    {
+      "id": "a554a3d3d359",
+      "title": "The Future of AI Cryptanalysis",
+      "link": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-14T14:24:18+00:00",
+      "ts": 1791987858.0,
+      "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers. I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail."
+    },
+    {
       "id": "064694cebfd2",
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
       "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
@@ -258,6 +303,16 @@
       "published": "2026-10-14T14:22:49+00:00",
       "ts": 1791987769.0,
       "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions."
+    },
+    {
+      "id": "30bc53bd0493",
+      "title": "Cyberattack on Connected Fridges in France",
+      "link": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-14T14:10:22+00:00",
+      "ts": 1791987022.0,
+      "summary": "Another IoT cyberattack, this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [&#8230;] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to"
     },
     {
       "id": "ebfdd8968269",
@@ -420,6 +475,16 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection SQL (SQLi)."
     },
     {
+      "id": "96467e4b9fc5",
+      "title": "FBI Arrests Suspect in FBI-Hacking Case",
+      "link": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-12T15:01:26+00:00",
+      "ts": 1791817286.0,
+      "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster. Last week, the FBI arrested (alternate link) someone associated with that crime."
+    },
+    {
       "id": "84f232d8ee80",
       "title": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération (12 octobre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/",
@@ -460,6 +525,16 @@
       "summary": "Asynchronous verifiable secret sharing (AVSS) allows a dealer to distribute a secret among parties while preserving privacy and consistent reconstruction, despite Byzantine faults and arbitrary message delays. It is a fundamental building block for Byzantine agreement, distributed key generation, and secure multiparty computation. Packed AVSS protocols share many secrets together to reduce communi"
     },
     {
+      "id": "b449e7e8a3d1",
+      "title": "Friday Squid Blogging: I Caught a Squid",
+      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-09T20:24:45+00:00",
+      "ts": 1791577485.0,
+      "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (Doryteuthis (Amerigo) pealeii). That night I cooked it over a barbecue grill&#8212;hot and fast. Delici"
+    },
+    {
       "id": "f69a77b32216",
       "title": "Unpredictability from Parity: Understanding Linear Correctors for Markovian Sources",
       "link": "https://eprint.iacr.org/2026/2417",
@@ -470,14 +545,14 @@
       "summary": "Linear correctors reduce the bias of random bits via parity (XOR), but their guarantees are known mostly for independent bits, an assumption violated by many physical entropy sources. We give a general, exact formula for the parity bias of dependent bits from a (hidden, possibly non-homogeneous) Markov chain, as a product of twisted transfer kernels. Under next-bit unpredictability, i.e. condition"
     },
     {
-      "id": "7f5e614f4416",
-      "title": "New Constructions of Quadratic and Cubic Permutations Admitting Optimal Threshold Implementations",
-      "link": "https://eprint.iacr.org/2026/2416",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-08T15:13:08+00:00",
-      "ts": 1791472388.0,
-      "summary": "Side-channel attacks can uncover sensitive data by analyzing information leakages of cryptographic hardware devices caused by the power consumption, timing, electromagnetic, glitches, etc. Threshold implementation (TI), introduced by Nikova et al. in 2006, was proposed to resist differential power analysis side-channel attack on hardware implementations of block ciphers and eliminate information l"
+      "id": "b03b15e0f278",
+      "title": "How Technology Empowers—and Imperils—Dictators",
+      "link": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-08T11:07:35+00:00",
+      "ts": 1791457655.0,
+      "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs. Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re"
     },
     {
       "id": "4b3e102168c7",
@@ -488,6 +563,16 @@
       "published": "2026-10-07T13:48:45+00:00",
       "ts": 1791380925.0,
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the gl"
+    },
+    {
+      "id": "164755aee07e",
+      "title": "Apple’s Verified Photography System",
+      "link": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-07T11:07:36+00:00",
+      "ts": 1791371256.0,
+      "summary": "Apple just released a system called &#8220;Reference Image.&#8221; It can verify the image is exactly as taken by an iPhone&#8212;new models only&#8212;without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own credentials. We are conce"
     },
     {
       "id": "b224d08c01cc",
@@ -838,6 +923,16 @@
       "published": "2026-03-02T17:29:36+00:00",
       "ts": 1772472576.0,
       "summary": "This post has been on my back burner for well over a year. This has bothered me, since with every month that goes by, I become more convinced that anonymous authentication the most important topic we could be talking about as cryptographers. This isn&#8217;t just because I love neat cryptography: it&#8217;s that I don&#8217;t trust &#8230; Continue reading Anonymous credentials: an illustrated&#16"
+    },
+    {
+      "id": "3eaadcf0425a",
+      "title": "CRISP: Channel-Randomised Single-Image Steganography with Permutations",
+      "link": "https://eprint.iacr.org/2026/424",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-02T14:10:20+00:00",
+      "ts": 1772460620.0,
+      "summary": "We introduce CRISP (\\underline{C}hannel-\\underline{R}andomised Single-\\underline{I}mage\\\\ \\underline{S}teganography with \\underline{P}ermutations), a homomorphic steganography scheme for outsourced computation. In the setting we consider, a client (Alice) hides Boolean inputs in the least-significant bits of cover images and asks an honest-but-curious cloud (Carol) to evaluate a logic circuit, gat"
     },
     {
       "id": "2730dbb5bde5",
