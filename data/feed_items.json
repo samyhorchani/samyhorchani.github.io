@@ -1,11 +1,16 @@
 {
-  "generated_at": "2026-10-17T10:00:34.109350+00:00",
-  "count": 105,
+  "generated_at": "2026-10-17T14:01:57.284627+00:00",
+  "count": 95,
   "errors": [
     {
       "source": "ANSSI — Actualités",
       "url": "https://www.ssi.gouv.fr/feed/actualites/",
-      "error": "<unknown>:85:4: mismatched tag"
+      "error": "<unknown>:106:89: not well-formed (invalid token)"
+    },
+    {
+      "source": "Schneier on Security",
+      "url": "https://www.schneier.com/feed/atom/",
+      "error": "<unknown>:2:39: junk after document element"
     },
     {
       "source": "NCC Group Research",
@@ -15,6 +20,16 @@
   ],
   "items": [
     {
+      "id": "54f6eff0525c",
+      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+      "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-17T11:11:56+00:00",
+      "ts": 1792235516.0,
+      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of"
+    },
+    {
       "id": "f87a659fa023",
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
@@ -23,16 +38,6 @@
       "published": "2026-10-17T06:16:46+00:00",
       "ts": 1792217806.0,
       "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs"
-    },
-    {
-      "id": "3e99bd23e18f",
-      "title": "Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-16T21:06:47+00:00",
-      "ts": 1792184807.0,
-      "summary": "New research shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
     },
     {
       "id": "c30b91a21ec4",
@@ -145,16 +150,6 @@
       "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding task. The incident, the AI company said, involved an internal research model part"
     },
     {
-      "id": "a0ec1ffced5a",
-      "title": "Secure Compilation of Probabilistic Side-Channel Countermeasures",
-      "link": "https://eprint.iacr.org/2026/2510",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-16T13:26:19+00:00",
-      "ts": 1792157179.0,
-      "summary": "Probabilistic countermeasures are a common means of protecting programs against side-channels. These countermeasures are hard to implement and are routinely broken by compilers. Proving that a compiler preserves probabilistic side-channel security directly would require reasoning about perfect simulatability of distributions, a challenging technique normally reserved for high-assurance cryptograph"
-    },
-    {
       "id": "72e7666fa7b7",
       "title": "AI Decision Models and Their Impact on AI SOC Platforms",
       "link": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
@@ -163,16 +158,6 @@
       "published": "2026-10-16T11:30:00+00:00",
       "ts": 1792150200.0,
       "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cribl published cribl-decision, an open LoRA adapter you can run locally. Others, like Laya, are"
-    },
-    {
-      "id": "6760eee245b8",
-      "title": "Backdooring Open-Weight AI Models",
-      "link": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-16T11:04:53+00:00",
-      "ts": 1792148693.0,
-      "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it&#8217;s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it&#8217;s the most popular reason people download modified weights without verifying what&#8217;s inside. Abliteration is a cheap fine-tune that takes away a model&#8217;s abil"
     },
     {
       "id": "7edb2adcf316",
@@ -225,16 +210,6 @@
       "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old bugs are finding new victims, familiar tools are being put to strange uses, and"
     },
     {
-      "id": "8286d7b68a18",
-      "title": "Measuring Human Cryptanalysis Effort",
-      "link": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-15T16:24:29+00:00",
-      "ts": 1792081469.0,
-      "summary": "Matthew Green has a new site that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms: Abstract: We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain la"
-    },
-    {
       "id": "0ab968404fd4",
       "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
       "link": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
@@ -265,34 +240,14 @@
       "summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is assessed to be active since at least 2017, offering PHP code templates to partners and affiliates that are installed into compromised websites with an aim to direct unsuspecting"
     },
     {
-      "id": "aa46c92d7752",
-      "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-      "link": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-15T12:58:05+00:00",
-      "ts": 1792069085.0,
-      "summary": "NGINX released&nbsp;versions 1.30.6 and 1.31.7&nbsp;on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit. A fourth lets an attacker forge a TLS session that could"
-    },
-    {
-      "id": "e1e7b17e135b",
-      "title": "Upcoming Speaking Engagements",
-      "link": "https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-14T16:02:17+00:00",
-      "ts": 1791993737.0,
-      "summary": "This is a current list of where and when I am scheduled to speak: I’m speaking at ATTENTION: Democracy, Rebuilt in Montreal, Quebec, Canada. The event runs October 21–23, 2026, and my talk is on Wednesday, October 21. I’m speaking at the University of Toronto in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026. I’m speaking at [un]prompted in San Francisco, California. The event runs Octob"
-    },
-    {
-      "id": "a554a3d3d359",
-      "title": "The Future of AI Cryptanalysis",
-      "link": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-14T14:24:18+00:00",
-      "ts": 1791987858.0,
-      "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers. I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail."
+      "id": "30000267282a",
+      "title": "Heterogeneous CPU–NPU Implementation of the AIMer Post-Quantum Signature for Low Latency on a Mobile SoC",
+      "link": "https://eprint.iacr.org/2026/2486",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-14T17:12:25+00:00",
+      "ts": 1791997945.0,
+      "summary": "Signatures in the MPC-in-the-head paradigm rest only on a symmetric primitive, but their signing is slow, because it computes hash functions and a linear map for every simulated party of every repetition. We show that the Hexagon NPU of Snapdragon SoCs shortens one complete signing operation of AIMer, the MPC-in- the-head signature that the Korean post-quantum cryptography competition selected. Pr"
     },
     {
       "id": "064694cebfd2",
@@ -303,16 +258,6 @@
       "published": "2026-10-14T14:22:49+00:00",
       "ts": 1791987769.0,
       "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions."
-    },
-    {
-      "id": "30bc53bd0493",
-      "title": "Cyberattack on Connected Fridges in France",
-      "link": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-14T14:10:22+00:00",
-      "ts": 1791987022.0,
-      "summary": "Another IoT cyberattack, this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [&#8230;] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to"
     },
     {
       "id": "ebfdd8968269",
@@ -475,16 +420,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection SQL (SQLi)."
     },
     {
-      "id": "96467e4b9fc5",
-      "title": "FBI Arrests Suspect in FBI-Hacking Case",
-      "link": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-12T15:01:26+00:00",
-      "ts": 1791817286.0,
-      "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster. Last week, the FBI arrested (alternate link) someone associated with that crime."
-    },
-    {
       "id": "84f232d8ee80",
       "title": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération (12 octobre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/",
@@ -525,14 +460,14 @@
       "summary": "Asynchronous verifiable secret sharing (AVSS) allows a dealer to distribute a secret among parties while preserving privacy and consistent reconstruction, despite Byzantine faults and arbitrary message delays. It is a fundamental building block for Byzantine agreement, distributed key generation, and secure multiparty computation. Packed AVSS protocols share many secrets together to reduce communi"
     },
     {
-      "id": "b449e7e8a3d1",
-      "title": "Friday Squid Blogging: I Caught a Squid",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-09T20:24:45+00:00",
-      "ts": 1791577485.0,
-      "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (Doryteuthis (Amerigo) pealeii). That night I cooked it over a barbecue grill&#8212;hot and fast. Delici"
+      "id": "f69a77b32216",
+      "title": "Unpredictability from Parity: Understanding Linear Correctors for Markovian Sources",
+      "link": "https://eprint.iacr.org/2026/2417",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-08T15:21:16+00:00",
+      "ts": 1791472876.0,
+      "summary": "Linear correctors reduce the bias of random bits via parity (XOR), but their guarantees are known mostly for independent bits, an assumption violated by many physical entropy sources. We give a general, exact formula for the parity bias of dependent bits from a (hidden, possibly non-homogeneous) Markov chain, as a product of twisted transfer kernels. Under next-bit unpredictability, i.e. condition"
     },
     {
       "id": "7f5e614f4416",
@@ -545,16 +480,6 @@
       "summary": "Side-channel attacks can uncover sensitive data by analyzing information leakages of cryptographic hardware devices caused by the power consumption, timing, electromagnetic, glitches, etc. Threshold implementation (TI), introduced by Nikova et al. in 2006, was proposed to resist differential power analysis side-channel attack on hardware implementations of block ciphers and eliminate information l"
     },
     {
-      "id": "b03b15e0f278",
-      "title": "How Technology Empowers—and Imperils—Dictators",
-      "link": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-08T11:07:35+00:00",
-      "ts": 1791457655.0,
-      "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs. Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re"
-    },
-    {
       "id": "4b3e102168c7",
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
@@ -563,16 +488,6 @@
       "published": "2026-10-07T13:48:45+00:00",
       "ts": 1791380925.0,
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the gl"
-    },
-    {
-      "id": "164755aee07e",
-      "title": "Apple’s Verified Photography System",
-      "link": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-07T11:07:36+00:00",
-      "ts": 1791371256.0,
-      "summary": "Apple just released a system called &#8220;Reference Image.&#8221; It can verify the image is exactly as taken by an iPhone&#8212;new models only&#8212;without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own credentials. We are conce"
     },
     {
       "id": "b224d08c01cc",
@@ -943,16 +858,6 @@
       "published": "2026-02-25T15:17:00+00:00",
       "ts": 1772032620.0,
       "summary": "Posted by Lyubov Farafonova, Product Manager, Phone by Google; Alberto Pastor Nieto, Sr. Product Manager Google Messages and RCS Spam and Abuse We’ve shared how Android’s proactive, multi-layered scam defenses utilize Google AI to protect users around the world from over 10 billion suspected malicious calls and messages every month1. While that scale is significant, the true impact of these protec"
-    },
-    {
-      "id": "77e40fb3edb1",
-      "title": "LazyArc: Dynamic Out-of-Order Engine for High-Throughput FHE",
-      "link": "https://eprint.iacr.org/2026/363",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-23T01:05:42+00:00",
-      "ts": 1771808742.0,
-      "summary": "Fully Homomorphic Encryption (FHE) is a modern cryptographic technique that allows performing computations directly on encrypted data. This makes FHE an indispensable method for privacy-preserving applications, where users' data are encrypted and processed by a potentially untrusted third party. Nevertheless, FHE operations are computationally expensive, often rendering them impractical for realis"
     },
     {
       "id": "7ed1806aa84e",
