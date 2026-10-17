@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T21:59:55.606976+00:00",
+  "generated_at": "2026-10-17T23:55:16.621877+00:00",
   "count": 105,
   "errors": [
     {
@@ -135,26 +135,6 @@
       "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials and multi-factor authentication (MFA) codes. The activity is being tracked by"
     },
     {
-      "id": "669647fe62fd",
-      "title": "Watermarking Proofs with Provenance-Binding ZK-SNARKs",
-      "link": "https://eprint.iacr.org/2026/2516",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-16T16:11:24+00:00",
-      "ts": 1792167084.0,
-      "summary": "The emerging ecosystem of outsourced proving services, decentralized prover networks, and prover marketplaces raises a new requirement for ZK-SNARKs: the need to watermark proofs with provenance information, such as the prover identity and a fresh request-time nonce. The prover identity records who should receive credit for the proof, while the nonce binds the proof to a particular request and is "
-    },
-    {
-      "id": "319dd7fdb54d",
-      "title": "CHAMP: Cayley HAshing with Matrix Products",
-      "link": "https://eprint.iacr.org/2026/2515",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-16T15:54:11+00:00",
-      "ts": 1792166051.0,
-      "summary": "Cayley hash functions hash binary strings by representing the bits of the message as elements of a semigroup and multiplying the corresponding elements. This gives Cayley hash functions useful homomorphic properties. Here, we propose CHAMP, a Cayley hash function based on products of $2\\times 2$ matrices over a finite field, and discuss its security, implementation, and performance."
-    },
-    {
       "id": "6aa81f9b6580",
       "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
       "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
@@ -213,6 +193,16 @@
       "published": "2026-10-16T04:59:36+00:00",
       "ts": 1792126776.0,
       "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a"
+    },
+    {
+      "id": "36f556c615ac",
+      "title": "SwiftAuth: Conditional Privacy-Preserving UAV Authentication with Multi-Source Credential Aggregation and Non-Interactive Authorization",
+      "link": "https://eprint.iacr.org/2026/2503",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-16T02:43:09+00:00",
+      "ts": 1792118589.0,
+      "summary": "To address the challenges of interactive credential issuance and conditional privacy-preserving authentication for dynamic terminals accessing multiple third-party services, we propose an traceable and aggregatable tagged witness signature (TA-TWS). Building upon this scheme, we design an efficient and privacy-preserving anonymous authentication framework, termed SwiftAuth. SwiftAuth decouples the"
     },
     {
       "id": "deec60e140c8",
@@ -843,6 +833,16 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
+    },
+    {
+      "id": "f9a0d1638fa5",
+      "title": "LogVOLE: Succinct and Efficient Chosen-Input VOLE for ZK and Beyond",
+      "link": "https://eprint.iacr.org/2026/925",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-11T04:05:14+00:00",
+      "ts": 1778472314.0,
+      "summary": "Random Vector Oblivious Linear Evaluation (VOLE) correlations can be generated efficiently for zero-knowledge proofs and secure computation. Applications that need correlations on the receiver’s actual input typically derandomize random VOLE by sending a linear-size vector, a main communication bottleneck. We study chosen-input VOLE (CI-VOLE), where the receiver privately chooses a large vector \\("
     },
     {
       "id": "e867d3e3dacb",
