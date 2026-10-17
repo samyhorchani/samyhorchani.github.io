@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T17:42:03.119013+00:00",
+  "generated_at": "2026-10-17T19:57:55.152358+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "53d51d533db0",
+      "title": "Superspecial points on Humbert surfaces and the probability of (N,N)-splitting",
+      "link": "https://eprint.iacr.org/2026/2522",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-17T13:15:44+00:00",
+      "ts": 1792242944.0,
+      "summary": "Let $p\\equiv3\\pmod4$ be a prime and let $N\\geq2$ be an integer. We determine, to first order in $1/p$ and with an explicit error bound, the proportion of superspecial principally polarized abelian surfaces over $\\overline{\\mathbb{F}}_p$ that are optimally $(N,N)$-split. The surfaces are weighted by the reciprocals of their automorphism orders, which is the stationary measure of the Richelot random"
+    },
+    {
+      "id": "447712c0096b",
+      "title": "Eﬃcient Fixed-Point Implementation of Mitaka",
+      "link": "https://eprint.iacr.org/2026/2521",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-17T12:57:50+00:00",
+      "ts": 1792241870.0,
+      "summary": "The Mitaka signature scheme is a variant of Falcon (FN-DSA). It has a considerably simpler signing procedure that can be parallelized while retaining Falcon's efficiency advantage. Mitaka offers two different signing approaches: a default one relying on floating-point arithmetic and an alternative, called MitakaZ, avoiding floating-point arithmetic at the cost of more Gaussian samples. Despite its"
+    },
+    {
       "id": "54f6eff0525c",
       "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
       "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
@@ -25,6 +45,26 @@
       "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of"
     },
     {
+      "id": "54e15bd12427",
+      "title": "GPU Acceleration for Boyar-Peralta Algorithm in High Dimensional Linear Layers",
+      "link": "https://eprint.iacr.org/2026/2520",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-17T11:09:38+00:00",
+      "ts": 1792235378.0,
+      "summary": "The design of lightweight cryptographic schemes necessitates efficient circuit implementations of linear layers. A commonly used metric for evaluating circuit efficiency is the number of XOR gates required. For a given linear transformation over $\\mathbb F_2$, finding its circuit implementation with the minimum number of XOR gates is referred to as the Shortest Linear Program (SLP) problem. As a p"
+    },
+    {
+      "id": "c3d01c80ab6b",
+      "title": "DPA-style Attacks on VOLE-in-the-Head Signature Schemes",
+      "link": "https://eprint.iacr.org/2026/2519",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-17T07:07:35+00:00",
+      "ts": 1792220855.0,
+      "summary": "VOLE-in-the-Head (VOLEitH) has emerged as a promising paradigm for the design of post-quantum signatures, as it enables efficient signing and verification while also achieving small signature sizes. In the ongoing NIST PQC standardization process for additional digital signatures, two VOLEitH signature schemes, namely FAEST and SDitH, have advanced to the third round. Regarding their practical sec"
+    },
+    {
       "id": "f87a659fa023",
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
@@ -33,6 +73,16 @@
       "published": "2026-10-17T06:16:46+00:00",
       "ts": 1792217806.0,
       "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs"
+    },
+    {
+      "id": "477baf8355d3",
+      "title": "Associated-Data Correlations in Eevee: Deterministic Forgeries against Nonce-Misuse Security",
+      "link": "https://eprint.iacr.org/2026/2518",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-17T05:13:41+00:00",
+      "ts": 1792214021.0,
+      "summary": "Eevee's Umbreon and Espeon modes claim online authenticated-encryption security under nonce reuse. We give an independent analysis of associated-data correlations that yield probability-one non-empty-message forgeries with three encryption queries and one verification query. Two AD-only tags reveal a mask difference that translates a ciphertext to another AD value. The basic attacks and their proo"
     },
     {
       "id": "3e99bd23e18f",
@@ -62,7 +112,7 @@
       "category": "veille",
       "published": "2026-10-16T17:48:45+00:00",
       "ts": 1792172925.0,
-      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped"
+      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped"
     },
     {
       "id": "034e613eb51b",
@@ -103,46 +153,6 @@
       "published": "2026-10-16T15:54:11+00:00",
       "ts": 1792166051.0,
       "summary": "Cayley hash functions hash binary strings by representing the bits of the message as elements of a semigroup and multiplying the corresponding elements. This gives Cayley hash functions useful homomorphic properties. Here, we propose CHAMP, a Cayley hash function based on products of $2\\times 2$ matrices over a finite field, and discuss its security, implementation, and performance."
-    },
-    {
-      "id": "5debab81a526",
-      "title": "Analysis of the Multi-Key Optimization for SPECK",
-      "link": "https://eprint.iacr.org/2026/2514",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-16T15:28:19+00:00",
-      "ts": 1792164499.0,
-      "summary": "SPECK has recently been introduced as a code-based digital signature scheme exploiting the similarities between the Permuted Kernel Problem (PKP) and the Permutation Code Equivalence Problem (PEP). By utilizing PEP as a trapdoor for PKP, SPECK achieves a significant speedup compared to LESS, replacing expensive Gaussian elimination with vector-matrix multiplications. This comes at the cost of larg"
-    },
-    {
-      "id": "05f0affdc9b4",
-      "title": "Fully Homomorphic Encryption for Small Batches of Complex Numbers",
-      "link": "https://eprint.iacr.org/2026/2513",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-16T15:11:29+00:00",
-      "ts": 1792163489.0,
-      "summary": "We propose a new approximate homomorphic encryption scheme to process small batches of complex numbers. Leveled operations are based on a new shaped rounding, whose error is a multiple of a fixed public ring element $g$, small on the data slots and larger on the others. The unused slots form a guard band that is computed on but never decoded, and the polynomial scaling factor $g^{-1}\\Delta$ genera"
-    },
-    {
-      "id": "ce6b79428032",
-      "title": "SLEEK: Sparse Quasi-Cyclic Codes with Closed-Form DFR Key Encapsulation",
-      "link": "https://eprint.iacr.org/2026/2512",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-16T15:11:08+00:00",
-      "ts": 1792163468.0,
-      "summary": "Performance in terms of bandwidth and execution time, as well as decoding failures remain important challenges for code-based KEMs. This paper introduces SLEEK: Sparse quasi-cycLic codEs with closEd-form DFR Key encapsulation, a Key Encapsulation Mechanism (KEM) based on Quasi-Cyclic Moderate-Density Parity-Check (QC-MDPC) codes. The scheme employs a parallel bit-flipping decoder with three iterat"
-    },
-    {
-      "id": "36e65a9c188d",
-      "title": "I Want to Ride My BIKE: Customizing Bit-Flipping Decoders for Ephemeral Key KEMs",
-      "link": "https://eprint.iacr.org/2026/2511",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-16T14:57:21+00:00",
-      "ts": 1792162641.0,
-      "summary": "Large public keys and ciphertexts remain a major obstacle to the deployment of post-quantum cryptosystems in applications currently relying on compact classical schemes. In code-based post-quantum key encapsulation mechanisms, reducing the Decoding Failure Rate (DFR) generally requires larger parameters, further increasing communication and storage overheads. Ephemeral key-pair scenarios allow a d"
     },
     {
       "id": "6aa81f9b6580",
@@ -733,16 +743,6 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
-    },
-    {
-      "id": "f20d788a4eb9",
-      "title": "Enforcing Winner-Only Disclosure: Verifiable Tally Hiding for Weighted DAO Governance",
-      "link": "https://eprint.iacr.org/2026/1773",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-22T07:28:36+00:00",
-      "ts": 1787383716.0,
-      "summary": "Token-weighted governance can fingerprint individual voters: when weights are unequal and externally known, the exact weighted tally may reveal who voted which way. Publishing only the winning outcome hides the tally from the public, but a system that reconstructs the tally in order to decide still hands it to whoever runs the computation. Publishing only the winner is not the same as computing on"
     },
     {
       "id": "bea5a06fb576",
