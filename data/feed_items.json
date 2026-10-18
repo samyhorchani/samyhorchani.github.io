@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T02:39:00.371883+00:00",
+  "generated_at": "2026-10-18T07:41:39.093317+00:00",
   "count": 105,
   "errors": [
     {
@@ -93,16 +93,6 @@
       "published": "2026-10-16T21:06:47+00:00",
       "ts": 1792184807.0,
       "summary": "New research shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
-      "id": "c30b91a21ec4",
-      "title": "Zippel: A Language, Compiler, Runtime, and Analyzer for ZK Proof Systems",
-      "link": "https://eprint.iacr.org/2026/2517",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-16T19:49:50+00:00",
-      "ts": 1792180190.0,
-      "summary": "This paper introduces Zippel, a language, compiler, runtime, and analyzer for cryptographic proof systems. Zippel lets developers write proof systems with ease using syntax that mimics pseudocode in cryptography papers. It also eliminates entire classes of vulnerabilities by construction owing to its type system and runtime. For example, Zippel automatically synchronizes protocol transcripts and c"
     },
     {
       "id": "b4e69c832b8d",
@@ -633,6 +623,16 @@
       "published": "2026-09-21T11:00:00+00:00",
       "ts": 1789988400.0,
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it&rsquo;s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoni"
+    },
+    {
+      "id": "c6975ceeb39f",
+      "title": "Attacking CRT-RSA with Small Exponents via Unravelled Linearization",
+      "link": "https://eprint.iacr.org/2026/2109",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-19T08:52:18+00:00",
+      "ts": 1789807938.0,
+      "summary": "We develop a new Coppersmith lattice attack on balanced CRT-RSA with small CRT exponents $d_p, d_q$ using unravelled linearization. The new attack matches the practical effectiveness of the Takayasu–Lu–Peng attack (JoC 2019) while using lattices of roughly half the dimension. In contrast to their attack, for which there is a noticeable gap between the theoretical predictions and experimental resul"
     },
     {
       "id": "a91514e92c6f",
