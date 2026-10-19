@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T05:36:08.683430+00:00",
+  "generated_at": "2026-10-19T11:51:17.932422+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,6 +15,116 @@
   ],
   "items": [
     {
+      "id": "454556017121",
+      "title": "Training AIs to Solve CAPTCHAs",
+      "link": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-19T11:07:43+00:00",
+      "ts": 1792408063.0,
+      "summary": "Interesting research: Abstract: Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in milliseconds but only for categories they were "
+    },
+    {
+      "id": "0269f6c4e86e",
+      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+      "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-19T10:06:40+00:00",
+      "ts": 1792404400.0,
+      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic"
+    },
+    {
+      "id": "7eb577874d90",
+      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+      "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-19T06:29:44+00:00",
+      "ts": 1792391384.0,
+      "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16. He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device"
+    },
+    {
+      "id": "bf410477c8f2",
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-19T06:07:08+00:00",
+      "ts": 1792390028.0,
+      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without"
+    },
+    {
+      "id": "c07b5c90a033",
+      "title": "Off-Key: Inconsistent MAC Keys Compromise Privacy in SPDZ-Family MPC",
+      "link": "https://eprint.iacr.org/2026/2533",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-19T00:33:18+00:00",
+      "ts": 1792369998.0,
+      "summary": "SPDZ-family protocols for maliciously secure multi-party computation protect secret-shared values with message authentication codes (MACs) under a secret-shared global key. Their security requires that all values and preprocessing used together be authenticated under the same key. We present Off-Key, a privacy attack that exploits violations of this requirement. Depending on which specific MAC che"
+    },
+    {
+      "id": "3d0914187ec0",
+      "title": "HERMES: High-Performance Private Decoding for Large Language Models",
+      "link": "https://eprint.iacr.org/2026/2532",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-18T22:08:21+00:00",
+      "ts": 1792361301.0,
+      "summary": "Privacy-preserving inference (PI) enables users to query large language models (LLMs) without revealing their prompts, but incurs substantial computation and communication overhead. Prior PI systems primarily optimize prefill and time to first token (TTFT). This suits applications that need only a single output token, yet most real-world use cases require multi-token responses. Such autoregressive"
+    },
+    {
+      "id": "196771a3fdd1",
+      "title": "High-Precision CKKS with fixed Modulus Consumption",
+      "link": "https://eprint.iacr.org/2026/2531",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-18T19:14:46+00:00",
+      "ts": 1792350886.0,
+      "summary": "In CKKS, higher precision requires a larger scaling factor, increasing modulus consumption during homomorphic arithmetic and leaving less modulus available after bootstrapping under the same modulus budget. We introduce Focused CKKS, which trades unused SIMD slots for precision through focused rescaling and key-switching based on cyclotomic units. These units reduce error in selected focus slots w"
+    },
+    {
+      "id": "7871364791f4",
+      "title": "Computing endomorphisms of superspecial principally polarized abelian surfaces in time and memory \\(p^{4/5+o(1)}\\)",
+      "link": "https://eprint.iacr.org/2026/2530",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-18T15:29:46+00:00",
+      "ts": 1792337386.0,
+      "summary": "We present an algorithm for computing endomorphisms of superspecial principally polarized abelian surfaces over finite fields. Under a standard heuristic, we obtain a non-scalar polarized endomorphism in expected time and memory $p^{4/5 + o(1)}$."
+    },
+    {
+      "id": "84b8816fefa1",
+      "title": "The Covering Radius of $\\text{RM}(1,9)$ is Precisely $242$",
+      "link": "https://eprint.iacr.org/2026/2529",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-18T14:48:53+00:00",
+      "ts": 1792334933.0,
+      "summary": "Let $\\text{RM}(r,n)$ be the $r$th order Reed-Muller code of length $2^n$, and let $\\rho(r,n)$ denote its covering radius, so that $\\rho(1,n)$ is the largest possible nonlinearity of a Boolean function in $n$ variables. For odd $n$, the value of $\\rho(1,n)$ was previously known only for $n\\le 7$. It is known that $242\\le\\rho(1,9)\\le 244$, but the exact determination of $\\rho(1,9)$ has been a long-s"
+    },
+    {
+      "id": "2bd085ed47c9",
+      "title": "Revisiting the Security of VDOO",
+      "link": "https://eprint.iacr.org/2026/2528",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-18T14:06:02+00:00",
+      "ts": 1792332362.0,
+      "summary": "VDOO is a multivariate signature scheme submitted to the Next-generation Commercial Cryptographic Algorithms Program (NGCC). We study the security of its submitted parameter sets. In this paper, VDOO is described as a multilayer Rainbow construction. By retaining only its last oil space, we obtain a generalized UOV instance and apply existing wedge attacks. For the parameter set targeting 512-bit "
+    },
+    {
+      "id": "1d9636f336c7",
+      "title": "How Secure are NTRU+ Keys? Analysing the Best Module Attacks",
+      "link": "https://eprint.iacr.org/2026/2527",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-18T13:19:27+00:00",
+      "ts": 1792329567.0,
+      "summary": "A recent analysis of module-BKZ [Ducas–Engleberts–Perthuis, Asiacrypt'25] predicts subexponential speedups for lattice reduction on module lattices over cyclotomic fields whose conductor has small odd prime factors. This threatens NTRU+, the South Korean standard for key encapsulation, and related schemes; however, the short vectors one seeks to find are short in the coefficient geometry, whereas "
+    },
+    {
       "id": "2dc3dd1a81d5",
       "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
       "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
@@ -23,26 +133,6 @@
       "published": "2026-10-18T08:23:02+00:00",
       "ts": 1792311782.0,
       "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below - ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae ConnectWise"
-    },
-    {
-      "id": "53d51d533db0",
-      "title": "Superspecial points on Humbert surfaces and the probability of (N,N)-splitting",
-      "link": "https://eprint.iacr.org/2026/2522",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-17T13:15:44+00:00",
-      "ts": 1792242944.0,
-      "summary": "Let $p\\equiv3\\pmod4$ be a prime and let $N\\geq2$ be an integer. We determine, to first order in $1/p$ and with an explicit error bound, the proportion of superspecial principally polarized abelian surfaces over $\\overline{\\mathbb{F}}_p$ that are optimally $(N,N)$-split. The surfaces are weighted by the reciprocals of their automorphism orders, which is the stationary measure of the Richelot random"
-    },
-    {
-      "id": "447712c0096b",
-      "title": "Eﬃcient Fixed-Point Implementation of Mitaka",
-      "link": "https://eprint.iacr.org/2026/2521",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-17T12:57:50+00:00",
-      "ts": 1792241870.0,
-      "summary": "The Mitaka signature scheme is a variant of Falcon (FN-DSA). It has a considerably simpler signing procedure that can be parallelized while retaining Falcon's efficiency advantage. Mitaka offers two different signing approaches: a default one relying on floating-point arithmetic and an alternative, called MitakaZ, avoiding floating-point arithmetic at the cost of more Gaussian samples. Despite its"
     },
     {
       "id": "54f6eff0525c",
@@ -55,26 +145,6 @@
       "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of"
     },
     {
-      "id": "54e15bd12427",
-      "title": "GPU Acceleration for Boyar-Peralta Algorithm in High Dimensional Linear Layers",
-      "link": "https://eprint.iacr.org/2026/2520",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-17T11:09:38+00:00",
-      "ts": 1792235378.0,
-      "summary": "The design of lightweight cryptographic schemes necessitates efficient circuit implementations of linear layers. A commonly used metric for evaluating circuit efficiency is the number of XOR gates required. For a given linear transformation over $\\mathbb F_2$, finding its circuit implementation with the minimum number of XOR gates is referred to as the Shortest Linear Program (SLP) problem. As a p"
-    },
-    {
-      "id": "c3d01c80ab6b",
-      "title": "DPA-style Attacks on VOLE-in-the-Head Signature Schemes",
-      "link": "https://eprint.iacr.org/2026/2519",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-17T07:07:35+00:00",
-      "ts": 1792220855.0,
-      "summary": "VOLE-in-the-Head (VOLEitH) has emerged as a promising paradigm for the design of post-quantum signatures, as it enables efficient signing and verification while also achieving small signature sizes. In the ongoing NIST PQC standardization process for additional digital signatures, two VOLEitH signature schemes, namely FAEST and SDitH, have advanced to the third round. Regarding their practical sec"
-    },
-    {
       "id": "f87a659fa023",
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
@@ -83,16 +153,6 @@
       "published": "2026-10-17T06:16:46+00:00",
       "ts": 1792217806.0,
       "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs"
-    },
-    {
-      "id": "477baf8355d3",
-      "title": "Associated-Data Correlations in Eevee: Deterministic Forgeries against Nonce-Misuse Security",
-      "link": "https://eprint.iacr.org/2026/2518",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-17T05:13:41+00:00",
-      "ts": 1792214021.0,
-      "summary": "Eevee's Umbreon and Espeon modes claim online authenticated-encryption security under nonce reuse. We give an independent analysis of associated-data correlations that yield probability-one non-empty-message forgeries with three encryption queries and one verification query. Two AD-only tags reveal a mask difference that translates a ciphertext to another AD value. The basic attacks and their proo"
     },
     {
       "id": "3e99bd23e18f",
@@ -195,16 +255,6 @@
       "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a"
     },
     {
-      "id": "36f556c615ac",
-      "title": "SwiftAuth: Conditional Privacy-Preserving UAV Authentication with Multi-Source Credential Aggregation and Non-Interactive Authorization",
-      "link": "https://eprint.iacr.org/2026/2503",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-16T02:43:09+00:00",
-      "ts": 1792118589.0,
-      "summary": "To address the challenges of interactive credential issuance and conditional privacy-preserving authentication for dynamic terminals accessing multiple third-party services, we propose an traceable and aggregatable tagged witness signature (TA-TWS). Building upon this scheme, we design an efficient and privacy-preserving anonymous authentication framework, termed SwiftAuth. SwiftAuth decouples the"
-    },
-    {
       "id": "deec60e140c8",
       "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
       "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
@@ -213,16 +263,6 @@
       "published": "2026-10-15T20:24:36+00:00",
       "ts": 1792095876.0,
       "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared"
-    },
-    {
-      "id": "1d337a14b5c5",
-      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-      "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-15T18:49:33+00:00",
-      "ts": 1792090173.0,
-      "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old bugs are finding new victims, familiar tools are being put to strange uses, and"
     },
     {
       "id": "8286d7b68a18",
@@ -235,34 +275,14 @@
       "summary": "Matthew Green has a new site that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms: Abstract: We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain la"
     },
     {
-      "id": "0ab968404fd4",
-      "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
-      "link": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-15T16:01:57+00:00",
-      "ts": 1792080117.0,
-      "summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&nbsp;the Citizen Lab&nbsp;said Thursday. The hidden attack code ran the moment an ad loaded on the screen, and in some cases the ad loaded out of sight, in the background. The Citizen"
-    },
-    {
-      "id": "a222d152546d",
-      "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
-      "link": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-15T16:00:26+00:00",
-      "ts": 1792080026.0,
-      "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through August 2026, involves four different infection chains that make use of macro-enabled documents, PS2EXE downloaders, GitHub-hosted PowerShell, and crafted WinRAR archives"
-    },
-    {
-      "id": "30000267282a",
-      "title": "Heterogeneous CPU–NPU Implementation of the AIMer Post-Quantum Signature for Low Latency on a Mobile SoC",
-      "link": "https://eprint.iacr.org/2026/2486",
+      "id": "488967de09d3",
+      "title": "Threshold Post-Quantum E-Voting from Lattice Commitments",
+      "link": "https://eprint.iacr.org/2026/2500",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-10-14T17:12:25+00:00",
-      "ts": 1791997945.0,
-      "summary": "Signatures in the MPC-in-the-head paradigm rest only on a symmetric primitive, but their signing is slow, because it computes hash functions and a linear map for every simulated party of every repetition. We show that the Hexagon NPU of Snapdragon SoCs shortens one complete signing operation of AIMer, the MPC-in- the-head signature that the Korean post-quantum cryptography competition selected. Pr"
+      "published": "2026-10-15T06:55:07+00:00",
+      "ts": 1792047307.0,
+      "summary": "Lattice-based homomorphic e-voting protocols built on commitments, such as EVOLVE, keep ballots private against all but one authority and the tally verifiable even if all authorities collude, but need every authority to tally. We present T-EVOLVE, in which votes are Shamir-shared over the commitment message space: any t of n authorities that took part in the checking phase complete the tally, priv"
     },
     {
       "id": "e1e7b17e135b",
@@ -475,16 +495,6 @@
       "summary": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster. Last week, the FBI arrested (alternate link) someone associated with that crime."
     },
     {
-      "id": "76bd762fc8de",
-      "title": "Optimal Threshold Implementations of all bijective 4-bit S-boxes and new Infinite Families",
-      "link": "https://eprint.iacr.org/2026/2449",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-12T12:53:16+00:00",
-      "ts": 1791809596.0,
-      "summary": "Threshold implementations (TIs) are now an established class of side-channel countermeasures. Their underlying idea is simple and compelling: under mild, practical assumptions, they provide protection against glitches and allow composability. Yet our understanding of one-stage TIs with a minimal number of shares remains limited, both for cryptographically relevant families—particularly power funct"
-    },
-    {
       "id": "84f232d8ee80",
       "title": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération (12 octobre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/",
@@ -525,16 +535,6 @@
       "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (Doryteuthis (Amerigo) pealeii). That night I cooked it over a barbecue grill&#8212;hot and fast. Delici"
     },
     {
-      "id": "f69a77b32216",
-      "title": "Unpredictability from Parity: Understanding Linear Correctors for Markovian Sources",
-      "link": "https://eprint.iacr.org/2026/2417",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-08T15:21:16+00:00",
-      "ts": 1791472876.0,
-      "summary": "Linear correctors reduce the bias of random bits via parity (XOR), but their guarantees are known mostly for independent bits, an assumption violated by many physical entropy sources. We give a general, exact formula for the parity bias of dependent bits from a (hidden, possibly non-homogeneous) Markov chain, as a product of twisted transfer kernels. Under next-bit unpredictability, i.e. condition"
-    },
-    {
       "id": "b03b15e0f278",
       "title": "How Technology Empowers—and Imperils—Dictators",
       "link": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
@@ -555,16 +555,6 @@
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the gl"
     },
     {
-      "id": "164755aee07e",
-      "title": "Apple’s Verified Photography System",
-      "link": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-07T11:07:36+00:00",
-      "ts": 1791371256.0,
-      "summary": "Apple just released a system called &#8220;Reference Image.&#8221; It can verify the image is exactly as taken by an iPhone&#8212;new models only&#8212;without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own credentials. We are conce"
-    },
-    {
       "id": "b224d08c01cc",
       "title": "SequenceHash: multihashing for the rest of us",
       "link": "https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/",
@@ -573,6 +563,16 @@
       "published": "2026-10-02T11:00:00+00:00",
       "ts": 1790938800.0,
       "summary": "Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC, a pair of related hash constructions that bring secure multihashing to de"
+    },
+    {
+      "id": "4b3412ce029f",
+      "title": "Gram Moments and Pairwise Mixing of AES",
+      "link": "https://eprint.iacr.org/2026/2304",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-01T22:45:14+00:00",
+      "ts": 1790894714.0,
+      "summary": "Almost pairwise independence measures how closely a block cipher reproduces the joint output distribution of a uniform random permutation on two distinct plaintexts. Recent analyses of AES with independent round keys combine smoothing from a fixed input difference with contraction over later rounds. The central difficulty is to control the dependencies created by diffusion. We develop a bound for "
     },
     {
       "id": "bcbe1c4698ed",
@@ -623,16 +623,6 @@
       "published": "2026-09-21T11:00:00+00:00",
       "ts": 1789988400.0,
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it&rsquo;s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoni"
-    },
-    {
-      "id": "c6975ceeb39f",
-      "title": "Attacking CRT-RSA with Small Exponents via Unravelled Linearization",
-      "link": "https://eprint.iacr.org/2026/2109",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-19T08:52:18+00:00",
-      "ts": 1789807938.0,
-      "summary": "We develop a new Coppersmith lattice attack on balanced CRT-RSA with small CRT exponents $d_p, d_q$ using unravelled linearization. The new attack matches the practical effectiveness of the Takayasu–Lu–Peng attack (JoC 2019) while using lattices of roughly half the dimension. In contrast to their attack, for which there is a noticeable gap between the theoretical predictions and experimental resul"
     },
     {
       "id": "a91514e92c6f",
@@ -825,16 +815,6 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
-      "id": "f9a0d1638fa5",
-      "title": "LogVOLE: Succinct and Efficient Chosen-Input VOLE for ZK and Beyond",
-      "link": "https://eprint.iacr.org/2026/925",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-11T04:05:14+00:00",
-      "ts": 1778472314.0,
-      "summary": "Random Vector Oblivious Linear Evaluation (VOLE) correlations can be generated efficiently for zero-knowledge proofs and secure computation. Applications that need correlations on the receiver’s actual input typically derandomize random VOLE by sending a linear-size vector, a main communication bottleneck. We study chosen-input VOLE (CI-VOLE), where the receiver privately chooses a large vector \\("
-    },
-    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -853,6 +833,16 @@
       "published": "2026-04-17T17:19:15+00:00",
       "ts": 1776446355.0,
       "summary": "This is the second in a series of posts about anonymous credentials. You can find the first part here. In the previous post, we introduced the notion of anonymous credentials as a technique that allows users to authenticate to a website without sacrificing their privacy. As a quick reminder, an anonymous credential system consists of &#8230; Continue reading Anonymous credentials: an illustrated p"
+    },
+    {
+      "id": "ee65a8ef1939",
+      "title": "Hint-Free Multi-Signatures",
+      "link": "https://eprint.iacr.org/2026/723",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-14T09:15:15+00:00",
+      "ts": 1776158115.0,
+      "summary": "In a (non-interactive) multi-signature scheme, parties independently generate keys and produce signatures on a common message, which can be aggregated into a single signature verifiable with respect to the set of public keys. Existing multi-signature constructions, however, suffer from at least one of two limitations: either (1) aggregate signatures cannot be further aggregated, or (2) verificatio"
     },
     {
       "id": "1b3a36759226",
@@ -905,16 +895,6 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
-      "id": "5b972cc538f1",
-      "title": "Zero-knowledge and Quantum CSS Codes Are Equivalent",
-      "link": "https://eprint.iacr.org/2026/467",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-06T07:30:51+00:00",
-      "ts": 1772782251.0,
-      "summary": "Zero-knowledge codes, introduced by Decatur, Goldreich, and Ron (ePrint 1997), are error-correcting codes in which few codeword symbols reveal no information about the encoded message, and have been extensively used in cryptographic constructions. Quantum CSS codes, introduced by Calderbank and Shor (Phys. Rev. A 1996) and Steane (Royal Society A 1996), are error-correcting codes that allow for qu"
-    },
-    {
       "id": "b7ffc9dc8c13",
       "title": "Anonymous credentials: an illustrated primer",
       "link": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
@@ -923,16 +903,6 @@
       "published": "2026-03-02T17:29:36+00:00",
       "ts": 1772472576.0,
       "summary": "This post has been on my back burner for well over a year. This has bothered me, since with every month that goes by, I become more convinced that anonymous authentication the most important topic we could be talking about as cryptographers. This isn&#8217;t just because I love neat cryptography: it&#8217;s that I don&#8217;t trust &#8230; Continue reading Anonymous credentials: an illustrated&#16"
-    },
-    {
-      "id": "3eaadcf0425a",
-      "title": "CRISP: Channel-Randomised Single-Image Steganography with Permutations",
-      "link": "https://eprint.iacr.org/2026/424",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-02T14:10:20+00:00",
-      "ts": 1772460620.0,
-      "summary": "We introduce CRISP (\\underline{C}hannel-\\underline{R}andomised Single-\\underline{I}mage\\\\ \\underline{S}teganography with \\underline{P}ermutations), a homomorphic steganography scheme for outsourced computation. In the setting we consider, a client (Alice) hides Boolean inputs in the least-significant bits of cover images and asks an honest-but-curious cloud (Carol) to evaluate a logic circuit, gat"
     },
     {
       "id": "2730dbb5bde5",
@@ -1045,6 +1015,16 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
+      "id": "5a0461d3a9fb",
+      "title": "WISCH: Efficient data signing via correlated signatures",
+      "link": "https://eprint.iacr.org/2025/1650",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-09-12T06:02:26+00:00",
+      "ts": 1757656946.0,
+      "summary": "We present WISCH, a commit-reveal protocol that combines compact aggregate signatures with hash-based commitments to enable selective disclosure of correlated data in multiparty computation. The protocol separates an on-chain verification core from off chain preparation, so that verification cost depends only on the number of openings, not on the size of the underlying message space. This yields a"
+    },
+    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1055,6 +1035,16 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
+      "id": "a1ca9fe88e10",
+      "title": "SCMAC and LOL2.0: An AEAD Design Framework and A New Version of LOL Stream Cipher Design Framework",
+      "link": "https://eprint.iacr.org/2025/925",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-05-22T06:51:02+00:00",
+      "ts": 1747896662.0,
+      "summary": "In this paper, we introduce SCMAC, a general framework that transforms large-memory stream ciphers into AEAD schemes. It represents an intermediate design paradigm between Encrypt-then-MAC and dedicated single-pass AEAD, partially integrating encryption and authentication mechanisms while mitigating the risk of state leakage associated with immediate absorption and squeezing. Consequently, this ap"
+    },
+    {
       "id": "5cd759bdabbe",
       "title": "SoK: Pseudorandom Generation for Masked Cryptographic Implementation",
       "link": "https://eprint.iacr.org/2024/1968",
@@ -1063,6 +1053,16 @@
       "published": "2024-12-05T14:35:18+00:00",
       "ts": 1733409318.0,
       "summary": "This paper investigates pseudorandom generation in the context of masked cryptographic implementation. Although masking and pseudorandom generators (PRGs) have been distinctly studied for a long time, there has been little study on how randomness should be generated in masked implementation. The lack of analysis on mask-bits generators obscures the practical security of masked cryptographic implem"
+    },
+    {
+      "id": "3bdba0d70bc4",
+      "title": "Cirrus: Performant and Accountable Distributed SNARK",
+      "link": "https://eprint.iacr.org/2024/1873",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-11-16T00:27:53+00:00",
+      "ts": 1731716873.0,
+      "summary": "Succinct Non-interactive Arguments of Knowledge (SNARKs) can enable efficient verification of computation in many applications. However, generating SNARK proofs for large-scale tasks, such as verifiable machine learning or virtual machines, remains computationally expensive. A promising approach is to distribute the proof generation workload across multiple workers. A practical distributed SNARK p"
     }
   ]
 }
