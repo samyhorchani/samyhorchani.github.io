@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:11:04.674836+00:00",
+  "generated_at": "2026-10-19T22:45:01.450090+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "41e2678d48f6",
+      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+      "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-19T17:32:13+00:00",
+      "ts": 1792431133.0,
+      "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell. The vulnerabilities"
+    },
     {
       "id": "b29b02994726",
       "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
@@ -115,36 +125,6 @@
       "summary": "SPDZ-family protocols for maliciously secure multi-party computation protect secret-shared values with message authentication codes (MACs) under a secret-shared global key. Their security requires that all values and preprocessing used together be authenticated under the same key. We present Off-Key, a privacy attack that exploits violations of this requirement. Depending on which specific MAC che"
     },
     {
-      "id": "3d0914187ec0",
-      "title": "HERMES: High-Performance Private Decoding for Large Language Models",
-      "link": "https://eprint.iacr.org/2026/2532",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-18T22:08:21+00:00",
-      "ts": 1792361301.0,
-      "summary": "Privacy-preserving inference (PI) enables users to query large language models (LLMs) without revealing their prompts, but incurs substantial computation and communication overhead. Prior PI systems primarily optimize prefill and time to first token (TTFT). This suits applications that need only a single output token, yet most real-world use cases require multi-token responses. Such autoregressive"
-    },
-    {
-      "id": "196771a3fdd1",
-      "title": "High-Precision CKKS with fixed Modulus Consumption",
-      "link": "https://eprint.iacr.org/2026/2531",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-18T19:14:46+00:00",
-      "ts": 1792350886.0,
-      "summary": "In CKKS, higher precision requires a larger scaling factor, increasing modulus consumption during homomorphic arithmetic and leaving less modulus available after bootstrapping under the same modulus budget. We introduce Focused CKKS, which trades unused SIMD slots for precision through focused rescaling and key-switching based on cyclotomic units. These units reduce error in selected focus slots w"
-    },
-    {
-      "id": "7871364791f4",
-      "title": "Computing endomorphisms of superspecial principally polarized abelian surfaces in time and memory \\(p^{4/5+o(1)}\\)",
-      "link": "https://eprint.iacr.org/2026/2530",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-18T15:29:46+00:00",
-      "ts": 1792337386.0,
-      "summary": "We present an algorithm for computing endomorphisms of superspecial principally polarized abelian surfaces over finite fields. Under a standard heuristic, we obtain a non-scalar polarized endomorphism in expected time and memory $p^{4/5 + o(1)}$."
-    },
-    {
       "id": "84b8816fefa1",
       "title": "The Covering Radius of $\\text{RM}(1,9)$ is Precisely $242$",
       "link": "https://eprint.iacr.org/2026/2529",
@@ -233,16 +213,6 @@
       "published": "2026-10-16T14:03:04+00:00",
       "ts": 1792159384.0,
       "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding task. The incident, the AI company said, involved an internal research model part"
-    },
-    {
-      "id": "72e7666fa7b7",
-      "title": "AI Decision Models and Their Impact on AI SOC Platforms",
-      "link": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-16T11:30:00+00:00",
-      "ts": 1792150200.0,
-      "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cribl published cribl-decision, an open LoRA adapter you can run locally. Others, like Laya, are"
     },
     {
       "id": "6760eee245b8",
@@ -605,6 +575,16 @@
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
     },
     {
+      "id": "d0682e89d616",
+      "title": "Argo: Leaking a Secret from an Invalid Groth16 Proof",
+      "link": "https://eprint.iacr.org/2026/2165",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-23T02:22:56+00:00",
+      "ts": 1790130176.0,
+      "summary": "We present Argo, a randomized encoding scheme for the invalidity of pairing-based SNARKs like Groth16. Argo allows an encoder to encode a proof such that a decoder can derive a secret if the proof is invalid. We prove the selective security of invalidity Argo, as well as the adaptive security of validity Argo, under DDH in one source group of a bilinear pairing in the standard model, a standard as"
+    },
+    {
       "id": "71c4a4caf94f",
       "title": "SAML: A fractal of bad design",
       "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
@@ -715,6 +695,16 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
+      "id": "fd245f53eb80",
+      "title": "Limber: Low Overhead SNARKs for Integers from Any PCS",
+      "link": "https://eprint.iacr.org/2026/1635",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-07T22:11:14+00:00",
+      "ts": 1786140674.0,
+      "summary": "In real-world applications of SNARKs, non-native arithmetic, the emulation of computation outside of the specified SNARK field, is a key bottleneck. It introduces large overheads, and proof system designers often resort to non-standard SNARK-friendly hash-functions or other means like elliptic curve cycles to mitigate its costs. Besides performance concerns, non-native circuit arithmetization is a"
+    },
+    {
       "id": "5ce90ec573e9",
       "title": "A few notes on AWS Nitro Enclaves: KMS integration",
       "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
@@ -753,6 +743,16 @@
       "published": "2026-07-28T11:00:00+00:00",
       "ts": 1785236400.0,
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
+    },
+    {
+      "id": "22e82fb154e6",
+      "title": "Catching Many Traitors in Threshold Traitor Tracing: Lower Bounds and Constructions",
+      "link": "https://eprint.iacr.org/2026/1523",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-24T21:40:09+00:00",
+      "ts": 1784929209.0,
+      "summary": "A $t$-out-of-$n$ threshold decryption scheme distributes decryption key shares among $n$ parties so that any $t$ of them can jointly decrypt a ciphertext, while fewer than $t$ learn nothing about the plaintext. Traditional threshold schemes provide no accountability: a coalition of $t$ or more parties can combine their key shares and construct a pirate decoder that decrypts arbitrary well-formed c"
     },
     {
       "id": "bdc2700324bc",
