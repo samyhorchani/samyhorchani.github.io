@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:51:17.932422+00:00",
+  "generated_at": "2026-10-19T18:11:04.674836+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,56 @@
     }
   ],
   "items": [
+    {
+      "id": "b29b02994726",
+      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+      "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-19T16:28:47+00:00",
+      "ts": 1792427327.0,
+      "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16. Any site that installed and activated one of those copies should be treated as compromised, and the"
+    },
+    {
+      "id": "28713aa87396",
+      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+      "link": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-19T14:14:07+00:00",
+      "ts": 1792419247.0,
+      "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done. This week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were"
+    },
+    {
+      "id": "bc9c2f95a929",
+      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+      "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "source": "Krebs on Security",
+      "category": "veille",
+      "published": "2026-10-19T13:48:56+00:00",
+      "ts": 1792417736.0,
+      "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters op"
+    },
+    {
+      "id": "1aad9c423948",
+      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+      "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-19T13:05:45+00:00",
+      "ts": 1792415145.0,
+      "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps"
+    },
+    {
+      "id": "f9cb75cb5efa",
+      "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+      "link": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-19T11:50:00+00:00",
+      "ts": 1792410600.0,
+      "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together,"
+    },
     {
       "id": "454556017121",
       "title": "Training AIs to Solve CAPTCHAs",
@@ -103,26 +153,6 @@
       "published": "2026-10-18T14:48:53+00:00",
       "ts": 1792334933.0,
       "summary": "Let $\\text{RM}(r,n)$ be the $r$th order Reed-Muller code of length $2^n$, and let $\\rho(r,n)$ denote its covering radius, so that $\\rho(1,n)$ is the largest possible nonlinearity of a Boolean function in $n$ variables. For odd $n$, the value of $\\rho(1,n)$ was previously known only for $n\\le 7$. It is known that $242\\le\\rho(1,9)\\le 244$, but the exact determination of $\\rho(1,9)$ has been a long-s"
-    },
-    {
-      "id": "2bd085ed47c9",
-      "title": "Revisiting the Security of VDOO",
-      "link": "https://eprint.iacr.org/2026/2528",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-18T14:06:02+00:00",
-      "ts": 1792332362.0,
-      "summary": "VDOO is a multivariate signature scheme submitted to the Next-generation Commercial Cryptographic Algorithms Program (NGCC). We study the security of its submitted parameter sets. In this paper, VDOO is described as a multilayer Rainbow construction. By retaining only its last oil space, we obtain a generalized UOV instance and apply existing wedge attacks. For the parameter set targeting 512-bit "
-    },
-    {
-      "id": "1d9636f336c7",
-      "title": "How Secure are NTRU+ Keys? Analysing the Best Module Attacks",
-      "link": "https://eprint.iacr.org/2026/2527",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-18T13:19:27+00:00",
-      "ts": 1792329567.0,
-      "summary": "A recent analysis of module-BKZ [Ducas–Engleberts–Perthuis, Asiacrypt'25] predicts subexponential speedups for lattice reduction on module lattices over cyclotomic fields whose conductor has small odd prime factors. This threatens NTRU+, the South Korean standard for key encapsulation, and related schemes; however, the short vectors one seeks to find are short in the coefficient geometry, whereas "
     },
     {
       "id": "2dc3dd1a81d5",
@@ -225,46 +255,6 @@
       "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it&#8217;s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it&#8217;s the most popular reason people download modified weights without verifying what&#8217;s inside. Abliteration is a cheap fine-tune that takes away a model&#8217;s abil"
     },
     {
-      "id": "7edb2adcf316",
-      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-      "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-16T06:55:55+00:00",
-      "ts": 1792133755.0,
-      "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a"
-    },
-    {
-      "id": "bdd74184ed32",
-      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-      "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-16T06:53:09+00:00",
-      "ts": 1792133589.0,
-      "summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In&nbsp;said in an advisory&nbsp;on October 15. The agents went beyond their assigned tasks, and none of the organizations detected the unauthorized access. After internal reviews, the AI companies whose models were being tested"
-    },
-    {
-      "id": "c7fd022ab937",
-      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-      "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-16T04:59:36+00:00",
-      "ts": 1792126776.0,
-      "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a"
-    },
-    {
-      "id": "deec60e140c8",
-      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-      "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-15T20:24:36+00:00",
-      "ts": 1792095876.0,
-      "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared"
-    },
-    {
       "id": "8286d7b68a18",
       "title": "Measuring Human Cryptanalysis Effort",
       "link": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
@@ -283,6 +273,26 @@
       "published": "2026-10-15T06:55:07+00:00",
       "ts": 1792047307.0,
       "summary": "Lattice-based homomorphic e-voting protocols built on commitments, such as EVOLVE, keep ballots private against all but one authority and the tally verifiable even if all authorities collude, but need every authority to tally. We present T-EVOLVE, in which votes are Shamir-shared over the commitment message space: any t of n authorities that took part in the checking phase complete the tally, priv"
+    },
+    {
+      "id": "092951298d18",
+      "title": "Multiples vulnérabilités dans les produits F5 (15 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1317/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-15T00:00:00+00:00",
+      "ts": 1792022400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "0a166650a959",
+      "title": "Multiples vulnérabilités dans les produits Symfony (15 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1324/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-15T00:00:00+00:00",
+      "ts": 1792022400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Elles permettent à un attaquant de provoquer un déni de service à distance."
     },
     {
       "id": "e1e7b17e135b",
@@ -355,16 +365,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données. Microsoft indique que la vulnérabilité..."
     },
     {
-      "id": "e182791e041e",
-      "title": "Multiples vulnérabilités dans les produits Adobe (14 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1301/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-14T00:00:00+00:00",
-      "ts": 1791936000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Adobe. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
-    },
-    {
       "id": "7fab74cbf289",
       "title": "Multiples vulnérabilités dans Microsoft Azure (14 octobre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1315/",
@@ -415,16 +415,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Curl. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
     },
     {
-      "id": "961ebb3f6421",
-      "title": "Multiples vulnérabilités dans MongoDB Server (14 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1304/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-14T00:00:00+00:00",
-      "ts": 1791936000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB Server. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance."
-    },
-    {
       "id": "cb4ee1669bef",
       "title": "Multiples vulnérabilités dans les produits Fortinet (14 octobre 2026)",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1306/",
@@ -455,6 +445,26 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
     },
     {
+      "id": "3a183d0a375b",
+      "title": "Multiples vulnérabilités dans Microsoft .Net (14 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1313/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-14T00:00:00+00:00",
+      "ts": 1791936000.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+    },
+    {
+      "id": "4fdb170892a3",
+      "title": "Multiples vulnérabilités dans les produits Citrix (14 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1310/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-14T00:00:00+00:00",
+      "ts": 1791936000.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance."
+    },
+    {
       "id": "c5a36601271c",
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
@@ -463,26 +473,6 @@
       "published": "2026-10-13T23:24:53+00:00",
       "ts": 1791933893.0,
       "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond."
-    },
-    {
-      "id": "13230ff91a1f",
-      "title": "Vulnérabilité dans Schneider Electric Harmony (13 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1299/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-13T00:00:00+00:00",
-      "ts": 1791849600.0,
-      "summary": "Une vulnérabilité a été découverte dans Schneider Electric Harmony. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité."
-    },
-    {
-      "id": "2ad34ec7d0be",
-      "title": "Multiples vulnérabilités dans les produits SAP (13 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1300/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-13T00:00:00+00:00",
-      "ts": 1791849600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection SQL (SQLi)."
     },
     {
       "id": "96467e4b9fc5",
@@ -685,16 +675,6 @@
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity a"
     },
     {
-      "id": "a3160ec17f8b",
-      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-      "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "source": "Krebs on Security",
-      "category": "veille",
-      "published": "2026-08-27T11:04:15+00:00",
-      "ts": 1787828655.0,
-      "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a \"sophisticated"
-    },
-    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -815,6 +795,16 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
+      "id": "ef062ea07055",
+      "title": "How To Track Qubits Through Space and Time (Or: Sailing in a Quantum Boat)",
+      "link": "https://eprint.iacr.org/2026/1090",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-29T03:05:14+00:00",
+      "ts": 1780023914.0,
+      "summary": "While quantum position verification aims to certify a prover's location using quantum information, existing security definitions only guarantee that part of the successful adversarial party is in the claimed location. This leaves open the possibility that a distributed team of adversaries can jointly simulate a prover in a way that defeats the intended meaning of ``being at a location'' in positio"
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -843,6 +833,16 @@
       "published": "2026-04-14T09:15:15+00:00",
       "ts": 1776158115.0,
       "summary": "In a (non-interactive) multi-signature scheme, parties independently generate keys and produce signatures on a common message, which can be aggregated into a single signature verifiable with respect to the set of public keys. Existing multi-signature constructions, however, suffer from at least one of two limitations: either (1) aggregate signatures cannot be further aggregated, or (2) verificatio"
+    },
+    {
+      "id": "7d2e20a128a0",
+      "title": "$\\mathsf{Veloz}$: Efficient and Flexible Distribution Framework for Interleaved-Code-Based Polynomial Commitment Scheme",
+      "link": "https://eprint.iacr.org/2026/714",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-12T13:06:25+00:00",
+      "ts": 1775999185.0,
+      "summary": "Polynomial commitment schemes (PCSs) are a fundamental cryptographic primitive that allows a prover to reveal evaluations for a committed polynomial. Motivated by the inefficiency of proof generation for large-scale computations as well as the concerns regarding third-party reliance and quantum threats, a line of recent works has focused on distributing code-based PCS, where the proving workload i"
     },
     {
       "id": "1b3a36759226",
