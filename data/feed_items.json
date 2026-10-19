@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T00:42:16.504584+00:00",
+  "generated_at": "2026-10-19T05:36:08.683430+00:00",
   "count": 105,
   "errors": [
     {
@@ -965,6 +965,16 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
+      "id": "c7fc99f25aed",
+      "title": "Highly Efficient and Round-Optimal Asymmetric PAKE",
+      "link": "https://eprint.iacr.org/2026/246",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-13T08:44:18+00:00",
+      "ts": 1770972258.0,
+      "summary": "An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client, who holds a raw password, and a server, who holds a one-way mapping of the password, to jointly establish a cryptographically strong session key, without an authenticated channel. The standard security definition for aPAKE is in the Universal Composability (UC) framework. Despite its great potential of being used i"
+    },
+    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -1045,24 +1055,14 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "4692ae443a22",
-      "title": "Twist and Shout: Faster memory checking arguments via one-hot addressing and increments",
-      "link": "https://eprint.iacr.org/2025/105",
+      "id": "5cd759bdabbe",
+      "title": "SoK: Pseudorandom Generation for Masked Cryptographic Implementation",
+      "link": "https://eprint.iacr.org/2024/1968",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-01-22T23:51:09+00:00",
-      "ts": 1737589869.0,
-      "summary": "Memory checking arguments enable an untrusted prover to prove that it is correctly processing reads and writes to memory. They are used widely in modern SNARKs, especially in zkVMs, where the prover proves the correct execution of a CPU including the correctness of memory operations. We describe a new approach for memory checking, called the method of one-hot addressing and increments. We instanti"
-    },
-    {
-      "id": "d309bfbecb1f",
-      "title": "SnarkMux: Streaming SNARK Aggregation with Constant Online Verification",
-      "link": "https://eprint.iacr.org/2023/1946",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2023-12-22T15:36:21+00:00",
-      "ts": 1703259381.0,
-      "summary": "SNARKs let a verifier check an expensive computation via a succinct proof, without re-executing the computation. However, many applications still verify proofs individually, creating verifier load and high fees in replicated or constrained-verifier settings. Existing proof aggregation schemes largely follow the generalized inner product argument (GIPA) line, achieving $O(\\log n)$ proof size and ve"
+      "published": "2024-12-05T14:35:18+00:00",
+      "ts": 1733409318.0,
+      "summary": "This paper investigates pseudorandom generation in the context of masked cryptographic implementation. Although masking and pseudorandom generators (PRGs) have been distinctly studied for a long time, there has been little study on how randomness should be generated in masked implementation. The lack of analysis on mask-bits generators obscures the practical security of masked cryptographic implem"
     }
   ]
 }
