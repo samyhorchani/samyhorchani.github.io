@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:12:56.892979+00:00",
+  "generated_at": "2026-10-20T18:14:54.849961+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "007a72a1dece",
+      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-20T15:38:52+00:00",
+      "ts": 1792510732.0,
+      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially"
+    },
+    {
+      "id": "4fbc60dee0a4",
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-20T15:32:27+00:00",
+      "ts": 1792510347.0,
+      "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was"
+    },
+    {
+      "id": "e2efefcdb4eb",
+      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "link": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-20T14:07:17+00:00",
+      "ts": 1792505237.0,
+      "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company"
+    },
+    {
+      "id": "74c75b9c6666",
+      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+      "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-20T12:59:44+00:00",
+      "ts": 1792501184.0,
+      "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19. The finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or"
+    },
     {
       "id": "d9de591543c9",
       "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
@@ -135,16 +175,6 @@
       "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16. Any site that installed and activated one of those copies should be treated as compromised, and the"
     },
     {
-      "id": "28713aa87396",
-      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-      "link": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-19T14:14:07+00:00",
-      "ts": 1792419247.0,
-      "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done. This week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were"
-    },
-    {
       "id": "bc9c2f95a929",
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
       "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
@@ -153,26 +183,6 @@
       "published": "2026-10-19T13:48:56+00:00",
       "ts": 1792417736.0,
       "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters op"
-    },
-    {
-      "id": "1aad9c423948",
-      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-      "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-19T13:05:45+00:00",
-      "ts": 1792415145.0,
-      "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps"
-    },
-    {
-      "id": "f9cb75cb5efa",
-      "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-      "link": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-19T11:50:00+00:00",
-      "ts": 1792410600.0,
-      "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together,"
     },
     {
       "id": "454556017121",
@@ -185,14 +195,24 @@
       "summary": "Interesting research: Abstract: Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in milliseconds but only for categories they were "
     },
     {
-      "id": "0269f6c4e86e",
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-19T10:06:40+00:00",
-      "ts": 1792404400.0,
-      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic"
+      "id": "899922afef75",
+      "title": "New IND-CPA-D Attacks on BFV and BGV",
+      "link": "https://eprint.iacr.org/2026/2546",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-19T10:55:17+00:00",
+      "ts": 1792407317.0,
+      "summary": "IND-CPA-D security is an extension of IND-CPA security introduced in the context of Fully Homomorphic Encryption (FHE). It captures the situation where the computation result is known to the adversary; it is in particular necessary for FHE with threshold decryption. This work presents three new attacks in this situation on the BFV and BGV FHE schemes, when their parameters are instantiated with he"
+    },
+    {
+      "id": "5cb10c023dd6",
+      "title": "Implementing Predicate Encryption for Branching Programs: Private Computation over Key-Homomorphic Encodings Without FHE",
+      "link": "https://eprint.iacr.org/2026/2539",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-19T05:00:09+00:00",
+      "ts": 1792386009.0,
+      "summary": "Predicate encryption (PE) encrypts a message under an attribute that the ciphertext hides, allowing a secret key for a predicate to recover the message only when the attribute satisfies the predicate. Existing public-key implementations support useful specialized predicates, but enforcing heterogeneous conditions with one key requires an attribute representation fixed before encryption, which grow"
     },
     {
       "id": "93a0da058757",
@@ -215,24 +235,14 @@
       "summary": "Redundancy countermeasures prevent differential fault analysis by withholding faulty ciphertexts. Ineffective fault analysis and statistical ineffective fault attacks exploit executions in which an injected fault leaves the result unchanged, using constraints on intermediate values or statistical bias to recover keys. In this paper, we present an Ineffective Instruction-Skip Fault Attack (IISFA) o"
     },
     {
-      "id": "196771a3fdd1",
-      "title": "High-Precision CKKS with fixed Modulus Consumption",
+      "id": "aacbf7628626",
+      "title": "High-Precision CKKS with Focal Units",
       "link": "https://eprint.iacr.org/2026/2531",
       "source": "IACR ePrint Archive",
       "category": "recherche",
       "published": "2026-10-18T19:14:46+00:00",
       "ts": 1792350886.0,
       "summary": "In CKKS, higher precision requires a larger scaling factor, increasing modulus consumption during homomorphic arithmetic and leaving less modulus available after bootstrapping under the same modulus budget. We introduce Focused CKKS, which trades unused SIMD slots for precision through focused rescaling and key-switching based on cyclotomic units. These units reduce error in selected focus slots w"
-    },
-    {
-      "id": "84b8816fefa1",
-      "title": "The Covering Radius of $\\text{RM}(1,9)$ is Precisely $242$",
-      "link": "https://eprint.iacr.org/2026/2529",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-18T14:48:53+00:00",
-      "ts": 1792334933.0,
-      "summary": "Let $\\text{RM}(r,n)$ be the $r$th order Reed-Muller code of length $2^n$, and let $\\rho(r,n)$ denote its covering radius, so that $\\rho(1,n)$ is the largest possible nonlinearity of a Boolean function in $n$ variables. For odd $n$, the value of $\\rho(1,n)$ was previously known only for $n\\le 7$. It is known that $242\\le\\rho(1,9)\\le 244$, but the exact determination of $\\rho(1,9)$ has been a long-s"
     },
     {
       "id": "3e99bd23e18f",
@@ -525,6 +535,16 @@
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the gl"
     },
     {
+      "id": "896a220b3634",
+      "title": "The Structure of Witness-Update Tradeoffs in Additive Positive Accumulators",
+      "link": "https://eprint.iacr.org/2026/2362",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-05T11:51:46+00:00",
+      "ts": 1791201106.0,
+      "summary": "An additive positive accumulator maintains a short public digest of a growing set while each accumulated element carries a membership witness. As new elements are inserted, old witnesses may need to be refreshed, creating a tradeoff between succinct public state and witness-maintenance cost. Previous lower bounds capture this tradeoff through particular scalar measures, such as the maximum lifetim"
+    },
+    {
       "id": "b224d08c01cc",
       "title": "SequenceHash: multihashing for the rest of us",
       "link": "https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/",
@@ -575,14 +595,34 @@
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
     },
     {
-      "id": "d0682e89d616",
-      "title": "Argo: Leaking a Secret from an Invalid Groth16 Proof",
-      "link": "https://eprint.iacr.org/2026/2165",
+      "id": "0a7d6383e756",
+      "title": "Fully Anonymous Perfect Threshold Secret Sharing: Explicit One-Bit Construction and Rate Amplification",
+      "link": "https://eprint.iacr.org/2026/2202",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-23T02:22:56+00:00",
-      "ts": 1790130176.0,
-      "summary": "We present Argo, a randomized encoding scheme for the invalidity of pairing-based SNARKs like Groth16. Argo allows an encoder to encode a proof such that a decoder can derive a secret if the proof is invalid. We prove the selective security of invalidity Argo, as well as the adaptive security of validity Argo, under DDH in one source group of a bilinear pairing in the standard model, a standard as"
+      "published": "2026-09-24T12:38:35+00:00",
+      "ts": 1790253515.0,
+      "summary": "Secret sharing distributes a secret among participants so that only sufficiently large groups can recover it. Fully anonymous secret sharing also allows recovery from share values alone, without participant identities. Below the reconstruction threshold, the shares must look exactly like independent uniform random values, revealing neither the secret nor their holders' identities. Con, Li, and Maz"
+    },
+    {
+      "id": "991bcfa75bd8",
+      "title": "Stay in Your Lane: Scalable Large-Integer Arithmetic in CKKS",
+      "link": "https://eprint.iacr.org/2026/2190",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-23T20:05:26+00:00",
+      "ts": 1790193926.0,
+      "summary": "Recent work has shown that the approximate homomorphic encryption scheme CKKS can perform exact modular arithmetic with large moduli. This enables high-precision integer computation: given bounds on the outputs of an arithmetic circuit, we can recover the exact integer results from the modular outputs using any sufficiently large modulus. The particular choice of modulus does not affect correctnes"
+    },
+    {
+      "id": "dfd198c38569",
+      "title": "Vespa: Efficient Secure Aggregation with Integrity Defense under Server Privacy",
+      "link": "https://eprint.iacr.org/2026/2183",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-23T14:43:29+00:00",
+      "ts": 1790174609.0,
+      "summary": "Secure aggregation with input validation enables a server to securely compute the summation of private data from multiple clients while verifying that the inputs satisfy specific constraints. However, the practical deployment of this paradigm at scale is hindered by two primary limitations. First, existing schemes suffer from severe efficiency bottlenecks due to their reliance on generic, computat"
     },
     {
       "id": "71c4a4caf94f",
@@ -705,16 +745,6 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
-      "id": "fd245f53eb80",
-      "title": "Limber: Low Overhead SNARKs for Integers from Any PCS",
-      "link": "https://eprint.iacr.org/2026/1635",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-07T22:11:14+00:00",
-      "ts": 1786140674.0,
-      "summary": "In real-world applications of SNARKs, non-native arithmetic, the emulation of computation outside of the specified SNARK field, is a key bottleneck. It introduces large overheads, and proof system designers often resort to non-standard SNARK-friendly hash-functions or other means like elliptic curve cycles to mitigate its costs. Besides performance concerns, non-native circuit arithmetization is a"
-    },
-    {
       "id": "5ce90ec573e9",
       "title": "A few notes on AWS Nitro Enclaves: KMS integration",
       "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
@@ -753,16 +783,6 @@
       "published": "2026-07-28T11:00:00+00:00",
       "ts": 1785236400.0,
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
-    },
-    {
-      "id": "22e82fb154e6",
-      "title": "Catching Many Traitors in Threshold Traitor Tracing: Lower Bounds and Constructions",
-      "link": "https://eprint.iacr.org/2026/1523",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-24T21:40:09+00:00",
-      "ts": 1784929209.0,
-      "summary": "A $t$-out-of-$n$ threshold decryption scheme distributes decryption key shares among $n$ parties so that any $t$ of them can jointly decrypt a ciphertext, while fewer than $t$ learn nothing about the plaintext. Traditional threshold schemes provide no accountability: a coalition of $t$ or more parties can combine their key shares and construct a pirate decoder that decrypts arbitrary well-formed c"
     },
     {
       "id": "bdc2700324bc",
@@ -805,16 +825,6 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
-      "id": "ef062ea07055",
-      "title": "How To Track Qubits Through Space and Time (Or: Sailing in a Quantum Boat)",
-      "link": "https://eprint.iacr.org/2026/1090",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-29T03:05:14+00:00",
-      "ts": 1780023914.0,
-      "summary": "While quantum position verification aims to certify a prover's location using quantum information, existing security definitions only guarantee that part of the successful adversarial party is in the claimed location. This leaves open the possibility that a distributed team of adversaries can jointly simulate a prover in a way that defeats the intended meaning of ``being at a location'' in positio"
-    },
-    {
       "id": "1e804fcea989",
       "title": "Comments on \"Server-Aided Public Key Authenticated Searchable Encryption With Constant Ciphertext and Constant Trapdoor\"",
       "link": "https://eprint.iacr.org/2026/1015",
@@ -853,16 +863,6 @@
       "published": "2026-04-17T17:19:15+00:00",
       "ts": 1776446355.0,
       "summary": "This is the second in a series of posts about anonymous credentials. You can find the first part here. In the previous post, we introduced the notion of anonymous credentials as a technique that allows users to authenticate to a website without sacrificing their privacy. As a quick reminder, an anonymous credential system consists of &#8230; Continue reading Anonymous credentials: an illustrated p"
-    },
-    {
-      "id": "7d2e20a128a0",
-      "title": "$\\mathsf{Veloz}$: Efficient and Flexible Distribution Framework for Interleaved-Code-Based Polynomial Commitment Scheme",
-      "link": "https://eprint.iacr.org/2026/714",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-12T13:06:25+00:00",
-      "ts": 1775999185.0,
-      "summary": "Polynomial commitment schemes (PCSs) are a fundamental cryptographic primitive that allows a prover to reveal evaluations for a committed polynomial. Motivated by the inefficiency of proof generation for large-scale computations as well as the concerns regarding third-party reliance and quantum threats, a line of recent works has focused on distributing code-based PCS, where the proving workload i"
     },
     {
       "id": "1b3a36759226",
