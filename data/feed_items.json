@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T01:27:37.797922+00:00",
+  "generated_at": "2026-10-20T07:00:58.917674+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "cc97221540a4",
+      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+      "link": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-20T05:53:16+00:00",
+      "ts": 1792475596.0,
+      "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets. In a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was \"in frequent communications via WhatsApp"
+    },
+    {
+      "id": "156f28e4d2d8",
+      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+      "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-20T04:05:58+00:00",
+      "ts": 1792469158.0,
+      "summary": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own"
+    },
     {
       "id": "41e2678d48f6",
       "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
@@ -193,26 +213,6 @@
       "published": "2026-10-16T16:43:39+00:00",
       "ts": 1792169019.0,
       "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor. Google Threat Intelligence Group, Mandiant, and&nbsp;ManageEngine's Threat Analysis"
-    },
-    {
-      "id": "6f141a2a75f5",
-      "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
-      "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-16T16:16:44+00:00",
-      "ts": 1792167404.0,
-      "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials and multi-factor authentication (MFA) codes. The activity is being tracked by"
-    },
-    {
-      "id": "6aa81f9b6580",
-      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-      "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-16T14:03:04+00:00",
-      "ts": 1792159384.0,
-      "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding task. The incident, the AI company said, involved an internal research model part"
     },
     {
       "id": "6760eee245b8",
@@ -815,6 +815,16 @@
       "summary": "Cheng and Meng (IEEE Transactions on Information Forensics and Security 2024) introduced server-aided public key authenticated encryption with keyword search (SA-PAEKS). In this short note, without a public-key infrastructure, we show that a cloud server (tester) can obtain keyword information from both a ciphertext and a trapdoor."
     },
     {
+      "id": "0d3725ad4047",
+      "title": "Faster Bootstrapping for Fully Homomorphic Encryption over Mixed-Radix Cyclotomic Ring",
+      "link": "https://eprint.iacr.org/2026/853",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-01T04:00:06+00:00",
+      "ts": 1777608006.0,
+      "summary": "Homomorphic matrix arithmetic is central to many data-intensive fully homomorphic encryption (FHE) applications, including privacy-preserving machine learning. Standard CKKS over power-of-two cyclotomic rings provides only a one-dimensional slot structure, forcing encrypted matrix operations to rely heavily on cyclic slot rotations and the associated key-switching overhead. Although the multivaria"
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -903,6 +913,16 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
+    },
+    {
+      "id": "964046b7cb2a",
+      "title": "Balancing Exploration and Exploitation: Discriminative-Model-based Fault Injection Parameter Search",
+      "link": "https://eprint.iacr.org/2026/536",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-17T09:47:32+00:00",
+      "ts": 1773740852.0,
+      "summary": "Fault Injection (FI) attacks are physical attacks that deliberately induce malfunctions in a target device. Inducing the intended fault requires precise tuning of the FI parameters, for which automated search strategies have been proposed. Most favor either exploration or exploitation: the former covers a broad region of the parameter space, while the latter discovers many successful parameters. A"
     },
     {
       "id": "b7ffc9dc8c13",
@@ -1015,16 +1035,6 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
-      "id": "5a0461d3a9fb",
-      "title": "WISCH: Efficient data signing via correlated signatures",
-      "link": "https://eprint.iacr.org/2025/1650",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-09-12T06:02:26+00:00",
-      "ts": 1757656946.0,
-      "summary": "We present WISCH, a commit-reveal protocol that combines compact aggregate signatures with hash-based commitments to enable selective disclosure of correlated data in multiparty computation. The protocol separates an on-chain verification core from off chain preparation, so that verification cost depends only on the number of openings, not on the size of the underlying message space. This yields a"
-    },
-    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1035,24 +1045,14 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "a1ca9fe88e10",
-      "title": "SCMAC and LOL2.0: An AEAD Design Framework and A New Version of LOL Stream Cipher Design Framework",
-      "link": "https://eprint.iacr.org/2025/925",
+      "id": "ece25a519318",
+      "title": "Binding Security of Combined KEMs: An Analysis of Real-World KEM Combiners",
+      "link": "https://eprint.iacr.org/2025/1416",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-05-22T06:51:02+00:00",
-      "ts": 1747896662.0,
-      "summary": "In this paper, we introduce SCMAC, a general framework that transforms large-memory stream ciphers into AEAD schemes. It represents an intermediate design paradigm between Encrypt-then-MAC and dedicated single-pass AEAD, partially integrating encryption and authentication mechanisms while mitigating the risk of state leakage associated with immediate absorption and squeezing. Consequently, this ap"
-    },
-    {
-      "id": "5cd759bdabbe",
-      "title": "SoK: Pseudorandom Generation for Masked Cryptographic Implementation",
-      "link": "https://eprint.iacr.org/2024/1968",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-12-05T14:35:18+00:00",
-      "ts": 1733409318.0,
-      "summary": "This paper investigates pseudorandom generation in the context of masked cryptographic implementation. Although masking and pseudorandom generators (PRGs) have been distinctly studied for a long time, there has been little study on how randomness should be generated in masked implementation. The lack of analysis on mask-bits generators obscures the practical security of masked cryptographic implem"
+      "published": "2025-08-04T09:24:18+00:00",
+      "ts": 1754299458.0,
+      "summary": "In this work we analyze the various binding properties of combiners for KEMs. We show that several binding properties follow easily for the most general combiner—assuming a collision-resistant hash function—while more performance-oriented combiners require the respective property from one or both of the underlying KEMs. Other binding properties are not obtained as directly and require either more "
     },
     {
       "id": "3bdba0d70bc4",
