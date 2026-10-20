@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:14:54.849961+00:00",
+  "generated_at": "2026-10-20T22:00:37.196083+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "e79a225b9345",
+      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+      "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-20T17:09:53+00:00",
+      "ts": 1792516193.0,
+      "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept. A researcher reported the"
+    },
     {
       "id": "007a72a1dece",
       "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
@@ -163,16 +173,6 @@
       "published": "2026-10-19T17:32:13+00:00",
       "ts": 1792431133.0,
       "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell. The vulnerabilities"
-    },
-    {
-      "id": "b29b02994726",
-      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-      "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-19T16:28:47+00:00",
-      "ts": 1792427327.0,
-      "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16. Any site that installed and activated one of those copies should be treated as compromised, and the"
     },
     {
       "id": "bc9c2f95a929",
@@ -805,6 +805,16 @@
       "summary": "In April we released Mewt, our open-source mutation-testing engine that finds the gaps in your test suite. Today we’re expanding it with support for DAML, the language Canton Network applications are written in. Mewt now reads DAML, generates several classes of mutants (including two built for DAML&rsquo;s authorization primitives), and runs them through your existing test suite to count how many "
     },
     {
+      "id": "0cd4eb9e6834",
+      "title": "Efficient Private Set Intersection and Searchable Encryption using Homomorphic Bloom Filters",
+      "link": "https://eprint.iacr.org/2026/1267",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-16T14:24:06+00:00",
+      "ts": 1781619846.0,
+      "summary": "Existing encrypted search and private set intersection (PSI) protocols struggle to reconcile post-quantum security with practical efficiency, often leaking search and access patterns or requiring prohibitively deep fully homomorphic encryption (FHE) circuits. We address these limitations by introducing a new Homomorphic Bloom Filters (HBF) framework, a quantum-resilient framework that embeds lengt"
+    },
+    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -815,6 +825,16 @@
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
     },
     {
+      "id": "2442c8dbe3d6",
+      "title": "DASTE: Decentralized Ad-Hoc Access-Structured Threshold Encryption with Dynamic Policy Evolution",
+      "link": "https://eprint.iacr.org/2026/1141",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-02T14:41:08+00:00",
+      "ts": 1780411268.0,
+      "summary": "We introduce DASTE, a decentralized encryption primitive for auditable access control in settings where users independently generate public keys, register them on an immutable ledger, and decrypt only through collaboration. In DASTE, a sender encrypts under an access structure (e.g., an access tree / LSSS) whose leaves are concrete registered public keys selected at encryption time. A ciphertext c"
+    },
+    {
       "id": "7990c40a74ab",
       "title": "Let’s talk about encrypted reasoning",
       "link": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
@@ -823,26 +843,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "1e804fcea989",
-      "title": "Comments on \"Server-Aided Public Key Authenticated Searchable Encryption With Constant Ciphertext and Constant Trapdoor\"",
-      "link": "https://eprint.iacr.org/2026/1015",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-21T00:39:35+00:00",
-      "ts": 1779323975.0,
-      "summary": "Cheng and Meng (IEEE Transactions on Information Forensics and Security 2024) introduced server-aided public key authenticated encryption with keyword search (SA-PAEKS). In this short note, without a public-key infrastructure, we show that a cloud server (tester) can obtain keyword information from both a ciphertext and a trapdoor."
-    },
-    {
-      "id": "0d3725ad4047",
-      "title": "Faster Bootstrapping for Fully Homomorphic Encryption over Mixed-Radix Cyclotomic Ring",
-      "link": "https://eprint.iacr.org/2026/853",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-01T04:00:06+00:00",
-      "ts": 1777608006.0,
-      "summary": "Homomorphic matrix arithmetic is central to many data-intensive fully homomorphic encryption (FHE) applications, including privacy-preserving machine learning. Standard CKKS over power-of-two cyclotomic rings provides only a one-dimensional slot structure, forcing encrypted matrix operations to rely heavily on cyclic slot rotations and the associated key-switching overhead. Although the multivaria"
     },
     {
       "id": "e867d3e3dacb",
@@ -913,16 +913,6 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
-    },
-    {
-      "id": "964046b7cb2a",
-      "title": "Balancing Exploration and Exploitation: Discriminative-Model-based Fault Injection Parameter Search",
-      "link": "https://eprint.iacr.org/2026/536",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-17T09:47:32+00:00",
-      "ts": 1773740852.0,
-      "summary": "Fault Injection (FI) attacks are physical attacks that deliberately induce malfunctions in a target device. Inducing the intended fault requires precise tuning of the FI parameters, for which automated search strategies have been proposed. Most favor either exploration or exploitation: the former covers a broad region of the parameter space, while the latter discovers many successful parameters. A"
     },
     {
       "id": "b7ffc9dc8c13",
@@ -1063,6 +1053,16 @@
       "published": "2025-08-04T09:24:18+00:00",
       "ts": 1754299458.0,
       "summary": "In this work we analyze the various binding properties of combiners for KEMs. We show that several binding properties follow easily for the most general combiner—assuming a collision-resistant hash function—while more performance-oriented combiners require the respective property from one or both of the underlying KEMs. Other binding properties are not obtained as directly and require either more "
+    },
+    {
+      "id": "a224b96d9ebb",
+      "title": "Stronger Security for Blind Signatures with Attributes",
+      "link": "https://eprint.iacr.org/2025/161",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-02-03T15:36:02+00:00",
+      "ts": 1738596962.0,
+      "summary": "Single-use anonymous credentials are issued once and allow users to unlinkably authenticate exactly once. Recent anonymous-token and age-verification systems increasingly rely on such credentials to minimize credential reuse and simplify revocation. These systems are typically instantiated from blind signatures, yielding lightweight credentials whose presentation reduces essentially to signature v"
     }
   ]
 }
