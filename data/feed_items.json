@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:45:01.450090+00:00",
+  "generated_at": "2026-10-20T01:27:37.797922+00:00",
   "count": 105,
   "errors": [
     {
@@ -115,14 +115,14 @@
       "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without"
     },
     {
-      "id": "c07b5c90a033",
-      "title": "Off-Key: Inconsistent MAC Keys Compromise Privacy in SPDZ-Family MPC",
-      "link": "https://eprint.iacr.org/2026/2533",
+      "id": "196771a3fdd1",
+      "title": "High-Precision CKKS with fixed Modulus Consumption",
+      "link": "https://eprint.iacr.org/2026/2531",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-10-19T00:33:18+00:00",
-      "ts": 1792369998.0,
-      "summary": "SPDZ-family protocols for maliciously secure multi-party computation protect secret-shared values with message authentication codes (MACs) under a secret-shared global key. Their security requires that all values and preprocessing used together be authenticated under the same key. We present Off-Key, a privacy attack that exploits violations of this requirement. Depending on which specific MAC che"
+      "published": "2026-10-18T19:14:46+00:00",
+      "ts": 1792350886.0,
+      "summary": "In CKKS, higher precision requires a larger scaling factor, increasing modulus consumption during homomorphic arithmetic and leaving less modulus available after bootstrapping under the same modulus budget. We introduce Focused CKKS, which trades unused SIMD slots for precision through focused rescaling and key-switching based on cyclotomic units. These units reduce error in selected focus slots w"
     },
     {
       "id": "84b8816fefa1",
@@ -805,6 +805,16 @@
       "summary": "While quantum position verification aims to certify a prover's location using quantum information, existing security definitions only guarantee that part of the successful adversarial party is in the claimed location. This leaves open the possibility that a distributed team of adversaries can jointly simulate a prover in a way that defeats the intended meaning of ``being at a location'' in positio"
     },
     {
+      "id": "1e804fcea989",
+      "title": "Comments on \"Server-Aided Public Key Authenticated Searchable Encryption With Constant Ciphertext and Constant Trapdoor\"",
+      "link": "https://eprint.iacr.org/2026/1015",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-21T00:39:35+00:00",
+      "ts": 1779323975.0,
+      "summary": "Cheng and Meng (IEEE Transactions on Information Forensics and Security 2024) introduced server-aided public key authenticated encryption with keyword search (SA-PAEKS). In this short note, without a public-key infrastructure, we show that a cloud server (tester) can obtain keyword information from both a ciphertext and a trapdoor."
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -933,16 +943,6 @@
       "published": "2026-02-19T17:00:00+00:00",
       "ts": 1771520400.0,
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
-    },
-    {
-      "id": "c7fc99f25aed",
-      "title": "Highly Efficient and Round-Optimal Asymmetric PAKE",
-      "link": "https://eprint.iacr.org/2026/246",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-13T08:44:18+00:00",
-      "ts": 1770972258.0,
-      "summary": "An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client, who holds a raw password, and a server, who holds a one-way mapping of the password, to jointly establish a cryptographically strong session key, without an authenticated channel. The standard security definition for aPAKE is in the Universal Composability (UC) framework. Despite its great potential of being used i"
     },
     {
       "id": "96ed87c2cba3",
