@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T06:54:00.146289+00:00",
+  "generated_at": "2026-10-21T12:38:56.742812+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,14 +15,104 @@
   ],
   "items": [
     {
+      "id": "13c8fb56b822",
+      "title": "Workshop on Economics and Information Security (WEIS) Archive",
+      "link": "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-21T11:02:22+00:00",
+      "ts": 1792580542.0,
+      "summary": "There&#8217;s a new archive of all the papers from twenty-five years of the Workshop on Economics and Information Security (WEIS). Really nice resource. It&#8217;s fun to reread my 2002 essay on the economics of information security."
+    },
+    {
+      "id": "af48d93547e7",
+      "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+      "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-21T10:36:53+00:00",
+      "ts": 1792579013.0,
+      "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your"
+    },
+    {
+      "id": "89805221886e",
+      "title": "The Harness Is the Hard Part of Agentic Pentesting",
+      "link": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-21T10:32:40+00:00",
+      "ts": 1792578760.0,
+      "summary": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July"
+    },
+    {
+      "id": "810e19bd628e",
+      "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+      "link": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-21T10:30:27+00:00",
+      "ts": 1792578627.0,
+      "summary": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to an SSH server made through Tor between October 1 and 5, after accepting the interception"
+    },
+    {
       "id": "d2b10c5ade6a",
       "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
       "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
       "source": "The Hacker News",
       "category": "veille",
-      "published": "2026-10-21T04:57:50+00:00",
-      "ts": 1792558670.0,
-      "summary": "PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described. Security researchers at watchTowr say the two flaws allow remote code execution. Only the four supported PHP branches, 8.2 through 8.5, can receive the fix, and no exploitation has been reported so far."
+      "published": "2026-10-21T09:05:17+00:00",
+      "ts": 1792573517.0,
+      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described."
+    },
+    {
+      "id": "810ca53e7253",
+      "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+      "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-21T09:01:12+00:00",
+      "ts": 1792573272.0,
+      "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote"
+    },
+    {
+      "id": "09c02f233879",
+      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+      "link": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-21T08:04:17+00:00",
+      "ts": 1792569857.0,
+      "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order. They may also no longer buy information technology products or services from the Chinese AI developer or its affiliates Homeland Security Secretary"
+    },
+    {
+      "id": "332291839819",
+      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+      "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-21T07:44:22+00:00",
+      "ts": 1792568662.0,
+      "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is"
+    },
+    {
+      "id": "13e116034b83",
+      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+      "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-21T07:26:49+00:00",
+      "ts": 1792567609.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)"
+    },
+    {
+      "id": "1eb04d4638bd",
+      "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+      "link": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-21T06:05:15+00:00",
+      "ts": 1792562715.0,
+      "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans. Known to be active since at least 2020, the group has a track record of striking industrial"
     },
     {
       "id": "e79a225b9345",
@@ -85,36 +175,6 @@
       "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one. The text sat in the pages' code, never shown on screen, until it was removed by October 18. Whether the"
     },
     {
-      "id": "ffc19d3192b5",
-      "title": "What Security Teams Can Do To Tame Wild Code",
-      "link": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-20T11:33:04+00:00",
-      "ts": 1792495984.0,
-      "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees are building useful apps, agents, and automations faster than existing processes can support them"
-    },
-    {
-      "id": "2a291c0b0cc4",
-      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-      "link": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-20T11:32:59+00:00",
-      "ts": 1792495979.0,
-      "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys. Programs built on the new release will refuse connections to sites and services whose certificates were issued under those keys. The Go team says the keys belong to one certificate authority it has not"
-    },
-    {
-      "id": "f5b4e222519d",
-      "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-      "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-20T11:06:25+00:00",
-      "ts": 1792494385.0,
-      "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO). The Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker Swallowtail, involved the use of a backdoor called HOOKEDGE and a previously"
-    },
-    {
       "id": "d3ef535e3a2b",
       "title": "Possible new Cellebrite iPhone Radio Zero-Day",
       "link": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
@@ -123,56 +183,6 @@
       "published": "2026-10-20T11:03:13+00:00",
       "ts": 1792494193.0,
       "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the &#8220;advanced unlocking services&#8221; they&#8217;ve marketed for years. A press release from earlier this year confirms AU is a new product for 2026. [&#8230;] According to Cellebrite, AU: is a &#8220;next-generation AFU v"
-    },
-    {
-      "id": "65491d648093",
-      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-      "link": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-20T10:56:08+00:00",
-      "ts": 1792493768.0,
-      "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup. The company said it has completed the following actions since it began"
-    },
-    {
-      "id": "c21f23f9cad9",
-      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-      "link": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-20T08:21:29+00:00",
-      "ts": 1792484489.0,
-      "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says. They were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,"
-    },
-    {
-      "id": "881d9e344c05",
-      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-      "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-20T07:11:45+00:00",
-      "ts": 1792480305.0,
-      "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the"
-    },
-    {
-      "id": "cc97221540a4",
-      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-      "link": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-20T05:53:16+00:00",
-      "ts": 1792475596.0,
-      "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets. In a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was \"in frequent communications via WhatsApp"
-    },
-    {
-      "id": "156f28e4d2d8",
-      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-      "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-20T04:05:58+00:00",
-      "ts": 1792469158.0,
-      "summary": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own"
     },
     {
       "id": "bc9c2f95a929",
@@ -245,6 +255,16 @@
       "summary": "New research shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
     },
     {
+      "id": "05f0affdc9b4",
+      "title": "Fully Homomorphic Encryption for Small Batches of Complex Numbers",
+      "link": "https://eprint.iacr.org/2026/2513",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-16T15:11:29+00:00",
+      "ts": 1792163489.0,
+      "summary": "We propose a new approximate homomorphic encryption scheme to process small batches of complex numbers. Leveled operations are based on a new shaped rounding, whose error is a multiple of a fixed public ring element $g$, small on the data slots and larger on the others. The unused slots form a guard band that is computed on but never decoded, and the polynomial scaling factor $g^{-1}\\Delta$ genera"
+    },
+    {
       "id": "6760eee245b8",
       "title": "Backdooring Open-Weight AI Models",
       "link": "https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html",
@@ -313,6 +333,16 @@
       "published": "2026-10-15T00:00:00+00:00",
       "ts": 1792022400.0,
       "summary": "Une vulnérabilité a été découverte dans les produits Microsoft. Elle permet à un attaquant de provoquer une élévation de privilèges."
+    },
+    {
+      "id": "c9ea136af106",
+      "title": "Multiples vulnérabilités dans Drupal (15 octobre 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1321/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-15T00:00:00+00:00",
+      "ts": 1792022400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une injection de code indirecte à distance (XSS)."
     },
     {
       "id": "e1e7b17e135b",
@@ -393,16 +423,6 @@
       "published": "2026-10-14T00:00:00+00:00",
       "ts": 1791936000.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "9c90dfd7b754",
-      "title": "Multiples vulnérabilités dans Google Chrome (14 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1308/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-14T00:00:00+00:00",
-      "ts": 1791936000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
     },
     {
       "id": "9017a6097652",
@@ -505,16 +525,6 @@
       "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity."
     },
     {
-      "id": "b449e7e8a3d1",
-      "title": "Friday Squid Blogging: I Caught a Squid",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-09T20:24:45+00:00",
-      "ts": 1791577485.0,
-      "summary": "On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (Doryteuthis (Amerigo) pealeii). That night I cooked it over a barbecue grill&#8212;hot and fast. Delici"
-    },
-    {
       "id": "4b3e102168c7",
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
@@ -603,16 +613,6 @@
       "published": "2026-09-23T20:05:26+00:00",
       "ts": 1790193926.0,
       "summary": "Recent work has shown that the approximate homomorphic encryption scheme CKKS can perform exact modular arithmetic with large moduli. This enables high-precision integer computation: given bounds on the outputs of an arithmetic circuit, we can recover the exact integer results from the modular outputs using any sufficiently large modulus. The particular choice of modulus does not affect correctnes"
-    },
-    {
-      "id": "dfd198c38569",
-      "title": "Vespa: Efficient Secure Aggregation with Integrity Defense under Server Privacy",
-      "link": "https://eprint.iacr.org/2026/2183",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-23T14:43:29+00:00",
-      "ts": 1790174609.0,
-      "summary": "Secure aggregation with input validation enables a server to securely compute the summation of private data from multiple clients while verifying that the inputs satisfy specific constraints. However, the practical deployment of this paradigm at scale is hindered by two primary limitations. First, existing schemes suffer from severe efficiency bottlenecks due to their reliance on generic, computat"
     },
     {
       "id": "91e94d2fec44",
@@ -815,6 +815,16 @@
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
     },
     {
+      "id": "ff0dc99db4f0",
+      "title": "Forensic categories: a framework for SQIsign-like primitives",
+      "link": "https://eprint.iacr.org/2026/1171",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-04T13:52:59+00:00",
+      "ts": 1780581179.0,
+      "summary": "Using the language of categories, we introduce a novel framework abstracting the key algorithmic features of the Deuring correspondence between supersingular elliptic curves and quaternion orders and of the post-quantum signature scheme SQIsign based on it. We then show how to construct an interactive identification scheme and digital signature within this framework, and also instantiate more adva"
+    },
+    {
       "id": "2442c8dbe3d6",
       "title": "DASTE: Decentralized Ad-Hoc Access-Structured Threshold Encryption with Dynamic Policy Evolution",
       "link": "https://eprint.iacr.org/2026/1141",
@@ -983,16 +993,6 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
-    },
-    {
-      "id": "6d62397d733e",
-      "title": "ARION: Attention-Optimized Transformer Inference on Encrypted Data",
-      "link": "https://eprint.iacr.org/2025/2271",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-12-18T02:06:44+00:00",
-      "ts": 1766023604.0,
-      "summary": "Privacy-preserving Transformer inference (PPTI) is essential for deploying large language models (LLMs) such as BERT and LLaMA in sensitive domains. In these models, the attention mechanism is both the main source of expressiveness and the dominant performance bottleneck under fully homomorphic encryption (FHE), due to large ciphertext matrix multiplications and the softmax nonlinearity. This pape"
     },
     {
       "id": "d89b8a28e282",
