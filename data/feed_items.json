@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:11:46.790637+00:00",
+  "generated_at": "2026-10-21T06:54:00.146289+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "d2b10c5ade6a",
+      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+      "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-21T04:57:50+00:00",
+      "ts": 1792558670.0,
+      "summary": "PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described. Security researchers at watchTowr say the two flaws allow remote code execution. Only the four supported PHP branches, 8.2 through 8.5, can receive the fix, and no exploitation has been reported so far."
+    },
     {
       "id": "e79a225b9345",
       "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
@@ -165,16 +175,6 @@
       "summary": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own"
     },
     {
-      "id": "41e2678d48f6",
-      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-      "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-19T17:32:13+00:00",
-      "ts": 1792431133.0,
-      "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell. The vulnerabilities"
-    },
-    {
       "id": "bc9c2f95a929",
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
       "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
@@ -205,6 +205,16 @@
       "summary": "IND-CPA-D security is an extension of IND-CPA security introduced in the context of Fully Homomorphic Encryption (FHE). It captures the situation where the computation result is known to the adversary; it is in particular necessary for FHE with threshold decryption. This work presents three new attacks in this situation on the BFV and BGV FHE schemes, when their parameters are instantiated with he"
     },
     {
+      "id": "1cda75b8f16d",
+      "title": "Efficient and Compact High-order Masking Raccoon on Memory Constrained Devices",
+      "link": "https://eprint.iacr.org/2026/2540",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-19T06:40:42+00:00",
+      "ts": 1792392042.0,
+      "summary": "Raccoon, presented at CRYPTO 2024, is a provably secure lattice-based signature scheme featuring an $O(d \\log{d})$ masking overhead. Although it did not advance beyond the first-round of NIST's additional call for post-quantum digital signatures, Raccoon remains a promising candidate due to its low masking overhead and strong provable side-channel resistance. This paper proposes the first efficien"
+    },
+    {
       "id": "5cb10c023dd6",
       "title": "Implementing Predicate Encryption for Branching Programs: Private Computation over Key-Homomorphic Encodings Without FHE",
       "link": "https://eprint.iacr.org/2026/2539",
@@ -213,26 +223,6 @@
       "published": "2026-10-19T05:00:09+00:00",
       "ts": 1792386009.0,
       "summary": "Predicate encryption (PE) encrypts a message under an attribute that the ciphertext hides, allowing a secret key for a predicate to recover the message only when the attribute satisfies the predicate. Existing public-key implementations support useful specialized predicates, but enforcing heterogeneous conditions with one key requires an attribute representation fixed before encryption, which grow"
-    },
-    {
-      "id": "93a0da058757",
-      "title": "SAT and Neural Network Filters for Misinjections in Fault Attacks",
-      "link": "https://eprint.iacr.org/2026/2537",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-19T03:04:36+00:00",
-      "ts": 1792379076.0,
-      "summary": "A misinjection, an injection that misses the fault form an attack assumes, can make an elimination fault attack discard the correct key. They occur when the attacker has not determined the timing of the device, and a random-delay countermeasure wider than the S-box layer can force them even on one who has. This paper presents a SAT filter that removes misinjections without the secret key, one inje"
-    },
-    {
-      "id": "bafce68af78a",
-      "title": "IISFA: Ineffective Instruction-Skip Fault Attacks on Bitslice Implementations",
-      "link": "https://eprint.iacr.org/2026/2536",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-19T02:50:40+00:00",
-      "ts": 1792378240.0,
-      "summary": "Redundancy countermeasures prevent differential fault analysis by withholding faulty ciphertexts. Ineffective fault analysis and statistical ineffective fault attacks exploit executions in which an injected fault leaves the result unchanged, using constraints on intermediate values or statistical bias to recover keys. In this paper, we present an Ineffective Instruction-Skip Fault Attack (IISFA) o"
     },
     {
       "id": "aacbf7628626",
@@ -623,6 +613,16 @@
       "published": "2026-09-23T14:43:29+00:00",
       "ts": 1790174609.0,
       "summary": "Secure aggregation with input validation enables a server to securely compute the summation of private data from multiple clients while verifying that the inputs satisfy specific constraints. However, the practical deployment of this paradigm at scale is hindered by two primary limitations. First, existing schemes suffer from severe efficiency bottlenecks due to their reliance on generic, computat"
+    },
+    {
+      "id": "91e94d2fec44",
+      "title": "ReedWeave: Faster Reed-Solomon Polynomial Commitments from Interleaving and Folding",
+      "link": "https://eprint.iacr.org/2026/2147",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T04:13:03+00:00",
+      "ts": 1790050383.0,
+      "summary": "Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly. Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its follow-up works achieve polylogarithmic proofs by recursively ``folding'' Reed-Solomon (RS) codes. However, their concrete evaluation costs remain relatively high, as the first few folding rounds operat"
     },
     {
       "id": "71c4a4caf94f",
