@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:00:37.196083+00:00",
+  "generated_at": "2026-10-21T01:11:46.790637+00:00",
   "count": 105,
   "errors": [
     {
@@ -695,16 +695,6 @@
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity a"
     },
     {
-      "id": "bb20f385c3ff",
-      "title": "Jacobian Diagnostics for Under-Constrained Zero-Knowledge Circuits",
-      "link": "https://eprint.iacr.org/2026/1852",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-01T10:30:46+00:00",
-      "ts": 1788258646.0,
-      "summary": "Under-constrained arithmetic circuits are a recurring source of soundness failures in zero-knowledge applications: after fixing the public statement, a malicious prover may be able to assign a security-relevant wire in more than one way while still satisfying the circuit. Existing tools attack this uniqueness question with solver-based checking, direct polynomial solving, abstract interpretation, "
-    },
-    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -845,6 +835,16 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
+      "id": "f3c643702e75",
+      "title": "On the Common Bias of Majorities: Poly-Time Attacks on THR-XOR PRGs",
+      "link": "https://eprint.iacr.org/2026/880",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-05T15:29:37+00:00",
+      "ts": 1777994977.0,
+      "summary": "Pseudorandom Generators (PRGs) based on Threshold-XOR predicates with large locality and high stretches have recently gained traction, since they lend themselves as shallow weak Pseudorandom Functions (PRFs) to fast multiparty computation protocols. In this work, we present novel fast attacks on such PRGs that achieve substantial advantages. Concretely, we break the security levels of most paramet"
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -863,6 +863,16 @@
       "published": "2026-04-17T17:19:15+00:00",
       "ts": 1776446355.0,
       "summary": "This is the second in a series of posts about anonymous credentials. You can find the first part here. In the previous post, we introduced the notion of anonymous credentials as a technique that allows users to authenticate to a website without sacrificing their privacy. As a quick reminder, an anonymous credential system consists of &#8230; Continue reading Anonymous credentials: an illustrated p"
+    },
+    {
+      "id": "236776b8f16f",
+      "title": "Faster Logical Operations from Discrete CKKS",
+      "link": "https://eprint.iacr.org/2026/732",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-14T21:22:29+00:00",
+      "ts": 1776201749.0,
+      "summary": "We study non-arithmetic operations for BFV with arbitrary plaintext moduli and for large-modulus GBFV. Existing approaches either rely on interpolation over large plaintext spaces or use digit representations that are efficient for logic but poorly matched to native arithmetic. We build conversions between BFV/GBFV and Discrete CKKS, so that radix-based integer computation in Discrete CKKS can be "
     },
     {
       "id": "1b3a36759226",
@@ -1043,16 +1053,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "ece25a519318",
-      "title": "Binding Security of Combined KEMs: An Analysis of Real-World KEM Combiners",
-      "link": "https://eprint.iacr.org/2025/1416",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-08-04T09:24:18+00:00",
-      "ts": 1754299458.0,
-      "summary": "In this work we analyze the various binding properties of combiners for KEMs. We show that several binding properties follow easily for the most general combiner—assuming a collision-resistant hash function—while more performance-oriented combiners require the respective property from one or both of the underlying KEMs. Other binding properties are not obtained as directly and require either more "
     },
     {
       "id": "a224b96d9ebb",
