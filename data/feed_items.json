@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T00:21:29.182401+00:00",
+  "generated_at": "2026-10-22T05:40:05.255570+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "c5ed8b620b8b",
+      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+      "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-22T04:21:26+00:00",
+      "ts": 1792642886.0,
+      "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse against South Korean financial institutions, to speed up scanning and"
+    },
     {
       "id": "98a8dae475c5",
       "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
@@ -185,24 +195,14 @@
       "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is"
     },
     {
-      "id": "13e116034b83",
-      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-      "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-21T07:26:49+00:00",
-      "ts": 1792567609.0,
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)"
-    },
-    {
-      "id": "85218efde14c",
-      "title": "Hidden parabolic subgroups of $\\mathrm{GL}_n$ over finite chain rings",
-      "link": "https://eprint.iacr.org/2026/2573",
+      "id": "9e4dbec862f6",
+      "title": "A Spectral Theory of Local-to-Global Leakage",
+      "link": "https://eprint.iacr.org/2026/2571",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-10-20T22:18:56+00:00",
-      "ts": 1792534736.0,
-      "summary": "We give a bounded-error quantum polynomial-time algorithm for finding hidden parabolic subgroups of $\\mathrm{GL}_n(R)$ over any effectively presented finite chain ring $R$. We call auxiliary group elements or subgroups used to extract information through oracle queries \\emph{probes}. For chain length at least two, elementary abelian socle probes first recover the complete flag modulo the maximal i"
+      "published": "2026-10-20T17:27:24+00:00",
+      "ts": 1792517244.0,
+      "summary": "This paper studies how local leakages characterize the global leakage in additive secret sharing over a finite abelian group, which is a special case of linear secret sharing and side-channel masking. Our main finding is structural: local-to-global leakage is governed by two disjoint components---the magnitude of local leakage and its spectral alignment across shares, while existing literature att"
     },
     {
       "id": "d3ef535e3a2b",
@@ -243,6 +243,16 @@
       "published": "2026-10-19T06:40:42+00:00",
       "ts": 1792392042.0,
       "summary": "Raccoon, presented at CRYPTO 2024, is a provably secure lattice-based signature scheme featuring an $O(d \\log{d})$ masking overhead. Although it did not advance beyond the first-round of NIST's additional call for post-quantum digital signatures, Raccoon remains a promising candidate due to its low masking overhead and strong provable side-channel resistance. This paper proposes the first efficien"
+    },
+    {
+      "id": "af4e80438765",
+      "title": "Homomorphic Encryption for High-precision Arithmetic of Approximate Numbers",
+      "link": "https://eprint.iacr.org/2026/2524",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-18T02:25:06+00:00",
+      "ts": 1792290306.0,
+      "summary": "The CKKS fully homomorphic encryption scheme enables efficient arithmetic over complex numbers, but each homomorphic multiplication consumes a large modulus to ensure enough precision, limiting both the circuit depth and precision supported by CKKS. This work addresses this problem by proposing Generalized CKKS (GCKKS), a CKKS analogue of the GBFV scheme (EUROCRYPT 2025) that trades the number of "
     },
     {
       "id": "3e99bd23e18f",
@@ -833,16 +843,6 @@
       "published": "2026-04-17T17:19:15+00:00",
       "ts": 1776446355.0,
       "summary": "This is the second in a series of posts about anonymous credentials. You can find the first part here. In the previous post, we introduced the notion of anonymous credentials as a technique that allows users to authenticate to a website without sacrificing their privacy. As a quick reminder, an anonymous credential system consists of &#8230; Continue reading Anonymous credentials: an illustrated p"
-    },
-    {
-      "id": "236776b8f16f",
-      "title": "Faster Logical Operations from Discrete CKKS",
-      "link": "https://eprint.iacr.org/2026/732",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-14T21:22:29+00:00",
-      "ts": 1776201749.0,
-      "summary": "We study non-arithmetic operations for BFV with arbitrary plaintext moduli and for large-modulus GBFV. Existing approaches either rely on interpolation over large plaintext spaces or use digit representations that are efficient for logic but poorly matched to native arithmetic. We build conversions between BFV/GBFV and Discrete CKKS, so that radix-based integer computation in Discrete CKKS can be "
     },
     {
       "id": "ee65a8ef1939",
