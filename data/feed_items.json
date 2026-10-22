@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:07:21.335165+00:00",
+  "generated_at": "2026-10-22T00:21:29.182401+00:00",
   "count": 105,
   "errors": [
     {
@@ -193,6 +193,16 @@
       "published": "2026-10-21T07:26:49+00:00",
       "ts": 1792567609.0,
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)"
+    },
+    {
+      "id": "85218efde14c",
+      "title": "Hidden parabolic subgroups of $\\mathrm{GL}_n$ over finite chain rings",
+      "link": "https://eprint.iacr.org/2026/2573",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-20T22:18:56+00:00",
+      "ts": 1792534736.0,
+      "summary": "We give a bounded-error quantum polynomial-time algorithm for finding hidden parabolic subgroups of $\\mathrm{GL}_n(R)$ over any effectively presented finite chain ring $R$. We call auxiliary group elements or subgroups used to extract information through oracle queries \\emph{probes}. For chain length at least two, elementary abelian socle probes first recover the complete flag modulo the maximal i"
     },
     {
       "id": "d3ef535e3a2b",
@@ -1043,16 +1053,6 @@
       "published": "2025-04-30T14:31:44+00:00",
       "ts": 1746023504.0,
       "summary": "Privacy-free garbling schemes of Frederiksen et al. (Eurocrypt ’15) are designed to satisfy only the authenticity criterion of Bellare et al. (ACM CCS ’12) and to be more efficient than full-fledged garbling schemes. In this work, we improve the state-of-the-art privacy-free version of half-gates (HG) garbling of Zahur et al. (Crypto ’15) by allowing an AND gate to be garbled with zero ciphertexts"
-    },
-    {
-      "id": "a224b96d9ebb",
-      "title": "Stronger Security for Blind Signatures with Attributes",
-      "link": "https://eprint.iacr.org/2025/161",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-02-03T15:36:02+00:00",
-      "ts": 1738596962.0,
-      "summary": "Single-use anonymous credentials are issued once and allow users to unlinkably authenticate exactly once. Recent anonymous-token and age-verification systems increasingly rely on such credentials to minimize credential reuse and simplify revocation. These systems are typically instantiated from blind signatures, yielding lightweight credentials whose presentation reduces essentially to signature v"
     },
     {
       "id": "238c5adb676b",
