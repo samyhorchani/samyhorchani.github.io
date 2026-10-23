@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:39:13.506308+00:00",
+  "generated_at": "2026-10-23T20:52:46.088971+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "7a194473c6c8",
+      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+      "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-23T18:50:13+00:00",
+      "ts": 1792781413.0,
+      "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report"
+    },
+    {
+      "id": "aacb1fddcce0",
+      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+      "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-23T17:54:08+00:00",
+      "ts": 1792778048.0,
+      "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers. Ruby says any"
+    },
+    {
+      "id": "70b87dccc7c2",
+      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-23T17:50:47+00:00",
+      "ts": 1792777847.0,
+      "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an"
+    },
     {
       "id": "5c35f42e220d",
       "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
@@ -35,8 +65,8 @@
       "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called"
     },
     {
-      "id": "e57cce4078a9",
-      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "id": "bc22f3bdface",
+      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
       "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
       "source": "The Hacker News",
       "category": "veille",
@@ -145,26 +175,6 @@
       "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network"
     },
     {
-      "id": "d1924fbc416a",
-      "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
-      "link": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T16:12:31+00:00",
-      "ts": 1792685551.0,
-      "summary": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal, which came to light in 2018. According to multiple reports from the Associated Press, the New York Times, Reuters, and the Wall Street Journal, state District Court Judge Francis J. Mathew called"
-    },
-    {
-      "id": "1664b9cac403",
-      "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
-      "link": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T13:38:22+00:00",
-      "ts": 1792676302.0,
-      "summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds. In tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the cybercrime crackdown took place between June 29 and August 31, 2026. \"Authorities identified"
-    },
-    {
       "id": "39946f88107a",
       "title": "New Serious PHP Vulnerabilities Released and Patched",
       "link": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
@@ -173,16 +183,6 @@
       "published": "2026-10-22T13:26:51+00:00",
       "ts": 1792675611.0,
       "summary": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consid"
-    },
-    {
-      "id": "3a367d76f6e2",
-      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
-      "link": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T11:15:42+00:00",
-      "ts": 1792667742.0,
-      "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases, obtained the decrypted contents. The impact, it said, is limited to a \"subset of users,"
     },
     {
       "id": "eec90e9acc6b",
@@ -323,16 +323,6 @@
       "published": "2026-10-20T11:03:13+00:00",
       "ts": 1792494193.0,
       "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the &#8220;advanced unlocking services&#8221; they&#8217;ve marketed for years. A press release from earlier this year confirms AU is a new product for 2026. [&#8230;] According to Cellebrite, AU: is a &#8220;next-generation AFU v"
-    },
-    {
-      "id": "39a660eaa0d9",
-      "title": "Graphs and cycles in curve-based collision walks",
-      "link": "https://eprint.iacr.org/2026/2560",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-20T10:49:06+00:00",
-      "ts": 1792493346.0,
-      "summary": "In this work, we look at collision-based attacks both for elliptic curve and isogeny problems. Our main focus is on attacks in the multi-user setting, i.e., where one tries to recover all secret keys of a large set of $L$ public keys simultaneously, in a faster way than the total time required to attack each key individually. We consider three different problems: (1) the discrete logarithm problem"
     },
     {
       "id": "edfa2ee506e1",
@@ -805,6 +795,26 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
+      "id": "a2ad83b8bfd0",
+      "title": "SoK: Private LLM Inference using Approximate Homomorphic Encryption",
+      "link": "https://eprint.iacr.org/2026/935",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-12T01:14:45+00:00",
+      "ts": 1778548485.0,
+      "summary": "Although recent surveys on privacy-enhancing technologies concluded that FHE cannot feasibly evaluate non-linear activation functions in modern ML architectures, 21 CKKS-based frameworks have since demonstrated end-to-end private inference of LLMs with up to 8B parameters. However, as the field grows rapidly, the literature has become fragmented. Frameworks differ in ciphertext packing layouts, mo"
+    },
+    {
+      "id": "e939e7870a5d",
+      "title": "BitVM3: Efficient Bitcoin Bridges via Garbled Circuits",
+      "link": "https://eprint.iacr.org/2026/933",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-11T17:30:34+00:00",
+      "ts": 1778520634.0,
+      "summary": "Bitcoin bridges, protocols that lock BTC on Bitcoin and represent it on a secondary system, underpin much of Bitcoin's application layer, yet remain poorly secured. Deployed bridges rely on federated custody with honest-majority assumptions, while BitVM2, the state of the art in trust-minimized bridging, incurs worst-case dispute costs of approximately \\$16,000, requiring large operator bonds and "
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -823,16 +833,6 @@
       "published": "2026-04-17T17:19:15+00:00",
       "ts": 1776446355.0,
       "summary": "This is the second in a series of posts about anonymous credentials. You can find the first part here. In the previous post, we introduced the notion of anonymous credentials as a technique that allows users to authenticate to a website without sacrificing their privacy. As a quick reminder, an anonymous credential system consists of &#8230; Continue reading Anonymous credentials: an illustrated p"
-    },
-    {
-      "id": "e0ee2f3cd5d4",
-      "title": "CLAASP-MP: An Automated MILP Framework for Monomial Prediction",
-      "link": "https://eprint.iacr.org/2026/735",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-15T06:11:59+00:00",
-      "ts": 1776233519.0,
-      "summary": "As AI increasingly automates cryptanalytic programming, transparent and reproducible frameworks are essential for making generated results human-verifiable. We present CLAASP-MP, a monomial-prediction tool integrated into CLAASP and based on the three-subset division property without unknown subset (3SDP-woU). CLAASP-MP generates a Mixed Integer Linear Programming (MILP) model directly from the CL"
     },
     {
       "id": "1b3a36759226",
@@ -1055,14 +1055,14 @@
       "summary": "Threshold encrypted mempools protect the privacy of transactions up until the point their inclusion on chain is confirmed. They are a promising approach to protection against front-running attacks on decentralized blockchains. Recent works have introduced two key properties that an encryption scheme must satisfy to operate efficiently on large-scale decentralized blockchains such as Ethereum: Sile"
     },
     {
-      "id": "4061d23d7396",
-      "title": "One-Step Schnorr Threshold Identification",
-      "link": "https://eprint.iacr.org/2025/722",
+      "id": "cf9cca2b1541",
+      "title": "Vector Commitment Design, Analysis, and Applications: A Survey",
+      "link": "https://eprint.iacr.org/2025/667",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-04-22T21:06:18+00:00",
-      "ts": 1745355978.0,
-      "summary": "Threshold cryptographic primitives have not been widely adopted in real-world distributed systems (i.e., beyond the closed committee model) presumably due to state-synchronization overhead and complex certification processes for the shareholders. These are both aspects of their overreliance on infrastructure, an assumption that is usually glossed over in their design. In this work, we propose OSST"
+      "published": "2025-04-13T02:11:13+00:00",
+      "ts": 1744510273.0,
+      "summary": "Due to their widespread applications in decentralized and privacy preserving technologies, commitment schemes have become increasingly important cryptographic primitives. With a wide variety of applications, many new constructions have been proposed, each enjoying different features and security guarantees. In this paper, we systematize the designs, features, properties, and applications of vector"
     }
   ]
 }
