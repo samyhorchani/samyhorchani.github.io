@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T06:51:02.230515+00:00",
+  "generated_at": "2026-10-23T12:20:54.452630+00:00",
   "count": 105,
   "errors": [
     {
@@ -10,10 +10,80 @@
     {
       "source": "NCC Group Research",
       "url": "https://research.nccgroup.com/feed/",
-      "error": "text/html is not an XML media type"
+      "error": "<unknown>:15:152: not well-formed (invalid token)"
     }
   ],
   "items": [
+    {
+      "id": "1ecc5d5a881c",
+      "title": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+      "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-23T11:25:43+00:00",
+      "ts": 1792754743.0,
+      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called"
+    },
+    {
+      "id": "e57cce4078a9",
+      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-23T11:11:23+00:00",
+      "ts": 1792753883.0,
+      "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of"
+    },
+    {
+      "id": "47c32ad64606",
+      "title": "Compromised TLS Certificates",
+      "link": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-23T11:04:22+00:00",
+      "ts": 1792753462.0,
+      "summary": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys: The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2384, or a number with 116 digits, diff"
+    },
+    {
+      "id": "eeaa27e385a6",
+      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-23T09:36:00+00:00",
+      "ts": 1792748160.0,
+      "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first."
+    },
+    {
+      "id": "233572b610c0",
+      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-23T08:40:43+00:00",
+      "ts": 1792744843.0,
+      "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw"
+    },
+    {
+      "id": "eafd11f37b2e",
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-23T08:35:45+00:00",
+      "ts": 1792744545.0,
+      "summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set"
+    },
+    {
+      "id": "e9571da54a22",
+      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-23T07:40:45+00:00",
+      "ts": 1792741245.0,
+      "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote"
+    },
     {
       "id": "bd9b71d209b5",
       "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
@@ -115,66 +185,6 @@
       "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access. Anomaly, the company behind OpenCode, fixed the flaw in&nbsp;version 1.18.33&nbsp;on September"
     },
     {
-      "id": "ef2bb7602717",
-      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-      "link": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T08:28:48+00:00",
-      "ts": 1792657728.0,
-      "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m."
-    },
-    {
-      "id": "73bbfb559116",
-      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-      "link": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T07:47:22+00:00",
-      "ts": 1792655242.0,
-      "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system. Each supported line has one fixed version:&nbsp;"
-    },
-    {
-      "id": "176f13d00d56",
-      "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-      "link": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T06:38:31+00:00",
-      "ts": 1792651111.0,
-      "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server"
-    },
-    {
-      "id": "c62032acdb78",
-      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-      "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T06:34:10+00:00",
-      "ts": 1792650850.0,
-      "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated from an IP address associated with a commercial anonymization network,"
-    },
-    {
-      "id": "c5ed8b620b8b",
-      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T04:21:26+00:00",
-      "ts": 1792642886.0,
-      "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed"
-    },
-    {
-      "id": "98a8dae475c5",
-      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-      "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-21T18:57:34+00:00",
-      "ts": 1792609054.0,
-      "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix matters even for administrators who patched nine days earlier: the October 12 update covered only versions 19.2 and later, and the new fixed versions sit one patch above it, so an"
-    },
-    {
       "id": "eec90e9acc6b",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -203,16 +213,6 @@
       "published": "2026-10-21T11:02:22+00:00",
       "ts": 1792580542.0,
       "summary": "There&#8217;s a new archive of all the papers from twenty-five years of the Workshop on Economics and Information Security (WEIS). Really nice resource. It&#8217;s fun to reread my 2002 essay on the economics of information security."
-    },
-    {
-      "id": "9e4dbec862f6",
-      "title": "A Spectral Theory of Local-to-Global Leakage",
-      "link": "https://eprint.iacr.org/2026/2571",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-20T17:27:24+00:00",
-      "ts": 1792517244.0,
-      "summary": "This paper studies how local leakages characterize the global leakage in additive secret sharing over a finite abelian group, which is a special case of linear secret sharing and side-channel masking. Our main finding is structural: local-to-global leakage is governed by two disjoint components---the magnitude of local leakage and its spectral alignment across shares, while existing literature att"
     },
     {
       "id": "bee4b46c9e69",
@@ -435,16 +435,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité."
     },
     {
-      "id": "974b64c6fe06",
-      "title": "Multiples vulnérabilités dans Traefik (16 octobre 2026)",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1330/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-16T00:00:00+00:00",
-      "ts": 1792108800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité."
-    },
-    {
       "id": "8286d7b68a18",
       "title": "Measuring Human Cryptanalysis Effort",
       "link": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
@@ -483,16 +473,6 @@
       "published": "2026-10-14T14:22:49+00:00",
       "ts": 1791987769.0,
       "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions."
-    },
-    {
-      "id": "30bc53bd0493",
-      "title": "Cyberattack on Connected Fridges in France",
-      "link": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-14T14:10:22+00:00",
-      "ts": 1791987022.0,
-      "summary": "Another IoT cyberattack, this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [&#8230;] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to"
     },
     {
       "id": "ebfdd8968269",
@@ -573,6 +553,16 @@
       "published": "2026-09-30T18:30:13+00:00",
       "ts": 1790793013.0,
       "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
+    },
+    {
+      "id": "a7fe427b0802",
+      "title": "Affine-Padding Rabin-Oracle Factoring in $L_n\\left(\\frac{1}{3},\\sqrt[3]{\\frac{32}{9}}\\right)$",
+      "link": "https://eprint.iacr.org/2026/2256",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-29T06:53:16+00:00",
+      "ts": 1790664796.0,
+      "summary": "The 2007 algorithm of Joux, Naccache, and Thomé (JNT) shows that, with subexponential access to an $e$-th root oracle, one can forge RSA signatures for odd $e$ in time close to the special number field sieve, without factoring the modulus; a recent JNT implementation by Shea et al. [2] carried that attack to $1024$-bit RSA. We revisit the JNT construction at $e=2$, the Rabin case, where an $e$-th "
     },
     {
       "id": "535fdeca402d",
@@ -955,6 +945,16 @@
       "summary": "In this paper, we present RISQrypt, the first unified architecture in the literature that implements ML-KEM (f.k.a. CRYSTALS-Kyber) and ML-DSA (f.k.a. CRYSTALS-Dilithium), two standardized lattice-based post-quantum cryptography (PQC) algorithms, with masking. RISQrypt is a hardware–software co-design framework that integrates dedicated cryptographic accelerators to speed up polynomial arithmetic,"
     },
     {
+      "id": "8271b6d753c7",
+      "title": "ANIMAGUS: A Provably Secure Tweakable Wide-Block Mode",
+      "link": "https://eprint.iacr.org/2026/229",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-11T13:13:52+00:00",
+      "ts": 1770815632.0,
+      "summary": "Motivated by the accordion mode approach, we propose a length preserving tweakable wide block mode based on the hash-encrypt-hash paradigm. The construction uses AES and HMAC-SHA3-256 with five purpose separated working keys derived from a single master key, replacing algebraic universal hashing with a cryptographic keyed hash. An encrypted internal seed couples two separately keyed head branches "
+    },
+    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -975,14 +975,14 @@
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
     },
     {
-      "id": "6f10f7ab3feb",
-      "title": "Laminate: Succinct SIMD-Friendly Verifiable FHE",
-      "link": "https://eprint.iacr.org/2025/2285",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-12-19T06:47:36+00:00",
-      "ts": 1766126856.0,
-      "summary": "In outsourcing computation to untrusted servers, one can cryptographically ensure privacy using Fully Homomorphic Encryption (FHE) or integrity using Verifiable Computation (VC) such as SNARK proofs. While each is practical for some applications in isolation, efficiently composing FHE and VC into Verifiable Computation over Encrypted Data (VCoED) with verification faster than local computation rem"
+      "id": "6d7533426e9c",
+      "title": "Recommandations à destination des acteurs du secteur de l’énergie et de l’eau (22 janvier 2026)",
+      "link": "https://www.cert.ssi.gouv.fr/dur/CERTFR-2025-DUR-003/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-01-22T00:00:00+00:00",
+      "ts": 1769040000.0,
+      "summary": "**Objet** : Recommandations de sécurisation des systèmes d’information à destination des producteurs, des intégrateurs et des installateurs des systèmes de production industriels du secteur de l’énergie et de l’eau en France. **Annexe** : Liens et références Depuis plusieurs mois, l’Agence..."
     },
     {
       "id": "d89b8a28e282",
