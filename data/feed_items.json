@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:54:47.887321+00:00",
+  "generated_at": "2026-10-23T01:08:24.941372+00:00",
   "count": 105,
   "errors": [
     {
@@ -575,16 +575,6 @@
       "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
     },
     {
-      "id": "5479653845e2",
-      "title": "Consensus in One Shot: Fast Agreement Beyond Classical Limits",
-      "link": "https://eprint.iacr.org/2026/2269",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-29T22:34:28+00:00",
-      "ts": 1790721268.0,
-      "summary": "Good-case latency, studied in early fast-consensus protocols (Martin and Alvisi, DSN 2005) and formalized by Abraham, Nayak, Ren, and Xiang (DISC 2020), captures a natural efficiency goal: when the sender is honest, agreement should be reached quickly for the honest parties. In the standard classical model, however, there exists a barrier for any $f\\geq n/3$ corrupted parties. Specifically, synchr"
-    },
-    {
       "id": "535fdeca402d",
       "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
       "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
@@ -793,6 +783,16 @@
       "published": "2026-06-09T19:00:02+00:00",
       "ts": 1781031602.0,
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
+    },
+    {
+      "id": "c3c5b948eae0",
+      "title": "CMoSS: Composable Modular Security Specifications Framework",
+      "link": "https://eprint.iacr.org/2026/1190",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-07T00:27:43+00:00",
+      "ts": 1780792063.0,
+      "summary": "CMoSS facilitates modular specifications, design and analysis of cryptographic protocols. Modular design and analysis is achieved by supporting provably-secure compositions of protocols; typically, a protocol uses a blackbox subprotocol, and is proven secure when composed with any subprotocol meeting the blackbox specifications. For modularity of specifications, CMoSS extends the approach of the M"
     },
     {
       "id": "f5c36ed24550",
