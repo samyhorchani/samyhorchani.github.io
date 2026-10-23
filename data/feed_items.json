@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:08:24.941372+00:00",
+  "generated_at": "2026-10-23T06:51:02.230515+00:00",
   "count": 105,
   "errors": [
     {
@@ -10,7 +10,7 @@
     {
       "source": "NCC Group Research",
       "url": "https://research.nccgroup.com/feed/",
-      "error": "<unknown>:15:152: not well-formed (invalid token)"
+      "error": "text/html is not an XML media type"
     }
   ],
   "items": [
@@ -665,6 +665,16 @@
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
     },
     {
+      "id": "09d62c5b3b4d",
+      "title": "AH-BKZ: A Lattice Reduction Algorithm with Asynchronous Hybrid Processing",
+      "link": "https://eprint.iacr.org/2026/1876",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-03T03:49:28+00:00",
+      "ts": 1788407368.0,
+      "summary": "Evaluating the hardness of the Shortest Vector Problem (SVP) is essential for selecting secure parameters in lattice-based cryptography. The fastest current SVP solvers are based on variants of G6K, but their large memory consumption remains a major bottleneck, making high-dimensional executions difficult. A common strategy for alleviating this memory bottleneck is strong basis reduction preproces"
+    },
+    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -793,16 +803,6 @@
       "published": "2026-06-07T00:27:43+00:00",
       "ts": 1780792063.0,
       "summary": "CMoSS facilitates modular specifications, design and analysis of cryptographic protocols. Modular design and analysis is achieved by supporting provably-secure compositions of protocols; typically, a protocol uses a blackbox subprotocol, and is proven secure when composed with any subprotocol meeting the blackbox specifications. For modularity of specifications, CMoSS extends the approach of the M"
-    },
-    {
-      "id": "f5c36ed24550",
-      "title": "Rank Ceiling for Twiddle-Perturbation Faults on the Forward NTT",
-      "link": "https://eprint.iacr.org/2026/1188",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-06T19:43:13+00:00",
-      "ts": 1780774993.0,
-      "summary": "NIST standardised ML-KEM and ML-DSA in 2024 for post-quantum key establishment and digital signatures. Both compute forward number-theoretic transforms (NTTs) on secret polynomials. Published attacks zero every fixed multiplier, or twiddle, during Kyber key generation with a single fault, or individual twiddles in one Dilithium signing variant; countermeasures detect or mask these faults. Nonzero "
     },
     {
       "id": "7990c40a74ab",
