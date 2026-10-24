@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:49:28.205712+00:00",
+  "generated_at": "2026-10-24T12:24:03.179165+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "cefc4e8a912a",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-24T11:09:29+00:00",
+      "ts": 1792840169.0,
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli. Tracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially"
+    },
+    {
+      "id": "a3913c5eacd4",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-24T11:03:33+00:00",
+      "ts": 1792839813.0,
+      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of"
+    },
+    {
+      "id": "1f0e891cb352",
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-24T10:36:33+00:00",
+      "ts": 1792838193.0,
+      "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,"
+    },
+    {
+      "id": "d7a8198edab3",
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-24T09:04:24+00:00",
+      "ts": 1792832664.0,
+      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent. Popcorn Time was"
+    },
     {
       "id": "507f772fb32e",
       "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
@@ -143,46 +183,6 @@
       "published": "2026-10-23T07:40:45+00:00",
       "ts": 1792741245.0,
       "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote"
-    },
-    {
-      "id": "bd9b71d209b5",
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-      "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T19:05:35+00:00",
-      "ts": 1792695935.0,
-      "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?"
-    },
-    {
-      "id": "04dc8f9f2500",
-      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-      "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T19:05:17+00:00",
-      "ts": 1792695917.0,
-      "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22. The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it. For"
-    },
-    {
-      "id": "a06b67015b3e",
-      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-      "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T18:12:43+00:00",
-      "ts": 1792692763.0,
-      "summary": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business,&nbsp;its board decided on Thursday. The decision came five days after a researcher&nbsp;reported recovering the private keys&nbsp;of eight of its intermediate CA certificates. eMudhra said it will replace affected customers' certificates with free ones from partners, though its"
-    },
-    {
-      "id": "072f81c150a3",
-      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-      "link": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-22T17:45:44+00:00",
-      "ts": 1792691144.0,
-      "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet. But those big headlines are only half the story. Stolen passwords, exposed"
     },
     {
       "id": "39946f88107a",
