@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T16:24:29.590736+00:00",
+  "generated_at": "2026-10-24T19:11:48.848240+00:00",
   "count": 105,
   "errors": [
     {
@@ -223,6 +223,16 @@
       "published": "2026-10-21T11:02:22+00:00",
       "ts": 1792580542.0,
       "summary": "There&#8217;s a new archive of all the papers from twenty-five years of the Workshop on Economics and Information Security (WEIS). Really nice resource. It&#8217;s fun to reread my 2002 essay on the economics of information security."
+    },
+    {
+      "id": "dd1121f697af",
+      "title": "HAETAE on a Diet: Less Stack, Less Time on Low-End Microcontrollers",
+      "link": "https://eprint.iacr.org/2026/2578",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-21T03:19:34+00:00",
+      "ts": 1792552774.0,
+      "summary": "HAETAE has shorter public keys and signatures than ML-DSA, but the signing stack of its reference implementation reaches $158\\, \\mathrm{KiB}$ on Cortex-M4. The Low-Stack HAETAE implementation presented at CHES'26 brings the signing stack down to $5.7$-$5.9\\,\\mathrm{KiB}$; yet even HAETAE-2 still needs $8,718\\,\\mathrm{B}$ in a realistic IoT scenario, where the secret key and the signature buffer sh"
     },
     {
       "id": "ccab8d587582",
@@ -523,16 +533,6 @@
       "published": "2026-10-02T11:00:00+00:00",
       "ts": 1790938800.0,
       "summary": "Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC, a pair of related hash constructions that bring secure multihashing to de"
-    },
-    {
-      "id": "4b3412ce029f",
-      "title": "Gram Moments and Pairwise Mixing of AES",
-      "link": "https://eprint.iacr.org/2026/2304",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-01T22:45:14+00:00",
-      "ts": 1790894714.0,
-      "summary": "Almost pairwise independence asks how closely a block cipher reproduces the joint output distribution of a random permutation on two distinct plaintexts. Existing analyses of AES with independent round keys combine bounds on the distribution after the first few rounds with contraction over later rounds. Diffusion makes local output differences dependent, and estimating local responses or successiv"
     },
     {
       "id": "bcbe1c4698ed",
