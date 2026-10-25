@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T14:43:20.348074+00:00",
+  "generated_at": "2026-10-25T18:01:45.402008+00:00",
   "count": 105,
   "errors": [
     {
@@ -215,6 +215,16 @@
       "summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set"
     },
     {
+      "id": "600c51053242",
+      "title": "Quantum Cryptomania with Classical Communication without One-Way Functions",
+      "link": "https://eprint.iacr.org/2026/2607",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-23T02:06:40+00:00",
+      "ts": 1792721200.0,
+      "summary": "In classical cryptography, one-way functions are necessary for most of cryptography. In the quantum world, however, Kretschmer at TQC'21 and subsequent works have demonstrated that quantum versions of various primitives in minicrypt, such as signatures and private-key encryption, do not require quantum-computable one-way functions (qOWFs). However, the question of the necessity of qOWFs for primit"
+    },
+    {
       "id": "39946f88107a",
       "title": "New Serious PHP Vulnerabilities Released and Patched",
       "link": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
@@ -423,6 +433,16 @@
       "published": "2026-10-19T11:07:43+00:00",
       "ts": 1792408063.0,
       "summary": "Interesting research: Abstract: Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in milliseconds but only for categories they were "
+    },
+    {
+      "id": "de8def0dd404",
+      "title": "Quantum State Search with Classical Interactive Advice",
+      "link": "https://eprint.iacr.org/2026/2535",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-19T02:08:42+00:00",
+      "ts": 1792375722.0,
+      "summary": "We study whether a quantum verifier can find a hidden quantum state by exchanging classical messages with an unbounded prover who knows the state. The verifier has access to a reflection oracle about the target. For a Haar-random $n$-qubit target, we prove that achieving constant average fidelity with the target requires $(q+1)^2(B+1)=\\Omega(2^n)$, where $q$ is the number of verifier queries and $"
     },
     {
       "id": "fe1fcca87d13",
@@ -793,26 +813,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "a2ad83b8bfd0",
-      "title": "SoK: Private LLM Inference using Approximate Homomorphic Encryption",
-      "link": "https://eprint.iacr.org/2026/935",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-12T01:14:45+00:00",
-      "ts": 1778548485.0,
-      "summary": "Although recent surveys on privacy-enhancing technologies concluded that FHE cannot feasibly evaluate non-linear activation functions in modern ML architectures, 21 CKKS-based frameworks have since demonstrated end-to-end private inference of LLMs with up to 8B parameters. However, as the field grows rapidly, the literature has become fragmented. Frameworks differ in ciphertext packing layouts, mo"
-    },
-    {
-      "id": "e939e7870a5d",
-      "title": "BitVM3: Efficient Bitcoin Bridges via Garbled Circuits",
-      "link": "https://eprint.iacr.org/2026/933",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-11T17:30:34+00:00",
-      "ts": 1778520634.0,
-      "summary": "Bitcoin bridges, protocols that lock BTC on Bitcoin and represent it on a secondary system, underpin much of Bitcoin's application layer, yet remain poorly secured. Deployed bridges rely on federated custody with honest-majority assumptions, while BitVM2, the state of the art in trust-minimized bridging, incurs worst-case dispute costs of approximately \\$16,000, requiring large operator bonds and "
     },
     {
       "id": "e867d3e3dacb",
