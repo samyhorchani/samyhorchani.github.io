@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T10:32:29.382431+00:00",
+  "generated_at": "2026-10-25T14:43:20.348074+00:00",
   "count": 105,
   "errors": [
     {
@@ -133,16 +133,6 @@
       "published": "2026-10-23T16:51:36+00:00",
       "ts": 1792774296.0,
       "summary": "The CKKS fully homomorphic encryption scheme enables efficient encrypted computation over complex-valued data. In many real-world cases, however, the computation only involves real data, and storing them inside complex slots wastes the encoding ability. This motivated the design of conjugate-invariant CKKS (CI-CKKS) instantiated over the conjugate-invariant ring (CIR), which provides the same numb"
-    },
-    {
-      "id": "17435e93cf17",
-      "title": "Mutual Correlated Agreement and List-Decoding: Improvements and Separations",
-      "link": "https://eprint.iacr.org/2026/2617",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-23T15:49:56+00:00",
-      "ts": 1792770596.0,
-      "summary": "At a high level our contribution is threefold: we improve the quantitative MCA error bound for polynomial generators, we prove a refinement of the implication from list-decodability to MCA, and we clarify that in general, these two notions are distinct. We show that, for every finite field $\\mathbb{F}$, every nonempty seed set $S\\subseteq\\mathbb{F}$, every linear code $\\mathcal{C} \\subseteq \\mathb"
     },
     {
       "id": "5c35f42e220d",
@@ -403,6 +393,16 @@
       "published": "2026-10-20T00:00:00+00:00",
       "ts": 1792454400.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Laravel. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité."
+    },
+    {
+      "id": "ea09153c747a",
+      "title": "Energy Consumption of Post-Quantum Cryptography on Constrained and General-Purpose Architectures",
+      "link": "https://eprint.iacr.org/2026/2557",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-19T18:25:51+00:00",
+      "ts": 1792434351.0,
+      "summary": "With Q-day approaching, the transition to post-quantum cryptography (PQC) has begun, with governments across the US, UK and EU mandating migration to quantum-resistant standards. This paper benchmarks the three NIST-standardised PQC algorithms—FIPS 203 (ML-KEM), FIPS 204 (ML-DSA) and FIPS 205 (SLH-DSA)—across key generation, signing and verification operations, measuring both computational perform"
     },
     {
       "id": "bc9c2f95a929",
@@ -745,16 +745,6 @@
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
     },
     {
-      "id": "bf606e493958",
-      "title": "On Reduction Probability Models in Lattice Sieving",
-      "link": "https://eprint.iacr.org/2026/1465",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-17T19:19:56+00:00",
-      "ts": 1784315996.0,
-      "summary": "In lattice sieving, the sphere model assumes that sieving elements are distributed close to or on a sphere with uniformly distributed direction. It is extensively used to predict how lattice sieving behaves. In the sphere model the probability that a random pair of vectors reduces is asymptotically $p_n={(3/4)}^{n/2}/\\sqrt{3\\pi n/8}$. In practice sieving algorithms have been observed to perform be"
-    },
-    {
       "id": "bdc2700324bc",
       "title": "Rust-proof your code with our new Testing Handbook chapter",
       "link": "https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/",
@@ -895,6 +885,16 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
+      "id": "0c989e20d47c",
+      "title": "On Phase Decompositions with Applications to Digit Decomposition",
+      "link": "https://eprint.iacr.org/2026/537",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-17T12:39:47+00:00",
+      "ts": 1773751187.0,
+      "summary": "Fully homomorphic encryption schemes enable arbitrary computation on encrypted data. Although the first candidate were considered too computationally inefficient, modern cryptosystems are now featured in practical deployments. Yet, despite a plethora of advances, many non-polynomial operations remain computationally challenging. In this work, we investigate radix decomposition, i.e., the homomorph"
+    },
+    {
       "id": "53a90966c861",
       "title": "Duty-Free Bits: Projectivizing Garbling Schemes",
       "link": "https://eprint.iacr.org/2026/476",
@@ -943,6 +943,16 @@
       "published": "2026-02-19T17:00:00+00:00",
       "ts": 1771520400.0,
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
+    },
+    {
+      "id": "d7ed3386f8bb",
+      "title": "Statistically Secure Asynchronous MPC with Linear Communication and $\\mathcal{O}(n^5)$ Additive Overhead",
+      "link": "https://eprint.iacr.org/2026/320",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-19T03:31:58+00:00",
+      "ts": 1771471918.0,
+      "summary": "Secure multiparty computation (MPC) allows distrusted parties to jointly evaluate a common function while keeping their inputs private. In this work, we focus on improving the communication complexity of information-theoretic asynchronous MPC with optimal resilience ($t"
     },
     {
       "id": "96ed87c2cba3",
@@ -1043,16 +1053,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "3347fff5f367",
-      "title": "BEAST-MEV: Batched Threshold Encryption with Silent Setup for MEV prevention",
-      "link": "https://eprint.iacr.org/2025/1419",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-08-04T19:11:58+00:00",
-      "ts": 1754334718.0,
-      "summary": "Threshold encrypted mempools protect the privacy of transactions up until the point their inclusion on chain is confirmed. They are a promising approach to protection against front-running attacks on decentralized blockchains. Recent works have introduced two key properties that an encryption scheme must satisfy to operate efficiently on large-scale decentralized blockchains such as Ethereum: Sile"
     },
     {
       "id": "cf9cca2b1541",
