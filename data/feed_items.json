@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T05:34:33.974776+00:00",
+  "generated_at": "2026-10-25T10:32:29.382431+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "73d3a727f268",
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-25T06:54:29+00:00",
+      "ts": 1792911269.0,
+      "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no"
+    },
     {
       "id": "cefc4e8a912a",
       "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
@@ -145,16 +155,6 @@
       "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,"
     },
     {
-      "id": "860411164edf",
-      "title": "Descent-PBS: Programmable Bootstrapping beyond the Ring Dimension",
-      "link": "https://eprint.iacr.org/2026/2616",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-23T13:49:22+00:00",
-      "ts": 1792763362.0,
-      "summary": "Programmable bootstrapping (PBS) in FHEW/TFHE evaluates a lookup table (LUT) while refreshing a ciphertext, but a t-entry negacyclic table must fit, with redundancy, into the 2N signed rotation positions of a ring accumulator. Module bootstrappings, namely extended bootstrapping (PKC'23), monomial-matrix bootstrapping (TCC'25) and their successors, rotate a redundant table once in a module of rank"
-    },
-    {
       "id": "df914bf26535",
       "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
       "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
@@ -223,16 +223,6 @@
       "published": "2026-10-23T08:35:45+00:00",
       "ts": 1792744545.0,
       "summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set"
-    },
-    {
-      "id": "e9571da54a22",
-      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-      "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-23T07:40:45+00:00",
-      "ts": 1792741245.0,
-      "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote"
     },
     {
       "id": "39946f88107a",
@@ -773,6 +763,16 @@
       "published": "2026-07-13T11:00:00+00:00",
       "ts": 1783940400.0,
       "summary": "We’ve added a new chapter to our Testing Handbook: a comprehensive guide to security testing Rust programs. This chapter covers the tools and techniques we use at Trail of Bits to validate the security of Rust programs and systems. fn main() {(|f:&amp;dyn Fn(u128)-&gt;Box&lt; dyn Iterator&lt;Item= char&gt;+'static&gt;|f(*[&amp;( 0x7B736D70683F73u128&lt;&lt;64| 0x7A6A6D7C3F7A667D),&amp;(0x7B736Du12"
+    },
+    {
+      "id": "29ef34588906",
+      "title": "On Extending Integral Distinguishers",
+      "link": "https://eprint.iacr.org/2026/1402",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-09T14:37:46+00:00",
+      "ts": 1783607866.0,
+      "summary": "Integral cryptanalysis analyzes block ciphers using input structures for which the sum of a chosen function of the output bits becomes key-independent. However, most methods still test one output expression at a time, so they can miss distinguishers that emerge when several outputs are combined, either linearly or nonlinearly. They are also not designed to capture key-dependent integral combinatio"
     },
     {
       "id": "09b719e50e41",
