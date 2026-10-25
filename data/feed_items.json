@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T18:01:45.402008+00:00",
+  "generated_at": "2026-10-25T21:20:41.629647+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "6ada57572afa",
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-25T17:44:09+00:00",
+      "ts": 1792950249.0,
+      "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were"
+    },
+    {
+      "id": "d13338e31682",
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-25T17:19:46+00:00",
+      "ts": 1792948786.0,
+      "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor"
+    },
     {
       "id": "73d3a727f268",
       "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
@@ -193,26 +213,6 @@
       "published": "2026-10-23T09:36:00+00:00",
       "ts": 1792748160.0,
       "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first."
-    },
-    {
-      "id": "233572b610c0",
-      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-23T08:40:43+00:00",
-      "ts": 1792744843.0,
-      "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw"
-    },
-    {
-      "id": "eafd11f37b2e",
-      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-      "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-23T08:35:45+00:00",
-      "ts": 1792744545.0,
-      "summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set"
     },
     {
       "id": "600c51053242",
@@ -985,6 +985,16 @@
       "summary": "**Objet** : Recommandations de sécurisation des systèmes d’information à destination des producteurs, des intégrateurs et des installateurs des systèmes de production industriels du secteur de l’énergie et de l’eau en France. **Annexe** : Liens et références Depuis plusieurs mois, l’Agence..."
     },
     {
+      "id": "6528769881f0",
+      "title": "Fully Secure DKG Protocols for Discrete Logarithm Revisited",
+      "link": "https://eprint.iacr.org/2026/042",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-11T15:40:22+00:00",
+      "ts": 1768146022.0,
+      "summary": "In EUROCRYPT 1999, Gennaro, Jarecki, Krawczyk, and Rabin (GJKR) showed that in the well-known Pedersen robust Distributed Key Generation (DKG) protocol for the Discrete Logarithm (DL), an adversary can bias the distribution of the resulting public key. To address this issue, they proposed a fully secure, statistically unbiased variant of the Pedersen DKG protocol. The GJKR protocol achieves robust"
+    },
+    {
       "id": "d89b8a28e282",
       "title": "HTTPS certificate industry phasing out less secure domain validation methods",
       "link": "http://security.googleblog.com/2025/12/https-certificate-industry-phasing-out.html",
@@ -1053,16 +1063,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "cf9cca2b1541",
-      "title": "Vector Commitment Design, Analysis, and Applications: A Survey",
-      "link": "https://eprint.iacr.org/2025/667",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-04-13T02:11:13+00:00",
-      "ts": 1744510273.0,
-      "summary": "Due to their widespread applications in decentralized and privacy preserving technologies, commitment schemes have become increasingly important cryptographic primitives. With a wide variety of applications, many new constructions have been proposed, each enjoying different features and security guarantees. In this paper, we systematize the designs, features, properties, and applications of vector"
     }
   ]
 }
