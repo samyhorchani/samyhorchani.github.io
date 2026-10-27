@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T00:10:30.129412+00:00",
+  "generated_at": "2026-10-27T05:52:51.248939+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "1cffc3662369",
+      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-27T04:37:59+00:00",
+      "ts": 1793075879.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory"
+    },
     {
       "id": "60d460a42f3a",
       "title": "HELLO, GOODBYE: Concurrent General Composition From Super-Rushing Security",
@@ -243,16 +253,6 @@
       "published": "2026-10-24T11:09:29+00:00",
       "ts": 1792840169.0,
       "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli. Tracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,"
-    },
-    {
-      "id": "a3913c5eacd4",
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-24T11:03:33+00:00",
-      "ts": 1792839813.0,
-      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of"
     },
     {
       "id": "5e3aef16951e",
