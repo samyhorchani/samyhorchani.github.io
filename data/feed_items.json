@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:50:17.877269+00:00",
+  "generated_at": "2026-10-27T00:10:30.129412+00:00",
   "count": 105,
   "errors": [
     {
@@ -273,16 +273,6 @@
       "published": "2026-10-23T21:00:09+00:00",
       "ts": 1792789209.0,
       "summary": "This article in Nature argues that it&#8217;s due to an overfishing of predators and warming sea temperatures. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
-      "id": "2e641ca86307",
-      "title": "Smaller Share Size for Evolving Secret Sharing: General Thresholds and Threshold Three",
-      "link": "https://eprint.iacr.org/2026/2619",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-23T20:32:07+00:00",
-      "ts": 1792787527.0,
-      "summary": "Evolving secret sharing allows participants to join indefinitely without modifying previously distributed shares. We study the share size of perfectly secure evolving threshold secret sharing schemes and obtain two improvements. For general thresholds, we introduce a polynomial sharing method that shares two secrets with adjacent reconstruction thresholds using one polynomial. Combining this metho"
     },
     {
       "id": "47c32ad64606",
@@ -1053,6 +1043,16 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
+    },
+    {
+      "id": "9bdb1bb18979",
+      "title": "OMIX: Offline Mixing for Self-Tallying Elections",
+      "link": "https://eprint.iacr.org/2025/1232",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-07-02T20:46:52+00:00",
+      "ts": 1751489212.0,
+      "summary": "In e-voting, a mix-net is a widely used system for shuffling votes in order to guarantee voter privacy. The core principle is as follows: (1) N voters cast their votes; (2) a sequence of mix-servers shuffles the N encrypted ballots, thereby randomly permuting the underlying votes; and (3) trustees jointly decrypt the shuffled ballots to compute the tally. This approach, however, relies heavily on "
     },
     {
       "id": "d9950bf77af3",
