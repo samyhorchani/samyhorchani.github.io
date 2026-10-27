@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T05:52:51.248939+00:00",
+  "generated_at": "2026-10-27T11:26:18.590153+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,56 @@
     }
   ],
   "items": [
+    {
+      "id": "cf1c48c36c60",
+      "title": "Hiding Capabilities in AI Models",
+      "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-27T11:01:26+00:00",
+      "ts": 1793098886.0,
+      "summary": "Interesting research: &#8220;AI Models Can Provably Hide Arbitrary Capabilities&#8221; Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural ne"
+    },
+    {
+      "id": "c8ef65f224d5",
+      "title": "Backporting security fixes to stable releases",
+      "link": "https://blog.trailofbits.com/2026/10/27/backporting-security-fixes-to-stable-releases/",
+      "source": "Trail of Bits Blog",
+      "category": "recherche",
+      "published": "2026-10-27T11:00:00+00:00",
+      "ts": 1793098800.0,
+      "summary": "The software you are running is almost certainly riddled with known, unfixed security bugs. These bugs can be trivially and quickly exploited by modern AI agents. This is not merely theoretical; I saw this during my sandbox escape research, and an old vulnerability in stable software was used as a part of the recently disclosed OpenAI hack: From the official hack description To say it simply: what"
+    },
+    {
+      "id": "f2521e9ee10b",
+      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+      "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-27T09:33:06+00:00",
+      "ts": 1793093586.0,
+      "summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers. \"The next steps that we took were to disconnect that Amadey controller from all those"
+    },
+    {
+      "id": "b40303f48b4a",
+      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+      "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-27T08:22:43+00:00",
+      "ts": 1793089363.0,
+      "summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as&nbsp;an encrypted item&nbsp;the user cannot read. The method got past"
+    },
+    {
+      "id": "0fab2d17eeae",
+      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+      "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-27T06:34:47+00:00",
+      "ts": 1793082887.0,
+      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)"
+    },
     {
       "id": "1cffc3662369",
       "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
@@ -95,26 +145,6 @@
       "summary": "We review the Bulletproofs++ construction which replaces the bit-decomposition inner-product argument of Bulletproofs with a reciprocal set-membership argument over base-$16$ digits. We present a self-contained specification of the $64$-bit range proof as well as a general batched variant parametric in the batch size $M$ and bit width $b$ and prove honest-verifier zero-knowledge and exact-form kno"
     },
     {
-      "id": "f84a6e347492",
-      "title": "Revisiting ZMAC+: Birthday-Bound Attacks and a Beyond-Birthday-Bound Repair",
-      "link": "https://eprint.iacr.org/2026/2647",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-26T15:08:28+00:00",
-      "ts": 1793027308.0,
-      "summary": "ZMAC+ is a tweakable-block-cipher-based MAC proposed by List and Nandi in ToSC 2017 with claimed beyond-birthday-bound security. We show that a tag-swap mechanism previously observed for a hypothetical two-output extension of DoveMAC also applies to the published ZMAC+ construction. For two-block tags, we give a distinguisher with constant advantage and a fresh-message forgery with constant succes"
-    },
-    {
-      "id": "ee74ee649afe",
-      "title": "Mikros: Bitwidth-Aware SNARKs over Extensions of Small Fields",
-      "link": "https://eprint.iacr.org/2026/2646",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-26T15:05:59+00:00",
-      "ts": 1793027159.0,
-      "summary": "Provers for succinct non-interactive arguments of knowledge (SNARKs) perform arithmetic over a large field for soundness, even when the witness entries are a few bits wide, which inflates both prover time and memory usage. Recent work makes individual SNARK components bitwidth-aware, so that a lower witness bitwidth means faster proving and lower memory usage, but these techniques cover only part "
-    },
-    {
       "id": "a592ea8cb49b",
       "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
       "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
@@ -123,16 +153,6 @@
       "published": "2026-10-26T14:06:13+00:00",
       "ts": 1793023573.0,
       "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with. And that's not even the full story. A leaked key led to a software supply-chain"
-    },
-    {
-      "id": "5536bdf50740",
-      "title": "Isotaxis: Optimal Asynchronous Byzantine Consensus with Ordering Linearizability",
-      "link": "https://eprint.iacr.org/2026/2645",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-26T13:30:48+00:00",
-      "ts": 1793021448.0,
-      "summary": "Despite ensuring both consistency and liveness, state machine replication (SMR) protocols remain vulnerable to adversaries that manipulate transaction order, causing, e.g., MEV attacks. To mitigate this, researchers have proposed new variants augmented with order-fairness. However, existing protocols that employ dependency graphs, such as Aequitas (Crypto 2020), Themis (CCS 2023), and SpeedyFair ("
     },
     {
       "id": "7611d37141fb",
@@ -215,56 +235,6 @@
       "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were"
     },
     {
-      "id": "23dbd06e93cc",
-      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-      "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-25T17:19:46+00:00",
-      "ts": 1792948786.0,
-      "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via"
-    },
-    {
-      "id": "73d3a727f268",
-      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-      "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-25T06:54:29+00:00",
-      "ts": 1792911269.0,
-      "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no"
-    },
-    {
-      "id": "dffb472920f0",
-      "title": "Strongly Adaptive Asynchronous Byzantine Agreement with Linear Communication and Almost-Everywhere Termination",
-      "link": "https://eprint.iacr.org/2026/2627",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-24T13:18:22+00:00",
-      "ts": 1792847902.0,
-      "summary": "It is well known that Byzantine agreement requires $\\Omega(t^2)$ messages against a strongly adaptive adversary that may corrupt $t=\\Theta(n)$ parties and suppress a party's undelivered messages upon corruption. We circumvent this lower bound by relaxing termination: for any constant $00$ and every $t\\leq(1-\\delta)n/3$, we construct binary agreement with this guarantee in authenticated asynchronou"
-    },
-    {
-      "id": "cefc4e8a912a",
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-24T11:09:29+00:00",
-      "ts": 1792840169.0,
-      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli. Tracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,"
-    },
-    {
-      "id": "5e3aef16951e",
-      "title": "When Elliptic-Curve Semiprimality Certificates Reveal Factors",
-      "link": "https://eprint.iacr.org/2026/2620",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-24T01:04:28+00:00",
-      "ts": 1792803868.0,
-      "summary": "Public certificates of semiprimality could support cryptographic modulus generation by proving that an integer has exactly two prime factors without revealing them. Their usefulness in this setting depends on whether the certificate preserves the difficulty of factoring. Motivated by the examples of Reble and Broadhurst, we formalize semiprimality certificates by adapting the Goldwasser-Kilian pri"
-    },
-    {
       "id": "f995d6cab4ff",
       "title": "Friday Squid Blogging: Increasing Squid Populations",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
@@ -273,6 +243,16 @@
       "published": "2026-10-23T21:00:09+00:00",
       "ts": 1792789209.0,
       "summary": "This article in Nature argues that it&#8217;s due to an overfishing of predators and warming sea temperatures. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
+    },
+    {
+      "id": "82ceb199ea4d",
+      "title": "Efficient (Functional) Bootstrapping for CKKS over the Conjugate-Invariant Ring",
+      "link": "https://eprint.iacr.org/2026/2618",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-23T16:51:36+00:00",
+      "ts": 1792774296.0,
+      "summary": "The CKKS fully homomorphic encryption scheme enables efficient encrypted computation over complex-valued data. In many real-world cases, however, the computation only involves real data, and storing them inside complex slots wastes the encoding ability. This motivated the design of conjugate-invariant CKKS (CI-CKKS) instantiated over the conjugate-invariant ring (CIR), which provides the same numb"
     },
     {
       "id": "47c32ad64606",
@@ -515,16 +495,6 @@
       "summary": "This is a problem: Any open model whose weights have been edited can carry a backdoor, whether it&#8217;s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it&#8217;s the most popular reason people download modified weights without verifying what&#8217;s inside. Abliteration is a cheap fine-tune that takes away a model&#8217;s abil"
     },
     {
-      "id": "8286d7b68a18",
-      "title": "Measuring Human Cryptanalysis Effort",
-      "link": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-15T16:24:29+00:00",
-      "ts": 1792081469.0,
-      "summary": "Matthew Green has a new site that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms: Abstract: We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain la"
-    },
-    {
       "id": "064694cebfd2",
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
       "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
@@ -695,16 +665,6 @@
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
     },
     {
-      "id": "bb20f385c3ff",
-      "title": "Jacobian Diagnostics for Under-Constrained Zero-Knowledge Circuits",
-      "link": "https://eprint.iacr.org/2026/1852",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-01T10:30:46+00:00",
-      "ts": 1788258646.0,
-      "summary": "Under-constrained arithmetic circuits are a recurring source of soundness failures in zero-knowledge applications: after fixing the public statement, a malicious prover may be able to assign a security-relevant wire in more than one way while still satisfying the circuit. Existing tools attack this uniqueness question with solver-based checking, direct polynomial solving, abstract interpretation, "
-    },
-    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -765,16 +725,6 @@
       "summary": "Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a"
     },
     {
-      "id": "dcdcb06a8a9d",
-      "title": "Amortized Multi-Verifier Proofs from Reductions of Knowledge",
-      "link": "https://eprint.iacr.org/2026/1553",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-29T17:13:44+00:00",
-      "ts": 1785345224.0,
-      "summary": "We study amortization of prover work in the multi-verifier setting, motivated by proof-as-a-service deployments in which a shared prover serves $K$ independent clients holding distinct statements. Each verifier checks only its own statement and proof, with no inter-verifier communication. The challenge is therefore to amortize prover work across many proofs while preserving local verification. We "
-    },
-    {
       "id": "0c33a4787ae8",
       "title": "Some thoughts about Anthropic’s new cryptanalysis results",
       "link": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
@@ -795,16 +745,6 @@
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
     },
     {
-      "id": "bdc2700324bc",
-      "title": "Rust-proof your code with our new Testing Handbook chapter",
-      "link": "https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/",
-      "source": "Trail of Bits Blog",
-      "category": "recherche",
-      "published": "2026-07-13T11:00:00+00:00",
-      "ts": 1783940400.0,
-      "summary": "We’ve added a new chapter to our Testing Handbook: a comprehensive guide to security testing Rust programs. This chapter covers the tools and techniques we use at Trail of Bits to validate the security of Rust programs and systems. fn main() {(|f:&amp;dyn Fn(u128)-&gt;Box&lt; dyn Iterator&lt;Item= char&gt;+'static&gt;|f(*[&amp;( 0x7B736D70683F73u128&lt;&lt;64| 0x7A6A6D7C3F7A667D),&amp;(0x7B736Du12"
-    },
-    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -813,6 +753,16 @@
       "published": "2026-06-09T19:00:02+00:00",
       "ts": 1781031602.0,
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
+    },
+    {
+      "id": "f5c36ed24550",
+      "title": "Rank Ceiling for Twiddle-Perturbation Faults on the Forward NTT",
+      "link": "https://eprint.iacr.org/2026/1188",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-06T19:43:13+00:00",
+      "ts": 1780774993.0,
+      "summary": "NIST standardised ML-KEM and ML-DSA in 2024 for post-quantum key establishment and digital signatures. Both compute forward number-theoretic transforms on secret polynomials. Their fixed multipliers, called twiddles, are a documented fault-attack target. Published attacks zero every twiddle during Kyber key generation with a single fault, or individual twiddles in one Dilithium signing variant. No"
     },
     {
       "id": "7990c40a74ab",
@@ -895,6 +845,16 @@
       "summary": "Posted by Dirk Göhmann, Tony Mendez, and the Vulnerability Rewards Program Team2025 marked a special year in the history of vulnerability rewards and bug bounty programs at Google: our 15th anniversary 🎉🎉🎉! Originally started in 2010, our vulnerability reward program (VRP) has seen constant additions and expansions over the past decade and a half, clearly indicating the value the programs under th"
     },
     {
+      "id": "4f84cba4769b",
+      "title": "Towards Formal Security Proofs of MQOM",
+      "link": "https://eprint.iacr.org/2026/629",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-31T12:45:21+00:00",
+      "ts": 1774961121.0,
+      "summary": "Recent MPC-in-the-Head (MPCitH) signatures increasingly rely on aggressive GGM-tree optimizations to reduce signature size and computational cost, culminating in __secret-key-root correlated GGM trees__ as used in SBC (Huth and Joux, CRYPTO 2024), MQOM (NIST PQC Standardization for Additional Signature Round-2, 2024), and rBN++ (Kim, Lee, and Son, EUROCRYPT 2025). While this technique yields subst"
+    },
+    {
       "id": "4038926880d9",
       "title": "Security for the Quantum Era: Implementing Post-Quantum Cryptography in Android",
       "link": "http://security.googleblog.com/2026/03/post-quantum-cryptography-in-android.html",
@@ -945,6 +905,26 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
+      "id": "052361da818d",
+      "title": "Isochronous Fixed-Weight Sampling in Hardware",
+      "link": "https://eprint.iacr.org/2026/218",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-10T09:21:44+00:00",
+      "ts": 1770715304.0,
+      "summary": "We present hardware implementations of the recently proposed isochronous fixed-weight sampling algorithm by Décio Luiz Gazzoni Filho, Tomás S. R. Silva, Julio López (CiC vol. 1, 2024) and apply them to the post-quantum cryptographic algorithms NTRU-HPS, Streamlined NTRU Prime and Classic McEliece. We offer multiple implementations, optimized for different targets: A high-area high-performance impl"
+    },
+    {
+      "id": "9a3eea5414ad",
+      "title": "On Lifting AGM Security to the AGM with Oblivious Sampling",
+      "link": "https://eprint.iacr.org/2026/201",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-08T13:44:26+00:00",
+      "ts": 1770558266.0,
+      "summary": "The Algebraic Group Model (AGM) is widely used to prove the security of cryptographic schemes involving groups and pairings. It requires adversaries to explain how their output group elements are obtained from the elements they have received. The AGM with Oblivious Sampling (AGMOS), introduced by Lipmaa, Parisella, and Siim (TCC 2023), additionally allows adversaries to sample group elements witho"
+    },
+    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -953,16 +933,6 @@
       "published": "2026-02-02T18:25:32+00:00",
       "ts": 1770056732.0,
       "summary": "It&#8217;s not every day that we see mainstream media get excited about encryption apps! For that reason, the past several days have been fascinating, since we&#8217;ve been given not one but several unusual stories about the encryption used in WhatsApp. Or more accurately, if you read the story, a pretty wild allegation that the widely-used &#8230; Continue reading WhatsApp Encryption, a Lawsuit,"
-    },
-    {
-      "id": "a921e7a46ffa",
-      "title": "Private IP Address Inference in NAT Networks via Off-Path TCP Control-Plane Attack",
-      "link": "https://eprint.iacr.org/2026/149",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-30T10:28:18+00:00",
-      "ts": 1769768898.0,
-      "summary": "NAT is widely assumed to conceal the private IP addresses of internal clients from both off-path attackers within the same LAN and external observers. We show that this assumption does not hold. We present a novel off-path private IP address inference attack against NATed clients engaged in active TCP connections with a remote server. Our attack exploits known NAT behaviors in real-world routers, "
     },
     {
       "id": "d01b11ba041d",
@@ -1035,6 +1005,16 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
+      "id": "7db149bacd96",
+      "title": "Weak Instances of the Two Matrix Code Equivalence Problem",
+      "link": "https://eprint.iacr.org/2025/1909",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-10-13T12:45:52+00:00",
+      "ts": 1760359552.0,
+      "summary": "Nowadays, the Matrix Code Equivalence Problem shows potential applicability in constructing efficient and secure advanced digital signatures, focusing on linkable ring signatures, threshold signatures, and blind signatures. Current constructions of these advanced signatures rely on relaxed instantiations of the Matrix Code Equivalence Problem (namely, the 2-MCE problem): given two pairs of equival"
+    },
+    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1043,6 +1023,16 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
+    },
+    {
+      "id": "3b062e7f6355",
+      "title": "TLShare: Private Authenticated MPC and FHE Inputs Over TLS",
+      "link": "https://eprint.iacr.org/2025/1434",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-08-06T21:05:21+00:00",
+      "ts": 1754514321.0,
+      "summary": "Transport Layer Security (TLS) is the backbone of the web, allowing clients to establish secure and private channels with servers. DECO (CCS'20) and follow-up works proposed protocols that enable proving the provenance of a TLS response, i.e., that a payload came from a particular server, without needing server-side modifications. Unfortunately, these works are limited to proving Boolean statement"
     },
     {
       "id": "9bdb1bb18979",
@@ -1063,6 +1053,16 @@
       "published": "2025-03-08T18:06:39+00:00",
       "ts": 1741457199.0,
       "summary": "P vs NP problem is the most important unresolved problem in the field of computational complexity. Its impact has penetrated into all aspects of algorithm design, especially in the field of cryptography. The security of cryptographic algorithms based on short keys depends on whether P is equal to NP. In fact, the security requirements for cryptographic keys are much stricter than those for P$\\neq$"
+    },
+    {
+      "id": "e96acc02b675",
+      "title": "Practical, Round-Optimal Lattice-Based Blind Signatures",
+      "link": "https://eprint.iacr.org/2021/1565",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2021-12-02T02:40:34+00:00",
+      "ts": 1638412834.0,
+      "summary": "Blind signatures are a fundamental cryptographic primitive with numerous practical applications. While there exist many practical blind signatures from number-theoretic assumptions, the situation is far less satisfactory from post-quantum assumptions. In this work, we provide the first overall practical, lattice-based blind signature, supporting an unbounded number of signature queries and additio"
     }
   ]
 }
