@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:15:05.153181+00:00",
+  "generated_at": "2026-10-27T21:42:29.033116+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "1dbf1c841cde",
+      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+      "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-27T18:26:46+00:00",
+      "ts": 1793125606.0,
+      "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published"
+    },
     {
       "id": "a1680e2c0f4d",
       "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
@@ -163,16 +173,6 @@
       "published": "2026-10-26T14:06:13+00:00",
       "ts": 1793023573.0,
       "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with. And that's not even the full story. A leaked key led to a software supply-chain"
-    },
-    {
-      "id": "7611d37141fb",
-      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-      "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-26T11:52:41+00:00",
-      "ts": 1793015561.0,
-      "summary": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on"
     },
     {
       "id": "b74197fe2cc7",
@@ -665,6 +665,16 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
+      "id": "b002e8508dfc",
+      "title": "Faster Post-Quantum zkSNARK Provers Using the LCH Polynomial Basis",
+      "link": "https://eprint.iacr.org/2026/1784",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-23T19:00:18+00:00",
+      "ts": 1787511618.0,
+      "summary": "An important class of plausibly post-quantum zkSNARKs uses univariate-polynomial interactive oracle proofs (IOPs) over binary extension fields $\\mathbb{F}_{2^k}$, relying on the Fast Reed--Solomon (RS) Interactive Oracle Proof of Proximity (FRI) for low-degree testing. Their provers fold RS codewords in FRI and perform polynomial arithmetic, notably division and multiplication by subspace vanishin"
+    },
+    {
       "id": "bea5a06fb576",
       "title": "Everything is about to “go dark”",
       "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
@@ -835,16 +845,6 @@
       "summary": "Posted by Dirk Göhmann, Tony Mendez, and the Vulnerability Rewards Program Team2025 marked a special year in the history of vulnerability rewards and bug bounty programs at Google: our 15th anniversary 🎉🎉🎉! Originally started in 2010, our vulnerability reward program (VRP) has seen constant additions and expansions over the past decade and a half, clearly indicating the value the programs under th"
     },
     {
-      "id": "4f84cba4769b",
-      "title": "Towards Formal Security Proofs of MQOM",
-      "link": "https://eprint.iacr.org/2026/629",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-31T12:45:21+00:00",
-      "ts": 1774961121.0,
-      "summary": "Recent MPC-in-the-Head (MPCitH) signatures increasingly rely on aggressive GGM-tree optimizations to reduce signature size and computational cost, culminating in __secret-key-root correlated GGM trees__ as used in SBC (Huth and Joux, CRYPTO 2024), MQOM (NIST PQC Standardization for Additional Signature Round-2, 2024), and rBN++ (Kim, Lee, and Son, EUROCRYPT 2025). While this technique yields subst"
-    },
-    {
       "id": "4038926880d9",
       "title": "Security for the Quantum Era: Implementing Post-Quantum Cryptography in Android",
       "link": "http://security.googleblog.com/2026/03/post-quantum-cryptography-in-android.html",
@@ -903,16 +903,6 @@
       "published": "2026-02-10T09:21:44+00:00",
       "ts": 1770715304.0,
       "summary": "We present hardware implementations of the recently proposed isochronous fixed-weight sampling algorithm by Décio Luiz Gazzoni Filho, Tomás S. R. Silva, Julio López (CiC vol. 1, 2024) and apply them to the post-quantum cryptographic algorithms NTRU-HPS, Streamlined NTRU Prime and Classic McEliece. We offer multiple implementations, optimized for different targets: A high-area high-performance impl"
-    },
-    {
-      "id": "9a3eea5414ad",
-      "title": "On Lifting AGM Security to the AGM with Oblivious Sampling",
-      "link": "https://eprint.iacr.org/2026/201",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-08T13:44:26+00:00",
-      "ts": 1770558266.0,
-      "summary": "The Algebraic Group Model (AGM) is widely used to prove the security of cryptographic schemes involving groups and pairings. It requires adversaries to explain how their output group elements are obtained from the elements they have received. The AGM with Oblivious Sampling (AGMOS), introduced by Lipmaa, Parisella, and Siim (TCC 2023), additionally allows adversaries to sample group elements witho"
     },
     {
       "id": "96ed87c2cba3",
@@ -1043,6 +1033,16 @@
       "published": "2025-07-21T19:05:09+00:00",
       "ts": 1753124709.0,
       "summary": "In 2009, Galindo and Garcia (Africacrypt) proposed the use of concatenated Schnorr signatures for hierarchical public key delegation, creating an efficient identity-based signature scheme (IBS). Essentially, the scheme builds upon the Schnorr signature scheme to generate a primary signature, part of which is then used as a secret key to produce signatures on subsequent messages. The resulting IBS "
+    },
+    {
+      "id": "845bf5663c05",
+      "title": "Ring-LWR based Commitments and ZK-PoKs with Application to Verifiable Quantum-Safe Searchable Symmetric Encryption",
+      "link": "https://eprint.iacr.org/2025/1216",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-06-30T06:34:46+00:00",
+      "ts": 1751265286.0,
+      "summary": "Prior research on ensuring trust in delegated computation through lattice-based zero-knowledge proofs mostly rely on Learning-With-Errors (LWE) assumption. In this work, we propose a zero-knowledge proof of knowledge using the Ring Learning with Rounding (RLWR) assumption for an interesting and useful class of statements: linear relations on polynomials. We begin by proposing, to the best of our k"
     },
     {
       "id": "8f00c9afc856",
