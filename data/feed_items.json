@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:26:18.590153+00:00",
+  "generated_at": "2026-10-27T17:15:05.153181+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,6 +15,66 @@
   ],
   "items": [
     {
+      "id": "a1680e2c0f4d",
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-27T13:59:48+00:00",
+      "ts": 1793109588.0,
+      "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked"
+    },
+    {
+      "id": "0da80699cf29",
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-27T13:59:09+00:00",
+      "ts": 1793109549.0,
+      "summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file. Patches for the flaw were released last month by Apple in"
+    },
+    {
+      "id": "f91bd644663a",
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-27T12:09:50+00:00",
+      "ts": 1793102990.0,
+      "summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as&nbsp;CVE-2026-80097&nbsp;and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update. In the researchers' tests,"
+    },
+    {
+      "id": "a18237e4b1df",
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-27T11:46:00+00:00",
+      "ts": 1793101560.0,
+      "summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve"
+    },
+    {
+      "id": "8b239d69be30",
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-27T11:32:46+00:00",
+      "ts": 1793100766.0,
+      "summary": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations.&nbsp; Some fake login pages go beyond stealing passwords. They can also capture MFA codes or hijack authenticated sessions, allowing attackers to gain"
+    },
+    {
+      "id": "27247ee5de92",
+      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+      "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-27T11:32:31+00:00",
+      "ts": 1793100751.0,
+      "summary": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It's assessed to pick up"
+    },
+    {
       "id": "cf1c48c36c60",
       "title": "Hiding Capabilities in AI Models",
       "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
@@ -23,16 +83,6 @@
       "published": "2026-10-27T11:01:26+00:00",
       "ts": 1793098886.0,
       "summary": "Interesting research: &#8220;AI Models Can Provably Hide Arbitrary Capabilities&#8221; Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural ne"
-    },
-    {
-      "id": "c8ef65f224d5",
-      "title": "Backporting security fixes to stable releases",
-      "link": "https://blog.trailofbits.com/2026/10/27/backporting-security-fixes-to-stable-releases/",
-      "source": "Trail of Bits Blog",
-      "category": "recherche",
-      "published": "2026-10-27T11:00:00+00:00",
-      "ts": 1793098800.0,
-      "summary": "The software you are running is almost certainly riddled with known, unfixed security bugs. These bugs can be trivially and quickly exploited by modern AI agents. This is not merely theoretical; I saw this during my sandbox escape research, and an old vulnerability in stable software was used as a part of the recently disclosed OpenAI hack: From the official hack description To say it simply: what"
     },
     {
       "id": "f2521e9ee10b",
@@ -75,16 +125,6 @@
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory"
     },
     {
-      "id": "60d460a42f3a",
-      "title": "HELLO, GOODBYE: Concurrent General Composition From Super-Rushing Security",
-      "link": "https://eprint.iacr.org/2026/2651",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-26T18:23:06+00:00",
-      "ts": 1793038986.0,
-      "summary": "Kushilevitz, Lindell, and Rabin (STOC `06, SIAM Journal on Computing `10), in their seminal result, showed that any standalone-secure synchronous multiparty computation (MPC) protocol can be compiled into one secure under concurrent general composition, by adding a synchronisation step after every round; thereby, at least doubling the round complexity. We show that for protocols that are secure ag"
-    },
-    {
       "id": "b87e70bd4cb9",
       "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
       "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
@@ -105,26 +145,6 @@
       "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but"
     },
     {
-      "id": "e39e15e3f739",
-      "title": "On Robust Combiners for Pseudorandom Codes and PKE with Pseudorandom Ciphertexts",
-      "link": "https://eprint.iacr.org/2026/2650",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-26T17:39:08+00:00",
-      "ts": 1793036348.0,
-      "summary": "Robust combiners are a standard way to hedge cryptographic assumptions: given several candidate constructions, they produce one construction that remains secure as long as one candidate is secure. In favorable cases, such combiners also yield universal constructions. We ask whether this paradigm applies to cryptographic primitives whose public outputs must be both pseudorandom and sparse. Our firs"
-    },
-    {
-      "id": "2763b2565bb3",
-      "title": "LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing",
-      "link": "https://eprint.iacr.org/2026/2649",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-26T17:23:48+00:00",
-      "ts": 1793035428.0,
-      "summary": "We present a security analysis of the messaging service known as LINE, a popular platform used daily by millions of users in East and Southeast Asia – most notably Japan, Taiwan, Thailand, and Indonesia. More specifically, we focus on its underlying custom end-to-end encryption (E2EE) protocol, known as Letter Sealing v2. Our findings show that Letter Sealing allows a TLS Machine-in-the- Middle at"
-    },
-    {
       "id": "bc34ec3ed9ab",
       "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
       "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
@@ -133,16 +153,6 @@
       "published": "2026-10-26T15:52:40+00:00",
       "ts": 1793029960.0,
       "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT"
-    },
-    {
-      "id": "86fd90329e74",
-      "title": "Notes on BulletProofs++ Range Proofs",
-      "link": "https://eprint.iacr.org/2026/2648",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-26T15:34:50+00:00",
-      "ts": 1793028890.0,
-      "summary": "We review the Bulletproofs++ construction which replaces the bit-decomposition inner-product argument of Bulletproofs with a reciprocal set-membership argument over base-$16$ digits. We present a self-contained specification of the $64$-bit range proof as well as a general batched variant parametric in the batch size $M$ and bit width $b$ and prove honest-verifier zero-knowledge and exact-form kno"
     },
     {
       "id": "a592ea8cb49b",
@@ -165,16 +175,6 @@
       "summary": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on"
     },
     {
-      "id": "f3ee6083bf62",
-      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-      "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-26T11:23:56+00:00",
-      "ts": 1793013836.0,
-      "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all events together into one coordinated view. SOC teams often first see the shape of an intrusion"
-    },
-    {
       "id": "b74197fe2cc7",
       "title": "Bias in Qwen3-Coder Model",
       "link": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
@@ -183,56 +183,6 @@
       "published": "2026-10-26T11:03:31+00:00",
       "ts": 1793012611.0,
       "summary": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model&#8217;s weights, and that removing the model&#8217;s CCP alignment removes it. One word tilts the code against Americans. Ask for"
-    },
-    {
-      "id": "d252c671a591",
-      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-      "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-26T09:54:02+00:00",
-      "ts": 1793008442.0,
-      "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app. The kit's Telegram part matches Baohuo, a backdoor that Doctor"
-    },
-    {
-      "id": "bf2b5eceb6f3",
-      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-      "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-26T08:35:51+00:00",
-      "ts": 1793003751.0,
-      "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across"
-    },
-    {
-      "id": "c0cd00101ab1",
-      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-      "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-26T07:49:46+00:00",
-      "ts": 1793000986.0,
-      "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to&nbsp;an analysis&nbsp;by cloud security company Wiz. A&nbsp;GitHub safeguard&nbsp;that pauses"
-    },
-    {
-      "id": "885aae90a146",
-      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-      "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-26T06:03:48+00:00",
-      "ts": 1792994628.0,
-      "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder. The file"
-    },
-    {
-      "id": "6ada57572afa",
-      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-      "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-25T17:44:09+00:00",
-      "ts": 1792950249.0,
-      "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were"
     },
     {
       "id": "f995d6cab4ff",
@@ -265,6 +215,56 @@
       "summary": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys: The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2384, or a number with 116 digits, diff"
     },
     {
+      "id": "6fdb943ecf61",
+      "title": "Multiples vulnérabilités dans les produits Red Hat (23 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1373/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-23T00:00:00+00:00",
+      "ts": 1792713600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer un contournement de la politique de sécurité, un déni de service et un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+      "id": "c3e4c2d4f8a5",
+      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (23 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1369/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-23T00:00:00+00:00",
+      "ts": 1792713600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+    },
+    {
+      "id": "1f5a73ec606b",
+      "title": "Vulnérabilité dans Mattermost Server (23 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1368/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-23T00:00:00+00:00",
+      "ts": 1792713600.0,
+      "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+      "id": "b90a3b9bf35a",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (23 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1371/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-23T00:00:00+00:00",
+      "ts": 1792713600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+      "id": "8972077f3a3e",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (23 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1375/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-23T00:00:00+00:00",
+      "ts": 1792713600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service."
+    },
+    {
       "id": "39946f88107a",
       "title": "New Serious PHP Vulnerabilities Released and Patched",
       "link": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
@@ -293,6 +293,56 @@
       "published": "2026-10-22T00:00:00+00:00",
       "ts": 1792627200.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Node.js. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+      "id": "f007b8f8b3c2",
+      "title": "Multiples vulnérabilités dans GitLab (22 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1363/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-22T00:00:00+00:00",
+      "ts": 1792627200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité."
+    },
+    {
+      "id": "abb751fd1bb4",
+      "title": "Multiples vulnérabilités dans les produits Splunk (22 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1366/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-22T00:00:00+00:00",
+      "ts": 1792627200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS)."
+    },
+    {
+      "id": "fd3b81559113",
+      "title": "Multiples vulnérabilités dans les produits Cisco (22 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1360/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-22T00:00:00+00:00",
+      "ts": 1792627200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+    },
+    {
+      "id": "6d72cb9987ae",
+      "title": "Vulnérabilité dans les produits Mozilla (22 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1361/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-22T00:00:00+00:00",
+      "ts": 1792627200.0,
+      "summary": "Une vulnérabilité a été découverte dans les produits Mozilla. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+      "id": "46d1b25f0f35",
+      "title": "Multiples vulnérabilités dans les produits SolarWinds (22 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1364/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-22T00:00:00+00:00",
+      "ts": 1792627200.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits SolarWinds. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance (XSS)."
     },
     {
       "id": "eec90e9acc6b",
@@ -325,26 +375,6 @@
       "summary": "There&#8217;s a new archive of all the papers from twenty-five years of the Workshop on Economics and Information Security (WEIS). Really nice resource. It&#8217;s fun to reread my 2002 essay on the economics of information security."
     },
     {
-      "id": "5ec9854e2825",
-      "title": "Multiples vulnérabilités dans Oracle Virtualization (21 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1354/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-21T00:00:00+00:00",
-      "ts": 1792540800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "0845507aaac2",
-      "title": "Multiples vulnérabilités dans Oracle Database Server (21 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1349/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-21T00:00:00+00:00",
-      "ts": 1792540800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
       "id": "a07960b192ba",
       "title": "Multiples vulnérabilités dans PHP (21 octobre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1359/",
@@ -353,86 +383,6 @@
       "published": "2026-10-21T00:00:00+00:00",
       "ts": 1792540800.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance."
-    },
-    {
-      "id": "080d3808c9ea",
-      "title": "Multiples vulnérabilités dans Oracle MySQL (21 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1351/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-21T00:00:00+00:00",
-      "ts": 1792540800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "3837b6f7941c",
-      "title": "Multiples vulnérabilités dans Google Chrome (21 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1357/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-21T00:00:00+00:00",
-      "ts": 1792540800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
-      "id": "50c5342ffb4b",
-      "title": "Multiples vulnérabilités dans Oracle PeopleSoft (21 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1352/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-21T00:00:00+00:00",
-      "ts": 1792540800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "98cbca06ecbd",
-      "title": "Multiples vulnérabilités dans Oracle Java SE (21 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1350/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-21T00:00:00+00:00",
-      "ts": 1792540800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "785358bdace1",
-      "title": "Multiples vulnérabilités dans Apache Tomcat (21 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1358/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-21T00:00:00+00:00",
-      "ts": 1792540800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
-      "id": "0b7c6572d229",
-      "title": "Multiples vulnérabilités dans Oracle Weblogic (21 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1355/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-21T00:00:00+00:00",
-      "ts": 1792540800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
-      "id": "ce202048c74f",
-      "title": "Vulnérabilité dans Traefik (21 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1356/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-21T00:00:00+00:00",
-      "ts": 1792540800.0,
-      "summary": "Une vulnérabilité a été découverte dans Traefik. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "a4a61f9371bd",
-      "title": "Multiples vulnérabilités dans Oracle Systems (21 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1353/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-21T00:00:00+00:00",
-      "ts": 1792540800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Systems. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
     },
     {
       "id": "f6fa0ed43042",
@@ -525,6 +475,16 @@
       "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond."
     },
     {
+      "id": "de846d0643e8",
+      "title": "Hybrid Quantum–Computational Key Distribution with Reduced Assumptions (Short Paper)",
+      "link": "https://eprint.iacr.org/2026/2462",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-13T14:49:43+00:00",
+      "ts": 1791902983.0,
+      "summary": "The HM-QCT protocol, presented by Mazzoncini et al. in 2025, uses a unique feature of quantum information to achieve quantum key distribution (QKD) with secret-key rates beyond standard constructions. The protocol has been designed in the hybrid quantum–computational time-lock (QCT) security model which imposes two independent (but related) restrictions on the attacker: (1) a computationally secur"
+    },
+    {
       "id": "004fbb2e40f0",
       "title": "New website: estimating human cryptanalytic work",
       "link": "https://blog.cryptographyengineering.com/2026/10/11/new-website-estimating-human-cryptanalytic-work/",
@@ -545,6 +505,16 @@
       "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity."
     },
     {
+      "id": "cc4cdc339147",
+      "title": "A Note on Extractable Witness Encryption in Generic Groups",
+      "link": "https://eprint.iacr.org/2026/2399",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-07T14:36:34+00:00",
+      "ts": 1791383794.0,
+      "summary": "Hair and Sahai (arXiv:2609.18275v1) have recently proposed a construction of witness encryption for NP satisfying semantic security. In this note we observe that this recent witness-encryption construction is unconditionally extractable in the generic group model. This yields a construction of extractable witness encryption without assuming subexponential soundness of SNARGs, in contrast to the re"
+    },
+    {
       "id": "4b3e102168c7",
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
@@ -553,6 +523,16 @@
       "published": "2026-10-07T13:48:45+00:00",
       "ts": 1791380925.0,
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the gl"
+    },
+    {
+      "id": "d2693d4ed6ea",
+      "title": "Low-Latency Parallel Digit Decomposition and Sign Evaluation for CKKS",
+      "link": "https://eprint.iacr.org/2026/2368",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-05T23:52:42+00:00",
+      "ts": 1791244362.0,
+      "summary": "In CKKS, the sign is commonly evaluated by polynomial approximation, and nonlinear functions such as comparison, ReLU, and max are computed through the sign. However, the discontinuity of the sign makes it harder to approximate with a polynomial as the required input bit precision $p$ grows. Alternatively, the sign can be computed by first decomposing the input into radix-$B$ digits. Existing meth"
     },
     {
       "id": "b224d08c01cc",
@@ -705,6 +685,16 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
+      "id": "4b72ac139d8a",
+      "title": "Ideal Pseudorandom Code, Revisited",
+      "link": "https://eprint.iacr.org/2026/1657",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-11T12:03:06+00:00",
+      "ts": 1786449786.0,
+      "summary": "Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composabl"
+    },
+    {
       "id": "5ce90ec573e9",
       "title": "A few notes on AWS Nitro Enclaves: KMS integration",
       "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
@@ -745,6 +735,16 @@
       "summary": "Codex’s /goal feature amplifies bug hunting, but getting good results requires the right prompt, the right scope, and the right number of outcomes per run. For Patch the Planet, our joint initiative with OpenAI to find and fix bugs in open-source software, we pointed Codex at some of the most widely used, heavily audited codebases in the world, like Rust, curl, and zlib. One tool came up again and"
     },
     {
+      "id": "bdc2700324bc",
+      "title": "Rust-proof your code with our new Testing Handbook chapter",
+      "link": "https://blog.trailofbits.com/2026/07/13/rust-proof-your-code-with-our-new-testing-handbook-chapter/",
+      "source": "Trail of Bits Blog",
+      "category": "recherche",
+      "published": "2026-07-13T11:00:00+00:00",
+      "ts": 1783940400.0,
+      "summary": "We’ve added a new chapter to our Testing Handbook: a comprehensive guide to security testing Rust programs. This chapter covers the tools and techniques we use at Trail of Bits to validate the security of Rust programs and systems. fn main() {(|f:&amp;dyn Fn(u128)-&gt;Box&lt; dyn Iterator&lt;Item= char&gt;+'static&gt;|f(*[&amp;( 0x7B736D70683F73u128&lt;&lt;64| 0x7A6A6D7C3F7A667D),&amp;(0x7B736Du12"
+    },
+    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -773,16 +773,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "c4284e5e4ba4",
-      "title": "Device Binding for Anonymous Credentials on Legacy Phones",
-      "link": "https://eprint.iacr.org/2026/965",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-15T15:28:02+00:00",
-      "ts": 1778858882.0,
-      "summary": "Digital identity systems are being deployed worldwide to enable secure, privacy-preserving authentication. In this regards, Europe's EUDI Wallet mandates selective attribute disclosure and unlinkable authentication, effectively requiring anonymous credentials. Yet current proposed solutions omit them because they lack device binding: tying a credential to a secure hardware element on the user's de"
     },
     {
       "id": "e867d3e3dacb",
@@ -955,6 +945,16 @@
       "summary": "**Objet** : Recommandations de sécurisation des systèmes d’information à destination des producteurs, des intégrateurs et des installateurs des systèmes de production industriels du secteur de l’énergie et de l’eau en France. **Annexe** : Liens et références Depuis plusieurs mois, l’Agence..."
     },
     {
+      "id": "fd0f53ed22ac",
+      "title": "Meta-PBS: Compact High-Precision Programmable Bootstrapping",
+      "link": "https://eprint.iacr.org/2025/2284",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-12-19T05:26:14+00:00",
+      "ts": 1766121974.0,
+      "summary": "Programmable bootstrapping (PBS) in TFHE is a powerful primitive for homomorphic lookup-table (LUT) evaluation, but its practical precision is limited to $O(\\sqrt{N})$ for RLWE dimension $N$. Existing solutions either enlarge the RLWE dimension or digit-decompose plaintexts before encryption, thus degrading either bootstrapping efficiency or the efficiency of downstream linear combinations. We pro"
+    },
+    {
       "id": "d89b8a28e282",
       "title": "HTTPS certificate industry phasing out less secure domain validation methods",
       "link": "http://security.googleblog.com/2025/12/https-certificate-industry-phasing-out.html",
@@ -1035,24 +1035,24 @@
       "summary": "Transport Layer Security (TLS) is the backbone of the web, allowing clients to establish secure and private channels with servers. DECO (CCS'20) and follow-up works proposed protocols that enable proving the provenance of a TLS response, i.e., that a payload came from a particular server, without needing server-side modifications. Unfortunately, these works are limited to proving Boolean statement"
     },
     {
-      "id": "9bdb1bb18979",
-      "title": "OMIX: Offline Mixing for Self-Tallying Elections",
-      "link": "https://eprint.iacr.org/2025/1232",
+      "id": "d7e4ebdeafea",
+      "title": "On the use of ECDSA with hierarchical public key delegation in identity-based scenarios",
+      "link": "https://eprint.iacr.org/2025/1334",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-07-02T20:46:52+00:00",
-      "ts": 1751489212.0,
-      "summary": "In e-voting, a mix-net is a widely used system for shuffling votes in order to guarantee voter privacy. The core principle is as follows: (1) N voters cast their votes; (2) a sequence of mix-servers shuffles the N encrypted ballots, thereby randomly permuting the underlying votes; and (3) trustees jointly decrypt the shuffled ballots to compute the tally. This approach, however, relies heavily on "
+      "published": "2025-07-21T19:05:09+00:00",
+      "ts": 1753124709.0,
+      "summary": "In 2009, Galindo and Garcia (Africacrypt) proposed the use of concatenated Schnorr signatures for hierarchical public key delegation, creating an efficient identity-based signature scheme (IBS). Essentially, the scheme builds upon the Schnorr signature scheme to generate a primary signature, part of which is then used as a secret key to produce signatures on subsequent messages. The resulting IBS "
     },
     {
-      "id": "d9950bf77af3",
-      "title": "A proof of P≠NP (New symmetric encryption algorithm against any linear attacks and differential attacks)",
-      "link": "https://eprint.iacr.org/2025/445",
+      "id": "8f00c9afc856",
+      "title": "An Efficient Framework for Collusion Resistant Multiparty FHE",
+      "link": "https://eprint.iacr.org/2025/965",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-03-08T18:06:39+00:00",
-      "ts": 1741457199.0,
-      "summary": "P vs NP problem is the most important unresolved problem in the field of computational complexity. Its impact has penetrated into all aspects of algorithm design, especially in the field of cryptography. The security of cryptographic algorithms based on short keys depends on whether P is equal to NP. In fact, the security requirements for cryptographic keys are much stricter than those for P$\\neq$"
+      "published": "2025-05-27T12:26:31+00:00",
+      "ts": 1748348791.0,
+      "summary": "Multiparty fully homomorphic encryption (MPFHE) is a generalization of (multi-key) fully homomorphic encryption ((MK)FHE) that lives on the cusp between multiparty computation (MPC) and FHE, enabling a computation over encrypted data using multiple keys. However, contrary to MKFHE, it seeks to reduce the noise inflation based on the number of parties by allowing the parties to first compute shared"
     },
     {
       "id": "e96acc02b675",
