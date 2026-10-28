@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T19:15:21.844702+00:00",
+  "generated_at": "2026-10-28T23:48:27.510432+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "c4fea4b43228",
+      "title": "An Algebraic Polynomial Evaluation Datastructure for Fields of Large Characteristic",
+      "link": "https://eprint.iacr.org/2026/2668",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-28T19:09:34+00:00",
+      "ts": 1793214574.0,
+      "summary": "In this work, we study (multivariate) polynomial evaluation datastructures, i.e. algorithms that can evaluate a multivariate polynomial at any input point, using random access to some precomputed encoding of the polynomial. Multiple constructions have been proposed in the literature, with the work by Bhargava, Ghosh, Guo, Kumar and Umans (2024) achieving optimal datastructure size and query comple"
+    },
     {
       "id": "167da7ba9482",
       "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
@@ -35,6 +45,26 @@
       "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google&nbsp;its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on"
     },
     {
+      "id": "7c70c1b83f2a",
+      "title": "Faster complete formulas and their application to curves with efficient endomorphisms",
+      "link": "https://eprint.iacr.org/2026/2667",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-28T16:41:42+00:00",
+      "ts": 1793205702.0,
+      "summary": "We revisit scalar multiplication on prime curves $y^2 = x^3 + b$ with $p \\equiv 1 \\pmod 3$, the family including secp256k1, BN, and BLS curves. We apply a 15-year-old technique in a novel way to improve the best complete addition from $12$ to $11$ multiplications (or $10$ for mixed coordinates) for the first time in 10 years: its final stage is a 3D cross product, which needs only five multiplicat"
+    },
+    {
+      "id": "ead20d0657a9",
+      "title": "PIR through the Lens of Probabilistic Inference",
+      "link": "https://eprint.iacr.org/2026/2669",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-28T16:37:55+00:00",
+      "ts": 1793205475.0,
+      "summary": "Private Information Retrieval (PIR) allows a client to retrieve an entry of a database while revealing no information about the requested index to the servers. Classic information-theoretic PIR protocols of Chor et al. (FOCS '95, JACM '98) and Ambainis (ICALP '97) achieve sublinear client computation and communication complexity with a constant number of servers, but require each server to perform"
+    },
+    {
       "id": "b107fbde7b54",
       "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
       "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
@@ -43,6 +73,16 @@
       "published": "2026-10-28T16:23:34+00:00",
       "ts": 1793204614.0,
       "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the&nbsp;Pwn2Own Berlin contest&nbsp;in May. Microsoft fixed the Edge bugs the day after the contest,"
+    },
+    {
+      "id": "eeeb817ae4ec",
+      "title": "Efficient SIMD SHAKE through Cost-Aware Permutation Scheduling",
+      "link": "https://eprint.iacr.org/2026/2666",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-28T16:11:14+00:00",
+      "ts": 1793203874.0,
+      "summary": "Lattice-based cryptography uses SHAKE to expand seeds into byte strings for matrix generation and sampling. SIMD Keccak implementations process multiple hash streams in parallel. Differences in stream lengths and input dependencies can prevent full SIMD utilization. We present a cost-aware method for scheduling Keccak permutations across hash streams during a single execution of a cryptographic al"
     },
     {
       "id": "5eb21d8e37ac",
@@ -55,6 +95,26 @@
       "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root"
     },
     {
+      "id": "d4387e647748",
+      "title": "Barriers to Identity-Based Encryption in Generic Group-Action Models",
+      "link": "https://eprint.iacr.org/2026/2670",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-28T13:30:39+00:00",
+      "ts": 1793194239.0,
+      "summary": "Identity-based encryption (IBE) is required to support a superpolynomial-size identity space using only polynomial-size public parameters. This compression requirement underlies known barriers to IBE in the generic (pairing-free) group model. Cryptographic group actions, motivated prominently by isogeny-based cryptography, support many advanced primitives beyond public-key encryption. However, no "
+    },
+    {
+      "id": "6b9aeb3ce19a",
+      "title": "Shor's algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days",
+      "link": "https://eprint.iacr.org/2026/2665",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-28T13:08:44+00:00",
+      "ts": 1793192924.0,
+      "summary": "We present an end-to-end resource estimation of Shor's algorithm on superconducting cat qubits, from its mathematical description to the allocation and scheduling of physical qubits on a chip layout. After proposing a comprehensive view of the modern versions of Shor's algorithm for RSA, ECDLP and FFDLP, we make explicit their logical circuits and the trade-offs they enable. We compile the dominan"
+    },
+    {
       "id": "40621be816ea",
       "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
       "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
@@ -63,6 +123,16 @@
       "published": "2026-10-28T12:48:03+00:00",
       "ts": 1793191683.0,
       "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical"
+    },
+    {
+      "id": "fa6201752318",
+      "title": "Beyond the Event Horizon of Keccak, Extending the Observation from 2011 and applications",
+      "link": "https://eprint.iacr.org/2026/2671",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-28T12:39:08+00:00",
+      "ts": 1793191148.0,
+      "summary": "In 2011 we observed that a single path in the Keccak sponge from a state whose capacity has all zero bits back to such a state yields an explicit, infinite family of second preimages for every message of at least one full rate block. Finding such a path costs about 2^(c/2), which lies \"beyond the event horizon\" for SHA3-256 (c=512). In this paper we give three novel theorems around that observatio"
     },
     {
       "id": "0315be857f0f",
@@ -173,26 +243,6 @@
       "published": "2026-10-28T05:42:26+00:00",
       "ts": 1793166146.0,
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in"
-    },
-    {
-      "id": "e637675cd1dc",
-      "title": "Quantum Multi-Collision Lower Bounds for Arbitrary Bounded Types",
-      "link": "https://eprint.iacr.org/2026/2663",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-28T03:47:29+00:00",
-      "ts": 1793159249.0,
-      "summary": "We study quantum collision finding for functions of prescribed exact type. For fixed constants $k\\ge r\\ge2$ and $N=kn$, consider functions $f:[N]\\to\\mathbb Z_q$ of type $(k^n)$, with exactly $n$ distinct output values and $k$ preimages for each value. We prove that the worst-case bounded-error quantum query complexity of finding $r$-collisions in $\\ell$ distinct equality classes is \\[ \\Theta_{k,r}"
-    },
-    {
-      "id": "bcf3c7dae547",
-      "title": "Tractable, Not Truncated: Colored-Noise TRNG Security via Fractional Brownian Motion",
-      "link": "https://eprint.iacr.org/2026/2662",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-27T18:01:36+00:00",
-      "ts": 1793124096.0,
-      "summary": "Oscillator-based true random number generators derive randomness from timing fluctuations driven by thermal and flicker noise, and flicker gains weight as technology advances and transistors shrink. Its long memory leaks information about past, which existing models either discard or truncate, overstating security. We introduce a rigorous and tractable framework for colored noise, including the wh"
     },
     {
       "id": "cf1c48c36c60",
@@ -423,16 +473,6 @@
       "published": "2026-10-21T00:00:00+00:00",
       "ts": 1792540800.0,
       "summary": "**[Mise à jour du 26 octobre 2026]** Le 23 octobre 2026, PHP a publié un avis de sécurité concernant la vulnérabilité CVE-2026-115560. Celle-ci permet une exécution de code arbitraire à distance. L'éditeur estime que les conditions d'exploitation exigent une combinaison d'options de configuration..."
-    },
-    {
-      "id": "bee4b46c9e69",
-      "title": "A New Approach to Reducing Modulus Requirements in Homomorphic Computation: Precision Allocation in CKKS",
-      "link": "https://eprint.iacr.org/2026/2562",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-20T12:56:59+00:00",
-      "ts": 1792501019.0,
-      "summary": "Fully homomorphic encryption (FHE) enables computation over encrypted data subject to the prescribed security and precision requirements (allowable deviations from ideal results). Among all FHE schemes, CKKS is a representative scheme for approximate arithmetic, allowing the same operation on multiple values packed into a single RLWE ciphertext. Reducing ciphertext modulus \\(Q\\) for given output p"
     },
     {
       "id": "d3ef535e3a2b",
@@ -685,16 +725,6 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
-      "id": "b002e8508dfc",
-      "title": "Faster Post-Quantum zkSNARK Provers Using the LCH Polynomial Basis",
-      "link": "https://eprint.iacr.org/2026/1784",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-23T19:00:18+00:00",
-      "ts": 1787511618.0,
-      "summary": "An important class of plausibly post-quantum zkSNARKs uses univariate-polynomial interactive oracle proofs (IOPs) over binary extension fields $\\mathbb{F}_{2^k}$, relying on the Fast Reed--Solomon (RS) Interactive Oracle Proof of Proximity (FRI) for low-degree testing. Their provers fold RS codewords in FRI and perform polynomial arithmetic, notably division and multiplication by subspace vanishin"
-    },
-    {
       "id": "bea5a06fb576",
       "title": "Everything is about to “go dark”",
       "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
@@ -805,16 +835,6 @@
       "summary": "The Lattice Isomorphism Problem (LIP) is a computational problem that has recently been introduced into cryptography and is believed to be hard. Its search version, Search Lattice Isomorphism Problem (SLIP), is considered even harder than the Shortest Vector Problem (SVP), yet its complexity is still not well understood. Haviv and Regev (SODA 2014) showed that the decisional version (DLIP) lies in"
     },
     {
-      "id": "a0516e6d3a67",
-      "title": "A gentle introduction to lattice-based cryptography",
-      "link": "https://eprint.iacr.org/2026/1098",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-29T13:08:16+00:00",
-      "ts": 1780060096.0,
-      "summary": "We present four quantum-safe schemes: the Kyber (ML-KEM) and FrodoKEM key encapsulation mechanisms, and the Dilithium (ML-DSA) and Falcon (FN-DSA) signature schemes. We also develop the mathematical background on lattices needed to understand why Kyber, FrodoKEM, Dilithium and Falcon are regarded as lattice-based cryptosystems, and we provide insight into the computational hardness of the underlyi"
-    },
-    {
       "id": "7990c40a74ab",
       "title": "Let’s talk about encrypted reasoning",
       "link": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
@@ -823,16 +843,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "170667a211b7",
-      "title": "Generic Construction of CCA-Secure PKE from Key-Insulated and Privacy-Preserving Signatures with Publicly Derived Public Key",
-      "link": "https://eprint.iacr.org/2026/922",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-10T23:56:40+00:00",
-      "ts": 1778457400.0,
-      "summary": "To enhance the security of stealth addresses and protect user privacy, Liu et al. (EuroS&amp;P 2019) proposed a Key-Insulated and Privacy-Preserving Signature Scheme with Publicly Derived Public Keys (PDPKS). In this scheme, the payee generates a master public/secret key pair, and the payer derives a public key from the payee's master public key and binds the cryptocurrency asset to the resulting "
     },
     {
       "id": "e867d3e3dacb",
@@ -1033,16 +1043,6 @@
       "published": "2025-07-01T13:08:06+00:00",
       "ts": 1751375286.0,
       "summary": "Enhanced Privacy Identification (EPID) is one of the anonymous authentication mechanisms that found their way into the industry, being deployed in billions of chips and standardized at ISO. The linchpin of EPID lies in its decentralized revocation procedure that allows to revoke a signer by simply placing one of its signatures on a signature revocation list SRL. Each new signature must then includ"
-    },
-    {
-      "id": "845bf5663c05",
-      "title": "Ring-LWR based Commitments and ZK-PoKs with Application to Verifiable Quantum-Safe Searchable Symmetric Encryption",
-      "link": "https://eprint.iacr.org/2025/1216",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-06-30T06:34:46+00:00",
-      "ts": 1751265286.0,
-      "summary": "Prior research on ensuring trust in delegated computation through lattice-based zero-knowledge proofs mostly rely on Learning-With-Errors (LWE) assumption. In this work, we propose a zero-knowledge proof of knowledge using the Ring Learning with Rounding (RLWR) assumption for an interesting and useful class of statements: linear relations on polynomials. We begin by proposing, to the best of our k"
     },
     {
       "id": "8e1cc879efb6",
