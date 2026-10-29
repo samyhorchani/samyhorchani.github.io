@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T23:48:27.510432+00:00",
+  "generated_at": "2026-10-29T03:56:22.310483+00:00",
   "count": 105,
   "errors": [
     {
@@ -263,6 +263,16 @@
       "published": "2026-10-26T11:03:31+00:00",
       "ts": 1793012611.0,
       "summary": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model&#8217;s weights, and that removing the model&#8217;s CCP alignment removes it. One word tilts the code against Americans. Ask for"
+    },
+    {
+      "id": "95cfb07a9022",
+      "title": "Private Information Retrieval with Accountability at Erasure-Optimal Server Redundancy",
+      "link": "https://eprint.iacr.org/2026/2639",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-26T02:11:06+00:00",
+      "ts": 1792980666.0,
+      "summary": "Private information retrieval (PIR) hides which database item a client requests. We study PIR that also identifies servers that respond incorrectly. Against a coalition of at most $t$ corrupted servers, the client must retrieve the item and identify every deviating server when at most $d$ deviate. Above that threshold, it must abort and return an empty identification set, with a specified statisti"
     },
     {
       "id": "9f6d33d7e531",
@@ -803,16 +813,6 @@
       "published": "2026-07-13T11:00:00+00:00",
       "ts": 1783940400.0,
       "summary": "We’ve added a new chapter to our Testing Handbook: a comprehensive guide to security testing Rust programs. This chapter covers the tools and techniques we use at Trail of Bits to validate the security of Rust programs and systems. fn main() {(|f:&amp;dyn Fn(u128)-&gt;Box&lt; dyn Iterator&lt;Item= char&gt;+'static&gt;|f(*[&amp;( 0x7B736D70683F73u128&lt;&lt;64| 0x7A6A6D7C3F7A667D),&amp;(0x7B736Du12"
-    },
-    {
-      "id": "d9201db3a3dd",
-      "title": "Principles for pRHL Proofs of Cryptographic Protocols: How to Convince EasyCrypt that your Protocol is Secure",
-      "link": "https://eprint.iacr.org/2026/1334",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-29T08:03:15+00:00",
-      "ts": 1782720195.0,
-      "summary": "The EasyCrypt proof assistant has been used to successfully formalize security proofs for a wide variety of cryptographic primitives. However, attempts at formalizing objects with interactivity, such as protocols, have fared much worse. In this paper, we investigate (some of) the reasons for this difficulty. To identify which proof features contribute most to the complexity of formalization in a t"
     },
     {
       "id": "09b719e50e41",
