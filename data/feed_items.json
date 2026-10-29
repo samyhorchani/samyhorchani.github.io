@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T03:56:22.310483+00:00",
+  "generated_at": "2026-10-29T10:41:56.861509+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "5d7247422dd1",
+      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-29T08:24:22+00:00",
+      "ts": 1793262262.0,
+      "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they"
+    },
+    {
+      "id": "c727f417e881",
+      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-29T06:22:33+00:00",
+      "ts": 1793254953.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:"
+    },
+    {
+      "id": "601492545b6a",
+      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+      "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-29T05:50:17+00:00",
+      "ts": 1793253017.0,
+      "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory. The vulnerabilities, tracked as"
+    },
     {
       "id": "c4fea4b43228",
       "title": "An Algebraic Polynomial Evaluation Datastructure for Fields of Large Characteristic",
@@ -105,16 +135,6 @@
       "summary": "Identity-based encryption (IBE) is required to support a superpolynomial-size identity space using only polynomial-size public parameters. This compression requirement underlies known barriers to IBE in the generic (pairing-free) group model. Cryptographic group actions, motivated prominently by isogeny-based cryptography, support many advanced primitives beyond public-key encryption. However, no "
     },
     {
-      "id": "6b9aeb3ce19a",
-      "title": "Shor's algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days",
-      "link": "https://eprint.iacr.org/2026/2665",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-28T13:08:44+00:00",
-      "ts": 1793192924.0,
-      "summary": "We present an end-to-end resource estimation of Shor's algorithm on superconducting cat qubits, from its mathematical description to the allocation and scheduling of physical qubits on a chip layout. After proposing a comprehensive view of the modern versions of Shor's algorithm for RSA, ECDLP and FFDLP, we make explicit their logical circuits and the trade-offs they enable. We compile the dominan"
-    },
-    {
       "id": "40621be816ea",
       "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
       "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
@@ -123,16 +143,6 @@
       "published": "2026-10-28T12:48:03+00:00",
       "ts": 1793191683.0,
       "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical"
-    },
-    {
-      "id": "fa6201752318",
-      "title": "Beyond the Event Horizon of Keccak, Extending the Observation from 2011 and applications",
-      "link": "https://eprint.iacr.org/2026/2671",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-28T12:39:08+00:00",
-      "ts": 1793191148.0,
-      "summary": "In 2011 we observed that a single path in the Keccak sponge from a state whose capacity has all zero bits back to such a state yields an explicit, infinite family of second preimages for every message of at least one full rate block. Finding such a path costs about 2^(c/2), which lies \"beyond the event horizon\" for SHA3-256 (c=512). In this paper we give three novel theorems around that observatio"
     },
     {
       "id": "0315be857f0f",
@@ -215,36 +225,6 @@
       "summary": "Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service&nbsp;hosts Windows desktops&nbsp;used for FX trading,"
     },
     {
-      "id": "56ccc78fd561",
-      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-      "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-28T06:20:37+00:00",
-      "ts": 1793168437.0,
-      "summary": "Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch. The flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must"
-    },
-    {
-      "id": "10fdb03cd3bf",
-      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-      "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-28T06:04:58+00:00",
-      "ts": 1793167498.0,
-      "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address"
-    },
-    {
-      "id": "115edb4be8d6",
-      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-      "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-28T05:42:26+00:00",
-      "ts": 1793166146.0,
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in"
-    },
-    {
       "id": "cf1c48c36c60",
       "title": "Hiding Capabilities in AI Models",
       "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
@@ -253,6 +233,16 @@
       "published": "2026-10-27T11:01:26+00:00",
       "ts": 1793098886.0,
       "summary": "Interesting research: &#8220;AI Models Can Provably Hide Arbitrary Capabilities&#8221; Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural ne"
+    },
+    {
+      "id": "12b25efc12aa",
+      "title": "Analyzing Compiler-induced Constant-time Violations with Compiler at Scale",
+      "link": "https://eprint.iacr.org/2026/2653",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-26T21:06:42+00:00",
+      "ts": 1793048802.0,
+      "summary": "The constant-time programming policy is a de facto standard for cryptographic libraries to prevent timing side-channel attacks. However, compiler optimizations may break constant-time source code during compilation. Systematically preventing this requires understanding where a violation arises, how it is introduced, and which compiler configurations are problematic. Existing approaches analyze a s"
     },
     {
       "id": "b74197fe2cc7",
@@ -475,6 +465,16 @@
       "summary": "There&#8217;s a new archive of all the papers from twenty-five years of the Workshop on Economics and Information Security (WEIS). Really nice resource. It&#8217;s fun to reread my 2002 essay on the economics of information security."
     },
     {
+      "id": "8cb362e497d4",
+      "title": "RDK-CKKS: A Framework for Rigorous Error Analysis of CKKS Computation",
+      "link": "https://eprint.iacr.org/2026/2575",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-21T02:14:58+00:00",
+      "ts": 1792548898.0,
+      "summary": "The CKKS scheme allows approximate arithmetic on encrypted data, and has found widespread use in privacy-preserving computation. A rigorous control of its homomorphic error is critical for both precision and security guarantees. In particular, in some settings such as IND-CPA^D or threshold settings, the latter computation error should be hidden at the time of decryption. This is achieved by noise"
+    },
+    {
       "id": "f6fa0ed43042",
       "title": "[Màj] Multiples vulnérabilités dans PHP (21 octobre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-014/",
@@ -635,14 +635,14 @@
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
     },
     {
-      "id": "c3ba7b545f4c",
-      "title": "Capacity-Approaching Pseudorandom Code for Stochastic Edit Channels",
-      "link": "https://eprint.iacr.org/2026/2179",
+      "id": "91e94d2fec44",
+      "title": "ReedWeave: Faster Reed-Solomon Polynomial Commitments from Interleaving and Folding",
+      "link": "https://eprint.iacr.org/2026/2147",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-23T13:11:54+00:00",
-      "ts": 1790169114.0,
-      "summary": "Pseudorandom codes (PRCs) are error-correcting codes whose codewords are computationally indistinguishable from uniformly random strings to any efficient adversary. We study public-key multi-bit PRCs over the stochastic memoryless binary substitution-insertion-deletion channel and its $q$-ary generalization. Here $P_i,P_d$ are the insertion and deletion probabilities, and $P_s$ is the substitution"
+      "published": "2026-09-22T04:13:03+00:00",
+      "ts": 1790050383.0,
+      "summary": "Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly. Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its follow-up works achieve polylogarithmic proofs by recursively ``folding'' Reed-Solomon (RS) codes. However, their concrete evaluation costs remain relatively high, as the first few folding rounds operat"
     },
     {
       "id": "71c4a4caf94f",
@@ -675,16 +675,6 @@
       "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off"
     },
     {
-      "id": "80dd42fca666",
-      "title": "Hamming Ideals and Grobner Bases for ISD-like Syndrome Decoding",
-      "link": "https://eprint.iacr.org/2026/2062",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-16T15:30:55+00:00",
-      "ts": 1789572655.0,
-      "summary": "We investigate an algebraic approach to the Syndrome Decoding Problem, based on a reformulation of the Hamming weight constraint and its integration with the Information Set Decoding paradigm. We begin with a systematic analysis of the Hamming variety, deriving its defining equations in terms of elementary symmetric functions. Since these equations may have high degree, we exploit convolution iden"
-    },
-    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -693,6 +683,16 @@
       "published": "2026-09-15T11:00:00+00:00",
       "ts": 1789470000.0,
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
+    },
+    {
+      "id": "d0fd49955de5",
+      "title": "More Efficient Secret-Shared Joins with Multiplicity via Oblivious Sort Expansion",
+      "link": "https://eprint.iacr.org/2026/1957",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-10T03:28:23+00:00",
+      "ts": 1789010903.0,
+      "summary": "Secret-shared SQL-style join is a fundamental building block in secure collaborative data analysis. In practice, join operations frequently involve duplicate keys, giving rise to one-to-many (Join-OM) and many-to-many (Join-MM) relationships. Supporting such joins requires obliviously materializing all matching row pairs. Existing protocols achieve this in two costly ways: they either perform obli"
     },
     {
       "id": "0c016fa822b6",
@@ -825,16 +825,6 @@
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
     },
     {
-      "id": "ae1f478235b5",
-      "title": "Exploiting the complexity of Lattice Isomorphism Problem via Irreducible Decomposition",
-      "link": "https://eprint.iacr.org/2026/1139",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-02T12:23:27+00:00",
-      "ts": 1780403007.0,
-      "summary": "The Lattice Isomorphism Problem (LIP) is a computational problem that has recently been introduced into cryptography and is believed to be hard. Its search version, Search Lattice Isomorphism Problem (SLIP), is considered even harder than the Shortest Vector Problem (SVP), yet its complexity is still not well understood. Haviv and Regev (SODA 2014) showed that the decisional version (DLIP) lies in"
-    },
-    {
       "id": "7990c40a74ab",
       "title": "Let’s talk about encrypted reasoning",
       "link": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
@@ -953,6 +943,16 @@
       "published": "2026-02-19T17:00:00+00:00",
       "ts": 1771520400.0,
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
+    },
+    {
+      "id": "57c65d5834d2",
+      "title": "Knowledge Soundness of Polynomial Commitments in the Algebraic Group Model Does Not Guarantee Extractability",
+      "link": "https://eprint.iacr.org/2026/284",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-17T06:38:28+00:00",
+      "ts": 1771310308.0,
+      "summary": "The Algebraic Group Model (AGM) has become a standard framework for analyzing the knowledge soundness of group-based polynomial commitment schemes. In this work, we formally establish inherent limitations of this methodology. For many PCSs analyzed in the AGM, the algebraic explanation directly determines a polynomial and any required randomness that together reproduce the commitment. We call this"
     },
     {
       "id": "96ed87c2cba3",
