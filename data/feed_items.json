@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:27:24.913270+00:00",
+  "generated_at": "2026-10-30T21:18:48.491402+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "b912b4f04d6b",
+      "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
+      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-10-30T21:04:36+00:00",
+      "ts": 1793394276.0,
+      "summary": "Neat video: The sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
+    },
+    {
+      "id": "44030d8d6b5f",
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-30T16:58:44+00:00",
+      "ts": 1793379524.0,
+      "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in"
+    },
+    {
       "id": "7693f0a92586",
       "title": "Bloatware in Aftermarket Auto Parts",
       "link": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
@@ -23,6 +43,26 @@
       "published": "2026-10-30T15:20:02+00:00",
       "ts": 1793373602.0,
       "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware&#8212;­or spyware, if you’re being less charitable­&#8212;was a voice assistant equipped with WebView, an Android syste"
+    },
+    {
+      "id": "fbbdffd12642",
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-30T15:17:28+00:00",
+      "ts": 1793373448.0,
+      "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run"
+    },
+    {
+      "id": "4a07d5c0a457",
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-30T14:08:14+00:00",
+      "ts": 1793369294.0,
+      "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October"
     },
     {
       "id": "f2f2ab270786",
@@ -143,36 +183,6 @@
       "published": "2026-10-29T11:39:41+00:00",
       "ts": 1793273981.0,
       "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or"
-    },
-    {
-      "id": "15c27317e382",
-      "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-      "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-29T11:39:18+00:00",
-      "ts": 1793273958.0,
-      "summary": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29. Combined with an"
-    },
-    {
-      "id": "1011b1ba6b30",
-      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-      "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-29T11:33:41+00:00",
-      "ts": 1793273621.0,
-      "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how"
-    },
-    {
-      "id": "a5fbfd48b8b6",
-      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-      "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-29T11:33:15+00:00",
-      "ts": 1793273595.0,
-      "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&nbsp;reported the results&nbsp;on October 28. Most were keys for cloud and AI services, led by"
     },
     {
       "id": "4fd67dce1302",
@@ -453,16 +463,6 @@
       "published": "2026-10-19T13:48:56+00:00",
       "ts": 1792417736.0,
       "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters op"
-    },
-    {
-      "id": "454556017121",
-      "title": "Training AIs to Solve CAPTCHAs",
-      "link": "https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-19T11:07:43+00:00",
-      "ts": 1792408063.0,
-      "summary": "Interesting research: Abstract: Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in milliseconds but only for categories they were "
     },
     {
       "id": "899922afef75",
