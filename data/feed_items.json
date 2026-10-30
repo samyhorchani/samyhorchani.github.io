@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:19:55.056786+00:00",
+  "generated_at": "2026-10-30T02:20:21.312719+00:00",
   "count": 105,
   "errors": [
     {
@@ -153,16 +153,6 @@
       "published": "2026-10-29T05:50:17+00:00",
       "ts": 1793253017.0,
       "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory. The vulnerabilities, tracked as"
-    },
-    {
-      "id": "c4fea4b43228",
-      "title": "An Algebraic Polynomial Evaluation Datastructure for Fields of Large Characteristic",
-      "link": "https://eprint.iacr.org/2026/2668",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-28T19:09:34+00:00",
-      "ts": 1793214574.0,
-      "summary": "In this work, we study (multivariate) polynomial evaluation datastructures, i.e. algorithms that can evaluate a multivariate polynomial at any input point, using random access to some precomputed encoding of the polynomial. Multiple constructions have been proposed in the literature, with the work by Bhargava, Ghosh, Guo, Kumar and Umans (2024) achieving optimal datastructure size and query comple"
     },
     {
       "id": "167da7ba9482",
@@ -1055,14 +1045,24 @@
       "summary": "Adaptor signatures extend the functionality of digital signatures by enabling the computation of pre-signatures on messages relative to statements in NP relations. Pre-signatures are publicly verifiable objects that simultaneously hide and commit to a standard signature on the same message. Anyone possessing a valid witness for the statement can adapt the pre-signature into a full signature under "
     },
     {
-      "id": "b5adcbdfd78b",
-      "title": "ACORN-QRE: Specification and Analysis of a Method of Generating Secure One-time Pads for Use in Encryption",
-      "link": "https://eprint.iacr.org/2023/1080",
+      "id": "b3b54443c2c7",
+      "title": "How To Think About End-To-End Encryption and AI: Training, Processing, Disclosure, and Consent",
+      "link": "https://eprint.iacr.org/2024/2086",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2023-07-11T13:47:52+00:00",
-      "ts": 1689083272.0,
-      "summary": "REAMC Report-007(2023) ACORN-QRE: Specification and Analysis of a Method of Generating Secure One-time Pads for Use in Encryption Roy S Wikramaratna (email: rwikramaratna@gmail.com) Abstract The Additive Congruential Random Number (ACORN) generator is straightforward to implement; it has been demonstrated in previous papers to give rise to sequences with long period which can be proven from theore"
+      "published": "2024-12-27T20:08:40+00:00",
+      "ts": 1735330120.0,
+      "summary": "End-to-end encryption (E2EE) has become the gold standard for securing communications, bringing strong confidentiality and privacy guarantees to billions of users worldwide. However, the current push towards widespread integration of artificial intelligence (AI) models, including in E2EE systems, raises some serious security concerns. This work performs a critical examination of the (in)compatibil"
+    },
+    {
+      "id": "0c286c53cec9",
+      "title": "Indistinguishability Obfuscation via Mathematical Proofs of Equivalence",
+      "link": "https://eprint.iacr.org/2022/1430",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2022-10-20T21:35:30+00:00",
+      "ts": 1666301730.0,
+      "summary": "Over the last decade, indistinguishability obfuscation (iO) has emerged as a seemingly omnipotent primitive in cryptography. Moreover, recent breakthrough work has demonstrated that iO can be realized from well-founded assumptions. A thorn to all this remarkable progress is a limitation of all known constructions of general-purpose iO: the security reduction incurs a loss that is exponential in th"
     }
   ]
 }
