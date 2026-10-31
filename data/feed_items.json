@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T01:21:33.729118+00:00",
+  "generated_at": "2026-10-31T07:53:10.782988+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "cb515fc655c4",
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-31T05:33:41+00:00",
+      "ts": 1793424821.0,
+      "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed. The researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbsp;on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category."
+    },
+    {
+      "id": "bfa785581bea",
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-10-31T04:56:12+00:00",
+      "ts": 1793422572.0,
+      "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44"
+    },
     {
       "id": "b912b4f04d6b",
       "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
@@ -163,26 +183,6 @@
       "published": "2026-10-29T15:20:29+00:00",
       "ts": 1793287229.0,
       "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called"
-    },
-    {
-      "id": "42c93f956cc3",
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-29T13:42:40+00:00",
-      "ts": 1793281360.0,
-      "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and"
-    },
-    {
-      "id": "f2e83f374782",
-      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-      "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-29T11:39:41+00:00",
-      "ts": 1793273981.0,
-      "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or"
     },
     {
       "id": "4fd67dce1302",
@@ -335,16 +335,6 @@
       "summary": "Une vulnérabilité a été découverte dans les produits Palo Alto Networks. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
     },
     {
-      "id": "60d460a42f3a",
-      "title": "HELLO, GOODBYE: Concurrent General Composition From Super-Rushing Security",
-      "link": "https://eprint.iacr.org/2026/2651",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-26T18:23:06+00:00",
-      "ts": 1793038986.0,
-      "summary": "Kushilevitz, Lindell, and Rabin (STOC `06, SIAM Journal on Computing `10), in their seminal result, showed that any standalone-secure synchronous multiparty computation (MPC) protocol can be compiled into one secure under concurrent general composition, by adding a synchronisation step after every round; thereby, at least doubling the round complexity. We show that for protocols that are secure ag"
-    },
-    {
       "id": "b74197fe2cc7",
       "title": "Bias in Qwen3-Coder Model",
       "link": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
@@ -353,6 +343,16 @@
       "published": "2026-10-26T11:03:31+00:00",
       "ts": 1793012611.0,
       "summary": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model&#8217;s weights, and that removing the model&#8217;s CCP alignment removes it. One word tilts the code against Americans. Ask for"
+    },
+    {
+      "id": "c3ae7226689b",
+      "title": "Exact Error Bootstrapping and Comb Bootstrapping in FHEW/TFHE",
+      "link": "https://eprint.iacr.org/2026/2630",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-24T18:05:42+00:00",
+      "ts": 1792865142.0,
+      "summary": "In FHEW and TFHE, bootstrapping evaluates the decryption function via a blind rotation, whose resolution limits the message space. We propose instead to bootstrap the \\emph{error}. By rounding the ciphertext at a resolution that is a multiple of the message modulus, we preserve the message exactly. Reduction modulo a small integer then yields a noise-free encryption of the error, which a single bl"
     },
     {
       "id": "f995d6cab4ff",
