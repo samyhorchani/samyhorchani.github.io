@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T14:11:52.489193+00:00",
+  "generated_at": "2026-10-31T18:59:49.909728+00:00",
   "count": 105,
   "errors": [
     {
@@ -495,16 +495,6 @@
       "summary": "I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed1, fewer than half used lockfiles that checked for tam"
     },
     {
-      "id": "e69ce857ddda",
-      "title": "Snapshots of TEE-Based Encrypted Databases Leak Plaintext Histograms via Dendrochronology",
-      "link": "https://eprint.iacr.org/2026/2465",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-13T23:42:31+00:00",
-      "ts": 1791934951.0,
-      "summary": "Arborists use dendrochronology, or the study of tree \"growth rings\" (as in, the plant), to infer past environmental events. We identify an analogous, exploitable phenomenon in the indexes used by several encrypted databases (EDBs) based on trusted execution environments (TEEs). Such EDBs have been shown to leak the order of indexed values, but not the histogram (or frequency of each value), with r"
-    },
-    {
       "id": "c5a36601271c",
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
@@ -693,6 +683,16 @@
       "published": "2026-08-14T20:17:59+00:00",
       "ts": 1786738679.0,
       "summary": "I&#8217;m coming down from spending a few days at Usenix Security, right here in my hometown of Baltimore. This means that my days have been taken up with two kinds of conversation: first, explaining to colleagues why Baltimore isn&#8217;t actually like The Wire. And second, trying not to talk about AI. Here I&#8217;m going to &#8230; Continue reading Everything is about to &#8220;go&#160;dark&#82"
+    },
+    {
+      "id": "ef493631fa20",
+      "title": "MinMandate: Task-Hiding Payment Authorization for Web Agents",
+      "link": "https://eprint.iacr.org/2026/1674",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-13T08:30:10+00:00",
+      "ts": 1786609810.0,
+      "summary": "AI agents increasingly pay for Web services on behalf of their users to complete complex tasks. Such a task needs many payments, and the user usually must approve each one, forcing the agent to stop at every payment. Mechanisms such as the Agent Payments Protocol (AP2) therefore enable the user to sign one payment mandate in advance that bounds the agent's payments for the task. However, whoever c"
     },
     {
       "id": "bc128d0703d3",
