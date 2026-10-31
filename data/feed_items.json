@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T21:18:48.491402+00:00",
+  "generated_at": "2026-10-31T01:21:33.729118+00:00",
   "count": 105,
   "errors": [
     {
@@ -335,16 +335,6 @@
       "summary": "Une vulnérabilité a été découverte dans les produits Palo Alto Networks. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
     },
     {
-      "id": "12b25efc12aa",
-      "title": "Analyzing Compiler-induced Constant-time Violations with Compiler at Scale",
-      "link": "https://eprint.iacr.org/2026/2653",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-26T21:06:42+00:00",
-      "ts": 1793048802.0,
-      "summary": "The constant-time programming policy is a de facto standard for cryptographic libraries to prevent timing side-channel attacks. However, compiler optimizations may break constant-time source code during compilation. Systematically preventing this requires understanding where a violation arises, how it is introduced, and which compiler configurations are problematic. Existing approaches analyze a s"
-    },
-    {
       "id": "60d460a42f3a",
       "title": "HELLO, GOODBYE: Concurrent General Composition From Super-Rushing Security",
       "link": "https://eprint.iacr.org/2026/2651",
@@ -663,6 +653,16 @@
       "published": "2026-09-08T21:44:22+00:00",
       "ts": 1788903862.0,
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
+    },
+    {
+      "id": "e6030ec23de5",
+      "title": "Complexity Analysis and Security Implications of the New Isogeny-Path Algorithm",
+      "link": "https://eprint.iacr.org/2026/1821",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-27T15:45:18+00:00",
+      "ts": 1787845518.0,
+      "summary": "Very recently, Wesolowski (ePrint 2026/1486) proposed a novel heuristic algorithm for solving the supersingular isogeny-path problem in time and memory \\(p^{1/3+o(1)}\\), where \\(p\\) is the characteristic of the underlying field. Although this improves asymptotically on the previous \\(p^{1/2}\\log^{O(1)}(p)\\) complexity, its concrete impact on isogeny-based schemes, particularly SQIsign, remains unc"
     },
     {
       "id": "cf95a2724618",
