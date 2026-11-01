@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T15:41:08.592157+00:00",
+  "generated_at": "2026-11-01T20:04:12.613247+00:00",
   "count": 105,
   "errors": [
     {
@@ -795,6 +795,16 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
+      "id": "a6ef80b7eb1c",
+      "title": "Privacy Coins Under Viewing Key Compromise",
+      "link": "https://eprint.iacr.org/2026/872",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-05T06:02:58+00:00",
+      "ts": 1777960978.0,
+      "summary": "Anonymity guarantees of privacy-oriented cryptocurrencies are garnering negative attention from lawmakers who view them as antinomic to accountability. Having recognized their potential for innovation, however, regulators may not want to outright ban privacy coins but instead seek a middle ground where financial oversight is effective, and still some privacy is maintained. Mature designs, such as "
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -1053,16 +1063,6 @@
       "published": "2023-07-11T13:47:52+00:00",
       "ts": 1689083272.0,
       "summary": "REAMC Report-007(2023) [Reissued October 2026 with modified licence CC BY-NC-ND; no other changes] ACORN-QRE: Specification and Analysis of a Method of Generating Secure One-time Pads for Use in Encryption Roy S Wikramaratna (email: rwikramaratna@gmail.com) Abstract The Additive Congruential Random Number (ACORN) generator is straightforward to implement; it has been demonstrated in previous paper"
-    },
-    {
-      "id": "0c286c53cec9",
-      "title": "Indistinguishability Obfuscation via Mathematical Proofs of Equivalence",
-      "link": "https://eprint.iacr.org/2022/1430",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2022-10-20T21:35:30+00:00",
-      "ts": 1666301730.0,
-      "summary": "Over the last decade, indistinguishability obfuscation (iO) has emerged as a seemingly omnipotent primitive in cryptography. Moreover, recent breakthrough work has demonstrated that iO can be realized from well-founded assumptions. A thorn to all this remarkable progress is a limitation of all known constructions of general-purpose iO: the security reduction incurs a loss that is exponential in th"
     }
   ]
 }
