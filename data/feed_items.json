@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T08:35:08.953625+00:00",
+  "generated_at": "2026-11-01T15:41:08.592157+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,6 +15,16 @@
   ],
   "items": [
     {
+      "id": "05614925244f",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-01T08:51:31+00:00",
+      "ts": 1793523091.0,
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is"
+    },
+    {
       "id": "1c97245bf814",
       "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
       "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
@@ -25,6 +35,16 @@
       "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says&nbsp;it is refunding about $2.7 million to 726 affected wallets.&nbsp;Blockchain records&nbsp;show crypto worth about $2.64 million reached"
     },
     {
+      "id": "4cdce425eb3d",
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-01T07:03:00+00:00",
+      "ts": 1793516580.0,
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it"
+    },
+    {
       "id": "1229dba41a62",
       "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
       "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
@@ -33,16 +53,6 @@
       "published": "2026-11-01T07:02:58+00:00",
       "ts": 1793516578.0,
       "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed"
-    },
-    {
-      "id": "4cdce425eb3d",
-      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-      "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-01T06:44:27+00:00",
-      "ts": 1793515467.0,
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it"
     },
     {
       "id": "aebc699ab283",
@@ -175,14 +185,24 @@
       "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut"
     },
     {
-      "id": "fc52a01c9c40",
-      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-      "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-30T07:45:30+00:00",
-      "ts": 1793346330.0,
-      "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart"
+      "id": "37164bffd589",
+      "title": "SoK: Multiple Concurrent Proposer Blockchains",
+      "link": "https://eprint.iacr.org/2026/2684",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-29T12:55:01+00:00",
+      "ts": 1793278501.0,
+      "summary": "Multiple concurrent proposer (MCP) protocols let several parties contribute transactions to the same ledger update. They can distribute communication and reduce one proposer's control over inclusion and order, but these benefits depend on how the contributions are combined. We describe a common architecture from transaction receipt through proposal formation, agreement, data recovery, ordering, ex"
+    },
+    {
+      "id": "4782e08643a9",
+      "title": "Optimality and Efficiency of Higher-Order Rank-Based Side-Channel Attacks against Inner Product Masking Schemes",
+      "link": "https://eprint.iacr.org/2026/2676",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-29T06:36:12+00:00",
+      "ts": 1793255772.0,
+      "summary": "Higher-Order Spearman Coefficient Analysis (HO-SPA) is of particular interest in non-profiling Side-Channel Attacks (SCA) due to its effectiveness against monotonic nonlinear leakage. However, the optimal form, effective order combinations, and performance of HO-SPA (or its variants) remain underexplored. This work systematically revisits HO-SPA in the presence of Boolean Masking (BM) and Inner Pr"
     },
     {
       "id": "4fd67dce1302",
@@ -815,6 +835,16 @@
       "summary": "Posted by Ben Ackerman, Chrome team, Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team Following our April 2024 announcement, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to comba"
     },
     {
+      "id": "c819c397046f",
+      "title": "The Information-Theoretic Limits of Hiding Among Decoys in the Shuffle Model",
+      "link": "https://eprint.iacr.org/2026/667",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-06T09:42:31+00:00",
+      "ts": 1775468551.0,
+      "summary": "Hiding a genuine message among plausible decoys is a recurring principle in cryptography and privacy, underlying honeywords, symmetric encryption, and anonymous data collection. We study the information-theoretic security of mechanisms that release a uniformly shuffled sequence containing one genuine message and $n-1$ decoys over a $d$-symbol alphabet. We characterize how restrictions on decoy gen"
+    },
+    {
       "id": "d305b2065812",
       "title": "Google Workspace’s continuous approach to mitigating indirect prompt injections",
       "link": "http://security.googleblog.com/2026/04/google-workspaces-continuous-approach.html",
@@ -875,16 +905,6 @@
       "summary": "Posted by Chrome Secure Web and Networking Team Today we're announcing a new program in Chrome to make HTTPS certificates secure against quantum computers. The Internet Engineering Task Force (IETF) recently created a working group, PKI, Logs, And Tree Signatures (“PLANTS”), aiming to address the performance and bandwidth challenges that the increased size of quantum-resistant cryptography introdu"
     },
     {
-      "id": "c1a6718af14a",
-      "title": "How To Make Delegated Payments on Bitcoin: A Question for the AI Agentic Future",
-      "link": "https://eprint.iacr.org/2026/395",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-26T11:13:11+00:00",
-      "ts": 1772104391.0,
-      "summary": "AI agents and custodial services are increasingly being entrusted as intermediaries to conduct transactions on behalf of institutions. The stakes are high: The digital asset market is projected to exceed \\$16 trillion by 2030, where exchanges often involve proprietary, time-sensitive goods. Although industry efforts like Google’s Agent-to-Payments (AP2) protocol standardize how agents authorize pa"
-    },
-    {
       "id": "23058dc44ece",
       "title": "Staying One Step Ahead: Strengthening Android’s Lead in Scam Protection",
       "link": "http://security.googleblog.com/2026/02/strengthening-android-lead-in-scam-protection.html",
@@ -913,6 +933,16 @@
       "published": "2026-02-13T08:44:18+00:00",
       "ts": 1770972258.0,
       "summary": "An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client, who holds a raw password, and a server, who holds a one-way mapping of the password, to jointly establish a cryptographically strong session key, without an authenticated channel. The standard security definition for aPAKE is in the Universal Composability (UC) framework. Despite its great potential of being used i"
+    },
+    {
+      "id": "44c6f51864a0",
+      "title": "Sharing a Secret Anamorphically: Secret Shares Disguised as Signatures",
+      "link": "https://eprint.iacr.org/2026/236",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-12T13:46:38+00:00",
+      "ts": 1770903998.0,
+      "summary": "Anamorphic Encryption (Persiano, Phan and Yung, Eurocrypt '22) allows private communication in a challenging setting where encryption is severely controlled by a central authority (henceforth the dictator) who can demand the users to surrender their secret keys. Anamorphic Signatures (AS) (Kutylowski, Persiano, Phan, Yung, Zawada, Crypto '23) face the even more restrictive world where only authent"
     },
     {
       "id": "96ed87c2cba3",
@@ -985,16 +1015,6 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
-      "id": "2e07bfbb2884",
-      "title": "Fully Adaptive FROST with Identifiable Aborts from AOMDL",
-      "link": "https://eprint.iacr.org/2025/1950",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-10-19T00:34:30+00:00",
-      "ts": 1760834070.0,
-      "summary": "We present FaFROST+, the first two-round Schnorr threshold signature scheme achieving full adaptive security under the Algebraic One-More Discrete Logarithm (AOMDL) assumption with identifiable aborts. Building on the FROST framework, FaFROST+ preserves its communication efficiency while dispensing with the LDVR assumption introduced at CRYPTO'25. Our result demonstrates that round-optimal adaptiv"
-    },
-    {
       "id": "8d8cabaa595f",
       "title": "Just How Secure is SRP, Really?",
       "link": "https://eprint.iacr.org/2025/1869",
@@ -1023,26 +1043,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "0f5c89f0e149",
-      "title": "Universally Composable Adaptor Signatures",
-      "link": "https://eprint.iacr.org/2025/1363",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-07-25T16:00:31+00:00",
-      "ts": 1753459231.0,
-      "summary": "Adaptor signatures extend the functionality of digital signatures by enabling the computation of pre-signatures on messages relative to statements in NP relations. Pre-signatures are publicly verifiable objects that simultaneously hide and commit to a standard signature on the same message. Anyone possessing a valid witness for the statement can adapt the pre-signature into a full signature under "
-    },
-    {
-      "id": "b3b54443c2c7",
-      "title": "How To Think About End-To-End Encryption and AI: Training, Processing, Disclosure, and Consent",
-      "link": "https://eprint.iacr.org/2024/2086",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-12-27T20:08:40+00:00",
-      "ts": 1735330120.0,
-      "summary": "End-to-end encryption (E2EE) has become the gold standard for securing communications, bringing strong confidentiality and privacy guarantees to billions of users worldwide. However, the current push towards widespread integration of artificial intelligence (AI) models, including in E2EE systems, raises some serious security concerns. This work performs a critical examination of the (in)compatibil"
     },
     {
       "id": "b5adcbdfd78b",
