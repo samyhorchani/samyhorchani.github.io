@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:09:01.015594+00:00",
+  "generated_at": "2026-11-02T07:04:46.070379+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "5760f0c19ba2",
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-02T05:51:07+00:00",
+      "ts": 1793598667.0,
+      "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;"
+    },
     {
       "id": "05614925244f",
       "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
@@ -42,7 +52,7 @@
       "category": "veille",
       "published": "2026-11-01T07:03:00+00:00",
       "ts": 1793516580.0,
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it"
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI),"
     },
     {
       "id": "1229dba41a62",
@@ -173,16 +183,6 @@
       "published": "2026-10-30T10:40:45+00:00",
       "ts": 1793356845.0,
       "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been&nbsp;sentenced by a U.S. federal court&nbsp;to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence"
-    },
-    {
-      "id": "2186e930085b",
-      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-      "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-30T08:55:47+00:00",
-      "ts": 1793350547.0,
-      "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut"
     },
     {
       "id": "37164bffd589",
@@ -443,16 +443,6 @@
       "published": "2026-10-21T00:00:00+00:00",
       "ts": 1792540800.0,
       "summary": "**[Mise à jour du 26 octobre 2026]** Le 23 octobre 2026, PHP a publié un avis de sécurité concernant la vulnérabilité CVE-2026-115560. Celle-ci permet une exécution de code arbitraire à distance. L'éditeur estime que les conditions d'exploitation exigent une combinaison d'options de configuration..."
-    },
-    {
-      "id": "9e4dbec862f6",
-      "title": "A Spectral Theory of Local-to-Global Leakage",
-      "link": "https://eprint.iacr.org/2026/2571",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-20T17:27:24+00:00",
-      "ts": 1792517244.0,
-      "summary": "This paper studies how local leakages characterize the global leakage in additive secret sharing over a finite abelian group, which is a special case of linear secret sharing and side-channel masking. Our main finding is structural: local-to-global leakage is governed by two disjoint components---the magnitude of local leakage and its spectral alignment across shares, while existing literature att"
     },
     {
       "id": "d3ef535e3a2b",
@@ -775,16 +765,6 @@
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
     },
     {
-      "id": "f2034490012b",
-      "title": "Morphic Accumulators and Applications: Optimal Range Proofs, Polynomial Commitments, and Ring Signatures",
-      "link": "https://eprint.iacr.org/2026/1202",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-08T11:54:51+00:00",
-      "ts": 1780919691.0,
-      "summary": "Cryptographic accumulators based on groups of unknown order (GUO) provide constant-size set membership proofs. For security purposes, existing works require first encoding set elements via division-intractable (DI) hash functions, typically instantiated as random oracles that destroy any algebraic structure. This confines GUO-based accumulators to a purely set-membership role, making them \"incompa"
-    },
-    {
       "id": "7990c40a74ab",
       "title": "Let’s talk about encrypted reasoning",
       "link": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
@@ -883,6 +863,16 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
+    },
+    {
+      "id": "f522ee86cc53",
+      "title": "Optimizing FROST for Message Capacity",
+      "link": "https://eprint.iacr.org/2026/563",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-20T19:44:04+00:00",
+      "ts": 1774035844.0,
+      "summary": "The FROST threshold signature scheme achieves round optimal Schnorr signing through a double-nonce construction, but requires two presignatures per signature. Since each presignature demands an expensive distributed key generation (DKG) protocol, this overhead is significant for high-throughput applications. FROST builds on a core presignature protocol (that we call FROST-core) that uses hash-base"
     },
     {
       "id": "cb1ce3471511",
@@ -1053,6 +1043,16 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
+    },
+    {
+      "id": "7c33cd173f52",
+      "title": "Add/XNOR Chains: An NP-Complete Boolean-Arithmetic Problem at the Meet-in-the-Middle Barrier",
+      "link": "https://eprint.iacr.org/2024/2035",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-12-17T08:18:53+00:00",
+      "ts": 1734423533.0,
+      "summary": "We introduce the Add/XNOR decision problem: given $n$ words of $n$ bits, decide whether they can be combined into zero by a left-associative chain in which each operator is either addition modulo $2^n$ or bitwise XNOR. We prove NP-completeness by a deterministic reduction from Subset-Sum{} in which four-bit guard fields and a parity normalization force every gadget to be all-additions or all-XNORs"
     },
     {
       "id": "b5adcbdfd78b",
