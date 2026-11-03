@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T15:43:54.575428+00:00",
+  "generated_at": "2026-11-03T21:25:54.249589+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,66 @@
     }
   ],
   "items": [
+    {
+      "id": "d33ae713e86f",
+      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+      "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-03T18:46:38+00:00",
+      "ts": 1793731598.0,
+      "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer mSeven Software. It says the company recently learned of suspicious activity linked to the app but"
+    },
+    {
+      "id": "59ce1c343684",
+      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+      "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-03T18:16:19+00:00",
+      "ts": 1793729779.0,
+      "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week. \"An external attacker gained unauthorized access to part of"
+    },
+    {
+      "id": "b764b503c0bc",
+      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+      "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-03T16:55:58+00:00",
+      "ts": 1793724958.0,
+      "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers. \"It was not a single isolated breach or a simple phishing incident,\""
+    },
+    {
+      "id": "195b8059ce6d",
+      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+      "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-03T15:59:19+00:00",
+      "ts": 1793721559.0,
+      "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)"
+    },
+    {
+      "id": "f4436d33dba7",
+      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+      "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-03T15:41:53+00:00",
+      "ts": 1793720513.0,
+      "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code"
+    },
+    {
+      "id": "44227e0d896b",
+      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+      "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-03T15:16:32+00:00",
+      "ts": 1793718992.0,
+      "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The attacker has since taken some of that data. cPGuard 5.88.25 and later versions"
+    },
     {
       "id": "0fceb6985485",
       "title": "AIs Hacking the Law",
@@ -135,26 +195,6 @@
       "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against"
     },
     {
-      "id": "c331ceec6acf",
-      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-      "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-02T15:50:26+00:00",
-      "ts": 1793634626.0,
-      "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says&nbsp;it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the boxes for ad fraud and to pass other people's internet traffic through owners' home"
-    },
-    {
-      "id": "6c8a04277499",
-      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-      "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-02T14:46:05+00:00",
-      "ts": 1793630765.0,
-      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led to the compromise of a high-profile individual in Israel, along with additional compromises affecting a government cloud"
-    },
-    {
       "id": "0b45e40d05ce",
       "title": "AI Vulnerability Finding",
       "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
@@ -173,46 +213,6 @@
       "published": "2026-11-02T12:00:00+00:00",
       "ts": 1793620800.0,
       "summary": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149"
-    },
-    {
-      "id": "517e08c11f0f",
-      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-      "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-02T11:50:00+00:00",
-      "ts": 1793620200.0,
-      "summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code,&nbsp;IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and&nbsp;its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the flaws, and the only fix is version 1.13.0. Neither flaw is in CISA's&nbsp;Known"
-    },
-    {
-      "id": "19a59d88ef70",
-      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-      "link": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-02T11:30:00+00:00",
-      "ts": 1793619000.0,
-      "summary": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready. AI SOC readiness has two parts: whether a SOC has the"
-    },
-    {
-      "id": "6aae4f18e5cc",
-      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-      "link": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-02T11:08:45+00:00",
-      "ts": 1793617725.0,
-      "summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller. Microsoft said in&nbsp;a report&nbsp;that it investigated two such intrusions, one of which resulted in company"
-    },
-    {
-      "id": "3e7a3e4f964a",
-      "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-      "link": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-02T10:49:59+00:00",
-      "ts": 1793616599.0,
-      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where \"CL\" refers to cluster and \"UNK\" stands for unknown"
     },
     {
       "id": "b912b4f04d6b",
@@ -505,16 +505,6 @@
       "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions."
     },
     {
-      "id": "7bec3c283fa7",
-      "title": "Secret Sharing Despite Non-Extractable Randomness",
-      "link": "https://eprint.iacr.org/2026/2477",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-14T13:09:26+00:00",
-      "ts": 1791983366.0,
-      "summary": "Bosley and Dodis (TCC 2007) proved that a class of imperfect randomness sources that suffices for information-theoretic encryption of messages longer than the logarithm of the key length must admit deterministic extraction of nearly uniform bits, and asked whether the same is true of two-out-of-two secret sharing. Aggarwal, Chung, Obremski, and Ribeiro (TCC 2022) gave a positive answer for schemes"
-    },
-    {
       "id": "ebfdd8968269",
       "title": "Package managers have an integrity problem",
       "link": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/",
@@ -605,16 +595,6 @@
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p."
     },
     {
-      "id": "906addcf9830",
-      "title": "Improved Cryptanalysis of Local PRGs",
-      "link": "https://eprint.iacr.org/2026/2240",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-28T02:47:59+00:00",
-      "ts": 1790563679.0,
-      "summary": "We present two seed-recovery attacks on a family of local PRGs, which map an $n$-bit random seed to an $m$-bit pseudorandom string by applying $\\XorMaj$ predicates. For PRGs with large locality, we extend the Group-and-Solve (GAS, Eurocrypt 26) framework to Guess-Filter-Solve (GFS). GFS first guesses that a set of seed bits are all $1$s and then filters for outputs whose inputs to $\\Maj$ contain a"
-    },
-    {
       "id": "81a26141bc31",
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
       "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
@@ -665,16 +645,6 @@
       "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off"
     },
     {
-      "id": "23435927df1a",
-      "title": "Reed-Solomon Codes Beyond Johnson: Efficient Decoding and Smaller Cryptographic Proofs",
-      "link": "https://eprint.iacr.org/2026/2056",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-16T02:05:33+00:00",
-      "ts": 1789524333.0,
-      "summary": "List decoding Reed–Solomon codes is a central problem in coding theory and, together with mutual correlated agreement (MCA), underpins the soundness of many succinct cryptographic proofs. In this work, we give precise quantitative bounds on Reed–Solomon list decoding and MCA up to capacity, provide deterministic decoding algorithms that remain efficient over cryptographically large fields, and spe"
-    },
-    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -693,6 +663,16 @@
       "published": "2026-09-09T11:00:00+00:00",
       "ts": 1788951600.0,
       "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem, but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat&rsquo;s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug, shown belo"
+    },
+    {
+      "id": "78c6735ca71c",
+      "title": "Quantum Evolving Secret Sharing - revisited",
+      "link": "https://eprint.iacr.org/2026/1946",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-09T08:50:26+00:00",
+      "ts": 1788943826.0,
+      "summary": "In evolving secret sharing, introduced by Komargodski et al., an infinite set of parties share a secret according to an infinite access structure (where minimal qualified sets are finite). In such schemes, par- ties arrive one by one, and and are given a share by the dealer. There is no additional communication incurred to a given party until the time of reconstruction, where share holders who sho"
     },
     {
       "id": "cf95a2724618",
@@ -745,6 +725,16 @@
       "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t"
     },
     {
+      "id": "57def3f2e820",
+      "title": "A Polynomial-Time Quantum Algorithm for the Dihedral Coset Problem",
+      "link": "https://eprint.iacr.org/2026/1591",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-03T20:17:09+00:00",
+      "ts": 1785788229.0,
+      "summary": "We present a polynomial-time quantum algorithm for the Dihedral Coset Problem (DCP). The algorithm is based on Regev's polynomial-time reduction of the Dihedral Subgroup Problem (DSP) to the modular subset sum problem, but uses a different technique to erase sample bits without use of a subset sum oracle. The algorithm can thus combine with Regev's reduction of lattice problems to DCP, improved by"
+    },
+    {
       "id": "f26b7f89b569",
       "title": "Building secure Uniswap v4 hooks",
       "link": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
@@ -773,6 +763,16 @@
       "published": "2026-06-26T12:01:47+00:00",
       "ts": 1782475307.0,
       "summary": "We generalise a pairing on elliptic curves over finite fields, called the generalised Tate pairing, which is defined in terms of an arbitrary endomorphism of the curve, with certain trace requirements. We rederive this pairing from group cohomology, which allows us to generalise the pairing to principally polarized abelian varieties over any field, endomorphisms of any trace, and prove perfectness"
+    },
+    {
+      "id": "ef2f6a488620",
+      "title": "A Toolkit for Succinct Lattice-Based Zero Knowledge Proofs",
+      "link": "https://eprint.iacr.org/2026/1289",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-19T09:18:07+00:00",
+      "ts": 1781860687.0,
+      "summary": "The development of proof systems whose security relies on the hardness of lattice problems has been a fruitful research area in recent years. By leveraging the techniques introduced in LaBRADOR (Beullens, Seiler, Crypto 2023), the state-of-the-art lattice-based schemes have very fast provers and have output sizes under 100KB for arbitrarily large statements. These proofs are in fact the smallest, "
     },
     {
       "id": "09b719e50e41",
@@ -895,6 +895,16 @@
       "summary": "Posted by Chrome Secure Web and Networking Team Today we're announcing a new program in Chrome to make HTTPS certificates secure against quantum computers. The Internet Engineering Task Force (IETF) recently created a working group, PKI, Logs, And Tree Signatures (“PLANTS”), aiming to address the performance and bandwidth challenges that the increased size of quantum-resistant cryptography introdu"
     },
     {
+      "id": "6834fe6fd40b",
+      "title": "Orthus: Practical Sublinear Batch-Verification of Lattice Relations from Standard Assumptions",
+      "link": "https://eprint.iacr.org/2026/398",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-26T16:03:54+00:00",
+      "ts": 1772121834.0,
+      "summary": "The past several years have seen a rapid rise in practical lattice-based proof systems with linear-sized zero-knowledge proofs forming the foundation of many of the most efficient quantum-safe privacy protocols, and succinct proofs rapidly catching up and surpassing other quantum-safe alternatives in many metrics. A recent comparison of lattice-based aggregate signatures (Ethereum Foundation, 2025"
+    },
+    {
       "id": "23058dc44ece",
       "title": "Staying One Step Ahead: Strengthening Android’s Lead in Scam Protection",
       "link": "http://security.googleblog.com/2026/02/strengthening-android-lead-in-scam-protection.html",
@@ -985,16 +995,6 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
-      "id": "8d8cabaa595f",
-      "title": "Just How Secure is SRP, Really?",
-      "link": "https://eprint.iacr.org/2025/1869",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-10-08T06:58:29+00:00",
-      "ts": 1759906709.0,
-      "summary": "An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client and a server to agree upon a cryptographic key, with the only information shared in advance being a low-entropy password (memorized by the client) and a corresponding password file (stored in the server). The standard security definition for aPAKE is in the Universally Composable (UC) framework. Since aPAKE does not"
-    },
-    {
       "id": "635619179b35",
       "title": "Campagne de notifications de menace envoyée par Apple (11 septembre 2025)",
       "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-010/",
@@ -1045,16 +1045,6 @@
       "summary": "At FSE'15, Mennink introduced the concept of designing beyond-birthday bound secure tweakable block cipher from an ideal block cipher. They proposed two tweakable block ciphers $\\widetilde{F}[1]$ and $\\widetilde{F}[2]$ that accept $n$-bit tweaks using a block cipher with an $n$-bit key and $n$-bit data. Mennink proved that the constructions achieve security up to $2^{2n/3}$ and $2^n$ queries, resp"
     },
     {
-      "id": "aff9ca9b8dae",
-      "title": "Optimal Load-Balanced Scalable Distributed Agreement",
-      "link": "https://eprint.iacr.org/2023/1139",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2023-07-23T08:06:32+00:00",
-      "ts": 1690099592.0,
-      "summary": "We consider the fundamental problem of designing classical consensus-related distributed abstractions for large-scale networks, where the number of parties can be huge. Specifically, we consider tasks such as Byzantine Agreement, Broadcast, and Committee Election, and our goal is to design scalable protocols in the sense that each honest party processes and sends a number of bits which is sub-line"
-    },
-    {
       "id": "ffca06381237",
       "title": "Optimizing Two-Step Primal LWE Attacks with PnJBKZ Simulation",
       "link": "https://eprint.iacr.org/2022/1343",
@@ -1063,6 +1053,16 @@
       "published": "2022-10-08T03:38:05+00:00",
       "ts": 1665200285.0,
       "summary": "Learning with Errors (LWE) and its variants underlie many lattice-based cryptosystems, making accurate concrete attack-cost estimates important for parameter selection. Practical primal attacks combine lattice-basis reduction with a final shortest-vector search, and their performance depends strongly on how these components are scheduled. We formalize the two-step strategy space considered in this"
+    },
+    {
+      "id": "51e332a12f4d",
+      "title": "Decentralized Multi-Authority ABE for NC^1 from Computational-BDH",
+      "link": "https://eprint.iacr.org/2021/1325",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2021-10-05T15:38:19+00:00",
+      "ts": 1633448299.0,
+      "summary": "Decentralized multi-authority attribute-based encryption (𝖬𝖠-𝖠𝖡𝖤) is a strengthening of standard ciphertext-policy attribute-based encryption so that there is no trusted central authority: any party can become an authority and there is no requirement for any global coordination other than the creation of an initial set of common reference parameters. Essentially, any party can act as an authority "
     }
   ]
 }
