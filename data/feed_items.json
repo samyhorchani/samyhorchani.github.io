@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:41:24.230128+00:00",
+  "generated_at": "2026-11-03T00:21:19.899781+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "6d6b8fe52442",
+      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+      "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-02T16:57:56+00:00",
+      "ts": 1793638676.0,
+      "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against"
+    },
     {
       "id": "c331ceec6acf",
       "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
@@ -173,16 +183,6 @@
       "published": "2026-10-31T05:33:41+00:00",
       "ts": 1793424821.0,
       "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed. The researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbsp;on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category."
-    },
-    {
-      "id": "bfa785581bea",
-      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-      "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-31T04:56:12+00:00",
-      "ts": 1793422572.0,
-      "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44"
     },
     {
       "id": "b912b4f04d6b",
@@ -705,16 +705,6 @@
       "summary": "I&#8217;m coming down from spending a few days at Usenix Security, right here in my hometown of Baltimore. This means that my days have been taken up with two kinds of conversation: first, explaining to colleagues why Baltimore isn&#8217;t actually like The Wire. And second, trying not to talk about AI. Here I&#8217;m going to &#8230; Continue reading Everything is about to &#8220;go&#160;dark&#82"
     },
     {
-      "id": "ef493631fa20",
-      "title": "MinMandate: Task-Hiding Payment Authorization for Web Agents",
-      "link": "https://eprint.iacr.org/2026/1674",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-13T08:30:10+00:00",
-      "ts": 1786609810.0,
-      "summary": "AI agents increasingly pay for Web services on behalf of their users to complete complex tasks. Such a task needs many payments, and the user usually must approve each one, forcing the agent to stop at every payment. Mechanisms such as the Agent Payments Protocol (AP2) therefore enable the user to sign one payment mandate in advance that bounds the agent's payments for the task. However, whoever c"
-    },
-    {
       "id": "bc128d0703d3",
       "title": "How Trail of Bits helps verify the integrity of your Signal chats",
       "link": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
@@ -783,6 +773,16 @@
       "published": "2026-06-09T19:00:02+00:00",
       "ts": 1781031602.0,
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
+    },
+    {
+      "id": "b703c9026a4a",
+      "title": "SoK: Cryptographic Erasure on Public Ledgers: Application-Layer Architectures, Key-Lifecycle Adversaries, and GDPR Art. 17 Sufficiency",
+      "link": "https://eprint.iacr.org/2026/1109",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-30T10:56:55+00:00",
+      "ts": 1780138615.0,
+      "summary": "Public permissionless ledgers are append-only by design, yet are increasingly asked to host data subject to statutory erasure obligations (GDPR Art. 17, EDPB Guidelines 02/2025). The prevailing cryptographic response, rewriting the chain via chameleon hashes and redactable-blockchain constructions, is structurally unavailable on Bitcoin and Ethereum mainnet. This SoK systematizes the orthogonal ap"
     },
     {
       "id": "7990c40a74ab",
@@ -935,16 +935,6 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
-      "id": "c7fc99f25aed",
-      "title": "Highly Efficient and Round-Optimal Asymmetric PAKE",
-      "link": "https://eprint.iacr.org/2026/246",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-13T08:44:18+00:00",
-      "ts": 1770972258.0,
-      "summary": "An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client, who holds a raw password, and a server, who holds a one-way mapping of the password, to jointly establish a cryptographically strong session key, without an authenticated channel. The standard security definition for aPAKE is in the Universal Composability (UC) framework. Despite its great potential of being used i"
-    },
-    {
       "id": "44c6f51864a0",
       "title": "Sharing a Secret Anamorphically: Secret Shares Disguised as Signatures",
       "link": "https://eprint.iacr.org/2026/236",
@@ -1025,16 +1015,6 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
-      "id": "8d8cabaa595f",
-      "title": "Just How Secure is SRP, Really?",
-      "link": "https://eprint.iacr.org/2025/1869",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-10-08T06:58:29+00:00",
-      "ts": 1759906709.0,
-      "summary": "An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client and a server to agree upon a cryptographic key, with the only information shared in advance being a low-entropy password (memorized by the client) and a corresponding password file (stored in the server). The standard security definition for aPAKE is in the Universally Composable (UC) framework. Since aPAKE does not"
-    },
-    {
       "id": "635619179b35",
       "title": "Campagne de notifications de menace envoyée par Apple (11 septembre 2025)",
       "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-010/",
@@ -1055,6 +1035,16 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
+      "id": "ae6da2a2d608",
+      "title": "Can FrodoKEM Run in a Millisecond? FPGA Says Yes!",
+      "link": "https://eprint.iacr.org/2025/1312",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-07-17T20:54:30+00:00",
+      "ts": 1752785670.0,
+      "summary": "FrodoKEM is a post-quantum key encapsulation mechanism based on plain Learning With Errors (LWE). In contrast to module-lattice-based schemes, it relies on an unstructured variant of the LWE problem, providing more conservative and better-understood security guarantees. In this paper, we explore hardware-level parallelization of FrodoKEM's matrix multiplication, which dominates its execution time."
+    },
+    {
       "id": "7c33cd173f52",
       "title": "Add/XNOR Chains: An NP-Complete Boolean-Arithmetic Problem at the Meet-in-the-Middle Barrier",
       "link": "https://eprint.iacr.org/2024/2035",
@@ -1063,6 +1053,16 @@
       "published": "2024-12-17T08:18:53+00:00",
       "ts": 1734423533.0,
       "summary": "We introduce the Add/XNOR decision problem: given $n$ words of $n$ bits, decide whether they can be combined into zero by a left-associative chain in which each operator is either addition modulo $2^n$ or bitwise XNOR. We prove NP-completeness by a deterministic reduction from Subset-Sum{} in which four-bit guard fields and a parity normalization force every gadget to be all-additions or all-XNORs"
+    },
+    {
+      "id": "238c5adb676b",
+      "title": "Witness-Succinct Universally-Composable SNARKs",
+      "link": "https://eprint.iacr.org/2022/1618",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2022-11-20T21:23:57+00:00",
+      "ts": 1668979437.0,
+      "summary": "Zero-knowledge Succinct Non-interactive ARguments of Knowledge (zkSNARKs) are becoming an increasingly fundamental tool in many real-world applications where the proof compactness is of the utmost importance, including blockchains. A proof of security for SNARKs in the Universal Composability (UC) framework (Canetti, FOCS'01) would rule out devastating malleability attacks. To retain security of S"
     }
   ]
 }
