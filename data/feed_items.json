@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:21:19.899781+00:00",
+  "generated_at": "2026-11-03T07:28:33.762810+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "37f3b0896fa6",
+      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-03T05:34:41+00:00",
+      "ts": 1793684081.0,
+      "summary": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running"
+    },
+    {
+      "id": "dde5c23caa90",
+      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+      "link": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-03T05:34:37+00:00",
+      "ts": 1793684077.0,
+      "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract"
+    },
+    {
+      "id": "b9ea4ff784bc",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "source": "Krebs on Security",
+      "category": "veille",
+      "published": "2026-11-03T02:24:31+00:00",
+      "ts": 1793672671.0,
+      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised "
+    },
     {
       "id": "6d6b8fe52442",
       "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
@@ -165,26 +195,6 @@
       "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens. \"This month, Chainalysis detected an external actor using offensive agentic"
     },
     {
-      "id": "7c2e99917669",
-      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-      "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-31T08:27:43+00:00",
-      "ts": 1793435263.0,
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a"
-    },
-    {
-      "id": "cb515fc655c4",
-      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-      "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-10-31T05:33:41+00:00",
-      "ts": 1793424821.0,
-      "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed. The researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbsp;on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category."
-    },
-    {
       "id": "b912b4f04d6b",
       "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
@@ -205,16 +215,6 @@
       "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware&#8212;­or spyware, if you’re being less charitable­&#8212;was a voice assistant equipped with WebView, an Android syste"
     },
     {
-      "id": "37164bffd589",
-      "title": "SoK: Multiple Concurrent Proposer Blockchains",
-      "link": "https://eprint.iacr.org/2026/2684",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-29T12:55:01+00:00",
-      "ts": 1793278501.0,
-      "summary": "Multiple concurrent proposer (MCP) protocols let several parties contribute transactions to the same ledger update. They can distribute communication and reduce one proposer's control over inclusion and order, but these benefits depend on how the contributions are combined. We describe a common architecture from transaction receipt through proposal formation, agreement, data recovery, ordering, ex"
-    },
-    {
       "id": "6ffc4200e4e6",
       "title": "Improving Code Rate and Query Complexity for the Ligero-IOP System",
       "link": "https://eprint.iacr.org/2026/2681",
@@ -223,16 +223,6 @@
       "published": "2026-10-29T12:03:04+00:00",
       "ts": 1793275384.0,
       "summary": "This work presents two main contributions to the analysis and design of Ligero-style zero-knowledge proof systems. First, we analyze the original Ligero IOP in the list-decoding regime and show that mutual correlated agreement suffices to obtain improved soundness guarantees and lower query complexity, without modifying the protocol. Second, we propose a new variant of Ligero that incorporates out"
-    },
-    {
-      "id": "4782e08643a9",
-      "title": "Optimality and Efficiency of Higher-Order Rank-Based Side-Channel Attacks against Inner Product Masking Schemes",
-      "link": "https://eprint.iacr.org/2026/2676",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-29T06:36:12+00:00",
-      "ts": 1793255772.0,
-      "summary": "Higher-Order Spearman Coefficient Analysis (HO-SPA) is of particular interest in non-profiling Side-Channel Attacks (SCA) due to its effectiveness against monotonic nonlinear leakage. However, the optimal form, effective order combinations, and performance of HO-SPA (or its variants) remain underexplored. This work systematically revisits HO-SPA in the presence of Boolean Masking (BM) and Inner Pr"
     },
     {
       "id": "e26de46b9e36",
@@ -485,6 +475,16 @@
       "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions."
     },
     {
+      "id": "7bec3c283fa7",
+      "title": "Secret Sharing Despite Non-Extractable Randomness",
+      "link": "https://eprint.iacr.org/2026/2477",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-14T13:09:26+00:00",
+      "ts": 1791983366.0,
+      "summary": "Bosley and Dodis (TCC 2007) proved that a class of imperfect randomness sources that suffices for information-theoretic encryption of messages longer than the logarithm of the key length must admit deterministic extraction of nearly uniform bits, and asked whether the same is true of two-out-of-two secret sharing. Aggarwal, Chung, Obremski, and Ribeiro (TCC 2022) gave a positive answer for schemes"
+    },
+    {
       "id": "ebfdd8968269",
       "title": "Package managers have an integrity problem",
       "link": "https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/",
@@ -535,6 +535,16 @@
       "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity."
     },
     {
+      "id": "f18b29ada211",
+      "title": "Counterexamples to Beyond-Johnson Proximity Gaps over Binary Fields",
+      "link": "https://eprint.iacr.org/2026/2424",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-09T02:36:11+00:00",
+      "ts": 1791513371.0,
+      "summary": "Many hash-based proof systems check that committed words are close to Reed–Solomon codewords by testing one random combination of them. Their soundness analysis uses a *proximity gap*: if the combination agrees with a codeword on many positions, so do the original words, on the same positions, except for a few *exceptional* challenges. Such gaps are known above the Johnson threshold, about $\\sqrt\\"
+    },
+    {
       "id": "4b3e102168c7",
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
@@ -573,6 +583,16 @@
       "published": "2026-09-28T15:08:57+00:00",
       "ts": 1790608137.0,
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p."
+    },
+    {
+      "id": "906addcf9830",
+      "title": "Improved Cryptanalysis of Local PRGs",
+      "link": "https://eprint.iacr.org/2026/2240",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-28T02:47:59+00:00",
+      "ts": 1790563679.0,
+      "summary": "We present two seed-recovery attacks on a family of local PRGs, which map an $n$-bit random seed to an $m$-bit pseudorandom string by applying $\\XorMaj$ predicates. For PRGs with large locality, we extend the Group-and-Solve (GAS, Eurocrypt 26) framework to Guess-Filter-Solve (GFS). GFS first guesses that a set of seed bits are all $1$s and then filters for outputs whose inputs to $\\Maj$ contain a"
     },
     {
       "id": "81a26141bc31",
@@ -645,6 +665,16 @@
       "summary": "Quantum discrete logarithms on genus-two Jacobians require reversible arithmetic with controlled workspace. Generic divisor-addition formulas apply only outside an exceptional set, which must be accounted for in quantum phase computation. We give a randomized reduction using two fresh independent uniform public seeds in a finite abelian group of odd order to randomize a complete balanced addition "
     },
     {
+      "id": "23435927df1a",
+      "title": "Reed-Solomon Codes Beyond Johnson: Efficient Decoding and Smaller Cryptographic Proofs",
+      "link": "https://eprint.iacr.org/2026/2056",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-16T02:05:33+00:00",
+      "ts": 1789524333.0,
+      "summary": "List decoding Reed–Solomon codes is a central problem in coding theory and, together with mutual correlated agreement (MCA), underpins the soundness of many succinct cryptographic proofs. In this work, we give precise quantitative bounds on Reed–Solomon list decoding and MCA up to capacity, provide deterministic decoding algorithms that remain efficient over cryptographically large fields, and spe"
+    },
+    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -663,16 +693,6 @@
       "published": "2026-09-09T11:00:00+00:00",
       "ts": 1788951600.0,
       "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem, but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat&rsquo;s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug, shown belo"
-    },
-    {
-      "id": "004ffd858d83",
-      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-      "source": "Krebs on Security",
-      "category": "veille",
-      "published": "2026-09-08T21:44:22+00:00",
-      "ts": 1788903862.0,
-      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d"
     },
     {
       "id": "cf95a2724618",
@@ -845,16 +865,6 @@
       "summary": "Posted by Ben Ackerman, Chrome team, Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team Following our April 2024 announcement, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to comba"
     },
     {
-      "id": "c819c397046f",
-      "title": "The Information-Theoretic Limits of Hiding Among Decoys in the Shuffle Model",
-      "link": "https://eprint.iacr.org/2026/667",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-06T09:42:31+00:00",
-      "ts": 1775468551.0,
-      "summary": "Hiding a genuine message among plausible decoys is a recurring principle in cryptography and privacy, underlying honeywords, symmetric encryption, and anonymous data collection. We study the information-theoretic security of mechanisms that release a uniformly shuffled sequence containing one genuine message and $n-1$ decoys over a $d$-symbol alphabet. We characterize how restrictions on decoy gen"
-    },
-    {
       "id": "d305b2065812",
       "title": "Google Workspace’s continuous approach to mitigating indirect prompt injections",
       "link": "http://security.googleblog.com/2026/04/google-workspaces-continuous-approach.html",
@@ -933,16 +943,6 @@
       "published": "2026-02-19T17:00:00+00:00",
       "ts": 1771520400.0,
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
-    },
-    {
-      "id": "44c6f51864a0",
-      "title": "Sharing a Secret Anamorphically: Secret Shares Disguised as Signatures",
-      "link": "https://eprint.iacr.org/2026/236",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-12T13:46:38+00:00",
-      "ts": 1770903998.0,
-      "summary": "Anamorphic Encryption (Persiano, Phan and Yung, Eurocrypt '22) allows private communication in a challenging setting where encryption is severely controlled by a central authority (henceforth the dictator) who can demand the users to surrender their secret keys. Anamorphic Signatures (AS) (Kutylowski, Persiano, Phan, Yung, Zawada, Crypto '23) face the even more restrictive world where only authent"
     },
     {
       "id": "96ed87c2cba3",
