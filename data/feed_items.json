@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T16:45:10.723970+00:00",
+  "generated_at": "2026-11-04T22:21:01.732095+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "caf918a34b06",
+      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-04T17:00:46+00:00",
+      "ts": 1793811646.0,
+      "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that&nbsp;Debian,&nbsp;Ubuntu, and&nbsp;APT's developers&nbsp;published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and"
+    },
+    {
+      "id": "db59a2a22c24",
+      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+      "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-04T17:00:38+00:00",
+      "ts": 1793811638.0,
+      "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,"
+    },
+    {
+      "id": "8a7da69e26a0",
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-04T16:06:43+00:00",
+      "ts": 1793808403.0,
+      "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration"
+    },
     {
       "id": "ebdb89c3e602",
       "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
@@ -135,26 +165,6 @@
       "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)"
     },
     {
-      "id": "f4436d33dba7",
-      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-      "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-03T15:41:53+00:00",
-      "ts": 1793720513.0,
-      "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code"
-    },
-    {
-      "id": "44227e0d896b",
-      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
-      "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-03T15:16:32+00:00",
-      "ts": 1793718992.0,
-      "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The attacker has since taken some of that data. cPGuard 5.88.25 and later versions"
-    },
-    {
       "id": "0fceb6985485",
       "title": "AIs Hacking the Law",
       "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
@@ -173,16 +183,6 @@
       "published": "2026-11-03T12:00:00+00:00",
       "ts": 1793707200.0,
       "summary": "As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and document signing have moved away from paper-based legacy systems and become fully electronic. The shor"
-    },
-    {
-      "id": "f97cc9eb44b8",
-      "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-      "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-03T11:23:53+00:00",
-      "ts": 1793705033.0,
-      "summary": "Fixed kernels for a&nbsp;use-after-free vulnerability in the Linux kernel's IPv4 TCP code&nbsp;are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can"
     },
     {
       "id": "b9ea4ff784bc",
@@ -253,6 +253,16 @@
       "published": "2026-11-02T00:00:00+00:00",
       "ts": 1793577600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Redmine. Certaines d'entre elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS), un contournement de la politique de sécurité et un déni de service."
+    },
+    {
+      "id": "1e4360deae2f",
+      "title": "Fast Provable Algorithms for Approximate CVP and Exact SVP on Random \\(q\\)-ary Lattices",
+      "link": "https://eprint.iacr.org/2026/2711",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-31T16:00:03+00:00",
+      "ts": 1793462403.0,
+      "summary": "We give provable randomized algorithms for the $\\gamma$-approximate Closest Vector Problem ($\\gamma$-CVP) with $\\gamma=5/3$ and the exact Shortest Vector Problem (SVP) in the Euclidean norm on random $q$-ary lattices. These lattices consist of the integer vectors mapped to zero modulo $q$ by a uniformly random matrix $\\mathbf{H}\\in(\\mathbb{Z}/q\\mathbb{Z})^{m\\times n}$, for any integer $q\\ge2$. For"
     },
     {
       "id": "62fbef70df1a",
@@ -655,16 +665,6 @@
       "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem, but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat&rsquo;s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug, shown belo"
     },
     {
-      "id": "08050f0fb85e",
-      "title": "Zero-Knowledge PCPs of Quasilinear Size via Locally Simulatable Sheaf Codes",
-      "link": "https://eprint.iacr.org/2026/1868",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-02T14:43:12+00:00",
-      "ts": 1788360192.0,
-      "summary": "We show that for every polynomial $T,b \\colon \\mathbb{N} \\to \\mathbb{N}$, there exist an $O(1)$-query probabilistically checkable proof (PCP) for $\\operatorname{NTIME}(T)$ of length $\\widetilde{O}\\bigl(T(n)+b(n)^2\\bigr)$, which is $b(n)$-query perfect zero knowledge. This strictly improves on the polynomial-length zero-knowledge PCPs of Gur, O'Connor, and Spooner (STOC 2024; STOC 2025). Our constr"
-    },
-    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -915,6 +915,16 @@
       "summary": "Secure multiparty computation (MPC) allows distrusted parties to jointly evaluate a common function while keeping their inputs private. In this work, we focus on improving the communication complexity of information-theoretic asynchronous MPC with optimal resilience ($t"
     },
     {
+      "id": "15ae06951f76",
+      "title": "Adams Bridge (V2.0) Accelerator: Bridging the Post-Quantum Transition",
+      "link": "https://eprint.iacr.org/2026/256",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-13T19:40:28+00:00",
+      "ts": 1771011628.0,
+      "summary": "Quantum computing threatens widely deployed public-key cryptosystems, driving the urgent adoption of post-quantum cryptography (PQC) in cloud and hardware-accelerated security infrastructures. This paper presents \\emph{Adams Bridge}, an industry-grade hardware accelerator for lattice-based PQC that integrates ML-KEM and ML-DSA within a unified architecture to maximize hardware reuse and silicon ef"
+    },
+    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -983,16 +993,6 @@
       "published": "2025-11-20T17:00:00+00:00",
       "ts": 1763658000.0,
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
-    },
-    {
-      "id": "795741203b47",
-      "title": "Locally Recoverable Data Availability Sampling with Derived Group Commitments",
-      "link": "https://eprint.iacr.org/2025/1851",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-10-07T03:53:25+00:00",
-      "ts": 1759809205.0,
-      "summary": "Data availability sampling (DAS) enables a verifier to assess whether an encoded object is available for reconstruction without downloading it in full. Nodes that accumulate partial data additionally require disjoint recovery groups that they can certify and serve independently. We present LR-DAS, which commits to the source-group restrictions of a Tamo-Barg codeword, enabling every verifier to de"
     },
     {
       "id": "82be04f8db02",
