@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T01:49:25.376070+00:00",
+  "generated_at": "2026-11-04T08:27:40.038111+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "436aa6c26708",
+      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+      "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-04T05:43:11+00:00",
+      "ts": 1793770991.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code"
+    },
     {
       "id": "d33ae713e86f",
       "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
@@ -185,16 +195,6 @@
       "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised "
     },
     {
-      "id": "6d6b8fe52442",
-      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-      "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-02T16:57:56+00:00",
-      "ts": 1793638676.0,
-      "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against"
-    },
-    {
       "id": "0b45e40d05ce",
       "title": "AI Vulnerability Finding",
       "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
@@ -233,6 +233,16 @@
       "published": "2026-10-30T15:20:02+00:00",
       "ts": 1793373602.0,
       "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware&#8212;­or spyware, if you’re being less charitable­&#8212;was a voice assistant equipped with WebView, an Android syste"
+    },
+    {
+      "id": "ff89c386f69f",
+      "title": "Gaussian Difference Dynamics: Breaking the $2^{n/2}$ Barrier for the Shortest Vector Problem and Discrete Gaussian Sampling",
+      "link": "https://eprint.iacr.org/2026/2690",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-30T04:09:29+00:00",
+      "ts": 1793333369.0,
+      "summary": "We give classical randomized algorithms in a word-RAM model that break the $2^{n/2}$ barrier for both discrete Gaussian sampling (DGS) and the Shortest Vector Problem (SVP). For every fixed $\\alpha1$, shifted DGS on arbitrary lattices at width $\\sigma\\ge\\alpha\\eta_{1/2}(L)$ takes $$ (3/2)^{n/2+o(n)}\\text{ time} \\qquad\\text{and}\\qquad (4/3)^{n/2+o(n)}\\text{ space}. $$ These bounds match the Becker-"
     },
     {
       "id": "7e9461dac3ab",
@@ -365,16 +375,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Foxit Online Services. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et une falsification de requêtes côté serveur (SSRF)."
     },
     {
-      "id": "fa6201752318",
-      "title": "Beyond the Event Horizon of Keccak, Extending the Observation from 2011 and applications",
-      "link": "https://eprint.iacr.org/2026/2671",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-28T12:39:08+00:00",
-      "ts": 1793191148.0,
-      "summary": "In 2011 we observed that a single path in the Keccak sponge from a state whose capacity has all zero bits back to such a state yields an explicit, infinite family of second preimages for every message of at least one full rate block. Finding such a path costs about 2^(c/2), which lies \"beyond the event horizon\" for SHA3-256 (c=512). In this paper we give four novel theorems around that observation"
-    },
-    {
       "id": "4fd67dce1302",
       "title": "Studying Fraudulent North Korean IT Workers",
       "link": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
@@ -413,16 +413,6 @@
       "published": "2026-10-23T21:00:09+00:00",
       "ts": 1792789209.0,
       "summary": "This article in Nature argues that it&#8217;s due to an overfishing of predators and warming sea temperatures. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
-      "id": "17435e93cf17",
-      "title": "Mutual Correlated Agreement and List-Decoding: Improvements and Separations",
-      "link": "https://eprint.iacr.org/2026/2617",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-23T15:49:56+00:00",
-      "ts": 1792770596.0,
-      "summary": "At a high level our contribution is threefold: we improve the quantitative MCA error bound for polynomial generators, we prove a refinement of the implication from list-decodability to MCA, and we clarify that in general, these two notions are distinct. We show that, for every finite field $\\mathbb{F}$, every nonempty seed set $S\\subseteq\\mathbb{F}$, every linear code $\\mathcal{C} \\subseteq \\mathb"
     },
     {
       "id": "47c32ad64606",
@@ -755,16 +745,6 @@
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
     },
     {
-      "id": "fad0fb890cd6",
-      "title": "The Generalised Tate Pairing over any field",
-      "link": "https://eprint.iacr.org/2026/1325",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-26T12:01:47+00:00",
-      "ts": 1782475307.0,
-      "summary": "We generalise a pairing on elliptic curves over finite fields, called the generalised Tate pairing, which is defined in terms of an arbitrary endomorphism of the curve, with certain trace requirements. We rederive this pairing from group cohomology, which allows us to generalise the pairing to principally polarized abelian varieties over any field, endomorphisms of any trace, and prove perfectness"
-    },
-    {
       "id": "ef2f6a488620",
       "title": "A Toolkit for Succinct Lattice-Based Zero Knowledge Proofs",
       "link": "https://eprint.iacr.org/2026/1289",
@@ -845,16 +825,6 @@
       "summary": "Posted by Adam Gavish, Google GenAI Security TeamIndirect prompt injection (IPI) is an evolving threat vector targeting users of complex AI applications with multiple data sources, such as Workspace with Gemini. This technique enables the attacker to influence the behavior of an LLM by injecting malicious instructions into the data or tools used by the LLM as it completes the user’s query. This ma"
     },
     {
-      "id": "597faeb920c2",
-      "title": "Toward Provable Security in Anamorphic Extension: New Constructions and Analysis",
-      "link": "https://eprint.iacr.org/2026/645",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-02T10:53:14+00:00",
-      "ts": 1775127194.0,
-      "summary": "Anamorphic encryption (AE) enables covert communication in adversarial settings where the receiver’s secret key may be exposed to a coercive adversary. Although existing AE constructions demonstrate the feasibility of this paradigm, their covert bandwidth rates are severely limited, particularly when built from conventional public-key encryption (PKE) schemes. This work develops a systematic appro"
-    },
-    {
       "id": "9bfdcb85397d",
       "title": "VRP 2025 Year in Review",
       "link": "http://security.googleblog.com/2026/03/vrp-2025-year-in-review.html",
@@ -873,6 +843,16 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
+    },
+    {
+      "id": "f6e556510cad",
+      "title": "Distance of RAA Codes over Large Finite Fields (with Applications in zkSNARKs and PCGs)",
+      "link": "https://eprint.iacr.org/2026/524",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-16T02:13:59+00:00",
+      "ts": 1773627239.0,
+      "summary": "Error-correcting codes play a central role in modern cryptography, enabling efficient constructions of primitives such as zero knowledge proofs and secure multiparty computations. Among them, repeat-accumulate-accumulate (RAA) codes have recently attracted significant attention due to their linear-time encoding and good distance properties. However, prior work only established provable distance gu"
     },
     {
       "id": "b7ffc9dc8c13",
@@ -1015,6 +995,16 @@
       "summary": "We introduce a new primitive, called beholder signatures, which, in some sense, are the opposite of blind signatures. In a beholder signature, one signs a commitment to a (potentially very long) message, and the signature attests that the parties participating in the signing process who know the secret key, jointly also know the entire committed message. This guarantee holds even against distribut"
     },
     {
+      "id": "795741203b47",
+      "title": "Locally Recoverable Data Availability Sampling with Derived Group Commitments",
+      "link": "https://eprint.iacr.org/2025/1851",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-10-07T03:53:25+00:00",
+      "ts": 1759809205.0,
+      "summary": "Data availability sampling (DAS) enables a verifier to assess whether an encoded object is available for reconstruction without downloading it in full. Nodes that accumulate partial data additionally require disjoint recovery groups that they can certify and serve independently. We present LR-DAS, which commits to the source-group restrictions of a Tamo-Barg codeword, enabling every verifier to de"
+    },
+    {
       "id": "635619179b35",
       "title": "Campagne de notifications de menace envoyée par Apple (11 septembre 2025)",
       "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-010/",
@@ -1045,14 +1035,24 @@
       "summary": "Uncertified partially synchronous DAG BFT protocols such as Mysticeti achieve the lowest latency among DAG protocols by omitting per-block quorum certificates, but they lack rigorous liveness proofs: honest parties can desynchronize and never commit a leader again, even under synchrony. To avoid the quadratic communication cost of pushing full blocks, production implementations pull missing ancest"
     },
     {
-      "id": "9ad5fa225ea4",
-      "title": "AsyRand: An Asynchronous Randomness Beacon via Look-Ahead Agreement",
-      "link": "https://eprint.iacr.org/2025/406",
+      "id": "34e82cf20763",
+      "title": "Cryptographically Secure Digital Consent",
+      "link": "https://eprint.iacr.org/2024/1839",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-03-03T23:32:41+00:00",
-      "ts": 1741044761.0,
-      "summary": "Asynchronous randomness beacons must preserve agreement and sustain output generation despite Byzantine faults while preventing adversarial bias. We present $\\mathsf{AsyRand}$, a publicly verifiable randomness beacon that combines publicly verifiable secret sharing (PVSS) with local-coin asynchronous binary agreement (ABA). Its Producer-Consumer design overlaps PVSS preparation with beacon generat"
+      "published": "2024-11-08T20:24:02+00:00",
+      "ts": 1731097442.0,
+      "summary": "In the digital age, maintaining trust and security in third-party services is crucial, especially when it comes to consent for online actions executed by third parties. This work studies the concept of cryptographically secure digital consent. We provide a protocol which involves a client (the user) and an agent (which executes the action upon receiving consent) with the help of an identity manage"
+    },
+    {
+      "id": "04ac5eec2959",
+      "title": "Decentralized Multi-Authority Attribute-Based Inner-Product FE: Large Universe and Unbounded",
+      "link": "https://eprint.iacr.org/2023/565",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2023-04-20T22:40:12+00:00",
+      "ts": 1682030412.0,
+      "summary": "This paper presents the first decentralized multi-authority attribute-based inner product functional encryption (MA-ABIPFE) schemes supporting vectors of a priori unbounded lengths. The notion of AB-IPFE, introduced by Abdalla et al. [ASIACRYPT 2020], combines the access control functionality of attribute-based encryption (ABE) with the possibility of evaluating linear functions on encrypted data."
     },
     {
       "id": "51e332a12f4d",
