@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T21:25:54.249589+00:00",
+  "generated_at": "2026-11-04T01:49:25.376070+00:00",
   "count": 105,
   "errors": [
     {
@@ -265,6 +265,16 @@
       "summary": "Une vulnérabilité a été découverte dans Stormshield Management Center. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
     },
     {
+      "id": "ba87728a3a1a",
+      "title": "Provable Recovery from Integer Quotients: Improved Bounds for Nonlinear Hidden Number Problems",
+      "link": "https://eprint.iacr.org/2026/2686",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-29T15:45:55+00:00",
+      "ts": 1793288755.0,
+      "summary": "The hidden number problem (HNP) asks whether a secret can be recovered from partial information about values linked to it by known algebraic relations. In cryptosystems where partial information about secret values or internal randomness is leaked across various scenarios, HNP techniques provide a foundational framework for security analysis and key-recovery attacks. For some HNPs with nonlinear r"
+    },
+    {
       "id": "e26de46b9e36",
       "title": "Vulnérabilité dans les produits Cisco (29 octobre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1412/",
@@ -395,16 +405,6 @@
       "summary": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model&#8217;s weights, and that removing the model&#8217;s CCP alignment removes it. One word tilts the code against Americans. Ask for"
     },
     {
-      "id": "4cc1b26ed3b8",
-      "title": "On the Inapplicability of Residue-Confined Error Attacks to CRT-FHE with Non-Degenerate Error Distributions",
-      "link": "https://eprint.iacr.org/2026/2633",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-24T23:16:33+00:00",
-      "ts": 1792883793.0,
-      "summary": "This paper responds to the cryptanalysis presented in “Key Recovery from Residue- Confined Errors in the Pradhan CRT-RLWE Construction” (Olejnik and Naskrecki, 2026), which claims key recovery and plaintext recovery against the CRT-FHE scheme introduced in “A New CRT-based Fully Homomorphic Encryption” (Pradhan et al., 2026). We demonstrate that the reported recovery attacks rely entirely on a del"
-    },
-    {
       "id": "f995d6cab4ff",
       "title": "Friday Squid Blogging: Increasing Squid Populations",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
@@ -483,16 +483,6 @@
       "published": "2026-10-19T00:00:00+00:00",
       "ts": 1792368000.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance (XSS)."
-    },
-    {
-      "id": "5376742e1375",
-      "title": "Exploring Fault Injection Attacks on HQC and BIKE Beyond Fujisaki-Okamoto Verification",
-      "link": "https://eprint.iacr.org/2026/2492",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-15T03:39:21+00:00",
-      "ts": 1792035561.0,
-      "summary": "Fault injection attacks have been extensively studied in the context of post-quantum cryptography, yet existing analyses on code-based KEMs largely focus on faults targeting the Fujisaki-Okamoto transform. This work presents new fault injection attacks against BIKE and HQC that operate beyond this commonly protected component and target less obvious instructions within the decapsulation process. T"
     },
     {
       "id": "064694cebfd2",
@@ -673,6 +663,16 @@
       "published": "2026-09-09T08:50:26+00:00",
       "ts": 1788943826.0,
       "summary": "In evolving secret sharing, introduced by Komargodski et al., an infinite set of parties share a secret according to an infinite access structure (where minimal qualified sets are finite). In such schemes, par- ties arrive one by one, and and are given a share by the dealer. There is no additional communication incurred to a given party until the time of reconstruction, where share holders who sho"
+    },
+    {
+      "id": "08050f0fb85e",
+      "title": "Zero-Knowledge PCPs of Quasilinear Size via Locally Simulatable Sheaf Codes",
+      "link": "https://eprint.iacr.org/2026/1868",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-02T14:43:12+00:00",
+      "ts": 1788360192.0,
+      "summary": "We show that for every polynomial $T,b \\colon \\mathbb{N} \\to \\mathbb{N}$, there exist an $O(1)$-query probabilistically checkable proof (PCP) for $\\operatorname{NTIME}(T)$ of length $\\widetilde{O}\\bigl(T(n)+b(n)^2\\bigr)$, which is $b(n)$-query perfect zero knowledge. This strictly improves on the polynomial-length zero-knowledge PCPs of Gur, O'Connor, and Spooner (STOC 2024; STOC 2025). Our constr"
     },
     {
       "id": "cf95a2724618",
@@ -985,6 +985,16 @@
       "summary": "Posted by Aden Haussmann, Associate Product Manager and Sumeet Sharma, Play Partnerships Trust & Safety Lead Android uses the best of Google AI and our advanced security expertise to tackle mobile scams from every angle. Over the last few years, we’ve launched industry-leading features to detect scams and protect users across phone calls, text messages and messaging app chat notifications. These e"
     },
     {
+      "id": "d0d86bce6d97",
+      "title": "New Post-Quantum IBE leveraging maturity, efficiency and security of standard schemes",
+      "link": "https://eprint.iacr.org/2025/2143",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-11-23T18:12:03+00:00",
+      "ts": 1763921523.0,
+      "summary": "Many Identity-Based Encryption (IBE) schemes rely on the hardness of the Discrete Logarithm Problem, making them vulnerable to quantum attacks. In recent years, lattice-based cryptography has emerged as a source of Post-Quantum cryptosystems, for example with Kyber, Dilithium and Falcon chosen by NIST to be standardized as ML-KEM, ML-DSA and FN-DSA. Some IBEs have also been proposed over lattices,"
+    },
+    {
       "id": "da91654fce63",
       "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
       "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
@@ -993,6 +1003,16 @@
       "published": "2025-11-20T17:00:00+00:00",
       "ts": 1763658000.0,
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
+    },
+    {
+      "id": "470c3874961a",
+      "title": "Beholder Signatures",
+      "link": "https://eprint.iacr.org/2025/1900",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-10-11T12:48:31+00:00",
+      "ts": 1760186911.0,
+      "summary": "We introduce a new primitive, called beholder signatures, which, in some sense, are the opposite of blind signatures. In a beholder signature, one signs a commitment to a (potentially very long) message, and the signature attests that the parties participating in the signing process who know the secret key, jointly also know the entire committed message. This guarantee holds even against distribut"
     },
     {
       "id": "635619179b35",
@@ -1015,14 +1035,14 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "34774e6bd274",
-      "title": "Exact SVP and CVP in Structured Lattices: Polynomial-Space Algorithms and Reductions",
-      "link": "https://eprint.iacr.org/2025/480",
+      "id": "129bbefdea2c",
+      "title": "Making Uncertified DAG BFT Provably Live with Linear Payload and Quadratic Metadata Communication",
+      "link": "https://eprint.iacr.org/2025/567",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-03-13T15:00:59+00:00",
-      "ts": 1741878059.0,
-      "summary": "Although module lattices possess richer algebraic structure than general lattices, their algorithmic benefits for exact shortest and closest vector problems (SVP and CVP) remain relatively unexplored. For general $N$-dimensional lattices, the fastest known polynomial-space algorithms take $N^{\\Theta(N)}$ time, whereas known $2^{O(N)}$-time algorithms require exponential space. We investigate how t"
+      "published": "2025-03-28T11:23:46+00:00",
+      "ts": 1743161026.0,
+      "summary": "Uncertified partially synchronous DAG BFT protocols such as Mysticeti achieve the lowest latency among DAG protocols by omitting per-block quorum certificates, but they lack rigorous liveness proofs: honest parties can desynchronize and never commit a leader again, even under synchrony. To avoid the quadratic communication cost of pushing full blocks, production implementations pull missing ancest"
     },
     {
       "id": "9ad5fa225ea4",
@@ -1033,26 +1053,6 @@
       "published": "2025-03-03T23:32:41+00:00",
       "ts": 1741044761.0,
       "summary": "Asynchronous randomness beacons must preserve agreement and sustain output generation despite Byzantine faults while preventing adversarial bias. We present $\\mathsf{AsyRand}$, a publicly verifiable randomness beacon that combines publicly verifiable secret sharing (PVSS) with local-coin asynchronous binary agreement (ABA). Its Producer-Consumer design overlaps PVSS preparation with beacon generat"
-    },
-    {
-      "id": "c43f9361e878",
-      "title": "BBB Secure Large-Tweak TBC from Ideal Block Ciphers",
-      "link": "https://eprint.iacr.org/2024/2049",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-12-19T12:22:47+00:00",
-      "ts": 1734610967.0,
-      "summary": "At FSE'15, Mennink introduced the concept of designing beyond-birthday bound secure tweakable block cipher from an ideal block cipher. They proposed two tweakable block ciphers $\\widetilde{F}[1]$ and $\\widetilde{F}[2]$ that accept $n$-bit tweaks using a block cipher with an $n$-bit key and $n$-bit data. Mennink proved that the constructions achieve security up to $2^{2n/3}$ and $2^n$ queries, resp"
-    },
-    {
-      "id": "ffca06381237",
-      "title": "Optimizing Two-Step Primal LWE Attacks with PnJBKZ Simulation",
-      "link": "https://eprint.iacr.org/2022/1343",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2022-10-08T03:38:05+00:00",
-      "ts": 1665200285.0,
-      "summary": "Learning with Errors (LWE) and its variants underlie many lattice-based cryptosystems, making accurate concrete attack-cost estimates important for parameter selection. Practical primal attacks combine lattice-basis reduction with a final shortest-vector search, and their performance depends strongly on how these components are scheduled. We formalize the two-step strategy space considered in this"
     },
     {
       "id": "51e332a12f4d",
