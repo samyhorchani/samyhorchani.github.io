@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T03:01:54.623319+00:00",
+  "generated_at": "2026-11-05T11:46:15.941817+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,76 @@
     }
   ],
   "items": [
+    {
+      "id": "50cac777489f",
+      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+      "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-05T10:06:19+00:00",
+      "ts": 1793873179.0,
+      "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption. Below, we examine five"
+    },
+    {
+      "id": "5d169c3ca8ae",
+      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+      "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-05T09:13:28+00:00",
+      "ts": 1793870008.0,
+      "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\" When users choose this option,"
+    },
+    {
+      "id": "bb845709265e",
+      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+      "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-05T08:42:03+00:00",
+      "ts": 1793868123.0,
+      "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools"
+    },
+    {
+      "id": "e55fa591707a",
+      "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+      "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-05T07:06:33+00:00",
+      "ts": 1793862393.0,
+      "summary": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole. The earlier fix is the 2.90"
+    },
+    {
+      "id": "a9c214ed4f45",
+      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-05T05:17:04+00:00",
+      "ts": 1793855824.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with"
+    },
+    {
+      "id": "7429da20a1be",
+      "title": "Want to Rent an Internet Address at the White House?",
+      "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "source": "Krebs on Security",
+      "category": "veille",
+      "published": "2026-11-05T04:36:17+00:00",
+      "ts": 1793853377.0,
+      "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016."
+    },
+    {
+      "id": "554ae8b30170",
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-05T04:31:16+00:00",
+      "ts": 1793853076.0,
+      "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)"
+    },
     {
       "id": "caf918a34b06",
       "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
@@ -52,7 +122,7 @@
       "category": "veille",
       "published": "2026-11-04T14:27:52+00:00",
       "ts": 1793802472.0,
-      "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and"
+      "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and"
     },
     {
       "id": "e8fa5ae51474",
@@ -105,64 +175,14 @@
       "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are \"suspected of embezzling funds from the"
     },
     {
-      "id": "5a06d1e19122",
-      "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-      "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-04T07:46:15+00:00",
-      "ts": 1793778375.0,
-      "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its&nbsp;November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report"
-    },
-    {
-      "id": "436aa6c26708",
-      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-      "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-04T05:43:11+00:00",
-      "ts": 1793770991.0,
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code"
-    },
-    {
-      "id": "d33ae713e86f",
-      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-      "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-03T18:46:38+00:00",
-      "ts": 1793731598.0,
-      "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer mSeven Software. It says the company recently learned of suspicious activity linked to the app but"
-    },
-    {
-      "id": "59ce1c343684",
-      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-      "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-03T18:16:19+00:00",
-      "ts": 1793729779.0,
-      "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week. \"An external attacker gained unauthorized access to part of"
-    },
-    {
-      "id": "b764b503c0bc",
-      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-      "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-03T16:55:58+00:00",
-      "ts": 1793724958.0,
-      "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers. \"It was not a single isolated breach or a simple phishing incident,\""
-    },
-    {
-      "id": "195b8059ce6d",
-      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-      "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-03T15:59:19+00:00",
-      "ts": 1793721559.0,
-      "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)"
+      "id": "9d2174cbf473",
+      "title": "Practical Optimal Bucket Sets with Power-of-Two Radices for LFG-Based MSM Algorithms",
+      "link": "https://eprint.iacr.org/2026/2750",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-03T18:49:49+00:00",
+      "ts": 1793731789.0,
+      "summary": "Fixed point multi-scalar multiplication (MSM) is a major computational component of pairing-based SNARK proof generation. The Luo--Fu--Gong (LFG) framework is a variant of Pippenger's bucket method that uses a multiplier set $M$ and precomputed point multiples to reduce the number of buckets and online point additions. For radix $q$ and a positive multiplier set $M$, covering all digit residues re"
     },
     {
       "id": "0fceb6985485",
@@ -295,14 +315,14 @@
       "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware&#8212;­or spyware, if you’re being less charitable­&#8212;was a voice assistant equipped with WebView, an Android syste"
     },
     {
-      "id": "ff89c386f69f",
-      "title": "Gaussian Difference Dynamics: Breaking the $2^{n/2}$ Barrier for the Shortest Vector Problem and Discrete Gaussian Sampling",
-      "link": "https://eprint.iacr.org/2026/2690",
+      "id": "6555224f9b80",
+      "title": "Rotom: A Microcontroller-Oriented Tweakable Block Cipher Using Modular Multiplication (Full Version)",
+      "link": "https://eprint.iacr.org/2026/2693",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-10-30T04:09:29+00:00",
-      "ts": 1793333369.0,
-      "summary": "We give classical randomized algorithms in a word-RAM model that break the $2^{n/2}$ barrier for both discrete Gaussian sampling (DGS) and the Shortest Vector Problem (SVP). For every fixed $\\alpha1$, shifted DGS on arbitrary lattices at width $\\sigma\\ge\\alpha\\eta_{1/2}(L)$ takes $$ (3/2)^{n/2+o(n)}\\text{ time} \\qquad\\text{and}\\qquad (4/3)^{n/2+o(n)}\\text{ space}. $$ These bounds match the Becker-"
+      "published": "2026-10-30T09:22:50+00:00",
+      "ts": 1793352170.0,
+      "summary": "We propose Rotom, a family of 128-bit tweakable block ciphers designed for efficient software implementation on 32-bit microcontrollers. The central design idea is to use modular multiplication as a compact and software-efficient source of strong nonlinearity. Rotom instantiates this idea with a fixed 16-bit S-box built from odd constant multiplication modulo $2^{16}$ interleaved with lightweight "
     },
     {
       "id": "7e9461dac3ab",
@@ -605,16 +625,6 @@
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
     },
     {
-      "id": "6926d9c99fe9",
-      "title": "Provenance Proofs: Linkable Zero-Knowledge Derivation Relations for Hierarchical Deterministic Wallets",
-      "link": "https://eprint.iacr.org/2026/2204",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-24T16:45:22+00:00",
-      "ts": 1790268322.0,
-      "summary": "ZKPoSP proves that a public key or address was honestly derived from a hidden wallet seed, without revealing the seed or the private derivation state. This paper studies relationships among several derived values: whether public keys or addresses, possibly on different curves and different blockchains, share a hidden origin, which is the seed or an anchor of the wallet, and who else can recognize "
-    },
-    {
       "id": "71c4a4caf94f",
       "title": "SAML: A fractal of bad design",
       "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
@@ -635,16 +645,6 @@
       "summary": "Security firms have published numerous blog posts describing how they pointed their agent harness at a codebase and found dozens of bugs (we’re one of them). However, these posts tend to focus on agentic code review, which is just one aspect of how we use AI in our security reviews. We want to give a different perspective: before code review even starts, agents now allow us to build custom tooling"
     },
     {
-      "id": "e89356591296",
-      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-      "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-      "source": "Krebs on Security",
-      "category": "veille",
-      "published": "2026-09-16T18:14:22+00:00",
-      "ts": 1789582462.0,
-      "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off"
-    },
-    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -653,6 +653,16 @@
       "published": "2026-09-15T11:00:00+00:00",
       "ts": 1789470000.0,
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
+    },
+    {
+      "id": "5331aeb41709",
+      "title": "Bounded Information: PAC Certification of Multivariate Side-Channel Traces",
+      "link": "https://eprint.iacr.org/2026/1990",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-12T10:16:29+00:00",
+      "ts": 1789208189.0,
+      "summary": "Side-channel leakage certification aims to quantify what an attacker can learn about a secret variable from observed leakage. Existing information-theoretic estimators, such as perceived information (PI), hypothetical information (HI), and nonparametric mutual information (MI), aim to quantify distributional leakage, but they become unstable in high-dimensional traces and do not provide a finite-s"
     },
     {
       "id": "0c016fa822b6",
@@ -735,6 +745,16 @@
       "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t"
     },
     {
+      "id": "ce75816bf337",
+      "title": "LAMP: Linear Verification of Matrix Multiplication via Proximity Testing",
+      "link": "https://eprint.iacr.org/2026/1571",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-31T10:02:35+00:00",
+      "ts": 1785492155.0,
+      "summary": "Verifiable computation systems often need to prove large matrix multiplication statements, but a direct SNARK arithmetization of a \\(k \\times k\\) product requires \\(\\mathcal{O}(k^3)\\) constraints. Freivalds' randomized check reduces the algebraic computation to vector-matrix products, but proving those products inside a SNARK still costs \\(\\mathcal{O}(k^2)\\) constraints. We present LAMP, a matrix-"
+    },
+    {
       "id": "f26b7f89b569",
       "title": "Building secure Uniswap v4 hooks",
       "link": "https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/",
@@ -753,16 +773,6 @@
       "published": "2026-07-29T14:23:30+00:00",
       "ts": 1785335010.0,
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
-    },
-    {
-      "id": "c859d62556d4",
-      "title": "(R)Icy-DVRF: A Robust Distributed Verifiable Random Function Based on ROAST Signatures",
-      "link": "https://eprint.iacr.org/2026/1378",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-05T21:20:59+00:00",
-      "ts": 1783286459.0,
-      "summary": "Ensuring robustness and liveness in distributed verifiable random functions (DVRFs) allows the protocol to maintain correct operation and guarantee output generation, even in the presence of malicious actors attempting to disrupt the process, delay cryptographic shares, or remain unresponsive. Because existing DVRF protocols typically rely on synchronous or semi-synchronous network assumptions, si"
     },
     {
       "id": "09b719e50e41",
@@ -793,6 +803,16 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
+    },
+    {
+      "id": "ce6b353f1465",
+      "title": "Formalizing PQC Signature Transition: Case of PoW Blockchain Against On-Spend Attack",
+      "link": "https://eprint.iacr.org/2026/952",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-13T18:21:25+00:00",
+      "ts": 1778696485.0,
+      "summary": "It is getting widely recognized that quantum computers pose a fundamental threat to blockchain security. The transaction signature transition to Post-quantum cryptography (PQC) is therefore an urgent challenge. However, it remains unclear how much quantum computing power would be sufficient to compromise blockchain security and, consequently, by when the transition should be completed. To address "
     },
     {
       "id": "e867d3e3dacb",
@@ -1033,26 +1053,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "d9950bf77af3",
-      "title": "A proof of P≠NP (New symmetric encryption algorithm against any linear attacks and differential attacks)",
-      "link": "https://eprint.iacr.org/2025/445",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-03-08T18:06:39+00:00",
-      "ts": 1741457199.0,
-      "summary": "P vs NP problem is the most important unresolved problem in the field of computational complexity. Its impact has penetrated into all aspects of algorithm design, especially in the field of cryptography. The security of cryptographic algorithms based on short keys depends on whether P is equal to NP. In fact, the security requirements for cryptographic keys are much stricter than those for P$\\neq$"
-    },
-    {
-      "id": "34e82cf20763",
-      "title": "Cryptographically Secure Digital Consent",
-      "link": "https://eprint.iacr.org/2024/1839",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2024-11-08T20:24:02+00:00",
-      "ts": 1731097442.0,
-      "summary": "In the digital age, maintaining trust and security in third-party services is crucial, especially when it comes to consent for online actions executed by third parties. This work studies the concept of cryptographically secure digital consent. We provide a protocol which involves a client (the user) and an agent (which executes the action upon receiving consent) with the help of an identity manage"
     },
     {
       "id": "fe08969fba91",
