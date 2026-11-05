@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T22:21:01.732095+00:00",
+  "generated_at": "2026-11-05T03:01:54.623319+00:00",
   "count": 105,
   "errors": [
     {
@@ -665,6 +665,16 @@
       "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem, but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat&rsquo;s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug, shown belo"
     },
     {
+      "id": "3f8138818b50",
+      "title": "Otter: A Provably MEV-Resilient Automated Market Maker via Surplus Redistribution",
+      "link": "https://eprint.iacr.org/2026/1877",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-03T05:01:23+00:00",
+      "ts": 1788411683.0,
+      "summary": "Miner extractable value (MEV) in automated market makers allows block builders to profit from transaction ordering and injected trades, imposing costs on users and contributing to builder centralization. We introduce Otter (Optimal Truthful Trading with Excess Redistribution), a two-asset batch AMM that achieves provable MEV resilience when the consensus layer provides censorship resilience and bl"
+    },
+    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -855,16 +865,6 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
-      "id": "f6e556510cad",
-      "title": "Distance of RAA Codes over Large Finite Fields (with Applications in zkSNARKs and PCGs)",
-      "link": "https://eprint.iacr.org/2026/524",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-16T02:13:59+00:00",
-      "ts": 1773627239.0,
-      "summary": "Error-correcting codes play a central role in modern cryptography, enabling efficient constructions of primitives such as zero knowledge proofs and secure multiparty computations. Among them, repeat-accumulate-accumulate (RAA) codes have recently attracted significant attention due to their linear-time encoding and good distance properties. However, prior work only established provable distance gu"
-    },
-    {
       "id": "b7ffc9dc8c13",
       "title": "Anonymous credentials: an illustrated primer",
       "link": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
@@ -985,6 +985,16 @@
       "summary": "Posted by Aden Haussmann, Associate Product Manager and Sumeet Sharma, Play Partnerships Trust & Safety Lead Android uses the best of Google AI and our advanced security expertise to tackle mobile scams from every angle. Over the last few years, we’ve launched industry-leading features to detect scams and protect users across phone calls, text messages and messaging app chat notifications. These e"
     },
     {
+      "id": "383cf9c7a28b",
+      "title": "Non-Interactive Threshold Mercurial Signatures with Applications to Threshold DAC",
+      "link": "https://eprint.iacr.org/2025/2134",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-11-21T16:21:31+00:00",
+      "ts": 1763742091.0,
+      "summary": "In a mercurial signature, a signer signs a representative $m$ of an equivalence class of messages on behalf of a representative $\\mathsf{pk}$ of an equivalence class of public keys, receiving the signature $\\sigma$. One can then transform $\\sigma$ into a signature $\\sigma'$ on an equivalent (to $m$) message $m'$ under an equivalent (to $\\mathsf{pk}$) public key $\\mathsf{pk}'$. Mercurial signatures"
+    },
+    {
       "id": "da91654fce63",
       "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
       "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
@@ -1053,16 +1063,6 @@
       "published": "2024-10-08T12:38:24+00:00",
       "ts": 1728391104.0,
       "summary": "Goldreich's pseudorandom generators (PRGs) with constant locality admit highly parallel implementations, yet the concrete security of instantiations based on the $\\xor\\text{-}\\thr$ predicate has remained unclear. In this work, we present novel seed recovery attacks on Goldreich's PRGs instantiated on \\(\\xor\\text{-}\\thr\\) predicates with $m=n^s$, where $m$ and $n$ are the length of output and input"
-    },
-    {
-      "id": "04ac5eec2959",
-      "title": "Decentralized Multi-Authority Attribute-Based Inner-Product FE: Large Universe and Unbounded",
-      "link": "https://eprint.iacr.org/2023/565",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2023-04-20T22:40:12+00:00",
-      "ts": 1682030412.0,
-      "summary": "This paper presents the first decentralized multi-authority attribute-based inner product functional encryption (MA-ABIPFE) schemes supporting vectors of a priori unbounded lengths. The notion of AB-IPFE, introduced by Abdalla et al. [ASIACRYPT 2020], combines the access control functionality of attribute-based encryption (ABE) with the possibility of evaluating linear functions on encrypted data."
     }
   ]
 }
