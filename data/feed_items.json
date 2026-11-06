@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T00:39:36.544104+00:00",
+  "generated_at": "2026-11-06T07:34:01.983647+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "bc24fe9c3325",
+      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+      "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-06T05:58:54+00:00",
+      "ts": 1793944734.0,
+      "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server."
+    },
+    {
+      "id": "1ed46fbf9ab6",
+      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+      "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-06T05:39:10+00:00",
+      "ts": 1793943550.0,
+      "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a"
+    },
     {
       "id": "a76a6ca55c74",
       "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
@@ -153,26 +173,6 @@
       "published": "2026-11-04T16:06:43+00:00",
       "ts": 1793808403.0,
       "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration"
-    },
-    {
-      "id": "ebdb89c3e602",
-      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-      "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-04T14:27:52+00:00",
-      "ts": 1793802472.0,
-      "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and"
-    },
-    {
-      "id": "e8fa5ae51474",
-      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-      "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-04T12:07:04+00:00",
-      "ts": 1793794024.0,
-      "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2. The flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store"
     },
     {
       "id": "9d2174cbf473",
@@ -353,16 +353,6 @@
       "published": "2026-11-02T00:00:00+00:00",
       "ts": 1793577600.0,
       "summary": "Une vulnérabilité a été découverte dans Traefik. Elle permet à un attaquant de provoquer un déni de service à distance."
-    },
-    {
-      "id": "1e4360deae2f",
-      "title": "Fast Provable Algorithms for Approximate CVP and Exact SVP on Random \\(q\\)-ary Lattices",
-      "link": "https://eprint.iacr.org/2026/2711",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-31T16:00:03+00:00",
-      "ts": 1793462403.0,
-      "summary": "We give provable randomized algorithms for the $\\gamma$-approximate Closest Vector Problem ($\\gamma$-CVP) with $\\gamma=5/3$ and the exact Shortest Vector Problem (SVP) in the Euclidean norm on random $q$-ary lattices. These lattices consist of the integer vectors mapped to zero modulo $q$ by a uniformly random matrix $\\mathbf{H}\\in(\\mathbb{Z}/q\\mathbb{Z})^{m\\times n}$, for any integer $q\\ge2$. For"
     },
     {
       "id": "62fbef70df1a",
@@ -935,14 +925,14 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
-      "id": "15ae06951f76",
-      "title": "Adams Bridge (V2.0) Accelerator: Bridging the Post-Quantum Transition",
-      "link": "https://eprint.iacr.org/2026/256",
+      "id": "94af71fd81e7",
+      "title": "Weighted Cryptography with Weight-Independent Complexity",
+      "link": "https://eprint.iacr.org/2026/273",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-02-13T19:40:28+00:00",
-      "ts": 1771011628.0,
-      "summary": "Quantum computing threatens widely deployed public-key cryptosystems, driving the urgent adoption of post-quantum cryptography (PQC) in cloud and hardware-accelerated security infrastructures. This paper presents \\emph{Adams Bridge}, an industry-grade hardware accelerator for lattice-based PQC that integrates ML-KEM and ML-DSA within a unified architecture to maximize hardware reuse and silicon ef"
+      "published": "2026-02-16T13:56:04+00:00",
+      "ts": 1771250164.0,
+      "summary": "Cryptographic primitives involving multiple participants, such as secure multiparty computation (MPC), threshold signatures, and threshold encryption, are typically designed under the assumption that at least a threshold number of participants remain honest and non-colluding. However, many real-world applications require more expressive access structures beyond simple thresholds. A prominent examp"
     },
     {
       "id": "96ed87c2cba3",
@@ -1063,6 +1053,16 @@
       "published": "2025-06-05T18:18:14+00:00",
       "ts": 1749147494.0,
       "summary": "We study the problem of combating *viral* misinformation campaigns in end-to-end encrypted (E2EE) messaging systems such as WhatsApp. We propose a new notion of Hop Tracking Signatures (HTS) that allows for tracing originators of messages that have been propagated on long forwarding paths (i.e., gone viral), while preserving anonymity of everyone else. We define security for HTS against malicious "
+    },
+    {
+      "id": "4bdaf22b62cf",
+      "title": "Fully Homomorphic Encryption: A Mathematical Introduction",
+      "link": "https://eprint.iacr.org/2023/1402",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2023-09-18T15:13:27+00:00",
+      "ts": 1695050007.0,
+      "summary": "We provide a mathematical introduction to fully homomorphic encryption (FHE), which enables computations to be performed on encrypted data without requiring decryption. We begin with a brief overview of the historical development of FHE, then focus on Fully Homomorphic Encryption over the Torus (TFHE), describing its underlying mathematical structure and fundamental homomorphic operations. Particu"
     }
   ]
 }
