@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:33:54.016665+00:00",
+  "generated_at": "2026-11-06T21:13:09.735403+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "c58b1f273508",
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-06T16:08:38+00:00",
+      "ts": 1793981318.0,
+      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the"
+    },
+    {
+      "id": "fbc9f5e06999",
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-06T15:21:49+00:00",
+      "ts": 1793978509.0,
+      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,"
+    },
+    {
+      "id": "1a9175dffb16",
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-06T14:58:32+00:00",
+      "ts": 1793977112.0,
+      "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as"
+    },
     {
       "id": "a791e67c64d2",
       "title": "Pinpointing Location of Videos from Background Airplane Sounds",
@@ -155,36 +185,6 @@
       "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption. Below, we examine five"
     },
     {
-      "id": "5d169c3ca8ae",
-      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-      "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-05T09:13:28+00:00",
-      "ts": 1793870008.0,
-      "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\" When users choose this option,"
-    },
-    {
-      "id": "bb845709265e",
-      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-      "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-05T08:42:03+00:00",
-      "ts": 1793868123.0,
-      "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools"
-    },
-    {
-      "id": "e55fa591707a",
-      "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-      "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-05T07:06:33+00:00",
-      "ts": 1793862393.0,
-      "summary": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole. The earlier fix is the 2.90"
-    },
-    {
       "id": "7429da20a1be",
       "title": "Want to Rent an Internet Address at the White House?",
       "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
@@ -193,6 +193,16 @@
       "published": "2026-11-05T04:36:17+00:00",
       "ts": 1793853377.0,
       "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016."
+    },
+    {
+      "id": "55d41db3f0f7",
+      "title": "AirBB: Lightweight Threshold Anonymous Credentials without Random Oracles from BB Signatures",
+      "link": "https://eprint.iacr.org/2026/2762",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-04T10:21:48+00:00",
+      "ts": 1793787708.0,
+      "summary": "Anonymous credentials are a well-studied cryptographic primitive enabling users to prove statements about their identity and selectively present personal information in an unlinkable manner. The issuer, however, is often a single point of failure. Threshold issuance addresses this by distributing the issuer across several parties such that a quorum of them must cooperate to issue credentials. Nume"
     },
     {
       "id": "4500f23f0ad6",
@@ -445,16 +455,6 @@
       "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware&#8212;­or spyware, if you’re being less charitable­&#8212;was a voice assistant equipped with WebView, an Android syste"
     },
     {
-      "id": "6555224f9b80",
-      "title": "Rotom: A Microcontroller-Oriented Tweakable Block Cipher Using Modular Multiplication (Full Version)",
-      "link": "https://eprint.iacr.org/2026/2693",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-30T09:22:50+00:00",
-      "ts": 1793352170.0,
-      "summary": "We propose Rotom, a family of 128-bit tweakable block ciphers designed for efficient software implementation on 32-bit microcontrollers. The central design idea is to use modular multiplication as a compact and software-efficient source of strong nonlinearity. Rotom instantiates this idea with a fixed 16-bit S-box built from odd constant multiplication modulo $2^{16}$ interleaved with lightweight "
-    },
-    {
       "id": "33126942bff2",
       "title": "Stop Calling Them Provers: The Case for Calling ProVerif and Tamarin Symbolic Protocol Analyzers",
       "link": "https://eprint.iacr.org/2026/2683",
@@ -705,16 +705,6 @@
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
     },
     {
-      "id": "5331aeb41709",
-      "title": "Bounded Information: PAC Certification of Multivariate Side-Channel Traces",
-      "link": "https://eprint.iacr.org/2026/1990",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-12T10:16:29+00:00",
-      "ts": 1789208189.0,
-      "summary": "Side-channel leakage certification aims to quantify what an attacker can learn about a secret variable from observed leakage. Existing information-theoretic estimators, such as perceived information (PI), hypothetical information (HI), and nonparametric mutual information (MI), aim to quantify distributional leakage, but they become unstable in high-dimensional traces and do not provide a finite-s"
-    },
-    {
       "id": "0c016fa822b6",
       "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
       "link": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
@@ -773,16 +763,6 @@
       "published": "2026-08-05T11:00:00+00:00",
       "ts": 1785927600.0,
       "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t"
-    },
-    {
-      "id": "ce75816bf337",
-      "title": "LAMP: Linear Verification of Matrix Multiplication via Proximity Testing",
-      "link": "https://eprint.iacr.org/2026/1571",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-31T10:02:35+00:00",
-      "ts": 1785492155.0,
-      "summary": "Verifiable computation systems often need to prove large matrix multiplication statements, but a direct SNARK arithmetization of a \\(k \\times k\\) product requires \\(\\mathcal{O}(k^3)\\) constraints. Freivalds' randomized check reduces the algebraic computation to vector-matrix products, but proving those products inside a SNARK still costs \\(\\mathcal{O}(k^2)\\) constraints. We present LAMP, a matrix-"
     },
     {
       "id": "0c33a4787ae8",
@@ -1025,6 +1005,16 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
+      "id": "7110d265b601",
+      "title": "Dynark: Making Groth16 Dynamic",
+      "link": "https://eprint.iacr.org/2025/1897",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-10-10T17:23:25+00:00",
+      "ts": 1760117005.0,
+      "summary": "In recent years, numerous new and more efficient constructions of zero-knowledge succinct non-interactive argument of knowledge (zkSNARK) have been proposed, motivated by their growing practical applications. However, in most schemes, when the witness is changed, the prover has to recompute the proof from scratch even if the new witness is close to the old one. This is inefficient for applications"
+    },
+    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1063,6 +1053,16 @@
       "published": "2023-09-18T15:13:27+00:00",
       "ts": 1695050007.0,
       "summary": "We provide a mathematical introduction to fully homomorphic encryption (FHE), which enables computations to be performed on encrypted data without requiring decryption. We begin with a brief overview of the historical development of FHE, then focus on Fully Homomorphic Encryption over the Torus (TFHE), describing its underlying mathematical structure and fundamental homomorphic operations. Particu"
+    },
+    {
+      "id": "500230b4c4de",
+      "title": "BAKSHEESH: Similar Yet Different From GIFT",
+      "link": "https://eprint.iacr.org/2023/750",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2023-05-24T12:28:09+00:00",
+      "ts": 1684931289.0,
+      "summary": "We propose a lightweight block cipher named BAKSHEESH, which follows up on the popular cipher GIFT-128 (CHES'17). BAKSHEESH runs for 35 rounds, which is 12.50 percent smaller compared to GIFT-128 (runs for 40 rounds) while maintaining the same security claims against the classical attacks. The crux of BAKSHEESH is to use a 4-bit SBox that has a non-trivial Linear Structure (LS). An SBox with one o"
     }
   ]
 }
