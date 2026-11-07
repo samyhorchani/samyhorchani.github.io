@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T08:10:49.486163+00:00",
+  "generated_at": "2026-11-07T15:20:27.212240+00:00",
   "count": 105,
   "errors": [
     {
@@ -425,16 +425,6 @@
       "summary": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149"
     },
     {
-      "id": "62fbef70df1a",
-      "title": "Hidden Curves and Short Duals: Cubic Jets, Dual Leaks, and the Limits of Masked-Code Encryption",
-      "link": "https://eprint.iacr.org/2026/2710",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-31T15:22:00+00:00",
-      "ts": 1793460120.0,
-      "summary": "Masked-code encryption hides a decodable code behind a transformation meant to make it look random. We study the two masks proposed as compact alternatives to Goppa codes---Wang's RLCE and the $(U\\,|\\,U{+}V)$ construction of UVW-KEM---over the decodable hidden codes they have been or could be applied to, and find that, among the families examined, none yields a compact trapdoor. Over Reed--Solomon"
-    },
-    {
       "id": "b912b4f04d6b",
       "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
@@ -595,16 +585,6 @@
       "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity."
     },
     {
-      "id": "075472d663a0",
-      "title": "Flying, Not Floating: Precise Fixed-Point Falcon on Embedded Processors",
-      "link": "https://eprint.iacr.org/2026/2431",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-09T17:06:27+00:00",
-      "ts": 1791565587.0,
-      "summary": "The Falcon digital signature scheme, under standardization as FN-DSA, requires real-number arithmetic during signing, with its security dependent on numerical precision. Recently, De Almeida Braga et al. (CRYPTO 2026) showed that Falcon-512 can sign in 64.64 fixed-point arithmetic on 64-bit hosts. In this work, we present the first fixed-point FN-DSA signer for microcontrollers, using 32.64 arithm"
-    },
-    {
       "id": "4b3e102168c7",
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
@@ -705,6 +685,16 @@
       "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem, but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat&rsquo;s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug, shown belo"
     },
     {
+      "id": "61c7adca6feb",
+      "title": "Correction of parameters in ``Computing Optimal Ate Pairings on Elliptic Curves with Embedding Degree 9, 15 and 27''",
+      "link": "https://eprint.iacr.org/2026/1884",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-03T22:10:32+00:00",
+      "ts": 1788473432.0,
+      "summary": "We correct two errors in Section~8 of the above-mentioned paper concerning the seed parameters proposed for BLS27 elliptic curves (embedding degree \\(k=27\\)) at the 256-bit and 192-bit security levels. In both instances, the disclosed seeds produce a composite \\(r(x)\\), violating the primality condition essential for constructing pairing-friendly curves. Additionally, for the 192-bit seed, the cha"
+    },
+    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -723,6 +713,16 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
+    },
+    {
+      "id": "136d7568f4e1",
+      "title": "Linear Cryptanalysis with Bibrace Characters: Weak-Key Distinguishers for CRAFT",
+      "link": "https://eprint.iacr.org/2026/1767",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-21T16:16:57+00:00",
+      "ts": 1787329017.0,
+      "summary": "Linear cryptanalysis measures the correlation of a cipher with the characters of the group used to define differences. If that group is replaced by a second elementary abelian group structure on the same set, here the one coming from a binary bibrace, then the admissible masks are no longer the ordinary scalar products: exactly half of them survive, and the other half are forced to be quadratic. B"
     },
     {
       "id": "bea5a06fb576",
@@ -805,16 +805,6 @@
       "summary": "Trusted Execution Environments (TEEs), also known as secure enclaves, such as Intel SGX, Intel TDX, and AMD SEV, are seeing widespread use to perform computations on highly sensitive data. Several formal models exist to analyze the security of cryptographic protocols using TEEs, notably the one by Pass et al. (EUROCRYPT 2017) for attested computations in the Generalized UC framework. Using this mo"
     },
     {
-      "id": "ff4794495a48",
-      "title": "Complete Fairness in Secure Two-party Computation from Quantum One-Wayness",
-      "link": "https://eprint.iacr.org/2026/883",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-05T18:29:41+00:00",
-      "ts": 1778005781.0,
-      "summary": "In 1997, Mayers, and Lo and Chau, in their papers proved that if one of the parties is malicious, it is not possible to achieve unconditional security in quantum bit-commitment (Phy. Rev. Lett, 1997). Moreover, Lo showed that it is not possible to achieve unconditional security in two-party quantum computation (Phy. Rev. A, 1997). However, restricting the computational power of the adversary, via "
-    },
-    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -883,6 +873,16 @@
       "published": "2026-03-25T13:00:00+00:00",
       "ts": 1774443600.0,
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
+    },
+    {
+      "id": "41552ed9b124",
+      "title": "Radical 3-isogenies for the ideal class group actions on $(2, \\varepsilon)$-structures",
+      "link": "https://eprint.iacr.org/2026/576",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-03-23T09:54:04+00:00",
+      "ts": 1774259644.0,
+      "summary": "Chenu and Smith introduced the notion of $(d,\\varepsilon)$-structures, pairs consisting of an elliptic curve over $\\mathbb{F}_{p^2}$ and an isogeny of degree $d$ from the curve to its Galois conjugate, and defined an ideal class group action on supersingular $(d,\\varepsilon)$-structures, inherited from the action on oriented supersingular elliptic curves. They also outlined extensions of the CSIDH"
     },
     {
       "id": "b7ffc9dc8c13",
@@ -1025,16 +1025,6 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "6c5714f12fb1",
-      "title": "Revisiting Linkable Ring Signatures with Logarithmic Verification Complexity",
-      "link": "https://eprint.iacr.org/2025/1375",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-07-28T19:28:57+00:00",
-      "ts": 1753730937.0,
-      "summary": "Ring Signatures allow a user to sign on behalf of an ad-hoc set of public keys, while hiding their identity inside that set. Linkable Ring Signatures (LRS) add the functionality of detecting signatures originating from the same signer. They have found many applications in anonymous transactions and e-voting. The LLRing family of linkable ring signature schemes by Hui and Chau (ESORICS 2024) is one"
-    },
-    {
       "id": "e7489dbf23f3",
       "title": "How to Trace Viral Content in End-to-End Encrypted Messaging",
       "link": "https://eprint.iacr.org/2025/1052",
@@ -1043,6 +1033,16 @@
       "published": "2025-06-05T18:18:14+00:00",
       "ts": 1749147494.0,
       "summary": "We study the problem of combating *viral* misinformation campaigns in end-to-end encrypted (E2EE) messaging systems such as WhatsApp. We propose a new notion of Hop Tracking Signatures (HTS) that allows for tracing originators of messages that have been propagated on long forwarding paths (i.e., gone viral), while preserving anonymity of everyone else. We define security for HTS against malicious "
+    },
+    {
+      "id": "d9950bf77af3",
+      "title": "A proof of P≠NP (New symmetric encryption algorithm against any linear attacks and differential attacks)",
+      "link": "https://eprint.iacr.org/2025/445",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-03-08T18:06:39+00:00",
+      "ts": 1741457199.0,
+      "summary": "P vs NP problem is the most important unresolved problem in the field of computational complexity. Its impact has penetrated into all aspects of algorithm design, especially in the field of cryptography. The security of cryptographic algorithms based on short keys depends on whether P is equal to NP. In fact, the security requirements for cryptographic keys are much stricter than those for P$\\neq$"
     },
     {
       "id": "4bdaf22b62cf",
