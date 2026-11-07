@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T01:30:37.687515+00:00",
+  "generated_at": "2026-11-07T08:10:49.486163+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "850d9a8fff26",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-07T06:44:17+00:00",
+      "ts": 1794033857.0,
+      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public"
+    },
     {
       "id": "1fc358122052",
       "title": "Friday Squid Blogging: New Jurassic Squid Predecessors",
@@ -183,16 +193,6 @@
       "published": "2026-11-05T12:08:54+00:00",
       "ts": 1793880534.0,
       "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)"
-    },
-    {
-      "id": "50cac777489f",
-      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-      "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-05T10:06:19+00:00",
-      "ts": 1793873179.0,
-      "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption. Below, we examine five"
     },
     {
       "id": "7429da20a1be",
@@ -433,16 +433,6 @@
       "published": "2026-10-31T15:22:00+00:00",
       "ts": 1793460120.0,
       "summary": "Masked-code encryption hides a decodable code behind a transformation meant to make it look random. We study the two masks proposed as compact alternatives to Goppa codes---Wang's RLCE and the $(U\\,|\\,U{+}V)$ construction of UVW-KEM---over the decodable hidden codes they have been or could be applied to, and find that, among the families examined, none yields a compact trapdoor. Over Reed--Solomon"
-    },
-    {
-      "id": "58eab5434f11",
-      "title": "The Authentication Complexity of Byzantine Consensus",
-      "link": "https://eprint.iacr.org/2026/2702",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-30T22:12:32+00:00",
-      "ts": 1793398352.0,
-      "summary": "Byzantine broadcast and Byzantine agreement are fundamental problems in distributed computing and building blocks for secure multiparty computation. In complete synchronous networks of $n$ parties with channels identifying the immediate sender, classical results establish how authentication changes resilience to $t$ Byzantine faults. Without initially authenticated public keys, both tasks are poss"
     },
     {
       "id": "b912b4f04d6b",
@@ -773,6 +763,16 @@
       "published": "2026-07-29T14:23:30+00:00",
       "ts": 1785335010.0,
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
+    },
+    {
+      "id": "64dd1a19a077",
+      "title": "Repeated Masks, Predictable Splices: Breaking AESpolyW and Its AEAD Applications",
+      "link": "https://eprint.iacr.org/2026/1424",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-12T10:20:19+00:00",
+      "ts": 1783851619.0,
+      "summary": "AESpolyW, presented at the 2026 IEEE Symposium on Security and Privacy, is a wide-block encryption mode that preserves the length of each message. Its design lets operations of the Advanced Encryption Standard (AES) overlap with hash computations based on polynomial evaluation. Our attacks splice ciphertexts by copying blocks from one ciphertext to the same positions in another. On five-block mess"
     },
     {
       "id": "09b719e50e41",
