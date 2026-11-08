@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T23:19:51.611454+00:00",
+  "generated_at": "2026-11-08T03:54:40.936367+00:00",
   "count": 105,
   "errors": [
     {
@@ -775,6 +775,16 @@
       "summary": "AESpolyW, presented at the 2026 IEEE Symposium on Security and Privacy, is a wide-block encryption mode that preserves the length of each message. Its design lets operations of the Advanced Encryption Standard (AES) overlap with hash computations based on polynomial evaluation. Our attacks splice ciphertexts by copying blocks from one ciphertext to the same positions in another. On five-block mess"
     },
     {
+      "id": "6caee768035d",
+      "title": "Atlantis: Lattice-based Anonymous Tokens with Private Metadata Bit",
+      "link": "https://eprint.iacr.org/2026/1248",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-12T20:54:19+00:00",
+      "ts": 1781297659.0,
+      "summary": "Anonymous tokens with private metadata bit (ATPM) allow an issuer to embed a hidden trust flag, as a single bit, within issued tokens. The bit remains hidden from the clients, but verifiers can read the bit and rate-limit or discard tokens marked suspect. A series of ATPM constructions exist in the literature, however all current constructions rely on classical hardness assumptions such as RSA gro"
+    },
+    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -925,14 +935,14 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
-      "id": "94af71fd81e7",
-      "title": "Weighted Cryptography with Weight-Independent Complexity",
-      "link": "https://eprint.iacr.org/2026/273",
+      "id": "3e142df2b1c8",
+      "title": "Catalytic Tree Evaluation From Matching Vectors",
+      "link": "https://eprint.iacr.org/2026/265",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-02-16T13:56:04+00:00",
-      "ts": 1771250164.0,
-      "summary": "Cryptographic primitives involving multiple participants, such as secure multiparty computation (MPC), threshold signatures, and threshold encryption, are typically designed under the assumption that at least a threshold number of participants remain honest and non-colluding. However, many real-world applications require more expressive access structures beyond simple thresholds. A prominent examp"
+      "published": "2026-02-15T21:45:12+00:00",
+      "ts": 1771191912.0,
+      "summary": "We give new algorithms for tree evaluation (S. Cook et al. TOCT 2012) in the catalytic-computing model (Buhrman et al. STOC 2014). Two existing approaches aim to solve tree evaluation (TreeEval) in low space: on the one hand, J. Cook and Mertz (STOC 2024) give an algorithm for TreeEval running in super-logarithmic space $O(\\log n\\log\\log n)$ and super-polynomial time $n^{O(\\log\\log n)}$. On the ot"
     },
     {
       "id": "96ed87c2cba3",
@@ -1023,16 +1033,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "e7489dbf23f3",
-      "title": "How to Trace Viral Content in End-to-End Encrypted Messaging",
-      "link": "https://eprint.iacr.org/2025/1052",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-06-05T18:18:14+00:00",
-      "ts": 1749147494.0,
-      "summary": "We study the problem of combating *viral* misinformation campaigns in end-to-end encrypted (E2EE) messaging systems such as WhatsApp. We propose a new notion of Hop Tracking Signatures (HTS) that allows for tracing originators of messages that have been propagated on long forwarding paths (i.e., gone viral), while preserving anonymity of everyone else. We define security for HTS against malicious "
     },
     {
       "id": "d9950bf77af3",
