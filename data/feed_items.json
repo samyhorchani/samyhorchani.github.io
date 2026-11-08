@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T16:57:32.695570+00:00",
+  "generated_at": "2026-11-08T20:58:07.136308+00:00",
   "count": 105,
   "errors": [
     {
@@ -205,16 +205,6 @@
       "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016."
     },
     {
-      "id": "55d41db3f0f7",
-      "title": "AirBB: Lightweight Threshold Anonymous Credentials without Random Oracles from BB Signatures",
-      "link": "https://eprint.iacr.org/2026/2762",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-04T10:21:48+00:00",
-      "ts": 1793787708.0,
-      "summary": "Anonymous credentials are a well-studied cryptographic primitive enabling users to prove statements about their identity and selectively present personal information in an unlinkable manner. The issuer, however, is often a single point of failure. Threshold issuance addresses this by distributing the issuer across several parties such that a quorum of them must cooperate to issue credentials. Nume"
-    },
-    {
       "id": "4500f23f0ad6",
       "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
@@ -323,6 +313,16 @@
       "published": "2026-11-03T12:00:00+00:00",
       "ts": 1793707200.0,
       "summary": "As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and document signing have moved away from paper-based legacy systems and become fully electronic. The shor"
+    },
+    {
+      "id": "debafe129e18",
+      "title": "Archive Certificates for ML-DSA-87 Authorizations from an Exact Bounded Relation",
+      "link": "https://eprint.iacr.org/2026/2739",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-03T11:40:49+00:00",
+      "ts": 1793706049.0,
+      "summary": "A blockchain that signs every transaction with FIPS 204 ML-DSA-87 keeps 4,627 bytes of signature per transaction forever. We describe and measure an archive certificate: one hash-based proof, for a range of already validated blocks, of knowledge of canonical FIPS 204 signatures on exactly the recorded messages under the keys resolved from chain state. Fresh blocks keep native verification. The con"
     },
     {
       "id": "b9ea4ff784bc",
@@ -985,6 +985,16 @@
       "summary": "Posted by Aden Haussmann, Associate Product Manager and Sumeet Sharma, Play Partnerships Trust & Safety Lead Android uses the best of Google AI and our advanced security expertise to tackle mobile scams from every angle. Over the last few years, we’ve launched industry-leading features to detect scams and protect users across phone calls, text messages and messaging app chat notifications. These e"
     },
     {
+      "id": "383cf9c7a28b",
+      "title": "Non-Interactive Threshold Mercurial Signatures with Applications to Threshold DAC",
+      "link": "https://eprint.iacr.org/2025/2134",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-11-21T16:21:31+00:00",
+      "ts": 1763742091.0,
+      "summary": "In a mercurial signature, a signer signs a representative $m$ of an equivalence class of messages on behalf of a representative $\\mathsf{pk}$ of an equivalence class of public keys, receiving the signature $\\sigma$. One can then transform $\\sigma$ into a signature $\\sigma'$ on an equivalent (to $m$) message $m'$ under an equivalent (to $\\mathsf{pk}$) public key $\\mathsf{pk}'$. Mercurial signatures"
+    },
+    {
       "id": "da91654fce63",
       "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
       "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
@@ -1023,16 +1033,6 @@
       "published": "2025-03-08T18:06:39+00:00",
       "ts": 1741457199.0,
       "summary": "P vs NP problem is the most important unresolved problem in the field of computational complexity. Its impact has penetrated into all aspects of algorithm design, especially in the field of cryptography. The security of cryptographic algorithms based on short keys depends on whether P is equal to NP. In fact, the security requirements for cryptographic keys are much stricter than those for P$\\neq$"
-    },
-    {
-      "id": "500230b4c4de",
-      "title": "BAKSHEESH: Similar Yet Different From GIFT",
-      "link": "https://eprint.iacr.org/2023/750",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2023-05-24T12:28:09+00:00",
-      "ts": 1684931289.0,
-      "summary": "We propose a lightweight block cipher named BAKSHEESH, which follows up on the popular cipher GIFT-128 (CHES'17). BAKSHEESH runs for 35 rounds, which is 12.50 percent smaller compared to GIFT-128 (runs for 40 rounds) while maintaining the same security claims against the classical attacks. The crux of BAKSHEESH is to use a 4-bit SBox that has a non-trivial Linear Structure (LS). An SBox with one o"
     },
     {
       "id": "88b201a76da2",
