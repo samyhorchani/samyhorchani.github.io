@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T07:33:04.056880+00:00",
+  "generated_at": "2026-11-09T18:09:15.483455+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,106 @@
     }
   ],
   "items": [
+    {
+      "id": "05b4a9984df6",
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-09T17:51:21+00:00",
+      "ts": 1794246681.0,
+      "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole, a data lake platform owned by Idera,"
+    },
+    {
+      "id": "1c4f75a82069",
+      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+      "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-09T17:36:28+00:00",
+      "ts": 1794245788.0,
+      "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the stored password that unlocks it. The code is also built to install a backdoor"
+    },
+    {
+      "id": "e19661a87c28",
+      "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+      "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-09T14:31:29+00:00",
+      "ts": 1794234689.0,
+      "summary": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT. \"PapRAT has both C++ and Rust implementations,\" Fortinet FortiGuard Labs researcher Cara Lin said. \"Its capabilities include command execution, file"
+    },
+    {
+      "id": "cb8b0d8341de",
+      "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+      "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-09T13:28:25+00:00",
+      "ts": 1794230905.0,
+      "summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack. Elsewhere, attackers are hiding inside normal web traffic, stealing credentials from network devices, and finding new uses for exposed"
+    },
+    {
+      "id": "294f39363b69",
+      "title": "AI Security",
+      "link": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-11-09T12:05:39+00:00",
+      "ts": 1794225939.0,
+      "summary": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad topics. It&#8217;s important for researchers to understand which one they are working on. And it&#8217;s imp"
+    },
+    {
+      "id": "9e3413c7bfd7",
+      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+      "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-09T11:27:53+00:00",
+      "ts": 1794223673.0,
+      "summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock, an identity platform now part of Ping Identity, and on those servers the researchers reached an"
+    },
+    {
+      "id": "a71e418ee11f",
+      "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+      "link": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-09T10:56:25+00:00",
+      "ts": 1794221785.0,
+      "summary": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week. Web3Auth then used the attacker's own route to empty other at-risk wallets before the attacker"
+    },
+    {
+      "id": "9108cc3ad3b9",
+      "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+      "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-09T10:01:21+00:00",
+      "ts": 1794218481.0,
+      "summary": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could"
+    },
+    {
+      "id": "5b9917152cca",
+      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+      "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-09T09:01:50+00:00",
+      "ts": 1794214910.0,
+      "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a login. The researchers are highly confident that the attacker is a single person"
+    },
+    {
+      "id": "995c76f878e5",
+      "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+      "link": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-09T07:05:48+00:00",
+      "ts": 1794207948.0,
+      "summary": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea. His next hearing is scheduled for November 17, 2026. If proven guilty, the"
+    },
     {
       "id": "52057abe5f07",
       "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
@@ -95,26 +195,6 @@
       "summary": "This is fascinating: The video describes a technique that can reveal where an otherwise unidentifiable recording was made by analyzing its audio for the faint sounds of passing aircraft. The technique is both fascinating and frightening. It works by looking at Doppler curves, which plot the way a plane’s sound changes as it passes overhead because of the Doppler effect. This is the same familiar D"
     },
     {
-      "id": "e0fc0219203c",
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-06T12:06:43+00:00",
-      "ts": 1793966803.0,
-      "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates"
-    },
-    {
-      "id": "40829804f29b",
-      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-      "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-06T12:06:35+00:00",
-      "ts": 1793966795.0,
-      "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this"
-    },
-    {
       "id": "2ac775494fe0",
       "title": "After Binance, check what your signing systems can approve",
       "link": "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/",
@@ -123,76 +203,6 @@
       "published": "2026-11-06T12:00:00+00:00",
       "ts": 1793966400.0,
       "summary": "Binance’s October 2026 security incident raises an operational question for every organization holding user funds: Can your security controls recognize when a valid signature grants an attacker wallet authority? If an organization only monitors transfers and ownership changes, it may miss the shift in wallet authority until assets move. Binance’s initial update about the incident suggested that a "
-    },
-    {
-      "id": "abc7efc4ebf5",
-      "title": "The Flood is Coming And The Pipes Were Already Full",
-      "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-06T11:30:00+00:00",
-      "ts": 1793964600.0,
-      "summary": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May. The hardest piece of his"
-    },
-    {
-      "id": "7829e45c3789",
-      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-      "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-06T08:04:49+00:00",
-      "ts": 1793952289.0,
-      "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed"
-    },
-    {
-      "id": "bc24fe9c3325",
-      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-      "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-06T05:58:54+00:00",
-      "ts": 1793944734.0,
-      "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server."
-    },
-    {
-      "id": "1ed46fbf9ab6",
-      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-      "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-06T05:39:10+00:00",
-      "ts": 1793943550.0,
-      "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a"
-    },
-    {
-      "id": "a76a6ca55c74",
-      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-      "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-05T16:42:46+00:00",
-      "ts": 1793896966.0,
-      "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every"
-    },
-    {
-      "id": "dd914885e87e",
-      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-      "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-05T16:42:32+00:00",
-      "ts": 1793896952.0,
-      "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections. \"The flaw could enable silent chat data theft, phishing,"
-    },
-    {
-      "id": "de9d7f190de3",
-      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-      "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-05T14:41:10+00:00",
-      "ts": 1793889670.0,
-      "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a"
     },
     {
       "id": "7429da20a1be",
@@ -205,6 +215,46 @@
       "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016."
     },
     {
+      "id": "9568e954235a",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (05 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1466/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-05T00:00:00+00:00",
+      "ts": 1793836800.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+      "id": "0646699d21bb",
+      "title": "Multiples vulnérabilités dans les produits Siemens (05 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1464/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-05T00:00:00+00:00",
+      "ts": 1793836800.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "af8c8b896e09",
+      "title": "Vulnérabilité dans OpenSSH (05 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1468/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-05T00:00:00+00:00",
+      "ts": 1793836800.0,
+      "summary": "Une vulnérabilité a été découverte dans OpenSSH. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité."
+    },
+    {
+      "id": "55d41db3f0f7",
+      "title": "AirBB: Lightweight Threshold Anonymous Credentials without Random Oracles from BB Signatures",
+      "link": "https://eprint.iacr.org/2026/2762",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-04T10:21:48+00:00",
+      "ts": 1793787708.0,
+      "summary": "Anonymous credentials are a well-studied cryptographic primitive enabling users to prove statements about their identity and selectively present personal information in an unlinkable manner. The issuer, however, is often a single point of failure. Threshold issuance addresses this by distributing the issuer across several parties such that a quorum of them must cooperate to issue credentials. Nume"
+    },
+    {
       "id": "4500f23f0ad6",
       "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
@@ -213,16 +263,6 @@
       "published": "2026-11-04T00:00:00+00:00",
       "ts": 1793750400.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "5055fb8fb622",
-      "title": "Multiples vulnérabilités dans Apache Zookeeper (04 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1448/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-04T00:00:00+00:00",
-      "ts": 1793750400.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité."
     },
     {
       "id": "9b0164625e36",
@@ -275,16 +315,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
     },
     {
-      "id": "e457d7d8f0ea",
-      "title": "Multiples vulnérabilités dans Google Chrome (04 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1450/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-04T00:00:00+00:00",
-      "ts": 1793750400.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
       "id": "8695efae933b",
       "title": "Vulnérabilité dans Mozilla Firefox (04 novembre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1455/",
@@ -293,6 +323,46 @@
       "published": "2026-11-04T00:00:00+00:00",
       "ts": 1793750400.0,
       "summary": "Une vulnérabilité a été découverte dans Mozilla Firefox. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
+    },
+    {
+      "id": "626924b77d8b",
+      "title": "Multiples vulnérabilités dans NetApp StorageGRID (04 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1453/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-04T00:00:00+00:00",
+      "ts": 1793750400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans NetApp StorageGRID. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "91ce854a68ba",
+      "title": "Multiples vulnérabilités dans les produits Elastic (04 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1461/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-04T00:00:00+00:00",
+      "ts": 1793750400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "11ec3e2ff286",
+      "title": "Multiples vulnérabilités dans SolarWinds Dameware (04 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1459/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-04T00:00:00+00:00",
+      "ts": 1793750400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans SolarWinds Dameware. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité."
+    },
+    {
+      "id": "6fbaef9409d4",
+      "title": "Multiples vulnérabilités dans Ruby on Rails (04 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1452/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-04T00:00:00+00:00",
+      "ts": 1793750400.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Ruby on Rails. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
     },
     {
       "id": "0fceb6985485",
@@ -333,56 +403,6 @@
       "published": "2026-11-03T02:24:31+00:00",
       "ts": 1793672671.0,
       "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised "
-    },
-    {
-      "id": "751702f64e86",
-      "title": "Multiples vulnérabilités dans NetApp ONTAP 9 (03 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-03T00:00:00+00:00",
-      "ts": 1793664000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans NetApp ONTAP 9. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance."
-    },
-    {
-      "id": "9c51f611459e",
-      "title": "Multiples vulnérabilités dans GLPI (03 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1444/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-03T00:00:00+00:00",
-      "ts": 1793664000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Elles permettent à un attaquant de provoquer une élévation de privilèges, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "dcd6bc94fbff",
-      "title": "Multiples vulnérabilités dans PostgreSQL (03 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1445/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-03T00:00:00+00:00",
-      "ts": 1793664000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Elles permettent à un attaquant de provoquer une injection SQL (SQLi), un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
-      "id": "cd810b9437ea",
-      "title": "Multiples vulnérabilités dans Xen (03 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1447/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-03T00:00:00+00:00",
-      "ts": 1793664000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
-      "id": "db585b60c689",
-      "title": "Multiples vulnérabilités dans Google Android (03 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1443/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-03T00:00:00+00:00",
-      "ts": 1793664000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données."
     },
     {
       "id": "0b45e40d05ce",
@@ -435,6 +455,16 @@
       "summary": "Higher-Order Spearman Coefficient Analysis (HO-SPA) is of particular interest in non-profiling Side-Channel Attacks (SCA) due to its effectiveness against monotonic nonlinear leakage. However, the optimal form, effective order combinations, and performance of HO-SPA (or its variants) remain underexplored. This work systematically revisits HO-SPA in the presence of Boolean Masking (BM) and Inner Pr"
     },
     {
+      "id": "b663e163b74f",
+      "title": "Multiples vulnérabilités dans WordPress (29 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1420/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-10-29T00:00:00+00:00",
+      "ts": 1793232000.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
+    },
+    {
       "id": "4fd67dce1302",
       "title": "Studying Fraudulent North Korean IT Workers",
       "link": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
@@ -465,16 +495,6 @@
       "summary": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model&#8217;s weights, and that removing the model&#8217;s CCP alignment removes it. One word tilts the code against Americans. Ask for"
     },
     {
-      "id": "f995d6cab4ff",
-      "title": "Friday Squid Blogging: Increasing Squid Populations",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-23T21:00:09+00:00",
-      "ts": 1792789209.0,
-      "summary": "This article in Nature argues that it&#8217;s due to an overfishing of predators and warming sea temperatures. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
       "id": "eec90e9acc6b",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -503,16 +523,6 @@
       "published": "2026-10-19T13:48:56+00:00",
       "ts": 1792417736.0,
       "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters op"
-    },
-    {
-      "id": "99549b2b49a0",
-      "title": "Multiples vulnérabilités dans Roundcube Webmail (19 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1340/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-10-19T00:00:00+00:00",
-      "ts": 1792368000.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance (XSS)."
     },
     {
       "id": "064694cebfd2",
@@ -675,16 +685,6 @@
       "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem, but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat&rsquo;s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug, shown belo"
     },
     {
-      "id": "61c7adca6feb",
-      "title": "Correction of parameters in ``Computing Optimal Ate Pairings on Elliptic Curves with Embedding Degree 9, 15 and 27''",
-      "link": "https://eprint.iacr.org/2026/1884",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-03T22:10:32+00:00",
-      "ts": 1788473432.0,
-      "summary": "We correct two errors in Section~8 of the above-mentioned paper concerning the seed parameters proposed for BLS27 elliptic curves (embedding degree \\(k=27\\)) at the 256-bit and 192-bit security levels. In both instances, the disclosed seeds produce a composite \\(r(x)\\), violating the primality condition essential for constructing pairing-friendly curves. Additionally, for the 192-bit seed, the cha"
-    },
-    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -703,16 +703,6 @@
       "published": "2026-08-25T11:00:00+00:00",
       "ts": 1787655600.0,
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
-    },
-    {
-      "id": "136d7568f4e1",
-      "title": "Linear Cryptanalysis with Bibrace Characters: Weak-Key Distinguishers for CRAFT",
-      "link": "https://eprint.iacr.org/2026/1767",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-21T16:16:57+00:00",
-      "ts": 1787329017.0,
-      "summary": "Linear cryptanalysis measures the correlation of a cipher with the characters of the group used to define differences. If that group is replaced by a second elementary abelian group structure on the same set, here the one coming from a binary bibrace, then the admissible masks are no longer the ordinary scalar products: exactly half of them survive, and the other half are forced to be quadratic. B"
     },
     {
       "id": "bea5a06fb576",
@@ -765,16 +755,6 @@
       "summary": "In lattice-based homomorphic encryption schemes, ciphertexts carry an inherent noise that grows as computation advances. The key-switching procedure of these schemes allows the homomorphic re-encryption of a ciphertext under a new secret key, but it incurs substantial noise growth and computational cost. In this work, we generalize the RNS-based decomposition technique of the CKKS scheme to an arb"
     },
     {
-      "id": "6caee768035d",
-      "title": "Atlantis: Lattice-based Anonymous Tokens with Private Metadata Bit",
-      "link": "https://eprint.iacr.org/2026/1248",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-12T20:54:19+00:00",
-      "ts": 1781297659.0,
-      "summary": "Anonymous tokens with private metadata bit (ATPM) allow an issuer to embed a hidden trust flag, as a single bit, within issued tokens. The bit remains hidden from the clients, but verifiers can read the bit and rate-limit or discard tokens marked suspect. A series of ATPM constructions exist in the literature, however all current constructions rely on classical hardness assumptions such as RSA gro"
-    },
-    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -793,6 +773,16 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
+    },
+    {
+      "id": "ef062ea07055",
+      "title": "How To Track Qubits Through Space and Time (Or: Sailing in a Quantum Boat)",
+      "link": "https://eprint.iacr.org/2026/1090",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-29T03:05:14+00:00",
+      "ts": 1780023914.0,
+      "summary": "While quantum position verification aims to certify a prover's location using quantum information, existing security definitions only guarantee that part of the successful adversarial party is in the claimed location. This leaves open the possibility that a distributed team of adversaries can jointly simulate a prover in a way that defeats the intended meaning of ``being at a location'' in positio"
     },
     {
       "id": "e867d3e3dacb",
@@ -865,14 +855,14 @@
       "summary": "Posted by Eric Lynch, Product Manager, Android and Dom Elliott, Group Product Manager, Google Play Modern digital security is at a turning point. We are on the threshold of using quantum computers to solve \"impossible\" problems in drug discovery, materials science, and energy—tasks that even the most powerful classical supercomputers cannot handle. However, the same unique ability to consider diff"
     },
     {
-      "id": "41552ed9b124",
-      "title": "Radical 3-isogenies for the ideal class group actions on $(2, \\varepsilon)$-structures",
-      "link": "https://eprint.iacr.org/2026/576",
+      "id": "85238daf9e04",
+      "title": "RoKoko: Lattice-based Succinct Arguments, a Committed Refinement",
+      "link": "https://eprint.iacr.org/2026/575",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-03-23T09:54:04+00:00",
-      "ts": 1774259644.0,
-      "summary": "Chenu and Smith introduced the notion of $(d,\\varepsilon)$-structures, pairs consisting of an elliptic curve over $\\mathbb{F}_{p^2}$ and an isogeny of degree $d$ from the curve to its Galois conjugate, and defined an ideal class group action on supersingular $(d,\\varepsilon)$-structures, inherited from the action on oriented supersingular elliptic curves. They also outlined extensions of the CSIDH"
+      "published": "2026-03-23T07:53:09+00:00",
+      "ts": 1774252389.0,
+      "summary": "We present RoKoko, a new lattice-based succinct argument system that achieves a linear-time prover alongside polylogarithmic communication and verifier complexity. Asymptotically, our construction improves upon RoK and Roll (ASIACRYPT 2025), the first post-quantum SNARK with $\\tilde{O}(\\lambda)$ proof size, by a multiplicative factor of $\\Theta(\\log \\lambda)$. Practically, our system yields proofs"
     },
     {
       "id": "b7ffc9dc8c13",
@@ -915,16 +905,6 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
-      "id": "3e142df2b1c8",
-      "title": "Catalytic Tree Evaluation From Matching Vectors",
-      "link": "https://eprint.iacr.org/2026/265",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-15T21:45:12+00:00",
-      "ts": 1771191912.0,
-      "summary": "We give new algorithms for tree evaluation (S. Cook et al. TOCT 2012) in the catalytic-computing model (Buhrman et al. STOC 2014). Two existing approaches aim to solve tree evaluation (TreeEval) in low space: on the one hand, J. Cook and Mertz (STOC 2024) give an algorithm for TreeEval running in super-logarithmic space $O(\\log n\\log\\log n)$ and super-polynomial time $n^{O(\\log\\log n)}$. On the ot"
-    },
-    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -943,6 +923,36 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
+    },
+    {
+      "id": "c58af1f02c3e",
+      "title": "Beyond-Birthday-Bound Security with HCTR2: Cascaded Construction and Tweak-based Key Derivation",
+      "link": "https://eprint.iacr.org/2026/085",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-19T13:37:05+00:00",
+      "ts": 1768829825.0,
+      "summary": "The block cipher (BC) mode for realizing a variable-input-length strong tweakable pseudorandom permutation (VIL-STPRP), also known as the accordion mode, is a rapidly growing research field driven by NIST's standardization project, which considers AES as a primitive. Widely used VIL-STPRP modes, such as HCTR2, have birthday-bound security and provide only 64-bit security with AES. To provide highe"
+    },
+    {
+      "id": "b0f4aab373a2",
+      "title": "Masked Solving of Linear Equations System and Application to UOV Signatures",
+      "link": "https://eprint.iacr.org/2026/048",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-12T13:34:15+00:00",
+      "ts": 1768224855.0,
+      "summary": "In response to the looming quantum threat, NIST has selected four algorithms for standardization (i.e., ML-KEM, ML-DSA, SLH-DSA, and FN-DSA), yet three of the four schemes are based on Euclidean lattices, which raises concerns about the mathematical diversity of post-quantum algorithms. NIST has therefore announced an additional call for post-quantum signatures with a preference for schemes constr"
+    },
+    {
+      "id": "d97e40b003eb",
+      "title": "Practical SNARGs for Matrix Multiplications over Encrypted Data",
+      "link": "https://eprint.iacr.org/2026/027",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-07T16:22:19+00:00",
+      "ts": 1767802939.0,
+      "summary": "Fully Homomorphic Encryption (FHE) enables computations to be performed directly on encrypted data, without ever requiring decryption. This capability is particularly crucial for privacy-preserving outsourced computation in sensitive fields such as healthcare and finance. While FHE ensures data confidentiality under the honest-but-curious adversarial model, achieving full malicious security, encom"
     },
     {
       "id": "d89b8a28e282",
@@ -1005,16 +1015,6 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
-      "id": "7110d265b601",
-      "title": "Dynark: Making Groth16 Dynamic",
-      "link": "https://eprint.iacr.org/2025/1897",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-10-10T17:23:25+00:00",
-      "ts": 1760117005.0,
-      "summary": "In recent years, numerous new and more efficient constructions of zero-knowledge succinct non-interactive argument of knowledge (zkSNARK) have been proposed, motivated by their growing practical applications. However, in most schemes, when the witness is changed, the prover has to recompute the proof from scratch even if the new witness is close to the old one. This is inefficient for applications"
-    },
-    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1025,14 +1025,14 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "d9950bf77af3",
-      "title": "A proof of P≠NP (New symmetric encryption algorithm against any linear attacks and differential attacks)",
-      "link": "https://eprint.iacr.org/2025/445",
+      "id": "9dd4bf1a80dd",
+      "title": "The Effectiveness of Differential Privacy in Real-world Settings: A Metrics-based Framework to help Practitioners Visualise and Evaluate $\\varepsilon$",
+      "link": "https://eprint.iacr.org/2025/1173",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-03-08T18:06:39+00:00",
-      "ts": 1741457199.0,
-      "summary": "P vs NP problem is the most important unresolved problem in the field of computational complexity. Its impact has penetrated into all aspects of algorithm design, especially in the field of cryptography. The security of cryptographic algorithms based on short keys depends on whether P is equal to NP. In fact, the security requirements for cryptographic keys are much stricter than those for P$\\neq$"
+      "published": "2025-06-20T15:05:25+00:00",
+      "ts": 1750431925.0,
+      "summary": "Differential privacy (DP) has emerged as a preferred solution for private data analysis, having been adopted by several leading Internet companies. DP is a privacy-preserving mechanism that protects against re-identification of individuals. \\emph{Privacy budget} $\\varepsilon$ determines the trade-off between privacy and utility. Currently, there are no widely accepted methodologies for selecting $"
     },
     {
       "id": "88b201a76da2",
