@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T20:58:07.136308+00:00",
+  "generated_at": "2026-11-09T00:36:40.606390+00:00",
   "count": 105,
   "errors": [
     {
@@ -425,6 +425,16 @@
       "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware&#8212;­or spyware, if you’re being less charitable­&#8212;was a voice assistant equipped with WebView, an Android syste"
     },
     {
+      "id": "4782e08643a9",
+      "title": "Optimality and Efficiency of Higher-Order Rank-Based Side-Channel Attacks against Inner Product Masking Schemes",
+      "link": "https://eprint.iacr.org/2026/2676",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-29T06:36:12+00:00",
+      "ts": 1793255772.0,
+      "summary": "Higher-Order Spearman Coefficient Analysis (HO-SPA) is of particular interest in non-profiling Side-Channel Attacks (SCA) due to its effectiveness against monotonic nonlinear leakage. However, the optimal form, effective order combinations, and performance of HO-SPA (or its variants) remain underexplored. This work systematically revisits HO-SPA in the presence of Boolean Masking (BM) and Inner Pr"
+    },
+    {
       "id": "4fd67dce1302",
       "title": "Studying Fraudulent North Korean IT Workers",
       "link": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
@@ -743,16 +753,6 @@
       "published": "2026-07-29T14:23:30+00:00",
       "ts": 1785335010.0,
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
-    },
-    {
-      "id": "64dd1a19a077",
-      "title": "Repeated Masks, Predictable Splices: Breaking AESpolyW and Its AEAD Applications",
-      "link": "https://eprint.iacr.org/2026/1424",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-12T10:20:19+00:00",
-      "ts": 1783851619.0,
-      "summary": "AESpolyW, presented at the 2026 IEEE Symposium on Security and Privacy, is a wide-block encryption mode that preserves the length of each message. Its design lets operations of the Advanced Encryption Standard (AES) overlap with hash computations based on polynomial evaluation. Our attacks splice ciphertexts by copying blocks from one ciphertext to the same positions in another. On five-block mess"
     },
     {
       "id": "c0b39ad51ca1",
