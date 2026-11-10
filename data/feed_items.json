@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:25:30.765892+00:00",
+  "generated_at": "2026-11-10T22:43:57.392176+00:00",
   "count": 105,
   "errors": [
     {
@@ -15,6 +15,56 @@
   ],
   "items": [
     {
+      "id": "ceb4e568e77f",
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "source": "Krebs on Security",
+      "category": "veille",
+      "published": "2026-11-10T21:55:03+00:00",
+      "ts": 1794347703.0,
+      "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla."
+    },
+    {
+      "id": "ff275b894aa2",
+      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+      "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-10T19:23:10+00:00",
+      "ts": 1794338590.0,
+      "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1. The flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An"
+    },
+    {
+      "id": "7e184fe0537f",
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-10T19:19:39+00:00",
+      "ts": 1794338379.0,
+      "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE"
+    },
+    {
+      "id": "256ab3091be6",
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-10T18:12:21+00:00",
+      "ts": 1794334341.0,
+      "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the"
+    },
+    {
+      "id": "cd9ea98253ae",
+      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-10T17:43:23+00:00",
+      "ts": 1794332603.0,
+      "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year. Check Point Research is tracking the clusters under the names SilentDelivery,"
+    },
+    {
       "id": "3578999604ef",
       "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
       "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
@@ -22,7 +72,7 @@
       "category": "veille",
       "published": "2026-11-10T16:00:55+00:00",
       "ts": 1794326455.0,
-      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two"
+      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two"
     },
     {
       "id": "e89dcbbae472",
@@ -35,8 +85,8 @@
       "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and"
     },
     {
-      "id": "8732a9c06d8b",
-      "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights",
+      "id": "f0af8a26c364",
+      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
       "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
       "source": "The Hacker News",
       "category": "veille",
@@ -133,46 +183,6 @@
       "published": "2026-11-10T06:52:54+00:00",
       "ts": 1794293574.0,
       "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after"
-    },
-    {
-      "id": "2c92f25a1c94",
-      "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-      "link": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T06:44:36+00:00",
-      "ts": 1794293076.0,
-      "summary": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. \"As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the"
-    },
-    {
-      "id": "51054924792b",
-      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-      "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T06:31:42+00:00",
-      "ts": 1794292302.0,
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability"
-    },
-    {
-      "id": "05b4a9984df6",
-      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-09T17:51:21+00:00",
-      "ts": 1794246681.0,
-      "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole, a data lake platform owned by Idera,"
-    },
-    {
-      "id": "1c4f75a82069",
-      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-      "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-09T17:36:28+00:00",
-      "ts": 1794245788.0,
-      "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the stored password that unlocks it. The code is also built to install a backdoor"
     },
     {
       "id": "294f39363b69",
@@ -283,6 +293,16 @@
       "published": "2026-11-05T23:03:38+00:00",
       "ts": 1793919818.0,
       "summary": "The evasive learning with errors (evasive LWE) assumption has enabled a wide range of advanced cryptographic constructions from lattices in the past few years. The simple intuition that LWE remains secure even when additional ``non-zeroizing'' short preimages are given has proved highly versatile in applications. Unfortunately, recent counterexamples have refuted its general private-coin formulati"
+    },
+    {
+      "id": "90f0ff124cde",
+      "title": "Differentially Private Distance-Sensitive Representations for General Metrics",
+      "link": "https://eprint.iacr.org/2026/2788",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-05T17:43:10+00:00",
+      "ts": 1793900590.0,
+      "summary": "A distance-sensitive set representation stores a set $S$ from a metric space $(U,d)$ and answers queries of the form \"is some element of $S$ within distance $r$ of $q$?''. Existing differentially private constructions are confined to Hamming space, because they route the query through a signature map built for that metric. We give a framework that removes this restriction. The released object reco"
     },
     {
       "id": "7429da20a1be",
@@ -615,16 +635,6 @@
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p."
     },
     {
-      "id": "81a26141bc31",
-      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-      "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-      "source": "Krebs on Security",
-      "category": "veille",
-      "published": "2026-09-25T21:44:40+00:00",
-      "ts": 1790372680.0,
-      "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims."
-    },
-    {
       "id": "f391bd68698a",
       "title": "Don't let TEEs break your MPC",
       "link": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/",
@@ -683,6 +693,26 @@
       "published": "2026-09-09T11:00:00+00:00",
       "ts": 1788951600.0,
       "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem, but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat&rsquo;s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug, shown belo"
+    },
+    {
+      "id": "61c7adca6feb",
+      "title": "Correction of parameters in ``Computing Optimal Ate Pairings on Elliptic Curves with Embedding Degree 9, 15 and 27''",
+      "link": "https://eprint.iacr.org/2026/1884",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-03T22:10:32+00:00",
+      "ts": 1788473432.0,
+      "summary": "We correct two errors in Section~8 of the above-mentioned paper concerning the seed parameters proposed for BLS27 elliptic curves (embedding degree \\(k=27\\)) at the 256-bit and 192-bit security levels. In both instances, the disclosed seeds produce a composite \\(r(x)\\), violating the primality condition essential for constructing pairing-friendly curves. Additionally, for the 192-bit seed, the cha"
+    },
+    {
+      "id": "90e75a36986a",
+      "title": "SVP Is NP-Hard for Some Rank-2 Cyclotomic Modules",
+      "link": "https://eprint.iacr.org/2026/1856",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-01T16:18:16+00:00",
+      "ts": 1788279496.0,
+      "summary": "Let $q$ be an odd prime. Let $\\zeta_q$ be a primitive $q$th root of unity, and put $K=\\mathbb{Q}(\\zeta_q)$, with ring of integers $\\mathcal{O}_K=\\mathbb{Z}[\\zeta_q]$. As $q$ ranges over odd primes, we prove that the decision version of the Shortest Vector Problem ($\\mathsf{SVP}$) in the canonical $\\ell_2$-norm is $\\mathsf{NP}$-complete on full-rank free submodules of $\\mathcal{O}_K^2$ by giving a "
     },
     {
       "id": "cf95a2724618",
@@ -783,16 +813,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "ef062ea07055",
-      "title": "How To Track Qubits Through Space and Time (Or: Sailing in a Quantum Boat)",
-      "link": "https://eprint.iacr.org/2026/1090",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-29T03:05:14+00:00",
-      "ts": 1780023914.0,
-      "summary": "While quantum position verification aims to certify a prover's location using quantum information, existing security definitions only guarantee that part of the successful adversarial party is in the claimed location. This leaves open the possibility that a distributed team of adversaries can jointly simulate a prover in a way that defeats the intended meaning of ``being at a location'' in positio"
     },
     {
       "id": "e867d3e3dacb",
@@ -925,6 +945,16 @@
       "summary": "It&#8217;s not every day that we see mainstream media get excited about encryption apps! For that reason, the past several days have been fascinating, since we&#8217;ve been given not one but several unusual stories about the encryption used in WhatsApp. Or more accurately, if you read the story, a pretty wild allegation that the widely-used &#8230; Continue reading WhatsApp Encryption, a Lawsuit,"
     },
     {
+      "id": "c450aca265ad",
+      "title": "Minimizing Mempool Dependency in PoW Mining on Blockchain: Scaling Blockchain Throughput via Asynchronous Pipeline Consensus",
+      "link": "https://eprint.iacr.org/2026/141",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-29T09:47:02+00:00",
+      "ts": 1769680022.0,
+      "summary": "Traditional Proof-of-Work protocols face structural limits in transaction throughput, as scaling block capacity within a serial verification model introduces severe propagation delays and elevates orphan block rates. To address this classical constraint, this paper proposes an asynchronous pipeline consensus architecture that decouples mining initiation from full transaction verification. By embed"
+    },
+    {
       "id": "d01b11ba041d",
       "title": "New Android Theft Protection Feature Updates: Smarter, Stronger",
       "link": "http://security.googleblog.com/2026/01/android-theft-protection-feature-updates.html",
@@ -933,36 +963,6 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
-    },
-    {
-      "id": "c58af1f02c3e",
-      "title": "Beyond-Birthday-Bound Security with HCTR2: Cascaded Construction and Tweak-based Key Derivation",
-      "link": "https://eprint.iacr.org/2026/085",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-19T13:37:05+00:00",
-      "ts": 1768829825.0,
-      "summary": "The block cipher (BC) mode for realizing a variable-input-length strong tweakable pseudorandom permutation (VIL-STPRP), also known as the accordion mode, is a rapidly growing research field driven by NIST's standardization project, which considers AES as a primitive. Widely used VIL-STPRP modes, such as HCTR2, have birthday-bound security and provide only 64-bit security with AES. To provide highe"
-    },
-    {
-      "id": "b0f4aab373a2",
-      "title": "Masked Solving of Linear Equations System and Application to UOV Signatures",
-      "link": "https://eprint.iacr.org/2026/048",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-12T13:34:15+00:00",
-      "ts": 1768224855.0,
-      "summary": "In response to the looming quantum threat, NIST has selected four algorithms for standardization (i.e., ML-KEM, ML-DSA, SLH-DSA, and FN-DSA), yet three of the four schemes are based on Euclidean lattices, which raises concerns about the mathematical diversity of post-quantum algorithms. NIST has therefore announced an additional call for post-quantum signatures with a preference for schemes constr"
-    },
-    {
-      "id": "d97e40b003eb",
-      "title": "Practical SNARGs for Matrix Multiplications over Encrypted Data",
-      "link": "https://eprint.iacr.org/2026/027",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-07T16:22:19+00:00",
-      "ts": 1767802939.0,
-      "summary": "Fully Homomorphic Encryption (FHE) enables computations to be performed directly on encrypted data, without ever requiring decryption. This capability is particularly crucial for privacy-preserving outsourced computation in sensitive fields such as healthcare and finance. While FHE ensures data confidentiality under the honest-but-curious adversarial model, achieving full malicious security, encom"
     },
     {
       "id": "d89b8a28e282",
@@ -1025,16 +1025,6 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "9dd4bf1a80dd",
-      "title": "The Effectiveness of Differential Privacy in Real-world Settings: A Metrics-based Framework to help Practitioners Visualise and Evaluate $\\varepsilon$",
-      "link": "https://eprint.iacr.org/2025/1173",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-06-20T15:05:25+00:00",
-      "ts": 1750431925.0,
-      "summary": "Differential privacy (DP) has emerged as a preferred solution for private data analysis, having been adopted by several leading Internet companies. DP is a privacy-preserving mechanism that protects against re-identification of individuals. \\emph{Privacy budget} $\\varepsilon$ determines the trade-off between privacy and utility. Currently, there are no widely accepted methodologies for selecting $"
-    },
-    {
       "id": "7febd0848a46",
       "title": "On the Provable Dual Attack for LWE by Modulus Switching",
       "link": "https://eprint.iacr.org/2025/859",
@@ -1055,14 +1045,24 @@
       "summary": "Proxy re-encryption (PRE) allows a proxy to transform a ciphertext under one user's public key into a ciphertext under another user's public key without learning the message. Honest re-encryption attack (HRA) security requires message indistinguishability even when an adversary observes many honestly generated re-encryptions. Reusing a re-encryption key can create correlations that are invisible i"
     },
     {
-      "id": "8356311df21d",
-      "title": "On the Number of Restricted Solutions to Constrained Systems and their Applications",
-      "link": "https://eprint.iacr.org/2024/1163",
+      "id": "1486d421a6d6",
+      "title": "Toward Optimal-Complexity Hash-Based Asynchronous MVBA with Optimal Resilience",
+      "link": "https://eprint.iacr.org/2024/1682",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2024-07-18T06:59:35+00:00",
-      "ts": 1721285975.0,
-      "summary": "In this paper, we formulate a special class of systems of linear equations over finite fields that appears naturally in the provable security analysis of several MAC and PRF modes of operation. We derive lower bounds on the number of solutions for such systems adhering to some predefined restrictions, and apply these lower bounds to derive tight PRF security for several constructions. We show secu"
+      "published": "2024-10-16T14:59:51+00:00",
+      "ts": 1729090791.0,
+      "summary": "Multi-valued validated Byzantine agreement (MVBA), a fundamental primitive of distributed computing, allows $n$ processes to agree on a valid $\\ell$-bit value, despite $t$ faulty processes behaving maliciously. Among hash-based solutions for the asynchronous setting with adaptive faults, the state-of-the-art HMVBA protocol achieves optimal $O(n^2)$ message complexity, (near-)optimal $O(n \\ell + n^"
+    },
+    {
+      "id": "500230b4c4de",
+      "title": "BAKSHEESH: Similar Yet Different From GIFT",
+      "link": "https://eprint.iacr.org/2023/750",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2023-05-24T12:28:09+00:00",
+      "ts": 1684931289.0,
+      "summary": "We propose a lightweight block cipher named BAKSHEESH, which draws inspiration from GIFT (CHES'17). BAKSHEESH runs for 35 rounds, which is 12.5 per cent fewer rounds compared to GIFT-128 whilst maintaining the same security claims against classical attacks. However, we also present an alternate (but equivalent) angle of BAKSHEESH that follows the heritage of ZORRO (CHES'13). In the GIFT heritage v"
     }
   ]
 }
