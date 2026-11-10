@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:09:15.483455+00:00",
+  "generated_at": "2026-11-10T01:50:33.479035+00:00",
   "count": 105,
   "errors": [
     {
@@ -205,6 +205,16 @@
       "summary": "Binance’s October 2026 security incident raises an operational question for every organization holding user funds: Can your security controls recognize when a valid signature grants an attacker wallet authority? If an organization only monitors transfers and ownership changes, it may miss the shift in wallet authority until assets move. Binance’s initial update about the incident suggested that a "
     },
     {
+      "id": "79df9b1e0905",
+      "title": "Independent Leakage Does Not Save Evasive LWE: Refuting Folklore Fixes in the Private-Coin Setting",
+      "link": "https://eprint.iacr.org/2026/2792",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-05T23:03:38+00:00",
+      "ts": 1793919818.0,
+      "summary": "The evasive learning with errors (evasive LWE) assumption has enabled a wide range of advanced cryptographic constructions from lattices in the past few years. The simple intuition that LWE remains secure even when additional ``non-zeroizing'' short preimages are given has proved highly versatile in applications. Unfortunately, recent counterexamples have refuted its general private-coin formulati"
+    },
+    {
       "id": "7429da20a1be",
       "title": "Want to Rent an Internet Address at the White House?",
       "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
@@ -253,6 +263,16 @@
       "published": "2026-11-04T10:21:48+00:00",
       "ts": 1793787708.0,
       "summary": "Anonymous credentials are a well-studied cryptographic primitive enabling users to prove statements about their identity and selectively present personal information in an unlinkable manner. The issuer, however, is often a single point of failure. Threshold issuance addresses this by distributing the issuer across several parties such that a quorum of them must cooperate to issue credentials. Nume"
+    },
+    {
+      "id": "779238ba8928",
+      "title": "Superlattice methods for the shortest vector problem and discrete Gaussian sampling",
+      "link": "https://eprint.iacr.org/2026/2761",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-04T07:47:31+00:00",
+      "ts": 1793778451.0,
+      "summary": "We give worst-case algorithms for the shortest vector problem (SVP) and discrete Gaussian sampling (DGS) at arbitrary widths. Both algorithms generate lists on a dense superlattice and combine vectors along a chain down to the input lattice. Random shifts let us control the expected number of representations of a vector regardless of the lattice. For SVP we balance these counts with a novel midpoi"
     },
     {
       "id": "4500f23f0ad6",
@@ -745,16 +765,6 @@
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
     },
     {
-      "id": "c0b39ad51ca1",
-      "title": "Generalized Batched Decomposition Key-Switching for CKKS",
-      "link": "https://eprint.iacr.org/2026/1340",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-29T18:52:32+00:00",
-      "ts": 1782759152.0,
-      "summary": "In lattice-based homomorphic encryption schemes, ciphertexts carry an inherent noise that grows as computation advances. The key-switching procedure of these schemes allows the homomorphic re-encryption of a ciphertext under a new secret key, but it incurs substantial noise growth and computational cost. In this work, we generalize the RNS-based decomposition technique of the CKKS scheme to an arb"
-    },
-    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -1035,24 +1045,14 @@
       "summary": "Differential privacy (DP) has emerged as a preferred solution for private data analysis, having been adopted by several leading Internet companies. DP is a privacy-preserving mechanism that protects against re-identification of individuals. \\emph{Privacy budget} $\\varepsilon$ determines the trade-off between privacy and utility. Currently, there are no widely accepted methodologies for selecting $"
     },
     {
-      "id": "88b201a76da2",
-      "title": "Deep Bribe: Predicting the Rise of Bribery in Blockchain Mining with Deep RL",
-      "link": "https://eprint.iacr.org/2023/472",
+      "id": "8356311df21d",
+      "title": "On the Number of Restricted Solutions to Constrained Systems and their Applications",
+      "link": "https://eprint.iacr.org/2024/1163",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2023-03-31T14:53:47+00:00",
-      "ts": 1680274427.0,
-      "summary": "Blockchain security relies on incentives to ensure participants, called miners, cooperate and behave as the protocol dictates. Such protocols have a security threshold – a miner whose relative computational power is larger than the threshold can deviate to improve her revenue. Moreover, blockchain participants can behave in a petty compliant manner: usually follow the protocol, but deviate to incr"
-    },
-    {
-      "id": "24f7f85ce525",
-      "title": "WeRLman: To Tackle Whale (Transactions), Go Deep (RL)",
-      "link": "https://eprint.iacr.org/2022/175",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2022-02-20T20:12:02+00:00",
-      "ts": 1645387922.0,
-      "summary": "The security of proof-of-work blockchain protocols critically relies on incentives. Their operators, called miners, receive rewards for creating blocks containing user-generated transactions. Each block rewards its creator with newly minted tokens and with transaction fees paid by the users. The protocol stability is violated if any of the miners surpasses a threshold ratio of the computational po"
+      "published": "2024-07-18T06:59:35+00:00",
+      "ts": 1721285975.0,
+      "summary": "In this paper, we formulate a special class of systems of linear equations over finite fields that appears naturally in the provable security analysis of several MAC and PRF modes of operation. We derive lower bounds on the number of solutions for such systems adhering to some predefined restrictions, and apply these lower bounds to derive tight PRF security for several constructions. We show secu"
     },
     {
       "id": "5d4850dbe727",
