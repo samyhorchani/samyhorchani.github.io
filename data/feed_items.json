@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T10:10:42.147771+00:00",
+  "generated_at": "2026-11-11T18:17:45.786261+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,86 @@
     }
   ],
   "items": [
+    {
+      "id": "7b786637e972",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "source": "Krebs on Security",
+      "category": "veille",
+      "published": "2026-11-11T18:06:01+00:00",
+      "ts": 1794420361.0,
+      "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that all point to a 36-year-old man living in St. Petersburg, Russia."
+    },
+    {
+      "id": "981cdb0f8278",
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-11T16:12:46+00:00",
+      "ts": 1794413566.0,
+      "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via"
+    },
+    {
+      "id": "64f4df5422d5",
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-11T15:34:27+00:00",
+      "ts": 1794411267.0,
+      "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against"
+    },
+    {
+      "id": "07cdc409e2f7",
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-11T14:01:00+00:00",
+      "ts": 1794405660.0,
+      "summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes. The activity has been found to share some"
+    },
+    {
+      "id": "96d96381ee59",
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-11T12:19:40+00:00",
+      "ts": 1794399580.0,
+      "summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or"
+    },
+    {
+      "id": "7b0c6d8c4c37",
+      "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
+      "link": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-11-11T12:05:34+00:00",
+      "ts": 1794398734.0,
+      "summary": "It&#8217;s hard to believe how lucrative this crime can be: According to a press release from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to convince employees to send over large "
+    },
+    {
+      "id": "af95d4dfeb8b",
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-11T12:01:59+00:00",
+      "ts": 1794398519.0,
+      "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated"
+    },
+    {
+      "id": "491faa75ea84",
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-11T12:00:53+00:00",
+      "ts": 1794398453.0,
+      "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script"
+    },
     {
       "id": "135dfbeff680",
       "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
@@ -115,36 +195,6 @@
       "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two"
     },
     {
-      "id": "e89dcbbae472",
-      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-      "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T15:58:44+00:00",
-      "ts": 1794326324.0,
-      "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and"
-    },
-    {
-      "id": "f0af8a26c364",
-      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
-      "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T15:33:59+00:00",
-      "ts": 1794324839.0,
-      "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month&nbsp; uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\" In a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks"
-    },
-    {
-      "id": "0ebacd8250ee",
-      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
-      "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T12:15:31+00:00",
-      "ts": 1794312931.0,
-      "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix. A researcher who goes by forcequit,&nbsp;&nbsp;in collaboration with 0xjohnny,&nbsp;"
-    },
-    {
       "id": "777a4acc90ab",
       "title": "New OpenSSH Vulnerability",
       "link": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
@@ -153,36 +203,6 @@
       "published": "2026-11-10T12:02:38+00:00",
       "ts": 1794312158.0,
       "summary": "It&#8217;s a bad one, and it&#8217;s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed &#8220;*sshole,&#8221; allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password. &#8220;Oversized&#8221; means longer than 256 bytes. Details. Slashdot thread."
-    },
-    {
-      "id": "910b519ba729",
-      "title": "Beyond the Alert: The Case for Rich Network Data",
-      "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T11:38:13+00:00",
-      "ts": 1794310693.0,
-      "summary": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction strategy: finding and disrupting what got in. After the alert The alert tells you something happened. However, gaining"
-    },
-    {
-      "id": "bbd64eb5fefb",
-      "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
-      "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T10:16:51+00:00",
-      "ts": 1794305811.0,
-      "summary": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined. As of today, other updates released yesterday for the iPhone XS, XS Max and XR, the iPad (7th generation) and some Apple"
-    },
-    {
-      "id": "782601b4dbfe",
-      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-      "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T10:07:29+00:00",
-      "ts": 1794305249.0,
-      "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for"
     },
     {
       "id": "294f39363b69",
@@ -455,6 +475,16 @@
       "summary": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149"
     },
     {
+      "id": "1bf6ec6f3560",
+      "title": "Authenticated Outsourced Incrementally Verifiable MPC",
+      "link": "https://eprint.iacr.org/2026/2721",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-02T09:58:10+00:00",
+      "ts": 1793613490.0,
+      "summary": "Many privacy-preserving applications such as iterative machine learning training require executing ongoing computations over a secret state for long periods of time. While MPC enables secure computation, long-lived secret state is vulnerable to adaptive corruptions, requiring periodic share refreshes and committee rotation. In many settings, it is desirable for external parties to be able to verif"
+    },
+    {
       "id": "b912b4f04d6b",
       "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
       "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
@@ -493,16 +523,6 @@
       "published": "2026-10-28T11:05:00+00:00",
       "ts": 1793185500.0,
       "summary": "Researchers set up a fake start-up company to study fraudulent North Korean IT workers."
-    },
-    {
-      "id": "cf1c48c36c60",
-      "title": "Hiding Capabilities in AI Models",
-      "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-27T11:01:26+00:00",
-      "ts": 1793098886.0,
-      "summary": "Interesting research: &#8220;AI Models Can Provably Hide Arbitrary Capabilities&#8221; Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural ne"
     },
     {
       "id": "eec90e9acc6b",
@@ -625,16 +645,6 @@
       "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
     },
     {
-      "id": "535fdeca402d",
-      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-      "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-      "source": "Krebs on Security",
-      "category": "veille",
-      "published": "2026-09-28T15:08:57+00:00",
-      "ts": 1790608137.0,
-      "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p."
-    },
-    {
       "id": "f391bd68698a",
       "title": "Don't let TEEs break your MPC",
       "link": "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/",
@@ -643,16 +653,6 @@
       "published": "2026-09-25T11:00:00+00:00",
       "ts": 1790334000.0,
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
-    },
-    {
-      "id": "9cf99ebedd5e",
-      "title": "A Survey of Pseudorandom Codes",
-      "link": "https://eprint.iacr.org/2026/2162",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T16:04:35+00:00",
-      "ts": 1790093075.0,
-      "summary": "A pseudorandom code (PRC) is a cryptographic primitive combining pseudorandom encryption and error-correcting codes (Christ and Gunn, CRYPTO 2024). That is, any polynomial number of codewords are pseudorandom, and decryption tolerates a constant rate of bit-flips. Although this might seem like a natural combination of standard properties, it is a fundamentally new object: PRCs are black-box separa"
     },
     {
       "id": "064e600fa2e1",
@@ -783,6 +783,16 @@
       "published": "2026-07-29T14:23:30+00:00",
       "ts": 1785335010.0,
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
+    },
+    {
+      "id": "e973b0fbea67",
+      "title": "FiltrumVote: Scalable, Verifiable, and Coercion-Resistant Internet Voting",
+      "link": "https://eprint.iacr.org/2026/1435",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-13T22:23:34+00:00",
+      "ts": 1783981414.0,
+      "summary": "Internet voting can increase voter turnout and reduce operational costs; however, it also facilitates voter coercion. One compelling approach to address this issue is deniable vote updating, which allows voters to cast multiple ballots while counting only their final vote. Despite its intuitive appeal, achieving deniable vote updating together with verifiability and scalability has proven challeng"
     },
     {
       "id": "13f36daab73a",
@@ -1015,6 +1025,16 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
+      "id": "cb9a770a4461",
+      "title": "Constructions of Efficiently Implementable Boolean Functions with Provable Nonlinearity/Resiliency/Algebraic Immunity Trade-Offs",
+      "link": "https://eprint.iacr.org/2025/1800",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-10-02T06:50:21+00:00",
+      "ts": 1759387821.0,
+      "summary": "We describe new families of efficiently implementable Boolean functions achieving provable trade-offs between resiliency, nonlinearity, and algebraic immunity. Compared to one direction of research on balanced and 1-resilient functions with optimal algebraic immunity, the new functions provide lower algebraic immunity, but much lower -- in fact, almost optimal -- linear bias and importantly are mu"
+    },
+    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1023,26 +1043,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "7febd0848a46",
-      "title": "On the Provable Dual Attack for LWE by Modulus Switching",
-      "link": "https://eprint.iacr.org/2025/859",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-05-15T08:45:05+00:00",
-      "ts": 1747298705.0,
-      "summary": "As a theoretical cornerstone of post-quantum cryptography, the Learning With Errors (LWE) problem serves as the security foundation for standardized algorithms such as Kyber and Dilithium. Recently, a framework for provable dual attacks on LWE has been proposed by Pouly et al. in Eurocrypt 2024, addressing the limitations in effectiveness caused by existing methods' reliance on heuristic assumptio"
-    },
-    {
-      "id": "1ad03daf988c",
-      "title": "Lattice-Based Proxy Re-Encryption: Reconstruction Attacks and HRA-Secure Constructions",
-      "link": "https://eprint.iacr.org/2025/704",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-04-18T07:15:17+00:00",
-      "ts": 1744960517.0,
-      "summary": "Proxy re-encryption (PRE) allows a proxy to transform a ciphertext under one user's public key into a ciphertext under another user's public key without learning the message. Honest re-encryption attack (HRA) security requires message indistinguishability even when an adversary observes many honestly generated re-encryptions. Reusing a re-encryption key can create correlations that are invisible i"
     },
     {
       "id": "1486d421a6d6",
