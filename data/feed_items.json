@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:28:30.827199+00:00",
+  "generated_at": "2026-11-11T10:10:42.147771+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "135dfbeff680",
+      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-11T08:17:53+00:00",
+      "ts": 1794385073.0,
+      "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers."
+    },
+    {
+      "id": "cbdb03ad1057",
+      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+      "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-11T07:49:04+00:00",
+      "ts": 1794383344.0,
+      "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them. The company builds and runs apps for its customers and stores their secrets, such as API keys and database"
+    },
+    {
+      "id": "8b38e8a568f4",
+      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+      "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-11T07:21:05+00:00",
+      "ts": 1794381665.0,
+      "summary": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights. The team tested the method on"
+    },
+    {
+      "id": "148916bac6a2",
+      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+      "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-11T06:04:02+00:00",
+      "ts": 1794377042.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity"
+    },
     {
       "id": "ceb4e568e77f",
       "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
@@ -145,46 +185,6 @@
       "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for"
     },
     {
-      "id": "f90437f6b144",
-      "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-      "link": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T10:02:40+00:00",
-      "ts": 1794304960.0,
-      "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server. The flaws in the Web"
-    },
-    {
-      "id": "48b143c8d544",
-      "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-      "link": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T09:08:20+00:00",
-      "ts": 1794301700.0,
-      "summary": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires. The unit"
-    },
-    {
-      "id": "ab27b60da58b",
-      "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-      "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T08:16:14+00:00",
-      "ts": 1794298574.0,
-      "summary": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made"
-    },
-    {
-      "id": "a5d58c7187d9",
-      "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-      "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T06:52:54+00:00",
-      "ts": 1794293574.0,
-      "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after"
-    },
-    {
       "id": "294f39363b69",
       "title": "AI Security",
       "link": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
@@ -233,6 +233,16 @@
       "published": "2026-11-06T12:00:00+00:00",
       "ts": 1793966400.0,
       "summary": "Binance’s October 2026 security incident raises an operational question for every organization holding user funds: Can your security controls recognize when a valid signature grants an attacker wallet authority? If an organization only monitors transfers and ownership changes, it may miss the shift in wallet authority until assets move. Binance’s initial update about the incident suggested that a "
+    },
+    {
+      "id": "7029163c9e5a",
+      "title": "The Maximum Possible Nonlinearity for a Balanced Boolean Function in 10 Variables is 492",
+      "link": "https://eprint.iacr.org/2026/2797",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-06T11:08:39+00:00",
+      "ts": 1793963319.0,
+      "summary": "Determining the maximum nonlinearity of 10-variable balanced Boolean functions has been a long-standing open problem. In this paper, we resolve it by proving that the maximum nonlinearity is exactly 492, thereby confirming Dobbertin’s conjecture in dimension 10. To exclude nonlinearity 494, we derive a quadratic residue for the Walsh spectrum and refine a local energy table from four-block concate"
     },
     {
       "id": "b0a4965d2bda",
@@ -293,16 +303,6 @@
       "published": "2026-11-06T00:00:00+00:00",
       "ts": 1793923200.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Foxit. Elles permettent à un attaquant de provoquer une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance (XSS)."
-    },
-    {
-      "id": "79df9b1e0905",
-      "title": "Independent Leakage Does Not Save Evasive LWE: Refuting Folklore Fixes in the Private-Coin Setting",
-      "link": "https://eprint.iacr.org/2026/2792",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-05T23:03:38+00:00",
-      "ts": 1793919818.0,
-      "summary": "The evasive learning with errors (evasive LWE) assumption has enabled a wide range of advanced cryptographic constructions from lattices in the past few years. The simple intuition that LWE remains secure even when additional ``non-zeroizing'' short preimages are given has proved highly versatile in applications. Unfortunately, recent counterexamples have refuted its general private-coin formulati"
     },
     {
       "id": "90f0ff124cde",
@@ -655,6 +655,16 @@
       "summary": "A pseudorandom code (PRC) is a cryptographic primitive combining pseudorandom encryption and error-correcting codes (Christ and Gunn, CRYPTO 2024). That is, any polynomial number of codewords are pseudorandom, and decryption tolerates a constant rate of bit-flips. Although this might seem like a natural combination of standard properties, it is a fundamentally new object: PRCs are black-box separa"
     },
     {
+      "id": "064e600fa2e1",
+      "title": "Cryptanalysis of Goldreich's PRGs with MAJ–XOR Predicates",
+      "link": "https://eprint.iacr.org/2026/2156",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-22T09:47:13+00:00",
+      "ts": 1790070433.0,
+      "summary": "Goldreich's pseudorandom generators (PRGs) expand a secret \\(n\\)-bit seed into \\(m\\) output bits by applying the same local predicate to each selected subset of seed bits. We develop a pooled recovery framework for \\(\\mathrm{MAJ}\\)–\\(\\mathrm{XOR}\\) predicates. The method guesses that a set of seed bits has the same value and pools outputs whose majority inputs sufficiently overlap this set. Under "
+    },
+    {
       "id": "71c4a4caf94f",
       "title": "SAML: A fractal of bad design",
       "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
@@ -755,16 +765,6 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
-      "id": "91d80563c5af",
-      "title": "KORD: Breaking the Key-Generation Bottleneck in Dealerless Function Secret Sharing via Protocol–Hardware Co-Design",
-      "link": "https://eprint.iacr.org/2026/1615",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-05T11:53:02+00:00",
-      "ts": 1785930782.0,
-      "summary": "Function secret sharing (FSS) has emerged as a promising technique for secure multi-party computation (MPC), offering a lightweight online phase. However, existing FSS-based private inference frameworks typically rely on trusted dealers to generate and distribute large amounts of offline key material (e.g., 16.8 GiB for BERT-base), incurring substantial overhead in key generation, transfer, storag"
-    },
-    {
       "id": "5ce90ec573e9",
       "title": "A few notes on AWS Nitro Enclaves: KMS integration",
       "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
@@ -805,6 +805,16 @@
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
     },
     {
+      "id": "a0516e6d3a67",
+      "title": "A gentle introduction to lattice-based cryptography",
+      "link": "https://eprint.iacr.org/2026/1098",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-29T13:08:16+00:00",
+      "ts": 1780060096.0,
+      "summary": "We present four quantum-safe schemes: the Kyber (ML-KEM) and FrodoKEM key encapsulation mechanisms, and the Dilithium (ML-DSA) and Falcon (FN-DSA) signature schemes. We also develop the mathematical background on lattices needed to understand why Kyber, FrodoKEM, Dilithium and Falcon are regarded as lattice-based cryptosystems, and we provide insight into the computational hardness of the underlyi"
+    },
+    {
       "id": "7990c40a74ab",
       "title": "Let’s talk about encrypted reasoning",
       "link": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
@@ -823,16 +833,6 @@
       "published": "2026-04-23T21:38:00+00:00",
       "ts": 1776980280.0,
       "summary": "Posted by Thomas Brunner, Yu-Han Liu, Moni PandeAt Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats before they can impact users. Right now, Indirect Prompt Injection (IPI) is a top priority for the security community, anticipating it as a primary attack vector for adversaries to target and compromise A"
-    },
-    {
-      "id": "2afd37738da3",
-      "title": "Pufferfish: DAG-Guided Speculative Execution for Low-Latency BFT SMR",
-      "link": "https://eprint.iacr.org/2026/796",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-22T22:00:59+00:00",
-      "ts": 1776895259.0,
-      "summary": "Modern Byzantine fault-tolerant state machine replication (BFT SMR) systems increasingly decouple data dissemination from transaction ordering, but typically execute transactions only after consensus finalizes their order. This execution-after-consensus design serializes ordering and execution on the confirmation path, so transactions incur both costs even under normal network conditions. Decoupli"
     },
     {
       "id": "b18b34e5e963",
