@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T22:43:57.392176+00:00",
+  "generated_at": "2026-11-11T02:28:30.827199+00:00",
   "count": 105,
   "errors": [
     {
@@ -193,6 +193,16 @@
       "published": "2026-11-09T12:05:39+00:00",
       "ts": 1794225939.0,
       "summary": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad topics. It&#8217;s important for researchers to understand which one they are working on. And it&#8217;s imp"
+    },
+    {
+      "id": "159065342a82",
+      "title": "Constructions of Boolean Correctors with Optimal Nonlinearity and Vectorial Correctors Beyond Optimal Linear Correction Order",
+      "link": "https://eprint.iacr.org/2026/2812",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-07T05:32:40+00:00",
+      "ts": 1794029560.0,
+      "summary": "Correctors are postprocessing functions that reduce or eliminate statistical bias in raw bitstreams produced by physical noise sources in true random number generators. In this paper, we develop a framework based on binary Krawtchouk polynomials for analyzing and constructing Boolean and vectorial correctors. This framework reformulates the Walsh-layer criterion into finite moment constraints on s"
     },
     {
       "id": "1fc358122052",
@@ -393,16 +403,6 @@
       "published": "2026-11-05T00:00:00+00:00",
       "ts": 1793836800.0,
       "summary": "[Mise à jour du 6 novembre 2026] Cette vulnérabilité porte l'identifiant CVE-2026-123158. Alpine a publié un bulletin de sécurité (cf. section Documentation) concernant cette vulnérabilité. Le CERT-FR précise que toute installation de correctif ou modification de la configuration doit..."
-    },
-    {
-      "id": "779238ba8928",
-      "title": "Superlattice methods for the shortest vector problem and discrete Gaussian sampling",
-      "link": "https://eprint.iacr.org/2026/2761",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-04T07:47:31+00:00",
-      "ts": 1793778451.0,
-      "summary": "We give worst-case algorithms for the shortest vector problem (SVP) and discrete Gaussian sampling (DGS) at arbitrary widths. Both algorithms generate lists on a dense superlattice and combine vectors along a chain down to the input lattice. Random shifts let us control the expected number of representations of a vector regardless of the lattice. For SVP we balance these counts with a novel midpoi"
     },
     {
       "id": "0fceb6985485",
