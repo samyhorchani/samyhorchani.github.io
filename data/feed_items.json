@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:50:51.922563+00:00",
+  "generated_at": "2026-11-12T23:05:36.636639+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "f203288d26b0",
+      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+      "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-12T18:07:15+00:00",
+      "ts": 1794506835.0,
+      "summary": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login might belong to an employee. An unusual API call could come from a machine account. Or an AI agent might be accessing sensitive systems using permissions nobody"
+    },
+    {
+      "id": "6732490c59fb",
+      "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-12T18:02:51+00:00",
+      "ts": 1794506571.0,
+      "summary": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while"
+    },
+    {
+      "id": "e3e12a841e78",
+      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+      "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-12T17:50:27+00:00",
+      "ts": 1794505827.0,
+      "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of"
+    },
     {
       "id": "009f0e06bc70",
       "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
@@ -73,16 +103,6 @@
       "published": "2026-11-12T12:02:58+00:00",
       "ts": 1794484978.0,
       "summary": "Penlink&#8217;s Webloc is an application that locates people using information from the weather, gaming, email, and religious apps on their phone. It&#8217;s sold to the police. The tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It can build a detailed picture of where a smartphone has been over the past 12 months, and u"
-    },
-    {
-      "id": "f203288d26b0",
-      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-      "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T12:02:51+00:00",
-      "ts": 1794484971.0,
-      "summary": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login might belong to an employee. An unusual API call could come from a machine account. Or an AI agent might be accessing sensitive systems using permissions nobody"
     },
     {
       "id": "6e98fa9c9dcc",
@@ -155,16 +175,6 @@
       "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux. An attacker who can reach the"
     },
     {
-      "id": "0703e64b7b67",
-      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-      "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T04:39:48+00:00",
-      "ts": 1794458388.0,
-      "summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a vulnerability in the ScreenConnect software. \"Our initial assessment suggests the activity may involve"
-    },
-    {
       "id": "81d663132af1",
       "title": "Point de situation de l’opération REACTIV – octobre 2026 (12 novembre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-010/",
@@ -215,16 +225,6 @@
       "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that all point to a 36-year-old man living in St. Petersburg, Russia."
     },
     {
-      "id": "981cdb0f8278",
-      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-      "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-11T16:12:46+00:00",
-      "ts": 1794413566.0,
-      "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via"
-    },
-    {
       "id": "7b0c6d8c4c37",
       "title": "Three People Arrested for AI-Enhanced Impersonation Fraud",
       "link": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
@@ -253,6 +253,16 @@
       "published": "2026-11-10T12:02:38+00:00",
       "ts": 1794312158.0,
       "summary": "It&#8217;s a bad one, and it&#8217;s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed &#8220;*sshole,&#8221; allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password. &#8220;Oversized&#8221; means longer than 256 bytes. Details. Slashdot thread."
+    },
+    {
+      "id": "a7db2c08574b",
+      "title": "A Tutorial on Oblivious Random Access Memory",
+      "link": "https://eprint.iacr.org/2026/2852",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-10T02:15:41+00:00",
+      "ts": 1794276941.0,
+      "summary": "Abstract—Oblivious RAM (ORAM) is a key technique for pro- tecting memory access patterns in systems with untrusted mem- ory, including secure processors, trusted execution environments, and multi-party computation. This article presents a tutorial overview of ORAM concepts and designs from an algorithmic and cryptographic perspective. We review the security goals and threat models underlying ORAM,"
     },
     {
       "id": "65352f9b2cc0",
@@ -413,16 +423,6 @@
       "published": "2026-11-06T12:00:00+00:00",
       "ts": 1793966400.0,
       "summary": "Binance’s October 2026 security incident raises an operational question for every organization holding user funds: Can your security controls recognize when a valid signature grants an attacker wallet authority? If an organization only monitors transfers and ownership changes, it may miss the shift in wallet authority until assets move. Binance’s initial update about the incident suggested that a "
-    },
-    {
-      "id": "7029163c9e5a",
-      "title": "The Maximum Possible Nonlinearity for a Balanced Boolean Function in 10 Variables is 492",
-      "link": "https://eprint.iacr.org/2026/2797",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-06T11:08:39+00:00",
-      "ts": 1793963319.0,
-      "summary": "Determining the maximum nonlinearity of 10-variable balanced Boolean functions has been a long-standing open problem. In this paper, we resolve it by proving that the maximum nonlinearity is exactly 492, thereby confirming Dobbertin’s conjecture in dimension 10. To exclude nonlinearity 494, we derive a quadratic residue for the Walsh spectrum and refine a local energy table from four-block concate"
     },
     {
       "id": "7429da20a1be",
@@ -663,16 +663,6 @@
       "published": "2026-09-25T11:00:00+00:00",
       "ts": 1790334000.0,
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
-    },
-    {
-      "id": "064e600fa2e1",
-      "title": "Cryptanalysis of Goldreich's PRGs with MAJ–XOR Predicates",
-      "link": "https://eprint.iacr.org/2026/2156",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-22T09:47:13+00:00",
-      "ts": 1790070433.0,
-      "summary": "Goldreich's pseudorandom generators (PRGs) expand a secret \\(n\\)-bit seed into \\(m\\) output bits by applying the same local predicate to each selected subset of seed bits. We develop a pooled recovery framework for \\(\\mathrm{MAJ}\\)–\\(\\mathrm{XOR}\\) predicates. The method guesses that a set of seed bits has the same value and pools outputs whose majority inputs sufficiently overlap this set. Under "
     },
     {
       "id": "71c4a4caf94f",
@@ -963,6 +953,16 @@
       "published": "2026-02-19T17:00:00+00:00",
       "ts": 1771520400.0,
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
+    },
+    {
+      "id": "44c6f51864a0",
+      "title": "Sharing a Secret Anamorphically: Secret Shares Disguised as Signatures",
+      "link": "https://eprint.iacr.org/2026/236",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-12T13:46:38+00:00",
+      "ts": 1770903998.0,
+      "summary": "Anamorphic Encryption (Persiano, Phan and Yung, Eurocrypt '22) allows private communication in a challenging setting where encryption is severely controlled by a central authority (henceforth the dictator) who can demand the users to surrender their secret keys. Anamorphic Signatures (AS) (Kutylowski, Persiano, Phan, Yung, Zawada, Crypto '23) face the even more restrictive world where only authent"
     },
     {
       "id": "96ed87c2cba3",
