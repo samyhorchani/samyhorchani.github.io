@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T18:17:45.786261+00:00",
+  "generated_at": "2026-11-12T01:14:23.232429+00:00",
   "count": 105,
   "errors": [
     {
@@ -555,16 +555,6 @@
       "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters op"
     },
     {
-      "id": "5cb10c023dd6",
-      "title": "Implementing Predicate Encryption for Branching Programs: Private Computation over Key-Homomorphic Encodings Without FHE",
-      "link": "https://eprint.iacr.org/2026/2539",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-19T05:00:09+00:00",
-      "ts": 1792386009.0,
-      "summary": "Predicate encryption (PE) encrypts a message under an attribute that the ciphertext hides, allowing a secret key for a predicate to recover the message only when the attribute satisfies the predicate. Existing public-key implementations support useful specialized predicates, but enforcing heterogeneous conditions with one key requires an attribute representation fixed before encryption, which grow"
-    },
-    {
       "id": "064694cebfd2",
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
       "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
@@ -795,16 +785,6 @@
       "summary": "Internet voting can increase voter turnout and reduce operational costs; however, it also facilitates voter coercion. One compelling approach to address this issue is deniable vote updating, which allows voters to cast multiple ballots while counting only their final vote. Despite its intuitive appeal, achieving deniable vote updating together with verifiability and scalability has proven challeng"
     },
     {
-      "id": "13f36daab73a",
-      "title": "An $n^{n+o(n)}$-Time Algorithm for the Lattice Isomorphism Problem",
-      "link": "https://eprint.iacr.org/2026/1406",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-10T13:37:22+00:00",
-      "ts": 1783690642.0,
-      "summary": "The Lattice Isomorphism Problem asks whether two given lattices $\\mathcal L_1$ and $\\mathcal L_2$ are related by an orthogonal linear transformation. Haviv and Regev gave a seminal $n^{O(n)}$-time algorithm for this problem based on an isolation lemma (SODA~2014). We give randomized algorithms for the decision, search, and all-isomorphisms versions of the problem running in $O(n\\sqrt{\\log n})^n\\le"
-    },
-    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -813,6 +793,16 @@
       "published": "2026-06-09T19:00:02+00:00",
       "ts": 1781031602.0,
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
+    },
+    {
+      "id": "70f2236c94b4",
+      "title": "AuditPay: Anonymous Payments with Controlled Oversight",
+      "link": "https://eprint.iacr.org/2026/1118",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-31T13:40:55+00:00",
+      "ts": 1780234855.0,
+      "summary": "This paper introduces AuditPay, a novel mechanism for blockchain mixers that enables controlled oversight through an ``auditing budget.’’ Auditors may monitor up to a budgeted number of addresses per epoch (e.g., an hour or a day), without revealing to users which addresses are monitored. Unlike traditional approaches that require users to voluntarily disclose viewing keys to trusted gatekeepers, "
     },
     {
       "id": "a0516e6d3a67",
@@ -843,6 +833,16 @@
       "published": "2026-04-23T21:38:00+00:00",
       "ts": 1776980280.0,
       "summary": "Posted by Thomas Brunner, Yu-Han Liu, Moni PandeAt Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats before they can impact users. Right now, Indirect Prompt Injection (IPI) is a top priority for the security community, anticipating it as a primary attack vector for adversaries to target and compromise A"
+    },
+    {
+      "id": "2afd37738da3",
+      "title": "Pufferfish: DAG-Guided Speculative Execution for Low-Latency BFT SMR",
+      "link": "https://eprint.iacr.org/2026/796",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-04-22T22:00:59+00:00",
+      "ts": 1776895259.0,
+      "summary": "Modern Byzantine fault-tolerant state machine replication (BFT SMR) systems increasingly decouple data dissemination from transaction ordering, but typically execute transactions only after consensus finalizes their order. This execution-after-consensus design serializes ordering and execution on the confirmation path, so transactions incur both costs even under normal network conditions. Decoupli"
     },
     {
       "id": "b18b34e5e963",
