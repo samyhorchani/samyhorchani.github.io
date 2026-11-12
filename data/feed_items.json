@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T01:14:23.232429+00:00",
+  "generated_at": "2026-11-12T09:06:17.532497+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "d48984055085",
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-12T06:42:47+00:00",
+      "ts": 1794465767.0,
+      "summary": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The stealer is built to take the secrets and cloud credentials that a repository's CI workflows can reach. It ran in at least 1,806 repositories, where the attacker has likely collected"
+    },
+    {
+      "id": "1b3099b2b17b",
+      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+      "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-12T05:12:26+00:00",
+      "ts": 1794460346.0,
+      "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux. An attacker who can reach the"
+    },
+    {
+      "id": "0703e64b7b67",
+      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+      "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-12T04:39:48+00:00",
+      "ts": 1794458388.0,
+      "summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a vulnerability in the ScreenConnect software. \"Our initial assessment suggests the activity may involve"
+    },
     {
       "id": "7b786637e972",
       "title": "Who Runs the Ransomware Group Qilin?",
@@ -165,36 +195,6 @@
       "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE"
     },
     {
-      "id": "256ab3091be6",
-      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T18:12:21+00:00",
-      "ts": 1794334341.0,
-      "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the"
-    },
-    {
-      "id": "cd9ea98253ae",
-      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-      "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T17:43:23+00:00",
-      "ts": 1794332603.0,
-      "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year. Check Point Research is tracking the clusters under the names SilentDelivery,"
-    },
-    {
-      "id": "3578999604ef",
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-      "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-10T16:00:55+00:00",
-      "ts": 1794326455.0,
-      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two"
-    },
-    {
       "id": "777a4acc90ab",
       "title": "New OpenSSH Vulnerability",
       "link": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
@@ -223,6 +223,16 @@
       "published": "2026-11-07T05:32:40+00:00",
       "ts": 1794029560.0,
       "summary": "Correctors are postprocessing functions that reduce or eliminate statistical bias in raw bitstreams produced by physical noise sources in true random number generators. In this paper, we develop a framework based on binary Krawtchouk polynomials for analyzing and constructing Boolean and vectorial correctors. This framework reformulates the Walsh-layer criterion into finite moment constraints on s"
+    },
+    {
+      "id": "855cbede4940",
+      "title": "More Keys, Less Commitment: Key-Committing Attacks on BBB Accordions via Encode-then-Encipher and a Key-Committing Transform",
+      "link": "https://eprint.iacr.org/2026/2811",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-07T04:24:43+00:00",
+      "ts": 1794025483.0,
+      "summary": "Cryptographic accordions with beyond-birthday-bound (BBB) security are being actively studied in connection with NIST’s ongoing standardization effort. We show that BBB security of an accordion does not necessarily strengthen key commitment of AE built from it: in many BBB accordions, additional keys introduced for BBB security give an adversary extra degrees of freedom. Exploiting this observatio"
     },
     {
       "id": "1fc358122052",
@@ -705,16 +715,6 @@
       "summary": "We correct two errors in Section~8 of the above-mentioned paper concerning the seed parameters proposed for BLS27 elliptic curves (embedding degree \\(k=27\\)) at the 256-bit and 192-bit security levels. In both instances, the disclosed seeds produce a composite \\(r(x)\\), violating the primality condition essential for constructing pairing-friendly curves. Additionally, for the 192-bit seed, the cha"
     },
     {
-      "id": "90e75a36986a",
-      "title": "SVP Is NP-Hard for Some Rank-2 Cyclotomic Modules",
-      "link": "https://eprint.iacr.org/2026/1856",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-01T16:18:16+00:00",
-      "ts": 1788279496.0,
-      "summary": "Let $q$ be an odd prime. Let $\\zeta_q$ be a primitive $q$th root of unity, and put $K=\\mathbb{Q}(\\zeta_q)$, with ring of integers $\\mathcal{O}_K=\\mathbb{Z}[\\zeta_q]$. As $q$ ranges over odd primes, we prove that the decision version of the Shortest Vector Problem ($\\mathsf{SVP}$) in the canonical $\\ell_2$-norm is $\\mathsf{NP}$-complete on full-rank free submodules of $\\mathcal{O}_K^2$ by giving a "
-    },
-    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -775,6 +775,16 @@
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
     },
     {
+      "id": "65a0c340d7c2",
+      "title": "PERSEPHONE: Zero-Knowledge Multiplicative Non-Negative Proof for Sequential Private Range Verification",
+      "link": "https://eprint.iacr.org/2026/1477",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-20T03:42:50+00:00",
+      "ts": 1784518970.0,
+      "summary": "Privacy is a fundamental requirement of modern digital payment systems, which process highly sensitive financial data, including account balances and transaction amounts. Unauthorized disclosure of this information can compromise users’ financial privacy and expose them to fraud or other forms of financial abuse. A key challenge in this setting is to verify that a payment amount does not exceed th"
+    },
+    {
       "id": "e973b0fbea67",
       "title": "FiltrumVote: Scalable, Verifiable, and Coercion-Resistant Internet Voting",
       "link": "https://eprint.iacr.org/2026/1435",
@@ -783,6 +793,16 @@
       "published": "2026-07-13T22:23:34+00:00",
       "ts": 1783981414.0,
       "summary": "Internet voting can increase voter turnout and reduce operational costs; however, it also facilitates voter coercion. One compelling approach to address this issue is deniable vote updating, which allows voters to cast multiple ballots while counting only their final vote. Despite its intuitive appeal, achieving deniable vote updating together with verifiability and scalability has proven challeng"
+    },
+    {
+      "id": "00e24bc78a82",
+      "title": "A Note on the Security of Changing of the Guards",
+      "link": "https://eprint.iacr.org/2026/1226",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-06-10T09:37:30+00:00",
+      "ts": 1781084250.0,
+      "summary": "Masking stands as one of the most effective countermeasures against side-channel attacks. The Changing of the Guards (COTG) technique reduces online fresh randomness by reusing masks and borrowing shares across nonlinear computations. We identify a security flaw in the round-based AES Design I of Askeland et al. at CARDIS 2022. When the subsequent linear layer combines outputs from different maske"
     },
     {
       "id": "09b719e50e41",
@@ -955,16 +975,6 @@
       "summary": "It&#8217;s not every day that we see mainstream media get excited about encryption apps! For that reason, the past several days have been fascinating, since we&#8217;ve been given not one but several unusual stories about the encryption used in WhatsApp. Or more accurately, if you read the story, a pretty wild allegation that the widely-used &#8230; Continue reading WhatsApp Encryption, a Lawsuit,"
     },
     {
-      "id": "c450aca265ad",
-      "title": "Minimizing Mempool Dependency in PoW Mining on Blockchain: Scaling Blockchain Throughput via Asynchronous Pipeline Consensus",
-      "link": "https://eprint.iacr.org/2026/141",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-29T09:47:02+00:00",
-      "ts": 1769680022.0,
-      "summary": "Traditional Proof-of-Work protocols face structural limits in transaction throughput, as scaling block capacity within a serial verification model introduces severe propagation delays and elevates orphan block rates. To address this classical constraint, this paper proposes an asynchronous pipeline consensus architecture that decouples mining initiation from full transaction verification. By embed"
-    },
-    {
       "id": "d01b11ba041d",
       "title": "New Android Theft Protection Feature Updates: Smarter, Stronger",
       "link": "http://security.googleblog.com/2026/01/android-theft-protection-feature-updates.html",
@@ -1053,16 +1063,6 @@
       "published": "2024-10-16T14:59:51+00:00",
       "ts": 1729090791.0,
       "summary": "Multi-valued validated Byzantine agreement (MVBA), a fundamental primitive of distributed computing, allows $n$ processes to agree on a valid $\\ell$-bit value, despite $t$ faulty processes behaving maliciously. Among hash-based solutions for the asynchronous setting with adaptive faults, the state-of-the-art HMVBA protocol achieves optimal $O(n^2)$ message complexity, (near-)optimal $O(n \\ell + n^"
-    },
-    {
-      "id": "500230b4c4de",
-      "title": "BAKSHEESH: Similar Yet Different From GIFT",
-      "link": "https://eprint.iacr.org/2023/750",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2023-05-24T12:28:09+00:00",
-      "ts": 1684931289.0,
-      "summary": "We propose a lightweight block cipher named BAKSHEESH, which draws inspiration from GIFT (CHES'17). BAKSHEESH runs for 35 rounds, which is 12.5 per cent fewer rounds compared to GIFT-128 whilst maintaining the same security claims against classical attacks. However, we also present an alternate (but equivalent) angle of BAKSHEESH that follows the heritage of ZORRO (CHES'13). In the GIFT heritage v"
     }
   ]
 }
