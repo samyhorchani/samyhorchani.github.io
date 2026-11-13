@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:05:36.636639+00:00",
+  "generated_at": "2026-11-13T04:39:24.238512+00:00",
   "count": 105,
   "errors": [
     {
@@ -385,6 +385,16 @@
       "summary": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad topics. It&#8217;s important for researchers to understand which one they are working on. And it&#8217;s imp"
     },
     {
+      "id": "c85231a74207",
+      "title": "Multi-Hop Functional Encryption",
+      "link": "https://eprint.iacr.org/2026/2835",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-08T22:43:48+00:00",
+      "ts": 1794177828.0,
+      "summary": "In this paper, we initiate the study of multi-hop functional encryption ($\\mathsf{MHFE}$), a new primitive for computing over encrypted data in recursive and multi-stage workflows while enabling controlled release of intermediate outputs. $\\mathsf{MHFE}$ supports dynamic directed-acyclic computation graphs in which each node is labeled by a function and is equipped with a restricted secret key tha"
+    },
+    {
       "id": "855cbede4940",
       "title": "More Keys, Less Commitment: Key-Committing Attacks on BBB Accordions via Encode-then-Encipher and a Key-Committing Transform",
       "link": "https://eprint.iacr.org/2026/2811",
@@ -483,16 +493,6 @@
       "published": "2026-11-02T12:00:00+00:00",
       "ts": 1793620800.0,
       "summary": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149"
-    },
-    {
-      "id": "1bf6ec6f3560",
-      "title": "Authenticated Outsourced Incrementally Verifiable MPC",
-      "link": "https://eprint.iacr.org/2026/2721",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-02T09:58:10+00:00",
-      "ts": 1793613490.0,
-      "summary": "Many privacy-preserving applications such as iterative machine learning training require executing ongoing computations over a secret state for long periods of time. While MPC enables secure computation, long-lived secret state is vulnerable to adaptive corruptions, requiring periodic share refreshes and committee rotation. In many settings, it is desirable for external parties to be able to verif"
     },
     {
       "id": "b912b4f04d6b",
