@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:46:57.945637+00:00",
+  "generated_at": "2026-11-13T20:14:02.354895+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "e38d2f077f53",
+      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+      "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-13T16:53:08+00:00",
+      "ts": 1794588788.0,
+      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating"
+    },
+    {
+      "id": "749a38655f2a",
+      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+      "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-13T15:27:05+00:00",
+      "ts": 1794583625.0,
+      "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers"
+    },
+    {
+      "id": "8906ee3fee7b",
+      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-13T14:28:58+00:00",
+      "ts": 1794580138.0,
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months. As part of a coordinated set of actions announced by the U.S. government, the cloud-based"
+    },
+    {
+      "id": "cc1caa5ba5c7",
+      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+      "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-13T13:54:20+00:00",
+      "ts": 1794578060.0,
+      "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other"
+    },
     {
       "id": "2d39422f4a6e",
       "title": "AI Doesn’t Have to Go Rogue to Break the World",
@@ -135,26 +175,6 @@
       "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island. \"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,"
     },
     {
-      "id": "a08871100824",
-      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-      "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T13:08:28+00:00",
-      "ts": 1794488908.0,
-      "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an"
-    },
-    {
-      "id": "61f4d9df5bd4",
-      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-      "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T12:09:14+00:00",
-      "ts": 1794485354.0,
-      "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected"
-    },
-    {
       "id": "b35b496e6de1",
       "title": "Another Way Police Are Locating People from Their Smartphones",
       "link": "https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
@@ -163,26 +183,6 @@
       "published": "2026-11-12T12:02:58+00:00",
       "ts": 1794484978.0,
       "summary": "Penlink&#8217;s Webloc is an application that locates people using information from the weather, gaming, email, and religious apps on their phone. It&#8217;s sold to the police. The tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It can build a detailed picture of where a smartphone has been over the past 12 months, and u"
-    },
-    {
-      "id": "6e98fa9c9dcc",
-      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-      "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T11:51:43+00:00",
-      "ts": 1794484303.0,
-      "summary": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2. \"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet,\" N-able said in a new advisory. \"Legacy API is"
-    },
-    {
-      "id": "03c6efca1ffc",
-      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-      "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T11:51:31+00:00",
-      "ts": 1794484291.0,
-      "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire."
     },
     {
       "id": "81d663132af1",
@@ -225,14 +225,114 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
     },
     {
-      "id": "9b1f9e8353dd",
-      "title": "The Price of Geometry for Private Distance-Sensitive Filters: $\\ell_\\infty$ versus $\\ell_2$",
-      "link": "https://eprint.iacr.org/2026/2871",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-11T20:42:58+00:00",
-      "ts": 1794429778.0,
-      "summary": "A distance-sensitive set representation stores a set $S$ in a metric space and must accept points within distance $r$ of $S$ and reject points farther than $cr$, each with error probability at most $\\alpha$. Under differential privacy, even exact membership costs a privacy loss of $\\ln(1/\\alpha)$; we ask how much \\emph{more} the geometry of the space forces. Earlier lower bounds cover only restric"
+      "id": "688d2ff6e763",
+      "title": "Multiples vulnérabilités dans les produits Mozilla (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1505/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "de73cf951a90",
+      "title": "Multiples vulnérabilités dans Microsoft Azure (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1514/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "4a383df65742",
+      "title": "Multiples vulnérabilités dans Microsoft Windows (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1513/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+    },
+    {
+      "id": "092a9c09018c",
+      "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1521/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+    },
+    {
+      "id": "7f3f445738e8",
+      "title": "Multiples vulnérabilités dans Citrix Secure Access client (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1519/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Citrix Secure Access client. Elles permettent à un attaquant de provoquer une élévation de privilèges."
+    },
+    {
+      "id": "3fe3205731f0",
+      "title": "Multiples vulnérabilités dans Citrix XenServer (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1502/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Citrix XenServer. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de la politique de sécurité."
+    },
+    {
+      "id": "527c8668e981",
+      "title": "Multiples vulnérabilités dans les processeurs Intel (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1509/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les processeurs Intel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "5b712835e79b",
+      "title": "Multiples vulnérabilités dans HPE Aruba Networking Private 5G Core (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1503/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking Private 5G Core. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité."
+    },
+    {
+      "id": "d48b4738852f",
+      "title": "Vulnérabilité dans GitLab (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1520/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "Une vulnérabilité a été découverte dans GitLab. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
+    },
+    {
+      "id": "2753124b25fc",
+      "title": "Multiples vulnérabilités dans MongoDB Core Server (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1522/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB Core Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "7f00856212e5",
+      "title": "Multiples vulnérabilités dans Traefik (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1517/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
     },
     {
       "id": "7b786637e972",
@@ -283,116 +383,6 @@
       "published": "2026-11-10T02:15:41+00:00",
       "ts": 1794276941.0,
       "summary": "Abstract—Oblivious RAM (ORAM) is a key technique for pro- tecting memory access patterns in systems with untrusted mem- ory, including secure processors, trusted execution environments, and multi-party computation. This article presents a tutorial overview of ORAM concepts and designs from an algorithmic and cryptographic perspective. We review the security goals and threat models underlying ORAM,"
-    },
-    {
-      "id": "65352f9b2cc0",
-      "title": "Multiples vulnérabilités dans les produits SAP (10 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1497/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-10T00:00:00+00:00",
-      "ts": 1794268800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "746983d0ee12",
-      "title": "Vulnérabilité dans Atlassian Confluence Data Center (10 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1492/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-10T00:00:00+00:00",
-      "ts": 1794268800.0,
-      "summary": "Une vulnérabilité a été découverte dans Atlassian Confluence Data Center. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance."
-    },
-    {
-      "id": "88a51986d132",
-      "title": "Multiples vulnérabilités dans Roundcube (10 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1489/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-10T00:00:00+00:00",
-      "ts": 1794268800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une falsification de requêtes côté serveur (SSRF) et une injection de requêtes illégitimes par rebond (CSRF)."
-    },
-    {
-      "id": "8d15eedd4dbb",
-      "title": "Multiples vulnérabilités dans Synology DSM (10 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1493/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-10T00:00:00+00:00",
-      "ts": 1794268800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Synology DSM. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une falsification de requêtes côté serveur (SSRF)."
-    },
-    {
-      "id": "417c16c96702",
-      "title": "Multiples vulnérabilités dans Siemens SIMATIC (10 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1495/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-10T00:00:00+00:00",
-      "ts": 1794268800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Siemens SIMATIC. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "429ffeff5a50",
-      "title": "Multiples vulnérabilités dans les produits Apple (10 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1487/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-10T00:00:00+00:00",
-      "ts": 1794268800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "9bf6b377090d",
-      "title": "Multiples vulnérabilités dans Mozilla Firefox (10 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1490/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-10T00:00:00+00:00",
-      "ts": 1794268800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Firefox. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur."
-    },
-    {
-      "id": "308795b81815",
-      "title": "Multiples vulnérabilités dans OpenSSL (10 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1496/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-10T00:00:00+00:00",
-      "ts": 1794268800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité."
-    },
-    {
-      "id": "ce739f0f9a88",
-      "title": "Vulnérabilité dans Schneider Electric EcoStruxure (10 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1494/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-10T00:00:00+00:00",
-      "ts": 1794268800.0,
-      "summary": "Une vulnérabilité a été découverte dans Schneider Electric EcoStruxure. Elle permet à un attaquant de provoquer une exécution de code arbitraire."
-    },
-    {
-      "id": "470a4670c8c9",
-      "title": "Multiples vulnérabilités dans le greffon OpenID Connect OpenID Provider (OIDC OP) pour Shibboleth (10 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1491/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-10T00:00:00+00:00",
-      "ts": 1794268800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans le greffon OpenID Connect OpenID Provider (OIDC OP) pour Shibboleth. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité."
-    },
-    {
-      "id": "ffaa0d1a4dab",
-      "title": "Multiples vulnérabilités dans Google Chrome (10 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1488/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-10T00:00:00+00:00",
-      "ts": 1794268800.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur. Google indique que la vulnérabilité CVE-2026-125350 est activement exploitée."
     },
     {
       "id": "294f39363b69",
@@ -755,6 +745,16 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
+      "id": "b818c4425dfc",
+      "title": "Extending Distinguishing to Key Recovery for Subfield Subcodes of GRS codes",
+      "link": "https://eprint.iacr.org/2026/1747",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-20T12:11:00+00:00",
+      "ts": 1787227860.0,
+      "summary": "The McEliece cryptosystem based on binary Goppa codes has resisted both classical and quantum cryptanalysis for nearly 50 years. Recently, Ghoshal, Ishai, Jain, and Sun proposed an efficient algorithm that distinguishes generator matrices of subcodes of generalized Reed--Solomon (GRS) codes, including Goppa codes, from random ones. From all columns but one, this distinguisher finds a set of multiv"
+    },
+    {
       "id": "bea5a06fb576",
       "title": "Everything is about to “go dark”",
       "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
@@ -785,6 +785,16 @@
       "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t"
     },
     {
+      "id": "b9ecbca3a946",
+      "title": "New Designs of Multivariate-Polynomial Universal Hash Functions",
+      "link": "https://eprint.iacr.org/2026/1602",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-04T09:59:13+00:00",
+      "ts": 1785837553.0,
+      "summary": "Universal hash functions (UHFs) are basic building blocks in cryptography, making the topic of designing secure, fast UHFs of longstanding interest. This paper presents an exploration of the design space for multivariate UHFs, that is UHFs that involve the evaluation of a multivariate polynomial over a finite field. We focus on two-level designs, wherein a lower-level hash function produces interm"
+    },
+    {
       "id": "0c33a4787ae8",
       "title": "Some thoughts about Anthropic’s new cryptanalysis results",
       "link": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
@@ -793,16 +803,6 @@
       "published": "2026-07-29T14:23:30+00:00",
       "ts": 1785335010.0,
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
-    },
-    {
-      "id": "65a0c340d7c2",
-      "title": "PERSEPHONE: Zero-Knowledge Multiplicative Non-Negative Proof for Sequential Private Range Verification",
-      "link": "https://eprint.iacr.org/2026/1477",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-20T03:42:50+00:00",
-      "ts": 1784518970.0,
-      "summary": "Privacy is a fundamental requirement of modern digital payment systems, which process highly sensitive financial data, including account balances and transaction amounts. Unauthorized disclosure of this information can compromise users’ financial privacy and expose them to fraud or other forms of financial abuse. A key challenge in this setting is to verify that a payment amount does not exceed th"
     },
     {
       "id": "00e24bc78a82",
@@ -835,6 +835,16 @@
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
     },
     {
+      "id": "14883344e85e",
+      "title": "Adaptor Signature Schemes with Deniable Presignatures",
+      "link": "https://eprint.iacr.org/2026/873",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-05T06:18:03+00:00",
+      "ts": 1777961883.0,
+      "summary": "An adaptor signature scheme can be seen as committing to a signature using an NP statement, in such a way that (1) the commitment, called a presignature, is verifiable, (2) the corresponding witness enables opening the commitment (adapting the presignature), and (3) seeing a valid commitment-opening (presignature-signature) pair leaks the witness. In the blockchain space, where signed transactions"
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -843,16 +853,6 @@
       "published": "2026-04-23T21:38:00+00:00",
       "ts": 1776980280.0,
       "summary": "Posted by Thomas Brunner, Yu-Han Liu, Moni PandeAt Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats before they can impact users. Right now, Indirect Prompt Injection (IPI) is a top priority for the security community, anticipating it as a primary attack vector for adversaries to target and compromise A"
-    },
-    {
-      "id": "2afd37738da3",
-      "title": "Pufferfish: DAG-Guided Speculative Execution for Low-Latency BFT SMR",
-      "link": "https://eprint.iacr.org/2026/796",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-04-22T22:00:59+00:00",
-      "ts": 1776895259.0,
-      "summary": "Modern Byzantine fault-tolerant state machine replication (BFT SMR) systems increasingly decouple data dissemination from transaction ordering, but typically execute transactions only after consensus finalizes their order. This execution-after-consensus design serializes ordering and execution on the confirmation path, so transactions incur both costs even under normal network conditions. Decoupli"
     },
     {
       "id": "b18b34e5e963",
