@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T04:39:24.238512+00:00",
+  "generated_at": "2026-11-13T12:46:57.945637+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,66 @@
     }
   ],
   "items": [
+    {
+      "id": "2d39422f4a6e",
+      "title": "AI Doesn’t Have to Go Rogue to Break the World",
+      "link": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-11-13T12:03:30+00:00",
+      "ts": 1794571410.0,
+      "summary": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop. I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two matter more than the first. The third is th"
+    },
+    {
+      "id": "6d0b9eefde87",
+      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+      "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-13T11:52:31+00:00",
+      "ts": 1794570751.0,
+      "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of scenario raises a response question: what does “stop the agent” actually mean? A"
+    },
+    {
+      "id": "9f3170836a0c",
+      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+      "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-13T11:10:40+00:00",
+      "ts": 1794568240.0,
+      "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,"
+    },
+    {
+      "id": "f3f6fe92db2e",
+      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+      "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-13T10:55:03+00:00",
+      "ts": 1794567303.0,
+      "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA). Gootloader is a loader:"
+    },
+    {
+      "id": "e884d595b37b",
+      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-13T08:05:49+00:00",
+      "ts": 1794557149.0,
+      "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS&nbsp; to deploy a backdoor called TSGA. The activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up"
+    },
+    {
+      "id": "24402b7edb15",
+      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-13T05:43:28+00:00",
+      "ts": 1794548608.0,
+      "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some functionality, but we believe taking additional precautions while remediation is completed is the"
+    },
     {
       "id": "f203288d26b0",
       "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
@@ -125,56 +185,6 @@
       "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire."
     },
     {
-      "id": "a4cb017a9165",
-      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-      "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T11:33:15+00:00",
-      "ts": 1794483195.0,
-      "summary": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as a case of improper input validation and deserialization of untrusted data that could result in"
-    },
-    {
-      "id": "8177972ec3e0",
-      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-      "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T09:25:00+00:00",
-      "ts": 1794475500.0,
-      "summary": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the database, released fixed versions earlier this week. The affected servers are members of a replica"
-    },
-    {
-      "id": "1b8393613606",
-      "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
-      "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T08:20:37+00:00",
-      "ts": 1794471637.0,
-      "summary": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1. The crash"
-    },
-    {
-      "id": "d48984055085",
-      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-      "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T06:42:47+00:00",
-      "ts": 1794465767.0,
-      "summary": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The stealer is built to take the secrets and cloud credentials that a repository's CI workflows can reach. It ran in at least 1,806 repositories, where the attacker has likely collected"
-    },
-    {
-      "id": "1b3099b2b17b",
-      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-      "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T05:12:26+00:00",
-      "ts": 1794460346.0,
-      "summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux. An attacker who can reach the"
-    },
-    {
       "id": "81d663132af1",
       "title": "Point de situation de l’opération REACTIV – octobre 2026 (12 novembre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-010/",
@@ -213,6 +223,16 @@
       "published": "2026-11-12T00:00:00+00:00",
       "ts": 1794441600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+    },
+    {
+      "id": "9b1f9e8353dd",
+      "title": "The Price of Geometry for Private Distance-Sensitive Filters: $\\ell_\\infty$ versus $\\ell_2$",
+      "link": "https://eprint.iacr.org/2026/2871",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-11T20:42:58+00:00",
+      "ts": 1794429778.0,
+      "summary": "A distance-sensitive set representation stores a set $S$ in a metric space and must accept points within distance $r$ of $S$ and reject points farther than $cr$, each with error probability at most $\\alpha$. Under differential privacy, even exact membership costs a privacy loss of $\\ln(1/\\alpha)$; we ask how much \\emph{more} the geometry of the space forces. Earlier lower bounds cover only restric"
     },
     {
       "id": "7b786637e972",
@@ -505,16 +525,6 @@
       "summary": "Neat video: The sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
     },
     {
-      "id": "7693f0a92586",
-      "title": "Bloatware in Aftermarket Auto Parts",
-      "link": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-30T15:20:02+00:00",
-      "ts": 1793373602.0,
-      "summary": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware&#8212;­or spyware, if you’re being less charitable­&#8212;was a voice assistant equipped with WebView, an Android syste"
-    },
-    {
       "id": "fa6201752318",
       "title": "Beyond the Event Horizon of Keccak, Extending the Observation from 2011 and applications",
       "link": "https://eprint.iacr.org/2026/2671",
@@ -523,6 +533,16 @@
       "published": "2026-10-28T12:39:08+00:00",
       "ts": 1793191148.0,
       "summary": "In 2011 we observed that a single path in the Keccak sponge from a state whose capacity has all zero bits back to such a state yields an explicit, infinite family of second preimages for every message of at least one full rate block. Finding such a path costs about 2^(c/2), which lies \"beyond the event horizon\" for SHA3-256 (c = 512). In this paper we give four novel theorems around that observati"
+    },
+    {
+      "id": "41b13211b194",
+      "title": "OblivDGL: Oblivious Deep Graph Learning Made Practical",
+      "link": "https://eprint.iacr.org/2026/2655",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-27T05:28:09+00:00",
+      "ts": 1793078889.0,
+      "summary": "The rapid deployment of Graph Neural Networks (GNNs) within Machine Learning as a Service (MLaaS) has opened up new privacy concerns. Both sensitive graph data and proprietary GNN models are submitted to and processed in third-party MLaaS platform for training and inference. To alleviate those concerns, recent efforts have been made to design tailored secure computation protocols for GNNs. Unfortu"
     },
     {
       "id": "2e641ca86307",
@@ -785,16 +805,6 @@
       "summary": "Privacy is a fundamental requirement of modern digital payment systems, which process highly sensitive financial data, including account balances and transaction amounts. Unauthorized disclosure of this information can compromise users’ financial privacy and expose them to fraud or other forms of financial abuse. A key challenge in this setting is to verify that a payment amount does not exceed th"
     },
     {
-      "id": "e973b0fbea67",
-      "title": "FiltrumVote: Scalable, Verifiable, and Coercion-Resistant Internet Voting",
-      "link": "https://eprint.iacr.org/2026/1435",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-13T22:23:34+00:00",
-      "ts": 1783981414.0,
-      "summary": "Internet voting can increase voter turnout and reduce operational costs; however, it also facilitates voter coercion. One compelling approach to address this issue is deniable vote updating, which allows voters to cast multiple ballots while counting only their final vote. Despite its intuitive appeal, achieving deniable vote updating together with verifiability and scalability has proven challeng"
-    },
-    {
       "id": "00e24bc78a82",
       "title": "A Note on the Security of Changing of the Guards",
       "link": "https://eprint.iacr.org/2026/1226",
@@ -813,16 +823,6 @@
       "published": "2026-06-09T19:00:02+00:00",
       "ts": 1781031602.0,
       "summary": "Yesterday Apple announced a big step towards deploying real AI in their Siri ecosystem. In most ways this is good and inevitable: Siri is one of the world&#8217;s most widely-used voice agents, and it would be good if it didn&#8217;t suck. The idea that Apple would boost its capabilities with frontier models wasn&#8217;t so much &#8230; Continue reading The future of Siri, or: why private inferenc"
-    },
-    {
-      "id": "70f2236c94b4",
-      "title": "AuditPay: Anonymous Payments with Controlled Oversight",
-      "link": "https://eprint.iacr.org/2026/1118",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-31T13:40:55+00:00",
-      "ts": 1780234855.0,
-      "summary": "This paper introduces AuditPay, a novel mechanism for blockchain mixers that enables controlled oversight through an ``auditing budget.’’ Auditors may monitor up to a budgeted number of addresses per epoch (e.g., an hour or a day), without revealing to users which addresses are monitored. Unlike traditional approaches that require users to voluntarily disclose viewing keys to trusted gatekeepers, "
     },
     {
       "id": "7990c40a74ab",
@@ -985,6 +985,16 @@
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
     },
     {
+      "id": "ebb6e78e2b4b",
+      "title": "From $\\textsf{TS-SUF-2}$ to $\\textsf{TS-SUF-4}$: Practical Security Enhancements for $\\textsf{FROST2}$ Threshold Signatures",
+      "link": "https://eprint.iacr.org/2026/075",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-01-17T06:11:54+00:00",
+      "ts": 1768630314.0,
+      "summary": "Threshold signature schemes play a vital role in securing digital assets within blockchain and distributed systems. $\\textsf{FROST2}$ stands out as a practical threshold Schnorr signature scheme, noted for its efficiency and compatibility with standard verification processes. However, under the one-more discrete logarithm assumption, with static corruption and centralized key generation settings, "
+    },
+    {
       "id": "d89b8a28e282",
       "title": "HTTPS certificate industry phasing out less secure domain validation methods",
       "link": "http://security.googleblog.com/2025/12/https-certificate-industry-phasing-out.html",
@@ -1033,16 +1043,6 @@
       "published": "2025-11-20T17:00:00+00:00",
       "ts": 1763658000.0,
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
-    },
-    {
-      "id": "cb9a770a4461",
-      "title": "Constructions of Efficiently Implementable Boolean Functions with Provable Nonlinearity/Resiliency/Algebraic Immunity Trade-Offs",
-      "link": "https://eprint.iacr.org/2025/1800",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-10-02T06:50:21+00:00",
-      "ts": 1759387821.0,
-      "summary": "We describe new families of efficiently implementable Boolean functions achieving provable trade-offs between resiliency, nonlinearity, and algebraic immunity. Compared to one direction of research on balanced and 1-resilient functions with optimal algebraic immunity, the new functions provide lower algebraic immunity, but much lower -- in fact, almost optimal -- linear bias and importantly are mu"
     },
     {
       "id": "60a6eaa9b24b",
