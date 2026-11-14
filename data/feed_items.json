@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T15:28:00.191952+00:00",
+  "generated_at": "2026-11-14T20:17:59.857893+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "a5d691d96e87",
+      "title": "Upcoming Speaking Engagements",
+      "link": "https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-11-14T17:02:39+00:00",
+      "ts": 1794675759.0,
+      "summary": "This is a current list of where and when I am scheduled to speak: I’m speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026. I’m speaking at QT Qonference 2026 in Toronto, Ontario, Canada, on Thursday, November 19, 2026. The list is maintained on this page."
+    },
     {
       "id": "19c06280f5c1",
       "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
@@ -465,6 +475,16 @@
       "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016."
     },
     {
+      "id": "55fcbffca6f4",
+      "title": "MODDIV-WC: Unit-Anchored Toeplitz/Hankel Rounding with Exact Binary-LWE Masking and an IND-CCA Security Route",
+      "link": "https://eprint.iacr.org/2026/2747",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-03T17:35:12+00:00",
+      "ts": 1793727312.0,
+      "summary": "\\begin{abstract} We present MODDIV-WC, a public-key encryption and key-encapsulation candidate based on a widened Hankel linear map followed by deterministic integer division, together with an implicit-rejection Fujisaki--Okamoto wrapper, MODDIV-WC-FO. The construction uses a secret vector whose first coordinate is fixed to one and whose remaining coordinates are sampled from a positive interval. "
+    },
+    {
       "id": "0fceb6985485",
       "title": "AIs Hacking the Law",
       "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
@@ -495,16 +515,6 @@
       "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised "
     },
     {
-      "id": "0b45e40d05ce",
-      "title": "AI Vulnerability Finding",
-      "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-11-02T12:02:34+00:00",
-      "ts": 1793620954.0,
-      "summary": "A comment: 3% of &#8216;critical&#8217; software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is? Yes. It is a new world out there."
-    },
-    {
       "id": "0d4f6fb3a2fe",
       "title": "Backporting security fixes at scale with Codex",
       "link": "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/",
@@ -513,16 +523,6 @@
       "published": "2026-11-02T12:00:00+00:00",
       "ts": 1793620800.0,
       "summary": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149"
-    },
-    {
-      "id": "fa6201752318",
-      "title": "Beyond the Event Horizon of Keccak, Extending the Observation from 2011 and applications",
-      "link": "https://eprint.iacr.org/2026/2671",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-28T12:39:08+00:00",
-      "ts": 1793191148.0,
-      "summary": "In 2011 we observed that a single path in the Keccak sponge from a state whose capacity has all zero bits back to such a state yields an explicit, infinite family of second preimages for every message of at least one full rate block. Finding such a path costs about 2^(c/2), which lies \"beyond the event horizon\" for SHA3-256 (c = 512). In this paper we give four novel theorems around that observati"
     },
     {
       "id": "41b13211b194",
