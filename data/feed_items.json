@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T20:14:02.354895+00:00",
+  "generated_at": "2026-11-14T01:11:15.192223+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "eb040ed8adf8",
+      "title": "Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters",
+      "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-11-13T22:00:46+00:00",
+      "ts": 1794607246.0,
+      "summary": "Climate change is the issue. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
+    },
     {
       "id": "e38d2f077f53",
       "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
@@ -355,6 +365,16 @@
       "summary": "It&#8217;s hard to believe how lucrative this crime can be: According to a press release from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to convince employees to send over large "
     },
     {
+      "id": "340c026823c7",
+      "title": "Affine Combiners for Reed-Solomon Proximity Gaps",
+      "link": "https://eprint.iacr.org/2026/2863",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-11T06:54:49+00:00",
+      "ts": 1794380089.0,
+      "summary": "Reed–Solomon proximity gaps establish soundness guarantees for protocols that test received words through random combinations. For length-$n$ codes over $\\mathbb{F}_q$, classical scalar combiners achieve error $O(n/q)$ in the unique-decoding regime, with larger known bounds near the Johnson radius. We prove smaller error bounds using affine combiners, which combine two received words $f,g$ as $f(x"
+    },
+    {
       "id": "ceb4e568e77f",
       "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
       "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
@@ -403,16 +423,6 @@
       "published": "2026-11-08T22:43:48+00:00",
       "ts": 1794177828.0,
       "summary": "In this paper, we initiate the study of multi-hop functional encryption ($\\mathsf{MHFE}$), a new primitive for computing over encrypted data in recursive and multi-stage workflows while enabling controlled release of intermediate outputs. $\\mathsf{MHFE}$ supports dynamic directed-acyclic computation graphs in which each node is labeled by a function and is equipped with a restricted secret key tha"
-    },
-    {
-      "id": "855cbede4940",
-      "title": "More Keys, Less Commitment: Key-Committing Attacks on BBB Accordions via Encode-then-Encipher and a Key-Committing Transform",
-      "link": "https://eprint.iacr.org/2026/2811",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-07T04:24:43+00:00",
-      "ts": 1794025483.0,
-      "summary": "Cryptographic accordions with beyond-birthday-bound (BBB) security are being actively studied in connection with NIST’s ongoing standardization effort. We show that BBB security of an accordion does not necessarily strengthen key commitment of AE built from it: in many BBB accordions, additional keys introduced for BBB security give an adversary extra degrees of freedom. Exploiting this observatio"
     },
     {
       "id": "1fc358122052",
@@ -505,16 +515,6 @@
       "summary": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149"
     },
     {
-      "id": "b912b4f04d6b",
-      "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
-      "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-10-30T21:04:36+00:00",
-      "ts": 1793394276.0,
-      "summary": "Neat video: The sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
-    },
-    {
       "id": "fa6201752318",
       "title": "Beyond the Event Horizon of Keccak, Extending the Observation from 2011 and applications",
       "link": "https://eprint.iacr.org/2026/2671",
@@ -605,16 +605,6 @@
       "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond."
     },
     {
-      "id": "da9456b78745",
-      "title": "Revisiting Witness-Succinct UC-lifting Compilers",
-      "link": "https://eprint.iacr.org/2026/2453",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-12T16:18:24+00:00",
-      "ts": 1791821904.0,
-      "summary": "Zero-knowledge succinct non-interactive arguments of knowledge (zkSNARKs) are increasingly used within larger cryptographic protocols, making security under composition essential. Generic compilation to Universal Composability (UC) requires straight-line, black-box extraction while preserving succinctness and controlling prover cost. We introduce verifiable reconstructible straightline codes (VRSC"
-    },
-    {
       "id": "004fbb2e40f0",
       "title": "New website: estimating human cryptanalytic work",
       "link": "https://blog.cryptographyengineering.com/2026/10/11/new-website-estimating-human-cryptanalytic-work/",
@@ -643,6 +633,16 @@
       "published": "2026-10-07T13:48:45+00:00",
       "ts": 1791380925.0,
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the gl"
+    },
+    {
+      "id": "0a74275ef63e",
+      "title": "ECLIPSE: Strongly Unforgeable Isogeny Signatures from the Prime-Degree Variant of PRISM",
+      "link": "https://eprint.iacr.org/2026/2312",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-02T16:32:53+00:00",
+      "ts": 1790958773.0,
+      "summary": "ECLIPSE is the prime-degree signature construction the PRISM authors describe beside their salted scheme, with that salt, implemented. It exists because a two-dimensional isogeny signature carries an auxiliary isogeny the hash does not bind: the SQIsign round-3 specification says SQIsign cannot be strongly unforgeable for that reason, and PRISM's prime-degree variant has no auxiliary isogeny but w"
     },
     {
       "id": "b224d08c01cc",
@@ -803,16 +803,6 @@
       "published": "2026-07-29T14:23:30+00:00",
       "ts": 1785335010.0,
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
-    },
-    {
-      "id": "00e24bc78a82",
-      "title": "A Note on the Security of Changing of the Guards",
-      "link": "https://eprint.iacr.org/2026/1226",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-06-10T09:37:30+00:00",
-      "ts": 1781084250.0,
-      "summary": "Masking stands as one of the most effective countermeasures against side-channel attacks. The Changing of the Guards (COTG) technique reduces online fresh randomness by reusing masks and borrowing shares across nonlinear computations. We identify a security flaw in the round-based AES Design I of Askeland et al. at CARDIS 2022. When the subsequent linear layer combines outputs from different maske"
     },
     {
       "id": "09b719e50e41",
@@ -993,6 +983,16 @@
       "published": "2026-01-17T06:11:54+00:00",
       "ts": 1768630314.0,
       "summary": "Threshold signature schemes play a vital role in securing digital assets within blockchain and distributed systems. $\\textsf{FROST2}$ stands out as a practical threshold Schnorr signature scheme, noted for its efficiency and compatibility with standard verification processes. However, under the one-more discrete logarithm assumption, with static corruption and centralized key generation settings, "
+    },
+    {
+      "id": "2c3b12707b0a",
+      "title": "On the Pitfalls of Modeling Individual Knowledge",
+      "link": "https://eprint.iacr.org/2025/2268",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-12-17T18:20:55+00:00",
+      "ts": 1765995655.0,
+      "summary": "The concept of knowledge has been central in cryptography, especially within cryptographic proof systems. Traditionally, research in this area considers an abstract \\emph{prover} defending a claim that it knows a message $M$. Recently, a stronger concept—termed ``individual'' (Dziembowski et al., CRYPTO'23) or ``complete'' (Kelkar et al., CCS'24) knowledge—has emerged. This notion ensures the prov"
     },
     {
       "id": "d89b8a28e282",
