@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T07:26:54.220374+00:00",
+  "generated_at": "2026-11-15T15:12:51.666665+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,26 @@
     }
   ],
   "items": [
+    {
+      "id": "1c577576b16e",
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-15T11:27:31+00:00",
+      "ts": 1794742051.0,
+      "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent. The company has 60 days to"
+    },
+    {
+      "id": "d4399d60c964",
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-15T08:22:04+00:00",
+      "ts": 1794730924.0,
+      "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only"
+    },
     {
       "id": "a5d691d96e87",
       "title": "Upcoming Speaking Engagements",
@@ -173,26 +193,6 @@
       "published": "2026-11-12T17:50:27+00:00",
       "ts": 1794505827.0,
       "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of"
-    },
-    {
-      "id": "009f0e06bc70",
-      "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-      "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T16:27:01+00:00",
-      "ts": 1794500821.0,
-      "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can still exploit the flaw, Red Hat said yesterday. The company has released fixed builds for eight Quay"
-    },
-    {
-      "id": "5297ff7a6a0f",
-      "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-      "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T15:38:49+00:00",
-      "ts": 1794497929.0,
-      "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed below - CVE-2026-120868 (CVSS score: 9.3) - A memory overflow vulnerability in Packet"
     },
     {
       "id": "b35b496e6de1",
@@ -405,16 +405,6 @@
       "summary": "It&#8217;s a bad one, and it&#8217;s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed &#8220;*sshole,&#8221; allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password. &#8220;Oversized&#8221; means longer than 256 bytes. Details. Slashdot thread."
     },
     {
-      "id": "a7db2c08574b",
-      "title": "A Tutorial on Oblivious Random Access Memory",
-      "link": "https://eprint.iacr.org/2026/2852",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-10T02:15:41+00:00",
-      "ts": 1794276941.0,
-      "summary": "Abstract—Oblivious RAM (ORAM) is a key technique for pro- tecting memory access patterns in systems with untrusted mem- ory, including secure processors, trusted execution environments, and multi-party computation. This article presents a tutorial overview of ORAM concepts and designs from an algorithmic and cryptographic perspective. We review the security goals and threat models underlying ORAM,"
-    },
-    {
       "id": "294f39363b69",
       "title": "AI Security",
       "link": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
@@ -423,16 +413,6 @@
       "published": "2026-11-09T12:05:39+00:00",
       "ts": 1794225939.0,
       "summary": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad topics. It&#8217;s important for researchers to understand which one they are working on. And it&#8217;s imp"
-    },
-    {
-      "id": "c85231a74207",
-      "title": "Multi-Hop Functional Encryption",
-      "link": "https://eprint.iacr.org/2026/2835",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-08T22:43:48+00:00",
-      "ts": 1794177828.0,
-      "summary": "In this paper, we initiate the study of multi-hop functional encryption ($\\mathsf{MHFE}$), a new primitive for computing over encrypted data in recursive and multi-stage workflows while enabling controlled release of intermediate outputs. $\\mathsf{MHFE}$ supports dynamic directed-acyclic computation graphs in which each node is labeled by a function and is equipped with a restricted secret key tha"
     },
     {
       "id": "1fc358122052",
@@ -583,6 +563,16 @@
       "published": "2026-10-14T11:00:00+00:00",
       "ts": 1791975600.0,
       "summary": "I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed1, fewer than half used lockfiles that checked for tam"
+    },
+    {
+      "id": "ffa4a343ce01",
+      "title": "Connecting Cryptanalytic Distinguishers through Divisibility",
+      "link": "https://eprint.iacr.org/2026/2471",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-14T09:12:14+00:00",
+      "ts": 1791969134.0,
+      "summary": "Integral distinguishers can reveal more than a zero-sum property: the number of ones in an output component may be divisible by a high power of $2$, rather than merely being even. To exploit this divisibility, we relate linear, integral, differential-linear, and restricted differential sums through two-way conversions with explicit divisibility guarantees and data complexity, recovering establishe"
     },
     {
       "id": "c5a36601271c",
@@ -765,6 +755,16 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
+      "id": "4b72ac139d8a",
+      "title": "Ideal Pseudorandom Code, Revisited",
+      "link": "https://eprint.iacr.org/2026/1657",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-08-11T12:03:06+00:00",
+      "ts": 1786449786.0,
+      "summary": "Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composabl"
+    },
+    {
       "id": "5ce90ec573e9",
       "title": "A few notes on AWS Nitro Enclaves: KMS integration",
       "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
@@ -935,16 +935,6 @@
       "summary": "Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust The Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to"
     },
     {
-      "id": "44c6f51864a0",
-      "title": "Sharing a Secret Anamorphically: Secret Shares Disguised as Signatures",
-      "link": "https://eprint.iacr.org/2026/236",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-12T13:46:38+00:00",
-      "ts": 1770903998.0,
-      "summary": "Anamorphic Encryption (Persiano, Phan and Yung, Eurocrypt '22) allows private communication in a challenging setting where encryption is severely controlled by a central authority (henceforth the dictator) who can demand the users to surrender their secret keys. Anamorphic Signatures (AS) (Kutylowski, Persiano, Phan, Yung, Zawada, Crypto '23) face the even more restrictive world where only authent"
-    },
-    {
       "id": "96ed87c2cba3",
       "title": "WhatsApp Encryption, a Lawsuit, and a Lot of Noise",
       "link": "https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/",
@@ -1063,6 +1053,16 @@
       "published": "2025-08-20T04:01:06+00:00",
       "ts": 1755662466.0,
       "summary": "Motivated by LowMC cryptanalysis challenge, research in recent years focuses more on attacking LowMC in \\PICNIC application setting, \\ie an attacker can see only a single plaintext/ciphertext pair. It can be noted that in the security proof of \\PICNIC, LowMC is required to be secure under two plaintexts, it is thus meaningful to investigate the security of LowMC in this direction. Pioneered by Liu"
+    },
+    {
+      "id": "9142a29b5e06",
+      "title": "Vectorised Hashing Based on Bernstein-Rabin-Winograd Polynomials over Prime Order Fields",
+      "link": "https://eprint.iacr.org/2025/1262",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-07-08T15:53:37+00:00",
+      "ts": 1751990017.0,
+      "summary": "We introduce the new AXU hash function decBRWHash, which is parameterised by the positive integer $c$ and is based on Bernstein-Rabin-Winograd (BRW) polynomials. Choosing $c1$ gives a hash function which can be implemented using $c$-way single instruction multiple data (SIMD) instructions. We report a set of very comprehensive hand optimised assembly implementations of 4-decBRWHash using avx2 SIMD"
     }
   ]
 }
