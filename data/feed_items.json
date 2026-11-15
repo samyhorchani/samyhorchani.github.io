@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T15:12:51.666665+00:00",
+  "generated_at": "2026-11-15T20:43:05.603103+00:00",
   "count": 105,
   "errors": [
     {
@@ -955,16 +955,6 @@
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
     },
     {
-      "id": "ebb6e78e2b4b",
-      "title": "From $\\textsf{TS-SUF-2}$ to $\\textsf{TS-SUF-4}$: Practical Security Enhancements for $\\textsf{FROST2}$ Threshold Signatures",
-      "link": "https://eprint.iacr.org/2026/075",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-17T06:11:54+00:00",
-      "ts": 1768630314.0,
-      "summary": "Threshold signature schemes play a vital role in securing digital assets within blockchain and distributed systems. $\\textsf{FROST2}$ stands out as a practical threshold Schnorr signature scheme, noted for its efficiency and compatibility with standard verification processes. However, under the one-more discrete logarithm assumption, with static corruption and centralized key generation settings, "
-    },
-    {
       "id": "2c3b12707b0a",
       "title": "On the Pitfalls of Modeling Individual Knowledge",
       "link": "https://eprint.iacr.org/2025/2268",
@@ -1053,6 +1043,16 @@
       "published": "2025-08-20T04:01:06+00:00",
       "ts": 1755662466.0,
       "summary": "Motivated by LowMC cryptanalysis challenge, research in recent years focuses more on attacking LowMC in \\PICNIC application setting, \\ie an attacker can see only a single plaintext/ciphertext pair. It can be noted that in the security proof of \\PICNIC, LowMC is required to be secure under two plaintexts, it is thus meaningful to investigate the security of LowMC in this direction. Pioneered by Liu"
+    },
+    {
+      "id": "7f3abb9b9e58",
+      "title": "Shuffling is Universal: Statistical Additive Randomized Encodings for All Functions",
+      "link": "https://eprint.iacr.org/2025/1442",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-08-08T03:25:23+00:00",
+      "ts": 1754623523.0,
+      "summary": "The shuffle model is a widely used abstraction for non-interactive anonymous communication. It allows $n$ parties holding private inputs $x_1,\\dots,x_n$ to simultaneously send messages to an evaluator, so that the messages are received in a random order. The evaluator can then compute a joint function $f(x_1,\\dots,x_n)$, ideally while learning nothing else about the private inputs. The model has b"
     },
     {
       "id": "9142a29b5e06",
