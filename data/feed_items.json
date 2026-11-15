@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T00:37:33.129144+00:00",
+  "generated_at": "2026-11-15T07:26:54.220374+00:00",
   "count": 105,
   "errors": [
     {
@@ -715,16 +715,6 @@
       "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem, but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat&rsquo;s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug, shown belo"
     },
     {
-      "id": "05e940e24c02",
-      "title": "Practical Silent Threshold Signatures and Silent Threshold Encryption for Dynamic Committees",
-      "link": "https://eprint.iacr.org/2026/1820",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-27T15:40:10+00:00",
-      "ts": 1787845210.0,
-      "summary": "Silent threshold signatures (STS) and encryption (STE) enable threshold cryptography without interactive distributed key generation, allowing a group of $N$ parties to non-interactively generate a joint public signature verification key or an encryption key. However, modern distributed systems (such as Ethereum) rely on small, dynamically changing committees of size $n \\ll N$ for efficiency, and e"
-    },
-    {
       "id": "cf95a2724618",
       "title": "VMs won't contain cyber-capable agents",
       "link": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/",
@@ -1045,6 +1035,16 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
+      "id": "8d8cabaa595f",
+      "title": "Just How Secure is SRP, Really?",
+      "link": "https://eprint.iacr.org/2025/1869",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-10-08T06:58:29+00:00",
+      "ts": 1759906709.0,
+      "summary": "An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client and a server to agree upon a cryptographic key, with the only information shared in advance being a low-entropy password (memorized by the client) and a corresponding password file (stored in the server). The standard security definition for aPAKE is in the Universally Composable (UC) framework. Since aPAKE does not"
+    },
+    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1055,14 +1055,14 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "ec14d231cb50",
-      "title": "Beyond Optimal Fault-Tolerance",
-      "link": "https://eprint.iacr.org/2025/070",
+      "id": "758aa4a9182a",
+      "title": "One More Pair, More Information Gained: Improved Attacks on LowMC with Full S-box Layers Using Two Plaintext/Ciphertext Pairs",
+      "link": "https://eprint.iacr.org/2025/1498",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-01-16T14:35:43+00:00",
-      "ts": 1737038143.0,
-      "summary": "One of the most basic properties of a consensus protocol is its fault-tolerance--the maximum fraction of faulty participants that the protocol can tolerate without losing fundamental guarantees such as safety and liveness. Because of its importance, the optimal fault-tolerance achievable by any protocol has been characterized in a wide range of settings. For example, for state machine replication "
+      "published": "2025-08-20T04:01:06+00:00",
+      "ts": 1755662466.0,
+      "summary": "Motivated by LowMC cryptanalysis challenge, research in recent years focuses more on attacking LowMC in \\PICNIC application setting, \\ie an attacker can see only a single plaintext/ciphertext pair. It can be noted that in the security proof of \\PICNIC, LowMC is required to be secure under two plaintexts, it is thus meaningful to investigate the security of LowMC in this direction. Pioneered by Liu"
     }
   ]
 }
