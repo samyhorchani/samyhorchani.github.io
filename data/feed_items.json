@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T07:33:09.437658+00:00",
+  "generated_at": "2026-11-16T17:47:18.604114+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,86 @@
     }
   ],
   "items": [
+    {
+      "id": "4bcd3ffbe40f",
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-16T14:00:00+00:00",
+      "ts": 1794837600.0,
+      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)"
+    },
+    {
+      "id": "252efa5da22f",
+      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-16T13:27:20+00:00",
+      "ts": 1794835640.0,
+      "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely"
+    },
+    {
+      "id": "4ba0ec0d6e3c",
+      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+      "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-16T12:34:21+00:00",
+      "ts": 1794832461.0,
+      "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws. Government cybersecurity agencies in Belgium, Ireland and Germany told operators this week to"
+    },
+    {
+      "id": "f4905c999d00",
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+      "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-16T12:33:18+00:00",
+      "ts": 1794832398.0,
+      "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today. \"The '7z.dll' file was a patched version of the"
+    },
+    {
+      "id": "694930219b7a",
+      "title": "Usable Security at Luxury Hotels",
+      "link": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-11-16T12:04:42+00:00",
+      "ts": 1794830682.0,
+      "summary": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why &#8220;just don&#8217;t click on links&#8221; is bad advice. It can&#8217;t work when answering strangers&#8217; emails is the job. Even worse, in this case the guest-firs"
+    },
+    {
+      "id": "797e565da15b",
+      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-16T09:32:57+00:00",
+      "ts": 1794821577.0,
+      "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in"
+    },
+    {
+      "id": "113ed3ff9693",
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-16T07:34:21+00:00",
+      "ts": 1794814461.0,
+      "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys. The team said this"
+    },
+    {
+      "id": "11724fc8a4f2",
+      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+      "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-16T06:53:34+00:00",
+      "ts": 1794812014.0,
+      "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,"
+    },
     {
       "id": "1c577576b16e",
       "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
@@ -125,76 +205,6 @@
       "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of scenario raises a response question: what does “stop the agent” actually mean? A"
     },
     {
-      "id": "9f3170836a0c",
-      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-      "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-13T11:10:40+00:00",
-      "ts": 1794568240.0,
-      "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,"
-    },
-    {
-      "id": "f3f6fe92db2e",
-      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-      "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-13T10:55:03+00:00",
-      "ts": 1794567303.0,
-      "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA). Gootloader is a loader:"
-    },
-    {
-      "id": "e884d595b37b",
-      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-13T08:05:49+00:00",
-      "ts": 1794557149.0,
-      "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS&nbsp; to deploy a backdoor called TSGA. The activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up"
-    },
-    {
-      "id": "24402b7edb15",
-      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-13T05:43:28+00:00",
-      "ts": 1794548608.0,
-      "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some functionality, but we believe taking additional precautions while remediation is completed is the"
-    },
-    {
-      "id": "f203288d26b0",
-      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-      "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T18:07:15+00:00",
-      "ts": 1794506835.0,
-      "summary": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login might belong to an employee. An unusual API call could come from a machine account. Or an AI agent might be accessing sensitive systems using permissions nobody"
-    },
-    {
-      "id": "6732490c59fb",
-      "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-      "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T18:02:51+00:00",
-      "ts": 1794506571.0,
-      "summary": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and trusted tools to get into places they shouldn't be. AI is helping them build attacks faster, while"
-    },
-    {
-      "id": "e3e12a841e78",
-      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-      "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-12T17:50:27+00:00",
-      "ts": 1794505827.0,
-      "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of"
-    },
-    {
       "id": "b35b496e6de1",
       "title": "Another Way Police Are Locating People from Their Smartphones",
       "link": "https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
@@ -215,26 +225,6 @@
       "summary": "BitVM-style protocols verify succinct proofs on Bitcoin by garbling a proof veriﬁer oﬀ-chain. What reaches the chain in a dispute is the proof itself: its bits under one-time keys, the scripts that authenticate them and the signatures that bind them to transactions. Existing designs garble elliptic-curve succinct non-interactive argument of knowledge (SNARK) veriﬁers, which a quantum adversary bre"
     },
     {
-      "id": "81d663132af1",
-      "title": "Point de situation de l’opération REACTIV – octobre 2026 (12 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-010/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-12T00:00:00+00:00",
-      "ts": 1794441600.0,
-      "summary": "Face à l’intensification des attaques cybercriminelles liées à des violations de données affectant les services de l’État, le Premier ministre a demandé le 1er septembre 2026 à l’Agence nationale de la sécurité des systèmes d’information (ANSSI) de mettre en place une capacité renforcée de..."
-    },
-    {
-      "id": "76fc1934e36d",
-      "title": "Vulnérabilité dans Sonicwall SonicOS (12 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1507/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-12T00:00:00+00:00",
-      "ts": 1794441600.0,
-      "summary": "Une vulnérabilité a été découverte dans Sonicwall SonicOS. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
-    },
-    {
       "id": "d524382d8631",
       "title": "Vulnérabilité dans NetApp ONTAP tools pour VMware vSphere 10 (12 novembre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1518/",
@@ -253,16 +243,6 @@
       "published": "2026-11-12T00:00:00+00:00",
       "ts": 1794441600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
-    },
-    {
-      "id": "688d2ff6e763",
-      "title": "Multiples vulnérabilités dans les produits Mozilla (12 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1505/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-12T00:00:00+00:00",
-      "ts": 1794441600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données."
     },
     {
       "id": "de73cf951a90",
@@ -305,16 +285,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Citrix Secure Access client. Elles permettent à un attaquant de provoquer une élévation de privilèges."
     },
     {
-      "id": "3fe3205731f0",
-      "title": "Multiples vulnérabilités dans Citrix XenServer (12 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1502/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-12T00:00:00+00:00",
-      "ts": 1794441600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans Citrix XenServer. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de la politique de sécurité."
-    },
-    {
       "id": "527c8668e981",
       "title": "Multiples vulnérabilités dans les processeurs Intel (12 novembre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1509/",
@@ -323,16 +293,6 @@
       "published": "2026-11-12T00:00:00+00:00",
       "ts": 1794441600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans les processeurs Intel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données."
-    },
-    {
-      "id": "5b712835e79b",
-      "title": "Multiples vulnérabilités dans HPE Aruba Networking Private 5G Core (12 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1503/",
-      "source": "CERT-FR — Avis & Alertes",
-      "category": "anssi",
-      "published": "2026-11-12T00:00:00+00:00",
-      "ts": 1794441600.0,
-      "summary": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking Private 5G Core. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité."
     },
     {
       "id": "d48b4738852f",
@@ -363,6 +323,46 @@
       "published": "2026-11-12T00:00:00+00:00",
       "ts": 1794441600.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données."
+    },
+    {
+      "id": "863aeb4c54f1",
+      "title": "Multiples vulnérabilités dans les produits Microsoft (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1515/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+    },
+    {
+      "id": "5f7e2956a8f7",
+      "title": "Multiples vulnérabilités dans Google Pixel (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1525/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Pixel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "f4b9b199f414",
+      "title": "Multiples vulnérabilités dans Microsoft Office (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1511/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données. Microsoft indique que la vulnérabilité..."
+    },
+    {
+      "id": "3c4987443e7a",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1510/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-11-12T00:00:00+00:00",
+      "ts": 1794441600.0,
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur."
     },
     {
       "id": "7b786637e972",
@@ -403,6 +403,16 @@
       "published": "2026-11-10T21:55:03+00:00",
       "ts": 1794347703.0,
       "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla."
+    },
+    {
+      "id": "051d02d977db",
+      "title": "An improvement to the KLPT2 algorithm",
+      "link": "https://eprint.iacr.org/2026/2862",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-10T18:47:50+00:00",
+      "ts": 1794336470.0,
+      "summary": "In this short note, we present a tweak to the KLPT2 algorithm that reduces the size of the output from $O(p^{15.5})$ to $\\tilde O(p^{14.5})$.Then, we show that the recent improvement by Nakagawa, Yoshizumi and Onuki to the KLPT algorithm is compatible with the Hermitian module splitting approach, further lowering the reduced degree bound to $\\tilde O(p^{14})$."
     },
     {
       "id": "777a4acc90ab",
@@ -473,16 +483,6 @@
       "published": "2026-11-03T17:35:12+00:00",
       "ts": 1793727312.0,
       "summary": "\\begin{abstract} We present MODDIV-WC, a public-key encryption and key-encapsulation candidate based on a widened Hankel linear map followed by deterministic integer division, together with an implicit-rejection Fujisaki--Okamoto wrapper, MODDIV-WC-FO. The construction uses a secret vector whose first coordinate is fixed to one and whose remaining coordinates are sampled from a positive interval. "
-    },
-    {
-      "id": "0fceb6985485",
-      "title": "AIs Hacking the Law",
-      "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-11-03T12:01:00+00:00",
-      "ts": 1793707260.0,
-      "summary": "In both a 2021 essay and my 2022 book, A Hacker&#8217;s Mind, I talk about AIs finding vulnerabilities and exploits&#8212;hacking&#8212;the legal system. Here&#8217;s some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb mos"
     },
     {
       "id": "89caf74d452f",
@@ -595,6 +595,16 @@
       "summary": "This is not so much a full post as it is an advertisement. I&#8217;ve been working with Claude and GPT 6 Astra to conduct a survey of historical cryptanalysis results, in an effort to determine how many human-hours have been spent attempting to cryptanalyze the problems we use in public-key encryption schemes. This is work &#8230; Continue reading New website: estimating human cryptanalytic&#160;w"
     },
     {
+      "id": "fbd6e8488abf",
+      "title": "Extending the Schur--Macaulay Framework for UOV Attacks via Truncated Polynomial Algebras",
+      "link": "https://eprint.iacr.org/2026/2444",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-10-11T10:08:35+00:00",
+      "ts": 1791713315.0,
+      "summary": "Building on the ideal-inclusion framework of Ding, Li, and Tao, we reformulate and extend the Schur--Macaulay approach of Merz and Ran using multigraded $p$-truncated polynomial algebras over arbitrary finite fields. The construction admits a reconciliation interpretation involving multiple oil vectors. Combining divided powers with transfer relation spaces, we derive quotient-dimension criteria f"
+    },
+    {
       "id": "878d602d6c0b",
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
@@ -653,6 +663,16 @@
       "published": "2026-09-30T01:03:37+00:00",
       "ts": 1790730217.0,
       "summary": "We introduce a family of divided power wedge attacks on UOV-type systems over finite fields of arbitrary characteristic. The construction extends the characteristic-two exterior-algebra construction of Merz and Ran to the $p$-truncated polynomial ring, where $p$ is the field characteristic. An attack level controls which divided-power relations are adjoined, balancing a lower solving degree agains"
+    },
+    {
+      "id": "c54cd8450880",
+      "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-011/",
+      "source": "CERT-FR — Avis & Alertes",
+      "category": "anssi",
+      "published": "2026-09-28T00:00:00+00:00",
+      "ts": 1790553600.0,
+      "summary": "**[Mise à jour du 05 octobre 2026]** Le 4 octobre 2026, Citrix a publié un avis concernant une nouvelle vulnérabilité (CVE-2026-88779) permettant un déni de service à distance. La CISA indique que cette vulnérabilité est activement exploitée. **[Mise à jour du 30 septembre 2026]** Dans un billet..."
     },
     {
       "id": "f391bd68698a",
@@ -725,16 +745,6 @@
       "summary": "We found and reported a bug in Provenance Blockchain, a public proof-of-stake chain built on Cosmos SDK, that lets any user grant themselves admin control over marker accounts without holding a single token. Provenance covers a range of financial services, including on-chain tokenized loans, private equity tokens, bridged assets, and asset registries. Our bug affected 82 markers representing live "
     },
     {
-      "id": "b818c4425dfc",
-      "title": "Extending Distinguishing to Key Recovery for Subfield Subcodes of GRS codes",
-      "link": "https://eprint.iacr.org/2026/1747",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-20T12:11:00+00:00",
-      "ts": 1787227860.0,
-      "summary": "The McEliece cryptosystem based on binary Goppa codes has resisted both classical and quantum cryptanalysis for nearly 50 years. Recently, Ghoshal, Ishai, Jain, and Sun proposed an efficient algorithm that distinguishes generator matrices of subcodes of generalized Reed--Solomon (GRS) codes, including Goppa codes, from random ones. From all columns but one, this distinguisher finds a set of multiv"
-    },
-    {
       "id": "bea5a06fb576",
       "title": "Everything is about to “go dark”",
       "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
@@ -775,16 +785,6 @@
       "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—t"
     },
     {
-      "id": "b9ecbca3a946",
-      "title": "New Designs of Multivariate-Polynomial Universal Hash Functions",
-      "link": "https://eprint.iacr.org/2026/1602",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-08-04T09:59:13+00:00",
-      "ts": 1785837553.0,
-      "summary": "Universal hash functions (UHFs) are basic building blocks in cryptography, making the topic of designing secure, fast UHFs of longstanding interest. This paper presents an exploration of the design space for multivariate UHFs, that is UHFs that involve the evaluation of a multivariate polynomial over a finite field. We focus on two-level designs, wherein a lower-level hash function produces interm"
-    },
-    {
       "id": "0c33a4787ae8",
       "title": "Some thoughts about Anthropic’s new cryptanalysis results",
       "link": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
@@ -813,16 +813,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "14883344e85e",
-      "title": "Adaptor Signature Schemes with Deniable Presignatures",
-      "link": "https://eprint.iacr.org/2026/873",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-05T06:18:03+00:00",
-      "ts": 1777961883.0,
-      "summary": "An adaptor signature scheme can be seen as committing to a signature using an NP statement, in such a way that (1) the commitment, called a presignature, is verifiable, (2) the corresponding witness enables opening the commitment (adapting the presignature), and (3) seeing a valid commitment-opening (presignature-signature) pair leaks the witness. In the blockchain space, where signed transactions"
     },
     {
       "id": "e867d3e3dacb",
@@ -955,14 +945,14 @@
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
     },
     {
-      "id": "2c3b12707b0a",
-      "title": "On the Pitfalls of Modeling Individual Knowledge",
-      "link": "https://eprint.iacr.org/2025/2268",
+      "id": "587783f42717",
+      "title": "Reusable Anonymous Credentials with Flow-Mode Unlinkability",
+      "link": "https://eprint.iacr.org/2026/119",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2025-12-17T18:20:55+00:00",
-      "ts": 1765995655.0,
-      "summary": "The concept of knowledge has been central in cryptography, especially within cryptographic proof systems. Traditionally, research in this area considers an abstract \\emph{prover} defending a claim that it knows a message $M$. Recently, a stronger concept—termed ``individual'' (Dziembowski et al., CRYPTO'23) or ``complete'' (Kelkar et al., CCS'24) knowledge—has emerged. This notion ensures the prov"
+      "published": "2026-01-25T03:59:39+00:00",
+      "ts": 1769313579.0,
+      "summary": "Anonymous credentials let a holder prove certified attributes and verifier predicates without revealing the credential or linking sessions. SNARK-based credentials support expressive predicates and deployed signatures such as ECDSA and BLS, but remain stateless: each presentation re-proves the credential relation and predicates from scratch. Reusable presentations amortize this cost, but create a "
     },
     {
       "id": "d89b8a28e282",
@@ -1063,6 +1053,16 @@
       "published": "2025-07-08T15:53:37+00:00",
       "ts": 1751990017.0,
       "summary": "We introduce the new AXU hash function decBRWHash, which is parameterised by the positive integer $c$ and is based on Bernstein-Rabin-Winograd (BRW) polynomials. Choosing $c1$ gives a hash function which can be implemented using $c$-way single instruction multiple data (SIMD) instructions. We report a set of very comprehensive hand optimised assembly implementations of 4-decBRWHash using avx2 SIMD"
+    },
+    {
+      "id": "1e3b0234780f",
+      "title": "The Pipes Model for Latency and Throughput Analysis",
+      "link": "https://eprint.iacr.org/2025/1116",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-06-13T13:42:36+00:00",
+      "ts": 1749822156.0,
+      "summary": "In much of the distributed computing literature, latency is expressed as the number of communication rounds or network delays; such metrics do not directly account for the amount of data sent or the dependencies among parties sending the data. Throughput is also normally evaluated empirically. As a consequence, the standard models used for analysing state machine replication (SMR) protocols do not"
     }
   ]
 }
