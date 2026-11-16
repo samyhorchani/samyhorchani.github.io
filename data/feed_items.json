@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T20:43:05.603103+00:00",
+  "generated_at": "2026-11-16T00:38:08.637313+00:00",
   "count": 105,
   "errors": [
     {
@@ -203,6 +203,16 @@
       "published": "2026-11-12T12:02:58+00:00",
       "ts": 1794484978.0,
       "summary": "Penlink&#8217;s Webloc is an application that locates people using information from the weather, gaming, email, and religious apps on their phone. It&#8217;s sold to the police. The tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It can build a detailed picture of where a smartphone has been over the past 12 months, and u"
+    },
+    {
+      "id": "c5a956cc91ca",
+      "title": "Toward Eﬃcient Post-Quantum Bitcoin Bridges",
+      "link": "https://eprint.iacr.org/2026/2877",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-12T11:55:38+00:00",
+      "ts": 1794484538.0,
+      "summary": "BitVM-style protocols verify succinct proofs on Bitcoin by garbling a proof veriﬁer oﬀ-chain. What reaches the chain in a dispute is the proof itself: its bits under one-time keys, the scripts that authenticate them and the signatures that bind them to transactions. Existing designs garble elliptic-curve succinct non-interactive argument of knowledge (SNARK) veriﬁers, which a quantum adversary bre"
     },
     {
       "id": "81d663132af1",
@@ -503,16 +513,6 @@
       "published": "2026-11-02T12:00:00+00:00",
       "ts": 1793620800.0,
       "summary": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149"
-    },
-    {
-      "id": "41b13211b194",
-      "title": "OblivDGL: Oblivious Deep Graph Learning Made Practical",
-      "link": "https://eprint.iacr.org/2026/2655",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-27T05:28:09+00:00",
-      "ts": 1793078889.0,
-      "summary": "The rapid deployment of Graph Neural Networks (GNNs) within Machine Learning as a Service (MLaaS) has opened up new privacy concerns. Both sensitive graph data and proprietary GNN models are submitted to and processed in third-party MLaaS platform for training and inference. To alleviate those concerns, recent efforts have been made to design tailored secure computation protocols for GNNs. Unfortu"
     },
     {
       "id": "eec90e9acc6b",
