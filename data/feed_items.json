@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T01:26:28.981670+00:00",
+  "generated_at": "2026-11-17T10:00:21.398044+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "9833ee02f27e",
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-17T07:12:13+00:00",
+      "ts": 1794899533.0,
+      "summary": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run. The code was built to"
+    },
+    {
+      "id": "3baac01bd0fa",
+      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+      "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-17T06:29:27+00:00",
+      "ts": 1794896967.0,
+      "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and"
+    },
+    {
+      "id": "a31b19cef5a4",
+      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+      "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-17T05:00:34+00:00",
+      "ts": 1794891634.0,
+      "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the"
+    },
     {
       "id": "4bcd3ffbe40f",
       "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
@@ -165,26 +195,6 @@
       "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers"
     },
     {
-      "id": "8906ee3fee7b",
-      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-      "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-13T14:28:58+00:00",
-      "ts": 1794580138.0,
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months. As part of a coordinated set of actions announced by the U.S. government, the cloud-based"
-    },
-    {
-      "id": "cc1caa5ba5c7",
-      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-      "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-13T13:54:20+00:00",
-      "ts": 1794578060.0,
-      "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other"
-    },
-    {
       "id": "2d39422f4a6e",
       "title": "AI Doesn’t Have to Go Rogue to Break the World",
       "link": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
@@ -193,16 +203,6 @@
       "published": "2026-11-13T12:03:30+00:00",
       "ts": 1794571410.0,
       "summary": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop. I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two matter more than the first. The third is th"
-    },
-    {
-      "id": "6d0b9eefde87",
-      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-      "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-13T11:52:31+00:00",
-      "ts": 1794570751.0,
-      "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of scenario raises a response question: what does “stop the agent” actually mean? A"
     },
     {
       "id": "b35b496e6de1",
@@ -465,16 +465,6 @@
       "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016."
     },
     {
-      "id": "55fcbffca6f4",
-      "title": "MODDIV-WC: Unit-Anchored Toeplitz/Hankel Rounding with Exact Binary-LWE Masking and an IND-CCA Security Route",
-      "link": "https://eprint.iacr.org/2026/2747",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-03T17:35:12+00:00",
-      "ts": 1793727312.0,
-      "summary": "\\begin{abstract} We present MODDIV-WC, a public-key encryption and key-encapsulation candidate based on a widened Hankel linear map followed by deterministic integer division, together with an implicit-rejection Fujisaki--Okamoto wrapper, MODDIV-WC-FO. The construction uses a secret vector whose first coordinate is fixed to one and whose remaining coordinates are sampled from a positive interval. "
-    },
-    {
       "id": "89caf74d452f",
       "title": "The cryptography behind electronic voting (and why paper ballots are still essential)",
       "link": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
@@ -635,14 +625,14 @@
       "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
     },
     {
-      "id": "99b7238a7104",
-      "title": "Attacking UOV-based Signatures over divided power algebras",
-      "link": "https://eprint.iacr.org/2026/2272",
+      "id": "a7abbeeda9ce",
+      "title": "Improved Differential-Linear Cryptanalysis of Orthros, Gleeok, ZIP-AES, and ZIP-GIFT",
+      "link": "https://eprint.iacr.org/2026/2255",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-09-30T01:03:37+00:00",
-      "ts": 1790730217.0,
-      "summary": "We introduce a family of divided power wedge attacks on UOV-type systems over finite fields of arbitrary characteristic. The construction extends the characteristic-two exterior-algebra construction of Merz and Ran to the $p$-truncated polynomial ring, where $p$ is the field characteristic. An attack level controls which divided-power relations are adjoined, balancing a lower solving degree agains"
+      "published": "2026-09-29T02:44:45+00:00",
+      "ts": 1790649885.0,
+      "summary": "We improve differential-linear distinguishers and derive key-recovery attacks on reduced-round versions of the PRFs Orthros, Gleeok, ZIP-AES, ZIP-GIFT-64, and ZIP-GIFT-128. Relative to previous differential-linear analyses, we extend the reported coverage for Orthros from 7 to 9 rounds and for Gleeok-128 from 4 to 5 rounds. For Orthros and Gleeok-128, we obtain estimated correlation magnitudes \\(2"
     },
     {
       "id": "c54cd8450880",
@@ -703,6 +693,16 @@
       "published": "2026-09-09T11:00:00+00:00",
       "ts": 1788951600.0,
       "summary": "Fermat famously claimed to have a “truly marvelous proof” of his Last Theorem, but he never wrote it down, insisting the margin of his page was too narrow to contain it. A few centuries later, Anthropic announced a complete formalization of Fermat&rsquo;s Last Theorem using 13 million lines of Lean code (clearly not what Fermat intended). Luckily, we found a wonderfully cursed Lean bug, shown belo"
+    },
+    {
+      "id": "15e7d0ec2cdd",
+      "title": "Practical Keyword SPIR with Lightweight Clients: Hintless and Efficient",
+      "link": "https://eprint.iacr.org/2026/1883",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-03T18:17:54+00:00",
+      "ts": 1788459474.0,
+      "summary": "Keyword private information retrieval (keyword PIR) enables a client to retrieve the value associated with a keyword without revealing the queried keyword, generalizing traditional index PIR. This work advances the state of the art of Hao et al. (USENIX Security 2025) by addressing several key limitations of their constructions, most notably the efficiency bottleneck of their generic framework and"
     },
     {
       "id": "cf95a2724618",
@@ -773,6 +773,16 @@
       "published": "2026-07-29T14:23:30+00:00",
       "ts": 1785335010.0,
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
+    },
+    {
+      "id": "03f130d502a7",
+      "title": "Unconditional Unclonable Encryption",
+      "link": "https://eprint.iacr.org/2026/1511",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-24T00:11:54+00:00",
+      "ts": 1784851914.0,
+      "summary": "We give an unconditional construction of information-theoretically secure one-time private-key unclonable encryption for one-bit messages, with efficient encryption and decryption and exponentially small unclonable-indistinguishability advantage. Previous work by Bhattacharyya and Culf (Nature Physics, 2026) and Bhattacharyya, Broadbent, and Culf (arXiv:2603.08916) either only showed inverse-polyn"
     },
     {
       "id": "09b719e50e41",
@@ -1023,16 +1033,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "758aa4a9182a",
-      "title": "One More Pair, More Information Gained: Improved Attacks on LowMC with Full S-box Layers Using Two Plaintext/Ciphertext Pairs",
-      "link": "https://eprint.iacr.org/2025/1498",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-08-20T04:01:06+00:00",
-      "ts": 1755662466.0,
-      "summary": "Motivated by LowMC cryptanalysis challenge, research in recent years focuses more on attacking LowMC in \\PICNIC application setting, \\ie an attacker can see only a single plaintext/ciphertext pair. It can be noted that in the security proof of \\PICNIC, LowMC is required to be secure under two plaintexts, it is thus meaningful to investigate the security of LowMC in this direction. Pioneered by Liu"
     },
     {
       "id": "7f3abb9b9e58",
