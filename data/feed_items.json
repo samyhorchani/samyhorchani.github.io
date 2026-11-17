@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T17:47:18.604114+00:00",
+  "generated_at": "2026-11-17T01:26:28.981670+00:00",
   "count": 105,
   "errors": [
     {
@@ -385,16 +385,6 @@
       "summary": "It&#8217;s hard to believe how lucrative this crime can be: According to a press release from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to convince employees to send over large "
     },
     {
-      "id": "340c026823c7",
-      "title": "Affine Combiners for Reed-Solomon Proximity Gaps",
-      "link": "https://eprint.iacr.org/2026/2863",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-11T06:54:49+00:00",
-      "ts": 1794380089.0,
-      "summary": "Reed–Solomon proximity gaps establish soundness guarantees for protocols that test received words through random combinations. For length-$n$ codes over $\\mathbb{F}_q$, classical scalar combiners achieve error $O(n/q)$ in the unique-decoding regime, with larger known bounds near the Johnson radius. We prove smaller error bounds using affine combiners, which combine two received words $f,g$ as $f(x"
-    },
-    {
       "id": "ceb4e568e77f",
       "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
       "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
@@ -623,16 +613,6 @@
       "published": "2026-10-07T13:48:45+00:00",
       "ts": 1791380925.0,
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the gl"
-    },
-    {
-      "id": "0a74275ef63e",
-      "title": "ECLIPSE: Strongly Unforgeable Isogeny Signatures from the Prime-Degree Variant of PRISM",
-      "link": "https://eprint.iacr.org/2026/2312",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-02T16:32:53+00:00",
-      "ts": 1790958773.0,
-      "summary": "ECLIPSE is the prime-degree signature construction the PRISM authors describe beside their salted scheme, with that salt, implemented. It exists because a two-dimensional isogeny signature carries an auxiliary isogeny the hash does not bind: the SQIsign round-3 specification says SQIsign cannot be strongly unforgeable for that reason, and PRISM's prime-degree variant has no auxiliary isogeny but w"
     },
     {
       "id": "b224d08c01cc",
@@ -905,6 +885,16 @@
       "summary": "Posted by Chrome Secure Web and Networking Team Today we're announcing a new program in Chrome to make HTTPS certificates secure against quantum computers. The Internet Engineering Task Force (IETF) recently created a working group, PKI, Logs, And Tree Signatures (“PLANTS”), aiming to address the performance and bandwidth challenges that the increased size of quantum-resistant cryptography introdu"
     },
     {
+      "id": "4c628fff0548",
+      "title": "Zero-Knowledge IOPPs for Constrained Interleaved Codes",
+      "link": "https://eprint.iacr.org/2026/391",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-02-25T17:02:27+00:00",
+      "ts": 1772038947.0,
+      "summary": "Succinct arguments based on interactive oracle proofs (IOPs) have achieved remarkable efficiency improvements and are now widely adopted in applications. State-of-the-art IOPs involve protocols for testing proximity to constrained interleaved linear codes, and enjoy essentially optimal parameters. However, recent IOP constructions provide no privacy guarantees, which remain a must for many applica"
+    },
+    {
       "id": "23058dc44ece",
       "title": "Staying One Step Ahead: Strengthening Android’s Lead in Scam Protection",
       "link": "http://security.googleblog.com/2026/02/strengthening-android-lead-in-scam-protection.html",
@@ -993,6 +983,16 @@
       "published": "2025-12-03T16:59:00+00:00",
       "ts": 1764781140.0,
       "summary": "Posted by Aden Haussmann, Associate Product Manager and Sumeet Sharma, Play Partnerships Trust & Safety Lead Android uses the best of Google AI and our advanced security expertise to tackle mobile scams from every angle. Over the last few years, we’ve launched industry-leading features to detect scams and protect users across phone calls, text messages and messaging app chat notifications. These e"
+    },
+    {
+      "id": "f537afbf6a60",
+      "title": "One Fell Swoop: A Single-Trace Key-Recovery Attack on the Falcon Signing Algorithm",
+      "link": "https://eprint.iacr.org/2025/2159",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-11-27T15:23:49+00:00",
+      "ts": 1764257029.0,
+      "summary": "Falcon, a lattice-based signature scheme selected for NIST post-quantum standardization, is notable for its compact signature size alongside a complex signing procedure involving extensive floating-point arithmetic. Prior side-channel attacks on Falcon signing, while demonstrating vulnerabilities, have consistently required a large number of power traces for successful key recovery, which limits t"
     },
     {
       "id": "da91654fce63",
