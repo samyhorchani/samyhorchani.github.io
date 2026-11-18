@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T01:59:29.266937+00:00",
+  "generated_at": "2026-11-18T09:57:17.334293+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,66 @@
     }
   ],
   "items": [
+    {
+      "id": "6d12bc024138",
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-18T08:24:31+00:00",
+      "ts": 1794990271.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of"
+    },
+    {
+      "id": "7c988ae34947",
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-18T08:24:23+00:00",
+      "ts": 1794990263.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. \"This critical memory-corruption"
+    },
+    {
+      "id": "42d84171a920",
+      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-18T06:45:26+00:00",
+      "ts": 1794984326.0,
+      "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of"
+    },
+    {
+      "id": "6b787d531e98",
+      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+      "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-18T05:58:04+00:00",
+      "ts": 1794981484.0,
+      "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged"
+    },
+    {
+      "id": "d9d2e5bfc2d7",
+      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+      "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-18T04:27:41+00:00",
+      "ts": 1794976061.0,
+      "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature. Tracked as"
+    },
+    {
+      "id": "f49ac45ba234",
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "source": "Krebs on Security",
+      "category": "veille",
+      "published": "2026-11-18T02:52:04+00:00",
+      "ts": 1794970324.0,
+      "summary": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the incident, which saw data-stealing malicious software silently injected into sites like the BBC, CNN, Equifax, Ledger and"
+    },
     {
       "id": "67b743680bc3",
       "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
@@ -125,46 +185,6 @@
       "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the"
     },
     {
-      "id": "4bcd3ffbe40f",
-      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-      "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-16T14:00:00+00:00",
-      "ts": 1794837600.0,
-      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)"
-    },
-    {
-      "id": "252efa5da22f",
-      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-      "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-16T13:27:20+00:00",
-      "ts": 1794835640.0,
-      "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely"
-    },
-    {
-      "id": "4ba0ec0d6e3c",
-      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-      "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-16T12:34:21+00:00",
-      "ts": 1794832461.0,
-      "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws. Government cybersecurity agencies in Belgium, Ireland and Germany told operators this week to"
-    },
-    {
-      "id": "f4905c999d00",
-      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-      "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-16T12:33:18+00:00",
-      "ts": 1794832398.0,
-      "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today. \"The '7z.dll' file was a patched version of the"
-    },
-    {
       "id": "694930219b7a",
       "title": "Usable Security at Luxury Hotels",
       "link": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
@@ -173,16 +193,6 @@
       "published": "2026-11-16T12:04:42+00:00",
       "ts": 1794830682.0,
       "summary": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why &#8220;just don&#8217;t click on links&#8221; is bad advice. It can&#8217;t work when answering strangers&#8217; emails is the job. Even worse, in this case the guest-firs"
-    },
-    {
-      "id": "797e565da15b",
-      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-      "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-16T09:32:57+00:00",
-      "ts": 1794821577.0,
-      "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in"
     },
     {
       "id": "a5d691d96e87",
@@ -405,16 +415,6 @@
       "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla."
     },
     {
-      "id": "051d02d977db",
-      "title": "An improvement to the KLPT2 algorithm",
-      "link": "https://eprint.iacr.org/2026/2862",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-10T18:47:50+00:00",
-      "ts": 1794336470.0,
-      "summary": "In this short note, we present a tweak to the KLPT2 algorithm that reduces the size of the output from $O(p^{15.5})$ to $\\tilde O(p^{14.5})$.Then, we show that the recent improvement by Nakagawa, Yoshizumi and Onuki to the KLPT algorithm is compatible with the Hermitian module splitting approach, further lowering the reduced degree bound to $\\tilde O(p^{14})$."
-    },
-    {
       "id": "777a4acc90ab",
       "title": "New OpenSSH Vulnerability",
       "link": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
@@ -443,6 +443,16 @@
       "published": "2026-11-08T19:57:53+00:00",
       "ts": 1794167873.0,
       "summary": "BLS12-381 is commonly said to offer \"126 bits\" of security and BN254 \"about 100 bits\". Both figures are estimates of the special tower number field sieve (STNFS) in the target group $\\mathbb{F}_{p^{12}}^*$, and both count abstract operations in models that leave out whole phases of the attack. We replace them by complete ledgers in which every step is priced in machine instructions: relation colle"
+    },
+    {
+      "id": "38f663b97984",
+      "title": "Revisiting the Security of OleF, t-OleF, and OlÆF",
+      "link": "https://eprint.iacr.org/2026/2823",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-08T14:46:37+00:00",
+      "ts": 1794149197.0,
+      "summary": "We revisit the security of OleF, t-OleF, and OlÆF and identify two independent security flaws. First, we establish a mask-compensation relation between continuation and termination processing in OleF and t-OleF. Exploiting this relation, we construct a two-encryption-query distinguisher against OleF with advantage $1 − 2^{−2n}$ . We further give two concrete AXU hash families for which the same at"
     },
     {
       "id": "1fc358122052",
@@ -595,16 +605,6 @@
       "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity."
     },
     {
-      "id": "4b3e102168c7",
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "source": "Krebs on Security",
-      "category": "veille",
-      "published": "2026-10-07T13:48:45+00:00",
-      "ts": 1791380925.0,
-      "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the gl"
-    },
-    {
       "id": "b224d08c01cc",
       "title": "SequenceHash: multihashing for the rest of us",
       "link": "https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/",
@@ -613,6 +613,16 @@
       "published": "2026-10-02T11:00:00+00:00",
       "ts": 1790938800.0,
       "summary": "Multihashing is one of those cryptographic tasks that’s easy not to think about too much. This is unfortunate, because multihashing is a common stumbling point when cryptographers try to use hashes. As part of our goal to “fix software, not bugs,” Trail of Bits is introducing SequenceHash and its sister function SequenceMAC, a pair of related hash constructions that bring secure multihashing to de"
+    },
+    {
+      "id": "c7f78184d113",
+      "title": "Randomized Early-Stopping Byzantine Agreement with Applications to Round-Efficient MPC",
+      "link": "https://eprint.iacr.org/2026/2284",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-30T23:29:36+00:00",
+      "ts": 1790810976.0,
+      "summary": "We consider two main classes of synchronous round-efficient Byzantine Agreement (BA) protocols: \\emph{expected constant rounds} and \\emph{early-stopping}. Randomized protocols can terminate in expected constant rounds, and early-stopping protocols' worst-case round complexity depends on the actual number of corrupted parties $f\\le t$, with $\\min(t+1, f+2)$ being optimal. In this work, we combine t"
     },
     {
       "id": "bcbe1c4698ed",
@@ -695,6 +705,16 @@
       "summary": "Zero-knowledge proofs have become a fundamental tool for verifiable computation and privacy-preserving applications, driving growing interest in proof systems that are both succinct and efficient. In polynomial-based arguments, however, achieving zero knowledge introduces additional costs. Random masks must hide the evaluations and intermediate messages revealed during verification while preservin"
     },
     {
+      "id": "e81ce935cda8",
+      "title": "Impossible Polytopic Cryptanalysis Extended: Attention to Block Ciphers with Oversized Keys",
+      "link": "https://eprint.iacr.org/2026/1963",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-10T08:37:03+00:00",
+      "ts": 1789029423.0,
+      "summary": "Block ciphers whose key size exceeds their block size, such as the 192- and 256-bit variants of \\textsf{AES}, the tweakable block ciphers \\textsf{Deoxys-BC-256} and \\textsf{Deoxys-BC-384} (standardized by ISO/IEC as \\textsf{Deoxys-TBC}), and \\textsf{ChiLow-32} (EUROCRYPT 2025), achieve a security level beyond the block size and are becoming increasingly prevalent. This paper extends the impossible"
+    },
+    {
       "id": "0c016fa822b6",
       "title": "A “proof” of Fermat’s Last Theorem that fits the margin",
       "link": "https://blog.trailofbits.com/2026/09/09/a-proof-of-fermats-last-theorem-that-fits-the-margin/",
@@ -773,16 +793,6 @@
       "published": "2026-07-29T14:23:30+00:00",
       "ts": 1785335010.0,
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
-    },
-    {
-      "id": "03f130d502a7",
-      "title": "Unconditional Unclonable Encryption",
-      "link": "https://eprint.iacr.org/2026/1511",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-07-24T00:11:54+00:00",
-      "ts": 1784851914.0,
-      "summary": "We give an unconditional construction of information-theoretically secure one-time private-key unclonable encryption for one-bit messages, with efficient encryption and decryption and exponentially small unclonable-indistinguishability advantage. Previous work by Bhattacharyya and Culf (Nature Physics, 2026) and Bhattacharyya, Broadbent, and Culf (arXiv:2603.08916) either only showed inverse-polyn"
     },
     {
       "id": "09b719e50e41",
@@ -905,16 +915,6 @@
       "summary": "Posted by Chrome Secure Web and Networking Team Today we're announcing a new program in Chrome to make HTTPS certificates secure against quantum computers. The Internet Engineering Task Force (IETF) recently created a working group, PKI, Logs, And Tree Signatures (“PLANTS”), aiming to address the performance and bandwidth challenges that the increased size of quantum-resistant cryptography introdu"
     },
     {
-      "id": "4c628fff0548",
-      "title": "Zero-Knowledge IOPPs for Constrained Interleaved Codes",
-      "link": "https://eprint.iacr.org/2026/391",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-02-25T17:02:27+00:00",
-      "ts": 1772038947.0,
-      "summary": "Succinct arguments based on interactive oracle proofs (IOPs) have achieved remarkable efficiency improvements and are now widely adopted in applications. State-of-the-art IOPs involve protocols for testing proximity to constrained interleaved linear codes, and enjoy essentially optimal parameters. However, recent IOP constructions provide no privacy guarantees, which remain a must for many applica"
-    },
-    {
       "id": "23058dc44ece",
       "title": "Staying One Step Ahead: Strengthening Android’s Lead in Scam Protection",
       "link": "http://security.googleblog.com/2026/02/strengthening-android-lead-in-scam-protection.html",
@@ -953,16 +953,6 @@
       "published": "2026-01-27T16:59:00+00:00",
       "ts": 1769533140.0,
       "summary": "Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team Phone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt. Today, we'"
-    },
-    {
-      "id": "587783f42717",
-      "title": "Reusable Anonymous Credentials with Flow-Mode Unlinkability",
-      "link": "https://eprint.iacr.org/2026/119",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-01-25T03:59:39+00:00",
-      "ts": 1769313579.0,
-      "summary": "Anonymous credentials let a holder prove certified attributes and verifier predicates without revealing the credential or linking sessions. SNARK-based credentials support expressive predicates and deployed signatures such as ECDSA and BLS, but remain stateless: each presentation re-proves the credential relation and predicates from scratch. Reusable presentations amortize this cost, but create a "
     },
     {
       "id": "d89b8a28e282",
@@ -1005,16 +995,6 @@
       "summary": "Posted by Aden Haussmann, Associate Product Manager and Sumeet Sharma, Play Partnerships Trust & Safety Lead Android uses the best of Google AI and our advanced security expertise to tackle mobile scams from every angle. Over the last few years, we’ve launched industry-leading features to detect scams and protect users across phone calls, text messages and messaging app chat notifications. These e"
     },
     {
-      "id": "f537afbf6a60",
-      "title": "One Fell Swoop: A Single-Trace Key-Recovery Attack on the Falcon Signing Algorithm",
-      "link": "https://eprint.iacr.org/2025/2159",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-11-27T15:23:49+00:00",
-      "ts": 1764257029.0,
-      "summary": "Falcon, a lattice-based signature scheme selected for NIST post-quantum standardization, is notable for its compact signature size alongside a complex signing procedure involving extensive floating-point arithmetic. Prior side-channel attacks on Falcon signing, while demonstrating vulnerabilities, have consistently required a large number of power traces for successful key recovery, which limits t"
-    },
-    {
       "id": "da91654fce63",
       "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
       "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
@@ -1035,6 +1015,16 @@
       "summary": "Threshold fully homomorphic encryption provides efficient multi-party computation with low round-complexity. Among fully homomorphic encryption schemes, CKKS (Cheon-Kim-Kim-Song) enables high-throughput computations on both approximate and exact data. As most interesting applications involve deep computations, they require bootstrapping, the most efficient variants of which rely on sparse ternary "
     },
     {
+      "id": "94a3359fd1dd",
+      "title": "Is It Even Possible? On the Parallel Composition of Asynchronous MPC Protocols",
+      "link": "https://eprint.iacr.org/2025/1707",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-09-19T18:06:23+00:00",
+      "ts": 1758305183.0,
+      "summary": "Despite several known idiosyncrasies separating the synchronous and the asynchronous models, asynchronous secure multi-party computation (MPC) protocols demonstrate high-level similarities to synchronous MPC, both in design philosophy and abstract structure. As such, a coveted, albeit elusive, desideratum is to devise automatic translators (e.g., protocol compilers) of feasibility and efficiency r"
+    },
+    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1045,16 +1035,6 @@
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
     },
     {
-      "id": "1e3b0234780f",
-      "title": "The Pipes Model for Latency and Throughput Analysis",
-      "link": "https://eprint.iacr.org/2025/1116",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-06-13T13:42:36+00:00",
-      "ts": 1749822156.0,
-      "summary": "In much of the distributed computing literature, latency is expressed as the number of communication rounds or network delays; such metrics do not directly account for the amount of data sent or the dependencies among parties sending the data. Throughput is also normally evaluated empirically. As a consequence, the standard models used for analysing state machine replication (SMR) protocols do not"
-    },
-    {
       "id": "54f0e80297db",
       "title": "Blind zkSNARKs for Private Proof Delegation and Verifiable Computation over Encrypted Data",
       "link": "https://eprint.iacr.org/2024/1684",
@@ -1063,6 +1043,26 @@
       "published": "2024-10-16T16:11:20+00:00",
       "ts": 1729095080.0,
       "summary": "In this paper, we show for the first time it is practical to privately delegate proof generation of zkSNARKs to a single server for computations of up to $2^{20}$ R1CS constraints. We achieve this by computing zkSNARK proof generation over homomorphic ciphertexts, an approach we call blind zkSNARKs. We formalize the concept of blind proofs, analyze their cryptographic properties and show that the "
+    },
+    {
+      "id": "be484f34120d",
+      "title": "Concurrent Asynchronous Byzantine Agreement in Expected-Constant Rounds, Revisited",
+      "link": "https://eprint.iacr.org/2023/1003",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2023-06-27T21:19:30+00:00",
+      "ts": 1687900770.0,
+      "summary": "It is well known that without randomization, Byzantine agreement (BA) requires a linear number of rounds in the synchronous setting, while it is flat out impossible in the asynchronous setting. The primitive which allows to bypass the above limitation is known as oblivious common coin (OCC). It allows parties to agree with constant probability on a random coin, where agreement is oblivious, i.e., "
+    },
+    {
+      "id": "d2dc0e6f1fa9",
+      "title": "Universally Composable Almost-Everywhere Secure Computation",
+      "link": "https://eprint.iacr.org/2021/1398",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2021-10-18T06:13:31+00:00",
+      "ts": 1634537611.0,
+      "summary": "Most existing work on secure multi-party computation (MPC) ignores a key idiosyncrasy of modern communication networks, that there are a limited number of communication paths between any two nodes, many of which might even be corrupted. The problem becomes particularly acute in the information-theoretic setting, where the lack of trusted setups (and the cryptographic primitives they enable) makes "
     }
   ]
 }
