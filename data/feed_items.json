@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T00:55:16.015346+00:00",
+  "generated_at": "2026-11-19T08:18:17.149160+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "f1dc13e590a3",
+      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+      "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-19T04:33:46+00:00",
+      "ts": 1795062826.0,
+      "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said."
+    },
     {
       "id": "7e5d027936a3",
       "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
@@ -82,7 +92,7 @@
       "category": "veille",
       "published": "2026-11-18T12:05:35+00:00",
       "ts": 1795003535.0,
-      "summary": "Interesting: U.S. intelligence agencies have recently reached a &#8220;&#8221;ow confidence&#8221; assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A &#8220;low confidence&#8221; assessment generally means that there is some intelligence that points in a certain direction but"
+      "summary": "Interesting: U.S. intelligence agencies have recently reached a &#8220;low confidence&#8221; assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A &#8220;low confidence&#8221; assessment generally means that there is some intelligence that points in a certain direction but is fr"
     },
     {
       "id": "d9d2e5bfc2d7",
@@ -175,16 +185,6 @@
       "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice."
     },
     {
-      "id": "29fc8d1ecb75",
-      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-      "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-17T15:17:28+00:00",
-      "ts": 1794928648.0,
-      "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves,\" Stormshield said in a deep-dive technical report"
-    },
-    {
       "id": "1c82425e9d57",
       "title": "Formal Verification of the Signal Protocol Using AI",
       "link": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
@@ -263,6 +263,16 @@
       "published": "2026-11-16T00:00:00+00:00",
       "ts": 1794787200.0,
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Trend Micro. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données."
+    },
+    {
+      "id": "e399497139ed",
+      "title": "Aker: Efficient Two-Party SLH-DSA",
+      "link": "https://eprint.iacr.org/2026/2899",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-15T12:41:38+00:00",
+      "ts": 1794746498.0,
+      "summary": "Threshold signing is widely deployed to protect cryptographic keys, but extending these deployments to post-quantum signatures remains challenging. While NIST's lattice-based signatures now have efficient threshold protocols, distributed signing for SLH-DSA (FIPS 205), NIST's stateless hash-based signature standard, has been considered prohibitively expensive because it lacks the algebraic structu"
     },
     {
       "id": "a5d691d96e87",
@@ -665,6 +675,16 @@
       "summary": "Security firms have published numerous blog posts describing how they pointed their agent harness at a codebase and found dozens of bugs (we’re one of them). However, these posts tend to focus on agentic code review, which is just one aspect of how we use AI in our security reviews. We want to give a different perspective: before code review even starts, agents now allow us to build custom tooling"
     },
     {
+      "id": "796ee7278a0a",
+      "title": "Sunshine Systems: Enabling Privacy-Preserving Compliance with Freedom of Information Laws",
+      "link": "https://eprint.iacr.org/2026/2072",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-17T16:36:27+00:00",
+      "ts": 1789662987.0,
+      "summary": "Freedom of information laws (informally known as Sunshine Laws), such as the US Federal Freedom of Information Act, provide legal pathways for members of the public to compel governments to produce internal documentation. These laws have become a powerful tool for government accountability, allowing journalists and activists to uncover malfeasance and advocate for change. However, because complian"
+    },
+    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -1025,16 +1045,6 @@
       "summary": "Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google Technology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms. As part of our efforts to continue to make cross-platfor"
     },
     {
-      "id": "94a3359fd1dd",
-      "title": "Is It Even Possible? On the Parallel Composition of Asynchronous MPC Protocols",
-      "link": "https://eprint.iacr.org/2025/1707",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2025-09-19T18:06:23+00:00",
-      "ts": 1758305183.0,
-      "summary": "Despite several known idiosyncrasies separating the synchronous and the asynchronous models, asynchronous secure multi-party computation (MPC) protocols demonstrate high-level similarities to synchronous MPC, both in design philosophy and abstract structure. As such, a coveted, albeit elusive, desideratum is to devise automatic translators (e.g., protocol compilers) of feasibility and efficiency r"
-    },
-    {
       "id": "60a6eaa9b24b",
       "title": "Kerberoasting",
       "link": "https://blog.cryptographyengineering.com/2025/09/10/kerberoasting/",
@@ -1053,16 +1063,6 @@
       "published": "2023-09-26T12:35:20+00:00",
       "ts": 1695731720.0,
       "summary": "We describe an adaptation of Schnorr's signature to the lattice setting, which relies on Gaussian convolution rather than flooding or rejection sampling as previous approaches. It does not involve any abort, can be proved secure in the ROM and QROM using existing analyses of the Fiat-Shamir transform, and enjoys smaller signature sizes (both asymptotically and for concrete security levels)."
-    },
-    {
-      "id": "d2dc0e6f1fa9",
-      "title": "Universally Composable Almost-Everywhere Secure Computation",
-      "link": "https://eprint.iacr.org/2021/1398",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2021-10-18T06:13:31+00:00",
-      "ts": 1634537611.0,
-      "summary": "Most existing work on secure multi-party computation (MPC) ignores a key idiosyncrasy of modern communication networks, that there are a limited number of communication paths between any two nodes, many of which might even be corrupted. The problem becomes particularly acute in the information-theoretic setting, where the lack of trusted setups (and the cryptographic primitives they enable) makes "
     }
   ]
 }
