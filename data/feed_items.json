@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:54:29.799018+00:00",
+  "generated_at": "2026-11-20T00:10:36.381730+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "c2030059b06e",
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-19T18:47:58+00:00",
+      "ts": 1795114078.0,
+      "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier"
+    },
     {
       "id": "04839881c574",
       "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
@@ -153,16 +163,6 @@
       "published": "2026-11-18T14:11:28+00:00",
       "ts": 1795011088.0,
       "summary": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said in a technical report shared with The Hacker News. \"A file hash changes with every recompile, a domain costs a few"
-    },
-    {
-      "id": "051fc297b8fe",
-      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-      "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-18T12:28:30+00:00",
-      "ts": 1795004910.0,
-      "summary": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD laptop and a 6-digit BitLocker PIN on an Intel laptop this way. Both PINs were set by the"
     },
     {
       "id": "e42e530e18d0",
@@ -625,16 +625,6 @@
       "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity."
     },
     {
-      "id": "1d7643f00498",
-      "title": "Distinguishers for the Squeezing of the Alternating Sponge and Duet",
-      "link": "https://eprint.iacr.org/2026/2430",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-09T16:08:16+00:00",
-      "ts": 1791562096.0,
-      "summary": "Recently, the Institute of Commercial Cryptography Standards (ICCS) launched the Next Generation Commercial Cryptographic Algorithm Program (NGCC), which includes a standardization process for cryptographic hash functions. In this note, we analyze the mode of operation of Duet, one of the hash-function candidates. Duet is a permutation-based hash function directly inspired by the Alternating Spong"
-    },
-    {
       "id": "b224d08c01cc",
       "title": "SequenceHash: multihashing for the rest of us",
       "link": "https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/",
@@ -653,6 +643,16 @@
       "published": "2026-09-30T18:30:13+00:00",
       "ts": 1790793013.0,
       "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
+    },
+    {
+      "id": "c235a932b8b6",
+      "title": "Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion",
+      "link": "https://eprint.iacr.org/2026/2218",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-25T20:48:36+00:00",
+      "ts": 1790369316.0,
+      "summary": "Multi-agent systems powered by large language models (LLMs) achieve strong performance through natural-language collaboration. The same communication channel can also enable collusion, such as exfiltrating confidential data or coordinating unauthorized actions. While auditors inspect transcripts to detect suspicious behavior, steganography could, in principle, evade such audits by concealing cover"
     },
     {
       "id": "f391bd68698a",
