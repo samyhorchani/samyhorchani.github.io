@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T00:10:36.381730+00:00",
+  "generated_at": "2026-11-20T07:58:41.724004+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "c914283e3986",
+      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+      "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-20T07:11:39+00:00",
+      "ts": 1795158699.0,
+      "summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint"
+    },
+    {
+      "id": "ff13530a84c2",
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-20T06:33:31+00:00",
+      "ts": 1795156411.0,
+      "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized"
+    },
+    {
+      "id": "5d81245fe6ab",
+      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-20T05:30:01+00:00",
+      "ts": 1795152601.0,
+      "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker"
+    },
     {
       "id": "c2030059b06e",
       "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
@@ -45,8 +75,8 @@
       "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific"
     },
     {
-      "id": "6557fe02ffa9",
-      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "id": "0ffeb8ff903a",
+      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
       "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
       "source": "The Hacker News",
       "category": "veille",
@@ -85,8 +115,8 @@
       "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said. \"The investigation is ongoing, but at this time we"
     },
     {
-      "id": "8ef101f6e1a3",
-      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "id": "f437baf2e173",
+      "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
       "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
       "source": "The Hacker News",
       "category": "veille",
@@ -133,36 +163,6 @@
       "published": "2026-11-18T18:31:17+00:00",
       "ts": 1795026677.0,
       "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today. F5, the company behind NGINX, says attackers can run code where"
-    },
-    {
-      "id": "9cb305b52b1b",
-      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-      "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-18T18:15:39+00:00",
-      "ts": 1795025739.0,
-      "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent. F5, which makes BIG-IP, disclosed the flaws today and says they"
-    },
-    {
-      "id": "5b168060ab6a",
-      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-      "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-18T17:10:45+00:00",
-      "ts": 1795021845.0,
-      "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution. \"Deserialization of Untrusted"
-    },
-    {
-      "id": "188ccdbe5a18",
-      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-      "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-18T14:11:28+00:00",
-      "ts": 1795011088.0,
-      "summary": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said in a technical report shared with The Hacker News. \"A file hash changes with every recompile, a domain costs a few"
     },
     {
       "id": "e42e530e18d0",
@@ -435,16 +435,6 @@
       "summary": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad topics. It&#8217;s important for researchers to understand which one they are working on. And it&#8217;s imp"
     },
     {
-      "id": "38f663b97984",
-      "title": "Revisiting the Security of OleF, t-OleF, and OlÆF",
-      "link": "https://eprint.iacr.org/2026/2823",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-08T14:46:37+00:00",
-      "ts": 1794149197.0,
-      "summary": "We revisit the security of OleF, t-OleF, and OlÆF and identify two independent security flaws. First, we establish a mask-compensation relation between continuation and termination processing in OleF and t-OleF. Exploiting this relation, we construct a two-encryption-query distinguisher against OleF with advantage $1 − 2^{−2n}$ . We further give two concrete AXU hash families for which the same at"
-    },
-    {
       "id": "e21f99cb492c",
       "title": "QUASI: Post-Quantum Quorum Attestation of Pre-Validated Statements",
       "link": "https://eprint.iacr.org/2026/2810",
@@ -473,6 +463,16 @@
       "published": "2026-11-05T04:36:17+00:00",
       "ts": 1793853377.0,
       "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016."
+    },
+    {
+      "id": "215da5170f4f",
+      "title": "Correlation Power Analysis of SHA-2-Based SLH-DSA",
+      "link": "https://eprint.iacr.org/2026/2753",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-04T00:46:59+00:00",
+      "ts": 1793753219.0,
+      "summary": "SLH-DSA repeatedly processes a fixed secret seed together with varying public addresses, making its physical implementation a target for side-channel analysis. We present non-profiled correlation power analysis (CPA) procedures for the address-based pseudorandom function in all six SHA-2-based SLH-DSA parameter sets, using SHA256 compression rounds and message-schedule expansion. The procedures in"
     },
     {
       "id": "8f3e9e61f655",
@@ -513,16 +513,6 @@
       "published": "2026-11-02T12:00:00+00:00",
       "ts": 1793620800.0,
       "summary": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149"
-    },
-    {
-      "id": "7c70c1b83f2a",
-      "title": "Faster complete formulas and their application to curves with efficient endomorphisms",
-      "link": "https://eprint.iacr.org/2026/2667",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-28T16:41:42+00:00",
-      "ts": 1793205702.0,
-      "summary": "We revisit scalar multiplication on prime curves $y^2 = x^3 + b$ with $p \\equiv 1 \\pmod 3$, a family that includes secp256k1, BN and BLS curves. Applying a 15-year-old technique in a new way, we improve the best complete addition from $12$ to $11$ multiplications ($10$ in mixed coordinates), the first improvement in 10 years: its final stage is a 3D cross product, which needs only five multiplicat"
     },
     {
       "id": "6b9aeb3ce19a",
@@ -685,6 +675,16 @@
       "summary": "Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it&rsquo;s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoni"
     },
     {
+      "id": "846706d95515",
+      "title": "Provable dual attack on LWE via lattice projection",
+      "link": "https://eprint.iacr.org/2026/2117",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-20T01:17:19+00:00",
+      "ts": 1789867039.0,
+      "summary": "The Learning with Errors (LWE) problem is a cornerstone of post-quantum cryptography, and the dual attack is a central tool for evaluating its concrete hardness. In provable dual attacks, a major bottleneck is the large number of discrete Gaussian samples required over the dual lattice. While recent works have focused on accelerating the guessing step via modulus switching, the sampling bottleneck"
+    },
+    {
       "id": "a91514e92c6f",
       "title": "Auditing in the age of (good enough) AI",
       "link": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
@@ -823,6 +823,16 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
+    },
+    {
+      "id": "2b7a38cd7f74",
+      "title": "Guess-and-Determine Rebound Revisited: Full Quantum Collision Attack on AES-256 in DM Hash Mode",
+      "link": "https://eprint.iacr.org/2026/1050",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-25T09:04:12+00:00",
+      "ts": 1779699852.0,
+      "summary": "At CRYPTO 2025, Qin et al. introduced the guess-and-determine (GD) rebound attack, which integrates the guess-and-determine approach by Bouillaguet, Derbez, and Fouque and the rebound attack by Mendel et al. Taking the GD rebound as a building block, this paper introduces several classical and quantum models to convert the semi-free-start (SFS) collision attack or free-start (FS) collision attack "
     },
     {
       "id": "10bbc55d4a52",
@@ -1043,16 +1053,6 @@
       "published": "2025-09-10T12:00:00+00:00",
       "ts": 1757505600.0,
       "summary": "I learn about cryptographic vulnerabilities all the time, and they generally fill me with some combination of jealousy (&#8220;oh, why didn&#8217;t I think of that&#8221;) or else they impress me with the brilliance of their inventors. But there&#8217;s also another class of vulnerabilities: these are the ones that can&#8217;t possibly exist in important production software, &#8230; Continue readi"
-    },
-    {
-      "id": "1d8452b49b7c",
-      "title": "G+G: A Fiat-Shamir Lattice Signature Based on Convolved Gaussians",
-      "link": "https://eprint.iacr.org/2023/1477",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2023-09-26T12:35:20+00:00",
-      "ts": 1695731720.0,
-      "summary": "We describe an adaptation of Schnorr's signature to the lattice setting, which relies on Gaussian convolution rather than flooding or rejection sampling as previous approaches. It does not involve any abort, can be proved secure in the ROM and QROM using existing analyses of the Fiat-Shamir transform, and enjoys smaller signature sizes (both asymptotically and for concrete security levels)."
     },
     {
       "id": "60307ba83f77",
