@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T16:48:55.742929+00:00",
+  "generated_at": "2026-11-20T22:55:11.266548+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,36 @@
     }
   ],
   "items": [
+    {
+      "id": "ce5b85c46a76",
+      "title": "Friday Squid Blogging: The Largest Squid Ever Filmed",
+      "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
+      "source": "Schneier on Security",
+      "category": "veille",
+      "published": "2026-11-20T22:04:12+00:00",
+      "ts": 1795212252.0,
+      "summary": "This is the story of the largest squid ever filmed, in December 2006 near Japan&#8217;s Ogasawara Islands. As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered. Blog moderation policy."
+    },
+    {
+      "id": "dd92328b4f13",
+      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+      "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-20T17:57:20+00:00",
+      "ts": 1795197440.0,
+      "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could"
+    },
+    {
+      "id": "5080918c3689",
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+      "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-20T16:58:16+00:00",
+      "ts": 1795193896.0,
+      "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,"
+    },
     {
       "id": "f6ac7cdc5f44",
       "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
@@ -153,26 +183,6 @@
       "published": "2026-11-19T11:52:23+00:00",
       "ts": 1795089143.0,
       "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong."
-    },
-    {
-      "id": "90d5cc4f95bf",
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-19T09:31:26+00:00",
-      "ts": 1795080686.0,
-      "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said. \"The investigation is ongoing, but at this time we"
-    },
-    {
-      "id": "f437baf2e173",
-      "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
-      "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-19T08:42:11+00:00",
-      "ts": 1795077731.0,
-      "summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said. The project released fixed versions"
     },
     {
       "id": "40349ddd86a1",
@@ -345,16 +355,6 @@
       "summary": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why &#8220;just don&#8217;t click on links&#8221; is bad advice. It can&#8217;t work when answering strangers&#8217; emails is the job. Even worse, in this case the guest-firs"
     },
     {
-      "id": "e399497139ed",
-      "title": "Aker: Efficient Two-Party SLH-DSA",
-      "link": "https://eprint.iacr.org/2026/2899",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-15T12:41:38+00:00",
-      "ts": 1794746498.0,
-      "summary": "Threshold signing is widely deployed to protect cryptographic keys, but extending these deployments to post-quantum signatures remains challenging. While NIST's lattice-based signatures now have efficient threshold protocols, distributed signing for SLH-DSA (FIPS 205), NIST's stateless hash-based signature standard, has been considered prohibitively expensive because it lacks the algebraic structu"
-    },
-    {
       "id": "a5d691d96e87",
       "title": "Upcoming Speaking Engagements",
       "link": "https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
@@ -425,14 +425,14 @@
       "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla."
     },
     {
-      "id": "777a4acc90ab",
-      "title": "New OpenSSH Vulnerability",
-      "link": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
-      "source": "Schneier on Security",
-      "category": "veille",
-      "published": "2026-11-10T12:02:38+00:00",
-      "ts": 1794312158.0,
-      "summary": "It&#8217;s a bad one, and it&#8217;s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed &#8220;*sshole,&#8221; allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password. &#8220;Oversized&#8221; means longer than 256 bytes. Details. Slashdot thread."
+      "id": "0e46bd5d6e3a",
+      "title": "SoK: Understanding Virtual Machines over Fully Homomorphic Encryption",
+      "link": "https://eprint.iacr.org/2026/2816",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-07T10:40:12+00:00",
+      "ts": 1794048012.0,
+      "summary": "We survey the current literature on fully homomorphic encryption (FHE) from a virtual machine (VM) perspective. We observe that programs behave in an intrinsically different way over FHE than on plaintext, forming a new paradigm of computation that is fundamentally constrained by the obliviousness of data. To better understand the computational properties, we compile more than 125 works to formula"
     },
     {
       "id": "2ac775494fe0",
@@ -483,6 +483,16 @@
       "published": "2026-11-03T12:00:00+00:00",
       "ts": 1793707200.0,
       "summary": "As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and document signing have moved away from paper-based legacy systems and become fully electronic. The shor"
+    },
+    {
+      "id": "ab26c39cf660",
+      "title": "Tight Depth Lower Bounds for Stretch Amplification",
+      "link": "https://eprint.iacr.org/2026/2728",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-03T04:25:38+00:00",
+      "ts": 1793679938.0,
+      "summary": "We investigate the depth overhead of stretch-amplification for pseudorandom generators in the black-box model. We show that any black box construction of a PRG $H: \\{0,1\\}^m \\to \\{0,1\\}^M$ which makes $\\mathrm{poly}(n)$ queries to a PRG $G: \\{0,1\\}^n \\to \\{0,1\\}^N$ in $d$ adaptive phases during each evaluation (and with a black-box reduction to the security of $G$) must satisfy: $M \\leq (m + O(\\lo"
     },
     {
       "id": "b9ea4ff784bc",
@@ -695,16 +705,6 @@
       "summary": "Security firms have published numerous blog posts describing how they pointed their agent harness at a codebase and found dozens of bugs (we’re one of them). However, these posts tend to focus on agentic code review, which is just one aspect of how we use AI in our security reviews. We want to give a different perspective: before code review even starts, agents now allow us to build custom tooling"
     },
     {
-      "id": "796ee7278a0a",
-      "title": "Sunshine Systems: Enabling Privacy-Preserving Compliance with Freedom of Information Laws",
-      "link": "https://eprint.iacr.org/2026/2072",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-17T16:36:27+00:00",
-      "ts": 1789662987.0,
-      "summary": "Freedom of information laws (informally known as Sunshine Laws), such as the US Federal Freedom of Information Act, provide legal pathways for members of the public to compel governments to produce internal documentation. These laws have become a powerful tool for government accountability, allowing journalists and activists to uncover malfeasance and advocate for change. However, because complian"
-    },
-    {
       "id": "21764e43a17b",
       "title": "1Password's AI patching benchmark is misleading",
       "link": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
@@ -775,14 +775,14 @@
       "summary": "Every Signal chat starts the same way: the client asks the Signal server for the public key associated with your contact’s phone number. But how do you know the server gave you the right key? A compromised server could provide a false public key, allowing the client to encrypt messages to an attacker rather than the intended recipient. Until now, the only way to detect such malfeasance was to veri"
     },
     {
-      "id": "4b72ac139d8a",
-      "title": "Ideal Pseudorandom Code, Revisited",
-      "link": "https://eprint.iacr.org/2026/1657",
+      "id": "fd245f53eb80",
+      "title": "Limber: Low Overhead SNARKs for Integers from Any PCS",
+      "link": "https://eprint.iacr.org/2026/1635",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2026-08-11T12:03:06+00:00",
-      "ts": 1786449786.0,
-      "summary": "Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composabl"
+      "published": "2026-08-07T22:11:14+00:00",
+      "ts": 1786140674.0,
+      "summary": "In real-world applications of SNARKs, non-native arithmetic, the emulation of computation outside of the specified SNARK field, is a key bottleneck. It introduces large overheads, and proof system designers often resort to non-standard SNARK-friendly hash functions or other means like elliptic curve cycles to mitigate its costs. Besides performance concerns, non-native circuit arithmetization is a"
     },
     {
       "id": "5ce90ec573e9",
@@ -1055,14 +1055,14 @@
       "summary": "Searchable symmetric encryption (SSE) enables query execution directly over sym- metrically encrypted databases. To support realistic query executions over encrypted document collections, one needs SSE schemes capable of supporting both conjunctive and disjunctive keyword queries. Unfortunately, existing solutions are either practi- cally inefficient (incur large storage overheads and/or high quer"
     },
     {
-      "id": "60307ba83f77",
-      "title": "Phoenix: Hash-and-Sign with Aborts from Lattice Gadgets",
-      "link": "https://eprint.iacr.org/2023/446",
+      "id": "cb429fb417a7",
+      "title": "Scalable Multi-Server Private Information Retrieval using Homomorphic Encryption for Cloud Environments",
+      "link": "https://eprint.iacr.org/2025/1131",
       "source": "IACR ePrint Archive",
       "category": "recherche",
-      "published": "2023-03-27T11:25:27+00:00",
-      "ts": 1679916327.0,
-      "summary": "Preimage sampling is a fundamental tool in lattice-based cryptography, and its performance directly impacts that of the cryptographic mechanisms relying on it. In 2012, Micciancio and Peikert proposed a new way of generating trapdoors (and an associated preimage sampling procedure) with very interesting features. Unfortunately, in some applications such as digital signatures, the performance may n"
+      "published": "2025-06-16T08:40:17+00:00",
+      "ts": 1750063217.0,
+      "summary": "Private Information Retrieval (PIR) based on Fully Homomorphic Encryption (FHE) enables secure query processing over encrypted data without revealing user intent. However, existing FHE based PIR solutions suffer from significant computational overhead and often shift storage and post-processing burdens to the client, limiting their applicability in large scale cloud environments. In this paper, we"
     }
   ]
 }
