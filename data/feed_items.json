@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T22:55:11.266548+00:00",
+  "generated_at": "2026-11-21T03:42:19.480443+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,16 @@
     }
   ],
   "items": [
+    {
+      "id": "4356ad4bb7f9",
+      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "source": "Krebs on Security",
+      "category": "veille",
+      "published": "2026-11-21T00:36:39+00:00",
+      "ts": 1795221399.0,
+      "summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key and charging victims a markup for work that was never performed."
+    },
     {
       "id": "ce5b85c46a76",
       "title": "Friday Squid Blogging: The Largest Squid Ever Filmed",
@@ -515,16 +525,6 @@
       "summary": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu Long Term Support, Fedora, and the Linux kernel. By October 29, our project helped deliver fixes for 149"
     },
     {
-      "id": "6b9aeb3ce19a",
-      "title": "Shor's algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days",
-      "link": "https://eprint.iacr.org/2026/2665",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-10-28T13:08:44+00:00",
-      "ts": 1793192924.0,
-      "summary": "We present an end-to-end resource estimation of Shor's algorithm on superconducting cat qubits, from its mathematical description to the allocation and scheduling of physical qubits on a chip layout. After proposing a comprehensive view of the modern versions of Shor's algorithm for RSA, ECDLP and FFDLP, we make explicit their logical circuits and the trade-offs they enable. We compile the dominan"
-    },
-    {
       "id": "eec90e9acc6b",
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -605,16 +605,6 @@
       "summary": "This is not so much a full post as it is an advertisement. I&#8217;ve been working with Claude and GPT 6 Astra to conduct a survey of historical cryptanalysis results, in an effort to determine how many human-hours have been spent attempting to cryptanalyze the problems we use in public-key encryption schemes. This is work &#8230; Continue reading New website: estimating human cryptanalytic&#160;w"
     },
     {
-      "id": "878d602d6c0b",
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "source": "Krebs on Security",
-      "category": "veille",
-      "published": "2026-10-10T00:17:42+00:00",
-      "ts": 1791591462.0,
-      "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity."
-    },
-    {
       "id": "b224d08c01cc",
       "title": "SequenceHash: multihashing for the rest of us",
       "link": "https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/",
@@ -653,16 +643,6 @@
       "published": "2026-09-25T11:00:00+00:00",
       "ts": 1790334000.0,
       "summary": "Threshold signature schemes, a form of multi-party computation (MPC) that lets a set of parties sign together without any one of them holding the key, are increasingly deployed inside trusted execution environments (TEEs). The combination is intended to amplify security for sensitive computations: MPC distributes trust across multiple independent parties, while TEEs root trust in the hardware manu"
-    },
-    {
-      "id": "6b07cbf89821",
-      "title": "Rethinking Zero-Knowledge TLS: Proof of Protocol Execution and the Reclaim Protocol",
-      "link": "https://eprint.iacr.org/2026/2187",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-23T16:09:44+00:00",
-      "ts": 1790179784.0,
-      "summary": "In a zkTLS protocol, a user proves to a third party a property of data obtained from an online service over TLS, revealing nothing beyond the statement proven. Each existing scheme, however, comes with its own security model, written for that scheme alone, so the schemes are not proven secure against a common definition. The root cause is a mismatch of levels: existing models are stated at the lev"
     },
     {
       "id": "71c4a4caf94f",
@@ -713,6 +693,16 @@
       "published": "2026-09-15T11:00:00+00:00",
       "ts": 1789470000.0,
       "summary": "1Password’s FLAWED report, published on August 6, 2026, gives defenders a misleading picture of AI patching. Its headline says models produced clean fixes only 26% of the time. That figure includes experiments that deliberately instructed agents to apply the wrong fix, along with experiments in which agents could not compile or test their patches. The report risks making defenders less effective b"
+    },
+    {
+      "id": "e9e8a8ebaafd",
+      "title": "Impossible Polytopic Cryptanalysis: A Framework for Block Ciphers with Oversized Keys",
+      "link": "https://eprint.iacr.org/2026/1963",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-09-10T08:37:03+00:00",
+      "ts": 1789029423.0,
+      "summary": "Block ciphers whose key size exceeds their block size, such as the 192- and 256-bit variants of \\textsf{AES}, the tweakable block ciphers \\textsf{Deoxys-BC-256} and \\textsf{Deoxys-BC-384} (standardized by ISO/IEC as \\textsf{Deoxys-TBC}), and \\textsf{ChiLow-32} (EUROCRYPT 2025), achieve a security level beyond the block size and are now common. This paper develops a framework for impossible polytop"
     },
     {
       "id": "0c016fa822b6",
@@ -835,6 +825,16 @@
       "summary": "At CRYPTO 2025, Qin et al. introduced the guess-and-determine (GD) rebound attack, which integrates the guess-and-determine approach by Bouillaguet, Derbez, and Fouque and the rebound attack by Mendel et al. Taking the GD rebound as a building block, this paper introduces several classical and quantum models to convert the semi-free-start (SFS) collision attack or free-start (FS) collision attack "
     },
     {
+      "id": "08de543bb422",
+      "title": "Optimized G+G Signature",
+      "link": "https://eprint.iacr.org/2026/943",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-05-13T03:04:51+00:00",
+      "ts": 1778641491.0,
+      "summary": "At ASIACRYPT 2023, Devevey, Passelègue, and Stehlé introduced the G+G signature, a Fiat–Shamir lattice signature based on Gaussian convolution that avoids rejection sampling during signing. Although G+G achieves competitive signature sizes, its spherical Gaussian response distribution leaves room for further optimization. In this work, we propose an optimized G+G signature by incorporating asymmet"
+    },
+    {
       "id": "e867d3e3dacb",
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
@@ -893,16 +893,6 @@
       "published": "2026-03-31T16:55:00+00:00",
       "ts": 1774976100.0,
       "summary": "Posted by Dirk Göhmann, Tony Mendez, and the Vulnerability Rewards Program Team2025 marked a special year in the history of vulnerability rewards and bug bounty programs at Google: our 15th anniversary 🎉🎉🎉! Originally started in 2010, our vulnerability reward program (VRP) has seen constant additions and expansions over the past decade and a half, clearly indicating the value the programs under th"
-    },
-    {
-      "id": "1ec06a9504b4",
-      "title": "On the Security of MPC-in-the-Head Signatures with Correlated GGM Trees",
-      "link": "https://eprint.iacr.org/2026/615",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-03-28T14:36:13+00:00",
-      "ts": 1774708573.0,
-      "summary": "Recent MPC-in-the-Head techniques enable the construction of signature schemes with compact signature sizes from various hardness assumptions. These techniques rely on commitments based on GGM trees, which have been optimized to further reduce the signature size with the so-called one-tree or correlated tree optimizations. While the one-tree technique has no incidence on the security of the scheme"
     },
     {
       "id": "4038926880d9",
@@ -1063,6 +1053,16 @@
       "published": "2025-06-16T08:40:17+00:00",
       "ts": 1750063217.0,
       "summary": "Private Information Retrieval (PIR) based on Fully Homomorphic Encryption (FHE) enables secure query processing over encrypted data without revealing user intent. However, existing FHE based PIR solutions suffer from significant computational overhead and often shift storage and post-processing burdens to the client, limiting their applicability in large scale cloud environments. In this paper, we"
+    },
+    {
+      "id": "65c15749dc23",
+      "title": "Homomorphic NIZKs and Maliciously-Secure MPC with Optimal Communication Complexity from Standard Assumptions",
+      "link": "https://eprint.iacr.org/2024/1806",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2024-11-05T00:51:31+00:00",
+      "ts": 1730767891.0,
+      "summary": "We construct fully-homomorphic NIZKs and a communication-complexity-preserving semi-malicious to malicious multiparty computation (MPC) compiler from a broader range of cryptographic assumptions, including $\\mathsf{LWE}$, $O(1)$-$\\mathsf{LIN}$, and $\\mathsf{DDH}$ (without circular security assumptions). Prior to this work, homomorphic NIZKs were only known based on pairing-based techniques while p"
     }
   ]
 }
