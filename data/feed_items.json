@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T03:42:19.480443+00:00",
+  "generated_at": "2026-11-21T11:59:14.724111+00:00",
   "count": 105,
   "errors": [
     {
@@ -14,6 +14,46 @@
     }
   ],
   "items": [
+    {
+      "id": "2c7673b43949",
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-21T11:05:53+00:00",
+      "ts": 1795259153.0,
+      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,"
+    },
+    {
+      "id": "c6a540edb8fe",
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-21T11:03:17+00:00",
+      "ts": 1795258997.0,
+      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,"
+    },
+    {
+      "id": "998fab9b0d7b",
+      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-21T08:49:20+00:00",
+      "ts": 1795250960.0,
+      "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal"
+    },
+    {
+      "id": "0653096e5d74",
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "source": "The Hacker News",
+      "category": "veille",
+      "published": "2026-11-21T08:49:13+00:00",
+      "ts": 1795250953.0,
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in"
+    },
     {
       "id": "4356ad4bb7f9",
       "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
@@ -42,7 +82,7 @@
       "category": "veille",
       "published": "2026-11-20T17:57:20+00:00",
       "ts": 1795197440.0,
-      "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could"
+      "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4."
     },
     {
       "id": "5080918c3689",
@@ -153,46 +193,6 @@
       "published": "2026-11-19T16:59:56+00:00",
       "ts": 1795107596.0,
       "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP releases fix the flaw, called phpAfterShell. The flaw is tracked as CVE-2026-126714 and rated"
-    },
-    {
-      "id": "a7b0f12a0f14",
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-      "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-19T15:18:07+00:00",
-      "ts": 1795101487.0,
-      "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific"
-    },
-    {
-      "id": "0ffeb8ff903a",
-      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-      "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-19T15:11:06+00:00",
-      "ts": 1795101066.0,
-      "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The"
-    },
-    {
-      "id": "cb8fd631fdc0",
-      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-      "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-19T14:33:06+00:00",
-      "ts": 1795098786.0,
-      "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed"
-    },
-    {
-      "id": "1704bcbfb6d1",
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "source": "The Hacker News",
-      "category": "veille",
-      "published": "2026-11-19T11:52:23+00:00",
-      "ts": 1795089143.0,
-      "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong."
     },
     {
       "id": "40349ddd86a1",
@@ -435,6 +435,16 @@
       "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla."
     },
     {
+      "id": "85955b7c8e4e",
+      "title": "Bounding the security of the Bromberg-Shpilrain-Vdovina hash function",
+      "link": "https://eprint.iacr.org/2026/2851",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-11-10T01:52:41+00:00",
+      "ts": 1794275561.0,
+      "summary": "The Bromberg-Shpilrain-Vdovina hash functions are a family of Cayley hash functions indexed by an integer parameter $k\\ge 2$. Hashes are matrices in $SL_2(p)$ where $p$ is a large prime. We present an attack which finds collisions of length $O(\\log p)$ whose average-case time complexity is $O(p^{0.28})$ when $k=2$ and $O(p^{0.36})$ when $k=3$ under an assumption in the spirit of Zaremba's Conjectu"
+    },
+    {
       "id": "0e46bd5d6e3a",
       "title": "SoK: Understanding Virtual Machines over Fully Homomorphic Encryption",
       "link": "https://eprint.iacr.org/2026/2816",
@@ -463,16 +473,6 @@
       "published": "2026-11-05T04:36:17+00:00",
       "ts": 1793853377.0,
       "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016."
-    },
-    {
-      "id": "215da5170f4f",
-      "title": "Correlation Power Analysis of SHA-2-Based SLH-DSA",
-      "link": "https://eprint.iacr.org/2026/2753",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-11-04T00:46:59+00:00",
-      "ts": 1793753219.0,
-      "summary": "SLH-DSA repeatedly processes a fixed secret seed together with varying public addresses, making its physical implementation a target for side-channel analysis. We present non-profiled correlation power analysis (CPA) procedures for the address-based pseudorandom function in all six SHA-2-based SLH-DSA parameter sets, using SHA256 compression rounds and message-schedule expansion. The procedures in"
     },
     {
       "id": "8f3e9e61f655",
@@ -623,16 +623,6 @@
       "published": "2026-09-30T18:30:13+00:00",
       "ts": 1790793013.0,
       "summary": "Quick caveats: this is a post on AI safety, written by a cryptography professor. If that troubles you, you should read something else. I try hard not to work on AI (except when the topic occasionally tosses itself in my path), so in this post I&#8217;m mostly trying to referee arguments made by others. If &#8230; Continue reading Is sandboxing sufficient to contain rogue&#160;agents? &#8594;"
-    },
-    {
-      "id": "c235a932b8b6",
-      "title": "Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion",
-      "link": "https://eprint.iacr.org/2026/2218",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-09-25T20:48:36+00:00",
-      "ts": 1790369316.0,
-      "summary": "Multi-agent systems powered by large language models (LLMs) achieve strong performance through natural-language collaboration. The same communication channel can also enable collusion, such as exfiltrating confidential data or coordinating unauthorized actions. While auditors inspect transcripts to detect suspicious behavior, steganography could, in principle, evade such audits by concealing cover"
     },
     {
       "id": "f391bd68698a",
@@ -795,6 +785,16 @@
       "summary": "Yesterday Anthropic published two new cryptanalysis results, both outputs of Claude Mythos, their (still) unreleased advanced model. The first of these results attacks a signature scheme called HAWK, while the second is an improved attack against reduced-round AES. Anthropic also released a blog post describing the research process that produced these results. A few people &#8230; Continue reading"
     },
     {
+      "id": "c4c8cc319c3f",
+      "title": "Rich Input Representations in Neural Differential Cryptanalysis: A Taxonomy and Survey",
+      "link": "https://eprint.iacr.org/2026/1530",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2026-07-26T11:30:26+00:00",
+      "ts": 1785065426.0,
+      "summary": "Neural differential distinguishers have become an active research direction in​ symmetric-key cryptanalysis since the introduction of deep-learning-based attacks on​ round-reduced SPECK. Early neural distinguishers typically used a single ciphertext pair​ or ciphertext difference as input. Recent studies, however, show that richer input​ representations can substantially affect the information ava"
+    },
+    {
       "id": "09b719e50e41",
       "title": "The future of Siri, or: why private inference isn’t private enough",
       "link": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
@@ -813,16 +813,6 @@
       "published": "2026-05-29T03:52:19+00:00",
       "ts": 1780026739.0,
       "summary": "Update August 11, 2026: A group of researchers from all over Europe were inspired by this post, and actually turned it into a real working attack! Check out their writeup and paper here. This is a quick post I wanted to write about a hobby project I spent a weekend on. It has little to &#8230; Continue reading Let&#8217;s talk about encrypted&#160;reasoning &#8594;"
-    },
-    {
-      "id": "2b7a38cd7f74",
-      "title": "Guess-and-Determine Rebound Revisited: Full Quantum Collision Attack on AES-256 in DM Hash Mode",
-      "link": "https://eprint.iacr.org/2026/1050",
-      "source": "IACR ePrint Archive",
-      "category": "recherche",
-      "published": "2026-05-25T09:04:12+00:00",
-      "ts": 1779699852.0,
-      "summary": "At CRYPTO 2025, Qin et al. introduced the guess-and-determine (GD) rebound attack, which integrates the guess-and-determine approach by Bouillaguet, Derbez, and Fouque and the rebound attack by Mendel et al. Taking the GD rebound as a building block, this paper introduces several classical and quantum models to convert the semi-free-start (SFS) collision attack or free-start (FS) collision attack "
     },
     {
       "id": "08de543bb422",
@@ -1023,6 +1013,16 @@
       "published": "2025-10-13T15:37:40+00:00",
       "ts": 1760369860.0,
       "summary": "Differential meet-in-the-middle attacks, introduced by Boura et al. in 2023, propose a new way of dealing with differential distinguishers. It allows, in particular, to combine differential attacks with initial structures, that were usually used exclusively for meet-in-the-middle attacks. Several applications of this new technique have been published, but so far the results on Feistel construction"
+    },
+    {
+      "id": "16c7ca6bd04c",
+      "title": "Symphony: Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding",
+      "link": "https://eprint.iacr.org/2025/1905",
+      "source": "IACR ePrint Archive",
+      "category": "recherche",
+      "published": "2025-10-12T22:11:24+00:00",
+      "ts": 1760307084.0,
+      "summary": "Folding/Accumulation schemes are a powerful tool for building scalable proof systems. However, standard approaches for leveraging folding schemes, such as IVCs or PCDs, require embedding hash functions (modeled as random oracles) into recursive circuits, introducing both security concerns and significant proving overhead. We re-envision how to use folding schemes, and introduce Symphony, the first"
     },
     {
       "id": "60a6eaa9b24b",
